@@ -6,6 +6,36 @@ const NewsletterForm = () => {
       <div className="subscribe-area pb-100">
         <div className="container">
           <div className="subscribe-inner">
+            {/* <span className="sub-title">READY TO GET STARTED</span> */}
+            <div className='call-Card'>
+              <h2>Have Question ? Schedule a Call.</h2>
+              <img src="" alt="" />
+              <button type="submit">
+                Schedule a Consultation
+              </button>
+            </div>
+
+            {/* <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+              enim ad minim veniam.
+            </p> */}
+            <form className="newsletter-form">
+              {/* <input
+                type="email"
+                className="input-newsletter"
+                placeholder="Enter your email address"
+                name="EMAIL"
+                required
+              /> */}
+
+            </form>
+          </div>
+        </div>
+      </div>
+      {/* <div className="subscribe-area pb-100">
+        <div className="container">
+          <div className="subscribe-inner">
             <span className="sub-title">READY TO GET STARTED</span>
             <h2>Subscribe To Our Newsletter</h2>
             <p>
@@ -27,7 +57,7 @@ const NewsletterForm = () => {
             </form>
           </div>
         </div>
-      </div>
+      </div> */}
     </>
   )
 }

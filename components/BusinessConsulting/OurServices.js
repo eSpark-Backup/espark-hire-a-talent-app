@@ -4,17 +4,17 @@ import { Pagination } from 'swiper'
 import { Autoplay } from 'swiper'
 import Link from 'next/link'
 
-const OurServices = () => {
+const OurServices = (props) => {
+  const { title, para, data} = props
   return (
     <>
       <div className="services-area ptb-100">
         <div className="container">
           <div className="section-title">
-            <span className="sub-title">OUR SERVICES</span>
-            <h2>We Offer Professional Services For Business</h2>
+            {/* <span className="sub-title">OUR SERVICES</span> */}
+            <h2>{title}</h2>
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              {para}
             </p>
           </div>
 
@@ -41,137 +41,28 @@ const OurServices = () => {
             modules={[Pagination, Autoplay]}
             className="mySwiper services-slides-two"
           >
-            <SwiperSlide>
-              <div className="single-services-item with-boxshadow">
-                <div className="d-flex align-items-center">
-                  <img src="/images/icon/icon8.png" alt="image" />
-                  <h3>
-                    <Link href="/service-details">
-                      <a>Branding</a>
-                    </Link>
-                  </h3>
+            {data?.map((slide) => (
+              <SwiperSlide>
+                <div className="single-services-item with-boxshadow">
+                  <div className="d-flex align-items-center">
+                    <img src={slide.imagePath} alt="image" />
+                    <h3>
+                      <Link href={slide.link}>
+                        <a>{slide.title}</a>
+                      </Link>
+                    </h3>
+                  </div>
+                  <p>
+                    {slide.para}
+                  </p>
+                  <Link href={slide.link}>
+                    <a className="default-btn">
+                      <span className="ri-arrow-right-s-line"></span>{slide.buttonText}
+                    </a>
+                  </Link>
                 </div>
-                <p>
-                  Lorem ipsum dolor sit amet, consectetur adiscing elit, sed do
-                  eiusmod tempor ut labore et dolore magna aliqua.
-                </p>
-                <Link href="/service-details">
-                  <a className="default-btn">
-                    <span className="ri-arrow-right-s-line"></span>Learn More
-                  </a>
-                </Link>
-              </div>
-            </SwiperSlide>
-
-            <SwiperSlide>
-              <div className="single-services-item with-boxshadow">
-                <div className="d-flex align-items-center">
-                  <img src="/images/icon/icon9.png" alt="image" />
-                  <h3>
-                    <Link href="/service-details">
-                      <a>Design</a>
-                    </Link>
-                  </h3>
-                </div>
-                <p>
-                  Lorem ipsum dolor sit amet, consectetur adiscing elit, sed do
-                  eiusmod tempor ut labore et dolore magna aliqua.
-                </p>
-                <Link href="/service-details">
-                  <a className="default-btn">
-                    <span className="ri-arrow-right-s-line"></span>Learn More
-                  </a>
-                </Link>
-              </div>
-            </SwiperSlide>
-
-            <SwiperSlide>
-              <div className="single-services-item with-boxshadow">
-                <div className="d-flex align-items-center">
-                  <img src="/images/icon/icon10.png" alt="image" />
-                  <h3>
-                    <Link href="/service-details">
-                      <a>Content</a>
-                    </Link>
-                  </h3>
-                </div>
-                <p>
-                  Lorem ipsum dolor sit amet, consectetur adiscing elit, sed do
-                  eiusmod tempor ut labore et dolore magna aliqua.
-                </p>
-                <Link href="/service-details">
-                  <a className="default-btn">
-                    <span className="ri-arrow-right-s-line"></span>Learn More
-                  </a>
-                </Link>
-              </div>
-            </SwiperSlide>
-
-            <SwiperSlide>
-              <div className="single-services-item with-boxshadow">
-                <div className="d-flex align-items-center">
-                  <img src="/images/icon/icon11.png" alt="image" />
-                  <h3>
-                    <Link href="/service-details">
-                      <a>Strategy</a>
-                    </Link>
-                  </h3>
-                </div>
-                <p>
-                  Lorem ipsum dolor sit amet, consectetur adiscing elit, sed do
-                  eiusmod tempor ut labore et dolore magna aliqua.
-                </p>
-                <Link href="/service-details">
-                  <a className="default-btn">
-                    <span className="ri-arrow-right-s-line"></span>Learn More
-                  </a>
-                </Link>
-              </div>
-            </SwiperSlide>
-
-            <SwiperSlide>
-              <div className="single-services-item with-boxshadow">
-                <div className="d-flex align-items-center">
-                  <img src="/images/icon/icon12.png" alt="image" />
-                  <h3>
-                    <Link href="/service-details">
-                      <a>Marketing</a>
-                    </Link>
-                  </h3>
-                </div>
-                <p>
-                  Lorem ipsum dolor sit amet, consectetur adiscing elit, sed do
-                  eiusmod tempor ut labore et dolore magna aliqua.
-                </p>
-                <Link href="/service-details">
-                  <a className="default-btn">
-                    <span className="ri-arrow-right-s-line"></span>Learn More
-                  </a>
-                </Link>
-              </div>
-            </SwiperSlide>
-
-            <SwiperSlide>
-              <div className="single-services-item with-boxshadow">
-                <div className="d-flex align-items-center">
-                  <img src="/images/icon/icon13.png" alt="image" />
-                  <h3>
-                    <Link href="/service-details">
-                      <a>Technology</a>
-                    </Link>
-                  </h3>
-                </div>
-                <p>
-                  Lorem ipsum dolor sit amet, consectetur adiscing elit, sed do
-                  eiusmod tempor ut labore et dolore magna aliqua.
-                </p>
-                <Link href="/service-details">
-                  <a className="default-btn">
-                    <span className="ri-arrow-right-s-line"></span>Learn More
-                  </a>
-                </Link>
-              </div>
-            </SwiperSlide>
+              </SwiperSlide>
+            ))}
           </Swiper>
         </div>
       </div>
