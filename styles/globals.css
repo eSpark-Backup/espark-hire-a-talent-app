@@ -46,6 +46,7 @@ Default CSS
   --blackColor: #09114A;
   --fontSize: 16px;
   --transition: .5s;
+  --buttonColor:#029894;
 }
 
 body {
@@ -210,6 +211,7 @@ textarea.form-control {
   font-family: var(--fontFamily2);
   font-size: var(--fontSize);
   font-weight: 500;
+  margin: 5px 5px;
 }
 
 .default-btn span {
@@ -801,14 +803,14 @@ Header Area CSS
 }
 
 .navbar-area .navbar .others-option .default-btn {
-  color: #DC84FC;
-  background-color: rgba(220, 132, 252, 0.15);
+  color:var(--whiteColor);
+  background-color:var(--mainColor);
   font-weight: normal;
   border: 1px solid rgba(220, 132, 252, 0.4) !important;
-  padding-top: 11px;
-  padding-left: 55px;
-  padding-right: 35px;
-  padding-bottom: 11px;
+  /* padding-top: 11px; */
+  padding-left: 50px;
+  /* padding-right: 35px; */
+  /* padding-bottom: 11px; */
 }
 
 .navbar-area .navbar .others-option .default-btn span {
@@ -820,8 +822,8 @@ Header Area CSS
 }
 
 .navbar-area .navbar .others-option .default-btn:hover {
-  background-color: #DC84FC;
-  border-color: #DC84FC;
+  background-color:var(--blackColor);
+  border-color:var(--blackColor);
   color: var(--whiteColor);
   opacity: 1;
 }
@@ -4452,6 +4454,7 @@ Services Area CSS
 
 .single-services-item p {
   margin-top: 18px;
+  min-height:220px;
 }
 
 .single-services-item .features-list {
@@ -4915,7 +4918,17 @@ Subscribe Area CSS
   background-repeat: no-repeat;
   background-size: cover;
 }
-
+.call-Card{
+  background-color: var(--whiteColor);
+  color: var(--blackColor);
+}
+.call-Card button{
+  padding: 10px 10px;
+  background-color: var(--whiteColor);
+  font-size: 1.1rem;
+  border: 1px solid lightgray;
+  
+}
 .subscribe-inner .sub-title {
   background-color: rgba(255, 255, 255, 0.1);
   -webkit-transition: var(--transition);
@@ -4937,7 +4950,8 @@ Subscribe Area CSS
 
 .subscribe-inner h2 {
   margin-bottom: 10px;
-  color: var(--whiteColor);
+  color: rgb(191, 191, 191);
+  /* color: var(--whiteColor); */
   font-size: 40px;
   font-weight: 400;
   font-family: var(--fontFamily2);
