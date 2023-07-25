@@ -53,7 +53,7 @@ const NavbarStyle2 = () => {
 
               <div className={classOne} id="navbarSupportedContent">
                 <ul className="navbar-nav m-auto">
-                  <li className="nav-item">
+                  {/* <li className="nav-item">
                     <Link href="#">
                       <a className="dropdown-toggle nav-link">
                         Home
@@ -148,17 +148,17 @@ const NavbarStyle2 = () => {
                         </Link>
                       </li>
                     </ul>
-                  </li>
+                  </li> */}
 
                   <li className="nav-item">
-                    <Link href="/team" activeClassName="active">
-                      <a className="nav-link">Team</a>
+                    <Link href="/about-us" activeClassName="active">
+                      <a className="nav-link">What we do</a>
                     </Link>
                   </li>
 
                   <li className="nav-item">
-                    <Link href="/pricing" activeClassName="active">
-                      <a className="nav-link">Pricing</a>
+                    <Link href="/" activeClassName="active">
+                      <a className="nav-link">How it works</a>
                     </Link>
                   </li>
 
@@ -169,8 +169,8 @@ const NavbarStyle2 = () => {
                   </li>
 
                   <li className="nav-item">
-                    <Link href="/contact" activeClassName="active">
-                      <a className="nav-link">Contact</a>
+                    <Link href="/" activeClassName="active">
+                      <a className="nav-link">Career</a>
                     </Link>
                   </li>
                 </ul>
@@ -179,7 +179,14 @@ const NavbarStyle2 = () => {
               <div className="others-option">
                 <Link href="/contact">
                   <a className="default-btn style-two">
-                    <span className="ri-edit-2-line"></span>Get A Free Quote
+                    {/* <span className="ri-edit-2-line"></span> */}
+                    Apply as a Developer
+                  </a>
+                </Link>
+                <Link href="/contact">
+                  <a className="default-btn style-two">
+                    {/* <span className="ri-edit-2-line"></span> */}
+                    Hire a Talent
                   </a>
                 </Link>
               </div>
