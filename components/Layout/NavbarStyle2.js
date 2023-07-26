@@ -1,28 +1,28 @@
-import React, { useState } from 'react'
-import Link from '@/utils/ActiveLink'
+import React, { useState } from "react";
+import Link from "@/utils/ActiveLink";
 
 const NavbarStyle2 = () => {
-  const [menu, setMenu] = React.useState(true)
+  const [menu, setMenu] = React.useState(true);
   const toggleNavbar = () => {
-    setMenu(!menu)
-  }
+    setMenu(!menu);
+  };
   React.useEffect(() => {
-    let elementId = document.getElementById('navbar')
-    document.addEventListener('scroll', () => {
+    let elementId = document.getElementById("navbar");
+    document.addEventListener("scroll", () => {
       if (window.scrollY > 170) {
-        elementId.classList.add('is-sticky')
+        elementId.classList.add("is-sticky");
       } else {
-        elementId.classList.remove('is-sticky')
+        elementId.classList.remove("is-sticky");
       }
-    })
-  })
+    });
+  });
 
   const classOne = menu
-    ? 'collapse navbar-collapse mean-menu'
-    : 'collapse navbar-collapse show'
+    ? "collapse navbar-collapse mean-menu"
+    : "collapse navbar-collapse show";
   const classTwo = menu
-    ? 'navbar-toggler navbar-toggler-right collapsed'
-    : 'navbar-toggler navbar-toggler-right'
+    ? "navbar-toggler navbar-toggler-right collapsed"
+    : "navbar-toggler navbar-toggler-right";
 
   return (
     <>
@@ -173,21 +173,29 @@ const NavbarStyle2 = () => {
                       <a className="nav-link">Career</a>
                     </Link>
                   </li>
+                  <li className="nabar-buttons">
+                    <Link href="/contact">
+                      <a className="default-btn style-two">
+                        Apply as a Developer
+                      </a>
+                    </Link>
+                  </li>
+                  <li className="nabar-buttons">
+                    <Link href="/contact">
+                      <a className="default-btn style-two">Hire a Talent</a>
+                    </Link>
+                  </li>
                 </ul>
               </div>
-
+              {/* Icons For Below Button */}
+              {/* <span className="ri-edit-2-line"></span> */}
+              {/* <span className="ri-edit-2-line"></span> */}
               <div className="others-option">
                 <Link href="/contact">
-                  <a className="default-btn style-two">
-                    {/* <span className="ri-edit-2-line"></span> */}
-                    Apply as a Developer
-                  </a>
+                  <a className="default-btn style-two">Apply as a Developer</a>
                 </Link>
                 <Link href="/contact">
-                  <a className="default-btn style-two">
-                    {/* <span className="ri-edit-2-line"></span> */}
-                    Hire a Talent
-                  </a>
+                  <a className="default-btn style-two">Hire a Talent</a>
                 </Link>
               </div>
             </div>
@@ -195,7 +203,7 @@ const NavbarStyle2 = () => {
         </div>
       </header>
     </>
-  )
-}
+  );
+};
 
-export default NavbarStyle2
+export default NavbarStyle2;
