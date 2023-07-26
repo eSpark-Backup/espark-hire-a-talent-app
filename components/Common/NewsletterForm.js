@@ -1,4 +1,4 @@
-import React from 'react'
+import React from "react";
 
 const NewsletterForm = () => {
   return (
@@ -7,12 +7,10 @@ const NewsletterForm = () => {
         <div className="container">
           <div className="subscribe-inner">
             {/* <span className="sub-title">READY TO GET STARTED</span> */}
-            <div className='call-Card'>
-              <h2>Have Question ? Schedule a Call.</h2>
-              <img src="" alt="" />
-              <button type="submit">
-                Schedule a Consultation
-              </button>
+            <div className="call-Card">
+              <h5>Get started with eSpark Talent</h5>
+              <div className="call-Card-Round-Image"></div>
+              <button>Schedule a Consultation</button>
             </div>
 
             {/* <p>
@@ -20,16 +18,6 @@ const NewsletterForm = () => {
               eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
               enim ad minim veniam.
             </p> */}
-            <form className="newsletter-form">
-              {/* <input
-                type="email"
-                className="input-newsletter"
-                placeholder="Enter your email address"
-                name="EMAIL"
-                required
-              /> */}
-
-            </form>
           </div>
         </div>
       </div>
@@ -59,7 +47,7 @@ const NewsletterForm = () => {
         </div>
       </div> */}
     </>
-  )
-}
+  );
+};
 
-export default NewsletterForm
+export default NewsletterForm;

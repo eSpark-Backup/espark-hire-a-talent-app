@@ -11,8 +11,9 @@ const OurTeamMember = (props) => {
             <div className="col-lg-6 col-md-12">
               <div className="team-member-list">
                 <div className="row justify-content-center">
-                  {data?.map((person) => (
+                  {data?.map((person, i) => (
                     <div
+                    key={i}
                       className="col-lg-6 col-md-6 col-sm-6"
                       data-aos="fade-up"
                       data-aos-delay="300"
@@ -93,8 +94,8 @@ const OurTeamMember = (props) => {
                   {teamData?.title}
                 </h2>
                 <ul>
-                  {items?.map((item) => (
-                    <li>{item}</li>
+                  {items?.map((item, i) => (
+                    <li key={i}>{item}</li>
                   ))}
                 </ul>
                 {/* <p>

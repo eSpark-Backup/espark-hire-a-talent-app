@@ -41,8 +41,8 @@ const OurServices = (props) => {
             modules={[Pagination, Autoplay]}
             className="mySwiper services-slides-two"
           >
-            {data?.map((slide) => (
-              <SwiperSlide>
+            {data?.map((slide, i) => (
+              <SwiperSlide key={i}>
                 <div className="single-services-item with-boxshadow">
                   <div className="d-flex align-items-center">
                     <img src={slide.imagePath} alt="image" />

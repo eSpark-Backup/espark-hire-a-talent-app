@@ -34,35 +34,40 @@ const PartnerSlider = () => {
       >
         <SwiperSlide>
           <div className="partner-item">
-            <img src="/images/partner/partner1.png" alt="image" />
+            <img src="/images/partner/new-partner-1.jpg" alt="image" />
           </div>
         </SwiperSlide>
 
         <SwiperSlide>
           <div className="partner-item">
-            <img src="/images/partner/partner2.png" alt="image" />
+            <img src="/images/partner/new-partner-2.jpg" alt="image" />
           </div>
         </SwiperSlide>
 
         <SwiperSlide>
           <div className="partner-item">
-            <img src="/images/partner/partner3.png" alt="image" />
+            <img src="/images/partner/new-partner-3.jpg" alt="image" />
           </div>
         </SwiperSlide>
 
         <SwiperSlide>
           <div className="partner-item">
-            <img src="/images/partner/partner4.png" alt="image" />
+            <img src="/images/partner/new-partner-4.jpg" alt="image" />
           </div>
         </SwiperSlide>
 
         <SwiperSlide>
           <div className="partner-item">
-            <img src="/images/partner/partner5.png" alt="image" />
+            <img src="/images/partner/new-partner-5.jpg" alt="image" />
+          </div>
+        </SwiperSlide>
+        <SwiperSlide>
+          <div className="partner-item">
+            <img src="/images/partner/new-partner-6.jpg" alt="image" />
           </div>
         </SwiperSlide>
 
-        <SwiperSlide>
+        {/* <SwiperSlide>
           <div className="partner-item">
             <img src="/images/partner/partner6.png" alt="image" />
           </div>
@@ -72,7 +77,7 @@ const PartnerSlider = () => {
           <div className="partner-item">
             <img src="/images/partner/partner7.png" alt="image" />
           </div>
-        </SwiperSlide>
+        </SwiperSlide> */}
       </Swiper>
     </>
   )
