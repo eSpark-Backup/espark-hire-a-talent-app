@@ -1,65 +1,43 @@
 import React from "react";
-import NavbarStyle2 from "@/components/Layout/NavbarStyle2";
-import HeroSlider from "@/components/BusinessConsulting/HeroSlider";
-import OurServices from "@/components/BusinessConsulting/OurServices";
-import AboutUs from "@/components/BusinessConsulting/AboutUs";
-import FunFacts from "@/components/Common/FunFacts";
-// import FreeSEOQuotesForm from '@/components/Common/FreeSEOQuotesForm'
-// import ClientsFeedback from '@/components/Common/ClientsFeedback'
-// import OurCaseStudies from '@/components/Common/OurCaseStudies'
-import OurTeamMember from "@/components/Common/OurTeamMember";
-// import OurLatestBlog from '@/components/Common/OurLatestBlog'
-import NewsletterForm from "@/components/Common/NewsletterForm";
-import Footer from "@/components/Layout/Footer";
-import {
-  BudgetPara,
-  BudgetTitle,
-  aboutContent,
-  aboutItems,
-  aboutTitle,
-  bannerData,
-  content,
-  listItem,
-  personsData,
-  platFormItems,
-  sliderData,
-  teamData,
-  title,
-} from "constants/constants";
-import OurPlatforms from "@/components/ICOLanding/OurPlatforms";
+import Navbar from "@/components/Layout/Navbar";
+import HeroBanner from "@/components/TechnologySolutions/HeroBanner";
+import Features from "@/components/TechnologySolutions/Features";
+import AboutUs from "@/components/TechnologySolutions/AboutUs";
 import PartnerArea from "@/components/TechnologySolutions/PartnerArea";
+import OurServices from "@/components/TechnologySolutions/OurServices";
+import Process from "@/components/TechnologySolutions/Process";
+import OurCaseStudies from "@/components/Common/OurCaseStudies";
+import TeamSlider from "@/components/Common/TeamSlider";
+import OurLatestBlog from "@/components/Common/OurLatestBlog";
+import GetStarted from "@/components/Common/GetStarted";
+import Footer from "@/components/Layout/Footer";
 
-export default function Home3() {
+export default function Home() {
   return (
     <>
-      <NavbarStyle2 />
+      <Navbar />
 
-      <HeroSlider data={bannerData} />
-      <OurPlatforms
-        data={platFormItems}
-        platFormItemsTitle={title}
-        platFormItemsContent={content}
-      />
+      <HeroBanner />
 
-      <OurServices data={sliderData} title={BudgetTitle} para={BudgetPara} />
+      <Features />
 
-      <AboutUs title={aboutTitle} content={aboutContent} items={aboutItems} />
+      <AboutUs />
 
-      <FunFacts />
+      <div className="bg-gradient-color">
+        <PartnerArea />
 
-      {/* <FreeSEOQuotesForm /> */}
+        <OurServices />
 
-      {/* <ClientsFeedback /> */}
+        <Process />
+      </div>
 
-      {/* <OurCaseStudies /> */}
+      <OurCaseStudies />
 
-      <OurTeamMember data={personsData} items={listItem} teamData={teamData} />
+      <TeamSlider />
 
-      <PartnerArea />
+      <OurLatestBlog />
 
-      {/* <OurLatestBlog /> */}
-
-      <NewsletterForm />
+      <GetStarted />
 
       <Footer />
     </>
