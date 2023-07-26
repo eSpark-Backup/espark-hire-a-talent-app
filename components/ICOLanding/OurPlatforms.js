@@ -1,19 +1,58 @@
-import React from 'react'
+import React from "react";
 
-const OurPlatforms = () => {
+const OurPlatforms = (props) => {
+  const { data, platFormItemsTitle, platFormItemsContent } = props;
+
   return (
     <>
       <div className="platforms-area pb-70">
-        <div className="container">
+        <div className="container-fluid">
           <div className="section-title with-max-width">
-            <h2>Our Platforms</h2>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua.
-            </p>
+            <h2>{platFormItemsTitle}</h2>
+            {/* <p>{platFormItemsContent}</p> */}
+          </div>
+          <div className="row justify-content-center">
+            {data.map((eachItem, i) =>
+              i !== 3 ? (
+                <div className="col-lg-2 col-sm-6" key={i}>
+                  <div className="platforms-item with-white-color">
+                    <div className="image">
+                      <img src={eachItem.imageLink} alt="image" />
+                    </div>
+                    <h3>{eachItem.title}</h3>
+                    <p>{eachItem.content}</p>
+
+                    <div className="arrow-image">
+                      <img
+                        src={eachItem.arrowLink}
+                        alt="image"
+                      />
+                    </div>
+                  </div>
+                </div>
+              ) :  (
+                <div className="col-lg-2 col-sm-6" key={i}>
+                  <div className="platforms-item with-white-color">
+                    <div className="image">
+                      <img src={eachItem.imageLink} alt="image" />
+                    </div>
+                    <h3>{eachItem.title}</h3>
+                    <p>{eachItem.content}</p>
+
+                    {/* <div className="arrow-image">
+                      <img
+                        src="/images/crypto-startup/platforms/arrow-3.png"
+                        alt="image"
+                      />
+                    </div> */}
+                  </div>
+                </div>
+              )
+            )}
           </div>
 
-          <div className="row justify-content-center">
+          {/* <div className="row justify-content-center">
+            
             <div className="col-lg-4 col-sm-6">
               <div className="platforms-item with-white-color">
                 <div className="image">
@@ -22,10 +61,10 @@ const OurPlatforms = () => {
                     alt="image"
                   />
                 </div>
-                <h3>NFT Marketplace</h3>
+                <h3>Interview</h3>
                 <p>
-                  Nulla quis lorem ut libero malesuada feugiat vivamus magna
-                  justo lacinia eget consectetur sed convallis at tellus.
+                  After being shortlisted by our management, you will be called
+                  for an interview.​
                 </p>
 
                 <div className="arrow-image">
@@ -44,10 +83,10 @@ const OurPlatforms = () => {
                     alt="image"
                   />
                 </div>
-                <h3>Exchange</h3>
+                <h3>On-Boarding</h3>
                 <p>
-                  Nulla quis lorem ut libero malesuada feugiat vivamus magna
-                  justo lacinia eget consectetur sed convallis at tellus.
+                  Our world-class onboarding procedure includes meeting your
+                  very own customer support specialist.
                 </p>
 
                 <div className="arrow-image">
@@ -66,18 +105,18 @@ const OurPlatforms = () => {
                     alt="image"
                   />
                 </div>
-                <h3>Blockchain</h3>
+                <h3>​ Step Back & Grow</h3>
                 <p>
-                  Nulla quis lorem ut libero malesuada feugiat vivamus magna
-                  justo lacinia eget consectetur sed convallis at tellus.
+                  Your future begins to meet the expectations you've set for
+                  yourself.​
                 </p>
               </div>
             </div>
-          </div>
+          </div> */}
         </div>
       </div>
     </>
-  )
-}
+  );
+};
 
-export default OurPlatforms
+export default OurPlatforms;
