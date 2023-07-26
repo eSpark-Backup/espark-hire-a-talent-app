@@ -1609,6 +1609,7 @@
     right: 60px;
     top: 8px;
   }
+
   .navbar-area .navbar .others-option .default-btn {
     padding-top: 6px;
     padding-left: 12px;
@@ -1626,6 +1627,16 @@
   .navbar-area-with-position-relative .navbar .others-option {
     top: 17px;
   }
+
+
+  .nabar-buttons{
+    display: flex;
+  }
+
+  .others-option{
+    display: none;
+  }
+
   .video-style-area {
     padding-top: 150px;
     padding-bottom: 150px;
@@ -1705,7 +1716,8 @@
 
 /* Min width 768px to Max width 991px */
 @media only screen and (min-width: 768px) and (max-width: 991px) {
-  body {
+
+body {
     font-size: 15px;
   }
   p {
@@ -2711,8 +2723,15 @@
     margin-left: auto !important;
   }
   .navbar-area .navbar .others-option {
-    display: none;
+    display: flex;
   }
+  .header-area.header-style-two .navbar-area .navbar .others-option .default-btn{
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 13px;
+    margin-left: 10px;
+  }
+
   .service-sidebar {
     padding-left: 0;
     margin-top: 30px;
