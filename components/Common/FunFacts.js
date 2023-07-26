@@ -5,6 +5,9 @@ const FunFacts = () => {
     <>
       <div className="funfacts-area pt-100 pb-70">
         <div className="container">
+          <h1>&nbsp;&nbsp;We Have Completed 100+ Projects Successfully​</h1>
+          <br/> 
+          <br/>
           <div className="row justify-content-center">
             <div 
               className="col-lg-3 col-md-6 col-sm-4 col-6" 
@@ -17,8 +20,8 @@ const FunFacts = () => {
                 <div className="icon">
                   <i className="ri-stack-fill"></i>
                 </div>
-                <h3>355</h3>
-                <p>COMPLETED PROJECT</p>
+                <h3>1,000+​</h3>
+                <p>Projects Completed​</p>
               </div>
             </div>
 
@@ -33,8 +36,8 @@ const FunFacts = () => {
                 <div className="icon bg-4D69FF">
                   <i className="ri-user-smile-fill"></i>
                 </div>
-                <h3>289</h3>
-                <p>HAPPY CUSTOMERS</p>
+                <h3>100+​</h3>
+                <p>Team Members​</p>
               </div>
             </div>
             
@@ -49,8 +52,8 @@ const FunFacts = () => {
                 <div className="icon bg-FFC23B">
                   <i className="ri-medal-fill"></i>
                 </div>
-                <h3>15</h3>
-                <p>WINNING AWARD</p>
+                <h3>500+​</h3>
+                <p>Happy Clients</p>
               </div>
             </div>
 
@@ -65,8 +68,8 @@ const FunFacts = () => {
                 <div className="icon bg-00A4C8">
                   <i className="ri-group-fill"></i>
                 </div>
-                <h3>149</h3>
-                <p>TEAM MEMBER</p>
+                <h3>100%</h3>
+                <p>Customer Satisfaction​</p>
               </div>
             </div>
           </div>

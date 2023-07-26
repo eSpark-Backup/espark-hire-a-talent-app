@@ -1,7 +1,12 @@
-import React from 'react'
-import Link from 'next/link'
+import React from "react";
+import Link from "next/link";
 
 const Footer = () => {
+  const contactUs = [
+    "info@esparktalent.com​​",
+    "hr@esparktalent.com",
+    "support@esparktalent.com​",
+  ];
   return (
     <>
       <footer className="footer-area">
@@ -14,7 +19,15 @@ const Footer = () => {
                     <img src="/images/logo.png" alt="logo" />
                   </a>
                 </Link>
-                <div className="newsletter-form">
+                <br />
+                <br />
+                <p>
+                  Our guaranteed top-tier service and industry-leading worldwide
+                  coverage provides peace of mind for any global team. With
+                  eSpark Talent next-level automation and in-house
+                  infrastructure, quality always comes first for our customers.
+                </p>
+                {/* <div className="newsletter-form">
                   <p>SUBSCRIBE TO OUR NEWSLETTER</p>
                   <form data-toggle="validator">
                     <input
@@ -50,37 +63,41 @@ const Footer = () => {
                       <i className="ri-instagram-line"></i>
                     </a>
                   </li>
-                </ul>
+                </ul> */}
               </div>
             </div>
-
             <div className="col-lg-2 col-sm-6 col-md-6">
               <div className="single-footer-widget">
-                <h3>Services</h3>
+                <h3>Hire a Talent​</h3>
                 <ul className="services-links">
                   <li>
                     <Link href="/service-details">
-                      <a>Marketing</a>
+                      <a>Hire a App Developer</a>
                     </Link>
                   </li>
                   <li>
                     <Link href="/service-details">
-                      <a>Web Development</a>
+                      <a>Hire a Web Developer</a>
                     </Link>
                   </li>
                   <li>
                     <Link href="/service-details">
-                      <a>App Design</a>
+                      <a>Hire a Digital Marketer</a>
                     </Link>
                   </li>
                   <li>
                     <Link href="/service-details">
-                      <a>Product Branding</a>
+                      <a>Hire an Embedded Developer </a>
                     </Link>
                   </li>
                   <li>
                     <Link href="/service-details">
-                      <a>Content Writing</a>
+                      <a>Hire a Database Developer ​</a>
+                    </Link>
+                  </li>
+                  <li>
+                    <Link href="/service-details">
+                      <a>Hire a QA Engineer ​</a>
                     </Link>
                   </li>
                 </ul>
@@ -89,9 +106,30 @@ const Footer = () => {
 
             <div className="col-lg-3 col-sm-6 col-md-6">
               <div className="single-footer-widget pl-5">
-                <h3>Quick Links</h3>
+                <h3>Company</h3>
                 <ul className="quick-links">
                   <li>
+                    <Link href="/about-us">
+                      <a>What we do</a>
+                    </Link>
+                  </li>
+                  <li>
+                    <Link href="/how-it-works">
+                      <a>How it works</a>
+                    </Link>
+                  </li>
+                  <li>
+                    <Link href="/blog">
+                      <a>Blogs</a>
+                    </Link>
+                  </li>
+                  <li>
+                    <Link href="/career">
+                      <a>Career</a>
+                    </Link>
+                  </li>
+                </ul>
+                {/* <li>
                     <Link href="/">
                       <a>Home</a>
                     </Link>
@@ -115,16 +153,28 @@ const Footer = () => {
                     <Link href="/contact">
                       <a>Contact Us</a>
                     </Link>
-                  </li>
-                </ul>
+                  </li> */}
               </div>
             </div>
-            
+
             <div className="col-lg-3 col-sm-6 col-md-6">
               <div className="single-footer-widget">
-                <h3>Contact Info</h3>
+                <h3>Contact Us</h3>
                 <ul className="footer-contact-info">
-                  <li>Address: 2750, Quadra Street Victoria, Canada</li>
+                  <li>
+                    <a href="mailto:info@esparktalent.com">
+                      info@esparktalent.com
+                    </a>
+                  </li>
+                  <li>
+                    <a href="mailto:hr@esparktalent.com">hr@esparktalent.com</a>
+                  </li>
+                  <li>
+                    <a href="mailto:support@esparktalent.com​">
+                      support@esparktalent.com​
+                    </a>
+                  </li>
+                  {/* <li>Address: 2750, Quadra Street Victoria, Canada</li>
                   <li>
                     Email: <a href="mailto:hello@lofi.com">hello@lofi.com</a>
                   </li>
@@ -133,7 +183,7 @@ const Footer = () => {
                   </li>
                   <li>
                     Fax: <a href="tel:+44587154756">+55 58715 4756</a>
-                  </li>
+                  </li> */}
                 </ul>
               </div>
             </div>
@@ -145,8 +195,12 @@ const Footer = () => {
             <div className="row align-items-center">
               <div className="col-lg-6 col-sm-6 col-md-6">
                 <p>
-                  &copy; <strong>Lofi</strong> is Proudly Owned by{' '}
-                  <a href="https://envytheme.com/" target="_blank" rel="noreferrer">
+                  &copy; <strong>Lofi</strong> is Proudly Owned by{" "}
+                  <a
+                    href="https://envytheme.com/"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
                     EnvyTheme
                   </a>
                 </p>
@@ -170,7 +224,7 @@ const Footer = () => {
         </div>
       </footer>
     </>
-  )
-}
+  );
+};
 
-export default Footer
+export default Footer;
