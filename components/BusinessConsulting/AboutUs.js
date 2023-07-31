@@ -1,23 +1,21 @@
-import React from 'react'
-import Link from 'next/link'
+import React from "react";
+import Link from "next/link";
 
-const AboutUs = () => {
+const AboutUs = (props) => {
+  const { title, content, items } = props;
   return (
     <>
       <div className="about-area">
         <div className="container">
           <div className="row align-items-center">
             <div className="col-lg-6 col-md-12">
-              <div 
-                className="about-img" 
+              <div
+                className="about-img"
                 data-aos="fade-up"
                 data-aos-duration="1000"
                 data-aos-once="true"
               >
-                <img 
-                  src="/images/about3.png" 
-                  alt="image"  
-                />
+                <img src="/images/about3.png" alt="image" />
                 <div className="shape5">
                   <img src="/images/shape/shape5.png" alt="image" />
                 </div>
@@ -25,13 +23,22 @@ const AboutUs = () => {
             </div>
             <div className="col-lg-6 col-md-12">
               <div className="about-content">
-                <span className="sub-title">ABOUT US</span>
-                <h2>We Are Award Winning Digital Marketing Company</h2>
-                <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                </p>
+                {/* <span className="sub-title">ABOUT US</span> */}
+                <h2>{title}</h2>
+                <p>{content}</p>
                 <ul className="features-list">
+                  {items.map((eachItem, i) => (
+                    <li key={i}>
+                      <div className="d-flex align-items-center">
+                        <div className="icon bg-f9f9f9">
+                          <img src={eachItem.imageLink} alt="image" />
+                        </div>
+                        <span>{eachItem.item}</span>
+                      </div>
+                    </li>
+                  ))}
+                </ul>
+                {/* <ul className="features-list">
                   <li>
                     <div className="d-flex align-items-center">
                       <div className="icon bg-f9f9f9">
@@ -64,12 +71,12 @@ const AboutUs = () => {
                       <span>Ongoing Report</span>
                     </div>
                   </li>
-                </ul>
-                <Link href="/about-us">
+                </ul> */}
+                {/* <Link href="/about-us">
                   <a className="default-btn">
                     <span className="ri-arrow-right-s-line"></span>More About Us
                   </a>
-                </Link>
+                </Link> */}
               </div>
             </div>
           </div>
@@ -79,7 +86,7 @@ const AboutUs = () => {
         </div>
       </div>
     </>
-  )
-}
+  );
+};
 
-export default AboutUs
+export default AboutUs;
