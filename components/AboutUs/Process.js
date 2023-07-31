@@ -1,35 +1,37 @@
 import React from 'react'
 
-const Process = () => {
+const Process = ({ title, processData }) => {
   return (
-    <>
-      <div className="process-area">
+    <React.Fragment>
+      <div className="process-area ptb-100">
         <div className="container">
           <div className="process-inner">
+            <h4 className='text-center mb-5'>{title}</h4>
             <div className="row justify-content-center">
-              <div 
-                className="col-lg-4 col-md-6 col-sm-6" 
+              {processData?.map((processItems, i) => (
+                <div
+                  className="col-lg-3 col-md-6 col-sm-6"
+                  data-aos="fade-up"
+                  data-aos-delay={processItems.delay}
+                  data-aos-duration="1200"
+                  data-aos-once="true"
+                  key={i}
+                >
+                  <div className="single-process-box justify-content-center">
+                    <div className="icon">
+                      <img src={processItems.image} alt="image" />
+                    </div>
+                    <h3>{processItems.heading}</h3>
+                    <p>
+                      {processItems.paragraph}
+                    </p>
+                  </div>
+                </div>
+              ))}
+              {/* <div
+                className="col-lg-3 col-md-6 col-sm-6"
                 data-aos="fade-up"
                 data-aos-delay="400"
-                data-aos-duration="1200"
-                data-aos-once="true"
-              >
-                <div className="single-process-box">
-                  <div className="icon">
-                    <img src="/images/icon/icon14.png" alt="image" />
-                  </div>
-                  <h3>Select Your Service</h3>
-                  <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                    do eiusmod tempor incididunt ut labore et dolore magna.
-                  </p>
-                </div>
-              </div>
-
-              <div 
-                className="col-lg-4 col-md-6 col-sm-6" 
-                data-aos="fade-up"
-                data-aos-delay="600"
                 data-aos-duration="1200"
                 data-aos-once="true"
               >
@@ -44,11 +46,10 @@ const Process = () => {
                   </p>
                 </div>
               </div>
-
-              <div 
-                className="col-lg-4 col-md-6 col-sm-6" 
+             <div
+                className="col-lg-3 col-md-6 col-sm-6"
                 data-aos="fade-up"
-                data-aos-delay="800"
+                data-aos-delay="400"
                 data-aos-duration="1200"
                 data-aos-once="true"
               >
@@ -62,12 +63,33 @@ const Process = () => {
                     do eiusmod tempor incididunt ut labore et dolore magna.
                   </p>
                 </div>
+
               </div>
+              <div
+                className="col-lg-3 col-md-6 col-sm-6"
+                data-aos="fade-up"
+                data-aos-delay="400"
+                data-aos-duration="1200"
+                data-aos-once="true"
+              >
+                <div className="single-process-box">
+                  <div className="icon">
+                    <img src="/images/icon/icon16.png" alt="image" />
+                  </div>
+                  <h3>We&apos;ve Got Your Back</h3>
+                  <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                    do eiusmod tempor incididunt ut labore et dolore magna.
+                  </p>
+                </div>
+
+              </div> */}
+
             </div>
           </div>
         </div>
       </div>
-    </>
+    </React.Fragment>
   )
 }
 

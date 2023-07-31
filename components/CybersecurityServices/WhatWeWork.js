@@ -1,31 +1,46 @@
 import React from 'react'
 
-const WhatWeWork = () => {
+const WhatWeWork = ({ paragraph, Items, title, image, shape }) => {
+
+
   return (
-    <>
-      <div className="what-we-work-area pb-100">
+    <React.Fragment>
+      <div className={"what-we-work-area ptb-100"}>
         <div className="container">
           <div className="row align-items-center">
             <div className="col-lg-6 col-md-12">
-              <div 
-                className="what-we-work-image" 
+              <div
+                className={"what-we-work-image"}
                 data-aos="fade-up"
                 data-aos-duration="1200"
                 data-aos-once="true"
               >
                 <img
-                  src="/images/cybersecurity-services/what-we-work/what-we-work.png"
-                  alt="image"
+                  src={image}
                 />
               </div>
             </div>
-
             <div className="col-lg-6 col-md-12">
               <div className="what-we-work-content">
-                <span className="sub-title">What We Work</span>
-                <h2>All The Procedures That We Operate For Security</h2>
+                {/* <span className="sub-title">What We Work</span> */}
+                <h2>{title}</h2>
+                <p className='my-4'>{paragraph}</p>
 
-                <div className="we-work-inner-box">
+                {Items?.map((eachItems, i) => (
+                  <div className="we-work-inner-box" key={i}>
+                    <div className="image">
+                      <img
+                        src={eachItems.image}
+                        alt="image"
+                      />
+                    </div>
+                    <h3>{eachItems.heading}</h3>
+                    <p>
+                      {eachItems.paragraph}
+                    </p>
+                  </div>
+                ))}
+                {/* <div className="we-work-inner-box">
                   <div className="image">
                     <img
                       src="/images/cybersecurity-services/what-we-work/image-1.png"
@@ -52,7 +67,7 @@ const WhatWeWork = () => {
                     justo lacinia eget consectetur sed convallis at tellus.
                   </p>
                 </div>
-                
+
                 <div className="we-work-inner-box">
                   <div className="image">
                     <img
@@ -65,20 +80,19 @@ const WhatWeWork = () => {
                     Nulla quis lorem ut libero malesuada feugiat. Vivamus magna
                     justo lacinia eget consectetur sed convallis at tellus.
                   </p>
-                </div>
+                </div> */}
               </div>
             </div>
           </div>
         </div>
-
         <div className="what-we-work-shape">
           <img
-            src="/images/cybersecurity-services/what-we-work/shape.png"
+            src={shape}
             alt="image"
           />
         </div>
       </div>
-    </>
+    </React.Fragment>
   )
 }
 
