@@ -1,7 +1,7 @@
 import React from 'react'
 import Link from 'next/link'
 
-const PageTitle = ({ pageTitle, homeText }) => {
+const PageTitle = ({ pageTitle, homeText, pageSubTitle }) => {
   return (
     <div className="page-title-area">
       <div className="container">
@@ -13,7 +13,7 @@ const PageTitle = ({ pageTitle, homeText }) => {
                 <a>{homeText}</a>
               </Link>
             </li>
-            <li>{pageTitle}</li>
+            <li>{pageSubTitle}</li>
           </ul>
         </div>
       </div>

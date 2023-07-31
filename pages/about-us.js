@@ -1,33 +1,55 @@
 import React from 'react'
 import PageTitle from '@/components/Common/PageTitle'
-import AboutContent from '@/components/AboutUs/AboutContent'
-import PartnerArea from '@/components/TechnologySolutions/PartnerArea'
 import Process from '@/components/AboutUs/Process'
-import ClientsFeedbackStyle2 from '@/components/Common/ClientsFeedbackStyle2'
-import TeamSlider from '@/components/Common/TeamSlider'
 import GetStarted from '@/components/Common/GetStarted'
+
+import {
+  GetStartedButtonText,
+  GetStartedParagraph,
+  GetStartedTitle,
+  HiringServicesImg,
+  HiringServicesItems,
+  HiringServicesParaggraph,
+  HiringServicesShape,
+  HiringServicesTitle,
+  Paragraph,
+  ProcessData,
+  Title,
+  WhatWeWorkImage,
+  WhatWeWorkItems,
+  WhatWeWorkShape,
+  WhatWeWorkTitle,
+  processTitle,
+} from "constants/constants";
+import WhatWeWork from '@/components/CybersecurityServices/WhatWeWork'
+import IndustryPartners from '@/components/CryptoStartup/IndustryPartners'
+import WhyChooseCrypto from '@/components/CryptoStartup/WhyChooseCrypto';
+
+
 
 
 export default function AboutUs() {
   return (
     <>
+      <PageTitle homeText="Home" pageTitle="What We Do?" pageSubTitle="What We Do" />
 
-      <PageTitle homeText="Home" pageTitle="About Us" />
+      {/* <AboutContent /> */}
 
-      <AboutContent />
+      <WhyChooseCrypto image={HiringServicesImg} title={HiringServicesTitle} paragraph={HiringServicesParaggraph} Items={HiringServicesItems} backGround={true} shape={HiringServicesShape} />
 
-      <PartnerArea />
+      {/* <PartnerArea /> */}
 
-      <div className="ptb-100">
-        <Process />
-      </div>
+      <Process processData={ProcessData} title={processTitle} />
 
-      <ClientsFeedbackStyle2 />
+      {/* <ClientsFeedbackStyle2 /> */}
 
-      <TeamSlider />
+      {/* <TeamSlider /> */}
 
-      <GetStarted />
+      <GetStarted title={GetStartedTitle} paragraph={GetStartedParagraph} text={GetStartedButtonText} />
 
+      <WhatWeWork Items={WhatWeWorkItems} title={WhatWeWorkTitle} image={WhatWeWorkImage} shape={WhatWeWorkShape} />
+
+      <IndustryPartners title={Title} Paragraph={Paragraph} />
     </>
   )
 }

@@ -57,9 +57,9 @@ export default function Home3() {
 
       {/* <OurLatestBlog /> */}
 
-      <NewsletterForm />
+      {/* <NewsletterForm /> */}
 
-    
+
     </>
   );
 }
