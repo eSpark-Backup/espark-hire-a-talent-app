@@ -154,3 +154,89 @@ export const aboutItems = [
     imageLink: "/images/icon/icon7.png",
   },
 ];
+// Hiring Services component data
+export const HiringServicesTitle = "Why Choose Our HR Hiring Service? "
+export const HiringServicesParaggraph = "We provide what you dream for your company. Our team offers those services that fill out your requirements. A friendly collaboration with our team saves your time and frees you from hiring, managing and training your talented workforce."
+export const HiringServicesImg = "/images/about.jpg"
+export const HiringServicesShape = "/images/shape/shape5.png"
+export const HiringServicesItems = [
+  {
+    heading: "Offer Productive Employees ​​",
+    image: "/images/crypto-startup/choose/image-1.png",
+    paragraph: "Diligent employees and their expertise can uplift your business in the market so why not a partner company that is best at offering experienced outsourced employees? Our team is open for services anytime anywhere."
+  },
+  {
+    heading: "Handle Management Issues",
+    image: "/images/crypto-startup/choose/image-2.png",
+    paragraph: "Now you will be able to manage your team from every part of the world or leave it to our active team. In order to handle all management errors your team need some extra experienced hands of a profound group of people like ours!"
+  },
+  // {
+  //   heading: "Build Highly Ambitious Team",
+  //   image: "/images/crypto-startup/choose/image-3.png",
+  //   paragraph: "Individual performances may help you win the game. But teamwork will lead you to win championships. Let us be your lucky charm and grow together. It is all up to you to pick your favorite professionals and hire them in minutes. "
+  // },
+  // {
+  //   heading: "Increase Employee Engagement",
+  //   image: "/images/crypto-startup/choose/image-1.png",
+  //   paragraph: "Every team relies on the trustful connection between team players. You will need to allow all the players to buckle up and show the magic of their creativity. With our assistance, you will be able to create a positive atmosphere at your workplace."
+  // },
+];
+
+// Get started component data
+export const GetStartedTitle = "We Got Convincing Answers for Your All Complex Questions";
+export const GetStartedParagraph = "We make it easy for companies to extend their network and achieve great highlights of success. Let’s have a talk and lead your business to its finest potential. Every business empire is created through sustainable practices. Hiring our offered professionals can be your moment to rise and beat the competitors.  ​"
+export const GetStartedButtonText = "Schedule a Meeting "
+
+// Process component data
+export const processTitle = " It’s Our Job to Help You Build an Unbreakable Team of Professionals!"
+export const ProcessData = [{
+  heading: "Furnish Prolific Professionals",
+  paragraph: "The recruitment process is never easy, you need the support of proven professionals. Meet with our team hand-pick smart and experienced creative minds in minutes.",
+  image: "/images/icon/icon14.png",
+  delay: "400"
+},
+{
+  heading: "Train Creative Talent",
+  paragraph: "We know what you are aiming for. We train the younger talent to be the best of themselves and offer their earned expertise.",
+  image: "/images/icon/icon15.png",
+  delay: "600"
+},
+{
+  heading: "Easy Onboard Process",
+  paragraph: "You will just need to reach out to us, and we will take it from there. Our services are just one click away from offering you, our experts.",
+  image: "/images/icon/icon16.png",
+  delay: "800"
+},
+{
+  heading: "24 HRM Services",
+  paragraph: "From the recruitment process to hiring, connect with the exclusive team of HR professionals avail all services.",
+  image: "/images/icon/icon14.png",
+  delay: "1000"
+}]
+// partner data 
+export const partnerTitle = "Our Prestigious Clients"
+export const partnerParagraph = "Here are our most trusted Clients who have acquired our services and gifted us their positive stamp of approval."
+// What we Work
+export const WhatWeWorkTitle = "Our Team With Years of Professional Assistance is Waiting for You to Connect!";
+export const WhatWeWorkImage = "/images/cybersecurity-services/what-we-work/what-we-work.png";
+export const WhatWeWorkShape = "/images/cybersecurity-services/what-we-work/shape.png";
+export const WhatWeWorkItems = [
+  {
+    image: "/images/cybersecurity-services/what-we-work/image-1.png",
+    heading: "Observant Recruiters",
+    paragraph: "Research is the backbone of our HRM team, as we never miss any skillful and accomplished professional. We have a team with eagle-eye instincts to pick candidates."
+  },
+  {
+    image: "/images/cybersecurity-services/what-we-work/image-2.png",
+    heading: "Clever Hiring Team",
+    paragraph: "Our hiring process goes through a professional recruitment cycle. And that’s how we have a strong team of smart executives who select employees with sharp hunches."
+  },
+  {
+    image: "/images/cybersecurity-services/what-we-work/image-3.png",
+    heading: "Dynamic Management Trainers ",
+    paragraph: "We find, select, and train our top-picked professionals for you. Through an easy hiring process, companies  can get hard-working professionals at hand."
+  }]
+// Industry Partners
+export const Title = "Our Prestigious Clients"
+export const Paragraph = "Here are our most trusted Clients who have acquired our services and gifted us their positive stamp of approval."
+
