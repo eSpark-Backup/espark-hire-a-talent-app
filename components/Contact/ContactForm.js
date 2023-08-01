@@ -51,7 +51,7 @@ const ContactForm = () => {
 
   return (
     <>
-      <div className="contact-area pb-100 bg-f9f9f9">
+      <div className="contact-area ptb-100 bg-f9f9f9">
         <div className="container">
           <div className="contact-form">
             <div className="section-title">
@@ -64,11 +64,20 @@ const ContactForm = () => {
                 <div className="col-lg-6 col-md-12">
                   <div className="form-group">
                     <label>Name *</label>
-                    <input
+                    {/* <input
                       type="text"
                       name="name"
                       className="form-control"
                       placeholder="Eg: Sarah Taylor"
+                      value={contact.name}
+                      onChange={handleChange}
+                      required
+                    /> */}
+                    <input
+                      type="text"
+                      name="name"
+                      className="form-control"
+                      placeholder="Name"
                       value={contact.name}
                       onChange={handleChange}
                       required
@@ -78,11 +87,20 @@ const ContactForm = () => {
                 <div className="col-lg-6 col-md-6">
                   <div className="form-group">
                     <label>Email *</label>
-                    <input
+                    {/* <input
                       type="text"
                       name="email"
                       className="form-control"
                       placeholder="hello@sarah.com"
+                      value={contact.email}
+                      onChange={handleChange}
+                      required
+                    /> */}
+                    <input
+                      type="text"
+                      name="email"
+                      className="form-control"
+                      placeholder="@email.com"
                       value={contact.email}
                       onChange={handleChange}
                       required
