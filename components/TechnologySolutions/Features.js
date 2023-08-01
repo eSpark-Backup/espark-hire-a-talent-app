@@ -1,20 +1,35 @@
-import React from 'react'
+import React from "react";
 
-const Features = () => {
+const Features = ({ featuresTitle, featuresPara, cardsItems }) => {
   return (
     <>
       <div className="features-area pt-100 pb-70">
         <div className="container">
           <div className="section-title">
-            <span className="sub-title">OUR FEATURES</span>
-            <h2>Be Everywhere Your Customers Are</h2>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua.
-            </p>
+            {/* <span className="sub-title">OUR FEATURES</span> */}
+            <h2>{featuresTitle}</h2>
+            <p>{featuresPara}</p>
           </div>
           <div className="row justify-content-center">
-            <div
+            {cardsItems.map((eachCard, i) => (
+              <div
+                key={i}
+                className="col-lg-4 col-sm-6 col-md-6"
+                data-aos="fade-up"
+                data-aos-delay="60"
+                data-aos-duration="600"
+                data-aos-once="true"
+              >
+                <div className="single-features-box">
+                  <div className="icon">
+                    <img src={eachCard.imageLink} alt="image" />
+                  </div>
+                  <h3>{eachCard.title}</h3>
+                  <p>{eachCard.content} </p>
+                </div>
+              </div>
+            ))}
+            {/* <div
               className="col-lg-4 col-sm-6 col-md-6"
               data-aos="fade-up"
               data-aos-delay="60"
@@ -69,12 +84,12 @@ const Features = () => {
                   do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                 </p>
               </div>
-            </div>
+            </div> */}
           </div>
         </div>
       </div>
     </>
-  )
-}
+  );
+};
 
-export default Features
+export default Features;

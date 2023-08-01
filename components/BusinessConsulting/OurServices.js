@@ -1,11 +1,10 @@
-import React from 'react'
-import { Swiper, SwiperSlide } from 'swiper/react'
-import { Pagination } from 'swiper'
-import { Autoplay } from 'swiper'
-import Link from 'next/link'
+import React from "react";
+import { Swiper, SwiperSlide } from "swiper/react";
+import { Pagination } from "swiper";
+import { Autoplay } from "swiper";
+import Link from "next/link";
 
-const OurServices = (props) => {
-  const { title, para, data} = props
+const OurServices = ({ title, para, items }) => {
   return (
     <>
       <div className="services-area ptb-100">
@@ -13,9 +12,7 @@ const OurServices = (props) => {
           <div className="section-title">
             {/* <span className="sub-title">OUR SERVICES</span> */}
             <h2>{title}</h2>
-            <p>
-              {para}
-            </p>
+            <p>{para}</p>
           </div>
 
           <Swiper
@@ -41,25 +38,33 @@ const OurServices = (props) => {
             modules={[Pagination, Autoplay]}
             className="mySwiper services-slides-two"
           >
-            {data?.map((slide, i) => (
+            {items?.map((eachCard, i) => (
               <SwiperSlide key={i}>
-                <div className="single-services-item with-boxshadow">
+                <div
+                  className={
+                    eachCard.homeComponent
+                      ? "single-services-item with-boxshadow"
+                      : "single-services-item with-boxshadow size-change"
+                  }
+                >
                   <div className="d-flex align-items-center">
-                    <img src={slide.imagePath} alt="image" />
-                    <h3>
+                    <img src={eachCard.imageLink} alt="image" />
+                    {/* <h3>
                       <Link href={slide.link}>
                         <a>{slide.title}</a>
                       </Link>
-                    </h3>
+                    </h3> */}
+                    <h3>{eachCard.title}</h3>
                   </div>
-                  <p>
-                    {slide.para}
-                  </p>
-                  <Link href={slide.link}>
-                    <a className="default-btn">
-                      <span className="ri-arrow-right-s-line"></span>{slide.buttonText}
-                    </a>
-                  </Link>
+                  <p>{eachCard.content}</p>
+                  {eachCard.homeComponent ? (
+                    <Link href={eachCard?.link}>
+                      <a className="default-btn">
+                        <span className="ri-arrow-right-s-line"></span>
+                        {eachCard.buttonText}
+                      </a>
+                    </Link>
+                  ) : null}
                 </div>
               </SwiperSlide>
             ))}
@@ -67,7 +72,7 @@ const OurServices = (props) => {
         </div>
       </div>
     </>
-  )
-}
+  );
+};
 
-export default OurServices
+export default OurServices;
