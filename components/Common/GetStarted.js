@@ -1,15 +1,16 @@
 import React from 'react'
 import Link from 'next/link'
 
-const GetStarted = () => {
+const GetStarted = (props) => {
+  const { title, paragraph, text } = props
   return (
     <>
       <div className="get-started-area bg-gradient-image pt-100">
         <div className="container">
           <div className="row">
             <div className="col-lg-6 col-md-12">
-              <div 
-                className="get-started-image" 
+              <div
+                className="get-started-image"
                 data-aos="fade-up"
                 data-aos-duration="1200"
                 data-aos-once="true"
@@ -19,21 +20,21 @@ const GetStarted = () => {
             </div>
             <div className="col-lg-6 col-md-12">
               <div className="get-started-content">
-                <span className="sub-title">READY TO STARTED?</span>
+                {/* <span className="sub-title">READY TO STARTED?</span> */}
                 <h2>
-                  Let&apos;s Talk Something <br /> Amazing Together
+                  {title}
                 </h2>
                 <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                  Ut enim ad minim veniam.
+                  {paragraph}
                 </p>
-                <Link href="/contact">
-                  <a className="default-btn style-two">
-                    <span className="ri-arrow-right-s-line"></span>Get Started
-                    Now
-                  </a>
-                </Link>
+                {text
+                  ? <Link href="/contact">
+                    <a className="default-btn style-two">
+                      <span className="ri-arrow-right-s-line"></span>
+                      {text}
+                    </a>
+                  </Link>
+                  : null}
               </div>
             </div>
           </div>

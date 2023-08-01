@@ -22,7 +22,7 @@ function MyApp({ Component, pageProps }) {
     AOS.init();
   }, []);
   return (
-    <>
+    <React.Fragment>
       <Head>
         <title>
           Lofi - Multipurpose Technology Startup React Next Template
@@ -33,7 +33,7 @@ function MyApp({ Component, pageProps }) {
       <Component {...pageProps} />
       <Footer />
       <ScrollToTop />
-    </>
+    </React.Fragment>
   );
 }
 

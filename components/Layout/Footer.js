@@ -1,5 +1,6 @@
 import React from "react";
 import Link from "next/link";
+import NewsletterForm from "../Common/NewsletterForm";
 
 const Footer = () => {
   // const contactUs = [
@@ -8,7 +9,8 @@ const Footer = () => {
   //   "support@esparktalent.com​",
   // ];
   return (
-    <>
+    <React.Fragment>
+      <NewsletterForm />
       <footer className="footer-area">
         <div className="container">
           <div className="row justify-content-center">
@@ -171,7 +173,7 @@ const Footer = () => {
                   </li>
                   <li>
                     <a href="mailto:support@esparktalent.com​">
-                      support@esparktalent.com​
+                      support@esparktalent.com
                     </a>
                   </li>
                   {/* <li>Address: 2750, Quadra Street Victoria, Canada</li>
@@ -223,7 +225,7 @@ const Footer = () => {
           </div>
         </div>
       </footer>
-    </>
+    </React.Fragment>
   );
 };
 
