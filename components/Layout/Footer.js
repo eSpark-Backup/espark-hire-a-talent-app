@@ -3,11 +3,11 @@ import Link from "next/link";
 import NewsletterForm from "../Common/NewsletterForm";
 
 const Footer = () => {
-  const contactUs = [
-    "info@esparktalent.com​​",
-    "hr@esparktalent.com",
-    "support@esparktalent.com​",
-  ];
+  // const contactUs = [
+  //   "info@esparktalent.com​​",
+  //   "hr@esparktalent.com",
+  //   "support@esparktalent.com​",
+  // ];
   return (
     <React.Fragment>
       <NewsletterForm />

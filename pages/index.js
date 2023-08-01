@@ -30,8 +30,6 @@ import PartnerArea from "@/components/TechnologySolutions/PartnerArea";
 export default function Home3() {
   return (
     <>
-
-
       <HeroSlider data={bannerData} />
       <OurPlatforms
         data={platFormItems}
@@ -39,7 +37,7 @@ export default function Home3() {
         platFormItemsContent={content}
       />
 
-      <OurServices data={sliderData} title={BudgetTitle} para={BudgetPara} />
+      <OurServices items={sliderData} title={BudgetTitle} para={BudgetPara} />
 
       <AboutUs title={aboutTitle} content={aboutContent} items={aboutItems} />
 
