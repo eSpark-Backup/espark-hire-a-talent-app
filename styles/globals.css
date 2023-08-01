@@ -1270,7 +1270,6 @@ About Area CSS
 .about-content {
   padding-left: 15px;
 }
-
 .about-content .sub-title {
   background-color: rgba(2, 152, 148, 0.15);
   -webkit-transition: var(--transition);
@@ -1300,6 +1299,10 @@ About Area CSS
 .about-content p {
   max-width: 520px;
 }
+/* .about-content .hire_service_paragraph{
+  font-size: 14px;
+  max-width: 120px;
+} */
 
 .about-content .features-list {
   display: -webkit-box;
@@ -1884,9 +1887,9 @@ Process Area CSS
   font-weight: 600;
 }
 
-.single-process-box p {
+/* .single-process-box p {
   padding-right: 25px;
-}
+} */
 
 .single-process-box:hover .icon {
   -webkit-transform: translateY(-10px);
@@ -4837,6 +4840,11 @@ Services Area CSS
   padding-top: 35px;
   padding-left: 50px;
   padding-right: 50px;
+}
+.aboutUs-Services-slides {
+  padding-right: 10px;
+  padding-bottom: 10px;
+  
 }
 
 .services-slides-two .swiper-pagination {
