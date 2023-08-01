@@ -1,14 +1,14 @@
-import React from 'react'
+import React from "react";
 
-const CyberSafety = () => {
+const CyberSafety = ({ title, para }) => {
   return (
     <>
       <div className="cyber-safety-area pb-100">
         <div className="container">
           <div className="row align-items-center">
             <div className="col-lg-6 col-md-12">
-              <div 
-                className="cyber-safety-image" 
+              <div
+                className="cyber-safety-image"
                 data-aos="fade-up"
                 data-aos-duration="1200"
                 data-aos-once="true"
@@ -22,29 +22,24 @@ const CyberSafety = () => {
 
             <div className="col-lg-6 col-md-12">
               <div className="cyber-safety-content">
-                <span className="sub-title">Cyber Safety</span>
-                <h2>Protect Your Self Against Cyberattacks</h2>
-                <p>
-                  Donec sollicitudin molestie malesuada vivamus magna justo
-                  lacinia eget consectetur sed convallis at tellus donec rutrum
-                  congue leo eget malesuada quisque velit nisi pretium ut
-                  lacinia in elementum.
-                </p>
+                {/* <span className="sub-title">Cyber Safety</span> */}
+                <h2>{title}</h2>
+                <p>{para}</p>
 
                 <div className="row align-items-center">
                   <div className="col-lg-6 col-md-6">
                     <ul className="safety-list">
                       <li>
-                        <i className="ri-checkbox-circle-line"></i> Update your
-                        software
+                        <i className="ri-checkbox-circle-line"></i>24/7 Active
+                        Human Resource Assistance.​
                       </li>
                       <li>
-                        <i className="ri-checkbox-circle-line"></i> Don&apos;t
-                        open unknown sender email
+                        <i className="ri-checkbox-circle-line"></i>Rapid
+                        Customer Service. 
                       </li>
                       <li>
-                        <i className="ri-checkbox-circle-line"></i> Used strong
-                        password
+                        <i className="ri-checkbox-circle-line"></i>Open to
+                        Confirm All Queries
                       </li>
                     </ul>
                   </div>
@@ -52,16 +47,16 @@ const CyberSafety = () => {
                   <div className="col-lg-6 col-md-6">
                     <ul className="safety-list">
                       <li>
-                        <i className="ri-checkbox-circle-line"></i> Cloud
-                        security
+                        <i className="ri-checkbox-circle-line"></i>
+                        Cost-Efficient Hiring Services.{" "}
                       </li>
                       <li>
-                        <i className="ri-checkbox-circle-line"></i> Coding
-                        languages
+                        <i className="ri-checkbox-circle-line"></i>Full-Time
+                        Support of Proven Professionals.
                       </li>
                       <li>
-                        <i className="ri-checkbox-circle-line"></i> Network
-                        security control
+                        <i className="ri-checkbox-circle-line"></i>On-Time HR
+                        Managing Support. ​
                       </li>
                     </ul>
                   </div>
@@ -72,7 +67,7 @@ const CyberSafety = () => {
         </div>
       </div>
     </>
-  )
-}
+  );
+};
 
-export default CyberSafety
+export default CyberSafety;
