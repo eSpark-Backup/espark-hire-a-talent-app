@@ -39,11 +39,20 @@
   .default-btn::before {
     width: 43px;
   }
+  /* .default-btn.style-two {
+    padding-top: 10px;
+    padding-left: 25px;
+    padding-right: 40px;
+    padding-bottom: 10px;
+  } */
+  /* Change To Below */
   .default-btn.style-two {
     padding-top: 10px;
     padding-left: 25px;
     padding-right: 40px;
     padding-bottom: 10px;
+    width: 192px;
+    font-size: 14px;
   }
   .default-btn.style-two span {
     right: 16px;
@@ -1741,7 +1750,7 @@
     font-size: 38px;
     margin-right: 45px;
   }
-  
+
   /* End "Cybersecurity Demo Responsive, Cryptocurrency Demo Responsive & ICO Landing Demo Responsive" */
 }
 
@@ -2781,7 +2790,7 @@
   .navbar-area .navbar .others-option {
     display: flex;
   }
-  .header-area.header-style-two
+  /* .header-area.header-style-two
     .navbar-area
     .navbar
     .others-option
@@ -2790,6 +2799,19 @@
     padding-right: 10px;
     font-size: 13px;
     margin-left: 10px;
+    width: 150px;
+  } */
+  /* Change To Below Class */
+  .header-area.header-style-two
+    .navbar-area
+    .navbar
+    .others-option
+    .default-btn {
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 12px;
+    margin-left: 10px;
+    width: 130px;
   }
 
   .service-sidebar {
@@ -3034,13 +3056,23 @@
   .header-area.header-style-two .navbar-area .navbar .others-option {
     margin-left: 10px;
   }
-  .header-area.header-style-two
+  /* .header-area.header-style-two
     .navbar-area
     .navbar
     .others-option
     .default-btn {
     padding-left: 42px;
     padding-right: 15px;
+  } */
+  /* Change To Below */
+  .header-area.header-style-two
+    .navbar-area
+    .navbar
+    .others-option
+    .default-btn {
+    padding-left: 6px;
+    padding-right: 15px;
+    width: 206px;
   }
   .header-area.header-style-two
     .navbar-area
@@ -3068,10 +3100,9 @@
   }
   .single-services-item.with-boxshadow {
     -webkit-box-shadow: unset;
-            box-shadow: unset;
+    box-shadow: unset;
     border: 1px solid #eeeeee;
   }
-
 
   .services-slides-two {
     margin-top: 0;

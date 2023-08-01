@@ -157,7 +157,7 @@ const NavbarStyle2 = () => {
                   </li>
 
                   <li className="nav-item">
-                    <Link href="/" activeClassName="active">
+                    <Link href="/services" activeClassName="active">
                       <a className="nav-link">How it works</a>
                     </Link>
                   </li>

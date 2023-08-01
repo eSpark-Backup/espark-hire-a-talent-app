@@ -951,6 +951,17 @@ Header Area CSS
   margin-left: auto;
 }
 
+/* padding-top: 11px; */
+/* padding-right: 35px; */
+/* padding-bottom: 11px; */
+/* .navbar-area .navbar .others-option .default-btn {
+  color: var(--whiteColor);
+  background-color: var(--mainColor);
+  font-weight: normal;
+  border: 1px solid rgba(220, 132, 252, 0.4) !important;
+  padding-left: 50px;
+} */
+/* Change To Below */
 .navbar-area .navbar .others-option .default-btn {
   color: var(--whiteColor);
   background-color: var(--mainColor);
@@ -960,6 +971,7 @@ Header Area CSS
   padding-left: 50px;
   /* padding-right: 35px; */
   /* padding-bottom: 11px; */
+  width: 247px;
 }
 
 .navbar-area .navbar .others-option .default-btn span {
@@ -4794,7 +4806,7 @@ Services Area CSS
   margin-top: 30px;
 }
 /* New class added because how it works cards have less content */
-.size-change{
+.size-change {
   height: 300px;
 }
 
@@ -4844,7 +4856,6 @@ Services Area CSS
 .aboutUs-Services-slides {
   padding-right: 10px;
   padding-bottom: 10px;
-  
 }
 
 .services-slides-two .swiper-pagination {
@@ -5224,7 +5235,7 @@ Subscribe Area CSS
   background-repeat: no-repeat;
   background-size: cover;
 } */
-.subscribe-inner {
+/* .subscribe-inner {
   margin-top: 50px;
   padding: 100px;
   text-align: center;
@@ -5238,8 +5249,39 @@ Subscribe Area CSS
   display: flex !important;
   justify-content: center !important;
   align-items: center !important;
+} */
+.subscribe-inner {
+  margin-top: 50px;
+  padding: 100px;
+  text-align: center;
+  border-radius: 30px;
+  /* background-color: var(--mainColor); */
+  /* background-image: url(/images/shape/bg-shape.jpg); */
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  max-height: 350px;
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
 }
+/* .call-Card {
+  width: 350px;
+  height: 310px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  box-shadow: inset 0 0 5px #cbc4c4d9;
+  background: transparent;
+  border-radius: 13px;
+} */
 .call-Card {
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-image: url(/images/shape/bg-shape.jpg);
   width: 350px;
   height: 310px;
   /* border: 1px solid rgba(219, 219, 219, 0.596); */
@@ -5249,11 +5291,11 @@ Subscribe Area CSS
   align-items: center;
   padding: 20px;
   box-shadow: inset 0 0 5px #cbc4c4d9;
-  background: transparent;
+  background-color: var(--mainColor);
   border-radius: 13px;
 }
 .call-Card h5 {
-  color: rgb(219 219 219);
+  color: var(--whiteColor);
 }
 .call-Card-Round-Image {
   width: 150px;
@@ -8917,3 +8959,39 @@ Footer Area CSS
   float: right;
 }
 /*# sourceMappingURL=globals.css.map */
+
+
+
+/* Coming Soon Page Starts */
+.coming-soon-main{
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url(/images/bg/bg2.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  flex-direction: column;
+}
+.coming-soon-main h2{
+  color: var(--optionalColor);
+}
+.coming-soon-main h1{
+  color: var(--blackColor);
+  font-size: 40px;
+  font-family: var(--fontFamily2);
+}
+.coming-soon-button{
+  background-color: var(--mainColor);
+  color: var(--whiteColor);
+  width: 150px;
+  height: 40px;
+  border-radius: 4px;
+}
+.coming-soon-button:hover{
+  background-color: var(--blackColor);
+  color: var(--whiteColor);
+}
+/* Coming Soon Finish */
