@@ -73,32 +73,32 @@ const Footer = () => {
                 <h3>Hire a Talent​</h3>
                 <ul className="services-links">
                   <li>
-                    <Link href="/service-details">
+                    <Link href="/coming-soon">
                       <a>Hire a App Developer</a>
                     </Link>
                   </li>
                   <li>
-                    <Link href="/service-details">
+                    <Link href="/coming-soon">
                       <a>Hire a Web Developer</a>
                     </Link>
                   </li>
                   <li>
-                    <Link href="/service-details">
+                    <Link href="/coming-soon">
                       <a>Hire a Digital Marketer</a>
                     </Link>
                   </li>
                   <li>
-                    <Link href="/service-details">
+                    <Link href="/coming-soon">
                       <a>Hire an Embedded Developer </a>
                     </Link>
                   </li>
                   <li>
-                    <Link href="/service-details">
+                    <Link href="/coming-soon">
                       <a>Hire a Database Developer ​</a>
                     </Link>
                   </li>
                   <li>
-                    <Link href="/service-details">
+                    <Link href="/coming-soon">
                       <a>Hire a QA Engineer ​</a>
                     </Link>
                   </li>
@@ -121,12 +121,12 @@ const Footer = () => {
                     </Link>
                   </li>
                   <li>
-                    <Link href="/blog">
+                    <Link href="/coming-soon">
                       <a>Blogs</a>
                     </Link>
                   </li>
                   <li>
-                    <Link href="/">
+                    <Link href="/coming-soon">
                       <a>Career</a>
                     </Link>
                   </li>
