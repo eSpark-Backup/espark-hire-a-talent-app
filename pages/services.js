@@ -38,7 +38,7 @@ export default function Services() {
   return (
     <>
     {/* Changing Starts */}
-      <PageTitle homeText="Home" pageTitle="How It Works" />
+      <PageTitle homeText="Home" pageTitle="How It Works" pageSubTitle="How It Works" />
 
       <Services2
         ServicesPara="Work with us and unlock the fastest professional hiring Services! Here is How we pick a worthy professionals"
