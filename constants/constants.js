@@ -46,13 +46,13 @@ export const bannerData = [
 ];
 export const sliderData = [
   {
-    id:1,
+    id: 1,
     title: "Hire a App Developer​",
     content: "We have the most talented and top-notch app developers at eSpark Consulting Group ready to provide quality-based app development services for your businesses Through our expertise, we can help you propel your app content into reality by developing a seamless mobile app experience for your customers. ​ ​",
     imageLink: "/images/icon/icon8.png",
     link: "/service-details",
     buttonText: "Hire a Talent",
-    homeComponent:true
+    homeComponent: true
   },
   {
     id: 2,
@@ -61,7 +61,7 @@ export const sliderData = [
     imageLink: "/images/icon/icon9.png",
     link: "/service-details",
     buttonText: "Hire a Talent",
-    homeComponent:true
+    homeComponent: true
   },
   {
     id: 3,
@@ -70,7 +70,7 @@ export const sliderData = [
     imageLink: "/images/icon/icon10.png",
     link: "/service-details",
     buttonText: "Hire a Talent",
-    homeComponent:true
+    homeComponent: true
   },
   {
     id: 4,
@@ -79,7 +79,7 @@ export const sliderData = [
     imageLink: "/images/icon/icon11.png",
     link: "/service-details",
     buttonText: "Hire a Talent",
-    homeComponent:true
+    homeComponent: true
   },
   {
     id: 5,
@@ -88,7 +88,7 @@ export const sliderData = [
     imageLink: "/images/icon/icon12.png",
     link: "/service-details",
     buttonText: "Hire a Talent",
-    homeComponent:true
+    homeComponent: true
   },
   {
     id: 6,
@@ -97,7 +97,7 @@ export const sliderData = [
     imageLink: "/images/icon/icon13.png",
     link: "/service-details",
     buttonText: "Hire a Talent",
-    homeComponent:true
+    homeComponent: true
   },
 ];
 
@@ -338,3 +338,29 @@ export const whyChooseUsListItems = [
 
 export const cyberSafetyTitle = "Our Offered Services Comes With Quality Benefits";
 export const cyberSafetyPara = "Our global human resource services have helped companies to associate with smart employees. Now you can take this opportunity of a lifetime that comes with various advantages.";
+
+// Contact Info Data
+export const ContactInfoData = [
+  {
+    icon: "ri-map-pin-2-line",
+    heading: "Address:",
+    paragraph: `301/B 3rd Floor & 401/A 4th Floor, Blossom
+    Trade Centre, Block 1 Gulistan-e-Johar,
+    Karachi, 74300`},
+  {
+    icon: "ri-time-line",
+    heading: "Working Hours:",
+    paragraph: `Open Monday to Friday
+    From 12:00 PM to 20:00 AM`},
+  {
+    icon: "ri-mail-unread-line",
+    heading: "Email Address:",
+    paragraph: "info@esparktalent.com",
+    item: "hr@esparktalent.com"
+  },
+  {
+    icon: "ri-phone-line",
+    heading: "Toll Free:",
+    paragraph: "+92(323-2788259)",
+    item: "+44(20 3286 5975)"
+  }]
