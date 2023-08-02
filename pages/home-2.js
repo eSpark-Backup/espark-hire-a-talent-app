@@ -22,7 +22,7 @@ export default function Home2() {
       <PartnerSlider />
 
       <OurServices />
-
+      
       <AboutUs />
 
       <Testimonials />

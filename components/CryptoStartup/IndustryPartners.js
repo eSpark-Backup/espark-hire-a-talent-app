@@ -1,21 +1,21 @@
 import React from 'react'
 import { Swiper, SwiperSlide } from 'swiper/react'
 import { Autoplay } from 'swiper'
+import PartnerSlider from '../../components/TechnologySolutions/PartnerSlider'
 
-const IndustryPartners = () => {
+const IndustryPartners = ({ title, Paragraph }) => {
   return (
-    <>
+    <React.Fragment>
       <div className="industry-partner-area pt-100 pb-70">
         <div className="container">
           <div className="section-title with-max-width">
-            <h2>Industry Partners</h2>
+            <h2>{title}</h2>
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              {Paragraph}
             </p>
           </div>
-
-          <Swiper
+          <PartnerSlider />
+          {/* <Swiper
             slidesPerView={1}
             spaceBetween={30}
             autoplay={{
@@ -104,10 +104,10 @@ const IndustryPartners = () => {
                 />
               </div>
             </SwiperSlide>
-          </Swiper>
+          </Swiper> */}
         </div>
       </div>
-    </>
+    </React.Fragment>
   )
 }
 

@@ -16,24 +16,50 @@ import Head from "next/head";
 import ScrollToTop from "@/components/Layout/ScrollToTop";
 import NavbarStyle2 from "@/components/Layout/NavbarStyle2";
 import Footer from "@/components/Layout/Footer";
+import { useRouter } from "next/router";
 
 function MyApp({ Component, pageProps }) {
   React.useEffect(() => {
     AOS.init();
   }, []);
+
+  const { pathname } = useRouter();
   return (
-    <>
-      <Head>
-        <title>
-          Lofi - Multipurpose Technology Startup React Next Template
-        </title>
-        <meta name="viewport" content="initial-scale=1.0, width=device-width" />
-      </Head>
-      <NavbarStyle2 />
-      <Component {...pageProps} />
-      <Footer />
-      <ScrollToTop />
-    </>
+    <React.Fragment>
+      {pathname !== "/coming-soon" ? (
+        <React.Fragment>
+          <Head>
+            <title>
+              Lofi - Multipurpose Technology Startup React Next Template
+            </title>
+            <meta
+              name="viewport"
+              content="initial-scale=1.0, width=device-width"
+            />
+          </Head>
+          <NavbarStyle2 />
+          <Component {...pageProps} />
+          <Footer />
+          <ScrollToTop />
+        </React.Fragment>
+      ) : (
+        <React.Fragment>
+          <Head>
+            <title>
+              Lofi - Multipurpose Technology Startup React Next Template
+            </title>
+            <meta
+              name="viewport"
+              content="initial-scale=1.0, width=device-width"
+            />
+          </Head>
+          {/* <NavbarStyle2 /> */}
+          <Component {...pageProps} />
+          {/* <Footer /> */}
+          <ScrollToTop />
+        </React.Fragment>
+      )}
+    </React.Fragment>
   );
 }
 
