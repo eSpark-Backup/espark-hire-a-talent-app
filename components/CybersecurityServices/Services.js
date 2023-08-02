@@ -1,20 +1,42 @@
-import React from 'react'
-import Link from 'next/link'
+import React from "react";
+import Link from "next/link";
 
-const Services = () => {
+const Services = ({ ServicesPara, ServicesTitle, cardsItems }) => {
   return (
     <>
       <div className="cyber-security-services-area ptb-100">
         <div className="container">
           <div className="section-title with-max-width">
-            <h2>Cyber Security Services</h2>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua.
-            </p>
+            <h2>{ServicesTitle}</h2>
+            <p>{ServicesPara}</p>
+          </div>
+          <div className="row justify-content-center">
+            {cardsItems.map((eachCard, i) => (
+              <div className="col-lg-6 col-md-12" key={i}>
+                <div className="cyber-security-services-card">
+                  <div className="row align-items-center">
+                    <div className="col-lg-6 col-md-6">
+                      <div className="services-image">
+                        <img src={eachCard.imageLink} alt="image" />
+                      </div>
+                    </div>
+                    <div className="col-lg-6 col-md-6">
+                      <div className="services-content">
+                        <h3>
+                          <Link href="/service-details">
+                            <a>{eachCard.heading}</a>
+                          </Link>
+                        </h3>
+                        <p>{eachCard.content}</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            ))}
           </div>
 
-          <div className="row justify-content-center">
+          {/* <div className="row justify-content-center">
             <div className="col-lg-6 col-md-12">
               <div className="cyber-security-services-card">
                 <div className="row align-items-center">
@@ -161,7 +183,7 @@ const Services = () => {
                 </Link>
               </div>
             </div>
-          </div>
+          </div> */}
         </div>
 
         <div className="cyber-security-services-shape">
@@ -172,7 +194,7 @@ const Services = () => {
         </div>
       </div>
     </>
-  )
-}
+  );
+};
 
-export default Services
+export default Services;
