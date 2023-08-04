@@ -364,3 +364,80 @@ export const ContactInfoData = [
     paragraph: "+92(323-2788259)",
     item: "+44(20 3286 5975)"
   }]
+
+
+// ServicesItems 
+export const ServicesItemsTitle = "Our Prolific & Smart Database Developers Are Demand of Today";
+export const ServicesItemsparagraph = "Smart minds behind the management and store of the database know how to keep data secure.";
+export const ServicesItems = [
+  {
+    icon: "/images/icon/icon8.png",
+    heading: "MongoDB Developers",
+    paragraph: "Meet with a genius team of MongoDB developers. With faster and more scalable services they offer their services life and professional database engineers.",
+    listItems: ["MongoDB Atlas​", "CRUD Methods​", "JSON", "MongoDB JavaScript"],
+    buttonText: "Hiring​",
+    delay: " 100"
+  },
+  {
+    icon: "/images/icon/icon8.png",
+    heading: "MongoDB Developers",
+    paragraph: "Meet with a genius team of MongoDB developers. With faster and more scalable services they offer their services life and professional database engineers.",
+    listItems: ["MongoDB Atlas​", "CRUD Methods​", "JSON", "MongoDB JavaScript"],
+    buttonText: "Hiring​",
+    delay: " 100"
+  }, {
+    icon: "/images/icon/icon8.png",
+    heading: "MongoDB Developers",
+    paragraph: "Meet with a genius team of MongoDB developers. With faster and more scalable services they offer their services life and professional database engineers.",
+    listItems: ["MongoDB Atlas​", "CRUD Methods​", "JSON", "MongoDB JavaScript"],
+    buttonText: "Hiring​",
+    delay: " 100"
+  }, {
+    icon: "/images/icon/icon8.png",
+    heading: "MongoDB Developers",
+    paragraph: "Meet with a genius team of MongoDB developers. With faster and more scalable services they offer their services life and professional database engineers.",
+    listItems: ["MongoDB Atlas​", "CRUD Methods​", "JSON", "MongoDB JavaScript"],
+    buttonText: "Hiring​",
+    delay: " 100"
+  }, {
+    icon: "/images/icon/icon8.png",
+    heading: "MongoDB Developers",
+    paragraph: "Meet with a genius team of MongoDB developers. With faster and more scalable services they offer their services life and professional database engineers.",
+    listItems: ["MongoDB Atlas​", "CRUD Methods​", "JSON", "MongoDB JavaScript"],
+    buttonText: "Hiring​",
+    delay: " 100"
+  },
+  {
+    icon: "/images/icon/icon8.png",
+    heading: "MongoDB Developers",
+    paragraph: "Meet with a genius team of MongoDB developers. With faster and more scalable services they offer their services life and professional database engineers.",
+    listItems: ["MongoDB Atlas​", "CRUD Methods​", "JSON", "MongoDB JavaScript"],
+    buttonText: "Hiring​",
+    delay: " 100"
+  }
+];
+
+// About crypto
+export const AboutCryptoTitle = "Acquire Full Time Service of Database Experts at Hand! "
+export const AboutCryptoParagraph = "It may take days to restore, manage, and secure the data. But database management systems built by our professionals always work for our clients. You can acquire the talent and get a new database system developed by proven hands."
+export const AboutCryptoItems = ["Database management systems that you entail for your company. ", "Our database developers build a system that keeps data secure and up to date. "]
+
+// Database Complications
+export const DatabaseTitle = "Forget All Database Complications & Reach Out to Us!  "
+export const DatabaseItems = [
+  {
+    icon: "/images/crypto-startup/invest/image-1.png",
+    heading: "Database Designing ",
+    paragraph: "Designing the crucial part of a business database management system. You will need skillful hands for the design."
+  },
+  {
+    icon: "/images/crypto-startup/invest/image-1.png",
+    heading: "Database Designing ",
+    paragraph: "Designing the crucial part of a business database management system. You will need skillful hands for the design."
+  },
+  {
+    icon: "/images/crypto-startup/invest/image-1.png",
+    heading: "Database Designing ",
+    paragraph: "Designing the crucial part of a business database management system. You will need skillful hands for the design."
+  }]
+
