@@ -1,22 +1,65 @@
 import React from 'react'
 import Link from 'next/link'
 
-const ServicesItem = () => {
+
+const ServicesItem = ({ title, Paragraph, data }) => {
+
   return (
     <>
       <div className="services-area pt-100 pb-70">
         <div className="container">
           <div className="section-title">
-            <span className="sub-title">OUR SERVICES</span>
-            <h2>We Offer Professional Services For Business</h2>
+            {/* <span className="sub-title">OUR SERVICES</span> */}
+            <h2>{title}</h2>
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              {Paragraph}
             </p>
           </div>
           <div className="row justify-content-center">
-            <div 
-              className="col-xl-4 col-lg-6 col-md-6 col-sm-12" 
+            {data?.map((items, i) => (
+              <div
+                className="col-xl-4 col-lg-6 col-md-6 col-sm-12"
+                data-aos="fade-up"
+                data-aos-delay={items.delay}
+                data-aos-duration="1200"
+                data-aos-once="true"
+                key={i}
+              >
+                <div className="single-services-box border" style={{ backgroundImage: `url(/images/services/services1.jpg)` }}>
+                  <div className="d-flex align-items-center">
+                    <img src={items.icon} alt="image" />
+                    <h3>
+                      <a href="/service-details">{items.heading}</a>
+                    </h3>
+                  </div>
+                  <p>
+                    {items.paragraph}
+                  </p>
+                  {items.listItems
+                    ? <ul className="features-list">
+                      {items.listItems?.map((list) => (
+                        <li>
+                          <span>
+                            <i className="ri-checkbox-circle-fill" ></i> {list}
+                          </span>
+                        </li>
+                      ))
+                      }
+                    </ul>
+                    : null
+                  }
+                  {items.buttonText
+                    ? <Link href="/service-details">
+                      <a className="default-btn">
+                        <span className="ri-arrow-right-s-line"></span>{items.buttonText}
+                      </a>
+                    </Link>
+                    : null}
+                </div>
+              </div>
+            ))}
+            {/* <div
+              className="col-xl-4 col-lg-6 col-md-6 col-sm-12"
               data-aos="fade-up"
               data-aos-delay="100"
               data-aos-duration="1200"
@@ -65,8 +108,8 @@ const ServicesItem = () => {
               </div>
             </div>
 
-            <div 
-              className="col-xl-4 col-lg-6 col-md-6 col-sm-12" 
+            <div
+              className="col-xl-4 col-lg-6 col-md-6 col-sm-12"
               data-aos="fade-up"
               data-aos-delay="200"
               data-aos-duration="1200"
@@ -114,8 +157,8 @@ const ServicesItem = () => {
               </div>
             </div>
 
-            <div 
-              className="col-xl-4 col-lg-6 col-md-6 col-sm-12" 
+            <div
+              className="col-xl-4 col-lg-6 col-md-6 col-sm-12"
               data-aos="fade-up"
               data-aos-delay="300"
               data-aos-duration="1200"
@@ -163,8 +206,8 @@ const ServicesItem = () => {
               </div>
             </div>
 
-            <div 
-              className="col-xl-4 col-lg-6 col-md-6 col-sm-12" 
+            <div
+              className="col-xl-4 col-lg-6 col-md-6 col-sm-12"
               data-aos="fade-up"
               data-aos-delay="400"
               data-aos-duration="1200"
@@ -213,8 +256,8 @@ const ServicesItem = () => {
               </div>
             </div>
 
-            <div 
-              className="col-xl-4 col-lg-6 col-md-6 col-sm-12" 
+            <div
+              className="col-xl-4 col-lg-6 col-md-6 col-sm-12"
               data-aos="fade-up"
               data-aos-delay="500"
               data-aos-duration="1200"
@@ -265,8 +308,8 @@ const ServicesItem = () => {
               </div>
             </div>
 
-            <div 
-              className="col-xl-4 col-lg-6 col-md-6 col-sm-12" 
+            <div
+              className="col-xl-4 col-lg-6 col-md-6 col-sm-12"
               data-aos="fade-up"
               data-aos-delay="600"
               data-aos-duration="1200"
@@ -313,7 +356,7 @@ const ServicesItem = () => {
                   </a>
                 </Link>
               </div>
-            </div>
+            </div> */}
           </div>
         </div>
       </div>
@@ -321,4 +364,4 @@ const ServicesItem = () => {
   )
 }
 
-export default ServicesItem
+export default ServicesItem;

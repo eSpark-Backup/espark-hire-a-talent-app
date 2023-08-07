@@ -1228,5 +1228,3 @@ export const ContactInfoData = [
     item: "+44(20 3286 5975)",
   },
 ];
-
-console.log(sliderData);
