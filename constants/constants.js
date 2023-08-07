@@ -64,12 +64,12 @@ export const sliderData = [
     homeComponent: true,
     data: {
       services: [
-        {
-          heading:
-            "Hire Proven Mobile App Developers Under Cost-Efficient Changes",
-          paragraph:
-            "Our clients believe in our services and have faith in our offered mobile app developers.",
-        },
+        // {
+        //   heading:
+        //     "Hire Proven Mobile App Developers Under Cost-Efficient Changes",
+        //   paragraph:
+        //     "Our clients believe in our services and have faith in our offered mobile app developers.",
+        // },
         servicesItem(
           "Android App Developers",
           "A professional team knows how to include demanding features in a single Android application. You can only find those creative minds on our highlighting listing of professionals.",
@@ -183,11 +183,11 @@ export const sliderData = [
     homeComponent: true,
     data: {
       services: [
-        {
-          heading: "Welcome To The Renowned Hub of Top-Quality Web Developers",
-          paragraph:
-            "Explore the developer's area and learn about their skills and expertise before hiring them.",
-        },
+        // {
+        //   heading: "Welcome To The Renowned Hub of Top-Quality Web Developers",
+        //   paragraph:
+        //     "Explore the developer's area and learn about their skills and expertise before hiring them.",
+        // },
         servicesItem(
           "JavaScript Developers​",
           "You can stimulate the users with the help of JavaScript developers hired from our demanding platform. Our services are open all day to offer talented individuals.",
@@ -346,12 +346,12 @@ export const sliderData = [
     homeComponent: true,
     data: {
       services: [
-        {
-          heading:
-            "Rank Your Business With Our Offered Proficient Digital Marketers.​",
-          paragraph:
-            "Say no to mediocre online presence and hire those who have led companies into the list of top-rated brands​",
-        },
+        // {
+        //   heading:
+        //     "Rank Your Business With Our Offered Proficient Digital Marketers.​",
+        //   paragraph:
+        //     "Say no to mediocre online presence and hire those who have led companies into the list of top-rated brands​",
+        // },
         servicesItem(
           "Performance Marketers​",
           "Smart and energetic marketers know how to promote the brand and boost the regularities of the business on digital media. Here you can hire those advertisers through a single contact.",
@@ -515,12 +515,12 @@ export const sliderData = [
     homeComponent: true,
     data: {
       services: [
-        {
-          heading:
-            "Design, Develop & Test  Embedded Systems by Hiring Our Professionals",
-          paragraph:
-            "Our offered workforce will design and develop operational embedded software to function hardware devices & gadgets.​",
-        },
+        // {
+        //   heading:
+        //     "Design, Develop & Test  Embedded Systems by Hiring Our Professionals",
+        //   paragraph:
+        //     "Our offered workforce will design and develop operational embedded software to function hardware devices & gadgets.​",
+        // },
         servicesItem(
           "Firmware Development C / C++​",
           "The use of c/c++ shows signs of reliability and great results come when you hire someone who knows how to come up with development designs and firmware.",
@@ -656,12 +656,12 @@ export const sliderData = [
     homeComponent: true,
     data: {
       services: [
-        {
-          heading:
-            "Our Prolific & Smart Database Developers Are Demand of Today.",
-          paragraph:
-            "Smart minds behind the management and store of the database know how to keep data secure.​",
-        },
+        // {
+        //   heading:
+        //     "Our Prolific & Smart Database Developers Are Demand of Today.",
+        //   paragraph:
+        //     "Smart minds behind the management and store of the database know how to keep data secure.​",
+        // },
         servicesItem(
           "MongoDB Developers​",
           "Meet with a genius team of MongoDB developers. With faster and more scalable services they offer their services life and professional database engineers.",
@@ -818,12 +818,12 @@ export const sliderData = [
     homeComponent: true,
     data: {
       services: [
-        {
-          heading:
-            "Back Your Team With Our Offered Expert Manual & Automation Testers.​",
-          paragraph:
-            "Hire professionals who identify occurring issues and provide working solutions.",
-        },
+        // {
+        //   heading:
+        //     "Back Your Team With Our Offered Expert Manual & Automation Testers.​",
+        //   paragraph:
+        //     "Hire professionals who identify occurring issues and provide working solutions.",
+        // },
         servicesItem(
           "Automation Testing​",
           "Automation testing brings the most reliable results and only true professionals can handle all testing frameworks. The demand for a QA engineer leads you to our specialist team.",

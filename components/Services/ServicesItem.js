@@ -1,9 +1,7 @@
-import React from 'react'
-import Link from 'next/link'
-
+import React from "react";
+import Link from "next/link";
 
 const ServicesItem = ({ title, Paragraph, data }) => {
-
   return (
     <>
       <div className="services-area pt-100 pb-70">
@@ -11,9 +9,7 @@ const ServicesItem = ({ title, Paragraph, data }) => {
           <div className="section-title">
             {/* <span className="sub-title">OUR SERVICES</span> */}
             <h2>{title}</h2>
-            <p>
-              {Paragraph}
-            </p>
+            <p>{Paragraph}</p>
           </div>
           <div className="row justify-content-center">
             {data?.map((items, i) => (
@@ -25,36 +21,38 @@ const ServicesItem = ({ title, Paragraph, data }) => {
                 data-aos-once="true"
                 key={i}
               >
-                <div className="single-services-box border" style={{ backgroundImage: `url(/images/services/services1.jpg)` }}>
+                <div
+                  className="single-services-box border"
+                  style={{
+                    backgroundImage: `url(/images/services/services1.jpg)`,
+                  }}
+                >
                   <div className="d-flex align-items-center">
-                    <img src={items.icon} alt="image" />
+                    <img src={items.icons} alt="image" />
                     <h3>
-                      <a href="/service-details">{items.heading}</a>
+                      <a href="/service-details">{items.name}</a>
                     </h3>
                   </div>
-                  <p>
-                    {items.paragraph}
-                  </p>
-                  {items.listItems
-                    ? <ul className="features-list">
-                      {items.listItems?.map((list) => (
+                  <p>{items.description}</p>
+                  {items.list ? (
+                    <ul className="features-list">
+                      {items.list?.map((list) => (
                         <li>
                           <span>
-                            <i className="ri-checkbox-circle-fill" ></i> {list}
+                            <i className="ri-checkbox-circle-fill"></i> {list}
                           </span>
                         </li>
-                      ))
-                      }
+                      ))}
                     </ul>
-                    : null
-                  }
-                  {items.buttonText
-                    ? <Link href="/service-details">
+                  ) : null}
+                  {items.buttonText ? (
+                    <Link href="/service-details">
                       <a className="default-btn">
-                        <span className="ri-arrow-right-s-line"></span>{items.buttonText}
+                        <span className="ri-arrow-right-s-line"></span>
+                        {items.buttonText}
                       </a>
                     </Link>
-                    : null}
+                  ) : null}
                 </div>
               </div>
             ))}
@@ -361,7 +359,7 @@ const ServicesItem = ({ title, Paragraph, data }) => {
         </div>
       </div>
     </>
-  )
-}
+  );
+};
 
 export default ServicesItem;
