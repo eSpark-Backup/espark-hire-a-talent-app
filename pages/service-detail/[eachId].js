@@ -1,49 +1,54 @@
 import React from "react";
 import PageTitle from "@/components/Common/PageTitle";
-import {
-  AboutCryptoItems,
-  AboutCryptoParagraph,
-  AboutCryptoTitle,
-  BudgetPara,
-  BudgetTitle,
-  DatabaseItems,
-  DatabaseTitle,
-  Paragraph,
-  ServicesItems,
-  ServicesItemsTitle,
-  ServicesItemsparagraph,
-  Title,
-  WhatWeWorkImage,
-  WhatWeWorkItems,
-  WhatWeWorkShape,
-  WhatWeWorkTitle,
-  content,
-  platFormItems,
-  sliderData,
-  title,
-} from "constants/constants";
+import { WhatWeWorkImage, sliderData } from "constants/constants";
 import WhatWeWork from "@/components/CybersecurityServices/WhatWeWork";
 import ReasonsToInvestInCryptocurrency from "@/components/CryptoStartup/ReasonsToInvestInCryptocurrency";
 import AboutUs from "@/components/CryptoStartup/AboutUs";
-import OurPlatforms from "@/components/ICOLanding/OurPlatforms";
 import IndustryPartners from "@/components/CryptoStartup/IndustryPartners";
 import ServicesItem from "@/components/Services/ServicesItem";
 import { useRouter } from "next/router";
 import Platforms from "@/components/CryptoStartup/Platforms";
+import { ThreeDots } from "react-loader-spinner";
 
 export default function ServiceDetails() {
   const router = useRouter();
   const getId = router.query.eachId;
   const filterData = sliderData?.filter((item) => item?.id === parseInt(getId));
-  const { title, data , mainHeading, mainParagraph } = filterData[0];
+
+
+  if (!filterData.length) {
+    return (
+      <div
+        style={{
+          height: "100vh",
+          display: "flex",
+          justifyContent: "center",
+          alignItems: "center",
+          zIndex:"1"
+        }}
+      >
+        <ThreeDots
+          height="80"
+          width="80"
+          radius="9"
+          color="#029894"
+          ariaLabel="three-dots-loading"
+          wrapperStyle={{}}
+          wrapperClassName=""
+          visible={true}
+        />
+      </div>
+    );
+  }
+  const { title, data, mainHeading, mainParagraph, id } = filterData[0];
   const { services, content } = data;
   const { sections } = content;
-  const { heading, paragraph, list } = sections[0]
-  console.log(filterData,"......")
+  const { heading, paragraph, list } = sections[0];
+
   return (
     <>
       <PageTitle
-        homeText="Services Details"
+        homeText="Home"
         pageTitle={title}
         pageSubTitle={title}
       />
@@ -52,6 +57,7 @@ export default function ServiceDetails() {
         title={mainHeading}
         Paragraph={mainParagraph}
         data={services}
+        id={id}
       />
 
       <WhatWeWork
@@ -59,7 +65,6 @@ export default function ServiceDetails() {
         title={heading}
         image={WhatWeWorkImage}
         paragraph={paragraph}
-
       />
 
       <AboutUs
@@ -73,19 +78,21 @@ export default function ServiceDetails() {
         data={sections[2].list}
       />
 
-      <OurPlatforms
+      {/* <OurPlatforms
+        data={sections[3].list}
+        heading={sections[3].heading}
+        paragraph={sections[3].paragraph}
+      /> */}
+      <Platforms
         data={sections[3].list}
         heading={sections[3].heading}
         paragraph={sections[3].paragraph}
       />
-      <Platforms 
-       data={sections[3].list}
-       heading={sections[4].heading}
-       paragraph={sections[4].paragraph}
 
+      <IndustryPartners
+        title={sections[4].heading}
+        paragraph={sections[4].paragraph}
       />
-
-      <IndustryPartners title={sections[4].heading} paragraph={sections[4].paragraph} />
 
       {/* <ServiceDetailsContent /> */}
       {/* <GetStarted /> */}

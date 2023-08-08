@@ -1,8 +1,7 @@
-import React from 'react'
-import Link from 'next/link'
+import React from "react";
+import Link from "next/link";
 
 const AboutUs = ({ title, paragraph, data }) => {
- 
   return (
     <>
       <div className="about-area ptb-100 overflow-hidden">
@@ -27,14 +26,10 @@ const AboutUs = ({ title, paragraph, data }) => {
                 data-aos-once="true"
               >
                 {/* <span className="sub-title">About Crypto</span> */}
-                <h2>
-                  {title}
-                </h2>
-                <p>
-                  {paragraph}
-                </p>
-                {data?.map((items) => (
-                  <ul className="about-list">
+                <h2>{title}</h2>
+                <p>{paragraph}</p>
+                {data?.map((items, i) => (
+                  <ul className="about-list" key={i}>
                     <li>
                       <i className="ri-check-fill"></i> {items}
                     </li>
@@ -63,7 +58,7 @@ const AboutUs = ({ title, paragraph, data }) => {
         </div>
       </div>
     </>
-  )
-}
+  );
+};
 
-export default AboutUs
+export default AboutUs;
