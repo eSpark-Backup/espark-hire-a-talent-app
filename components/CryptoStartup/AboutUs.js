@@ -2,6 +2,7 @@ import React from 'react'
 import Link from 'next/link'
 
 const AboutUs = ({ title, paragraph, data }) => {
+ 
   return (
     <>
       <div className="about-area ptb-100 overflow-hidden">
