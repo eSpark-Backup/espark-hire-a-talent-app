@@ -29,13 +29,13 @@ const WhatWeWork = ({ paragraph, Items, title, image, shape }) => {
                   <div className="we-work-inner-box" key={i}>
                     <div className="image">
                       <img
-                        src={eachItems.image}
+                        src={eachItems.icon}
                         alt="image"
                       />
                     </div>
-                    <h3>{eachItems.heading}</h3>
+                    <h3>{eachItems.title}</h3>
                     <p>
-                      {eachItems.paragraph}
+                      {eachItems.description}
                     </p>
                   </div>
                 ))}
