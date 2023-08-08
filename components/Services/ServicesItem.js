@@ -1,8 +1,8 @@
 import React from "react";
 import Link from "next/link";
 
-const ServicesItem = ({ title, Paragraph, data }) => {
-  console.log('ti --->', title)
+const ServicesItem = ({ title, Paragraph, data, id }) => {
+  // console.log("ti --->", title);
   return (
     <>
       <div className="services-area pt-100 pb-70">
@@ -26,9 +26,13 @@ const ServicesItem = ({ title, Paragraph, data }) => {
                   className="single-services-box border"
                   style={{
                     backgroundImage: `url(/images/services/services1.jpg)`,
+                    height: id && (id === 2 || 5 ? "400px" : "auto"),
+                    display: "flex",
+                    justifyContent: "space-between",
+                    flexDirection: "column",
                   }}
                 >
-                  <div className="d-flex align-items-center">
+                  <div className="d-flex align-items-center ">
                     <img src={items.icons} alt="image" />
                     <h3>
                       <a href="/service-details">{items.name}</a>
@@ -37,8 +41,8 @@ const ServicesItem = ({ title, Paragraph, data }) => {
                   <p>{items.description}</p>
                   {items.list ? (
                     <ul className="features-list">
-                      {items.list?.map((list) => (
-                        <li>
+                      {items.list?.map((list, i) => (
+                        <li key={i}>
                           <span>
                             <i className="ri-checkbox-circle-fill"></i> {list}
                           </span>

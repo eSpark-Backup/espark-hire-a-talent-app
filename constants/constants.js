@@ -152,14 +152,17 @@ export const sliderData = [
               {
                 icon: "/images/crypto-startup/platforms/platforms-1.png",
                 title: "Select The Talent​",
+                arrowPath: "/images/crypto-startup/platforms/arrow-1.png",
               },
               {
                 icon: "/images/crypto-startup/platforms/platforms-2.png",
                 title: "Have A Meeting​​",
+                arrowPath: "/images/crypto-startup/platforms/arrow-2.png",
               },
               {
                 icon: "/images/crypto-startup/platforms/platforms-3.png",
                 title: "Hire The Professional​",
+                arrowPath: "/images/crypto-startup/platforms/arrow-1.png",
               },
             ],
           },
@@ -313,14 +316,17 @@ export const sliderData = [
               {
                 icon: "/images/crypto-startup/platforms/platforms-1.png",
                 title: "Select The Talent​​",
+                arrowPath: "/images/crypto-startup/platforms/arrow-1.png",
               },
               {
                 icon: "/images/crypto-startup/platforms/platforms-2.png",
                 title: "Have A Meeting​​",
+                arrowPath: "/images/crypto-startup/platforms/arrow-2.png",
               },
               {
                 icon: "/images/crypto-startup/platforms/platforms-3.png",
                 title: "Hire The Professional​​",
+                arrowPath: "/images/crypto-startup/platforms/arrow-1.png",
               },
             ],
           },
@@ -333,7 +339,6 @@ export const sliderData = [
       },
     },
   },
-
   {
     id: 3,
     title: "Hire a Digital Marketer",
@@ -343,9 +348,9 @@ export const sliderData = [
     link: "/service-details",
     buttonText: "Hire a Talent",
     mainHeading:
-    "Rank Your Business With Our Offered Proficient Digital Marketers.​",
-  mainParagraph:
-    "Say no to mediocre online presence and hire those who have led companies into the list of top-rated brands​",
+      "Rank Your Business With Our Offered Proficient Digital Marketers.​",
+    mainParagraph:
+      "Say no to mediocre online presence and hire those who have led companies into the list of top-rated brands​",
 
     homeComponent: true,
     data: {
@@ -480,16 +485,19 @@ export const sliderData = [
               "Follow the three-step process and build a strong team of professionals. Our team is one click away to offer you skillful professionals.",
             list: [
               {
-                icon: "images/crypto-startup/platforms/platforms-1.png",
+                icon: "/images/crypto-startup/platforms/platforms-1.png",
                 title: "Select The Talent",
+                arrowPath: "/images/crypto-startup/platforms/arrow-1.png",
               },
               {
-                icon: "images/crypto-startup/platforms/platforms-2.png",
+                icon: "/images/crypto-startup/platforms/platforms-2.png",
                 title: "Have A Meeting",
+                arrowPath: "/images/crypto-startup/platforms/arrow-2.png",
               },
               {
-                icon: "images/crypto-startup/platforms/platforms-3.png",
+                icon: "/images/crypto-startup/platforms/platforms-3.png",
                 title: "Hire The Professional",
+                arrowPath: "/images/crypto-startup/platforms/arrow-1.png",
               },
             ],
           },
@@ -623,14 +631,17 @@ export const sliderData = [
               {
                 icon: "/images/crypto-startup/platforms/platforms-1.png",
                 title: "Select The Talent​​",
+                arrowPath: "/images/crypto-startup/platforms/arrow-1.png",
               },
               {
                 icon: "/images/crypto-startup/platforms/platforms-2.png",
                 title: "Have A Meeting​​​",
+                arrowPath: "/images/crypto-startup/platforms/arrow-2.png",
               },
               {
                 icon: "/images/crypto-startup/platforms/platforms-3.png",
                 title: "Hire The Professional​​​",
+                arrowPath: "/images/crypto-startup/platforms/arrow-1.png",
               },
             ],
           },
@@ -784,14 +795,17 @@ export const sliderData = [
               {
                 icon: "/images/crypto-startup/platforms/platforms-1.png",
                 title: "Select The Talent​​",
+                arrowPath: "/images/crypto-startup/platforms/arrow-1.png",
               },
               {
                 icon: "/images/crypto-startup/platforms/platforms-2.png",
                 title: "Have A Meeting​​",
+                arrowPath: "/images/crypto-startup/platforms/arrow-2.png",
               },
               {
                 icon: "/images/crypto-startup/platforms/platforms-3.png",
                 title: "Hire The Professional​​",
+                arrowPath: "/images/crypto-startup/platforms/arrow-1.png",
               },
             ],
           },
@@ -913,14 +927,17 @@ export const sliderData = [
               {
                 icon: "/images/crypto-startup/platforms/platforms-1.png",
                 title: "Select The Talent",
+                arrowPath: "/images/crypto-startup/platforms/arrow-1.png",
               },
               {
                 icon: "/images/crypto-startup/platforms/platforms-2.png",
                 title: "Have A Meeting​",
+                arrowPath: "/images/crypto-startup/platforms/arrow-2.png",
               },
               {
                 icon: "/images/crypto-startup/platforms/platforms-3.png",
                 title: "Hire The Professional",
+                arrowPath: "/images/crypto-startup/platforms/arrow-1.png",
               },
             ],
           },
