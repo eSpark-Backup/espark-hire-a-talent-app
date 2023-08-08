@@ -36,6 +36,8 @@ export default function ServiceDetails() {
   const filterData = sliderData.filter((item) => item.id === parseInt(getId));
   const { title, data } = filterData[0];
   const { services, content } = data;
+  const { sections } = content;
+  const { heading, paragraph, list } = sections[0]
   return (
     <>
       <PageTitle
@@ -51,14 +53,16 @@ export default function ServiceDetails() {
       />
 
       <WhatWeWork
-        Items={WhatWeWorkItems}
-        title={WhatWeWorkTitle}
+        Items={list}
+        title={heading}
         image={WhatWeWorkImage}
         shape={WhatWeWorkShape}
+        paragraph={paragraph}
+
       />
 
       <AboutUs
-        title={AboutCryptoTitle}
+        title={heading}
         paragraph={AboutCryptoParagraph}
         data={AboutCryptoItems}
       />
