@@ -61,15 +61,15 @@ export const sliderData = [
     imageLink: "/images/icon/icon8.png",
     link: "/service-details",
     buttonText: "Hire a Talent",
+
+    mainHeading:
+      "Hire Proven Mobile App Developers Under Cost-Efficient Changes",
+    mainParagraph:
+      "Our clients believe in our services and have faith in our offered mobile app developers.",
+
     homeComponent: true,
     data: {
       services: [
-        // {
-        //   heading:
-        //     "Hire Proven Mobile App Developers Under Cost-Efficient Changes",
-        //   paragraph:
-        //     "Our clients believe in our services and have faith in our offered mobile app developers.",
-        // },
         servicesItem(
           "Android App Developers",
           "A professional team knows how to include demanding features in a single Android application. You can only find those creative minds on our highlighting listing of professionals.",
@@ -150,15 +150,15 @@ export const sliderData = [
               "Follow the three-step process and build a strong team of professionals. Our team is one click away to offer you skillful professionals.",
             list: [
               {
-                icon: "images/crypto-startup/platforms/platforms-1.png",
+                icon: "/images/crypto-startup/platforms/platforms-1.png",
                 title: "Select The Talent​",
               },
               {
-                icon: "images/crypto-startup/platforms/platforms-2.png",
+                icon: "/images/crypto-startup/platforms/platforms-2.png",
                 title: "Have A Meeting​​",
               },
               {
-                icon: "images/crypto-startup/platforms/platforms-3.png",
+                icon: "/images/crypto-startup/platforms/platforms-3.png",
                 title: "Hire The Professional​",
               },
             ],
@@ -180,14 +180,12 @@ export const sliderData = [
     imageLink: "/images/icon/icon9.png",
     link: "/service-details",
     buttonText: "Hire a Talent",
+    mainHeading: "Welcome To The Renowned Hub of Top-Quality Web Developers",
+    mainParagraph:
+      "Explore the developer's area and learn about their skills and expertise before hiring them.",
     homeComponent: true,
     data: {
       services: [
-        // {
-        //   heading: "Welcome To The Renowned Hub of Top-Quality Web Developers",
-        //   paragraph:
-        //     "Explore the developer's area and learn about their skills and expertise before hiring them.",
-        // },
         servicesItem(
           "JavaScript Developers​",
           "You can stimulate the users with the help of JavaScript developers hired from our demanding platform. Our services are open all day to offer talented individuals.",
@@ -313,15 +311,15 @@ export const sliderData = [
               "Follow the three-step process and build a strong team of professionals. Our team is one click away to offer you skillful professionals.",
             list: [
               {
-                icon: "images/crypto-startup/platforms/platforms-1.png",
+                icon: "/images/crypto-startup/platforms/platforms-1.png",
                 title: "Select The Talent​​",
               },
               {
-                icon: "images/crypto-startup/platforms/platforms-2.png",
+                icon: "/images/crypto-startup/platforms/platforms-2.png",
                 title: "Have A Meeting​​",
               },
               {
-                icon: "images/crypto-startup/platforms/platforms-3.png",
+                icon: "/images/crypto-startup/platforms/platforms-3.png",
                 title: "Hire The Professional​​",
               },
             ],
@@ -335,82 +333,82 @@ export const sliderData = [
       },
     },
   },
+
   {
     id: 3,
-    title: "Hire a Digital Marketer​",
+    title: "Hire a Digital Marketer",
     content:
-      "Are you looking for a Digital Marketing Expert who ensures that your brand gets much-needed exposure by reaching your dedicated audience? eSpark Consulting Group offers digital marketing professionals required for a breakthrough in the highly competitive online marketing realm.​​ ​",
+      "Are you looking for a Digital Marketing Expert who ensures that your brand gets much-needed exposure by reaching your dedicated audience? eSpark Consulting Group offers digital marketing professionals required for a breakthrough in the highly competitive online marketing realm. ",
     imageLink: "/images/icon/icon10.png",
     link: "/service-details",
     buttonText: "Hire a Talent",
+    mainHeading:
+    "Rank Your Business With Our Offered Proficient Digital Marketers.​",
+  mainParagraph:
+    "Say no to mediocre online presence and hire those who have led companies into the list of top-rated brands​",
+
     homeComponent: true,
     data: {
       services: [
-        // {
-        //   heading:
-        //     "Rank Your Business With Our Offered Proficient Digital Marketers.​",
-        //   paragraph:
-        //     "Say no to mediocre online presence and hire those who have led companies into the list of top-rated brands​",
-        // },
         servicesItem(
-          "Performance Marketers​",
+          "Performance Marketers",
           "Smart and energetic marketers know how to promote the brand and boost the regularities of the business on digital media. Here you can hire those advertisers through a single contact.",
           [
-            "Facebook Ads​",
-            "Paid Marketing​",
-            "Instagram Ads​",
-            "Product Marketing​",
+            "Facebook Ads",
+            "Paid Marketing",
+            "Instagram Ads",
+            "Product Marketing",
           ],
           "/images/icon/icon8.png"
         ),
         servicesItem(
-          "Landing Page Experts​​",
+          "Landing Page Experts",
           "Our professionals build brands with various marketing tactics. With their back, you will be able to convert visitors into trustful clients. And it will ultimately benefit your intended business.",
           [
-            "Marketing Campaigns​",
-            "CTA Content​​",
-            "Advertisement/PR​​",
-            "Newsletters​​",
+            "Marketing Campaigns",
+            "CTA Content",
+            "Advertisement/PR",
+            "Newsletters",
           ],
           "/images/icon/icon9.png"
         ),
         servicesItem(
-          "CRO Executives​​​",
+          "CRO Executives",
           "CRO specialists design layouts that speak the name of the company message. And that led visitors to the prime of visiting visit the website and other services.",
           [
-            "CRO Strategy​​",
-            "Boost Conversions​",
-            "Marketing Speak​​​",
-            "CRO Consulting​​",
+            "CRO Strategy",
+            "Boost Conversions",
+            "Marketing Speak",
+            "CRO Consulting",
           ],
           "/images/icon/icon10.png"
         ),
         servicesItem(
-          "PPC Specialists​​​",
+          "PPC Specialists",
           "Don’t worry about the online presence and rank of your business. Our offered PPC will handle the ranking of websites and internet advertising module.",
           [
-            "Customer Acquisition​​​",
-            "Organic Traffic​​",
-            "SEO Strategy​​​​",
-            "Search Engine Ranking​​​",
+            "Customer Acquisition",
+            "Organic Traffic",
+            "SEO Strategy",
+            "Search Engine Ranking",
           ],
           "/images/icon/icon11.png"
         ),
         servicesItem(
-          "Social Media Handlers​​​​",
+          "Social Media Handlers",
           "Social media platforms are the core elements for businesses to have a strong presence. Your business will always require assist of our social media handlers to be active on digital platforms.",
           [
-            "Social Media Post​​​​",
-            "Content Management​",
-            "Promotional Copies​​​​​",
-            "Digital Platforms Handling​​​",
+            "Social Media Post",
+            "Content Management",
+            "Promotional Copies",
+            "Digital Platforms Handling",
           ],
           "/images/icon/icon12.png"
         ),
         servicesItem(
-          "Content Writers/SEO Experts​​​​​",
+          "Content Writers/SEO Experts",
           "Content is king and every business requires a team of creative minds who produce brand promoting and audience-grabbing worlds. Connect with us and hire a creative writer.",
-          ["Blogs​​​​​", "Articles​​", "Copies​", "Web Content​​​​"],
+          ["Blogs", "Articles", "Copies", "Web Content"],
           "/images/icon/icon13.png"
         ),
       ],
@@ -435,34 +433,9 @@ export const sliderData = [
               },
               {
                 icon: "/images/crypto-startup/choose/image-3.png",
-                title: "Successful Brand Promotions​",
+                title: "Successful Brand Promotions",
                 description:
                   "Our clients trust us because we bring sustainable results. Working in the industry for more than a decade we have built a powerful network worldwide.",
-              },
-            ],
-          },
-          {
-            heading:
-              "Let’s Shake The Digital Word With Modern Brand Promotions",
-            paragraph: "",
-            list: [
-              {
-                icon: "/images/crypto-startup/invest/image-1.png",
-                title: "Content Marketing​",
-                description:
-                  "Hire our developers and leave the back-end programming work to our specialists. Track and manage them all day and witness their productive work.​",
-              },
-              {
-                icon: "/images/crypto-startup/invest/image-2.png",
-                title: "Paid Promotions​",
-                description:
-                  "Our specialists in digital marketing can run paid promotional campaigns. Our outsourced talent have proven themselves by bringing valuable leads to their hired companies.​",
-              },
-              {
-                icon: "/images/crypto-startup/invest/image-3.png",
-                title: "Social Media Optimisation​",
-                description:
-                  "Handling and management of social media platforms have become vital today. Our offered team of marketers will work on boosting your company’s presence on social media platforms.",
               },
             ],
           },
@@ -472,8 +445,33 @@ export const sliderData = [
             paragraph:
               "Our markets know how to run marketing campaigns and generate organic traffic. Hire a creative team of marketers to handle all your social media platforms and handle your respected clients like formal hard-working professionals.",
             list: [
-              "Our offered professionals have it all to rank your company’s website among the top giants on the search engine​",
-              "They market the intended message of the business with call-to-action content.​",
+              "Our offered professionals have it all to rank your company’s website among the top giants on the search engine",
+              "They market the intended message of the business with call-to-action content.",
+            ],
+          },
+          {
+            heading:
+              "Let’s Shake The Digital Word With Modern Brand Promotions",
+            paragraph: "",
+            list: [
+              {
+                icon: "/images/crypto-startup/invest/image-1.png",
+                title: "Content Marketing",
+                description:
+                  "Hire our developers and leave the back-end programming work to our specialists. Track and manage them all day and witness their productive work.",
+              },
+              {
+                icon: "/images/crypto-startup/invest/image-2.png",
+                title: "Paid Promotions",
+                description:
+                  "Our specialists in digital marketing can run paid promotional campaigns. Our outsourced talent have proven themselves by bringing valuable leads to their hired companies.",
+              },
+              {
+                icon: "/images/crypto-startup/invest/image-3.png",
+                title: "Social Media Optimisation",
+                description:
+                  "Handling and management of social media platforms have become vital today. Our offered team of marketers will work on boosting your company’s presence on social media platforms.",
+              },
             ],
           },
           {
@@ -483,15 +481,15 @@ export const sliderData = [
             list: [
               {
                 icon: "images/crypto-startup/platforms/platforms-1.png",
-                title: "Select The Talent​​",
+                title: "Select The Talent",
               },
               {
                 icon: "images/crypto-startup/platforms/platforms-2.png",
-                title: "Have A Meeting​​​",
+                title: "Have A Meeting",
               },
               {
                 icon: "images/crypto-startup/platforms/platforms-3.png",
-                title: "Hire The Professional​​​",
+                title: "Hire The Professional",
               },
             ],
           },
@@ -512,15 +510,15 @@ export const sliderData = [
     imageLink: "/images/icon/icon11.png",
     link: "/service-details",
     buttonText: "Hire a Talent",
+
+    mainHeading:
+      "Design, Develop & Test  Embedded Systems by Hiring Our Professionals",
+    mainParagraph:
+      "Our offered workforce will design and develop operational embedded software to function hardware devices & gadgets.​",
+
     homeComponent: true,
     data: {
       services: [
-        // {
-        //   heading:
-        //     "Design, Develop & Test  Embedded Systems by Hiring Our Professionals",
-        //   paragraph:
-        //     "Our offered workforce will design and develop operational embedded software to function hardware devices & gadgets.​",
-        // },
         servicesItem(
           "Firmware Development C / C++​",
           "The use of c/c++ shows signs of reliability and great results come when you hire someone who knows how to come up with development designs and firmware.",
@@ -623,15 +621,15 @@ export const sliderData = [
               "Follow the three-step process and build a strong team of professionals. Our team is one click away to offer you skillful professionals.",
             list: [
               {
-                icon: "images/crypto-startup/platforms/platforms-1.png",
+                icon: "/images/crypto-startup/platforms/platforms-1.png",
                 title: "Select The Talent​​",
               },
               {
-                icon: "images/crypto-startup/platforms/platforms-2.png",
+                icon: "/images/crypto-startup/platforms/platforms-2.png",
                 title: "Have A Meeting​​​",
               },
               {
-                icon: "images/crypto-startup/platforms/platforms-3.png",
+                icon: "/images/crypto-startup/platforms/platforms-3.png",
                 title: "Hire The Professional​​​",
               },
             ],
@@ -653,15 +651,14 @@ export const sliderData = [
     imageLink: "/images/icon/icon12.png",
     link: "/service-details",
     buttonText: "Hire a Talent",
+    mainHeading:
+      "Our Prolific & Smart Database Developers Are Demand of Today.",
+    mainParagraph:
+      "Smart minds behind the management and store of the database know how to keep data secure.​",
+
     homeComponent: true,
     data: {
       services: [
-        // {
-        //   heading:
-        //     "Our Prolific & Smart Database Developers Are Demand of Today.",
-        //   paragraph:
-        //     "Smart minds behind the management and store of the database know how to keep data secure.​",
-        // },
         servicesItem(
           "MongoDB Developers​",
           "Meet with a genius team of MongoDB developers. With faster and more scalable services they offer their services life and professional database engineers.",
@@ -785,15 +782,15 @@ export const sliderData = [
               "Follow the three-step process and build a strong team of professionals. Our team is one click away to offer you skillful professionals.",
             list: [
               {
-                icon: "images/crypto-startup/platforms/platforms-1.png",
+                icon: "/images/crypto-startup/platforms/platforms-1.png",
                 title: "Select The Talent​​",
               },
               {
-                icon: "images/crypto-startup/platforms/platforms-2.png",
+                icon: "/images/crypto-startup/platforms/platforms-2.png",
                 title: "Have A Meeting​​",
               },
               {
-                icon: "images/crypto-startup/platforms/platforms-3.png",
+                icon: "/images/crypto-startup/platforms/platforms-3.png",
                 title: "Hire The Professional​​",
               },
             ],
@@ -815,15 +812,15 @@ export const sliderData = [
     imageLink: "/images/icon/icon13.png",
     link: "/service-details",
     buttonText: "Hire a Talent",
+
+    mainHeading:
+      "Back Your Team With Our Offered Expert Manual & Automation Testers.​",
+    mainParagraph:
+      "Hire professionals who identify occurring issues and provide working solutions.",
+
     homeComponent: true,
     data: {
       services: [
-        // {
-        //   heading:
-        //     "Back Your Team With Our Offered Expert Manual & Automation Testers.​",
-        //   paragraph:
-        //     "Hire professionals who identify occurring issues and provide working solutions.",
-        // },
         servicesItem(
           "Automation Testing​",
           "Automation testing brings the most reliable results and only true professionals can handle all testing frameworks. The demand for a QA engineer leads you to our specialist team.",
@@ -914,15 +911,15 @@ export const sliderData = [
               "Follow the three-step process and build a strong team of professionals. Our team is one click away to offer you skillful professionals.",
             list: [
               {
-                icon: "images/crypto-startup/platforms/platforms-1.png",
+                icon: "/images/crypto-startup/platforms/platforms-1.png",
                 title: "Select The Talent",
               },
               {
-                icon: "images/crypto-startup/platforms/platforms-2.png",
+                icon: "/images/crypto-startup/platforms/platforms-2.png",
                 title: "Have A Meeting​",
               },
               {
-                icon: "images/crypto-startup/platforms/platforms-3.png",
+                icon: "/images/crypto-startup/platforms/platforms-3.png",
                 title: "Hire The Professional",
               },
             ],
@@ -1081,21 +1078,21 @@ export const WhatWeWorkShape =
   "/images/cybersecurity-services/what-we-work/shape.png";
 export const WhatWeWorkItems = [
   {
-    image: "/images/cybersecurity-services/what-we-work/image-1.png",
-    heading: "Observant Recruiters",
-    paragraph:
+    icon: "/images/cybersecurity-services/what-we-work/image-1.png",
+    title: "Observant Recruiters",
+    description:
       "Research is the backbone of our HRM team, as we never miss any skillful and accomplished professional. We have a team with eagle-eye instincts to pick candidates.",
   },
   {
-    image: "/images/cybersecurity-services/what-we-work/image-2.png",
-    heading: "Clever Hiring Team",
-    paragraph:
+    icon: "/images/cybersecurity-services/what-we-work/image-2.png",
+    title: "Clever Hiring Team",
+    description:
       "Our hiring process goes through a professional recruitment cycle. And that’s how we have a strong team of smart executives who select employees with sharp hunches.",
   },
   {
-    image: "/images/cybersecurity-services/what-we-work/image-3.png",
-    heading: "Dynamic Management Trainers ",
-    paragraph:
+    icon: "/images/cybersecurity-services/what-we-work/image-3.png",
+    title: "Dynamic Management Trainers ",
+    description:
       "We find, select, and train our top-picked professionals for you. Through an easy hiring process, companies  can get hard-working professionals at hand.",
   },
 ];

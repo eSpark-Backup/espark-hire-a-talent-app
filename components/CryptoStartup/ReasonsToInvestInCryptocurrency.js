@@ -17,9 +17,9 @@ const ReasonsToInvestInCryptocurrency = ({ title, data }) => {
                         alt="image"
                       />
                     </div>
-                    <h3>{items.heading}</h3>
+                    <h3>{items.title}</h3>
                     <p>
-                      {items.paragraph}
+                      {items.description}
                     </p>
                   </div>
                 ))}
