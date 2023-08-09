@@ -1,6 +1,7 @@
 import React from "react";
 import Link from "next/link";
 import NewsletterForm from "../Common/NewsletterForm";
+import { sliderData, footerContact } from "../../constants/constants";
 
 const Footer = () => {
   // const contactUs = [
@@ -72,36 +73,15 @@ const Footer = () => {
               <div className="single-footer-widget">
                 <h3>Hire a Talent​</h3>
                 <ul className="services-links">
-                  <li>
-                    <Link href="/service-details">
-                      <a>Hire a App Developer</a>
-                    </Link>
-                  </li>
-                  <li>
-                    <Link href="/service-details">
-                      <a>Hire a Web Developer</a>
-                    </Link>
-                  </li>
-                  <li>
-                    <Link href="/service-details">
-                      <a>Hire a Digital Marketer</a>
-                    </Link>
-                  </li>
-                  <li>
-                    <Link href="/service-details">
-                      <a>Hire an Embedded Developer </a>
-                    </Link>
-                  </li>
-                  <li>
-                    <Link href="/service-details">
-                      <a>Hire a Database Developer ​</a>
-                    </Link>
-                  </li>
-                  <li>
-                    <Link href="/service-details">
-                      <a>Hire a QA Engineer ​</a>
-                    </Link>
-                  </li>
+                  {sliderData?.map((item) => {
+                    return (
+                      <li key={item.id}>
+                      <Link href={`/service-detail/${item.id}`}>
+                          <a>{item.title}</a>
+                        </Link>
+                      </li>
+                    );
+                  })}
                 </ul>
               </div>
             </div>
@@ -163,19 +143,14 @@ const Footer = () => {
               <div className="single-footer-widget">
                 <h3>Contact Us</h3>
                 <ul className="footer-contact-info">
-                  <li>
-                    <a href="mailto:info@esparktalent.com">
-                      info@esparktalent.com
-                    </a>
-                  </li>
-                  <li>
-                    <a href="mailto:hr@esparktalent.com">hr@esparktalent.com</a>
-                  </li>
-                  <li>
-                    <a href="mailto:support@esparktalent.com​">
-                      support@esparktalent.com
-                    </a>
-                  </li>
+                  {footerContact?.map((i) => {
+                    return (
+                      <li key={i.id}>
+                        <a href={"mailto:info@esparktalent.com"}>{i.item}</a>
+                      </li>
+                    );
+                  })}
+                  
                   {/* <li>Address: 2750, Quadra Street Victoria, Canada</li>
                   <li>
                     Email: <a href="mailto:hello@lofi.com">hello@lofi.com</a>

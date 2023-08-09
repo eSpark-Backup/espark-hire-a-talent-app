@@ -1,4 +1,4 @@
-import React from 'react'
+import React from "react";
 
 const ReasonsToInvestInCryptocurrency = ({ title, data }) => {
   return (
@@ -9,18 +9,13 @@ const ReasonsToInvestInCryptocurrency = ({ title, data }) => {
             <div className="col-lg-6 col-md-12">
               <div className="invest-content">
                 <h2>{title}</h2>
-                {data?.map((items) => (
-                  <div className="invest-inner-box">
+                {data?.map((items, i) => (
+                  <div className="invest-inner-box" key={i}>
                     <div className="image">
-                      <img
-                        src={items.icon}
-                        alt="image"
-                      />
+                      <img src={items.icon} alt="image" />
                     </div>
-                    <h3>{items.heading}</h3>
-                    <p>
-                      {items.paragraph}
-                    </p>
+                    <h3>{items.title}</h3>
+                    <p>{items.description}</p>
                   </div>
                 ))}
 
@@ -79,7 +74,7 @@ const ReasonsToInvestInCryptocurrency = ({ title, data }) => {
         </div>
       </div>
     </>
-  )
-}
+  );
+};
 
-export default ReasonsToInvestInCryptocurrency
+export default ReasonsToInvestInCryptocurrency;
