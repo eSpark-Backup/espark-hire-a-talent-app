@@ -1,20 +1,53 @@
-import React from 'react'
+import React from "react";
 
-const Platforms = () => {
+const Platforms = ({ heading, paragraph, data }) => {
   return (
     <>
       <div className="platforms-area pb-70">
         <div className="container">
           <div className="section-title with-max-width">
-            <h2>Our Platforms</h2>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua.
-            </p>
+            <h2>{heading}</h2>
+            <p>{paragraph}</p>
           </div>
 
           <div className="row justify-content-center">
-            <div className="col-lg-4 col-sm-6">
+            {data?.map((items, i) =>
+              i !== 2 ? (
+                <div className="col-lg-4 col-sm-6" key={i}>
+                  <div className="platforms-item">
+                    <div className="image">
+                      <img src={items?.icon} alt="image" />
+                    </div>
+                    <h3>{items?.title}</h3>
+
+                    <div className="arrow-image">
+                      <img
+                        src={items?.arrowPath}
+                        alt="image"
+                      />
+                    </div>
+                  </div>
+                </div>
+              ) : (
+                <div className="col-lg-4 col-sm-6" key={i}>
+                  <div className="platforms-item">
+                    <div className="image">
+                      <img src={items?.icon} alt="image" />
+                    </div>
+                    <h3>NFT Marketplace</h3>
+
+                    {/* <div className="arrow-image">
+                      <img
+                        src="/images/crypto-startup/platforms/arrow-1.png"
+                        alt="image"
+                      />
+                    </div> */}
+                  </div>
+                </div>
+              )
+            )}
+
+            {/* <div className="col-lg-4 col-sm-6">
               <div className="platforms-item">
                 <div className="image">
                   <img
@@ -32,6 +65,7 @@ const Platforms = () => {
                 </div>
               </div>
             </div>
+
             <div className="col-lg-4 col-sm-6">
               <div className="platforms-item">
                 <div className="image">
@@ -60,12 +94,12 @@ const Platforms = () => {
                 </div>
                 <h3>Blockchain</h3>
               </div>
-            </div>
+            </div> */}
           </div>
         </div>
       </div>
     </>
-  )
-}
+  );
+};
 
-export default Platforms
+export default Platforms;
