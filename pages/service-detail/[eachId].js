@@ -29,15 +29,17 @@ import OurPlatforms from "@/components/ICOLanding/OurPlatforms";
 import IndustryPartners from "@/components/CryptoStartup/IndustryPartners";
 import ServicesItem from "@/components/Services/ServicesItem";
 import { useRouter } from "next/router";
+import Platforms from "@/components/CryptoStartup/Platforms";
 
 export default function ServiceDetails() {
   const router = useRouter();
   const getId = router.query.eachId;
-  const filterData = sliderData.filter((item) => item.id === parseInt(getId));
-  const { title, data } = filterData[0];
+  const filterData = sliderData?.filter((item) => item?.id === parseInt(getId));
+  const { title, data , mainHeading, mainParagraph } = filterData[0];
   const { services, content } = data;
   const { sections } = content;
   const { heading, paragraph, list } = sections[0]
+  console.log(filterData,"......")
   return (
     <>
       <PageTitle
@@ -47,8 +49,8 @@ export default function ServiceDetails() {
       />
 
       <ServicesItem
-        title={ServicesItemsTitle}
-        Paragraph={ServicesItemsparagraph}
+        title={mainHeading}
+        Paragraph={mainParagraph}
         data={services}
       />
 
@@ -56,29 +58,34 @@ export default function ServiceDetails() {
         Items={list}
         title={heading}
         image={WhatWeWorkImage}
-        shape={WhatWeWorkShape}
         paragraph={paragraph}
 
       />
 
       <AboutUs
-        title={heading}
-        paragraph={AboutCryptoParagraph}
-        data={AboutCryptoItems}
+        title={sections[1].heading}
+        paragraph={sections[1].paragraph}
+        data={sections[1].list}
       />
 
       <ReasonsToInvestInCryptocurrency
-        title={DatabaseTitle}
-        data={DatabaseItems}
+        title={sections[2].heading}
+        data={sections[2].list}
       />
 
       <OurPlatforms
-        data={platFormItems}
-        platFormItemsTitle={title}
-        platFormItemsContent={content}
+        data={sections[3].list}
+        heading={sections[3].heading}
+        paragraph={sections[3].paragraph}
+      />
+      <Platforms 
+       data={sections[3].list}
+       heading={sections[4].heading}
+       paragraph={sections[4].paragraph}
+
       />
 
-      <IndustryPartners title={Title} paragraph={Paragraph} />
+      <IndustryPartners title={sections[4].heading} paragraph={sections[4].paragraph} />
 
       {/* <ServiceDetailsContent /> */}
       {/* <GetStarted /> */}

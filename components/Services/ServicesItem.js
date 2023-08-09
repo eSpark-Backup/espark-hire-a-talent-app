@@ -2,6 +2,7 @@ import React from "react";
 import Link from "next/link";
 
 const ServicesItem = ({ title, Paragraph, data }) => {
+  console.log('ti --->', title)
   return (
     <>
       <div className="services-area pt-100 pb-70">
