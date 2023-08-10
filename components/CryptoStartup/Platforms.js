@@ -1,7 +1,6 @@
 import React from "react";
 
 const Platforms = ({ heading, paragraph, data }) => {
-  // console.log(data, "...>>> ");
   return (
     <>
       <div className="platforms-area pb-70">
@@ -12,14 +11,14 @@ const Platforms = ({ heading, paragraph, data }) => {
           </div>
 
           <div className="row justify-content-center">
-            {data.map((items, i) =>
+            {data?.map((items, i) =>
               i !== 2 ? (
                 <div className="col-lg-4 col-sm-6" key={i}>
                   <div className="platforms-item">
                     <div className="image">
-                      <img src={items.icon} alt="image" />
+                      <img src={items?.icon} alt="image" />
                     </div>
-                    <h3>{items.title}</h3>
+                    <h3>{items?.title}</h3>
 
                     <div className="arrow-image">
                       <img
@@ -33,7 +32,7 @@ const Platforms = ({ heading, paragraph, data }) => {
                 <div className="col-lg-4 col-sm-6" key={i}>
                   <div className="platforms-item">
                     <div className="image">
-                      <img src={items.icon} alt="image" />
+                      <img src={items?.icon} alt="image" />
                     </div>
                     <h3>NFT Marketplace</h3>
 
