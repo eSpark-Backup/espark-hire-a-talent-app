@@ -2,7 +2,6 @@ import React from "react";
 import Link from "next/link";
 
 const ServicesItem = ({ title, Paragraph, data, id }) => {
-  // console.log("ti --->", title);
   return (
     <>
       <div className="services-area pt-100 pb-70">
@@ -33,12 +32,12 @@ const ServicesItem = ({ title, Paragraph, data, id }) => {
                   }}
                 >
                   <div className="d-flex align-items-center ">
-                    <img src={items.icons} alt="image" />
+                    <img src={items?.icons} alt="image" />
                     <h3>
-                      <a href="/service-details">{items.name}</a>
+                      <a href="/service-details">{items?.name}</a>
                     </h3>
                   </div>
-                  <p>{items.description}</p>
+                  <p>{items?.description}</p>
                   {items.list ? (
                     <ul className="features-list">
                       {items.list?.map((list, i) => (
