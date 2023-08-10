@@ -1242,3 +1242,17 @@ export const ContactInfoData = [
     item: "+44(20 3286 5975)",
   },
 ];
+export const footerContact = [
+  {
+    id : 1,
+    item : "info@esparktalent.com"
+  },
+  {
+    id:2,
+    item : "hr@esparktalent.com"
+  },
+  {
+    id:3,
+    item : "support@esparktalent.com"
+  }
+]
