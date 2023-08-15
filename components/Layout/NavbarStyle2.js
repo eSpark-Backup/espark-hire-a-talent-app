@@ -32,7 +32,7 @@ const NavbarStyle2 = () => {
             <div className="container">
               <Link href="/">
                 <a className="navbar-brand">
-                  <img src="/images/logo.png" alt="Site logo" />
+                  <img src="/images/logo.png" alt="Site logo" className="talent-logo"/>
                 </a>
               </Link>
 
