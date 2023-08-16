@@ -25,18 +25,17 @@ const WhatWeWork = ({ paragraph, Items, title, image, shape }) => {
                 {/* <span className="sub-title">What We Work</span> */}
                 <h2>{title}</h2>
                 <p className='my-4'>{paragraph}</p>
-
                 {Items?.map((eachItems, i) => (
                   <div className="we-work-inner-box" key={i}>
                     <div className="image">
                       <img
-                        src={eachItems.image}
+                        src={eachItems.icon}
                         alt="image"
                       />
                     </div>
-                    <h3>{eachItems.heading}</h3>
+                    <h3>{eachItems.title}</h3>
                     <p>
-                      {eachItems.paragraph}
+                      {eachItems.description}
                     </p>
                   </div>
                 ))}
@@ -80,7 +79,8 @@ const WhatWeWork = ({ paragraph, Items, title, image, shape }) => {
                     Nulla quis lorem ut libero malesuada feugiat. Vivamus magna
                     justo lacinia eget consectetur sed convallis at tellus.
                   </p>
-                </div> */}
+                </div>
+                 */}
               </div>
             </div>
           </div>
