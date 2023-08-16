@@ -76,7 +76,7 @@ const Footer = () => {
                   {sliderData?.map((item) => {
                     return (
                       <li key={item.id}>
-                      <Link href={`/service-detail/${item.id}`}>
+                        <Link href={`/service-detail/${item.id}`}>
                           <a>{item.title}</a>
                         </Link>
                       </li>
@@ -150,7 +150,7 @@ const Footer = () => {
                       </li>
                     );
                   })}
-                  
+
                   {/* <li>Address: 2750, Quadra Street Victoria, Canada</li>
                   <li>
                     Email: <a href="mailto:hello@lofi.com">hello@lofi.com</a>
@@ -170,7 +170,7 @@ const Footer = () => {
         <div className="copyright-area">
           <div className="container">
             <div className="row align-items-center">
-              <div className="col-lg-6 col-sm-6 col-md-6">
+              {/* <div className="col-lg-6 col-sm-6 col-md-6">
                 <p>
                   &copy; <strong>Lofi</strong> is Proudly Owned by{" "}
                   <a
@@ -181,8 +181,8 @@ const Footer = () => {
                     EnvyTheme
                   </a>
                 </p>
-              </div>
-              <div className="col-lg-6 col-sm-6 col-md-6">
+              </div> */}
+              <div className="col-lg-12 col-sm-6 col-md-12">
                 <ul>
                   <li>
                     <Link href="/privacy-policy">
@@ -190,7 +190,7 @@ const Footer = () => {
                     </Link>
                   </li>
                   <li>
-                    <Link href="/terms-conditions">
+                    <Link href="/coming-soon">
                       <a>Terms & Conditions</a>
                     </Link>
                   </li>
@@ -199,6 +199,7 @@ const Footer = () => {
             </div>
           </div>
         </div>
+
       </footer>
     </React.Fragment>
   );
