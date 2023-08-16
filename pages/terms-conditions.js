@@ -1,16 +1,10 @@
 import React from 'react'
-import Navbar from '@/components/Layout/Navbar'
 import PageTitle from '@/components/Common/PageTitle'
-import GetStarted from '@/components/Common/GetStarted'
-import Footer from '@/components/Layout/Footer'
 
 export default function TermsConditions() {
   return (
-    <>
-      <Navbar />
-
-      <PageTitle homeText="Home" pageTitle="Terms Conditions" />
-
+    <React.Fragment>
+      <PageTitle homeText="Home" pageTitle="Terms Conditions" pageSubTitle="Terms Conditions" />
       <div className="ptb-100">
         <div className="container">
           <div className="main-text-content">
@@ -130,10 +124,6 @@ export default function TermsConditions() {
           </div>
         </div>
       </div>
-
-      <GetStarted />
-
-      <Footer />
-    </>
+    </React.Fragment>
   )
 }

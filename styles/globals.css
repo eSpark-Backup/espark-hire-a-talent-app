@@ -4478,8 +4478,15 @@ Footer Area CSS
   font-weight: 600;
 }
 
-.copyright-area ul {
+/* .copyright-area ul {
   text-align: end;
+  padding-left: 0;
+  margin-bottom: 0;
+  list-style-type: none;
+} */
+
+.copyright-area ul {
+  text-align: center;
   padding-left: 0;
   margin-bottom: 0;
   list-style-type: none;
@@ -8971,10 +8978,8 @@ Footer Area CSS
 }
 /*# sourceMappingURL=globals.css.map */
 
-
-
 /* Coming Soon Page Starts */
-.coming-soon-main{
+.coming-soon-main {
   height: 100vh;
   width: 100vw;
   display: flex;
@@ -8986,26 +8991,26 @@ Footer Area CSS
   background-size: cover;
   flex-direction: column;
 }
-.coming-soon-main h2{
+.coming-soon-main h2 {
   color: var(--optionalColor);
 }
-.coming-soon-main h1{
+.coming-soon-main h1 {
   color: var(--blackColor);
   font-size: 40px;
   font-family: var(--fontFamily2);
 }
-.coming-soon-button{
+.coming-soon-button {
   background-color: var(--mainColor);
   color: var(--whiteColor);
   width: 150px;
   height: 40px;
   border-radius: 4px;
 }
-.coming-soon-button:hover{
+.coming-soon-button:hover {
   background-color: var(--blackColor);
   color: var(--whiteColor);
 }
 /* Coming Soon Finish */
-.talent-logo{
+.talent-logo {
   max-width: 120px;
 }
