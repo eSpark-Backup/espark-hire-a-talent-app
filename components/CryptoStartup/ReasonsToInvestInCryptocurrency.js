@@ -1,6 +1,6 @@
-import React from 'react'
+import React from "react";
 
-const ReasonsToInvestInCryptocurrency = () => {
+const ReasonsToInvestInCryptocurrency = ({ title, data }) => {
   return (
     <>
       <div className="invest-area pb-100">
@@ -8,9 +8,18 @@ const ReasonsToInvestInCryptocurrency = () => {
           <div className="row align-items-center">
             <div className="col-lg-6 col-md-12">
               <div className="invest-content">
-                <h2>Reasons To Invest In Cryptocurrency</h2>
+                <h2>{title}</h2>
+                {data?.map((items, i) => (
+                  <div className="invest-inner-box" key={i}>
+                    <div className="image">
+                      <img src={items.icon} alt="image" />
+                    </div>
+                    <h3>{items.title}</h3>
+                    <p>{items.description}</p>
+                  </div>
+                ))}
 
-                <div className="invest-inner-box">
+                {/* <div className="invest-inner-box">
                   <div className="image">
                     <img
                       src="/images/crypto-startup/invest/image-1.png"
@@ -23,6 +32,7 @@ const ReasonsToInvestInCryptocurrency = () => {
                     justo lacinia eget consectetur sed convallis at tellus.
                   </p>
                 </div>
+               
                 <div className="invest-inner-box with-some-left">
                   <div className="image">
                     <img
@@ -36,6 +46,7 @@ const ReasonsToInvestInCryptocurrency = () => {
                     justo lacinia eget consectetur sed convallis at tellus.
                   </p>
                 </div>
+               
                 <div className="invest-inner-box">
                   <div className="image">
                     <img
@@ -48,10 +59,9 @@ const ReasonsToInvestInCryptocurrency = () => {
                     Nulla quis lorem ut libero malesuada feugiat. Vivamus magna
                     justo lacinia eget consectetur sed convallis at tellus.
                   </p>
-                </div>
+                </div> */}
               </div>
             </div>
-
             <div className="col-lg-6 col-md-12">
               <div className="invest-image">
                 <img
@@ -64,7 +74,7 @@ const ReasonsToInvestInCryptocurrency = () => {
         </div>
       </div>
     </>
-  )
-}
+  );
+};
 
-export default ReasonsToInvestInCryptocurrency
+export default ReasonsToInvestInCryptocurrency;
