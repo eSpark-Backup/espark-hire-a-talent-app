@@ -9006,3 +9006,6 @@ Footer Area CSS
   color: var(--whiteColor);
 }
 /* Coming Soon Finish */
+.talent-logo{
+  max-width: 120px;
+}
