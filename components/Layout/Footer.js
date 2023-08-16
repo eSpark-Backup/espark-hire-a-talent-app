@@ -19,7 +19,7 @@ const Footer = () => {
               <div className="single-footer-widget">
                 <Link href="/">
                   <a className="d-inline-block logo">
-                    <img src="/images/logo.png" alt="logo" />
+                    <img src="/images/logo.png" className="talent-logo" alt="logo" />
                   </a>
                 </Link>
                 <br />
