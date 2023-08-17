@@ -85,7 +85,6 @@ const Footer = () => {
                 </ul>
               </div>
             </div>
-
             <div className="col-lg-3 col-sm-6 col-md-6">
               <div className="single-footer-widget pl-5">
                 <h3>Company</h3>
@@ -138,7 +137,6 @@ const Footer = () => {
                   </li> */}
               </div>
             </div>
-
             <div className="col-lg-3 col-sm-6 col-md-6">
               <div className="single-footer-widget">
                 <h3>Contact Us</h3>
@@ -166,23 +164,10 @@ const Footer = () => {
             </div>
           </div>
         </div>
-
         <div className="copyright-area">
           <div className="container">
             <div className="row align-items-center">
-              {/* <div className="col-lg-6 col-sm-6 col-md-6">
-                <p>
-                  &copy; <strong>Lofi</strong> is Proudly Owned by{" "}
-                  <a
-                    href="https://envytheme.com/"
-                    target="_blank"
-                    rel="noreferrer"
-                  >
-                    EnvyTheme
-                  </a>
-                </p>
-              </div> */}
-              <div className="col-lg-12 col-sm-6 col-md-12">
+              <div className="col-lg-6 col-sm-6 col-md-6">
                 <ul>
                   <li>
                     <Link href="/privacy-policy">
@@ -196,10 +181,22 @@ const Footer = () => {
                   </li>
                 </ul>
               </div>
+              <div className="col-lg-6 col-sm-6 col-md-6">
+                <p>© Copyright 2023. All Rights Reserved.</p>
+                {/* <p>
+                  &copy; <strong>Lofi</strong> is Proudly Owned by{" "}
+                  <a
+                    href="https://envytheme.com/"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    EnvyTheme
+                  </a>
+                </p> */}
+              </div>
             </div>
           </div>
         </div>
-
       </footer>
     </React.Fragment>
   );
