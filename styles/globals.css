@@ -4486,10 +4486,13 @@ Footer Area CSS
 } */
 
 .copyright-area ul {
-  text-align: center;
+  text-align: start;
   padding-left: 0;
   margin-bottom: 0;
   list-style-type: none;
+}
+.copyright-area p {
+  text-align: end;
 }
 
 .copyright-area ul li {
