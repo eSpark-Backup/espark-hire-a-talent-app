@@ -1697,6 +1697,9 @@
     border: 1px solid #eee !important;
     padding: 20px;
   }
+  .copyright-area p {
+    text-align: center;
+  }
 }
 
 /* Min width 576px to Max width 767px */
