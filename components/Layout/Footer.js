@@ -76,7 +76,7 @@ const Footer = () => {
                   {sliderData?.map((item) => {
                     return (
                       <li key={item.id}>
-                      <Link href={`/service-detail/${item.id}`}>
+                        <Link href={`/service-detail/${item.id}`}>
                           <a>{item.title}</a>
                         </Link>
                       </li>
@@ -85,7 +85,6 @@ const Footer = () => {
                 </ul>
               </div>
             </div>
-
             <div className="col-lg-3 col-sm-6 col-md-6">
               <div className="single-footer-widget pl-5">
                 <h3>Company</h3>
@@ -138,7 +137,6 @@ const Footer = () => {
                   </li> */}
               </div>
             </div>
-
             <div className="col-lg-3 col-sm-6 col-md-6">
               <div className="single-footer-widget">
                 <h3>Contact Us</h3>
@@ -150,7 +148,7 @@ const Footer = () => {
                       </li>
                     );
                   })}
-                  
+
                   {/* <li>Address: 2750, Quadra Street Victoria, Canada</li>
                   <li>
                     Email: <a href="mailto:hello@lofi.com">hello@lofi.com</a>
@@ -166,22 +164,9 @@ const Footer = () => {
             </div>
           </div>
         </div>
-
         <div className="copyright-area">
           <div className="container">
             <div className="row align-items-center">
-              <div className="col-lg-6 col-sm-6 col-md-6">
-                <p>
-                  &copy; <strong>Lofi</strong> is Proudly Owned by{" "}
-                  <a
-                    href="https://envytheme.com/"
-                    target="_blank"
-                    rel="noreferrer"
-                  >
-                    EnvyTheme
-                  </a>
-                </p>
-              </div>
               <div className="col-lg-6 col-sm-6 col-md-6">
                 <ul>
                   <li>
@@ -190,11 +175,24 @@ const Footer = () => {
                     </Link>
                   </li>
                   <li>
-                    <Link href="/terms-conditions">
+                    <Link href="/coming-soon">
                       <a>Terms & Conditions</a>
                     </Link>
                   </li>
                 </ul>
+              </div>
+              <div className="col-lg-6 col-sm-6 col-md-6">
+                <p>© Copyright 2023. All Rights Reserved.</p>
+                {/* <p>
+                  &copy; <strong>Lofi</strong> is Proudly Owned by{" "}
+                  <a
+                    href="https://envytheme.com/"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    EnvyTheme
+                  </a>
+                </p> */}
               </div>
             </div>
           </div>
