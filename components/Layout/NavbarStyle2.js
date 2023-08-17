@@ -44,9 +44,8 @@ const NavbarStyle2 = () => {
             <div className="container">
               <Link href="/">
                 <a
-                  className={`navbar-brand ${
-                    selectedNavItem === "Home" ? "active" : ""
-                  }`}
+                  className={`navbar-brand ${selectedNavItem === "Home" ? "active" : ""
+                    }`}
                   onClick={() => handleNavItemClick("Home")}
                 >
                   <img
@@ -174,9 +173,8 @@ const NavbarStyle2 = () => {
                   <li className="nav-item">
                     <Link href="/about-us" activeClassName="active">
                       <a
-                        className={`nav-link ${
-                          selectedNavItem === "what we do" ? "active" : ""
-                        }`}
+                        className={`nav-link ${selectedNavItem === "what we do" ? "active" : ""
+                          }`}
                         onClick={() => handleNavItemClick("what we do")}
                       >
                         What we do
@@ -187,9 +185,8 @@ const NavbarStyle2 = () => {
                   <li className="nav-item">
                     <Link href="/services" activeClassName="active">
                       <a
-                        className={`nav-link ${
-                          selectedNavItem === "How it works" ? "active" : ""
-                        }`}
+                        className={`nav-link ${selectedNavItem === "How it works" ? "active" : ""
+                          }`}
                         onClick={() => handleNavItemClick("How it works")}
                       >
                         How it works
@@ -200,9 +197,8 @@ const NavbarStyle2 = () => {
                   <li className="nav-item">
                     <Link href="/coming-soon" activeClassName="active">
                       <a
-                        className={`nav-link ${
-                          selectedNavItem === "Blog" ? "active" : ""
-                        }`}
+                        className={`nav-link ${selectedNavItem === "Blog" ? "active" : ""
+                          }`}
                         onClick={() => handleNavItemClick("Blog")}
                       >
                         Blog
@@ -213,9 +209,8 @@ const NavbarStyle2 = () => {
                   <li className="nav-item">
                     <Link href="/coming-soon" activeClassName="active">
                       <a
-                        className={`nav-link ${
-                          selectedNavItem === "Career" ? "active" : ""
-                        }`}
+                        className={`nav-link ${selectedNavItem === "Career" ? "active" : ""
+                          }`}
                         onClick={() => handleNavItemClick("Career")}
                       >
                         Career
@@ -225,11 +220,10 @@ const NavbarStyle2 = () => {
                   <li className="nabar-buttons">
                     <Link href="/contact" activeClassName="active">
                       <a
-                        className={`default-btn style-two ${
-                          selectedNavItem === "Apply as a Developer"
-                            ? "active"
-                            : ""
-                        }`}
+                        className={`default-btn style-two ${selectedNavItem === "Apply as a Developer"
+                          ? "active"
+                          : ""
+                          }`}
                         onClick={() =>
                           handleNavItemClick("Apply as a Developer")
                         }
@@ -241,9 +235,8 @@ const NavbarStyle2 = () => {
                   <li className="nabar-buttons">
                     <Link href="/contact" activeClassName="active">
                       <a
-                        className={`default-btn style-two ${
-                          selectedNavItem === "Hire a Talent" ? "active" : ""
-                        }`}
+                        className={`default-btn style-two ${selectedNavItem === "Hire a Talent" ? "active" : ""
+                          }`}
                         onClick={() => handleNavItemClick("Hire a Talent")}
                       >
                         Hire a Talent
@@ -256,10 +249,10 @@ const NavbarStyle2 = () => {
               {/* <span className="ri-edit-2-line"></span> */}
               {/* <span className="ri-edit-2-line"></span> */}
               <div className="others-option">
-                <Link href="/contact">
+                <Link href="https://form.jotform.com/232274579439468 ">
                   <a className="default-btn style-two">Apply as a Developer</a>
                 </Link>
-                <Link href="/contact">
+                <Link href="https://calendly.com/esparktalent/espark-talent">
                   <a className="default-btn style-two">Hire a Talent</a>
                 </Link>
               </div>
