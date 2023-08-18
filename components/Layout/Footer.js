@@ -175,7 +175,7 @@ const Footer = () => {
                     </Link>
                   </li>
                   <li>
-                    <Link href="/coming-soon">
+                    <Link href="/terms-conditions">
                       <a>Terms & Conditions</a>
                     </Link>
                   </li>
