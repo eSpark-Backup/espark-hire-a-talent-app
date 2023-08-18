@@ -9017,3 +9017,223 @@ Footer Area CSS
 .talent-logo {
   max-width: 120px;
 }
+
+/*================================================
+subscribe2 Area CSS
+=================================================*/
+/* .subscribe2-inner {
+  padding: 100px;
+  text-align: center;
+  border-radius: 30px;
+  background-color: var(--mainColor);
+  background-image: url(/images/shape/bg-shape.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+} */
+.subscribe2-inner {
+  padding: 100px;
+  text-align: center;
+  background-color: var(--mainColor);
+  background-image: url(/images/shape/bg-shape.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.subscribe2-inner .sub-title {
+  background-color: rgba(255, 255, 255, 0.1);
+  -webkit-transition: var(--transition);
+  transition: var(--transition);
+  color: var(--whiteColor);
+  display: inline-block;
+  margin-bottom: 15px;
+  letter-spacing: 1px;
+  border-radius: 5px;
+  padding: 4px 25px;
+  font-size: 14px;
+  font-weight: 300;
+}
+
+.subscribe2-inner .sub-title:hover {
+  background-color: var(--whiteColor);
+  color: var(--mainColor);
+}
+
+.cta-images {
+  position: absolute;
+  display: none;
+  width: 100%;
+}
+.subscribe2-area .cta-image1 {
+  position: relative;
+  z-index: 1;
+  top: 117px;
+  left: 220px;
+}
+.subscribe2-area .cta-image2 {
+  position: relative;
+  z-index: 1;
+  top: 12px;
+  left: 1400px;
+  width: 114px;
+  height: 114px;
+}
+.subscribe2-area .cta-image3 {
+  position: relative;
+  z-index: 1;
+  top: 210px;
+  left: 1100px;
+}
+
+/* .subscribe2-inner h2 {
+  margin-bottom: 10px;
+  color: var(--whiteColor);
+  font-size: 40px;
+  font-weight: 400;
+  font-family: var(--fontFamily2);
+} */
+
+.subscribe2-inner h2 {
+  margin-bottom: 10px px;
+  color: var(--whiteColor);
+  font-size: 50px;
+  font-weight: bolder;
+  font-family: var(--fontFamily2);
+}
+
+.subscribe2-inner h2 span {
+  color: var(--mainColor);
+}
+
+.subscribe2-inner p {
+  color: var(--whiteColor);
+  max-width: 650px;
+  opacity: 0.9;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* .subscribe2-inner .newsletter-form {
+  padding-right: 195px;
+  position: relative;
+  max-width: 650px;
+  margin-top: 25px;
+  margin-left: auto;
+  margin-right: auto;
+} */
+.subscribe2-inner .newsletter-form {
+  max-width: 650px;
+  margin-top: 25px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.subscribe2-inner .newsletter-form .input-newsletter {
+  width: 100%;
+  height: 50px;
+  border: none;
+  display: block;
+  font-size: 15px;
+  border-radius: 5px;
+  padding-left: 15px;
+  color: var(--whiteColor);
+  background-color: rgba(0, 0, 0, 0.36);
+}
+
+.subscribe2-inner
+  .newsletter-form
+  .input-newsletter::-webkit-input-placeholder {
+  color: var(--whiteColor);
+  -webkit-transition: var(--transition);
+  transition: var(--transition);
+}
+
+.subscribe2-inner .newsletter-form .input-newsletter:-ms-input-placeholder {
+  color: var(--whiteColor);
+  -webkit-transition: var(--transition);
+  transition: var(--transition);
+}
+
+.subscribe2-inner .newsletter-form .input-newsletter::-ms-input-placeholder {
+  color: var(--whiteColor);
+  -webkit-transition: var(--transition);
+  transition: var(--transition);
+}
+
+.subscribe2-inner .newsletter-form .input-newsletter::placeholder {
+  color: var(--whiteColor);
+  -webkit-transition: var(--transition);
+  transition: var(--transition);
+}
+
+.subscribe2-inner
+  .newsletter-form
+  .input-newsletter:focus::-webkit-input-placeholder {
+  color: transparent;
+}
+
+.subscribe2-inner
+  .newsletter-form
+  .input-newsletter:focus:-ms-input-placeholder {
+  color: transparent;
+}
+
+.subscribe2-inner
+  .newsletter-form
+  .input-newsletter:focus::-ms-input-placeholder {
+  color: transparent;
+}
+
+.subscribe2-inner .newsletter-form .input-newsletter:focus::placeholder {
+  color: transparent;
+}
+
+/* .subscribe2-inner .newsletter-form button {
+  background-color: var(--whiteColor);
+  -webkit-transition: var(--transition);
+  transition: var(--transition);
+  color: var(--mainColor);
+  position: absolute;
+  border-radius: 5px;
+  border: none;
+  height: 50px;
+  right: 0;
+  top: 0;
+  padding-left: 30px;
+  padding-right: 50px;
+  font-family: var(--fontFamily2);
+  font-size: var(--fontSize);
+  font-weight: 500;
+} */
+
+.subscribe2-inner .newsletter-form button {
+  background-color: var(--whiteColor);
+  -webkit-transition: var(--transition);
+  transition: var(--transition);
+  color: var(--mainColor);
+  border-radius: 5px;
+  border: none;
+  height: 50px;
+  right: 0;
+  top: 0;
+  padding-left: 30px;
+  padding-right: 30px;
+  font-family: var(--fontFamily2);
+  font-size: var(--fontSize);
+  font-weight: 500;
+}
+
+.subscribe2-inner .newsletter-form button i {
+  -webkit-transform: translateY(-50%);
+  transform: translateY(-50%);
+  position: absolute;
+  font-size: 25px;
+  right: 22px;
+  top: 50%;
+}
+
+.subscribe2-inner .newsletter-form button:hover {
+  color: var(--whiteColor);
+  background-color: var(--blackColor);
+}

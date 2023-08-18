@@ -6,7 +6,7 @@ export default function PrivacyPolicy() {
   return (
     <React.Fragment>
       <PageTitle homeText="Home" pageTitle="Privacy Policy" pageSubTitle="Privacy Policy" />
-      <div className="ptb-100">
+      <div className="pt-100 pb-50">
         <div className="container">
           <div className="main-text-content">
             <h4>Privacy Policy</h4>
