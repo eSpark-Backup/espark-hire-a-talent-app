@@ -3315,6 +3315,11 @@
   .contact-us-inner-box {
     padding: 40px;
   }
+  .page-title-area2 .shape1,
+  .shape3,
+  .shape4 {
+    display: none;
+  }
 }
 
 /* Min width 1200px to Max width 1355px */
