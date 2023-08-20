@@ -3787,7 +3787,45 @@ Page Title Area CSS
   filter: blur(0);
   opacity: 1;
 }
+.page-title-area2 {
+  z-index: 1;
+  position: relative;
+  background-color: var(--mainColor);
+  background-image: url(/images/shape/bg-shape.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 
+.page-title-area2 .shape1 {
+  left: 7%;
+  top: 27%;
+  width: auto;
+}
+
+.page-title-area2 .shape1 img {
+  animation: none;
+}
+
+.page-title-area2 .shape3 {
+  bottom: 62%;
+  left: auto;
+  right: 8%;
+  width: auto;
+}
+
+.page-title-area2 .shape3 img {
+  animation: none;
+}
+.page-title-area2 .shape4 {
+  bottom: 8%;
+  right: 14%;
+  width: auto;
+}
+
+.page-title-area2 .shape4 img {
+  animation: none;
+}
 /*================================================
 FAQ Area CSS
 =================================================*/
@@ -9034,11 +9072,10 @@ subscribe2 Area CSS
 .subscribe2-inner {
   padding: 100px;
   text-align: center;
-  background-color: var(--mainColor);
-  background-image: url(/images/shape/bg-shape.jpg);
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
+  z-index: -1;
 }
 
 .subscribe2-inner .sub-title {
@@ -9060,7 +9097,7 @@ subscribe2 Area CSS
   color: var(--mainColor);
 }
 
-.cta-images {
+/* .cta-images {
   position: absolute;
   display: none;
   width: 100%;
@@ -9084,7 +9121,7 @@ subscribe2 Area CSS
   z-index: 1;
   top: 210px;
   left: 1100px;
-}
+} */
 
 /* .subscribe2-inner h2 {
   margin-bottom: 10px;
