@@ -3,6 +3,7 @@ import Link from "next/link";
 import { sliderData, footerContact } from "../../constants/constants";
 import NewsletterForm2 from "../Common/NewsletterForm2";
 
+
 const Footer = () => {
   // const contactUs = [
   //   "info@esparktalent.com​​",
