@@ -1700,6 +1700,22 @@
   .copyright-area p {
     text-align: center;
   }
+  .subscribe2-inner {
+    padding: 50px;
+    text-align: center;
+    background-color: var(--mainColor);
+    background-image: url(/images/shape/bg-shape.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .subscribe2-inner h2 {
+    margin-bottom: 10px px;
+    color: var(--whiteColor);
+    font-size: 30px;
+    font-weight: bolder;
+    font-family: var(--fontFamily2);
+  }
 }
 
 /* Min width 576px to Max width 767px */
@@ -2825,6 +2841,13 @@
     border: 1px solid #eee !important;
     padding: 30px;
   }
+  .subscribe2-inner h2 {
+    margin-bottom: 10px px;
+    color: var(--whiteColor);
+    font-size: 40px;
+    font-weight: bolder;
+    font-family: var(--fontFamily2);
+  }
 }
 
 /* Min width 992px to Max width 1199px */
@@ -3292,6 +3315,11 @@
   .contact-us-inner-box {
     padding: 40px;
   }
+  .page-title-area2 .shape1,
+  .shape3,
+  .shape4 {
+    display: none;
+  }
 }
 
 /* Min width 1200px to Max width 1355px */
@@ -3423,7 +3451,6 @@
     max-width: 600px;
   }
 }
-
 /* Min width 1550px */
 @media only screen and (min-width: 1550px) {
   .shape1 {
@@ -3539,6 +3566,9 @@
   }
   .ico-landing-banner-area .container-fluid {
     max-width: 2070px;
+  }
+  .cta-images {
+    display: block;
   }
 }
 /*# sourceMappingURL=responsive.css.map */
