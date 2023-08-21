@@ -58,7 +58,7 @@ export const sliderData = [
     title: "Hire a App Developer​",
     content:
       "We have the most talented and top-notch app developers at eSpark Consulting Group ready to provide quality-based app development services for your businesses Through our expertise, we can help you propel your app content into reality by developing a seamless mobile app experience for your customers. ​ ​",
-    imageLink: "/images/icon/icon8.png",
+    imageLink: "/images/icon/app-development.png",
     link: "/service-details",
     buttonText: "Hire a Talent",
 
@@ -180,7 +180,7 @@ export const sliderData = [
     title: "Hire a Web Developer​",
     content:
       "With robust web development services for your business offered by eSpark, our customers can gain a technological edge in their Web apps and websites which not only improves the overall business productivity but also ensures that your brand's promotion is top notch.​​ ​",
-    imageLink: "/images/icon/icon9.png",
+    imageLink: "/images/icon/web.png",
     link: "/service-details",
     buttonText: "Hire a Talent",
     mainHeading: "Welcome To The Renowned Hub of Top-Quality Web Developers",
@@ -344,7 +344,7 @@ export const sliderData = [
     title: "Hire a Digital Marketer",
     content:
       "Are you looking for a Digital Marketing Expert who ensures that your brand gets much-needed exposure by reaching your dedicated audience? eSpark Consulting Group offers digital marketing professionals required for a breakthrough in the highly competitive online marketing realm. ",
-    imageLink: "/images/icon/icon10.png",
+    imageLink: "/images/icon/digital-campaign.png",
     link: "/service-details",
     buttonText: "Hire a Talent",
     mainHeading:
@@ -968,7 +968,7 @@ export const platFormItems = [
     title: "Interview",
     content:
       "After being shortlisted by our management, you will be called for an interview.​",
-    imageLink: "/images/crypto-startup/platforms/platforms-1.png",
+    imageLink: "/images/crypto-startup/platforms/conversation.png",
     arrowLink: "/images/crypto-startup/platforms/arrow-2.png",
   },
   {
@@ -982,7 +982,7 @@ export const platFormItems = [
     title: "Step Back & Grow",
     content:
       "Your future begins to meet the expectations you've set for yourself.​",
-    imageLink: "/images/crypto-startup/platforms/platforms-3.png",
+    imageLink: "/images/crypto-startup/platforms/Meeting.png",
   },
 ];
 export const title = "How It Works?";
@@ -996,19 +996,19 @@ export const aboutContent =
 export const aboutItems = [
   {
     item: "24/7 Active Service​",
-    imageLink: "/images/icon/icon4.png",
+    imageLink: "/images/icon/clock.png",
   },
   {
     item: "Trustful Connection",
-    imageLink: "/images/icon/icon5.png",
+    imageLink: "/images/icon/trusted.png",
   },
   {
     item: "Hiring in Minutes",
-    imageLink: "/images/icon/icon6.png",
+    imageLink: "/images/icon/hired.png",
   },
   {
     item: "Smart Professionals​",
-    imageLink: "/images/icon/icon7.png",
+    imageLink: "/images/icon/job.png",
   },
 ];
 // Hiring Services component data
@@ -1244,15 +1244,15 @@ export const ContactInfoData = [
 ];
 export const footerContact = [
   {
-    id : 1,
-    item : "info@esparktalent.com"
+    id: 1,
+    item: "info@esparktalent.com"
   },
   {
-    id:2,
-    item : "hr@esparktalent.com"
+    id: 2,
+    item: "hr@esparktalent.com"
   },
   {
-    id:3,
-    item : "support@esparktalent.com"
+    id: 3,
+    item: "support@esparktalent.com"
   }
 ]
