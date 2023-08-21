@@ -1,7 +1,8 @@
 import React from "react";
 import Link from "next/link";
-import NewsletterForm from "../Common/NewsletterForm";
 import { sliderData, footerContact } from "../../constants/constants";
+import NewsletterForm2 from "../Common/NewsletterForm2";
+
 
 const Footer = () => {
   // const contactUs = [
@@ -11,7 +12,7 @@ const Footer = () => {
   // ];
   return (
     <React.Fragment>
-      <NewsletterForm />
+      <NewsletterForm2 />
       <footer className="footer-area">
         <div className="container">
           <div className="row justify-content-center">
