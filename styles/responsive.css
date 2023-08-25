@@ -3450,6 +3450,11 @@
   .contact-us-inner-box .contact-form-wrap {
     max-width: 600px;
   }
+  .page-title-area2 .shape1,
+  .shape3,
+  .shape4 {
+    display: none;
+  }
 }
 /* Min width 1550px */
 @media only screen and (min-width: 1550px) {

@@ -74,13 +74,13 @@ export const sliderData = [
           "Android App Developers",
           "A professional team knows how to include demanding features in a single Android application. You can only find those creative minds on our highlighting listing of professionals.",
           ["React Native​", "Android", "Java", "Flutter"],
-          "/images/icon/icon8.png"
+          "/images/icon/Group29.png"
         ),
         servicesItem(
           "iOS App Developers​",
           "It required clever observations from the developers to come up with the best iOS applications. Our offered listing of developers will bring the best talent available in the town.",
           ["Swift​​", "MVVM/MVP", "UIKit​", "SwiftUI"],
-          "/images/icon/icon9.png"
+          "/images/icon/Group49.png"
         ),
       ],
       content: {
@@ -90,7 +90,7 @@ export const sliderData = [
             paragraph: "",
             list: [
               {
-                icon: "/images/crypto-startup/choose/image-1.png",
+                icon: "/images/crypto-startup/choose/Review.png",
                 title: "Customer Satisfaction",
                 description:
                   "After spending years in the market our developers have cracked the code of designing the applications as per customer's needs.",
@@ -102,7 +102,7 @@ export const sliderData = [
                   "Our team has years of experience in the development of Android and iOS applications. They are on command to impress you and show their talent.",
               },
               {
-                icon: "/images/crypto-startup/choose/image-3.png",
+                icon: "/images/crypto-startup/choose/Group52.png",
                 title: "24/7 Availability",
                 description:
                   "The need for mobile applications won’t end and our outsourced developers are here to be active all day. You are free to pick our top-rated developers under cost-efficient charges.",
@@ -125,19 +125,19 @@ export const sliderData = [
             paragraph: "",
             list: [
               {
-                icon: "/images/crypto-startup/invest/image-1.png",
+                icon: "/images/crypto-startup/invest/mobile_app.png",
                 title: "Build of Applications",
                 description:
                   "Our developers start working from the basics and build Android, iOS, Flutter, and React Native applications that come with management and other inclusions.",
               },
               {
-                icon: "/images/crypto-startup/invest/image-2.png",
+                icon: "/images/crypto-startup/invest/Group53.png",
                 title: "Launch of Applications",
                 description:
                   "Working with more than fifty companies our experts have launched numerous applications successfully. They know all the insights about the trend of user-friendly mobile applications.",
               },
               {
-                icon: "/images/crypto-startup/invest/image-3.png",
+                icon: "/images/crypto-startup/invest/Group54.png",
                 title: "Update of The Applications",
                 description:
                   "Our offered specialists update the already developed applications. They pursue knowledge about the requirements of mobile application updates.",
@@ -193,7 +193,7 @@ export const sliderData = [
           "JavaScript Developers​",
           "You can stimulate the users with the help of JavaScript developers hired from our demanding platform. Our services are open all day to offer talented individuals.",
           ["React. Js", "Vue.Js", "Next.Js", "Angular"],
-          "/images/icon/icon8.png"
+          "/images/icon/Group61.png"
         ),
         servicesItem(
           ".Net Developers​",
@@ -204,7 +204,7 @@ export const sliderData = [
             "Web Applications",
             "Data Analysis​",
           ],
-          "/images/icon/icon9.png"
+          "/images/icon/Group62.png"
         ),
         servicesItem(
           "Node.js Developers​",
@@ -215,7 +215,7 @@ export const sliderData = [
             "Design Ideas",
             "High Performance Applications​​",
           ],
-          "/images/icon/icon10.png"
+          "/images/icon/Group63.png"
         ),
         servicesItem(
           "WordPress Developers​",
@@ -226,7 +226,7 @@ export const sliderData = [
             "Expertise in PLs",
             "Technical Knowledge​​",
           ],
-          "/images/icon/icon11.png"
+          "/images/icon/Group64.png"
         ),
         servicesItem(
           "Shopify Developers​​",
@@ -237,13 +237,13 @@ export const sliderData = [
             "Domain Assistance",
             "Query Management​",
           ],
-          "/images/icon/icon12.png"
+          "/images/icon/Shopify.png"
         ),
         servicesItem(
           "PHP Developers​​",
           "Our PHP developers are lined up for you to come and hire them. They are just a few steps away to be on your side and offer acclaimed skills.",
           ["CRM", "API", "Cloud Assistance", "Laravel​"],
-          "/images/icon/icon13.png"
+          "/images/icon/Php.png"
         ),
       ],
       content: {
@@ -254,19 +254,19 @@ export const sliderData = [
             paragraph: "",
             list: [
               {
-                icon: "/images/crypto-startup/choose/image-1.png",
+                icon: "/images/crypto-startup/choose/Group60.png",
                 title: "Creative Ideas​",
                 description:
                   "Business empires are built with creative ideas and our specialists know it. We create, innovate, and build companies by offering web development professionals.",
               },
               {
-                icon: "/images/crypto-startup/choose/image-2.png",
+                icon: "/images/crypto-startup/choose/Group59.png",
                 title: "Innovative Designs​​",
                 description:
                   "Web development is for the boost of business company. Collaborate with our active developers to get innovative and captivating web development and designing services.",
               },
               {
-                icon: "/images/crypto-startup/choose/image-3.png",
+                icon: "/images/crypto-startup/choose/Group57.png",
                 title: "Sustainable Results​​​",
                 description:
                   "Our clients trust us because we bring sustainable results. Working in the industry for more than a decade we have built a powerful network worldwide.",
@@ -289,19 +289,19 @@ export const sliderData = [
             paragraph: "",
             list: [
               {
-                icon: "/images/crypto-startup/invest/image-1.png",
+                icon: "/images/crypto-startup/invest/Group55.png",
                 title: "Back End Development​",
                 description:
                   "Hire our developers and leave the back-end programming work to our specialists. Track and manage them all day and witness their productive work.",
               },
               {
-                icon: "/images/crypto-startup/invest/image-2.png",
+                icon: "/images/crypto-startup/invest/Ux.png",
                 title: "Front End Development​​",
                 description:
                   "Improvement of the font end presence of the website comes under the prime expertise of our professionals. Our team is an expert in front-end development.",
               },
               {
-                icon: "/images/crypto-startup/invest/image-3.png",
+                icon: "/images/crypto-startup/invest/Group56.png",
                 title: "Full Stack Development​​",
                 description:
                   "Our offered professionals can handle the pressure of full-stack development. They pursue the understanding of coding, programming, and designing like true professionals.",
@@ -364,7 +364,7 @@ export const sliderData = [
             "Instagram Ads",
             "Product Marketing",
           ],
-          "/images/icon/icon8.png"
+          "/images/icon/Group.png"
         ),
         servicesItem(
           "Landing Page Experts",
@@ -375,7 +375,7 @@ export const sliderData = [
             "Advertisement/PR",
             "Newsletters",
           ],
-          "/images/icon/icon9.png"
+          "/images/icon/Landing page.png"
         ),
         servicesItem(
           "CRO Executives",
@@ -386,7 +386,7 @@ export const sliderData = [
             "Marketing Speak",
             "CRO Consulting",
           ],
-          "/images/icon/icon10.png"
+          "/images/icon/Man.png"
         ),
         servicesItem(
           "PPC Specialists",
@@ -397,7 +397,7 @@ export const sliderData = [
             "SEO Strategy",
             "Search Engine Ranking",
           ],
-          "/images/icon/icon11.png"
+          "/images/icon/Paid_search.png"
         ),
         servicesItem(
           "Social Media Handlers",
@@ -408,13 +408,13 @@ export const sliderData = [
             "Promotional Copies",
             "Digital Platforms Handling",
           ],
-          "/images/icon/icon12.png"
+          "/images/icon/Social_media.png"
         ),
         servicesItem(
           "Content Writers/SEO Experts",
           "Content is king and every business requires a team of creative minds who produce brand promoting and audience-grabbing worlds. Connect with us and hire a creative writer.",
           ["Blogs", "Articles", "Copies", "Web Content"],
-          "/images/icon/icon13.png"
+          "/images/icon/Copywriting.png"
         ),
       ],
       content: {
@@ -425,19 +425,19 @@ export const sliderData = [
             paragraph: "",
             list: [
               {
-                icon: "/images/crypto-startup/choose/image-1.png",
+                icon: "/images/crypto-startup/choose/Worldwide.png",
                 title: "Sustainable Marketing Strategies",
                 description:
                   "Our professionals will assist you to kick off marketing strategies and end them on higher notes. They know how to get involved and support in every marketing campaign.",
               },
               {
-                icon: "/images/crypto-startup/choose/image-2.png",
+                icon: "/images/crypto-startup/choose/Highlighter.png",
                 title: "Highlight Positive Image",
                 description:
                   "Digital marketers are the real brand promoters of product and service-providing companies. Our specialists will spread the positive and humble image of your business worldwide.",
               },
               {
-                icon: "/images/crypto-startup/choose/image-3.png",
+                icon: "/images/crypto-startup/choose/Brand_image.png",
                 title: "Successful Brand Promotions",
                 description:
                   "Our clients trust us because we bring sustainable results. Working in the industry for more than a decade we have built a powerful network worldwide.",
@@ -460,19 +460,19 @@ export const sliderData = [
             paragraph: "",
             list: [
               {
-                icon: "/images/crypto-startup/invest/image-1.png",
+                icon: "/images/crypto-startup/invest/Sharing.png",
                 title: "Content Marketing",
                 description:
                   "Hire our developers and leave the back-end programming work to our specialists. Track and manage them all day and witness their productive work.",
               },
               {
-                icon: "/images/crypto-startup/invest/image-2.png",
+                icon: "/images/crypto-startup/invest/Paid.png",
                 title: "Paid Promotions",
                 description:
                   "Our specialists in digital marketing can run paid promotional campaigns. Our outsourced talent have proven themselves by bringing valuable leads to their hired companies.",
               },
               {
-                icon: "/images/crypto-startup/invest/image-3.png",
+                icon: "/images/crypto-startup/invest/Social_media.png",
                 title: "Social Media Optimisation",
                 description:
                   "Handling and management of social media platforms have become vital today. Our offered team of marketers will work on boosting your company’s presence on social media platforms.",
@@ -536,7 +536,7 @@ export const sliderData = [
             "Embedded Linux",
             "Debugging & Tracing",
           ],
-          "/images/icon/icon8.png"
+          "/images/icon/Group67.png"
         ),
         servicesItem(
           "PCB Design and Assembly​​",
@@ -547,7 +547,7 @@ export const sliderData = [
             "PCB Routing",
             "Debugging & Testing",
           ],
-          "/images/icon/icon9.png"
+          "/images/icon/Pcb.png"
         ),
         servicesItem(
           "Python / Matlab​​",
@@ -558,7 +558,7 @@ export const sliderData = [
             "Simulation & Testing",
             "AI & Data Sciences",
           ],
-          "/images/icon/icon10.png"
+          "/images/icon/Python.png"
         ),
       ],
       content: {
@@ -569,19 +569,19 @@ export const sliderData = [
             paragraph: "",
             list: [
               {
-                icon: "/images/crypto-startup/choose/image-1.png",
+                icon: "/images/crypto-startup/choose/Teamwork.png",
                 title: "Working Solutions",
                 description:
                   "Embedded professionals have to be problem-solvers. That’s how they understand the need of operational software to run hardware devices.",
               },
               {
-                icon: "/images/crypto-startup/choose/image-2.png",
+                icon: "/images/crypto-startup/choose/Cosmetics.png",
                 title: "Professional Product Designs",
                 description:
                   "The listed embedded professionals possess quality expertise to design the hardware tools as per the requirement. They are experts in their own technical work.",
               },
               {
-                icon: "/images/crypto-startup/choose/image-3.png",
+                icon: "/images/crypto-startup/choose/Test.png",
                 title: "Quality Testing",
                 description:
                   "You need expert hands in testing the quality and working of the software systems and hardware samples. And our professionals acquire all technical knowledge about embedded development.",
@@ -604,19 +604,19 @@ export const sliderData = [
             paragraph: "",
             list: [
               {
-                icon: "/images/crypto-startup/invest/image-1.png",
+                icon: "/images/crypto-startup/invest/Group68.png",
                 title: "Embedded Operating Systems",
                 description:
                   "Our Embedded developers program the devices to follow the command and bring out positive results. You can hire them anytime by reaching out to us.",
               },
               {
-                icon: "/images/crypto-startup/invest/image-2.png",
+                icon: "/images/crypto-startup/invest/Group69.png",
                 title: "Embedded Programming Languages​",
                 description:
                   "Programming languages are revolutionising the world. You should also join the party with our embedded developers who have experience in advanced programming languages.",
               },
               {
-                icon: "/images/crypto-startup/invest/image-3.png",
+                icon: "/images/crypto-startup/invest/Coding.png",
                 title: "Embedded Development Environment​",
                 description:
                   "With the employ of IDE, our professionals work on the implementation of software for embedded systems. For real-time operations, there will be a need for an Embedded Development Environment.",
@@ -674,7 +674,7 @@ export const sliderData = [
           "MongoDB Developers​",
           "Meet with a genius team of MongoDB developers. With faster and more scalable services they offer their services life and professional database engineers.",
           ["MongoDB Atlas​", "CRUD Methods​", "JSON", "MongoDB JavaScript​"],
-          "/images/icon/icon8.png"
+          "/images/icon/Database.png"
         ),
         servicesItem(
           "MariaDB Developers​​",
@@ -685,7 +685,7 @@ export const sliderData = [
             "C++​",
             "Linux Distributions​",
           ],
-          "/images/icon/icon9.png"
+          "/images/icon/DB.png"
         ),
         servicesItem(
           "Firebase Developers ​​​",
@@ -696,13 +696,13 @@ export const sliderData = [
             "Firebase Services​​",
             "Machine Learning Kit​​",
           ],
-          "/images/icon/icon10.png"
+          "/images/icon/Server.png"
         ),
         servicesItem(
           "MySQL Developers​​​​",
           "MySQL is a relational database that is managed by experienced database professionals. It is easy and handy to hire them and avail their offered services.",
           ["Oracle​", "Logical Data Model​​", "JSON​​", "Data Manipulation​​​"],
-          "/images/icon/icon11.png"
+          "/images/icon/Mysql.png"
         ),
         servicesItem(
           "SQL Developers​​​​​",
@@ -713,7 +713,7 @@ export const sliderData = [
             "Scalar Functions​",
             "Quadratic Function​​​",
           ],
-          "/images/icon/icon12.png"
+          "/images/icon/Sql.png"
         ),
         servicesItem(
           "PostgreSQL Developers​​",
@@ -724,7 +724,7 @@ export const sliderData = [
             "Named Notation​​",
             "Extended Features​​​​",
           ],
-          "/images/icon/icon13.png"
+          "/images/icon/Group70.png"
         ),
       ],
       content: {
@@ -735,19 +735,19 @@ export const sliderData = [
             paragraph: "",
             list: [
               {
-                icon: "/images/crypto-startup/choose/image-1.png",
+                icon: "/images/crypto-startup/choose/Server.png",
                 title: "Professional Database Solutions​",
                 description:
                   "It always feels a headache to handle all the data. Feel the same problem? Don’t worry, as our outsourced assistance is with you with the best solutions.",
               },
               {
-                icon: "/images/crypto-startup/choose/image-2.png",
+                icon: "/images/crypto-startup/choose/Database_1.png",
                 title: "Employ of New Database​​",
                 description:
                   "Our offered talent will assist in developing and managing the new database. You will get all the details of the data from our team of hired professionals.",
               },
               {
-                icon: "/images/crypto-startup/choose/image-3.png",
+                icon: "/images/crypto-startup/choose/Cloud.png",
                 title: "Database Update​​",
                 description:
                   "If it looks challenging to update an already existing database. Then this is the time to hire an outsourced workforce to update the system and handle it all.",
@@ -768,19 +768,19 @@ export const sliderData = [
             paragraph: "",
             list: [
               {
-                icon: "/images/crypto-startup/invest/image-1.png",
+                icon: "/images/crypto-startup/invest/Database_2.png",
                 title: "Database Designing",
                 description:
                   "Designing the crucial part of a business database management system. You will need skillful hands for the design.",
               },
               {
-                icon: "/images/crypto-startup/invest/image-2.png",
+                icon: "/images/crypto-startup/invest/Server_1.png",
                 title: "Database Programming​",
                 description:
                   "The digitalisation and store of the data in applications are possible after programming. It means you require a team of database programmers.",
               },
               {
-                icon: "/images/crypto-startup/invest/image-3.png",
+                icon: "/images/crypto-startup/invest/Server_2.png",
                 title: "RDBMS​",
                 description:
                   "Are you in search for a modern database management system?  We have a team of database geniuses who are proficient in SQL, Oracle, and other various systems.",
@@ -844,7 +844,7 @@ export const sliderData = [
             "Security Tests​",
             "Unit Testing",
           ],
-          "/images/icon/icon8.png"
+          "/images/icon/Artificial intelligence.png"
         ),
         servicesItem(
           "Manual Testing​​",
@@ -855,7 +855,7 @@ export const sliderData = [
             "System Testing​​",
             "White Box Testing​",
           ],
-          "/images/icon/icon9.png"
+          "/images/icon/Test.png"
         ),
       ],
       content: {
@@ -866,19 +866,19 @@ export const sliderData = [
             paragraph: "",
             list: [
               {
-                icon: "/images/crypto-startup/choose/image-1.png",
+                icon: "/images/crypto-startup/choose/Quick.png",
                 title: "Quick Testing",
                 description:
                   "It’s a game of a few minutes to conduct testing of software applications and hardware devices. Our furnished team works with full technical specialisation.",
               },
               {
-                icon: "/images/crypto-startup/choose/image-2.png",
+                icon: "/images/crypto-startup/choose/Checklist.png",
                 title: "Required Updates",
                 description:
                   "The accountability and conduct of needed updates come under our QA engineers’ supervision. They entail the opportunity to show the magic of their acquired skills.",
               },
               {
-                icon: "/images/crypto-startup/choose/image-3.png",
+                icon: "/images/crypto-startup/choose/Virus.png",
                 title: "Alternation of Defects​",
                 description:
                   "We work as true professionals and our team just not identify the flaws but it offers the required assistance in the alternation of defects and errors.",
@@ -900,19 +900,19 @@ export const sliderData = [
             paragraph: "",
             list: [
               {
-                icon: "/images/crypto-startup/invest/image-1.png",
+                icon: "/images/crypto-startup/invest/Planning.png",
                 title: "Quality Management",
                 description:
                   "In quality management, our smarties measure and balance the quality of the products and applications. They also take care of consumer satisfaction in the process.",
               },
               {
-                icon: "/images/crypto-startup/invest/image-2.png",
+                icon: "/images/crypto-startup/invest/Check mark.png",
                 title: "Details of Production Inspections",
                 description:
                   "The process of detailed analysis of our professionals is conducted under four inspections. The employ of the inspections alter the upcoming damage and maintain the quality of the product.",
               },
               {
-                icon: "/images/crypto-startup/invest/image-3.png",
+                icon: "/images/crypto-startup/invest/Form.png",
                 title: "Audit & Analyse of Project Quality",
                 description:
                   "QA strategies include the conduct of audits and analyses of intended projects to boost performance and offer safety standards.",
