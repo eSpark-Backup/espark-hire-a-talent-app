@@ -1020,13 +1020,13 @@ export const HiringServicesShape = "/images/shape/shape5.png";
 export const HiringServicesItems = [
   {
     heading: "Offer Productive Employees ​​",
-    image: "/images/crypto-startup/choose/image-1.png",
+    image: "/images/crypto-startup/choose/Marketing strategy.png",
     paragraph:
       "Diligent employees and their expertise can uplift your business in the market so why not a partner company that is best at offering experienced outsourced employees? Our team is open for services anytime anywhere.",
   },
   {
     heading: "Handle Management Issues",
-    image: "/images/crypto-startup/choose/image-2.png",
+    image: "/images/crypto-startup/choose/Warning.png",
     paragraph:
       "Now you will be able to manage your team from every part of the world or leave it to our active team. In order to handle all management errors your team need some extra experienced hands of a profound group of people like ours!",
   },
@@ -1057,28 +1057,28 @@ export const ProcessData = [
     heading: "Furnish Prolific Professionals",
     paragraph:
       "The recruitment process is never easy, you need the support of proven professionals. Meet with our team hand-pick smart and experienced creative minds in minutes.",
-    image: "/images/icon/icon14.png",
+    image: "/images/icon/Furnish_Prolific.png",
     delay: "400",
   },
   {
     heading: "Train Creative Talent",
     paragraph:
       "We know what you are aiming for. We train the younger talent to be the best of themselves and offer their earned expertise.",
-    image: "/images/icon/icon15.png",
+    image: "/images/icon/Train_Creative.png",
     delay: "600",
   },
   {
     heading: "Easy Onboard Process",
     paragraph:
       "You will just need to reach out to us, and we will take it from there. Our services are just one click away from offering you, our experts.",
-    image: "/images/icon/icon16.png",
+    image: "/images/icon/Onboard_Process.png",
     delay: "800",
   },
   {
     heading: "24 HRM Services",
     paragraph:
       "From the recruitment process to hiring, connect with the exclusive team of HR professionals avail all services.",
-    image: "/images/icon/icon14.png",
+    image: "/images/icon/HRM_Services.png",
     delay: "1000",
   },
 ];
@@ -1095,19 +1095,19 @@ export const WhatWeWorkShape =
   "/images/cybersecurity-services/what-we-work/shape.png";
 export const WhatWeWorkItems = [
   {
-    icon: "/images/cybersecurity-services/what-we-work/image-1.png",
+    icon: "/images/cybersecurity-services/what-we-work/Recruitment.png",
     title: "Observant Recruiters",
     description:
       "Research is the backbone of our HRM team, as we never miss any skillful and accomplished professional. We have a team with eagle-eye instincts to pick candidates.",
   },
   {
-    icon: "/images/cybersecurity-services/what-we-work/image-2.png",
+    icon: "/images/cybersecurity-services/what-we-work/Group43.png",
     title: "Clever Hiring Team",
     description:
       "Our hiring process goes through a professional recruitment cycle. And that’s how we have a strong team of smart executives who select employees with sharp hunches.",
   },
   {
-    icon: "/images/cybersecurity-services/what-we-work/image-3.png",
+    icon: "/images/cybersecurity-services/what-we-work/Group44.png",
     title: "Dynamic Management Trainers ",
     description:
       "We find, select, and train our top-picked professionals for you. Through an easy hiring process, companies  can get hard-working professionals at hand.",
@@ -1123,25 +1123,25 @@ export const processOfHowItWorks = [
     heading: "Recruit",
     content:
       "Exploration of the candidate is the first step in our recruitment process. Picking up outsourced talents is the day-to-day practice of our expert recruiters.",
-    imageLink: "/images/cybersecurity-services/services/services-1.png",
+    imageLink: "/images/cybersecurity-services/services/Recruit.png",
   },
   {
     heading: "Shortlist",
     content:
       "Selecting the top candidates comes under the prime expertise of our clever hiring team. They know how to test the talent and pick the foremost candidates.",
-    imageLink: "/images/cybersecurity-services/services/services-2.png",
+    imageLink: "/images/cybersecurity-services/services/Shortlist.png",
   },
   {
     heading: "Hire",
     content:
       "Hiring is the final step in the process of selecting the worthy talent that is decided after proper discussion with our specialist.",
-    imageLink: "/images/cybersecurity-services/services/services-3.png",
+    imageLink: "/images/cybersecurity-services/services/Hire.png",
   },
   {
     heading: "Train",
     content:
       "Training is our extended and updated service that helps the top-picked talent to utilize their earned skills and get ready to work for our outsourced clients.",
-    imageLink: "/images/cybersecurity-services/services/services-4.png",
+    imageLink: "/images/cybersecurity-services/services/Train.png",
   },
 ];
 
@@ -1155,19 +1155,19 @@ export const FeaturesCard = [
     title: "Search The Talent​",
     content:
       "We leave it to our clients to choose their favorite professional. With our expert guide, they pick the best talent.​​",
-    imageLink: "/images/cybersecurity-services/features/features-1.png",
+    imageLink: "/images/cybersecurity-services/features/14771.png",
   },
   {
     title: "Conduct Casual Meeting​​",
     content:
       "We conducted interviews with our clients to learn more about their interests and give them knowledge about our extended services.​​",
-    imageLink: "/images/cybersecurity-services/features/features-2.png",
+    imageLink: "/images/cybersecurity-services/features/Social media.png",
   },
   {
     title: "Offer Professionals in Minutes​​​",
     content:
       "After an easy hiring process, our professionals join the clients within a day.​",
-    imageLink: "/images/cybersecurity-services/features/features-3.png",
+    imageLink: "/images/cybersecurity-services/features/Group46.png",
   },
 ];
 
@@ -1180,19 +1180,19 @@ export const OurServicesCards = [
     title: "Secure Plan​",
     content:
       "We offer a plan that suits our clients. Our secure plan does not only benefit the clients but also supports the offered professionals.",
-    imageLink: "/images/icon/icon9.png",
+    imageLink: "/images/icon/Group_45.png",
   },
   {
     title: "Timely Plan​​​",
     content:
       "We are ready to offer a timely plan that starts within a day. Our clients will be able to hire professionals for a day in minutes. ​​",
-    imageLink: "/images/icon/icon10.png",
+    imageLink: "/images/icon/15.png",
   },
   {
     title: "Flexible Scheme ​​​",
     content:
       "In this scheme, it is all about our client’s needs. We will design the plan the way they want. This plan is most recommended.​​​",
-    imageLink: "/images/icon/icon11.png",
+    imageLink: "/images/icon/Scheme.png",
   },
 ];
 
