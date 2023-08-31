@@ -1015,7 +1015,7 @@ export const aboutItems = [
 export const HiringServicesTitle = "Why Choose Our HR Hiring Service? ";
 export const HiringServicesParaggraph =
   "We provide what you dream for your company. Our team offers those services that fill out your requirements. A friendly collaboration with our team saves your time and frees you from hiring, managing and training your talented workforce.";
-export const HiringServicesImg = "/images/about.jpg";
+export const HiringServicesImg = "/images/07.png";
 export const HiringServicesShape = "/images/shape/shape5.png";
 export const HiringServicesItems = [
   {
@@ -1090,7 +1090,7 @@ export const partnerParagraph =
 export const WhatWeWorkTitle =
   "Our Team With Years of Professional Assistance is Waiting for You to Connect!";
 export const WhatWeWorkImage =
-  "/images/cybersecurity-services/what-we-work/what-we-work.png";
+  "/images/cybersecurity-services/what-we-work/08.png";
 export const WhatWeWorkShape =
   "/images/cybersecurity-services/what-we-work/shape.png";
 export const WhatWeWorkItems = [
