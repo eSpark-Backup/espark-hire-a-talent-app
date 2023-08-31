@@ -1,21 +1,21 @@
 export const personsData = [
   {
-    img: "/images/team/team12.jpg",
+    img: "/images/team/02.png",
     name: "Ben Stokes",
     rank: "Marketing Lead",
   },
   {
-    img: "/images/team/team13.jpg",
+    img: "/images/team/03.png",
     name: "Sarah Taylor",
     rank: "Art Director",
   },
   {
-    img: "/images/team/team14.jpg",
+    img: "/images/team/04.png",
     name: "Ellyse Perry",
     rank: "Designer",
   },
   {
-    img: "/images/team/team15.jpg",
+    img: "/images/team/05.png",
     name: "Steven Smith",
     rank: "Development",
   },
@@ -39,7 +39,7 @@ export const bannerData = [
     subTitle: "Hire employees in Pakistan, hassle-free",
     title: "Hire employees in Pakistan, hassle-free ",
     para: "With eSpark, your business can easily hire employees in Pakistan. No more worrying about local laws, complex tax systems, or managing international payroll. eSpark takes care of everything in 50+ countries. ​",
-    imagePath: "/images/banner-img1.png",
+    imagePath: "/images/banner-img.png",
     link: "/contact",
     buttonText: "Hire A Pro",
   },
