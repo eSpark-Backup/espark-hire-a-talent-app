@@ -15,11 +15,11 @@ const GetStarted = (props) => {
                 data-aos-duration="1200"
                 data-aos-once="true"
               >
-                <img src="/images/man.png" alt="image" />
+                <img src="/images/06.png" alt="image" className='pt-5' />
               </div>
             </div>
             <div className="col-lg-6 col-md-12">
-              <div className="get-started-content">
+              <div className="get-started-content pt-0">
                 {/* <span className="sub-title">READY TO STARTED?</span> */}
                 <h2>
                   {title}
