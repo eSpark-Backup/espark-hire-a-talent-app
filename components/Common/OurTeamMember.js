@@ -3,7 +3,7 @@ import Link from 'next/link'
 
 const OurTeamMember = (props) => {
   const { data, items, teamData } = props
- return (
+  return (
     <>
       <div className="team-area bg-gradient-image ptb-100">
         <div className="container">
@@ -13,7 +13,7 @@ const OurTeamMember = (props) => {
                 <div className="row justify-content-center">
                   {data?.map((person, i) => (
                     <div
-                    key={i}
+                      key={i}
                       className="col-lg-6 col-md-6 col-sm-6"
                       data-aos="fade-up"
                       data-aos-delay="300"
