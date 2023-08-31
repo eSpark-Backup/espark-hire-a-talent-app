@@ -1,6 +1,6 @@
 import React from "react";
 
-const ReasonsToInvestInCryptocurrency = ({ title, data }) => {
+const ReasonsToInvestInCryptocurrency = ({ title, data, image }) => {
   return (
     <>
       <div className="invest-area pb-100">
@@ -62,10 +62,10 @@ const ReasonsToInvestInCryptocurrency = ({ title, data }) => {
                 </div> */}
               </div>
             </div>
-            <div className="col-lg-6 col-md-12">
+            <div className="col-lg-6 col-md-12 text-center">
               <div className="invest-image">
                 <img
-                  src="/images/crypto-startup/invest/invest.png"
+                  src={image}
                   alt="image"
                 />
               </div>
