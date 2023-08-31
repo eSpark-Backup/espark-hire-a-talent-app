@@ -15,7 +15,7 @@ const AboutUs = (props) => {
                 data-aos-duration="1000"
                 data-aos-once="true"
               >
-                <img src="/images/about3.png" alt="image" />
+                <img src="/images/01.png" alt="image" />
                 <div className="shape5">
                   <img src="/images/shape/shape5.png" alt="image" />
                 </div>
