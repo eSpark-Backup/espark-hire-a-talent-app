@@ -17,7 +17,7 @@ const WhyChooseUs = ({ title, para, items }) => {
                 <ul className="list">
                   {items.map((eachItem, i) => (
                     <li key={i}>
-                      <AiOutlineCheck/>&nbsp; {eachItem}
+                      <AiOutlineCheck />&nbsp; {eachItem}
                     </li>
                   ))}
                   {/* <li>
@@ -49,7 +49,7 @@ const WhyChooseUs = ({ title, para, items }) => {
                 data-aos-once="true"
               >
                 <img
-                  src="/images/cybersecurity-services/choose/choose.png"
+                  src="/images/cybersecurity-services/choose/09.png"
                   alt="image"
                 />
               </div>
