@@ -14,7 +14,7 @@ const CyberSafety = ({ title, para }) => {
                 data-aos-once="true"
               >
                 <img
-                  src="/images/cybersecurity-services/cyber-safety.png"
+                  src="/images/cybersecurity-services/10.png"
                   alt="image"
                 />
               </div>
@@ -31,11 +31,11 @@ const CyberSafety = ({ title, para }) => {
                     <ul className="safety-list">
                       <li>
                         <i className="ri-checkbox-circle-line"></i>24/7 Active
-                        Human Resource Assistance.​
+                        Human Resource Assistance.
                       </li>
                       <li>
                         <i className="ri-checkbox-circle-line"></i>Rapid
-                        Customer Service. 
+                        Customer Service.
                       </li>
                       <li>
                         <i className="ri-checkbox-circle-line"></i>Open to
@@ -56,7 +56,7 @@ const CyberSafety = ({ title, para }) => {
                       </li>
                       <li>
                         <i className="ri-checkbox-circle-line"></i>On-Time HR
-                        Managing Support. ​
+                        Managing Support.
                       </li>
                     </ul>
                   </div>
