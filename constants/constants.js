@@ -88,6 +88,7 @@ export const sliderData = [
           {
             heading: "Haven’t You Met With Our Android & iOS App Developers?",
             paragraph: "",
+            image: "/images/cybersecurity-services/what-we-work/11.png",
             list: [
               {
                 icon: "/images/crypto-startup/choose/Review.png",
@@ -114,6 +115,7 @@ export const sliderData = [
               "Connect with Our Outsourced Professional Mobile App Developers",
             paragraph:
               "Have a meeting and hire our outsourced professional mobile app developers. Our team is open to collaborate and offer our best talent.",
+            image: "/images/crypto-startup/12.png",
             list: [
               "Mobile app development services are vital to extend your IoT-related business.",
               "Android and iOS app developers are a team of creative talented people.",
@@ -123,6 +125,7 @@ export const sliderData = [
             heading:
               "Let us Help You Associate With The Best of The Best Mobile App Developers",
             paragraph: "",
+            image: "/images/crypto-startup/invest/13.png",
             list: [
               {
                 icon: "/images/crypto-startup/invest/mobile_app.png",
@@ -252,6 +255,7 @@ export const sliderData = [
             heading:
               "We Furnish The Diligent Team of Experienced Web Developers.",
             paragraph: "",
+            image: "/images/cybersecurity-services/what-we-work/14.png",
             list: [
               {
                 icon: "/images/crypto-startup/choose/Group60.png",
@@ -278,8 +282,9 @@ export const sliderData = [
               "Our Web Developers Understand The Market Demands & Ready to Work For You.",
             paragraph:
               "No lengthy meeting & waiting for response. Content us and get the opportunity of a proven workforce. We know what you are looking for! So, let's have a talk and create a strong team of web development experts.",
+            image: "/images/crypto-startup/15.png",
             list: [
-              "Our developers help attract users and lead them to avail the services.​",
+              "Our developers help attract users and l ead them to avail the services.​",
               "We promote your company message and convert websites user user-friendly for all. ",
             ],
           },
@@ -287,6 +292,7 @@ export const sliderData = [
             heading:
               "Our Specialists Got Your Back With Master Web Development Services.",
             paragraph: "",
+            image: "/images/crypto-startup/invest/16.png",
             list: [
               {
                 icon: "/images/crypto-startup/invest/Group55.png",
@@ -423,6 +429,7 @@ export const sliderData = [
             heading:
               "Time to Meet With Brand Promoters, Sales Boosters & Content Specialists",
             paragraph: "",
+            image: "/images/cybersecurity-services/what-we-work/17.png",
             list: [
               {
                 icon: "/images/crypto-startup/choose/Worldwide.png",
@@ -449,6 +456,7 @@ export const sliderData = [
               "Hire Our Marketers to Have An Active Presence In This Digital World",
             paragraph:
               "Our markets know how to run marketing campaigns and generate organic traffic. Hire a creative team of marketers to handle all your social media platforms and handle your respected clients like formal hard-working professionals.",
+            image: "/images/crypto-startup/18.png",
             list: [
               "Our offered professionals have it all to rank your company’s website among the top giants on the search engine",
               "They market the intended message of the business with call-to-action content.",
@@ -458,6 +466,7 @@ export const sliderData = [
             heading:
               "Let’s Shake The Digital Word With Modern Brand Promotions",
             paragraph: "",
+            image: "/images/crypto-startup/invest/19.png",
             list: [
               {
                 icon: "/images/crypto-startup/invest/Sharing.png",
@@ -567,6 +576,7 @@ export const sliderData = [
             heading:
               "We List Out Professionals Who Are Noted For Their Rich Embedded Coding Style.",
             paragraph: "",
+            image: "/images/cybersecurity-services/what-we-work/20.png",
             list: [
               {
                 icon: "/images/crypto-startup/choose/Teamwork.png",
@@ -593,6 +603,7 @@ export const sliderData = [
               "Hire Those Who Could Listen & Follow Your Guided Instructions​",
             paragraph:
               "It takes days to assemble a team of specialists who can work on a single goal. That’s why our hub of experienced embedded developers is 24/7 open to pick the talent, have a meeting, and acquire the professional.",
+            image: "/images/crypto-startup/21.png",
             list: [
               "Our Skillful embedded software engineering will offer their service in requirement development.",
               "The team will always support in every task involving, technical, coding, and programming involvement.",
@@ -602,6 +613,7 @@ export const sliderData = [
             heading:
               "Avail A Team That Can Develop, Operate and Test Embedded Systems",
             paragraph: "",
+            image: "/images/crypto-startup/invest/22.png",
             list: [
               {
                 icon: "/images/crypto-startup/invest/Group68.png",
@@ -733,6 +745,7 @@ export const sliderData = [
             heading:
               "Secure & Manage The Needful Data With Our Listed Database Wizards​",
             paragraph: "",
+            image: "/images/cybersecurity-services/what-we-work/23.png",
             list: [
               {
                 icon: "/images/crypto-startup/choose/Server.png",
@@ -758,6 +771,7 @@ export const sliderData = [
             heading: "Acquire Full Time Service of Database Experts at Hand!",
             paragraph:
               "It may take days to restore, manage, and secure the data. But database management systems built by our professionals always work for our clients. You can acquire the talent and get a new database system developed by proven hands.",
+            image: "/images/crypto-startup/24.png",
             list: [
               "Database management systems that you entail for your company.",
               "Our database developers build a system that keeps data secure and up to date.",
@@ -766,6 +780,7 @@ export const sliderData = [
           {
             heading: "Forget All Database Complications & Reach Out to Us!",
             paragraph: "",
+            image: "/images/crypto-startup/invest/25.png",
             list: [
               {
                 icon: "/images/crypto-startup/invest/Database_2.png",
@@ -864,6 +879,7 @@ export const sliderData = [
             heading:
               "Analyse The Productive Work of Our Professionals & Then Hire Them.",
             paragraph: "",
+            image: "/images/cybersecurity-services/what-we-work/26.png",
             list: [
               {
                 icon: "/images/crypto-startup/choose/Quick.png",
@@ -889,6 +905,7 @@ export const sliderData = [
             heading: "We Offer Easy Assistance to Hire Our QA Engineers.​",
             paragraph:
               "Required information of our professionals is displayed on the platform. It just takes a few minutes to connect with us, arrange a short meeting, and acquire the outsourced services of our QA engineers.",
+            image: "/images/crypto-startup/27.png",
             list: [
               "The team is packed with experienced and proven QA specialists.​",
               "Our professionals grab all the knowledge about every functionality of QA plans and testing.",
@@ -898,6 +915,7 @@ export const sliderData = [
             heading:
               "Our Manual & Automation Experts Offer Services That Are Best For Your Business.",
             paragraph: "",
+            image: "/images/crypto-startup/invest/28.png",
             list: [
               {
                 icon: "/images/crypto-startup/invest/Planning.png",
