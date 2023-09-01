@@ -986,7 +986,7 @@ export const platFormItems = [
     title: "Interview",
     content:
       "After being shortlisted by our management, you will be called for an interview.​",
-    imageLink: "/images/crypto-startup/platforms/conversation.png",
+    imageLink: "/images/crypto-startup/platforms/Conversation.png",
     arrowLink: "/images/crypto-startup/platforms/arrow-2.png",
   },
   {
@@ -1014,19 +1014,19 @@ export const aboutContent =
 export const aboutItems = [
   {
     item: "24/7 Active Service​",
-    imageLink: "/images/icon/clock.png",
+    imageLink: "/images/icon/Clock.png",
   },
   {
     item: "Trustful Connection",
-    imageLink: "/images/icon/trusted.png",
+    imageLink: "/images/icon/Trusted.png",
   },
   {
     item: "Hiring in Minutes",
-    imageLink: "/images/icon/hired.png",
+    imageLink: "/images/icon/Hired.png",
   },
   {
     item: "Smart Professionals​",
-    imageLink: "/images/icon/job.png",
+    imageLink: "/images/icon/Job.png",
   },
 ];
 // Hiring Services component data
