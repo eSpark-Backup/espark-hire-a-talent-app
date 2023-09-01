@@ -1716,6 +1716,16 @@
     font-weight: bolder;
     font-family: var(--fontFamily2);
   }
+  .faq-accordion .accordion .accordion__item .accordion__button {
+    font-size: 16px;
+    justify-content: center;
+    text-align: center;
+    padding-left: 8px;
+    padding-right: 8px;
+  }
+  .faq-accordion .accordion .accordion__item .accordion__button img {
+    display: none;
+  }
 }
 
 /* Min width 576px to Max width 767px */
@@ -1768,6 +1778,16 @@
   .ico-landing-banner-content .banner-pre-token-sale-ends #timer div {
     font-size: 38px;
     margin-right: 45px;
+  }
+  .faq-accordion .accordion .accordion__item .accordion__button {
+    font-size: 18px;
+    justify-content: center;
+    text-align: center;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .faq-accordion .accordion .accordion__item .accordion__button img {
+    display: none;
   }
 
   /* End "Cybersecurity Demo Responsive, Cryptocurrency Demo Responsive & ICO Landing Demo Responsive" */
@@ -2848,6 +2868,14 @@
     font-weight: bolder;
     font-family: var(--fontFamily2);
   }
+  .faq-accordion .accordion .accordion__item .accordion__button {
+    font-size: 17px;
+    text-align: center;
+    justify-content: center;
+  }
+  .faq-accordion .accordion .accordion__item .accordion__button img {
+    display: none;
+  }
 }
 
 /* Min width 992px to Max width 1199px */
@@ -3320,6 +3348,13 @@
   .shape4 {
     display: none;
   }
+  .faq-accordion .accordion .accordion__item .accordion__button {
+    justify-content: center;
+    text-align: center;
+  }
+  .faq-accordion .accordion .accordion__item .accordion__button img {
+    display: none;
+  }
 }
 
 /* Min width 1200px to Max width 1355px */
@@ -3454,6 +3489,9 @@
   .shape3,
   .shape4 {
     display: none;
+  }
+  .faq-accordion .accordion .accordion__item .accordion__button {
+    font-size: 17px;
   }
 }
 /* Min width 1550px */
