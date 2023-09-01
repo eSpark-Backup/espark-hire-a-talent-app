@@ -7,17 +7,44 @@ import {
   AccordionItemPanel,
 } from 'react-accessible-accordion'
 
-const Faq = () => {
+const Faq = ({ title, item }) => {
   return (
     <>
-      <div className="faq-area bg-gradient-image ptb-100">
+      <div className="faq-area pt-100 pb-60">
+        <div className="container">
+          <div className="section-title">
+            <h2>{title}</h2>
+          </div>
+
+          <div className="faq-accordion">
+            {item?.map((item, i) => (
+              <Accordion >
+                <AccordionItem uuid={i}>
+                  <AccordionItemHeading>
+                    <AccordionItemButton>
+                      {item.heading}
+                      <img src="/images/icon/group_92.svg" />
+                    </AccordionItemButton>
+                  </AccordionItemHeading>
+                  {/* <AccordionItemPanel>
+                    <p>
+                      {item.paragraph}
+                    </p>
+                  </AccordionItemPanel> */}
+                </AccordionItem>
+              </Accordion>
+            ))}
+          </div>
+        </div>
+      </div>
+      {/* <div className="faq-area ptb-100">
         <div className="container">
           <div className="section-title">
             <span className="sub-title">FAQ</span>
             <h2>Frequently Asked Questions</h2>
           </div>
           <div className="faq-accordion">
-            <Accordion preExpanded={['a']}>
+            <Accordion preExpanded={['']}>
               <AccordionItem uuid="a">
                 <AccordionItemHeading>
                   <AccordionItemButton>
@@ -176,9 +203,9 @@ const Faq = () => {
             </Accordion>
           </div>
         </div>
-      </div>
+      </div> */}
     </>
   )
 }
 
-export default Faq
+export default Faq;
