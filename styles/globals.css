@@ -3836,10 +3836,17 @@ FAQ Area CSS
   background-size: cover;
 }
 
-.faq-accordion {
+/* .faq-accordion {
   max-width: 970px;
   margin-left: auto;
   margin-right: auto;
+} */
+
+.faq-accordion {
+  /* max-width: 970px; */
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 5%;
 }
 
 .faq-accordion .accordion {
@@ -3850,7 +3857,7 @@ FAQ Area CSS
   border: none;
 }
 
-.faq-accordion .accordion .accordion__item .accordion__button {
+/* .faq-accordion .accordion .accordion__item .accordion__button {
   width: 100%;
   border: none;
   display: block;
@@ -3868,12 +3875,43 @@ FAQ Area CSS
   padding-bottom: 20px;
   font-size: 24px;
   font-weight: 600;
+} */
+.faq-accordion .accordion .accordion__item .accordion__button {
+  width: 100%;
+  border-radius: 14px;
+  border: 1px solid #000;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  /* border-radius: 0; */
+  margin-bottom: 17px;
+  margin-top: 17px;
+  -webkit-box-shadow: unset;
+  box-shadow: unset;
+  text-align: start;
+  position: relative;
+  color: var(--blackColor);
+  background-color: #fff;
+  /* border-bottom: 1px solid #eeeeee; */
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 17px;
+  padding-bottom: 17px;
+  font-size: 19px;
+  font-weight: 600;
 }
-
-.faq-accordion .accordion .accordion__item .accordion__button::before {
+.faq-accordion .accordion .accordion__item .accordion__button img {
+  width: 50.855px;
+  height: 50.855px;
+}
+/* .faq-accordion .accordion .accordion__item .accordion__button::before {
   position: absolute;
   right: 15px;
   top: 32px;
+} */
+
+.faq-accordion .accordion .accordion__item .accordion__button::before {
+  display: none;
 }
 
 .faq-accordion .accordion .accordion__item .accordion__panel {
