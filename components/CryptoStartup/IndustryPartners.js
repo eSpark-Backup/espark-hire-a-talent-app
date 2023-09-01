@@ -6,7 +6,7 @@ import PartnerSlider from '../../components/TechnologySolutions/PartnerSlider'
 const IndustryPartners = ({ title, paragraph }) => {
   return (
     <React.Fragment>
-      <div className="industry-partner-area pt-100 pb-40">
+      <div className="industry-partner-area pt-70 pb-70">
         <div className="container">
           <div className="section-title with-max-width">
             <h2>{title}</h2>

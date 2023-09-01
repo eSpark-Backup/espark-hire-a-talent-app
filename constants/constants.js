@@ -1274,3 +1274,37 @@ export const footerContact = [
     item: "support@esparktalent.com"
   }
 ]
+
+export const FaqTitle = 'Check out our common questions'
+
+export const FaqData = [{
+  heading: "How can I hire outsourced professionals instantly ?",
+  paragraph: ""
+}, {
+  heading: "How many days does it take to onboard an outsourced professional?How can I hire outsourced professionals instantly ?",
+  paragraph: ""
+}, {
+  heading: "Is there any management fee before hiring the talent?",
+  paragraph: ""
+}, {
+  heading: "What is the employer cost at eSpark Talent?",
+  paragraph: ""
+},
+{
+  heading: "Can we pay in dollars to hire outsourced employees",
+  paragraph: ""
+}, {
+  heading: "Are there any charges for outsourced employees at eSpark Talent?",
+  paragraph: ""
+}
+  , {
+  heading: "Does eSpark Talent offer benefits for hired employees?",
+  paragraph: ""
+},
+{
+  heading: "Can we hire employees for one day? Need to be confirmed?",
+  paragraph: ""
+}, {
+  heading: "How many hours do employees work at eSpark Talent?",
+  paragraph: ""
+}]
