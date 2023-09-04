@@ -18,7 +18,7 @@ const Faq = ({ title, item }) => {
 
           <div className="faq-accordion">
             {item?.map((item, i) => (
-              <Accordion >
+              <Accordion key={i}>
                 <AccordionItem uuid={i}>
                   <AccordionItemHeading>
                     <AccordionItemButton>
