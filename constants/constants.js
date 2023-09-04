@@ -1,23 +1,23 @@
 export const personsData = [
   {
     img: "/images/team/02.png",
-    name: "Ben Stokes",
-    rank: "Marketing Lead",
-  },
-  {
-    img: "/images/team/03.png",
-    name: "Sarah Taylor",
-    rank: "Art Director",
-  },
-  {
-    img: "/images/team/04.png",
-    name: "Ellyse Perry",
-    rank: "Designer",
+    name: "90%",
+    rank: "Faster Hiring",
   },
   {
     img: "/images/team/05.png",
-    name: "Steven Smith",
-    rank: "Development",
+    name: "24X7",
+    rank: "Support",
+  },
+  {
+    img: "/images/team/03.png",
+    name: "100%",
+    rank: "Top Talent",
+  },
+  {
+    img: "/images/team/04.png",
+    name: "200+",
+    rank: "Experts Talents",
   },
 ];
 
@@ -149,24 +149,36 @@ export const sliderData = [
           },
           {
             heading: "Hiring in Minutes",
-            paragraph:
-              "Follow the three-step process and build a strong team of professionals. Our team is one click away to offer you skillful professionals.",
+            paragraph: "",
             list: [
               {
                 icon: "/images/crypto-startup/platforms/platforms-1.png",
-                title: "Select The Talent​",
+                title: "Tell Us What You Need​",
                 arrowPath: "/images/crypto-startup/platforms/arrow-1.png",
+                paragraph:
+                  "Let us know your requirements, so we can find the perfect fit for your team.",
               },
               {
                 icon: "/images/crypto-startup/platforms/platforms-2.png",
-                title: "Have A Meeting​​",
+                title: "Talk to Our HR Team​",
                 arrowPath: "/images/crypto-startup/platforms/arrow-2.png",
+                paragraph:
+                  "Schedule a meeting with our HR experts to plan the best approach for your business.",
               },
               {
                 icon: "/images/crypto-startup/platforms/platforms-3.png",
-                title: "Hire The Professional​",
+                title: "Meet Interview Pros",
                 arrowPath: "/images/crypto-startup/platforms/arrow-1.png",
+                paragraph:
+                  "Connect with skilled interviewers who will help you find the right people for your company's growth.",
               },
+              // {
+              //   icon: "/images/crypto-startup/platforms/platforms-3.png",
+              //   title: "Meet Interview Pros",
+              //   arrowPath: "/images/crypto-startup/platforms/arrow-1.png",
+              //   paragraph:
+              //     "Connect with skilled interviewers who will help you find the right people for your company's growth.",
+              // },
             ],
           },
           {
@@ -316,24 +328,36 @@ export const sliderData = [
           },
           {
             heading: "Hiring in Minutes",
-            paragraph:
-              "Follow the three-step process and build a strong team of professionals. Our team is one click away to offer you skillful professionals.",
+            paragraph: "",
             list: [
               {
                 icon: "/images/crypto-startup/platforms/platforms-1.png",
-                title: "Select The Talent​​",
+                title: "Tell Us What You Need​",
                 arrowPath: "/images/crypto-startup/platforms/arrow-1.png",
+                paragraph:
+                  "Let us know your requirements, so we can find the perfect fit for your team.",
               },
               {
                 icon: "/images/crypto-startup/platforms/platforms-2.png",
-                title: "Have A Meeting​​",
+                title: "Talk to Our HR Team​",
                 arrowPath: "/images/crypto-startup/platforms/arrow-2.png",
+                paragraph:
+                  "Schedule a meeting with our HR experts to plan the best approach for your business.",
               },
               {
                 icon: "/images/crypto-startup/platforms/platforms-3.png",
-                title: "Hire The Professional​​",
+                title: "Meet Interview Pros",
                 arrowPath: "/images/crypto-startup/platforms/arrow-1.png",
+                paragraph:
+                  "Connect with skilled interviewers who will help you find the right people for your company's growth.",
               },
+              // {
+              //   icon: "/images/crypto-startup/platforms/platforms-3.png",
+              //   title: "Meet Interview Pros",
+              //   arrowPath: "/images/crypto-startup/platforms/arrow-1.png",
+              //   paragraph:
+              //     "Connect with skilled interviewers who will help you find the right people for your company's growth.",
+              // },
             ],
           },
           {
@@ -495,19 +519,32 @@ export const sliderData = [
             list: [
               {
                 icon: "/images/crypto-startup/platforms/platforms-1.png",
-                title: "Select The Talent",
+                title: "Tell Us What You Need​",
                 arrowPath: "/images/crypto-startup/platforms/arrow-1.png",
+                paragraph:
+                  "Let us know your requirements, so we can find the perfect fit for your team.",
               },
               {
                 icon: "/images/crypto-startup/platforms/platforms-2.png",
-                title: "Have A Meeting",
+                title: "Talk to Our HR Team​",
                 arrowPath: "/images/crypto-startup/platforms/arrow-2.png",
+                paragraph:
+                  "Schedule a meeting with our HR experts to plan the best approach for your business.",
               },
               {
                 icon: "/images/crypto-startup/platforms/platforms-3.png",
-                title: "Hire The Professional",
+                title: "Meet Interview Pros",
                 arrowPath: "/images/crypto-startup/platforms/arrow-1.png",
+                paragraph:
+                  "Connect with skilled interviewers who will help you find the right people for your company's growth.",
               },
+              // {
+              //   icon: "/images/crypto-startup/platforms/platforms-3.png",
+              //   title: "Meet Interview Pros",
+              //   arrowPath: "/images/crypto-startup/platforms/arrow-1.png",
+              //   paragraph:
+              //     "Connect with skilled interviewers who will help you find the right people for your company's growth.",
+              // },
             ],
           },
           {
@@ -642,19 +679,32 @@ export const sliderData = [
             list: [
               {
                 icon: "/images/crypto-startup/platforms/platforms-1.png",
-                title: "Select The Talent​​",
+                title: "Tell Us What You Need​",
                 arrowPath: "/images/crypto-startup/platforms/arrow-1.png",
+                paragraph:
+                  "Let us know your requirements, so we can find the perfect fit for your team.",
               },
               {
                 icon: "/images/crypto-startup/platforms/platforms-2.png",
-                title: "Have A Meeting​​​",
+                title: "Talk to Our HR Team​",
                 arrowPath: "/images/crypto-startup/platforms/arrow-2.png",
+                paragraph:
+                  "Schedule a meeting with our HR experts to plan the best approach for your business.",
               },
               {
                 icon: "/images/crypto-startup/platforms/platforms-3.png",
-                title: "Hire The Professional​​​",
+                title: "Meet Interview Pros",
                 arrowPath: "/images/crypto-startup/platforms/arrow-1.png",
+                paragraph:
+                  "Connect with skilled interviewers who will help you find the right people for your company's growth.",
               },
+              // {
+              //   icon: "/images/crypto-startup/platforms/platforms-3.png",
+              //   title: "Meet Interview Pros",
+              //   arrowPath: "/images/crypto-startup/platforms/arrow-1.png",
+              //   paragraph:
+              //     "Connect with skilled interviewers who will help you find the right people for your company's growth.",
+              // },
             ],
           },
           {
@@ -803,25 +853,38 @@ export const sliderData = [
             ],
           },
           {
-            heading: "Hiring in Minutes​",
+            heading: "Hiring in Minutes",
             paragraph:
               "Follow the three-step process and build a strong team of professionals. Our team is one click away to offer you skillful professionals.",
             list: [
               {
                 icon: "/images/crypto-startup/platforms/platforms-1.png",
-                title: "Select The Talent​​",
+                title: "Tell Us What You Need​",
                 arrowPath: "/images/crypto-startup/platforms/arrow-1.png",
+                paragraph:
+                  "Let us know your requirements, so we can find the perfect fit for your team.",
               },
               {
                 icon: "/images/crypto-startup/platforms/platforms-2.png",
-                title: "Have A Meeting​​",
+                title: "Talk to Our HR Team​",
                 arrowPath: "/images/crypto-startup/platforms/arrow-2.png",
+                paragraph:
+                  "Schedule a meeting with our HR experts to plan the best approach for your business.",
               },
               {
                 icon: "/images/crypto-startup/platforms/platforms-3.png",
-                title: "Hire The Professional​​",
+                title: "Meet Interview Pros",
                 arrowPath: "/images/crypto-startup/platforms/arrow-1.png",
+                paragraph:
+                  "Connect with skilled interviewers who will help you find the right people for your company's growth.",
               },
+              // {
+              //   icon: "/images/crypto-startup/platforms/platforms-3.png",
+              //   title: "Meet Interview Pros",
+              //   arrowPath: "/images/crypto-startup/platforms/arrow-1.png",
+              //   paragraph:
+              //     "Connect with skilled interviewers who will help you find the right people for your company's growth.",
+              // },
             ],
           },
           {
@@ -944,19 +1007,32 @@ export const sliderData = [
             list: [
               {
                 icon: "/images/crypto-startup/platforms/platforms-1.png",
-                title: "Select The Talent",
+                title: "Tell Us What You Need​",
                 arrowPath: "/images/crypto-startup/platforms/arrow-1.png",
+                paragraph:
+                  "Let us know your requirements, so we can find the perfect fit for your team.",
               },
               {
                 icon: "/images/crypto-startup/platforms/platforms-2.png",
-                title: "Have A Meeting​",
+                title: "Talk to Our HR Team​",
                 arrowPath: "/images/crypto-startup/platforms/arrow-2.png",
+                paragraph:
+                  "Schedule a meeting with our HR experts to plan the best approach for your business.",
               },
               {
                 icon: "/images/crypto-startup/platforms/platforms-3.png",
-                title: "Hire The Professional",
+                title: "Meet Interview Pros",
                 arrowPath: "/images/crypto-startup/platforms/arrow-1.png",
+                paragraph:
+                  "Connect with skilled interviewers who will help you find the right people for your company's growth.",
               },
+              // {
+              //   icon: "/images/crypto-startup/platforms/platforms-3.png",
+              //   title: "Meet Interview Pros",
+              //   arrowPath: "/images/crypto-startup/platforms/arrow-1.png",
+              //   paragraph:
+              //     "Connect with skilled interviewers who will help you find the right people for your company's growth.",
+              // },
             ],
           },
           {
@@ -1263,48 +1339,56 @@ export const ContactInfoData = [
 export const footerContact = [
   {
     id: 1,
-    item: "info@esparktalent.com"
+    item: "info@esparktalent.com",
   },
   {
     id: 2,
-    item: "hr@esparktalent.com"
+    item: "hr@esparktalent.com",
   },
   {
     id: 3,
-    item: "support@esparktalent.com"
-  }
-]
+    item: "support@esparktalent.com",
+  },
+];
 
-export const FaqTitle = 'Check out our common questions'
+export const FaqTitle = "Check out our common questions";
 
-export const FaqData = [{
-  heading: "How can I hire outsourced professionals instantly ?",
-  paragraph: ""
-}, {
-  heading: "How many days does it take to onboard an outsourced professional?How can I hire outsourced professionals instantly ?",
-  paragraph: ""
-}, {
-  heading: "Is there any management fee before hiring the talent?",
-  paragraph: ""
-}, {
-  heading: "What is the employer cost at eSpark Talent?",
-  paragraph: ""
-},
-{
-  heading: "Can we pay in dollars to hire outsourced employees",
-  paragraph: ""
-}, {
-  heading: "Are there any charges for outsourced employees at eSpark Talent?",
-  paragraph: ""
-}
-  , {
-  heading: "Does eSpark Talent offer benefits for hired employees?",
-  paragraph: ""
-},
-{
-  heading: "Can we hire employees for one day? Need to be confirmed?",
-  paragraph: ""
-}, {
-  heading: "How many hours do employees work at eSpark Talent?",
-  paragraph: ""
-}]
+export const FaqData = [
+  {
+    heading: "How can I hire outsourced professionals instantly ?",
+    paragraph: "",
+  },
+  {
+    heading:
+      "How many days does it take to onboard an outsourced professional?How can I hire outsourced professionals instantly ?",
+    paragraph: "",
+  },
+  {
+    heading: "Is there any management fee before hiring the talent?",
+    paragraph: "",
+  },
+  {
+    heading: "What is the employer cost at eSpark Talent?",
+    paragraph: "",
+  },
+  {
+    heading: "Can we pay in dollars to hire outsourced employees",
+    paragraph: "",
+  },
+  {
+    heading: "Are there any charges for outsourced employees at eSpark Talent?",
+    paragraph: "",
+  },
+  {
+    heading: "Does eSpark Talent offer benefits for hired employees?",
+    paragraph: "",
+  },
+  {
+    heading: "Can we hire employees for one day? Need to be confirmed?",
+    paragraph: "",
+  },
+  {
+    heading: "How many hours do employees work at eSpark Talent?",
+    paragraph: "",
+  },
+];
