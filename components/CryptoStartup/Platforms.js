@@ -19,12 +19,10 @@ const Platforms = ({ heading, paragraph, data }) => {
                       <img src={items?.icon} alt="image" />
                     </div>
                     <h3>{items?.title}</h3>
+                    <p>{items?.paragraph}</p>
 
                     <div className="arrow-image">
-                      <img
-                        src={items?.arrowPath}
-                        alt="image"
-                      />
+                      <img src={items?.arrowPath} alt="image" />
                     </div>
                   </div>
                 </div>
@@ -34,14 +32,8 @@ const Platforms = ({ heading, paragraph, data }) => {
                     <div className="image">
                       <img src={items?.icon} alt="image" />
                     </div>
-                    <h3>NFT Marketplace</h3>
-
-                    {/* <div className="arrow-image">
-                      <img
-                        src="/images/crypto-startup/platforms/arrow-1.png"
-                        alt="image"
-                      />
-                    </div> */}
+                    <h3>{items?.title}</h3>
+                    <p>{items?.paragraph}</p>
                   </div>
                 </div>
               )
