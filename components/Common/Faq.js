@@ -1,13 +1,22 @@
-import React from 'react'
+import React, { useState } from "react";
 import {
   Accordion,
   AccordionItem,
   AccordionItemHeading,
   AccordionItemButton,
   AccordionItemPanel,
-} from 'react-accessible-accordion'
+} from "react-accessible-accordion";
 
 const Faq = ({ title, item }) => {
+  const [allowZeroExpanded, setallowZeroExpanded] = useState(true);
+  const [data, setData] = useState([...item]);
+  const onChangeToggle = (value, index) => {
+    let temp = [...data];
+    temp[index].toggle = !value;
+    setData([...temp]);
+    setallowZeroExpanded(!allowZeroExpanded);
+  };
+
   return (
     <>
       <div className="faq-area pt-100 pb-60">
@@ -15,25 +24,37 @@ const Faq = ({ title, item }) => {
           <div className="section-title">
             <h2>{title}</h2>
           </div>
-
           <div className="faq-accordion">
-            {item?.map((item, i) => (
-              <Accordion >
+            <Accordion allowZeroExpanded={allowZeroExpanded}>
+              {item?.map((item, i) => (
                 <AccordionItem uuid={i}>
                   <AccordionItemHeading>
                     <AccordionItemButton>
-                      {item.heading}
-                      <img src="/images/icon/group_92.svg" />
+                      <div
+                        onClick={() => onChangeToggle(item.toggle, i)}
+                        className="button-header"
+                      >
+                        <h5>
+                          <strong>{item.heading}</strong>
+                        </h5>
+                        <img
+                          src={
+                            item.toggle
+                              ? "/images/icon/group_93.svg"
+                              : "/images/icon/group_92.svg"
+                          }
+                        />
+                      </div>
+                      <div>
+                        <AccordionItemPanel>
+                          <p>{item.paragraph}</p>
+                        </AccordionItemPanel>
+                      </div>
                     </AccordionItemButton>
                   </AccordionItemHeading>
-                  {/* <AccordionItemPanel>
-                    <p>
-                      {item.paragraph}
-                    </p>
-                  </AccordionItemPanel> */}
                 </AccordionItem>
-              </Accordion>
-            ))}
+              ))}
+            </Accordion>
           </div>
         </div>
       </div>
@@ -62,7 +83,6 @@ const Faq = ({ title, item }) => {
                   </p>
                 </AccordionItemPanel>
               </AccordionItem>
-
               <AccordionItem uuid="b">
                 <AccordionItemHeading>
                   <AccordionItemButton>
@@ -205,7 +225,6 @@ const Faq = ({ title, item }) => {
         </div>
       </div> */}
     </>
-  )
-}
-
+  );
+};
 export default Faq;
