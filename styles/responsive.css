@@ -1667,6 +1667,9 @@
 
   .nabar-buttons {
     display: flex;
+    margin-top: 6px;
+    margin-bottom: 4px;
+    margin-left: 0px !important;
   }
 
   .others-option {
@@ -2848,7 +2851,7 @@
     .default-btn {
     padding-left: 10px;
     padding-right: 10px;
-    font-size: 12px;
+    font-size: 15px;
     margin-left: 10px;
     width: 130px;
   }

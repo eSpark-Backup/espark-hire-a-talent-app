@@ -273,6 +273,7 @@ textarea.form-control {
   color: var(--whiteColor);
   padding-left: 30px;
   padding-right: 50px;
+  margin: 0px;
 }
 
 .default-btn.style-two::before {
@@ -562,9 +563,16 @@ Header Area CSS
   padding: 0;
 }
 
+/* .navbar-area .navbar ul {
+  padding-left: 0;
+  margin-bottom: 0;
+  list-style-type: none;
+} */
+
 .navbar-area .navbar ul {
   padding-left: 0;
   margin-bottom: 0;
+  padding-right: 20px;
   list-style-type: none;
 }
 
@@ -963,29 +971,33 @@ Header Area CSS
 } */
 /* Change To Below */
 .navbar-area .navbar .others-option .default-btn {
-  color: var(--whiteColor);
-  background-color: var(--mainColor);
+  color: var(--mainColor);
+  /* background-color: var(--mainColor); */
+  background-color: transparent;
   font-weight: normal;
-  border: 1px solid rgba(220, 132, 252, 0.4) !important;
-  /* padding-top: 11px; */
-  padding-left: 50px;
-  /* padding-right: 35px; */
-  /* padding-bottom: 11px; */
-  width: 247px;
+  border: 1px solid var(--mainColor) !important;
+  padding-top: 7px;
+  padding-left: 16px;
+  padding-right: 16px;
+  padding-bottom: 7px;
+  /* width: 247px; */
 }
 
 .navbar-area .navbar .others-option .default-btn span {
   left: 25px;
   right: auto;
   font-size: 20px;
-  color: #dc84fc;
+  /* color: #dc84fc; */
   margin-top: -1px;
+}
+.navbar-area .navbar .others-option .default-btn::before {
+  display: none !important;
 }
 
 .navbar-area .navbar .others-option .default-btn:hover {
-  background-color: var(--blackColor);
-  border-color: var(--blackColor);
-  color: var(--whiteColor);
+  background-color: var(--mainColor) !important;
+  border-color: var(--mainColor) !important;
+  color: var(--whiteColor) !important;
   opacity: 1;
 }
 
@@ -1408,7 +1420,7 @@ About Area CSS
 
 .shape6 {
   position: absolute;
-  z-index: -1;
+  z-index: 1;
   bottom: 15%;
   left: 8%;
 }

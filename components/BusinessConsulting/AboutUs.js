@@ -15,7 +15,12 @@ const AboutUs = (props) => {
                 data-aos-duration="1000"
                 data-aos-once="true"
               >
-                <img src="/images/01.png" alt="image" />
+                <img
+                  src="/images/01.png"
+                  alt="image"
+                  width={"75%"}
+                  height={"100%"}
+                />
                 <div className="shape5">
                   <img src="/images/shape/shape5.png" alt="image" />
                 </div>
@@ -82,7 +87,7 @@ const AboutUs = (props) => {
           </div>
         </div>
         <div className="shape6">
-          <img src="/images/shape/shape6.png" alt="image" />
+          <img src="/images/shape/shape6.png" alt="image" width={"90%"} />
         </div>
       </div>
     </>
