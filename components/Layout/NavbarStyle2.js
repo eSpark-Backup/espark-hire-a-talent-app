@@ -262,7 +262,6 @@ const NavbarStyle2 = () => {
                     <Link
                       href="https://calendly.com/esparktalent/espark-talent"
                       activeClassName="active"
-                      className="others-option"
                     >
                       <a
                         className={`default-btn style-two ${
