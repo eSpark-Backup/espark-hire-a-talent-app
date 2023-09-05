@@ -3,7 +3,7 @@ import React from "react";
 const Platforms = ({ heading, paragraph, data }) => {
   return (
     <>
-      <div className="platforms-area pb-70">
+      <div className="platforms-area ptb-100">
         <div className="container">
           <div className="section-title with-max-width">
             <h2>{heading}</h2>
@@ -21,10 +21,7 @@ const Platforms = ({ heading, paragraph, data }) => {
                     <h3>{items?.title}</h3>
 
                     <div className="arrow-image">
-                      <img
-                        src={items?.arrowPath}
-                        alt="image"
-                      />
+                      <img src={items?.arrowPath} alt="image" />
                     </div>
                   </div>
                 </div>

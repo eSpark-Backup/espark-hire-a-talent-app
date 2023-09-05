@@ -14,7 +14,7 @@ const AboutUs = ({ title, paragraph, data, image }) => {
                 data-aos-duration="1200"
                 data-aos-once="true"
               >
-                <img src={image} alt="image" />
+                <img src={image} alt="image" width={"600px"} height={"600px"} />
               </div>
             </div>
 
