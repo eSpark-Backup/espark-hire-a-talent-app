@@ -970,38 +970,42 @@ Header Area CSS
   padding-left: 50px;
 } */
 /* Change To Below */
-.navbar-area .navbar .others-option .default-btn {
+.navbar-area .navbar .default-btn {
   color: var(--mainColor);
   /* background-color: var(--mainColor); */
   background-color: transparent;
   font-weight: normal;
   border: 1px solid var(--mainColor) !important;
   padding-top: 7px;
-  padding-left: 16px;
-  padding-right: 16px;
+  /* padding-left: 18px; */
+  /* padding-right: 18px; */
   padding-bottom: 7px;
   /* width: 247px; */
 }
+.navbar-area .navbar .default-btn.style-two {
+  padding-left: 30px;
+  padding-right: 30px;
+}
 
-.navbar-area .navbar .others-option .default-btn span {
+.navbar-area .navbar .default-btn span {
   left: 25px;
   right: auto;
   font-size: 20px;
   /* color: #dc84fc; */
   margin-top: -1px;
 }
-.navbar-area .navbar .others-option .default-btn::before {
+.navbar-area .navbar .default-btn::before {
   display: none !important;
 }
 
-.navbar-area .navbar .others-option .default-btn:hover {
+.navbar-area .navbar .default-btn:hover {
   background-color: var(--mainColor) !important;
   border-color: var(--mainColor) !important;
   color: var(--whiteColor) !important;
   opacity: 1;
 }
 
-.navbar-area .navbar .others-option .default-btn:hover span {
+.navbar-area .navbar .default-btn:hover span {
   color: var(--whiteColor);
   opacity: 1;
 }
