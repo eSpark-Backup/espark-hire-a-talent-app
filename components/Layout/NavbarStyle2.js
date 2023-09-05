@@ -41,11 +41,12 @@ const NavbarStyle2 = () => {
       <header className="header-area header-style-two">
         <div id="navbar" className="navbar-area">
           <nav className="navbar navbar-expand-md navbar-light">
-            <div className="container">
+            <div className="container-lg">
               <Link href="/">
                 <a
-                  className={`navbar-brand ${selectedNavItem === "Home" ? "active" : ""
-                    }`}
+                  className={`navbar-brand ${
+                    selectedNavItem === "Home" ? "active" : ""
+                  }`}
                   onClick={() => handleNavItemClick("Home")}
                 >
                   <img
@@ -72,7 +73,7 @@ const NavbarStyle2 = () => {
               </button>
 
               <div className={classOne} id="navbarSupportedContent">
-                <ul className="navbar-nav m-auto">
+                <ul className="navbar-nav ms-auto">
                   {/* <li className="nav-item">
                     <Link href="#">
                       <a className="dropdown-toggle nav-link">
@@ -173,8 +174,9 @@ const NavbarStyle2 = () => {
                   <li className="nav-item">
                     <Link href="/about-us" activeClassName="active">
                       <a
-                        className={`nav-link ${selectedNavItem === "what we do" ? "active" : ""
-                          }`}
+                        className={`nav-link ${
+                          selectedNavItem === "what we do" ? "active" : ""
+                        }`}
                         onClick={() => handleNavItemClick("what we do")}
                       >
                         What we do
@@ -185,8 +187,9 @@ const NavbarStyle2 = () => {
                   <li className="nav-item">
                     <Link href="/services" activeClassName="active">
                       <a
-                        className={`nav-link ${selectedNavItem === "How it works" ? "active" : ""
-                          }`}
+                        className={`nav-link ${
+                          selectedNavItem === "How it works" ? "active" : ""
+                        }`}
                         onClick={() => handleNavItemClick("How it works")}
                       >
                         How it works
@@ -197,8 +200,9 @@ const NavbarStyle2 = () => {
                   <li className="nav-item">
                     <Link href="/coming-soon" activeClassName="active">
                       <a
-                        className={`nav-link ${selectedNavItem === "Blog" ? "active" : ""
-                          }`}
+                        className={`nav-link ${
+                          selectedNavItem === "Blog" ? "active" : ""
+                        }`}
                         onClick={() => handleNavItemClick("Blog")}
                       >
                         Blog
@@ -209,21 +213,26 @@ const NavbarStyle2 = () => {
                   <li className="nav-item">
                     <Link href="/coming-soon" activeClassName="active">
                       <a
-                        className={`nav-link ${selectedNavItem === "Career" ? "active" : ""
-                          }`}
+                        className={`nav-link ${
+                          selectedNavItem === "Career" ? "active" : ""
+                        }`}
                         onClick={() => handleNavItemClick("Career")}
                       >
                         Career
                       </a>
                     </Link>
                   </li>
-                  <li className="nabar-buttons">
-                    <Link href="/contact" activeClassName="active">
+                  <li className="nav-item">
+                    <Link
+                      href="https://form.jotform.com/232274579439468 "
+                      activeClassName="active"
+                    >
                       <a
-                        className={`default-btn style-two ${selectedNavItem === "Apply as a Developer"
-                          ? "active"
-                          : ""
-                          }`}
+                        className={`nav-link ${
+                          selectedNavItem === "Apply as a Developer"
+                            ? "active"
+                            : ""
+                        }`}
                         onClick={() =>
                           handleNavItemClick("Apply as a Developer")
                         }
@@ -232,11 +241,33 @@ const NavbarStyle2 = () => {
                       </a>
                     </Link>
                   </li>
-                  <li className="nabar-buttons">
+
+                  {/* <li className="nabar-buttons">
                     <Link href="/contact" activeClassName="active">
                       <a
-                        className={`default-btn style-two ${selectedNavItem === "Hire a Talent" ? "active" : ""
-                          }`}
+                        className={`default-btn style-two ${
+                          selectedNavItem === "Apply as a Developer"
+                            ? "active"
+                            : ""
+                        }`}
+                        onClick={() =>
+                          handleNavItemClick("Apply as a Developer")
+                        }
+                      >
+                        Apply as a Developer
+                      </a>
+                    </Link>
+                  </li> */}
+                  <li className="nabar-buttons">
+                    <Link
+                      href="https://calendly.com/esparktalent/espark-talent"
+                      activeClassName="active"
+                      className="others-option"
+                    >
+                      <a
+                        className={`default-btn style-two ${
+                          selectedNavItem === "Hire a Talent" ? "active" : ""
+                        }`}
                         onClick={() => handleNavItemClick("Hire a Talent")}
                       >
                         Hire a Talent
@@ -249,9 +280,9 @@ const NavbarStyle2 = () => {
               {/* <span className="ri-edit-2-line"></span> */}
               {/* <span className="ri-edit-2-line"></span> */}
               <div className="others-option">
-                <Link href="https://form.jotform.com/232274579439468 ">
+                {/* <Link href="https://form.jotform.com/232274579439468 ">
                   <a className="default-btn style-two">Apply as a Developer</a>
-                </Link>
+                </Link> */}
                 <Link href="https://calendly.com/esparktalent/espark-talent">
                   <a className="default-btn style-two">Hire a Talent</a>
                 </Link>
