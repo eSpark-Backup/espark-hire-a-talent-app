@@ -3,7 +3,7 @@ import React from "react";
 const CyberSafety = ({ title, para }) => {
   return (
     <>
-      <div className="cyber-safety-area pb-100">
+      <div className="cyber-safety-area ptb-100">
         <div className="container">
           <div className="row align-items-center">
             <div className="col-lg-6 col-md-12">
@@ -16,6 +16,8 @@ const CyberSafety = ({ title, para }) => {
                 <img
                   src="/images/cybersecurity-services/10.png"
                   alt="image"
+                  width={"90%"}
+                  height={"90%"}
                 />
               </div>
             </div>
