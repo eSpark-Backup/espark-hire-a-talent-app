@@ -3791,7 +3791,7 @@ Page Title Area CSS
   z-index: 1;
   position: relative;
   background-color: var(--mainColor);
-  background-image: url(/images/shape/bg-shape.jpg);
+  background-image: url(/images/shape/bg_1.jpg);
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -3880,7 +3880,7 @@ FAQ Area CSS
   width: 100%;
   border-radius: 14px;
   border: 1px solid #000;
-  display: flex;
+  /* display: flex; */
   align-items: center;
   justify-content: space-between;
   /* border-radius: 0; */
@@ -3900,6 +3900,12 @@ FAQ Area CSS
   font-size: 19px;
   font-weight: 600;
 }
+.faq-accordion .accordion .accordion__item .accordion__button .button-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
 .faq-accordion .accordion .accordion__item .accordion__button img {
   width: 50.855px;
   height: 50.855px;
@@ -3915,9 +3921,13 @@ FAQ Area CSS
 }
 
 .faq-accordion .accordion .accordion__item .accordion__panel {
-  padding: 20px;
+  /* padding: 20px; */
+  padding-left: 0px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-right: 0px;
   background-color: var(--whiteColor);
-  border-bottom: 1px solid #eeeeee;
+  /* border-bottom: 1px solid #eeeeee; */
 }
 
 .faq-accordion .accordion .accordion__item .accordion__panel p strong {
