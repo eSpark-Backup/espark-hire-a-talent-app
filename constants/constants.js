@@ -1,23 +1,23 @@
 export const personsData = [
   {
     img: "/images/team/02.png",
-    name: "Ben Stokes",
-    rank: "Marketing Lead",
-  },
-  {
-    img: "/images/team/03.png",
-    name: "Sarah Taylor",
-    rank: "Art Director",
-  },
-  {
-    img: "/images/team/04.png",
-    name: "Ellyse Perry",
-    rank: "Designer",
+    name: "90%",
+    rank: "Faster Hiring",
   },
   {
     img: "/images/team/05.png",
-    name: "Steven Smith",
-    rank: "Development",
+    name: "24X7",
+    rank: "Support",
+  },
+  {
+    img: "/images/team/03.png",
+    name: "100%",
+    rank: "Top Talent",
+  },
+  {
+    img: "/images/team/04.png",
+    name: "200+",
+    rank: "Experts Talents",
   },
 ];
 
@@ -154,18 +154,31 @@ export const sliderData = [
             list: [
               {
                 icon: "/images/crypto-startup/platforms/platforms-1.png",
-                title: "Select The Talent​",
+                title: "Tell Us What You Need​",
                 arrowPath: "/images/crypto-startup/platforms/arrow-1.png",
+                paragraph:
+                  "Let us know your requirements, so we can find the perfect fit for your team.",
+              },
+              {
+                icon: "/images/crypto-startup/platforms/Conversation.png",
+                title: "Talk to Our HR Team​",
+                arrowPath: "/images/crypto-startup/platforms/arrow-2.png",
+                paragraph:
+                  "Schedule a meeting with our HR experts to plan the best approach for your business.",
               },
               {
                 icon: "/images/crypto-startup/platforms/platforms-2.png",
-                title: "Have A Meeting​​",
-                arrowPath: "/images/crypto-startup/platforms/arrow-2.png",
+                title: "Meet Interview Pros",
+                arrowPath: "/images/crypto-startup/platforms/arrow-1.png",
+                paragraph:
+                  "Connect with skilled interviewers who will help you find the right people for your company's growth.",
               },
               {
-                icon: "/images/crypto-startup/platforms/platforms-3.png",
-                title: "Hire The Professional​",
+                icon: "/images/crypto-startup/platforms/Meeting.png",
+                title: "Onboarding",
                 arrowPath: "/images/crypto-startup/platforms/arrow-1.png",
+                paragraph:
+                  " Ensuring a smooth transition for new hires into your organization.",
               },
             ],
           },
@@ -321,18 +334,31 @@ export const sliderData = [
             list: [
               {
                 icon: "/images/crypto-startup/platforms/platforms-1.png",
-                title: "Select The Talent​​",
+                title: "Tell Us What You Need​",
                 arrowPath: "/images/crypto-startup/platforms/arrow-1.png",
+                paragraph:
+                  "Let us know your requirements, so we can find the perfect fit for your team.",
+              },
+              {
+                icon: "/images/crypto-startup/platforms/Conversation.png",
+                title: "Talk to Our HR Team​",
+                arrowPath: "/images/crypto-startup/platforms/arrow-2.png",
+                paragraph:
+                  "Schedule a meeting with our HR experts to plan the best approach for your business.",
               },
               {
                 icon: "/images/crypto-startup/platforms/platforms-2.png",
-                title: "Have A Meeting​​",
-                arrowPath: "/images/crypto-startup/platforms/arrow-2.png",
+                title: "Meet Interview Pros",
+                arrowPath: "/images/crypto-startup/platforms/arrow-1.png",
+                paragraph:
+                  "Connect with skilled interviewers who will help you find the right people for your company's growth.",
               },
               {
-                icon: "/images/crypto-startup/platforms/platforms-3.png",
-                title: "Hire The Professional​​",
+                icon: "/images/crypto-startup/platforms/Meeting.png",
+                title: "Onboarding",
                 arrowPath: "/images/crypto-startup/platforms/arrow-1.png",
+                paragraph:
+                  " Ensuring a smooth transition for new hires into your organization.",
               },
             ],
           },
@@ -495,18 +521,31 @@ export const sliderData = [
             list: [
               {
                 icon: "/images/crypto-startup/platforms/platforms-1.png",
-                title: "Select The Talent",
+                title: "Tell Us What You Need​",
                 arrowPath: "/images/crypto-startup/platforms/arrow-1.png",
+                paragraph:
+                  "Let us know your requirements, so we can find the perfect fit for your team.",
+              },
+              {
+                icon: "/images/crypto-startup/platforms/Conversation.png",
+                title: "Talk to Our HR Team​",
+                arrowPath: "/images/crypto-startup/platforms/arrow-2.png",
+                paragraph:
+                  "Schedule a meeting with our HR experts to plan the best approach for your business.",
               },
               {
                 icon: "/images/crypto-startup/platforms/platforms-2.png",
-                title: "Have A Meeting",
-                arrowPath: "/images/crypto-startup/platforms/arrow-2.png",
+                title: "Meet Interview Pros",
+                arrowPath: "/images/crypto-startup/platforms/arrow-1.png",
+                paragraph:
+                  "Connect with skilled interviewers who will help you find the right people for your company's growth.",
               },
               {
-                icon: "/images/crypto-startup/platforms/platforms-3.png",
-                title: "Hire The Professional",
+                icon: "/images/crypto-startup/platforms/Meeting.png",
+                title: "Onboarding",
                 arrowPath: "/images/crypto-startup/platforms/arrow-1.png",
+                paragraph:
+                  " Ensuring a smooth transition for new hires into your organization.",
               },
             ],
           },
@@ -642,18 +681,31 @@ export const sliderData = [
             list: [
               {
                 icon: "/images/crypto-startup/platforms/platforms-1.png",
-                title: "Select The Talent​​",
+                title: "Tell Us What You Need​",
                 arrowPath: "/images/crypto-startup/platforms/arrow-1.png",
+                paragraph:
+                  "Let us know your requirements, so we can find the perfect fit for your team.",
+              },
+              {
+                icon: "/images/crypto-startup/platforms/Conversation.png",
+                title: "Talk to Our HR Team​",
+                arrowPath: "/images/crypto-startup/platforms/arrow-2.png",
+                paragraph:
+                  "Schedule a meeting with our HR experts to plan the best approach for your business.",
               },
               {
                 icon: "/images/crypto-startup/platforms/platforms-2.png",
-                title: "Have A Meeting​​​",
-                arrowPath: "/images/crypto-startup/platforms/arrow-2.png",
+                title: "Meet Interview Pros",
+                arrowPath: "/images/crypto-startup/platforms/arrow-1.png",
+                paragraph:
+                  "Connect with skilled interviewers who will help you find the right people for your company's growth.",
               },
               {
-                icon: "/images/crypto-startup/platforms/platforms-3.png",
-                title: "Hire The Professional​​​",
+                icon: "/images/crypto-startup/platforms/Meeting.png",
+                title: "Onboarding",
                 arrowPath: "/images/crypto-startup/platforms/arrow-1.png",
+                paragraph:
+                  " Ensuring a smooth transition for new hires into your organization.",
               },
             ],
           },
@@ -803,24 +855,37 @@ export const sliderData = [
             ],
           },
           {
-            heading: "Hiring in Minutes​",
+            heading: "Hiring in Minutes",
             paragraph:
               "Follow the three-step process and build a strong team of professionals. Our team is one click away to offer you skillful professionals.",
             list: [
               {
                 icon: "/images/crypto-startup/platforms/platforms-1.png",
-                title: "Select The Talent​​",
+                title: "Tell Us What You Need​",
                 arrowPath: "/images/crypto-startup/platforms/arrow-1.png",
+                paragraph:
+                  "Let us know your requirements, so we can find the perfect fit for your team.",
+              },
+              {
+                icon: "/images/crypto-startup/platforms/Conversation.png",
+                title: "Talk to Our HR Team​",
+                arrowPath: "/images/crypto-startup/platforms/arrow-2.png",
+                paragraph:
+                  "Schedule a meeting with our HR experts to plan the best approach for your business.",
               },
               {
                 icon: "/images/crypto-startup/platforms/platforms-2.png",
-                title: "Have A Meeting​​",
-                arrowPath: "/images/crypto-startup/platforms/arrow-2.png",
+                title: "Meet Interview Pros",
+                arrowPath: "/images/crypto-startup/platforms/arrow-1.png",
+                paragraph:
+                  "Connect with skilled interviewers who will help you find the right people for your company's growth.",
               },
               {
-                icon: "/images/crypto-startup/platforms/platforms-3.png",
-                title: "Hire The Professional​​",
+                icon: "/images/crypto-startup/platforms/Meeting.png",
+                title: "Onboarding",
                 arrowPath: "/images/crypto-startup/platforms/arrow-1.png",
+                paragraph:
+                  " Ensuring a smooth transition for new hires into your organization.",
               },
             ],
           },
@@ -944,18 +1009,31 @@ export const sliderData = [
             list: [
               {
                 icon: "/images/crypto-startup/platforms/platforms-1.png",
-                title: "Select The Talent",
+                title: "Tell Us What You Need​",
                 arrowPath: "/images/crypto-startup/platforms/arrow-1.png",
+                paragraph:
+                  "Let us know your requirements, so we can find the perfect fit for your team.",
+              },
+              {
+                icon: "/images/crypto-startup/platforms/Conversation.png",
+                title: "Talk to Our HR Team​",
+                arrowPath: "/images/crypto-startup/platforms/arrow-2.png",
+                paragraph:
+                  "Schedule a meeting with our HR experts to plan the best approach for your business.",
               },
               {
                 icon: "/images/crypto-startup/platforms/platforms-2.png",
-                title: "Have A Meeting​",
-                arrowPath: "/images/crypto-startup/platforms/arrow-2.png",
+                title: "Meet Interview Pros",
+                arrowPath: "/images/crypto-startup/platforms/arrow-1.png",
+                paragraph:
+                  "Connect with skilled interviewers who will help you find the right people for your company's growth.",
               },
               {
-                icon: "/images/crypto-startup/platforms/platforms-3.png",
-                title: "Hire The Professional",
+                icon: "/images/crypto-startup/platforms/Meeting.png",
+                title: "Onboarding",
                 arrowPath: "/images/crypto-startup/platforms/arrow-1.png",
+                paragraph:
+                  " Ensuring a smooth transition for new hires into your organization.",
               },
             ],
           },
@@ -976,30 +1054,30 @@ export const BudgetPara =
 
 export const platFormItems = [
   {
-    title: "Strategy Session",
+    title: "Tell Us What You Need",
     content:
-      "Our screening process is automatically started from gathering your applications and providing you a job description that is tailored according to your needs.",
+      "Let us know your requirements, so we can find the perfect fit for your team.",
     imageLink: "/images/crypto-startup/platforms/platforms-1.png",
     arrowLink: "/images/crypto-startup/platforms/arrow-1.png",
   },
   {
-    title: "Interview",
+    title: "Talk to Our HR Team",
     content:
-      "After being shortlisted by our management, you will be called for an interview.​",
+      "Schedule a meeting with our HR experts to plan the best approach for your business.​",
     imageLink: "/images/crypto-startup/platforms/Conversation.png",
     arrowLink: "/images/crypto-startup/platforms/arrow-2.png",
   },
   {
-    title: "On-Boarding",
+    title: "Meet Interview Pros",
     content:
-      "Our world-class onboarding procedure includes meeting your very own customer support specialist.",
+      "Connect with skilled interviewers who will help you find the right people for your company's growth.",
     imageLink: "/images/crypto-startup/platforms/platforms-2.png",
     arrowLink: "/images/crypto-startup/platforms/arrow-1.png",
   },
   {
-    title: "Step Back & Grow",
+    title: "Onboarding",
     content:
-      "Your future begins to meet the expectations you've set for yourself.​",
+      " Ensuring a smooth transition for new hires into your organization.​",
     imageLink: "/images/crypto-startup/platforms/Meeting.png",
   },
 ];
