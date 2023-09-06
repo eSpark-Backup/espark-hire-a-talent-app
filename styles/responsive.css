@@ -2870,8 +2870,7 @@
   }
   .faq-accordion .accordion .accordion__item .accordion__button {
     font-size: 17px;
-    text-align: center;
-    justify-content: center;
+    text-align: start;
   }
   .faq-accordion .accordion .accordion__item .accordion__button img {
     display: none;
@@ -3350,7 +3349,6 @@
   }
   .faq-accordion .accordion .accordion__item .accordion__button {
     justify-content: center;
-    text-align: center;
   }
   .faq-accordion .accordion .accordion__item .accordion__button img {
     display: none;
@@ -3491,7 +3489,7 @@
     display: none;
   }
   .faq-accordion .accordion .accordion__item .accordion__button {
-    font-size: 17px;
+    font-size: 16px !important;
   }
 }
 /* Min width 1550px */
