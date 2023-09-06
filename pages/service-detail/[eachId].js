@@ -15,7 +15,6 @@ export default function ServiceDetails() {
   const getId = router.query.eachId;
   const filterData = sliderData?.filter((item) => item?.id === parseInt(getId));
 
-
   if (!filterData.length) {
     return (
       <div
@@ -24,7 +23,7 @@ export default function ServiceDetails() {
           display: "flex",
           justifyContent: "center",
           alignItems: "center",
-          zIndex: "1"
+          zIndex: "1",
         }}
       >
         <ThreeDots
@@ -47,11 +46,7 @@ export default function ServiceDetails() {
 
   return (
     <>
-      <PageTitle
-        homeText="Home"
-        pageTitle={title}
-        pageSubTitle={title}
-      />
+      <PageTitle homeText="Home" pageTitle={title} pageSubTitle={title} />
 
       <ServicesItem
         title={mainHeading}

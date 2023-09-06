@@ -5,7 +5,7 @@ const OurPlatforms = (props) => {
 
   return (
     <>
-      <div className="platforms-area pb-70">
+      <div className="platforms-area pt-70">
         <div className="container-fluid">
           <div className="section-title with-max-width">
             <h2>{platFormItemsTitle}</h2>

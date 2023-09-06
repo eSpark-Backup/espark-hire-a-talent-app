@@ -5,6 +5,7 @@ const Platforms = ({ heading, paragraph, data }) => {
     <>
       <div className="platforms-area pb-70">
         <div className="container-fluid">
+
           <div className="section-title with-max-width">
             <h2>{heading}</h2>
             <p>{paragraph}</p>
