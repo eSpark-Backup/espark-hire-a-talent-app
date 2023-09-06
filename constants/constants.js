@@ -1219,25 +1219,25 @@ export const processOfHowItWorks = [
     heading: "Recruit",
     content:
       "Exploration of the candidate is the first step in our recruitment process. Picking up outsourced talents is the day-to-day practice of our expert recruiters.",
-    imageLink: "/images/cybersecurity-services/services/Recruit.png",
+    imageLink: "/images/cybersecurity-services/services/recruit-1.png",
   },
   {
     heading: "Shortlist",
     content:
       "Selecting the top candidates comes under the prime expertise of our clever hiring team. They know how to test the talent and pick the foremost candidates.",
-    imageLink: "/images/cybersecurity-services/services/Shortlist.png",
+    imageLink: "/images/cybersecurity-services/services/shortlist-1.png",
   },
   {
     heading: "Hire",
     content:
       "Hiring is the final step in the process of selecting the worthy talent that is decided after proper discussion with our specialist.",
-    imageLink: "/images/cybersecurity-services/services/Hire.png",
+    imageLink: "/images/cybersecurity-services/services/hire-1.png",
   },
   {
     heading: "Train",
     content:
       "Training is our extended and updated service that helps the top-picked talent to utilize their earned skills and get ready to work for our outsourced clients.",
-    imageLink: "/images/cybersecurity-services/services/Train.png",
+    imageLink: "/images/cybersecurity-services/services/train-1.png",
   },
 ];
 

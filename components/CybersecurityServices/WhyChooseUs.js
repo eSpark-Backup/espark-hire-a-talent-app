@@ -17,7 +17,8 @@ const WhyChooseUs = ({ title, para, items }) => {
                 <ul className="list">
                   {items.map((eachItem, i) => (
                     <li key={i}>
-                      <AiOutlineCheck />&nbsp; {eachItem}
+                      <AiOutlineCheck />
+                      &nbsp; {eachItem}
                     </li>
                   ))}
                   {/* <li>
@@ -51,6 +52,8 @@ const WhyChooseUs = ({ title, para, items }) => {
                 <img
                   src="/images/cybersecurity-services/choose/09.png"
                   alt="image"
+                  width={"100%"}
+                  height={"90%"}
                 />
               </div>
             </div>
