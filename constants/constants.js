@@ -1263,48 +1263,73 @@ export const ContactInfoData = [
 export const footerContact = [
   {
     id: 1,
-    item: "info@esparktalent.com"
+    item: "info@esparktalent.com",
   },
   {
     id: 2,
-    item: "hr@esparktalent.com"
+    item: "hr@esparktalent.com",
   },
   {
     id: 3,
-    item: "support@esparktalent.com"
-  }
-]
+    item: "support@esparktalent.com",
+  },
+];
 
-export const FaqTitle = 'Check out our common questions'
+export const FaqTitle = "Check out our common questions";
 
-export const FaqData = [{
-  heading: "How can I hire outsourced professionals instantly ?",
-  paragraph: ""
-}, {
-  heading: "How many days does it take to onboard an outsourced professional?How can I hire outsourced professionals instantly ?",
-  paragraph: ""
-}, {
-  heading: "Is there any management fee before hiring the talent?",
-  paragraph: ""
-}, {
-  heading: "What is the employer cost at eSpark Talent?",
-  paragraph: ""
-},
-{
-  heading: "Can we pay in dollars to hire outsourced employees",
-  paragraph: ""
-}, {
-  heading: "Are there any charges for outsourced employees at eSpark Talent?",
-  paragraph: ""
-}
-  , {
-  heading: "Does eSpark Talent offer benefits for hired employees?",
-  paragraph: ""
-},
-{
-  heading: "Can we hire employees for one day? Need to be confirmed?",
-  paragraph: ""
-}, {
-  heading: "How many hours do employees work at eSpark Talent?",
-  paragraph: ""
-}]
+export const FaqData = [
+  {
+    heading: "How can I hire outsourced professionals instantly ?",
+    paragraph:
+      "It is quite easy to onboard our offered professionals. Just contact us through our shared numbers, email addresses, or online chat support.We will arrange a short formal meeting and our top picked employees will be offered to you.Learn more in our HR policy document.",
+    toggle: false,
+  },
+  {
+    heading:
+      "How many days does it take to onboard an outsourced professional?",
+    paragraph:
+      "At eSpark Talent, it takes only three days to onboard outsourced professionals. Learn more about our hiring process in the HR policy document",
+    toggle: false,
+  },
+  {
+    heading: "Is there any management fee before hiring the talent?",
+    paragraph:
+      "Yes! Employers or companies will be required to pay a 499 USD (US-based clients) or 40,000 PKR (Pakistani clients) one-time fee before hiring the talent. Other related details are shared in our HR policy document.",
+    toggle: false,
+  },
+  {
+    heading: "What is the employer cost at eSpark Talent?",
+    paragraph: "What is the employer cost at eSpark Talent?",
+    toggle: false,
+  },
+  {
+    heading: "Can we pay in dollars to hire outsourced employees",
+    paragraph:
+      "Yes! Employers and client companies are welcome to pay in PKR, USD, and other multiple currencies.",
+    toggle: false,
+  },
+  {
+    heading: "Are there any charges for outsourced employees at eSpark Talent?",
+    paragraph:
+      "No, we candidly pay all taxes and tariffs as representatives of employees",
+    toggle: false,
+  },
+  {
+    heading: "Does eSpark Talent offer benefits for hired employees?",
+    paragraph:
+      "It is quite easy to onboard our offered professionals. Just contact us through our shared numbers, email addresses, or online chat support.We will arrange a short formal meeting and our top picked employees will be offered to you.Learn more in our HR policy document.",
+    toggle: false,
+  },
+  {
+    heading: "Can we hire employees for one day? Need to be confirmed?",
+    paragraph:
+      "It is quite easy to onboard our offered professionals. Just contact us through our shared numbers, email addresses, or online chat support.We will arrange a short formal meeting and our top picked employees will be offered to you.Learn more in our HR policy document.",
+    toggle: false,
+  },
+  {
+    heading: "How many hours do employees work at eSpark Talent?",
+    paragraph:
+      "Employees can work 45 hours per week, which can vary as per the requirement of the client. Learn more about working hours in our salaried, hourly, and project-based employee policies.",
+    toggle: false,
+  },
+];
