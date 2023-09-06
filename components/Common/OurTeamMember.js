@@ -1,8 +1,8 @@
-import React from 'react'
-import Link from 'next/link'
+import React from "react";
+import Link from "next/link";
 
 const OurTeamMember = (props) => {
-  const { data, items, teamData } = props
+  const { data, items, teamData } = props;
   return (
     <>
       <div className="team-area bg-gradient-image ptb-100">
@@ -22,8 +22,22 @@ const OurTeamMember = (props) => {
                     >
                       <div className="single-team-member">
                         <img src={person.img} alt="team" />
-                        <div className="content">
-                          <div className="d-flex align-items-center justify-content-between">
+                        <div
+                          className={
+                            i === 0
+                              ? "content1"
+                              : i === 1
+                              ? "content2"
+                              : i === 2
+                              ? "content3"
+                              : "content4"
+                          }
+                        >
+                          {/* <div className="d-flex align-items-center justify-content-between flex-column">
+                            <h3>{person.name}</h3>
+                            <span>{person.rank}</span>
+                          </div> */}
+                          <div>
                             <h3>{person.name}</h3>
                             <span>{person.rank}</span>
                           </div>
@@ -90,9 +104,7 @@ const OurTeamMember = (props) => {
             <div className="col-lg-6 col-md-12">
               <div className="team-section-title">
                 {/* <span className="sub-title">{teamData?.subTitle}</span> */}
-                <h2>
-                  {teamData?.title}
-                </h2>
+                <h2>{teamData?.title}</h2>
                 <ul>
                   {items?.map((item, i) => (
                     <li key={i}>{item}</li>
@@ -106,17 +118,17 @@ const OurTeamMember = (props) => {
                 </p> */}
                 <Link href="/team">
                   <a className="default-btn style-two">
-                    <span className="ri-arrow-right-s-line"></span>{teamData?.buttonText}
+                    <span className="ri-arrow-right-s-line"></span>
+                    {teamData?.buttonText}
                   </a>
                 </Link>
               </div>
             </div>
-
           </div>
         </div>
       </div>
     </>
-  )
-}
+  );
+};
 
-export default OurTeamMember
+export default OurTeamMember;
