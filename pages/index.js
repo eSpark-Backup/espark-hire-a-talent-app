@@ -37,9 +37,8 @@ export default function Home3() {
         platFormItemsContent={content}
       />
 
-      <OurServices items={sliderData} title={BudgetTitle} para={BudgetPara} />
-
       <AboutUs title={aboutTitle} content={aboutContent} items={aboutItems} />
+      <OurServices items={sliderData} title={BudgetTitle} para={BudgetPara} />
 
       <FunFacts />
 
@@ -56,8 +55,6 @@ export default function Home3() {
       {/* <OurLatestBlog /> */}
 
       {/* <NewsletterForm /> */}
-
-
     </>
   );
 }
