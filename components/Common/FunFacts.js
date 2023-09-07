@@ -3,14 +3,14 @@ import React from "react";
 const FunFacts = () => {
   return (
     <>
-      <div className="funfacts-area pt-100 pb-70">
+      <div className="funfacts-area pt-50 pb-100">
         <div className="container">
           <div className="section-title">
-            <h1>We Have Completed 100+ Projects Successfully​</h1>
+            <h1 className="fw-semibold text-lg-start text-center my-3">
+              We Have Completed 100+ Projects Successfully
+            </h1>
           </div>
-          <br />
-          <br />
-          <div className="row justify-content-center">
+          <div className="row justify-content-center my-2">
             <div
               className="col-lg-3 col-md-6 col-sm-4 col-6"
               data-aos="fade-up"

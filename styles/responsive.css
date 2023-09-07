@@ -1654,6 +1654,12 @@
     padding-bottom: 6px;
     font-size: 12px;
   }
+  .navbar-area .navbar .default-btn {
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 15px;
+  }
   .navbar-area .navbar .others-option .default-btn span {
     display: none;
   }
@@ -1777,7 +1783,7 @@
     display: flex;
     justify-content: center;
   }
-  .single-team-member img{
+  .single-team-member img {
     width: 80%;
   }
 }
