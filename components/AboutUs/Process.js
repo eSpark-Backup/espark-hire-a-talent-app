@@ -1,12 +1,12 @@
-import React from 'react'
+import React from "react";
 
 const Process = ({ title, processData }) => {
   return (
     <React.Fragment>
       <div className="process-area ptb-100">
-        <div className="container">
+        <div className="container-xl">
           <div className="process-inner">
-            <h4 className='text-center mb-5'>{title}</h4>
+            <h4 className="text-center mb-5">{title}</h4>
             <div className="row justify-content-center">
               {processData?.map((processItems, i) => (
                 <div
@@ -22,9 +22,7 @@ const Process = ({ title, processData }) => {
                       <img src={processItems.image} alt="image" />
                     </div>
                     <h3>{processItems.heading}</h3>
-                    <p>
-                      {processItems.paragraph}
-                    </p>
+                    <p>{processItems.paragraph}</p>
                   </div>
                 </div>
               ))}
@@ -84,13 +82,12 @@ const Process = ({ title, processData }) => {
                 </div>
 
               </div> */}
-
             </div>
           </div>
         </div>
       </div>
     </React.Fragment>
-  )
-}
+  );
+};
 
-export default Process
+export default Process;

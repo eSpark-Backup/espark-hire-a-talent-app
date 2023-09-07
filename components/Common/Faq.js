@@ -21,7 +21,7 @@ const Faq = ({ title, item }) => {
 
   return (
     <>
-      <div className="faq-area pt-100 pb-60">
+      <div className="faq-area pt-100 pb-50">
         <div className="container">
           <div className="section-title">
             <h2>{title}</h2>
