@@ -52,7 +52,7 @@ export default function AboutUs() {
 
       <WhatWeWork Items={WhatWeWorkItems} title={WhatWeWorkTitle} image={WhatWeWorkImage} shape={WhatWeWorkShape} />
 
-      <IndustryPartners title={Title} Paragraph={Paragraph} />
+      <IndustryPartners title={Title} paragraph={Paragraph} />
 
       <Faq title={FaqTitle} item={FaqData} />
     </>
