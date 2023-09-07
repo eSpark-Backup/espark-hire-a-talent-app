@@ -17,6 +17,8 @@ const Faq = ({ title, item }) => {
     setallowZeroExpanded(!allowZeroExpanded);
   };
 
+  
+
   return (
     <>
       <div className="faq-area pt-100 pb-60">
