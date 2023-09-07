@@ -1598,6 +1598,10 @@ Services Area CSS
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
+  display: "flex";
+  justify-content: "space-between";
+  flex-direction: "column";
+  height: 450px;
 }
 
 .single-services-box h3 {
@@ -1661,6 +1665,7 @@ Services Area CSS
 
 .single-services-box .default-btn {
   margin-top: 30px;
+  background-color: #000;
 }
 
 .single-services-box::before {
@@ -3873,6 +3878,9 @@ FAQ Area CSS
   border: none;
 }
 
+.faq-accordion .accordion .accordion__item .accordion__panel {
+  animation: fadein 0.75s ease-in-out;
+}
 /* .faq-accordion .accordion .accordion__item .accordion__button {
   width: 100%;
   border: none;
@@ -5125,7 +5133,11 @@ Team Area CSS
   font-size: 14px;
   font-weight: 300;
 }
-
+.team-section-title ul {
+  list-style-type: none;
+  margin-left: 0px;
+  padding-left: 0px;
+}
 .team-section-title .sub-title:hover {
   background-color: var(--mainColor);
   color: var(--whiteColor);
@@ -5178,7 +5190,6 @@ Team Area CSS
   display: flex;
   justify-content: center;
   align-items: center;
-
 }
 .single-team-member .content2 {
   background-color: var(--mainColor);
@@ -5201,7 +5212,7 @@ Team Area CSS
   padding: 24px 20px;
   width: 40%;
   top: -15px;
-  right: -1px;
+  right: -3px;
   height: 40%;
   border-radius: 23.529px;
   display: flex;
@@ -5215,7 +5226,7 @@ Team Area CSS
   padding: 15px 20px;
   width: 40%;
   top: -15px;
-  left: -1px;
+  left: -3px;
   height: 40%;
   border-radius: 23.529px;
   display: flex;
@@ -5232,14 +5243,13 @@ Team Area CSS
   font-size: 30px;
   font-weight: 600;
   color: var(--whiteColor);
-
 }
 
 .single-team-member .content span,
 .single-team-member .content1 span,
 .single-team-member .content2 span,
 .single-team-member .content3 span,
-.single-team-member .content4 span{
+.single-team-member .content4 span {
   display: block;
   font-weight: 300;
   color: var(--whiteColor);
@@ -5249,7 +5259,7 @@ Team Area CSS
 .single-team-member .content1 div,
 .single-team-member .content2 div,
 .single-team-member .content3 div,
-.single-team-member .content4 div{
+.single-team-member .content4 div {
   display: flex;
   justify-content: center;
   flex-direction: column;
@@ -6441,12 +6451,22 @@ Cyber Security Services Area CSS
   overflow: hidden;
 }
 
+/* .cyber-security-services-card {
+  margin-bottom: 30px;
+  border: 1px solid #e5e5e5;
+  background-color: var(--whiteColor);
+  border-radius: 15px;
+  padding: 30px;
+  -webkit-transition: var(--transition);
+  transition: var(--transition);
+} */
 .cyber-security-services-card {
   margin-bottom: 30px;
   border: 1px solid #e5e5e5;
   background-color: var(--whiteColor);
   border-radius: 15px;
   padding: 30px;
+  min-height: 260px;
   -webkit-transition: var(--transition);
   transition: var(--transition);
 }
@@ -7139,11 +7159,11 @@ Cyber Safety Area CSS
   position: relative;
   border: 1px solid #e5e5e5;
   border-radius: 5px;
-  padding: 15px 15px 15px 35px;
+  padding: 15px 15px 15px 42px;
   color: var(--blackColor);
   -webkit-transition: var(--transition);
   transition: var(--transition);
-  font-weight: 600;
+  font-weight: 700;
 }
 
 .cyber-safety-content .safety-list li:last-child {
@@ -7157,6 +7177,7 @@ Cyber Safety Area CSS
   top: 50%;
   -webkit-transform: translateY(-50%);
   transform: translateY(-50%);
+  font-size: 22px;
 }
 
 .cyber-safety-content .safety-list li:hover {
@@ -7704,7 +7725,7 @@ Platforms Area CSS
 
 .platforms-item h3 {
   font-size: 22px;
-  font-weight: 600;
+  font-weight: 700;
   margin-bottom: 0;
 }
 
@@ -7730,6 +7751,7 @@ Platforms Area CSS
 .platforms-item.with-white-color p {
   /* color: var(--whiteColor); */
   color: var(--blackColor);
+  font-weight: 400;
 }
 
 .platforms-item.with-white-color .arrow-image {
