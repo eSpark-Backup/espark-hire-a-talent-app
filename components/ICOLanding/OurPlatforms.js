@@ -12,7 +12,7 @@ const OurPlatforms = (props) => {
             {/* <p>{platFormItemsContent}</p> */}
           </div>
           <div className="row justify-content-center">
-            {data.map((eachItem, i) =>
+            {data?.map((eachItem, i) =>
               i !== 3 ? (
                 <div className="col-lg-2 col-sm-6" key={i}>
                   <div className="platforms-item with-white-color">
