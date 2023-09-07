@@ -128,7 +128,7 @@ export const sliderData = [
             image: "/images/crypto-startup/invest/13.png",
             list: [
               {
-                icon: "/images/crypto-startup/invest/mobile_app.png",
+                icon: "/images/crypto-startup/invest/Mobile_app.png",
                 title: "Build of Applications",
                 description:
                   "Our developers start working from the basics and build Android, iOS, Flutter, and React Native applications that come with management and other inclusions.",
@@ -154,21 +154,21 @@ export const sliderData = [
             list: [
               {
                 icon: "/images/crypto-startup/platforms/platforms-1.png",
-                title: "Tell Us What You Need​",
+                title: "Select The Talent​​",
                 arrowPath: "/images/crypto-startup/platforms/arrow-1.png",
                 paragraph:
                   "Let us know your requirements, so we can find the perfect fit for your team.",
               },
               {
                 icon: "/images/crypto-startup/platforms/Conversation.png",
-                title: "Talk to Our HR Team​",
+                title: "Have A Meeting​​",
                 arrowPath: "/images/crypto-startup/platforms/arrow-2.png",
                 paragraph:
                   "Schedule a meeting with our HR experts to plan the best approach for your business.",
               },
               {
                 icon: "/images/crypto-startup/platforms/platforms-2.png",
-                title: "Meet Interview Pros",
+                title: "Hire The Professional",
                 arrowPath: "/images/crypto-startup/platforms/arrow-1.png",
                 paragraph:
                   "Connect with skilled interviewers who will help you find the right people for your company's growth.",
@@ -334,21 +334,21 @@ export const sliderData = [
             list: [
               {
                 icon: "/images/crypto-startup/platforms/platforms-1.png",
-                title: "Tell Us What You Need​",
+                title: "Select The Talent​​​",
                 arrowPath: "/images/crypto-startup/platforms/arrow-1.png",
                 paragraph:
                   "Let us know your requirements, so we can find the perfect fit for your team.",
               },
               {
                 icon: "/images/crypto-startup/platforms/Conversation.png",
-                title: "Talk to Our HR Team​",
+                title: "Have A Meeting​​",
                 arrowPath: "/images/crypto-startup/platforms/arrow-2.png",
                 paragraph:
                   "Schedule a meeting with our HR experts to plan the best approach for your business.",
               },
               {
                 icon: "/images/crypto-startup/platforms/platforms-2.png",
-                title: "Meet Interview Pros",
+                title: "Hire The Professional",
                 arrowPath: "/images/crypto-startup/platforms/arrow-1.png",
                 paragraph:
                   "Connect with skilled interviewers who will help you find the right people for your company's growth.",
@@ -521,21 +521,21 @@ export const sliderData = [
             list: [
               {
                 icon: "/images/crypto-startup/platforms/platforms-1.png",
-                title: "Tell Us What You Need​",
+                title: "Select The Talent​​​",
                 arrowPath: "/images/crypto-startup/platforms/arrow-1.png",
                 paragraph:
                   "Let us know your requirements, so we can find the perfect fit for your team.",
               },
               {
                 icon: "/images/crypto-startup/platforms/Conversation.png",
-                title: "Talk to Our HR Team​",
+                title: "Have A Meeting​​",
                 arrowPath: "/images/crypto-startup/platforms/arrow-2.png",
                 paragraph:
                   "Schedule a meeting with our HR experts to plan the best approach for your business.",
               },
               {
                 icon: "/images/crypto-startup/platforms/platforms-2.png",
-                title: "Meet Interview Pros",
+                title: "Hire The Professional",
                 arrowPath: "/images/crypto-startup/platforms/arrow-1.png",
                 paragraph:
                   "Connect with skilled interviewers who will help you find the right people for your company's growth.",
@@ -681,21 +681,21 @@ export const sliderData = [
             list: [
               {
                 icon: "/images/crypto-startup/platforms/platforms-1.png",
-                title: "Tell Us What You Need​",
+                title: "Select The Talent​​​",
                 arrowPath: "/images/crypto-startup/platforms/arrow-1.png",
                 paragraph:
                   "Let us know your requirements, so we can find the perfect fit for your team.",
               },
               {
                 icon: "/images/crypto-startup/platforms/Conversation.png",
-                title: "Talk to Our HR Team​",
+                title: "Have A Meeting​​",
                 arrowPath: "/images/crypto-startup/platforms/arrow-2.png",
                 paragraph:
                   "Schedule a meeting with our HR experts to plan the best approach for your business.",
               },
               {
                 icon: "/images/crypto-startup/platforms/platforms-2.png",
-                title: "Meet Interview Pros",
+                title: "Hire The Professional",
                 arrowPath: "/images/crypto-startup/platforms/arrow-1.png",
                 paragraph:
                   "Connect with skilled interviewers who will help you find the right people for your company's growth.",
@@ -861,21 +861,21 @@ export const sliderData = [
             list: [
               {
                 icon: "/images/crypto-startup/platforms/platforms-1.png",
-                title: "Tell Us What You Need​",
+                title: "Select The Talent​​​",
                 arrowPath: "/images/crypto-startup/platforms/arrow-1.png",
                 paragraph:
                   "Let us know your requirements, so we can find the perfect fit for your team.",
               },
               {
                 icon: "/images/crypto-startup/platforms/Conversation.png",
-                title: "Talk to Our HR Team​",
+                title: "Have A Meeting​​",
                 arrowPath: "/images/crypto-startup/platforms/arrow-2.png",
                 paragraph:
                   "Schedule a meeting with our HR experts to plan the best approach for your business.",
               },
               {
                 icon: "/images/crypto-startup/platforms/platforms-2.png",
-                title: "Meet Interview Pros",
+                title: "Hire The Professional",
                 arrowPath: "/images/crypto-startup/platforms/arrow-1.png",
                 paragraph:
                   "Connect with skilled interviewers who will help you find the right people for your company's growth.",
@@ -1009,21 +1009,21 @@ export const sliderData = [
             list: [
               {
                 icon: "/images/crypto-startup/platforms/platforms-1.png",
-                title: "Tell Us What You Need​",
+                title: "Select The Talent​​​",
                 arrowPath: "/images/crypto-startup/platforms/arrow-1.png",
                 paragraph:
                   "Let us know your requirements, so we can find the perfect fit for your team.",
               },
               {
                 icon: "/images/crypto-startup/platforms/Conversation.png",
-                title: "Talk to Our HR Team​",
+                title: "Have A Meeting​​",
                 arrowPath: "/images/crypto-startup/platforms/arrow-2.png",
                 paragraph:
                   "Schedule a meeting with our HR experts to plan the best approach for your business.",
               },
               {
                 icon: "/images/crypto-startup/platforms/platforms-2.png",
-                title: "Meet Interview Pros",
+                title: "Hire The Professional",
                 arrowPath: "/images/crypto-startup/platforms/arrow-1.png",
                 paragraph:
                   "Connect with skilled interviewers who will help you find the right people for your company's growth.",
@@ -1054,30 +1054,30 @@ export const BudgetPara =
 
 export const platFormItems = [
   {
-    title: "Tell Us What You Need",
+    title: "Strategy Session",
     content:
-      "Let us know your requirements, so we can find the perfect fit for your team.",
+      "Our screening process is automatically started from gathering your applications and providing you a job description that is tailored according to your needs.",
     imageLink: "/images/crypto-startup/platforms/platforms-1.png",
     arrowLink: "/images/crypto-startup/platforms/arrow-1.png",
   },
   {
-    title: "Talk to Our HR Team",
+    title: "Interview",
     content:
-      "Schedule a meeting with our HR experts to plan the best approach for your business.​",
+      "After being shortlisted by our management, you will be called for an interview.​",
     imageLink: "/images/crypto-startup/platforms/Conversation.png",
     arrowLink: "/images/crypto-startup/platforms/arrow-2.png",
   },
   {
-    title: "Meet Interview Pros",
+    title: "On-Boarding",
     content:
-      "Connect with skilled interviewers who will help you find the right people for your company's growth.",
+      "Our world-class onboarding procedure includes meeting your very own customer support specialist.",
     imageLink: "/images/crypto-startup/platforms/platforms-2.png",
     arrowLink: "/images/crypto-startup/platforms/arrow-1.png",
   },
   {
-    title: "Onboarding",
+    title: "Step Back & Grow",
     content:
-      " Ensuring a smooth transition for new hires into your organization.​",
+      "Your future begins to meet the expectations you've set for yourself.​",
     imageLink: "/images/crypto-startup/platforms/Meeting.png",
   },
 ];
