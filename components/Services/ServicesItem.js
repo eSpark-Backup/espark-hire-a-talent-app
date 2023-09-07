@@ -34,7 +34,8 @@ const ServicesItem = ({ title, Paragraph, data, id }) => {
                   <div className="d-flex align-items-center ">
                     <img src={items?.icons} alt="image" />
                     <h3>
-                      <a href="/service-details">{items?.name}</a>
+                      {/* <a href="/service-details"></a> */}
+                      {items?.name}
                     </h3>
                   </div>
                   <p>{items?.description}</p>
