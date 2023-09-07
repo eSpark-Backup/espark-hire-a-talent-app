@@ -74,14 +74,13 @@ export const sliderData = [
           "Android App Developers",
           "A professional team knows how to include demanding features in a single Android application. You can only find those creative minds on our highlighting listing of professionals.",
           ["React Native​", "Android", "Java", "Flutter"],
-          "/images/icon/Group29.png",
+          "/images/icon/Group29.png"
         ),
         servicesItem(
           "iOS App Developers​",
           "It required clever observations from the developers to come up with the best iOS applications. Our offered listing of developers will bring the best talent available in the town.",
           ["Swift​​", "MVVM/MVP", "UIKit​", "SwiftUI"],
-          "/images/icon/Group49.png",
-          
+          "/images/icon/Group49.png"
         ),
       ],
       content: {
@@ -129,7 +128,7 @@ export const sliderData = [
             image: "/images/crypto-startup/invest/13.png",
             list: [
               {
-                icon: "/images/crypto-startup/invest/mobile_app.png",
+                icon: "/images/crypto-startup/invest/Mobile_app.png",
                 title: "Build of Applications",
                 description:
                   "Our developers start working from the basics and build Android, iOS, Flutter, and React Native applications that come with management and other inclusions.",
@@ -210,8 +209,7 @@ export const sliderData = [
           "JavaScript Developers​",
           "You can stimulate the users with the help of JavaScript developers hired from our demanding platform. Our services are open all day to offer talented individuals.",
           ["React. Js", "Vue.Js", "Next.Js", "Angular"],
-          "/images/icon/Group61.png",
-          
+          "/images/icon/Group61.png"
         ),
         servicesItem(
           ".Net Developers​",
@@ -222,8 +220,7 @@ export const sliderData = [
             "Web Applications",
             "Data Analysis​",
           ],
-          "/images/icon/Group62.png",
-          
+          "/images/icon/Group62.png"
         ),
         servicesItem(
           "Node.js Developers​",
@@ -234,8 +231,7 @@ export const sliderData = [
             "Design Ideas",
             "High Performance Applications​​",
           ],
-          "/images/icon/Group63.png",
-          
+          "/images/icon/Group63.png"
         ),
         servicesItem(
           "WordPress Developers​",
@@ -246,8 +242,7 @@ export const sliderData = [
             "Expertise in PLs",
             "Technical Knowledge​​",
           ],
-          "/images/icon/Group64.png",
-          
+          "/images/icon/Group64.png"
         ),
         servicesItem(
           "Shopify Developers​​",
@@ -258,15 +253,13 @@ export const sliderData = [
             "Domain Assistance",
             "Query Management​",
           ],
-          "/images/icon/Shopify.png",
-          
+          "/images/icon/Shopify.png"
         ),
         servicesItem(
           "PHP Developers​​",
           "Our PHP developers are lined up for you to come and hire them. They are just a few steps away to be on your side and offer acclaimed skills.",
           ["CRM", "API", "Cloud Assistance", "Laravel​"],
-          "/images/icon/Php.png",
-          
+          "/images/icon/Php.png"
         ),
       ],
       content: {
@@ -403,8 +396,7 @@ export const sliderData = [
             "Instagram Ads",
             "Product Marketing",
           ],
-          "/images/icon/Group.png",
-          
+          "/images/icon/Group.png"
         ),
         servicesItem(
           "Landing Page Experts",
@@ -415,8 +407,7 @@ export const sliderData = [
             "Advertisement/PR",
             "Newsletters",
           ],
-          "/images/icon/Landing page.png",
-          
+          "/images/icon/Landing page.png"
         ),
         servicesItem(
           "CRO Executives",
@@ -427,8 +418,7 @@ export const sliderData = [
             "Marketing Speak",
             "CRO Consulting",
           ],
-          "/images/icon/Man.png",
-          
+          "/images/icon/Man.png"
         ),
         servicesItem(
           "PPC Specialists",
@@ -439,8 +429,7 @@ export const sliderData = [
             "SEO Strategy",
             "Search Engine Ranking",
           ],
-          "/images/icon/Paid_search.png",
-          
+          "/images/icon/Paid_search.png"
         ),
         servicesItem(
           "Social Media Handlers",
@@ -451,15 +440,13 @@ export const sliderData = [
             "Promotional Copies",
             "Digital Platforms Handling",
           ],
-          "/images/icon/Social_media.png",
-          
+          "/images/icon/Social_media.png"
         ),
         servicesItem(
           "Content Writers/SEO Experts",
           "Content is king and every business requires a team of creative minds who produce brand promoting and audience-grabbing worlds. Connect with us and hire a creative writer.",
           ["Blogs", "Articles", "Copies", "Web Content"],
-          "/images/icon/Copywriting.png",
-          
+          "/images/icon/Copywriting.png"
         ),
       ],
       content: {
@@ -597,8 +584,7 @@ export const sliderData = [
             "Embedded Linux",
             "Debugging & Tracing",
           ],
-          "/images/icon/Group67.png",
-          
+          "/images/icon/Group67.png"
         ),
         servicesItem(
           "PCB Design and Assembly​​",
@@ -609,8 +595,7 @@ export const sliderData = [
             "PCB Routing",
             "Debugging & Testing",
           ],
-          "/images/icon/Pcb.png",
-          
+          "/images/icon/Pcb.png"
         ),
         servicesItem(
           "Python / Matlab​​",
@@ -621,8 +606,7 @@ export const sliderData = [
             "Simulation & Testing",
             "AI & Data Sciences",
           ],
-          "/images/icon/Python.png",
-          
+          "/images/icon/Python.png"
         ),
       ],
       content: {
@@ -754,8 +738,7 @@ export const sliderData = [
           "MongoDB Developers​",
           "Meet with a genius team of MongoDB developers. With faster and more scalable services they offer their services life and professional database engineers.",
           ["MongoDB Atlas​", "CRUD Methods​", "JSON", "MongoDB JavaScript​"],
-          "/images/icon/Database.png",
-          
+          "/images/icon/Database.png"
         ),
         servicesItem(
           "MariaDB Developers​​",
@@ -766,8 +749,7 @@ export const sliderData = [
             "C++​",
             "Linux Distributions​",
           ],
-          "/images/icon/DB.png",
-          
+          "/images/icon/DB.png"
         ),
         servicesItem(
           "Firebase Developers ​​​",
@@ -778,15 +760,13 @@ export const sliderData = [
             "Firebase Services​​",
             "Machine Learning Kit​​",
           ],
-          "/images/icon/Server.png",
-          
+          "/images/icon/Server.png"
         ),
         servicesItem(
           "MySQL Developers​​​​",
           "MySQL is a relational database that is managed by experienced database professionals. It is easy and handy to hire them and avail their offered services.",
           ["Oracle​", "Logical Data Model​​", "JSON​​", "Data Manipulation​​​"],
-          "/images/icon/Mysql.png",
-          
+          "/images/icon/Mysql.png"
         ),
         servicesItem(
           "SQL Developers​​​​​",
@@ -797,8 +777,7 @@ export const sliderData = [
             "Scalar Functions​",
             "Quadratic Function​​​",
           ],
-          "/images/icon/Sql.png",
-          
+          "/images/icon/Sql.png"
         ),
         servicesItem(
           "PostgreSQL Developers​​",
@@ -809,8 +788,7 @@ export const sliderData = [
             "Named Notation​​",
             "Extended Features​​​​",
           ],
-          "/images/icon/Group70.png",
-          
+          "/images/icon/Group70.png"
         ),
       ],
       content: {
@@ -946,8 +924,7 @@ export const sliderData = [
             "Security Tests​",
             "Unit Testing",
           ],
-          "/images/icon/Artificial intelligence.png",
-          
+          "/images/icon/Artificial intelligence.png"
         ),
         servicesItem(
           "Manual Testing​​",
@@ -958,8 +935,7 @@ export const sliderData = [
             "System Testing​​",
             "White Box Testing​",
           ],
-          "/images/icon/Test.png",
-          
+          "/images/icon/Test.png"
         ),
       ],
       content: {
@@ -1088,7 +1064,7 @@ export const platFormItems = [
     title: "Interview",
     content:
       "After being shortlisted by our management, you will be called for an interview.​",
-    imageLink: "/images/crypto-startup/platforms/conversation.png",
+    imageLink: "/images/crypto-startup/platforms/Conversation.png",
     arrowLink: "/images/crypto-startup/platforms/arrow-2.png",
   },
   {

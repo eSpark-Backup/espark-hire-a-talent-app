@@ -17,8 +17,6 @@ const Faq = ({ title, item }) => {
     setallowZeroExpanded(!allowZeroExpanded);
   };
 
-  
-
   return (
     <>
       <div className="faq-area pt-100 pb-50">
@@ -42,7 +40,7 @@ const Faq = ({ title, item }) => {
                         <img
                           src={
                             item.toggle
-                              ? "/images/icon/group_93.svg"
+                              ? "/images/icon/Group_93.svg"
                               : "/images/icon/group_92.svg"
                           }
                         />
