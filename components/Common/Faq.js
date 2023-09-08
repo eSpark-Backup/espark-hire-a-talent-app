@@ -27,7 +27,7 @@ const Faq = ({ title, item }) => {
           <div className="faq-accordion">
             <Accordion allowZeroExpanded={allowZeroExpanded}>
               {item?.map((item, i) => (
-                <AccordionItem uuid={i}>
+                <AccordionItem uuid={i} key={i}>
                   <AccordionItemHeading>
                     <AccordionItemButton>
                       <div

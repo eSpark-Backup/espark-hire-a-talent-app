@@ -18,8 +18,10 @@ const NewsletterForm2 = () => {
                 of the industry.
               </p>
               <div className="newsletter-form">
-                <Link href="https://calendly.com/esparktalent/espark-talent?month=2023-08">
-                  <button type="submit">Schedule a Meeting</button>
+                <Link href="https://calendly.com/esparktalent/espark-talent">
+                  <a>
+                    <button type="submit">Schedule a Meeting</button>
+                  </a>
                 </Link>
               </div>
             </div>

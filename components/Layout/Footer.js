@@ -3,7 +3,6 @@ import Link from "next/link";
 import { sliderData, footerContact } from "../../constants/constants";
 import NewsletterForm2 from "../Common/NewsletterForm2";
 
-
 const Footer = () => {
   // const contactUs = [
   //   "info@esparktalent.com​​",
@@ -20,7 +19,11 @@ const Footer = () => {
               <div className="single-footer-widget">
                 <Link href="/">
                   <a className="d-inline-block logo">
-                    <img src="/images/logo.png" className="talent-logo" alt="logo" />
+                    <img
+                      src="/images/logo.png"
+                      className="talent-logo"
+                      alt="logo"
+                    />
                   </a>
                 </Link>
                 <br />
@@ -98,6 +101,11 @@ const Footer = () => {
                   <li>
                     <Link href="/services">
                       <a>How it works</a>
+                    </Link>
+                  </li>
+                  <li>
+                    <Link href="/contact">
+                      <a>Contact Us</a>
                     </Link>
                   </li>
                   <li>
