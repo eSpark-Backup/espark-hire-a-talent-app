@@ -1054,33 +1054,63 @@ export const BudgetPara =
 
 export const platFormItems = [
   {
-    title: "Strategy Session",
-    content:
-      "Our screening process is automatically started from gathering your applications and providing you a job description that is tailored according to your needs.",
     imageLink: "/images/crypto-startup/platforms/platforms-1.png",
+    title: "Select The Talent​​​",
     arrowLink: "/images/crypto-startup/platforms/arrow-1.png",
+    content:
+      "Let us know your requirements, so we can find the perfect fit for your team.",
   },
   {
-    title: "Interview",
-    content:
-      "After being shortlisted by our management, you will be called for an interview.​",
     imageLink: "/images/crypto-startup/platforms/Conversation.png",
+    title: "Have A Meeting​​",
     arrowLink: "/images/crypto-startup/platforms/arrow-2.png",
+    content:
+      "Schedule a meeting with our HR experts to plan the best approach for your business.",
   },
   {
-    title: "On-Boarding",
-    content:
-      "Our world-class onboarding procedure includes meeting your very own customer support specialist.",
     imageLink: "/images/crypto-startup/platforms/platforms-2.png",
+    title: "Hire The Professional",
     arrowLink: "/images/crypto-startup/platforms/arrow-1.png",
+    content:
+      "Connect with skilled interviewers who will help you find the right people for your company's growth.",
   },
   {
-    title: "Step Back & Grow",
-    content:
-      "Your future begins to meet the expectations you've set for yourself.​",
     imageLink: "/images/crypto-startup/platforms/Meeting.png",
+    title: "Onboarding",
+    arrowLink: "/images/crypto-startup/platforms/arrow-1.png",
+    content:
+      " Ensuring a smooth transition for new hires into your organization.",
   },
 ];
+// export const platFormItems = [
+//   {
+//     title: "Strategy Session",
+//     content:
+//       "Our screening process is automatically started from gathering your applications and providing you a job description that is tailored according to your needs.",
+//     imageLink: "/images/crypto-startup/platforms/platforms-1.png",
+//     arrowLink: "/images/crypto-startup/platforms/arrow-1.png",
+//   },
+//   {
+//     title: "Interview",
+//     content:
+//       "After being shortlisted by our management, you will be called for an interview.​",
+//     imageLink: "/images/crypto-startup/platforms/Conversation.png",
+//     arrowLink: "/images/crypto-startup/platforms/arrow-2.png",
+//   },
+//   {
+//     title: "On-Boarding",
+//     content:
+//       "Our world-class onboarding procedure includes meeting your very own customer support specialist.",
+//     imageLink: "/images/crypto-startup/platforms/platforms-2.png",
+//     arrowLink: "/images/crypto-startup/platforms/arrow-1.png",
+//   },
+//   {
+//     title: "Step Back & Grow",
+//     content:
+//       "Your future begins to meet the expectations you've set for yourself.​",
+//     imageLink: "/images/crypto-startup/platforms/Meeting.png",
+//   },
+// ];
 export const title = "How It Works?";
 export const content =
   "Our screening process is automatically started from gathering your applications and providing you a job description that is tailored  according to your needs.";
