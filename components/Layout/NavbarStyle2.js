@@ -272,7 +272,7 @@ const NavbarStyle2 = () => {
                   </li> */}
                   <li className="nabar-buttons">
                     <Link
-                      href="https://calendly.com/esparktalent/espark-talent"
+                      href="https://calendly.com/esparktalents/60min?month=2023-09"
                       activeClassName="active"
                     >
                       <a
@@ -294,7 +294,7 @@ const NavbarStyle2 = () => {
                 {/* <Link href="https://form.jotform.com/232274579439468 ">
                   <a className="default-btn style-two">Apply as a Developer</a>
                 </Link> */}
-                <Link href="https://calendly.com/esparktalent/espark-talent">
+                <Link href="https://calendly.com/esparktalents/60min?month=2023-09">
                   <a className="default-btn style-two">Hire a Talent</a>
                 </Link>
               </div>
