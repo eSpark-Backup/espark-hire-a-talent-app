@@ -25,7 +25,7 @@ const HeroSlider = (props) => {
                         {/* <span className="sub-title">{slide.subTitle}</span> */}
                         <h1>{slide.title}</h1>
                         <h5>{slide.para}</h5>
-                        <Link href={slide.link}>
+                        <Link href="https://calendly.com/esparktalent/espark-talent">
                           <a className="default-btn style-two">
                             <span className="ri-arrow-right-s-line"></span>
                             {slide.buttonText}

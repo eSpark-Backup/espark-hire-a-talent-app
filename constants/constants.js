@@ -563,7 +563,7 @@ export const sliderData = [
     title: "Hire an Embedded Developer​",
     content:
       "Are you looking for an expert Embedded System Designer for your hardware Projects? eSpark Consulting Group has over 10+ years of experience working on various Embedded System Projects, that includes PCB design, Firmware Development, Embedded Linux development, and more.​​ ​",
-    imageLink: "/images/icon/icon11.png",
+    imageLink: "/images/icon/Group 36.png",
     link: "/service-details",
     buttonText: "Hire a Talent",
 
@@ -723,7 +723,7 @@ export const sliderData = [
     title: "Hire a Database Developer​",
     content:
       "Whether you need a dedicated developer to design, optimize or maintain your database, eSpark Consulting Group offers sophisticated Database Developers with the required skills and expertise to handle your Database related project effectively.​ ​",
-    imageLink: "/images/icon/icon12.png",
+    imageLink: "/images/icon/Group 31.png",
     link: "/service-details",
     buttonText: "Hire a Talent",
     mainHeading:
@@ -903,7 +903,7 @@ export const sliderData = [
     title: "Hire a QA Engineer​",
     content:
       "A Quality Assurance Engineer is the cornerstone of every quality-based software program. We offer experienced QA Engineers who make sure that your software programs, apps, or websites go through robust testing and follow the state of the art quality checklist.​​ ​",
-    imageLink: "/images/icon/icon13.png",
+    imageLink: "/images/icon/question-and-answer.png",
     link: "/service-details",
     buttonText: "Hire a Talent",
 
