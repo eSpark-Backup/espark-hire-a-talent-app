@@ -28,7 +28,7 @@ const GetStarted = (props) => {
                   {paragraph}
                 </p>
                 {text
-                  ? <Link href="/contact">
+                  ? <Link href="https://calendly.com/esparktalent/espark-talent">
                     <a className="default-btn style-two">
                       <span className="ri-arrow-right-s-line"></span>
                       {text}
