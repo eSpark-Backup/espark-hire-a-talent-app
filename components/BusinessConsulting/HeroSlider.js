@@ -1,11 +1,11 @@
-import React from 'react'
-import { Swiper, SwiperSlide } from 'swiper/react'
-import { Navigation } from 'swiper'
-import Link from 'next/link'
+import React from "react";
+import { Swiper, SwiperSlide } from "swiper/react";
+import { Navigation } from "swiper";
+import Link from "next/link";
 // import SimpleContent from './content'
 
 const HeroSlider = (props) => {
-  const { data, setData } = props
+  const { data, setData } = props;
   return (
     <>
       <div className="home-area">
@@ -46,8 +46,7 @@ const HeroSlider = (props) => {
         </Swiper>
       </div>
     </>
-  )
-}
+  );
+};
 
 export default HeroSlider;
-
