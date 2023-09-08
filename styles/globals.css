@@ -4804,6 +4804,7 @@ Main Banner Area CSS
 .home-content h1 {
   margin-bottom: 15px;
   font-size: 60px;
+  font-weight: bold;
 }
 
 .home-content .default-btn {
@@ -9298,8 +9299,8 @@ subscribe2 Area CSS
 .subscribe2-inner h2 {
   margin-bottom: 10px px;
   color: var(--whiteColor);
-  font-size: 50px;
-  font-weight: bolder;
+  font-size: 58px;
+  font-weight: bold;
   font-family: var(--fontFamily2);
 }
 
@@ -9313,6 +9314,8 @@ subscribe2 Area CSS
   opacity: 0.9;
   margin-left: auto;
   margin-right: auto;
+  font-size: 20px;
+  letter-spacing: 0.2rem;
 }
 
 /* .subscribe2-inner .newsletter-form {
