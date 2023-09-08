@@ -222,6 +222,18 @@ const NavbarStyle2 = () => {
                       </a>
                     </Link>
                   </li>
+                  {/* <li className="nav-item">
+                    <Link href="/contact" activeClassName="active">
+                      <a
+                        className={`nav-link ${
+                          selectedNavItem === "Contact" ? "active" : ""
+                        }`}
+                        onClick={() => handleNavItemClick("Contact")}
+                      >
+                        Contact Us
+                      </a>
+                    </Link>
+                  </li> */}
                   <li className="nav-item">
                     <Link
                       href="https://form.jotform.com/232274579439468 "
