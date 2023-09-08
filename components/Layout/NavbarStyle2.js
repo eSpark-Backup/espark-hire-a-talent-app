@@ -236,7 +236,7 @@ const NavbarStyle2 = () => {
                   </li> */}
                   <li className="nav-item">
                     <Link
-                      href="https://form.jotform.com/232274579439468 "
+                      href="https://form.jotform.com/232503890925459"
                       activeClassName="active"
                     >
                       <a
