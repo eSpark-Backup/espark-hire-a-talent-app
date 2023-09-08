@@ -153,7 +153,7 @@ const Footer = () => {
                   {footerContact?.map((i) => {
                     return (
                       <li key={i.id}>
-                        <a href={"mailto:info@esparktalent.com"}>{i.item}</a>
+                        <a href={`mailto:${i.item}`}>{i.item}</a>
                       </li>
                     );
                   })}

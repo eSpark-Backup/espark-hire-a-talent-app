@@ -13,9 +13,8 @@ const NewsletterForm2 = () => {
                 Boosts Your Company Faster <br /> with Amazing eSpark Talent
               </h2>
               <p>
-                Accelerate your projects and reach your goals quickly with
-                highly experienced <br /> tech experts with in-depth knowledge
-                of the industry.
+                Connect with skilled interviewers who will help <br/> you find the
+                right people for your company's growth.
               </p>
               <div className="newsletter-form">
                 <Link href="https://calendly.com/esparktalents/60min?month=2023-09">
