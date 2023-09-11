@@ -22,8 +22,8 @@ const FunFacts = () => {
                 <div className="icon">
                   <i className="ri-stack-fill"></i>
                 </div>
-                <h3>1,000+​</h3>
-                <p>Projects Completed​</p>
+                <h3>10+​</h3>
+                <p>Countries​</p>
               </div>
             </div>
 
@@ -70,7 +70,7 @@ const FunFacts = () => {
                 <div className="icon bg-00A4C8">
                   <i className="ri-group-fill"></i>
                 </div>
-                <h3>100%</h3>
+                <h3>95%</h3>
                 <p>Customer Satisfaction​</p>
               </div>
             </div>
