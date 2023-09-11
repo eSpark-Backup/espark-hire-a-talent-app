@@ -25,7 +25,7 @@ const ServicesItem = ({ title, Paragraph, data, id }) => {
                   className="single-services-box border"
                   style={{
                     backgroundImage: `url(/images/services/services1.jpg)`,
-                    height: id && (id === 2 || 5 ? "400px" : "auto"),
+                    height: id && (id === 2 || 5 ? "410px" : "auto"),
                     display: "flex",
                     justifyContent: "space-between",
                     flexDirection: "column",
