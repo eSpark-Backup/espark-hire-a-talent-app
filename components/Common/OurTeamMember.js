@@ -117,7 +117,7 @@ const OurTeamMember = (props) => {
                   normal distribution of letters.
                 </p> */}
                 <Link href="https://calendly.com/esparktalents/60min?month=2023-09">
-                  <a className="default-btn style-two">
+                  <a className="default-btn style-two" target="_blank">
                     <span className="ri-arrow-right-s-line"></span>
                     {teamData?.buttonText}
                   </a>

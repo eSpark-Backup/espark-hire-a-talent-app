@@ -240,6 +240,7 @@ const NavbarStyle2 = () => {
                       activeClassName="active"
                     >
                       <a
+                      target="_blank"
                         className={`nav-link ${
                           selectedNavItem === "Apply as a Developer"
                             ? "active"
@@ -276,6 +277,7 @@ const NavbarStyle2 = () => {
                       activeClassName="active"
                     >
                       <a
+                        target="_blank"
                         className={`default-btn style-two ${
                           selectedNavItem === "Hire a Talent" ? "active" : ""
                         }`}
@@ -295,7 +297,7 @@ const NavbarStyle2 = () => {
                   <a className="default-btn style-two">Apply as a Developer</a>
                 </Link> */}
                 <Link href="https://calendly.com/esparktalents/60min?month=2023-09">
-                  <a className="default-btn style-two">Hire a Talent</a>
+                  <a className="default-btn style-two" target="_blank">Hire a Talent</a>
                 </Link>
               </div>
             </div>

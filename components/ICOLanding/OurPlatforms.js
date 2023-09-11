@@ -8,7 +8,7 @@ const OurPlatforms = (props) => {
       <div className="platforms-area ptb-70">
         <div className="container-fluid">
           <div className="section-title with-max-width">
-            <h2>{platFormItemsTitle}</h2>
+            <h2 style={{fontWeight:700}}>{platFormItemsTitle}</h2>
             {/* <p>{platFormItemsContent}</p> */}
           </div>
           <div className="row justify-content-center">

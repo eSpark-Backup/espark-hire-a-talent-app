@@ -16,7 +16,7 @@ const AboutUs = (props) => {
                 data-aos-once="true"
               >
                 <img
-                  src="/images/01.png"
+                  src="/images/Mask group.png"
                   alt="image"
                   width={"75%"}
                   height={"100%"}
