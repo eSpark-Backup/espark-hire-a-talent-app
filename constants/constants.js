@@ -1242,7 +1242,7 @@ export const WhatWeWorkItems = [
 // Industry Partners
 export const Title = "Our Prestigious Clients";
 export const Paragraph =
-  "Here are our most trusted Clients who have acquired our services and gifted us their positive stamp of approval.";
+  "";
 
 export const processOfHowItWorks = [
   {
@@ -1353,7 +1353,7 @@ export const ContactInfoData = [
     icon: "ri-time-line",
     heading: "Working Hours:",
     paragraph: `Open Monday to Friday
-    From 12:00 PM to 20:00 AM`,
+    From 12:00 PM to 20:00 PM`,
   },
   {
     icon: "ri-mail-unread-line",
