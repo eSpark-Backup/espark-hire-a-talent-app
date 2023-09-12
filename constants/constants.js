@@ -1389,7 +1389,7 @@ export const FaqData = [
   {
     heading: "How can I hire outsourced professionals instantly ?",
     paragraph:
-      "It is quite easy to onboard our offered professionals. Just contact us through our shared numbers, email addresses, or online chat support.We will arrange a short formal meeting and our top picked employees will be offered to you.Learn more in our HR policy document.",
+      "It is quite easy to onboard our offered professionals. Just contact us through our shared numbers, email addresses, or online chat support. We will arrange a short formal meeting and our top picked employees will be offered to you. Learn more in our HR policy document.",
     toggle: false,
   },
   {
@@ -1425,13 +1425,13 @@ export const FaqData = [
   {
     heading: "Does eSpark Talent offer benefits for hired employees?",
     paragraph:
-      "It is quite easy to onboard our offered professionals. Just contact us through our shared numbers, email addresses, or online chat support.We will arrange a short formal meeting and our top picked employees will be offered to you.Learn more in our HR policy document.",
+      "Yes! There are several needful fringe benefits accorded to employees. Including life Insurance, provident fund, EOBI, and social security. Get detailed information about our other offered perks and supplies in HR and employer cost and medical policies.",
     toggle: false,
   },
   {
     heading: "Can we hire employees for one day? Need to be confirmed?",
     paragraph:
-      "It is quite easy to onboard our offered professionals. Just contact us through our shared numbers, email addresses, or online chat support.We will arrange a short formal meeting and our top picked employees will be offered to you.Learn more in our HR policy document.",
+      "Yes! Employers and companies can hire employees on hourly basis. Learn more in our hourly-based employee policy",
     toggle: false,
   },
   {

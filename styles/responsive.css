@@ -1714,7 +1714,7 @@
     padding: 50px;
     text-align: center;
     background-color: var(--mainColor);
-    background-image: url(/images/shape/bg-shape.jpg);
+    background-image: url(/images/shape/before-footer-updated.png);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -3618,12 +3618,12 @@
   .home-area::before {
     left: 0;
     right: 0;
-    bottom: 0;
+    bottom: -1px;
     z-index: 2;
     content: "";
     height: 96px;
     position: absolute;
-    background-image: url(/images/shape/top-shape2.png);
+    background-image: url(/images/shape/waves.png);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
