@@ -11,7 +11,7 @@ export default function Contact() {
     <>
 
 
-      <PageTitle homeText="Home" pageTitle="Contact Details" pageSubTitle="Contact Details" />
+      <PageTitle homeText="Home" pageTitle="Contact Us" pageSubTitle="Contact Us" />
 
       <ContactInfo data={ContactInfoData} />
 
