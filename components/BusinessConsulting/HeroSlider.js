@@ -34,7 +34,7 @@ const HeroSlider = (props) => {
                       </div>
                     </div>
                     <div className="col-lg-6 col-md-12">
-                      <div className="home-image">
+                      <div className="home-image mt-5">
                         <img src={slide.imagePath} alt="banner-image" />
                       </div>
                     </div>
