@@ -47,7 +47,7 @@ const Faq = ({ title, item }) => {
                       </div>
                       <div>
                         <AccordionItemPanel>
-                          <p>{item.paragraph}</p>
+                          <p style={{fontSize:"26px", color: "#09114A"}}>{item.paragraph}</p>
                         </AccordionItemPanel>
                       </div>
                     </AccordionItemButton>

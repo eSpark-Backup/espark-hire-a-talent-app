@@ -267,7 +267,13 @@ textarea.form-control {
 .default-btn:hover::before {
   width: 100%;
 }
-
+.default-btn.style-two-v2 {
+  background-color: var(--mainColor);
+  color: var(--whiteColor);
+  padding-left: 30px;
+  padding-right: 30px;
+  margin: 0px;
+}
 .default-btn.style-two {
   background-color: var(--mainColor);
   color: var(--whiteColor);

@@ -19,7 +19,7 @@ const OurServices = ({ title, para, items }) => {
             spaceBetween={30}
             autoplay={{
               delay: 6000,
-              disableOnInteraction: true,
+              disableOnInteraction: false,
             }}
             pagination={{
               clickable: true,

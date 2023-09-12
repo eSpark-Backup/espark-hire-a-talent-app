@@ -36,7 +36,7 @@ const ContactInfo = ({ data }) => {
                 <p>
                   Open Saturday to Friday
                   <br />
-                  From 06:00 PM to 20:00 AM
+                  From 06:00 PM to 20:00 PM
                 </p>
               </div>
             </div>
