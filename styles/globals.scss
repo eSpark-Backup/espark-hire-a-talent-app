@@ -3969,13 +3969,13 @@ Main Banner Area CSS
     &::before {
         left: 0;
         right: 0;
-        bottom: 0;
+        bottom: -1px;
         z-index: 2;
         content: '';
         height: 96px;
         position: absolute;
         background: {
-            image: url(/images/shape/top-shape2.png);
+            image: url(/images/shape/waves.png);
             position: center center;
             repeat: no-repeat;
             size: cover;
@@ -4536,7 +4536,7 @@ Subscribe Area CSS
     border-radius: 30px;
     background: {
         color: var(--mainColor);
-        image: url(/images/shape/bg-shape.jpg);
+        image: url(/images/shape/before-footer-updated.png);
         position: center center;
         repeat: no-repeat;
         size: cover;
