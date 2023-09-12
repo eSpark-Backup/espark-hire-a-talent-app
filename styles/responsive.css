@@ -3381,7 +3381,9 @@
     padding-left: 0;
   }
   .platforms-item.with-white-color .arrow-image {
-    right: -85px;
+    right: -40px;
+    top:50px;
+    width: 60px;
   }
   /* End "Cybersecurity Demo Responsive, Cryptocurrency Demo Responsive & ICO Landing Demo Responsive" */
   .navbar-area-with-position-relative .navbar .others-option .default-btn {
