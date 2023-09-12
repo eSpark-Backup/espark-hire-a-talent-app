@@ -4773,7 +4773,7 @@ Main Banner Area CSS
   position: relative;
   padding-top: 120px;
   background-color: #f9f9f9;
-  background-image: url(/images/bg/banner-bg-new.png);
+  background-image: url(/images/bg/banner-bg.png);
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -4809,7 +4809,7 @@ Main Banner Area CSS
 
 .home-content h1 {
   margin-bottom: 15px;
-  font-size: 60px;
+  font-size: 55px;
   font-weight: bold;
 }
 
@@ -7763,10 +7763,11 @@ Platforms Area CSS
 }
 
 .platforms-item.with-white-color .arrow-image {
-  right: -90px;
-  top: 5%;
+  right: -60px;
+  top: 10%;
   -webkit-transform: translateY(-5%);
   transform: translateY(-5%);
+  width: 100px;
 }
 
 /* .platforms-area {

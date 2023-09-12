@@ -4,8 +4,7 @@ const Platforms = ({ heading, paragraph, data }) => {
   return (
     <>
       <div className="platforms-area pb-70">
-        <div className="container-fluid">
-
+        <div className="container">
           <div className="section-title with-max-width">
             <h2>{heading}</h2>
             <p>{paragraph}</p>
@@ -14,7 +13,7 @@ const Platforms = ({ heading, paragraph, data }) => {
           <div className="row justify-content-center">
             {data?.map((eachItem, i) =>
               i !== 3 ? (
-                <div className="col-lg-2 col-sm-6" key={i}>
+                <div className="col-lg-3 col-md-3 col-sm-6" key={i}>
                   <div className="platforms-item with-white-color">
                     <div className="image">
                       <img src={eachItem.icon} alt="image" />
@@ -28,7 +27,7 @@ const Platforms = ({ heading, paragraph, data }) => {
                   </div>
                 </div>
               ) : (
-                <div className="col-lg-2 col-sm-6" key={i}>
+                <div className="col-lg-3 col-md-3 col-sm-6" key={i}>
                   <div className="platforms-item with-white-color">
                     <div className="image">
                       <img src={eachItem.icon} alt="image" />
