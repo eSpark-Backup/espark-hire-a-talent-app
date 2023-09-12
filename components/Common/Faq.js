@@ -34,9 +34,16 @@ const Faq = ({ title, item }) => {
                         onClick={() => onChangeToggle(item.toggle, i)}
                         className="button-header"
                       >
-                        <h5>
-                          <strong>{item.heading}</strong>
-                        </h5>
+                        <p
+                          style={{
+                            fontSize: "20px",
+                            fontWeight: "600",
+                            color: "#09114A",
+                          }}
+                        >
+                          {item.heading}
+                        </p>
+
                         <img
                           src={
                             item.toggle
@@ -47,7 +54,15 @@ const Faq = ({ title, item }) => {
                       </div>
                       <div>
                         <AccordionItemPanel>
-                          <p style={{fontSize:"26px", color: "#09114A"}}>{item.paragraph}</p>
+                          <p
+                            style={{
+                              fontSize: "18px",
+                              fontWeight: "400",
+                              color: "#09114A",
+                            }}
+                          >
+                            {item.paragraph}
+                          </p>
                         </AccordionItemPanel>
                       </div>
                     </AccordionItemButton>

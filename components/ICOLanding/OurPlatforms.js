@@ -6,15 +6,15 @@ const OurPlatforms = (props) => {
   return (
     <>
       <div className="platforms-area ptb-70">
-        <div className="container-fluid">
+        <div className="container">
           <div className="section-title with-max-width">
-            <h2 style={{fontWeight:700}}>{platFormItemsTitle}</h2>
+            <h2 style={{ fontWeight: 700 }}>{platFormItemsTitle}</h2>
             {/* <p>{platFormItemsContent}</p> */}
           </div>
-          <div className="row justify-content-center">
+          <div className="row justify-content-between">
             {data?.map((eachItem, i) =>
               i !== 3 ? (
-                <div className="col-lg-2 col-sm-6" key={i}>
+                <div className="col-lg-3 col-md-6 col-sm-6" key={i}>
                   <div className="platforms-item with-white-color">
                     <div className="image">
                       <img src={eachItem.imageLink} alt="image" />
@@ -23,15 +23,12 @@ const OurPlatforms = (props) => {
                     <p>{eachItem.content}</p>
 
                     <div className="arrow-image">
-                      <img
-                        src={eachItem.arrowLink}
-                        alt="image"
-                      />
+                      <img src={eachItem.arrowLink} alt="image" />
                     </div>
                   </div>
                 </div>
-              ) :  (
-                <div className="col-lg-2 col-sm-6" key={i}>
+              ) : (
+                <div className="col-lg-3 col-md-6 col-sm-6" key={i}>
                   <div className="platforms-item with-white-color">
                     <div className="image">
                       <img src={eachItem.imageLink} alt="image" />
