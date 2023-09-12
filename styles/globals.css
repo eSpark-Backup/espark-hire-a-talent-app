@@ -3818,7 +3818,7 @@ Page Title Area CSS
   z-index: 1;
   position: relative;
   background-color: var(--mainColor);
-  background-image: url(/images/shape/bg_1.jpg);
+  background-image: url(/images/shape/before-footer-updated.png);
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -4782,12 +4782,12 @@ Main Banner Area CSS
 .home-area::before {
   left: 0;
   right: 0;
-  bottom: 0;
+  bottom: -3px;
   z-index: 2;
   content: "";
   height: 96px;
   position: absolute;
-  background-image: url(/images/shape/top-shape2.png);
+  background-image: url(/images/shape/waves.png);
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -5449,7 +5449,7 @@ Subscribe Area CSS
   text-align: center;
   border-radius: 30px;
   background-color: var(--mainColor);
-  background-image: url(/images/shape/bg-shape.jpg);
+  background-image: url(/images/shape/before-footer-updated.png);
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -5460,7 +5460,7 @@ Subscribe Area CSS
   text-align: center;
   border-radius: 30px;
   background-color: var(--mainColor);
-  background-image: url(/images/shape/bg-shape.jpg);
+  background-image: url(/images/shape/before-footer-updated.png);
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -5475,7 +5475,7 @@ Subscribe Area CSS
   text-align: center;
   border-radius: 30px;
   /* background-color: var(--mainColor); */
-  /* background-image: url(/images/shape/bg-shape.jpg); */
+  /* background-image: url(/images/shape/before-footer-updated.png); */
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -5500,7 +5500,7 @@ Subscribe Area CSS
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center center;
-  background-image: url(/images/shape/bg-shape.jpg);
+  background-image: url(/images/shape/before-footer-updated.png);
   width: 350px;
   height: 310px;
   /* border: 1px solid rgba(219, 219, 219, 0.596); */
@@ -9237,7 +9237,7 @@ subscribe2 Area CSS
   text-align: center;
   border-radius: 30px;
   background-color: var(--mainColor);
-  background-image: url(/images/shape/bg-shape.jpg);
+  background-image: url(/images/shape/before-footer-updated.png);
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
