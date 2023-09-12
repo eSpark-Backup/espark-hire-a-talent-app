@@ -2404,7 +2404,9 @@
     padding-top: 80px;
   }
   .home-area::before {
-    height: 50px;
+    height: 50px !important;
+    bottom: -1px !important;
+
   }
   .home-content {
     top: 0;
@@ -3200,10 +3202,11 @@
     left: 15px;
   }
   .home-area::before {
-    height: 50px;
+    height: 60px !important;
+    bottom: -1px;
   }
   .home-content h1 {
-    font-size: 45px;
+    font-size: 35px;
   }
   .about-img {
     padding-right: 0;
