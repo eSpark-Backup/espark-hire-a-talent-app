@@ -4782,10 +4782,10 @@ Main Banner Area CSS
 .home-area::before {
   left: 0;
   right: 0;
-  bottom: -3px;
+  bottom: -3px ;
   z-index: 2;
   content: "";
-  height: 96px;
+  height: 96px !important;
   position: absolute;
   background-image: url(/images/shape/waves.png);
   background-position: center center;
