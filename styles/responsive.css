@@ -235,6 +235,7 @@
   .single-services-box .features-list li span {
     text-align: start;
     display: inline-block;
+    font-size: 9px;
   }
   .single-services-box .default-btn {
     margin-top: 25px;
@@ -1729,11 +1730,13 @@
     font-size: 16px;
     justify-content: center;
     text-align: center;
-    padding-left: 8px;
-    padding-right: 8px;
+    padding-left: 10px;
+    padding-right: 10px;
   }
   .faq-accordion .accordion .accordion__item .accordion__button img {
-    display: none;
+    /* display: none; */
+    width: 30px;
+    height: 30px;
   }
   .single-team-member .content1,
   .single-team-member .content2 {
@@ -1846,9 +1849,9 @@
     padding-left: 10px;
     padding-right: 10px;
   }
-  .faq-accordion .accordion .accordion__item .accordion__button img {
+  /* .faq-accordion .accordion .accordion__item .accordion__button img {
     display: none;
-  }
+  } */
 
   /* End "Cybersecurity Demo Responsive, Cryptocurrency Demo Responsive & ICO Landing Demo Responsive" */
 }
@@ -2933,7 +2936,8 @@
     text-align: start;
   }
   .faq-accordion .accordion .accordion__item .accordion__button img {
-    display: none;
+    width: 30px;
+    height: 30px;
   }
 }
 
@@ -3411,7 +3415,8 @@
     justify-content: center;
   }
   .faq-accordion .accordion .accordion__item .accordion__button img {
-    display: none;
+    height: 50px;
+    width: 50px;
   }
 }
 
@@ -3672,4 +3677,20 @@
     display: block;
   }
 }
+
+@media screen and (max-width: 490px) {
+  .with-space {
+    margin-top: 20px;
+  }
+}
+@media screen and (min-width: 491px) and (max-width: 575px) {
+  .with-space {
+    margin-top: 15px;
+  }
+}
+/* @media screen and (max-width: 580px) {
+  .with-space {
+    margin-top: 17px;
+  }
+} */
 /*# sourceMappingURL=responsive.css.map */

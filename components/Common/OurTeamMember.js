@@ -20,7 +20,13 @@ const OurTeamMember = (props) => {
                       data-aos-duration="1200"
                       data-aos-once="true"
                     >
-                      <div className="single-team-member">
+                      <div
+                        className={
+                          i > 2
+                            ? "single-team-member with-space"
+                            : "single-team-member"
+                        }
+                      >
                         <img src={person.img} alt="team" />
                         <div
                           className={
@@ -117,8 +123,8 @@ const OurTeamMember = (props) => {
                   normal distribution of letters.
                 </p> */}
                 <Link href="https://calendly.com/esparktalents/60min?month=2023-09">
-                  <a className="default-btn style-two" target="_blank">
-                    <span className="ri-arrow-right-s-line"></span>
+                  <a className="default-btn style-two-v2" target="_blank">
+                    {/* <span className="ri-arrow-right-s-line"></span> */}
                     {teamData?.buttonText}
                   </a>
                 </Link>
