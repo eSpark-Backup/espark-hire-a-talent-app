@@ -15,7 +15,7 @@ const Footer = () => {
       <footer className="footer-area">
         <div className="container">
           <div className="row justify-content-center">
-            <div className="col-lg-4 col-sm-6 col-md-6">
+            <div className="col-lg-6 col-sm-6 col-md-6">
               <div className="single-footer-widget">
                 <Link href="/">
                   <a className="d-inline-block logo">
@@ -89,7 +89,7 @@ const Footer = () => {
                 </ul>
               </div>
             </div>
-            <div className="col-lg-3 col-sm-6 col-md-6">
+            <div className="col-lg-2 col-sm-6 col-md-6">
               <div className="single-footer-widget pl-5">
                 <h3>Company</h3>
                 <ul className="quick-links">
@@ -105,16 +105,16 @@ const Footer = () => {
                   </li>
                   <li>
                     <Link href="/contact">
-                      <a>Contact Us</a>
+                      <a>Contact Details</a>
                     </Link>
                   </li>
                   <li>
-                    <Link href="/coming-soon">
+                    <Link href="/blogs">
                       <a>Blogs</a>
                     </Link>
                   </li>
                   <li>
-                    <Link href="/coming-soon">
+                    <Link href="/careers">
                       <a>Career</a>
                     </Link>
                   </li>
@@ -146,9 +146,9 @@ const Footer = () => {
                   </li> */}
               </div>
             </div>
-            <div className="col-lg-3 col-sm-6 col-md-6">
+            <div className="col-lg-2 col-sm-6 col-md-6">
               <div className="single-footer-widget">
-                <h3>Contact Us</h3>
+                <h3>Contact Details</h3>
                 <ul className="footer-contact-info">
                   {footerContact?.map((i) => {
                     return (
