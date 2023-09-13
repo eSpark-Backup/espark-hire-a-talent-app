@@ -44,7 +44,7 @@ const OurTeamMember = (props) => {
                             <span>{person.rank}</span>
                           </div> */}
                           <div>
-                            <h3>{person.name}</h3>
+                            <h3 >{person.name}</h3>
                             <span>{person.rank}</span>
                           </div>
                         </div>
@@ -110,7 +110,7 @@ const OurTeamMember = (props) => {
             <div className="col-lg-6 col-md-12">
               <div className="team-section-title">
                 {/* <span className="sub-title">{teamData?.subTitle}</span> */}
-                <h2>{teamData?.title}</h2>
+                <h2 className="fw-semibold">{teamData?.title}</h2>
                 <ul>
                   {items?.map((item, i) => (
                     <li key={i}>{item}</li>

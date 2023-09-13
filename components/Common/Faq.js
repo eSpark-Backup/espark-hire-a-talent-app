@@ -22,7 +22,7 @@ const Faq = ({ title, item }) => {
       <div className="faq-area pt-100 pb-50">
         <div className="container">
           <div className="section-title">
-            <h2>{title}</h2>
+            <h2 className="fw-semibold">{title}</h2>
           </div>
           <div className="faq-accordion">
             <Accordion allowZeroExpanded={allowZeroExpanded}>

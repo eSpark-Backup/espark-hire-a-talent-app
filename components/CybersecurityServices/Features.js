@@ -23,7 +23,7 @@ const Features = ({ title, para, items }) => {
                   <div className="image">
                     <img src={eachCard.imageLink} alt="image" />
                   </div>
-                  <h3>{eachCard.title}</h3>
+                  <h3 className="fw-semibold">{eachCard.title}</h3>
                   <p>{eachCard.content}</p>
                 </div>
               </div>
