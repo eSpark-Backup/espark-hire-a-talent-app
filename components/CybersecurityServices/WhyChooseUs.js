@@ -11,7 +11,7 @@ const WhyChooseUs = ({ title, para, items }) => {
             <div className="col-lg-6 col-md-12">
               <div className="why-choose-us-content">
                 {/* <span className="sub-title">Why Choose Us</span> */}
-                <h2>{title}</h2>
+                <h2 className="fw-semibold">{title}</h2>
                 <p>{para}</p>
 
                 <ul className="list">

@@ -29,7 +29,7 @@ const AboutUs = (props) => {
             <div className="col-lg-6 col-md-12">
               <div className="about-content">
                 {/* <span className="sub-title">ABOUT US</span> */}
-                <h2>{title}</h2>
+                <h2 className="fw-semibold">{title}</h2>
                 <p>{content}</p>
                 <ul className="features-list">
                   {items.map((eachItem, i) => (
