@@ -25,7 +25,7 @@ const CyberSafety = ({ title, para }) => {
             <div className="col-lg-6 col-md-12">
               <div className="cyber-safety-content">
                 {/* <span className="sub-title">Cyber Safety</span> */}
-                <h2>{title}</h2>
+                <h2 className="fw-semibold">{title}</h2>
                 <p>{para}</p>
 
                 <div className="row align-items-center">

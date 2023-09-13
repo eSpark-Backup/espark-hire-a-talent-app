@@ -11,7 +11,7 @@ const OurServices = ({ title, para, items }) => {
         <div className="container">
           <div className="section-title">
             {/* <span className="sub-title">OUR SERVICES</span> */}
-            <h2>{title}</h2>
+            <h2 className="fw-semibold">{title}</h2>
             <p>{para}</p>
           </div>
 
