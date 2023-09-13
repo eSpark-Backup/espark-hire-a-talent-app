@@ -28,6 +28,9 @@ const OurServices = ({ title, para, items }) => {
               0: {
                 slidesPerView: 1,
               },
+              425: {
+                slidesPerView: 1,
+              },
               768: {
                 slidesPerView: 2,
               },
