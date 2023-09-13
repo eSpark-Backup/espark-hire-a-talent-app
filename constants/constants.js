@@ -150,7 +150,7 @@ export const sliderData = [
           {
             heading: "Hiring in Minutes",
             paragraph:
-              "Follow the three-step process and build a strong team of professionals. Our team is one click away to offer you skillful professionals.",
+              "Follow the four-step process and build a strong team of professionals. Our team is one click away to offer you skillful professionals.",
             list: [
               {
                 icon: "/images/crypto-startup/platforms/platforms-1.png",
@@ -330,7 +330,7 @@ export const sliderData = [
           {
             heading: "Hiring in Minutes",
             paragraph:
-              "Follow the three-step process and build a strong team of professionals. Our team is one click away to offer you skillful professionals.",
+              "Follow the four-step process and build a strong team of professionals. Our team is one click away to offer you skillful professionals.",
             list: [
               {
                 icon: "/images/crypto-startup/platforms/platforms-1.png",
@@ -517,7 +517,7 @@ export const sliderData = [
           {
             heading: "Hiring in Minutes",
             paragraph:
-              "Follow the three-step process and build a strong team of professionals. Our team is one click away to offer you skillful professionals.",
+              "Follow the four-step process and build a strong team of professionals. Our team is one click away to offer you skillful professionals.",
             list: [
               {
                 icon: "/images/crypto-startup/platforms/platforms-1.png",
@@ -677,7 +677,7 @@ export const sliderData = [
           {
             heading: "Hiring in Minutes",
             paragraph:
-              "Follow the three-step process and build a strong team of professionals. Our team is one click away to offer you skillful professionals.",
+              "Follow the four-step process and build a strong team of professionals. Our team is one click away to offer you skillful professionals.",
             list: [
               {
                 icon: "/images/crypto-startup/platforms/platforms-1.png",
@@ -857,7 +857,7 @@ export const sliderData = [
           {
             heading: "Hiring in Minutes",
             paragraph:
-              "Follow the three-step process and build a strong team of professionals. Our team is one click away to offer you skillful professionals.",
+              "Follow the four-step process and build a strong team of professionals. Our team is one click away to offer you skillful professionals.",
             list: [
               {
                 icon: "/images/crypto-startup/platforms/platforms-1.png",
@@ -1005,7 +1005,7 @@ export const sliderData = [
           {
             heading: "Hiring in Minutes",
             paragraph:
-              "Follow the three-step process and build a strong team of professionals. Our team is one click away to offer you skillful professionals.",
+              "Follow the four-step process and build a strong team of professionals. Our team is one click away to offer you skillful professionals.",
             list: [
               {
                 icon: "/images/crypto-startup/platforms/platforms-1.png",

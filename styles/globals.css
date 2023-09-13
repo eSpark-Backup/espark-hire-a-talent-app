@@ -4898,7 +4898,7 @@ Services Area CSS
 
 .single-services-item p {
   margin-top: 18px;
-  min-height: 220px;
+  /* min-height: 220px; */
 }
 
 .single-services-item .features-list {
