@@ -24,8 +24,8 @@ const ServicesItem = ({ title, Paragraph, data, id }) => {
                 <div
                   className="single-services-box border"
                   style={{
-                    backgroundImage: `url(/images/services/services1.jpg)`,
-                    height: id && (id === 2 || 5 ? "410px" : "auto"),
+                    // backgroundImage: `url(/images/services/services1.jpg)`,
+                    height: id && (id === 2 || 5 ? "440px" : "auto"),
                     display: "flex",
                     justifyContent: "space-between",
                     flexDirection: "column",
@@ -40,7 +40,7 @@ const ServicesItem = ({ title, Paragraph, data, id }) => {
                   </div>
                   <p>{items?.description}</p>
                   {items.list ? (
-                    <ul className="features-list">
+                    <ul className="features-list my-2">
                       {items.list?.map((list, i) => (
                         <li key={i}>
                           <span>
