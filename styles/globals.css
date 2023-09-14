@@ -1607,7 +1607,7 @@ Services Area CSS
   display: "flex";
   justify-content: "space-between";
   flex-direction: "column";
-  height: 450px;
+  height: 420px;
 }
 
 .single-services-box h3 {
