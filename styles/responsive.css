@@ -234,8 +234,8 @@
   }
   .single-services-box .features-list li span {
     text-align: start;
-    display: inline-block;
-    font-size: 9px;
+    /* display: inline-block; */
+    /* font-size: 9px; */
   }
   .single-services-box .default-btn {
     margin-top: 25px;
@@ -2406,7 +2406,6 @@
   .home-area::before {
     height: 50px !important;
     bottom: -1px !important;
-
   }
   .home-content {
     top: 0;
@@ -3385,7 +3384,7 @@
   }
   .platforms-item.with-white-color .arrow-image {
     right: -40px;
-    top:50px;
+    top: 50px;
     width: 60px;
   }
   /* End "Cybersecurity Demo Responsive, Cryptocurrency Demo Responsive & ICO Landing Demo Responsive" */
