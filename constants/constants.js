@@ -57,7 +57,7 @@ export const sliderData = [
     id: 1,
     title: "Hire a Mobile App Developer",
     content:
-      "We have the most talented and top-notch app developers at eSpark Talent ready to provide quality-based app development services for your businesses Through our expertise, we can help you propel your app content into reality by developing a seamless mobile app experience for your customers.​",
+      "We have the most talented and top-notch app developers at eSpark Talent ready to provide quality-based app development services for your businesses. Through our expertise, we can help you propel your app content into reality by developing a seamless mobile app experience.​",
     imageLink: "/images/icon/app-development.png",
     link: "/service-details",
     buttonText: "Hire a Talent",
