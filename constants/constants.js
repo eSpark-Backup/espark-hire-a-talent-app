@@ -207,7 +207,7 @@ export const sliderData = [
       services: [
         servicesItem(
           "JavaScript Developers​",
-          "You can stimulate the users with the help of JavaScript developers hired from our demanding platform. Our services are open all day to offer talented individuals.",
+          "You can stimulate the users with the help of JavaScript developers hired from our demanding platform. Our services are always open 24/7.",
           ["React. Js", "Vue.Js", "Next.Js", "Angular"],
           "/images/icon/Group61.png"
         ),
@@ -422,7 +422,7 @@ export const sliderData = [
         ),
         servicesItem(
           "PPC Specialists",
-          "Don’t worry about the online presence and rank of your business. Our offered PPC will handle the ranking of websites and internet advertising module.",
+          "Don’t worry about the online presence and rank of your business. Our specialized PPC campaigns will handle the ranking of your websites and internet advertising modules.",
           [
             "Customer Acquisition",
             "Organic Traffic",
@@ -433,7 +433,7 @@ export const sliderData = [
         ),
         servicesItem(
           "Social Media Handlers",
-          "Social media platforms are the core elements for businesses to have a strong presence. Your business will always require assist of our social media handlers to be active on digital platforms.",
+          "Social media platforms are the core elements for businesses to have a strong presence. Your business will always require assist of our social media handlers to be fully active.",
           [
             "Social Media Post",
             "Content Management",
@@ -443,7 +443,7 @@ export const sliderData = [
           "/images/icon/Social_media.png"
         ),
         servicesItem(
-          "Content Writers/SEO Experts",
+          "SEO Experts",
           "Content is king and every business requires a team of creative minds who produce brand promoting and audience-grabbing worlds. Connect with us and hire a creative writer.",
           ["Blogs", "Articles", "Copies", "Web Content"],
           "/images/icon/Copywriting.png"
@@ -576,7 +576,7 @@ export const sliderData = [
     data: {
       services: [
         servicesItem(
-          "Firmware Development C / C++​",
+          "Firmware Development​",
           "The use of c/c++ shows signs of reliability and great results come when you hire someone who knows how to come up with development designs and firmware.",
           [
             "Embedded Firmware",
@@ -722,7 +722,7 @@ export const sliderData = [
     id: 5,
     title: "Hire a Database Developer​",
     content:
-      "Whether you need a dedicated developer to design, optimize or maintain your database, eSpark Talent offers sophisticated Database Developers with the required skills and expertise to handle your Database related project effectively.​",
+      "Are you seeking a dedicated developer to design, optimize and maintain your database? eSpark Talent offers sophisticated Database Developers with market competitive skills and expertise to handle your Database Design related projects very effectively and professionally.​",
     imageLink: "/images/icon/Group 31.png",
     link: "/service-details",
     buttonText: "Hire a Talent",
@@ -742,7 +742,7 @@ export const sliderData = [
         ),
         servicesItem(
           "MariaDB Developers​​",
-          "Just like the quick assistance of MariaDB, our experts master all functions involved in this database system. Their expertise are worth appreciating and you can hire them anytime.",
+          "Just like the quick assistance of MariaDB, our experts master all functions involved in this database system. Their expertise are worth appreciating.",
           [
             "Cloud-based Storage​",
             "Relational Database​",
@@ -770,7 +770,7 @@ export const sliderData = [
         ),
         servicesItem(
           "SQL Developers​​​​​",
-          "SQL database management system relies on its functions. Our experienced developers pursue that knowledge and are available to get hired.",
+          "SQL database management system relies on its functions. Our experienced developers pursue that knowledge and are available to get hired and produce exceptional results.",
           [
             "Aggregate Functions​​",
             "Linear Function​​​",
@@ -917,7 +917,7 @@ export const sliderData = [
       services: [
         servicesItem(
           "Automation Testing​",
-          "Automation testing brings the most reliable results and only true professionals can handle all testing frameworks. The demand for a QA engineer leads you to our specialist team.",
+          "Automation testing brings the most reliable results and only true professionals can handle all testing frameworks. We can fulfil all your demands for a QA Engineer.",
           [
             "Regression Tests",
             "Performance Tests",
