@@ -46,8 +46,8 @@ const OurServices = ({ title, para, items }) => {
                 <div
                   className={
                     eachCard.homeComponent
-                      ? "single-services-item with-boxshadow"
-                      : "single-services-item with-boxshadow size-change"
+                      ? "single-services-item with-boxshadow size-change"
+                      : "single-services-item with-boxshadow"
                   }
                 >
                   <div className="d-flex align-items-center">
@@ -62,7 +62,7 @@ const OurServices = ({ title, para, items }) => {
                   <p>{eachCard.content}</p>
                   {eachCard.homeComponent ? (
                     <Link href={"service-detail" + "/" + eachCard.id}>
-                      <a className="default-btn">
+                      <a className="default-btn align-self-end">
                         <span className="ri-arrow-right-s-line"></span>
                         {eachCard.buttonText}
                       </a>
