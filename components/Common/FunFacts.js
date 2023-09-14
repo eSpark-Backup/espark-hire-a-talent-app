@@ -10,7 +10,7 @@ const FunFacts = () => {
               We Have Completed 100+ Projects Successfully
             </h1>
           </div>
-          <div className="row justify-content-center my-2">
+          <div className="row justify-content-center align-items-center my-2">
             <div
               className="col-lg-3 col-md-6 col-sm-4 col-6"
               data-aos="fade-up"
