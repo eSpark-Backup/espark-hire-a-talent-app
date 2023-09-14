@@ -1643,7 +1643,7 @@ Services Area CSS
   -webkit-box-flex: 0;
   -ms-flex: 0 0 auto;
   flex: 0 0 auto;
-  width: 50%;
+  width: 100%;
   padding-left: 5px;
   padding-right: 5px;
 }
@@ -1671,7 +1671,7 @@ Services Area CSS
 
 .single-services-box .default-btn {
   margin-top: 30px;
-  background-color: #000;
+  /* background-color: #000; */
 }
 
 .single-services-box::before {
@@ -1698,7 +1698,8 @@ Services Area CSS
   right: 0;
   opacity: 0;
   visibility: hidden;
-  background-color: #000000;
+  /* background-color: #000000; */
+  background-color: #029894;
   top: 0;
   margin: 8px;
   z-index: -1;
@@ -4782,7 +4783,7 @@ Main Banner Area CSS
 .home-area::before {
   left: 0;
   right: 0;
-  bottom: -3px ;
+  bottom: -3px;
   z-index: 2;
   content: "";
   height: 96px !important;
@@ -4945,7 +4946,7 @@ Services Area CSS
 }
 /* New class added because how it works cards have less content */
 .size-change {
-  height: 300px;
+  height: 450px;
 }
 
 .single-services-item.with-boxshadow {
