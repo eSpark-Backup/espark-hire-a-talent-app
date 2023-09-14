@@ -87,7 +87,7 @@ const AboutUs = (props) => {
           </div>
         </div>
         <div className="shape6">
-          <img src="/images/shape/shape6.png" alt="image" width={"90%"} />
+          <img src="/images/shape/shape6.png" alt="image" />
         </div>
       </div>
     </>
