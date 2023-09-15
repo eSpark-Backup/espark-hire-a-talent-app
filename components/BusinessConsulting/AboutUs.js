@@ -15,7 +15,12 @@ const AboutUs = (props) => {
                 data-aos-duration="1000"
                 data-aos-once="true"
               >
-                <img src="/images/about3.png" alt="image" />
+                <img
+                  src="/images/Mask group.png"
+                  alt="image"
+                  width={"75%"}
+                  height={"100%"}
+                />
                 <div className="shape5">
                   <img src="/images/shape/shape5.png" alt="image" />
                 </div>
@@ -24,7 +29,7 @@ const AboutUs = (props) => {
             <div className="col-lg-6 col-md-12">
               <div className="about-content">
                 {/* <span className="sub-title">ABOUT US</span> */}
-                <h2>{title}</h2>
+                <h2 className="fw-semibold">{title}</h2>
                 <p>{content}</p>
                 <ul className="features-list">
                   {items.map((eachItem, i) => (

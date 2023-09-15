@@ -11,13 +11,14 @@ const WhyChooseUs = ({ title, para, items }) => {
             <div className="col-lg-6 col-md-12">
               <div className="why-choose-us-content">
                 {/* <span className="sub-title">Why Choose Us</span> */}
-                <h2>{title}</h2>
+                <h2 className="fw-semibold">{title}</h2>
                 <p>{para}</p>
 
                 <ul className="list">
                   {items.map((eachItem, i) => (
                     <li key={i}>
-                      <AiOutlineCheck/>&nbsp; {eachItem}
+                      <AiOutlineCheck />
+                      &nbsp; {eachItem}
                     </li>
                   ))}
                   {/* <li>
@@ -49,8 +50,10 @@ const WhyChooseUs = ({ title, para, items }) => {
                 data-aos-once="true"
               >
                 <img
-                  src="/images/cybersecurity-services/choose/choose.png"
+                  src="/images/cybersecurity-services/choose/09.png"
                   alt="image"
+                  width={"100%"}
+                  height={"90%"}
                 />
               </div>
             </div>

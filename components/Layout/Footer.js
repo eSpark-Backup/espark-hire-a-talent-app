@@ -1,7 +1,7 @@
 import React from "react";
 import Link from "next/link";
-import NewsletterForm from "../Common/NewsletterForm";
 import { sliderData, footerContact } from "../../constants/constants";
+import NewsletterForm2 from "../Common/NewsletterForm2";
 
 const Footer = () => {
   // const contactUs = [
@@ -11,15 +11,19 @@ const Footer = () => {
   // ];
   return (
     <React.Fragment>
-      <NewsletterForm />
+      <NewsletterForm2 />
       <footer className="footer-area">
         <div className="container">
           <div className="row justify-content-center">
-            <div className="col-lg-4 col-sm-6 col-md-6">
+            <div className="col-xl-6 col-lg-3 col-sm-6 ">
               <div className="single-footer-widget">
                 <Link href="/">
                   <a className="d-inline-block logo">
-                    <img src="/images/logo.png" alt="logo" />
+                    <img
+                      src="/images/logo.png"
+                      className="talent-logo"
+                      alt="logo"
+                    />
                   </a>
                 </Link>
                 <br />
@@ -69,14 +73,14 @@ const Footer = () => {
                 </ul> */}
               </div>
             </div>
-            <div className="col-lg-2 col-sm-6 col-md-6">
+            <div className="col-xl-2 col-lg-3 col-sm-6 ">
               <div className="single-footer-widget">
                 <h3>Hire a Talent​</h3>
-                <ul className="services-links">
+                <ul className="services-links mt-5">
                   {sliderData?.map((item) => {
                     return (
                       <li key={item.id}>
-                      <Link href={`/service-detail/${item.id}`}>
+                        <Link href={`/service-detail/${item.id}`}>
                           <a>{item.title}</a>
                         </Link>
                       </li>
@@ -85,11 +89,10 @@ const Footer = () => {
                 </ul>
               </div>
             </div>
-
-            <div className="col-lg-3 col-sm-6 col-md-6">
+            <div className="col-xl-2 col-lg-3 col-sm-6 ">
               <div className="single-footer-widget pl-5">
                 <h3>Company</h3>
-                <ul className="quick-links">
+                <ul className="quick-links mt-5">
                   <li>
                     <Link href="/about-us">
                       <a>What we do</a>
@@ -101,12 +104,17 @@ const Footer = () => {
                     </Link>
                   </li>
                   <li>
-                    <Link href="/coming-soon">
+                    <Link href="/contact">
+                      <a>Contact Us</a>
+                    </Link>
+                  </li>
+                  <li>
+                    <Link href="/blogs">
                       <a>Blogs</a>
                     </Link>
                   </li>
                   <li>
-                    <Link href="/coming-soon">
+                    <Link href="/careers">
                       <a>Career</a>
                     </Link>
                   </li>
@@ -138,19 +146,18 @@ const Footer = () => {
                   </li> */}
               </div>
             </div>
-
-            <div className="col-lg-3 col-sm-6 col-md-6">
+            <div className="col-xl-2 col-lg-3 col-sm-6 ">
               <div className="single-footer-widget">
-                <h3>Contact Us</h3>
-                <ul className="footer-contact-info">
+                <h3>Contact Details</h3>
+                <ul className="footer-contact-info mt-5">
                   {footerContact?.map((i) => {
                     return (
                       <li key={i.id}>
-                        <a href={"mailto:info@esparktalent.com"}>{i.item}</a>
+                        <a href={`mailto:${i.item}`}>{i.item}</a>
                       </li>
                     );
                   })}
-                  
+
                   {/* <li>Address: 2750, Quadra Street Victoria, Canada</li>
                   <li>
                     Email: <a href="mailto:hello@lofi.com">hello@lofi.com</a>
@@ -166,22 +173,9 @@ const Footer = () => {
             </div>
           </div>
         </div>
-
         <div className="copyright-area">
           <div className="container">
             <div className="row align-items-center">
-              <div className="col-lg-6 col-sm-6 col-md-6">
-                <p>
-                  &copy; <strong>Lofi</strong> is Proudly Owned by{" "}
-                  <a
-                    href="https://envytheme.com/"
-                    target="_blank"
-                    rel="noreferrer"
-                  >
-                    EnvyTheme
-                  </a>
-                </p>
-              </div>
               <div className="col-lg-6 col-sm-6 col-md-6">
                 <ul>
                   <li>
@@ -195,6 +189,19 @@ const Footer = () => {
                     </Link>
                   </li>
                 </ul>
+              </div>
+              <div className="col-lg-6 col-sm-6 col-md-6">
+                <p>© Copyright 2023. All Rights Reserved.</p>
+                {/* <p>
+                  &copy; <strong>Lofi</strong> is Proudly Owned by{" "}
+                  <a
+                    href="https://envytheme.com/"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    EnvyTheme
+                  </a>
+                </p> */}
               </div>
             </div>
           </div>
