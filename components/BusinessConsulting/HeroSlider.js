@@ -1,11 +1,11 @@
-import React from 'react'
-import { Swiper, SwiperSlide } from 'swiper/react'
-import { Navigation } from 'swiper'
-import Link from 'next/link'
+import React from "react";
+import { Swiper, SwiperSlide } from "swiper/react";
+import { Navigation } from "swiper";
+import Link from "next/link";
 // import SimpleContent from './content'
 
 const HeroSlider = (props) => {
-  const { data, setData } = props
+  const { data, setData } = props;
   return (
     <>
       <div className="home-area">
@@ -25,8 +25,8 @@ const HeroSlider = (props) => {
                         {/* <span className="sub-title">{slide.subTitle}</span> */}
                         <h1>{slide.title}</h1>
                         <h5>{slide.para}</h5>
-                        <Link href={slide.link}>
-                          <a className="default-btn style-two">
+                        <Link href="https://calendly.com/esparktalents/60min?month=2023-09">
+                          <a className="default-btn style-two" target="_blank">
                             <span className="ri-arrow-right-s-line"></span>
                             {slide.buttonText}
                           </a>
@@ -34,7 +34,7 @@ const HeroSlider = (props) => {
                       </div>
                     </div>
                     <div className="col-lg-6 col-md-12">
-                      <div className="home-image">
+                      <div className="home-image mt-5">
                         <img src={slide.imagePath} alt="banner-image" />
                       </div>
                     </div>
@@ -46,8 +46,7 @@ const HeroSlider = (props) => {
         </Swiper>
       </div>
     </>
-  )
-}
+  );
+};
 
 export default HeroSlider;
-

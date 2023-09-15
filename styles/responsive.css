@@ -234,7 +234,8 @@
   }
   .single-services-box .features-list li span {
     text-align: start;
-    display: inline-block;
+    /* display: inline-block; */
+    /* font-size: 9px; */
   }
   .single-services-box .default-btn {
     margin-top: 25px;
@@ -1654,6 +1655,12 @@
     padding-bottom: 6px;
     font-size: 12px;
   }
+  .navbar-area .navbar .default-btn {
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 15px;
+  }
   .navbar-area .navbar .others-option .default-btn span {
     display: none;
   }
@@ -1667,6 +1674,9 @@
 
   .nabar-buttons {
     display: flex;
+    margin-top: 6px;
+    margin-bottom: 4px;
+    margin-left: 0px !important;
   }
 
   .others-option {
@@ -1696,6 +1706,88 @@
   .case-studies-card-box .single-case-studies-box {
     border: 1px solid #eee !important;
     padding: 20px;
+  }
+  .copyright-area p {
+    text-align: center;
+  }
+  .subscribe2-inner {
+    padding: 50px;
+    text-align: center;
+    background-color: var(--mainColor);
+    background-image: url(/images/shape/before-footer-updated.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .subscribe2-inner h2 {
+    margin-bottom: 10px px;
+    color: var(--whiteColor);
+    font-size: 30px;
+    font-weight: bolder;
+    font-family: var(--fontFamily2);
+  }
+  .faq-accordion .accordion .accordion__item .accordion__button {
+    font-size: 16px;
+    justify-content: center;
+    text-align: center;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .faq-accordion .accordion .accordion__item .accordion__button img {
+    /* display: none; */
+    width: 30px;
+    height: 30px;
+  }
+  .single-team-member .content1,
+  .single-team-member .content2 {
+    position: absolute;
+    bottom: 0;
+    height: 40px;
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+    left: 10%;
+    border-radius: 0;
+    justify-content: space-between;
+  }
+  .single-team-member .content3,
+  .single-team-member .content4 {
+    position: absolute;
+    top: 90%;
+    height: 40px;
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+    left: 10%;
+    border-radius: 0;
+    justify-content: space-between;
+    bottom: 0;
+  }
+  .single-team-member .content div,
+  .single-team-member .content1 div,
+  .single-team-member .content2 div,
+  .single-team-member .content3 div,
+  .single-team-member .content4 div {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+    flex-direction: row;
+  }
+  .single-team-member .content div h3,
+  .single-team-member .content1 div h3,
+  .single-team-member .content2 div h3,
+  .single-team-member .content3 div h3,
+  .single-team-member .content4 div h3 {
+    font-size: 24px;
+  }
+  .single-team-member {
+    display: flex;
+    justify-content: center;
+  }
+  .single-team-member img {
+    width: 80%;
   }
 }
 
@@ -1750,6 +1842,16 @@
     font-size: 38px;
     margin-right: 45px;
   }
+  .faq-accordion .accordion .accordion__item .accordion__button {
+    font-size: 18px;
+    justify-content: center;
+    text-align: center;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  /* .faq-accordion .accordion .accordion__item .accordion__button img {
+    display: none;
+  } */
 
   /* End "Cybersecurity Demo Responsive, Cryptocurrency Demo Responsive & ICO Landing Demo Responsive" */
 }
@@ -2302,7 +2404,8 @@
     padding-top: 80px;
   }
   .home-area::before {
-    height: 50px;
+    height: 50px !important;
+    bottom: -1px !important;
   }
   .home-content {
     top: 0;
@@ -2809,7 +2912,7 @@
     .default-btn {
     padding-left: 10px;
     padding-right: 10px;
-    font-size: 12px;
+    font-size: 15px;
     margin-left: 10px;
     width: 130px;
   }
@@ -2821,6 +2924,21 @@
   .case-studies-card-box .single-case-studies-box {
     border: 1px solid #eee !important;
     padding: 30px;
+  }
+  .subscribe2-inner h2 {
+    margin-bottom: 10px px;
+    color: var(--whiteColor);
+    font-size: 40px;
+    font-weight: bolder;
+    font-family: var(--fontFamily2);
+  }
+  .faq-accordion .accordion .accordion__item .accordion__button {
+    font-size: 17px;
+    text-align: start;
+  }
+  .faq-accordion .accordion .accordion__item .accordion__button img {
+    width: 30px;
+    height: 30px;
   }
 }
 
@@ -2882,7 +3000,7 @@
   }
   .shape6 {
     bottom: 8%;
-    left: 5%;
+    left: 6%;
   }
   .process-inner {
     padding-left: 40px;
@@ -3083,10 +3201,11 @@
     left: 15px;
   }
   .home-area::before {
-    height: 50px;
+    height: 60px !important;
+    bottom: -1px;
   }
   .home-content h1 {
-    font-size: 45px;
+    font-size: 35px;
   }
   .about-img {
     padding-right: 0;
@@ -3264,7 +3383,9 @@
     padding-left: 0;
   }
   .platforms-item.with-white-color .arrow-image {
-    right: -85px;
+    right: -40px;
+    top: 50px;
+    width: 60px;
   }
   /* End "Cybersecurity Demo Responsive, Cryptocurrency Demo Responsive & ICO Landing Demo Responsive" */
   .navbar-area-with-position-relative .navbar .others-option .default-btn {
@@ -3288,6 +3409,18 @@
   }
   .contact-us-inner-box {
     padding: 40px;
+  }
+  .page-title-area2 .shape1,
+  .shape3,
+  .shape4 {
+    display: none;
+  }
+  .faq-accordion .accordion .accordion__item .accordion__button {
+    justify-content: center;
+  }
+  .faq-accordion .accordion .accordion__item .accordion__button img {
+    height: 50px;
+    width: 50px;
   }
 }
 
@@ -3419,8 +3552,15 @@
   .contact-us-inner-box .contact-form-wrap {
     max-width: 600px;
   }
+  .page-title-area2 .shape1,
+  .shape3,
+  .shape4 {
+    display: none;
+  }
+  .faq-accordion .accordion .accordion__item .accordion__button {
+    font-size: 16px !important;
+  }
 }
-
 /* Min width 1550px */
 @media only screen and (min-width: 1550px) {
   .shape1 {
@@ -3442,7 +3582,7 @@
   }
   .shape6 {
     bottom: 15%;
-    left: 11%;
+    left: 20%;
   }
   /*new-css*/
   .banner-area .shape1 {
@@ -3480,12 +3620,12 @@
   .home-area::before {
     left: 0;
     right: 0;
-    bottom: 0;
+    bottom: -1px;
     z-index: 2;
     content: "";
     height: 96px;
     position: absolute;
-    background-image: url(/images/shape/top-shape2.png);
+    background-image: url(/images/shape/waves.png);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -3537,5 +3677,34 @@
   .ico-landing-banner-area .container-fluid {
     max-width: 2070px;
   }
+  .cta-images {
+    display: block;
+  }
 }
+
+@media screen and (max-width: 374px) {
+  .with-space{
+    margin-top: 30px;
+  }
+}
+@media screen and (min-width:375px) and (max-width: 575px) {
+  .with-space{
+    margin-top: 25px;
+  }
+}
+/* @media screen and (min-width: 401px) and (max-width: 490px){
+  .with-space {
+    margin-top: 18px;
+  }
+}
+@media screen and (min-width: 491px) and (max-width: 575px) {
+  .with-space {
+    margin-top: 10px;
+  }
+} */
+/* @media screen and (max-width: 580px) {
+  .with-space {
+    margin-top: 17px;
+  }
+} */
 /*# sourceMappingURL=responsive.css.map */

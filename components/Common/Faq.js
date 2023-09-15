@@ -1,23 +1,86 @@
-import React from 'react'
+import React, { useState } from "react";
 import {
   Accordion,
   AccordionItem,
   AccordionItemHeading,
   AccordionItemButton,
   AccordionItemPanel,
-} from 'react-accessible-accordion'
+} from "react-accessible-accordion";
 
-const Faq = () => {
+const Faq = ({ title, item }) => {
+  const [allowZeroExpanded, setallowZeroExpanded] = useState(true);
+  const [data, setData] = useState([...item]);
+  const onChangeToggle = (value, index) => {
+    let temp = [...data];
+    temp[index].toggle = !value;
+    setData([...temp]);
+    setallowZeroExpanded(!allowZeroExpanded);
+  };
+
   return (
     <>
-      <div className="faq-area bg-gradient-image ptb-100">
+      <div className="faq-area pt-100 pb-50">
+        <div className="container">
+          <div className="section-title">
+            <h2 className="fw-semibold">{title}</h2>
+          </div>
+          <div className="faq-accordion">
+            <Accordion allowZeroExpanded={allowZeroExpanded}>
+              {item?.map((item, i) => (
+                <AccordionItem uuid={i} key={i}>
+                  <AccordionItemHeading>
+                    <AccordionItemButton>
+                      <div
+                        onClick={() => onChangeToggle(item.toggle, i)}
+                        className="button-header"
+                      >
+                        <p
+                          style={{
+                            fontSize: "20px",
+                            fontWeight: "600",
+                            color: "#09114A",
+                          }}
+                        >
+                          {item.heading}
+                        </p>
+
+                        <img
+                          src={
+                            item.toggle
+                              ? "/images/icon/Group_93.svg"
+                              : "/images/icon/group_92.svg"
+                          }
+                        />
+                      </div>
+                      <div>
+                        <AccordionItemPanel>
+                          <p
+                            style={{
+                              fontSize: "18px",
+                              fontWeight: "400",
+                              color: "#09114A",
+                            }}
+                          >
+                            {item.paragraph}
+                          </p>
+                        </AccordionItemPanel>
+                      </div>
+                    </AccordionItemButton>
+                  </AccordionItemHeading>
+                </AccordionItem>
+              ))}
+            </Accordion>
+          </div>
+        </div>
+      </div>
+      {/* <div className="faq-area ptb-100">
         <div className="container">
           <div className="section-title">
             <span className="sub-title">FAQ</span>
             <h2>Frequently Asked Questions</h2>
           </div>
           <div className="faq-accordion">
-            <Accordion preExpanded={['a']}>
+            <Accordion preExpanded={['']}>
               <AccordionItem uuid="a">
                 <AccordionItemHeading>
                   <AccordionItemButton>
@@ -35,7 +98,6 @@ const Faq = () => {
                   </p>
                 </AccordionItemPanel>
               </AccordionItem>
-
               <AccordionItem uuid="b">
                 <AccordionItemHeading>
                   <AccordionItemButton>
@@ -176,9 +238,8 @@ const Faq = () => {
             </Accordion>
           </div>
         </div>
-      </div>
+      </div> */}
     </>
-  )
-}
-
-export default Faq
+  );
+};
+export default Faq;

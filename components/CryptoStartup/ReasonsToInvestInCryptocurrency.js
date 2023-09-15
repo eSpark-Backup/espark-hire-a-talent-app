@@ -1,9 +1,9 @@
 import React from "react";
 
-const ReasonsToInvestInCryptocurrency = ({ title, data }) => {
+const ReasonsToInvestInCryptocurrency = ({ title, data, image }) => {
   return (
     <>
-      <div className="invest-area pb-100">
+      <div className="invest-area ptb-100 ">
         <div className="container">
           <div className="row align-items-center">
             <div className="col-lg-6 col-md-12">
@@ -62,12 +62,9 @@ const ReasonsToInvestInCryptocurrency = ({ title, data }) => {
                 </div> */}
               </div>
             </div>
-            <div className="col-lg-6 col-md-12">
+            <div className="col-lg-6 col-md-12 text-center">
               <div className="invest-image">
-                <img
-                  src="/images/crypto-startup/invest/invest.png"
-                  alt="image"
-                />
+                <img src={image} alt="image" width={"600px"} height={"600px"} />
               </div>
             </div>
           </div>

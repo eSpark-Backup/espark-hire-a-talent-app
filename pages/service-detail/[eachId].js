@@ -15,7 +15,6 @@ export default function ServiceDetails() {
   const getId = router.query.eachId;
   const filterData = sliderData?.filter((item) => item?.id === parseInt(getId));
 
-
   if (!filterData.length) {
     return (
       <div
@@ -24,7 +23,7 @@ export default function ServiceDetails() {
           display: "flex",
           justifyContent: "center",
           alignItems: "center",
-          zIndex:"1"
+          zIndex: "1",
         }}
       >
         <ThreeDots
@@ -43,15 +42,11 @@ export default function ServiceDetails() {
   const { title, data, mainHeading, mainParagraph, id } = filterData[0];
   const { services, content } = data;
   const { sections } = content;
-  const { heading, paragraph, list } = sections[0];
+  const { heading, paragraph, list, image } = sections[0];
 
   return (
     <>
-      <PageTitle
-        homeText="Home"
-        pageTitle={title}
-        pageSubTitle={title}
-      />
+      <PageTitle homeText="Home" pageTitle={title} pageSubTitle={title} />
 
       <ServicesItem
         title={mainHeading}
@@ -63,7 +58,7 @@ export default function ServiceDetails() {
       <WhatWeWork
         Items={list}
         title={heading}
-        image={WhatWeWorkImage}
+        image={image}
         paragraph={paragraph}
       />
 
@@ -71,11 +66,13 @@ export default function ServiceDetails() {
         title={sections[1].heading}
         paragraph={sections[1].paragraph}
         data={sections[1].list}
+        image={sections[1].image}
       />
 
       <ReasonsToInvestInCryptocurrency
         title={sections[2].heading}
         data={sections[2].list}
+        image={sections[2].image}
       />
 
       {/* <OurPlatforms
