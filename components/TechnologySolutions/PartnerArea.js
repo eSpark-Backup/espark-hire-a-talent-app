@@ -10,7 +10,7 @@ const PartnerArea = () => {
             <div className="row align-items-center">
               <div className="col-lg-5 col-md-12">
                 {/* <span className="sub-title">OUR PARTNERS</span> */}
-                <h2>We Have Worked With <br/> Notable Brands Worldwide​</h2>
+                <h2 className="fw-semibold">We Have Worked With <br/> Notable Brands Worldwide​</h2>
               </div>
               <div className="col-lg-7 col-md-12">
                 <p>

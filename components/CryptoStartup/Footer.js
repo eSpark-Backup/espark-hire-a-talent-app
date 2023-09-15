@@ -9,7 +9,7 @@ const Footer = () => {
           <div className="footer-widget-style-wrap">
             <Link href="/">
               <a className="d-inline-block logo">
-                <img src="/images/black-logo.png" alt="logo" />
+                <img src="/images/black-logo.png" className="talent-logo" alt="logo" />
               </a>
             </Link>
             <ul className="quick-links">

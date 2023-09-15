@@ -1,8 +1,13 @@
 import React, { useState } from "react";
 import Link from "@/utils/ActiveLink";
+import Head from "next/head";
 
 const NavbarStyle2 = () => {
   const [menu, setMenu] = React.useState(true);
+  const [selectedNavItem, setSelectedNavItem] = useState("");
+  const handleNavItemClick = (navItem) => {
+    setSelectedNavItem(navItem);
+  };
   const toggleNavbar = () => {
     setMenu(!menu);
   };
@@ -26,13 +31,29 @@ const NavbarStyle2 = () => {
 
   return (
     <>
+      <Head>
+        <title>
+          eSpark-Talent {selectedNavItem ? `| ${selectedNavItem}` : ""}
+        </title>
+        <meta name="viewport" content="initial-scale=1.0, width=device-width" />
+      </Head>
+
       <header className="header-area header-style-two">
         <div id="navbar" className="navbar-area">
           <nav className="navbar navbar-expand-md navbar-light">
-            <div className="container">
+            <div className="container-lg">
               <Link href="/">
-                <a className="navbar-brand">
-                  <img src="/images/logo.png" alt="Site logo" />
+                <a
+                  className={`navbar-brand ${
+                    selectedNavItem === "Home" ? "active" : ""
+                  }`}
+                  onClick={() => handleNavItemClick("Home")}
+                >
+                  <img
+                    src="/images/logo.png"
+                    alt="Site logo"
+                    className="talent-logo"
+                  />
                 </a>
               </Link>
 
@@ -52,7 +73,7 @@ const NavbarStyle2 = () => {
               </button>
 
               <div className={classOne} id="navbarSupportedContent">
-                <ul className="navbar-nav m-auto">
+                <ul className="navbar-nav ms-auto">
                   {/* <li className="nav-item">
                     <Link href="#">
                       <a className="dropdown-toggle nav-link">
@@ -152,37 +173,114 @@ const NavbarStyle2 = () => {
 
                   <li className="nav-item">
                     <Link href="/about-us" activeClassName="active">
-                      <a className="nav-link">What we do</a>
+                      <a
+                        className={`nav-link ${
+                          selectedNavItem === "what we do" ? "active" : ""
+                        }`}
+                        onClick={() => handleNavItemClick("what we do")}
+                      >
+                        What we do
+                      </a>
                     </Link>
                   </li>
 
                   <li className="nav-item">
                     <Link href="/services" activeClassName="active">
-                      <a className="nav-link">How it works</a>
+                      <a
+                        className={`nav-link ${
+                          selectedNavItem === "How it works" ? "active" : ""
+                        }`}
+                        onClick={() => handleNavItemClick("How it works")}
+                      >
+                        How it works
+                      </a>
                     </Link>
                   </li>
 
                   <li className="nav-item">
-                    <Link href="/coming-soon" activeClassName="active">
-                      <a className="nav-link">Blog</a>
+                    <Link href="/blogs" activeClassName="active">
+                      <a
+                        className={`nav-link ${
+                          selectedNavItem === "Blog" ? "active" : ""
+                        }`}
+                        onClick={() => handleNavItemClick("Blog")}
+                      >
+                        Blog
+                      </a>
                     </Link>
                   </li>
 
                   <li className="nav-item">
-                    <Link href="/coming-soon" activeClassName="active">
-                      <a className="nav-link">Career</a>
+                    <Link href="/careers" activeClassName="active">
+                      <a
+                        className={`nav-link ${
+                          selectedNavItem === "Career" ? "active" : ""
+                        }`}
+                        onClick={() => handleNavItemClick("Career")}
+                      >
+                        Career
+                      </a>
                     </Link>
                   </li>
-                  <li className="nabar-buttons">
-                    <Link href="/contact">
-                      <a className="default-btn style-two">
+                  {/* <li className="nav-item">
+                    <Link href="/contact" activeClassName="active">
+                      <a
+                        className={`nav-link ${
+                          selectedNavItem === "Contact" ? "active" : ""
+                        }`}
+                        onClick={() => handleNavItemClick("Contact")}
+                      >
+                        Contact Us
+                      </a>
+                    </Link>
+                  </li> */}
+                  <li className="nav-item">
+                    <Link
+                      href="https://form.jotform.com/232503890925459"
+                      // activeClassName="active"
+                    >
+                      <a
+                        target="_blank"
+                        className={`nav-link`}
+                        onClick={() =>
+                          handleNavItemClick("Apply as a Developer")
+                        }
+                      >
                         Apply as a Developer
                       </a>
                     </Link>
                   </li>
+
+                  {/* <li className="nabar-buttons">
+                    <Link href="/contact" activeClassName="active">
+                      <a
+                        className={`default-btn style-two ${
+                          selectedNavItem === "Apply as a Developer"
+                            ? "active"
+                            : ""
+                        }`}
+                        onClick={() =>
+                          handleNavItemClick("Apply as a Developer")
+                        }
+                      >
+                        Apply as a Developer
+                      </a>
+                    </Link>
+                  </li> */}
                   <li className="nabar-buttons">
-                    <Link href="/contact">
-                      <a className="default-btn style-two">Hire a Talent</a>
+                    <Link
+                      href="https://calendly.com/esparktalents/60min?month=2023-09"
+                      activeClassName="active"
+                    >
+                      <a
+                        target="_blank"
+                        className={`default-btn style-two ${
+                          selectedNavItem === "Hire a Talent" ? "active" : ""
+                        }`}
+                        onClick={() => handleNavItemClick("Hire a Talent")}
+                      >
+                        Hire a Talent
+                      </a>
                     </Link>
                   </li>
                 </ul>
@@ -191,11 +289,13 @@ const NavbarStyle2 = () => {
               {/* <span className="ri-edit-2-line"></span> */}
               {/* <span className="ri-edit-2-line"></span> */}
               <div className="others-option">
-                <Link href="/contact">
+                {/* <Link href="https://form.jotform.com/232274579439468 ">
                   <a className="default-btn style-two">Apply as a Developer</a>
-                </Link>
-                <Link href="/contact">
-                  <a className="default-btn style-two">Hire a Talent</a>
+                </Link> */}
+                <Link href="https://calendly.com/esparktalents/60min?month=2023-09">
+                  <a className="default-btn style-two" target="_blank">
+                    Hire a Talent
+                  </a>
                 </Link>
               </div>
             </div>

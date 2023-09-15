@@ -31,7 +31,7 @@ const Navbar = () => {
           <div className="container-fluid">
             <Link href="/">
               <a className="navbar-brand">
-                <img src="/images/black-logo.png" alt="Site logo" />
+                <img src="/images/black-logo.png" className="talent-logo" alt="Site logo" />
               </a>
             </Link>
 

@@ -7,7 +7,7 @@ const Services = ({ ServicesPara, ServicesTitle, cardsItems }) => {
       <div className="cyber-security-services-area ptb-100">
         <div className="container">
           <div className="section-title with-max-width">
-            <h2>{ServicesTitle}</h2>
+            <h2 className="fw-semibold">{ServicesTitle}</h2>
             <p>{ServicesPara}</p>
           </div>
           <div className="row justify-content-center">

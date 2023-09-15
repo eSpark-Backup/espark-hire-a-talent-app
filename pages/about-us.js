@@ -4,6 +4,8 @@ import Process from '@/components/AboutUs/Process'
 import GetStarted from '@/components/Common/GetStarted'
 
 import {
+  FaqData,
+  FaqTitle,
   GetStartedButtonText,
   GetStartedParagraph,
   GetStartedTitle,
@@ -24,6 +26,7 @@ import {
 import WhatWeWork from '@/components/CybersecurityServices/WhatWeWork'
 import IndustryPartners from '@/components/CryptoStartup/IndustryPartners'
 import WhyChooseCrypto from '@/components/CryptoStartup/WhyChooseCrypto';
+import Faq from '@/components/Common/Faq';
 
 
 
@@ -49,7 +52,9 @@ export default function AboutUs() {
 
       <WhatWeWork Items={WhatWeWorkItems} title={WhatWeWorkTitle} image={WhatWeWorkImage} shape={WhatWeWorkShape} />
 
-      <IndustryPartners title={Title} Paragraph={Paragraph} />
+      <IndustryPartners title={Title} paragraph={Paragraph} />
+
+      <Faq title={FaqTitle} item={FaqData} />
     </>
   )
 }

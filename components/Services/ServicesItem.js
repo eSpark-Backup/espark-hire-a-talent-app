@@ -21,20 +21,12 @@ const ServicesItem = ({ title, Paragraph, data, id }) => {
                 data-aos-once="true"
                 key={i}
               >
-                <div
-                  className="single-services-box border"
-                  style={{
-                    backgroundImage: `url(/images/services/services1.jpg)`,
-                    height: id && (id === 2 || 5 ? "400px" : "auto"),
-                    display: "flex",
-                    justifyContent: "space-between",
-                    flexDirection: "column",
-                  }}
-                >
+                <div className="single-services-box border">
                   <div className="d-flex align-items-center ">
-                    <img src={items?.icons} alt="image" />
+                    <img src={items?.icons} alt="image" width={50} />
                     <h3>
-                      <a href="/service-details">{items?.name}</a>
+                      {/* <a href="/service-details"></a> */}
+                      {items?.name}
                     </h3>
                   </div>
                   <p>{items?.description}</p>

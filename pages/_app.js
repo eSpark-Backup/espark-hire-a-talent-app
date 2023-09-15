@@ -12,7 +12,6 @@ import "../styles/globals.css";
 // Responsive Styles
 import "../styles/responsive.css";
 
-import Head from "next/head";
 import ScrollToTop from "@/components/Layout/ScrollToTop";
 import NavbarStyle2 from "@/components/Layout/NavbarStyle2";
 import Footer from "@/components/Layout/Footer";
@@ -28,15 +27,6 @@ function MyApp({ Component, pageProps }) {
     <React.Fragment>
       {pathname !== "/coming-soon" ? (
         <React.Fragment>
-          <Head>
-            <title>
-              Lofi - Multipurpose Technology Startup React Next Template
-            </title>
-            <meta
-              name="viewport"
-              content="initial-scale=1.0, width=device-width"
-            />
-          </Head>
           <NavbarStyle2 />
           <Component {...pageProps} />
           <Footer />
@@ -44,16 +34,7 @@ function MyApp({ Component, pageProps }) {
         </React.Fragment>
       ) : (
         <React.Fragment>
-          <Head>
-            <title>
-              Lofi - Multipurpose Technology Startup React Next Template
-            </title>
-            <meta
-              name="viewport"
-              content="initial-scale=1.0, width=device-width"
-            />
-          </Head>
-          {/* <NavbarStyle2 /> */}
+          <NavbarStyle2 />
           <Component {...pageProps} />
           {/* <Footer /> */}
           <ScrollToTop />

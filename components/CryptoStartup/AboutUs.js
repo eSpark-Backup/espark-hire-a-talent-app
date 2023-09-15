@@ -1,7 +1,7 @@
 import React from "react";
 import Link from "next/link";
 
-const AboutUs = ({ title, paragraph, data }) => {
+const AboutUs = ({ title, paragraph, data, image }) => {
   return (
     <>
       <div className="about-area ptb-100 overflow-hidden">
@@ -14,7 +14,7 @@ const AboutUs = ({ title, paragraph, data }) => {
                 data-aos-duration="1200"
                 data-aos-once="true"
               >
-                <img src="/images/crypto-startup/about.png" alt="image" />
+                <img src={image} alt="image" width={"600px"} height={"600px"} />
               </div>
             </div>
 
