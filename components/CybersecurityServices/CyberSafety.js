@@ -3,7 +3,7 @@ import React from "react";
 const CyberSafety = ({ title, para }) => {
   return (
     <>
-      <div className="cyber-safety-area pb-100">
+      <div className="cyber-safety-area ptb-100">
         <div className="container">
           <div className="row align-items-center">
             <div className="col-lg-6 col-md-12">
@@ -14,8 +14,10 @@ const CyberSafety = ({ title, para }) => {
                 data-aos-once="true"
               >
                 <img
-                  src="/images/cybersecurity-services/cyber-safety.png"
+                  src="/images/cybersecurity-services/10.png"
                   alt="image"
+                  width={"90%"}
+                  height={"90%"}
                 />
               </div>
             </div>
@@ -23,7 +25,7 @@ const CyberSafety = ({ title, para }) => {
             <div className="col-lg-6 col-md-12">
               <div className="cyber-safety-content">
                 {/* <span className="sub-title">Cyber Safety</span> */}
-                <h2>{title}</h2>
+                <h2 className="fw-semibold">{title}</h2>
                 <p>{para}</p>
 
                 <div className="row align-items-center">
@@ -31,11 +33,11 @@ const CyberSafety = ({ title, para }) => {
                     <ul className="safety-list">
                       <li>
                         <i className="ri-checkbox-circle-line"></i>24/7 Active
-                        Human Resource Assistance.​
+                        Human Resource Assistance.
                       </li>
                       <li>
                         <i className="ri-checkbox-circle-line"></i>Rapid
-                        Customer Service. 
+                        Customer Service.
                       </li>
                       <li>
                         <i className="ri-checkbox-circle-line"></i>Open to
@@ -56,7 +58,7 @@ const CyberSafety = ({ title, para }) => {
                       </li>
                       <li>
                         <i className="ri-checkbox-circle-line"></i>On-Time HR
-                        Managing Support. ​
+                        Managing Support.
                       </li>
                     </ul>
                   </div>

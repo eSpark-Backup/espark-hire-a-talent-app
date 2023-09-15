@@ -1,16 +1,18 @@
-import React from 'react'
+import React from "react";
 
 const FunFacts = () => {
   return (
     <>
-      <div className="funfacts-area pt-100 pb-70">
+      <div className="funfacts-area pt-50 pb-100">
         <div className="container">
-          <h1>&nbsp;&nbsp;We Have Completed 100+ Projects Successfully​</h1>
-          <br/> 
-          <br/>
-          <div className="row justify-content-center">
-            <div 
-              className="col-lg-3 col-md-6 col-sm-4 col-6" 
+          <div className="section-title">
+            <h1 className="fw-semibold text-lg-start text-center my-3">
+              We Have Completed 100+ Projects Successfully
+            </h1>
+          </div>
+          <div className="row justify-content-center align-items-center my-2">
+            <div
+              className="col-lg-3 col-md-6 col-sm-4 col-6"
               data-aos="fade-up"
               data-aos-delay="200"
               data-aos-duration="1200"
@@ -20,13 +22,13 @@ const FunFacts = () => {
                 <div className="icon">
                   <i className="ri-stack-fill"></i>
                 </div>
-                <h3>1,000+​</h3>
-                <p>Projects Completed​</p>
+                <h3>10+​</h3>
+                <p>Countries​</p>
               </div>
             </div>
 
-            <div 
-              className="col-lg-3 col-md-6 col-sm-4 col-6" 
+            <div
+              className="col-lg-3 col-md-6 col-sm-4 col-6"
               data-aos="fade-up"
               data-aos-delay="400"
               data-aos-duration="1200"
@@ -40,9 +42,9 @@ const FunFacts = () => {
                 <p>Team Members​</p>
               </div>
             </div>
-            
-            <div 
-              className="col-lg-3 col-md-6 col-sm-4 col-6" 
+
+            <div
+              className="col-lg-3 col-md-6 col-sm-4 col-6"
               data-aos="fade-up"
               data-aos-delay="600"
               data-aos-duration="1200"
@@ -57,8 +59,8 @@ const FunFacts = () => {
               </div>
             </div>
 
-            <div 
-              className="col-lg-3 col-md-6 col-sm-4 col-6" 
+            <div
+              className="col-lg-3 col-md-6 col-sm-4 col-6"
               data-aos="fade-up"
               data-aos-delay="800"
               data-aos-duration="1200"
@@ -68,7 +70,7 @@ const FunFacts = () => {
                 <div className="icon bg-00A4C8">
                   <i className="ri-group-fill"></i>
                 </div>
-                <h3>100%</h3>
+                <h3>95%</h3>
                 <p>Customer Satisfaction​</p>
               </div>
             </div>
@@ -76,7 +78,7 @@ const FunFacts = () => {
         </div>
       </div>
     </>
-  )
-}
+  );
+};
 
-export default FunFacts
+export default FunFacts;

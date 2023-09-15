@@ -11,7 +11,7 @@ const OurServices = ({ title, para, items }) => {
         <div className="container">
           <div className="section-title">
             {/* <span className="sub-title">OUR SERVICES</span> */}
-            <h2>{title}</h2>
+            <h2 className="fw-semibold">{title}</h2>
             <p>{para}</p>
           </div>
 
@@ -19,13 +19,16 @@ const OurServices = ({ title, para, items }) => {
             spaceBetween={30}
             autoplay={{
               delay: 6000,
-              disableOnInteraction: true,
+              disableOnInteraction: false,
             }}
             pagination={{
               clickable: true,
             }}
             breakpoints={{
               0: {
+                slidesPerView: 1,
+              },
+              425: {
                 slidesPerView: 1,
               },
               768: {
@@ -43,8 +46,8 @@ const OurServices = ({ title, para, items }) => {
                 <div
                   className={
                     eachCard.homeComponent
-                      ? "single-services-item with-boxshadow"
-                      : "single-services-item with-boxshadow size-change"
+                      ? "single-services-item with-boxshadow size-change"
+                      : "single-services-item with-boxshadow"
                   }
                 >
                   <div className="d-flex align-items-center">
@@ -59,7 +62,7 @@ const OurServices = ({ title, para, items }) => {
                   <p>{eachCard.content}</p>
                   {eachCard.homeComponent ? (
                     <Link href={"service-detail" + "/" + eachCard.id}>
-                      <a className="default-btn">
+                      <a className="default-btn align-self-end">
                         <span className="ri-arrow-right-s-line"></span>
                         {eachCard.buttonText}
                       </a>

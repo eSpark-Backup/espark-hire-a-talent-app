@@ -34,7 +34,7 @@ const Navbar = () => {
                 <div className="top-header-start d-flex align-items-center">
                   <Link href="/">
                     <a className="logo d-inline-block">
-                      <img src="/images/logo.png" alt="image" />
+                      <img src="/images/logo.png" alt="image" className="talent-logo"/>
                     </a>
                   </Link>
                   <form className="search-box">
@@ -110,7 +110,7 @@ const Navbar = () => {
             <div className="container">
               <Link href="/">
                 <a className="navbar-brand d-lg-none">
-                  <img src="/images/logo.png" alt="Site logo" />
+                  <img src="/images/logo.png" alt="Site logo" className="talent-logo"/>
                 </a>
               </Link>
 
