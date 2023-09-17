@@ -20,14 +20,14 @@ const BlogCard = ({ item }) => {
                   </div>
                   <div className="content">
                     <h3>
-                      <Link href="/blog-details">
+                      <Link href={`/blog/${item.id}`}>
                         <a>{item?.title}</a>
                       </Link>
                     </h3>
                     <p>{item?.mainParagraph}</p>
 
                     {/* <Link href="/blog-details"> */}
-                    <Link href={"/blog-details" + "/" + item.id}>
+                    <Link href={`/blog/${item.id}`}>
                       <a className="default-btn">
                         <span className="ri-arrow-right-s-line"></span>
                         Read More
