@@ -1,9 +1,68 @@
 import React from 'react'
-
-const BlogDetailsContent = () => {
+const BlogDetailsContent = ({data}) => {
+  console.log(data ,"data")
   return (
     <>
       <div className="blog-details-area ptb-100">
+        <div className="container">
+          <div className="blog-details-header row align-items-center justify-content-center">
+            <div className="col-lg-6 col-md-12">
+              <div className="content">
+                <h1>{data[0]?.mainHeading}</h1>
+                <p>
+                  {data[0]?.mainParagraph}
+                </p>
+                <div className="post-author-meta">
+                  <div className="d-flex align-items-center">
+                    <img src="/images/user/user1.jpg" alt="image" />
+                    <div className="title">
+                      <span className="name">
+                        By <a href="#">{data[0]?.postedBy?.name}</a>
+                      </span>
+                      <span className="date">{data[0]?.postedBy?.date}</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="col-lg-6 col-md-12">
+              <div className="image">
+                <img src="/images/blog/blog9.jpg" alt="image" />
+              </div>
+            </div>
+          </div>
+          
+          <div className="blog-details-desc">
+            <div className="article-content">
+              <ul className="social-links">
+                <li>
+                  <a href="#" target="_blank" className="facebook">
+                    <i className="ri-facebook-fill"></i>
+                  </a>
+                </li>
+                <li>
+                  <a href="#" target="_blank" className="twitter">
+                    <i className="ri-twitter-fill"></i>
+                  </a>
+                </li>
+                <li>
+                  <a href="#" target="_blank" className="linkedin">
+                    <i className="ri-linkedin-fill"></i>
+                  </a>
+                </li>
+                <li>
+                  <a href="#" target="_blank" className="instagram">
+                    <i className="ri-instagram-line"></i>
+                  </a>
+                </li>
+              </ul>
+              <div dangerouslySetInnerHTML={{ __html: data[0]?.content }} />
+            </div>
+
+          </div>
+        </div>
+      </div>
+      {/* <div className="blog-details-area ptb-100">
         <div className="container">
           <div className="blog-details-header row align-items-center justify-content-center">
             <div className="col-lg-6 col-md-12">
@@ -237,7 +296,7 @@ const BlogDetailsContent = () => {
             </div>
           </div>
         </div>
-      </div>
+      </div> */}
     </>
   )
 }
