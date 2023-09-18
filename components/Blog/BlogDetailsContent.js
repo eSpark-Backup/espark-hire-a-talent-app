@@ -1,6 +1,5 @@
-import React from 'react'
-const BlogDetailsContent = ({data}) => {
-  console.log(data ,"data")
+import React from "react";
+const BlogDetailsContent = ({ data }) => {
   return (
     <>
       <div className="blog-details-area ptb-100">
@@ -9,12 +8,10 @@ const BlogDetailsContent = ({data}) => {
             <div className="col-lg-6 col-md-12">
               <div className="content">
                 <h1>{data[0]?.mainHeading}</h1>
-                <p>
-                  {data[0]?.mainParagraph}
-                </p>
+                <p>{data[0]?.mainParagraph}</p>
                 <div className="post-author-meta">
                   <div className="d-flex align-items-center">
-                    <img src="/images/user/user1.jpg" alt="image" />
+                    <img src={data[0]?.postedBy?.image} alt="image" />
                     <div className="title">
                       <span className="name">
                         By <a href="#">{data[0]?.postedBy?.name}</a>
@@ -27,38 +24,53 @@ const BlogDetailsContent = ({data}) => {
             </div>
             <div className="col-lg-6 col-md-12">
               <div className="image">
-                <img src="/images/blog/blog9.jpg" alt="image" />
+                <img src="/images/blog/boeo.png" alt="image" />
               </div>
             </div>
           </div>
-          
+
           <div className="blog-details-desc">
             <div className="article-content">
               <ul className="social-links">
                 <li>
-                  <a href="#" target="_blank" className="facebook">
+                  <a
+                    href="https://www.facebook.com/people/eSpark-Talent/61550048738610/"
+                    target="_blank"
+                    className="facebook"
+                  >
                     <i className="ri-facebook-fill"></i>
                   </a>
                 </li>
                 <li>
-                  <a href="#" target="_blank" className="twitter">
+                  <a
+                    href="https://twitter.com/eSparkTalent"
+                    target="_blank"
+                    className="twitter"
+                  >
                     <i className="ri-twitter-fill"></i>
                   </a>
                 </li>
                 <li>
-                  <a href="#" target="_blank" className="linkedin">
+                  <a
+                    href="https://www.linkedin.com/company/espark-talent/"
+                    target="_blank"
+                    className="linkedin"
+                  >
                     <i className="ri-linkedin-fill"></i>
                   </a>
                 </li>
                 <li>
-                  <a href="#" target="_blank" className="instagram">
-                    <i className="ri-instagram-line"></i>
+                  <a
+                    href="https://www.instagram.com/esparktalent/"
+                    target="_blank"
+                    className="instagram"
+                  >
+                    <i className="ri-instagram-fill"></i>
                   </a>
                 </li>
               </ul>
               <div dangerouslySetInnerHTML={{ __html: data[0]?.content }} />
             </div>
-
           </div>
         </div>
       </div>
@@ -298,7 +310,7 @@ const BlogDetailsContent = ({data}) => {
         </div>
       </div> */}
     </>
-  )
-}
+  );
+};
 
-export default BlogDetailsContent
+export default BlogDetailsContent;
