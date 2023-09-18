@@ -3583,6 +3583,18 @@
     right: -38%;
   }
 }
+@media only screen and (min-width: 1356px) and (max-width: 1399px) {
+  .single-blog-post .image .date {
+    right: -38%;
+  }
+  .single-blog-post .content h3 {
+    height: 90.614px;
+  }
+  .single-blog-post .content p {
+    height: 120px;
+  }
+}
+
 /* Min width 1550px */
 @media only screen and (min-width: 1550px) {
   .shape1 {
