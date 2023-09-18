@@ -3579,6 +3579,9 @@
   .single-blog-post .content p {
     height: 130px !important;
   }
+  .single-blog-post .image .date {
+    right: -38%;
+  }
 }
 /* Min width 1550px */
 @media only screen and (min-width: 1550px) {
