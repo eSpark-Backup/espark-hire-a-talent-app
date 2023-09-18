@@ -1,7 +1,7 @@
-import React from 'react'
-import PageTitle from '@/components/Common/PageTitle'
-import Process from '@/components/AboutUs/Process'
-import GetStarted from '@/components/Common/GetStarted'
+import React from "react";
+import PageTitle from "@/components/Common/PageTitle";
+import Process from "@/components/AboutUs/Process";
+import GetStarted from "@/components/Common/GetStarted";
 
 import {
   FaqData,
@@ -23,22 +23,31 @@ import {
   WhatWeWorkTitle,
   processTitle,
 } from "constants/constants";
-import WhatWeWork from '@/components/CybersecurityServices/WhatWeWork'
-import IndustryPartners from '@/components/CryptoStartup/IndustryPartners'
-import WhyChooseCrypto from '@/components/CryptoStartup/WhyChooseCrypto';
-import Faq from '@/components/Common/Faq';
-
-
-
+import WhatWeWork from "@/components/CybersecurityServices/WhatWeWork";
+import IndustryPartners from "@/components/CryptoStartup/IndustryPartners";
+import WhyChooseCrypto from "@/components/CryptoStartup/WhyChooseCrypto";
+import Faq from "@/components/Common/Faq";
+import NewsletterForm2 from "@/components/Common/NewsletterForm2";
 
 export default function AboutUs() {
   return (
     <>
-      <PageTitle homeText="Home" pageTitle="What We Do?" pageSubTitle="What We Do" />
+      <PageTitle
+        homeText="Home"
+        pageTitle="What We Do?"
+        pageSubTitle="What We Do"
+      />
 
       {/* <AboutContent /> */}
 
-      <WhyChooseCrypto image={HiringServicesImg} title={HiringServicesTitle} paragraph={HiringServicesParaggraph} Items={HiringServicesItems} backGround={true} shape={HiringServicesShape} />
+      <WhyChooseCrypto
+        image={HiringServicesImg}
+        title={HiringServicesTitle}
+        paragraph={HiringServicesParaggraph}
+        Items={HiringServicesItems}
+        backGround={true}
+        shape={HiringServicesShape}
+      />
 
       {/* <PartnerArea /> */}
 
@@ -48,13 +57,24 @@ export default function AboutUs() {
 
       {/* <TeamSlider /> */}
 
-      <GetStarted title={GetStartedTitle} paragraph={GetStartedParagraph} text={GetStartedButtonText} />
+      <GetStarted
+        title={GetStartedTitle}
+        paragraph={GetStartedParagraph}
+        text={GetStartedButtonText}
+      />
 
-      <WhatWeWork Items={WhatWeWorkItems} title={WhatWeWorkTitle} image={WhatWeWorkImage} shape={WhatWeWorkShape} />
+      <WhatWeWork
+        Items={WhatWeWorkItems}
+        title={WhatWeWorkTitle}
+        image={WhatWeWorkImage}
+        shape={WhatWeWorkShape}
+      />
 
       <IndustryPartners title={Title} paragraph={Paragraph} />
 
       <Faq title={FaqTitle} item={FaqData} />
+
+      <NewsletterForm2 />
     </>
-  )
+  );
 }

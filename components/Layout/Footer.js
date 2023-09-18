@@ -11,7 +11,6 @@ const Footer = () => {
   // ];
   return (
     <React.Fragment>
-      <NewsletterForm2 />
       <footer className="footer-area">
         <div className="container">
           <div className="row justify-content-center">
