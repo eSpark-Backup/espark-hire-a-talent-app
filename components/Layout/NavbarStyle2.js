@@ -1,6 +1,8 @@
 import React, { useState } from "react";
 import Link from "@/utils/ActiveLink";
 import Head from "next/head";
+import { seoContent } from "constants/SEOConstant";
+import { useRouter } from "next/router";
 
 const NavbarStyle2 = () => {
   const [menu, setMenu] = React.useState(true);
@@ -29,15 +31,34 @@ const NavbarStyle2 = () => {
     ? "navbar-toggler navbar-toggler-right collapsed"
     : "navbar-toggler navbar-toggler-right";
 
+  const router = useRouter();
+  const gettingPath = router?.asPath;
+  const filterTitle = seoContent.filter((item) => item.link.includes(gettingPath));
+
+
+
+
+
+
+
+
+
   return (
     <>
       <Head>
-        <title>
-          eSpark-Talent {selectedNavItem ? `| ${selectedNavItem}` : ""}
-        </title>
-        <meta name="viewport" content="initial-scale=1.0, width=device-width" />
+        <title>{filterTitle[0]?.title}</title>
+        <meta name="description" content={filterTitle[0]?.description}></meta>
+        <meta
+          property="og:description"
+          content={filterTitle[0]?.ogDescription}
+        ></meta>
+        <meta property="og:title" content={filterTitle[0]?.ogTitle}></meta>
+        <meta
+          name="twitter:description"
+          content={filterTitle[0]?.twitterDescription}
+        ></meta>
+        <meta name="twitter:title" content={filterTitle[0]?.twitterTitle}></meta>
       </Head>
-
       <header className="header-area header-style-two">
         <div id="navbar" className="navbar-area">
           <nav className="navbar navbar-expand-md navbar-light">
