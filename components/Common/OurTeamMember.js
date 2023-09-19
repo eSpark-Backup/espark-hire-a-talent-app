@@ -3,6 +3,7 @@ import Link from "next/link";
 
 const OurTeamMember = (props) => {
   const { data, items, teamData } = props;
+
   return (
     <>
       <div className="team-area bg-gradient-image ptb-100">
