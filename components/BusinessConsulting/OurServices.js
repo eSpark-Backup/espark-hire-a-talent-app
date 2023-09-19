@@ -63,9 +63,9 @@ const OurServices = ({ title, para, items }) => {
                   {eachCard.homeComponent ? (
                     <Link
                       href={
-                        "service-detail" +
+                        "hire" +
                         "/" +
-                        eachCard.title?.replaceAll(" ", "-")
+                        eachCard.slug
                       }
                     >
                       <a className="default-btn align-self-end">

@@ -13,8 +13,8 @@ import { ThreeDots } from "react-loader-spinner";
 export default function ServiceDetails() {
   const router = useRouter();
   const getId = router.query.eachId;
-  const newTitle = getId.replaceAll("-", " ");
-  const filterData = sliderData?.filter((item) => item?.title === newTitle);
+  // const newTitle = getId.replaceAll("-", " ");
+  const filterData = sliderData?.filter((item) => item?.slug === getId);
 
   if (!filterData.length) {
     return (
