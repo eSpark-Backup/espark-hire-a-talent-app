@@ -32,13 +32,18 @@ import WhyChooseUs from "@/components/CybersecurityServices/WhyChooseUs";
 import CyberSafety from "@/components/CybersecurityServices/CyberSafety";
 import NewsletterForm from "@/components/Common/NewsletterForm";
 import OurServices from "@/components/BusinessConsulting/OurServices";
+import NewsletterForm2 from "@/components/Common/NewsletterForm2";
 // import Footer from "@/components/Layout/Footer";
 
 export default function Services() {
   return (
     <>
       {/* Changing Starts */}
-      <PageTitle homeText="Home" pageTitle="How It Works" pageSubTitle="How It Works" />
+      <PageTitle
+        homeText="Home"
+        pageTitle="How It Works"
+        pageSubTitle="How It Works"
+      />
 
       <Services2
         ServicesPara="Work with us and unlock the fastest professional hiring Services! Here is How we pick a worthy professionals"
@@ -67,7 +72,7 @@ export default function Services() {
       <CyberSafety title={cyberSafetyTitle} para={cyberSafetyPara} />
 
       <PartnerSlider />
-
+      <NewsletterForm2 />
       {/* <NewsletterForm /> */}
       {/* Changes Finish Here*/}
 
