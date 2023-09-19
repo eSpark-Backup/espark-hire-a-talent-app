@@ -19,7 +19,7 @@ const Faq = ({ title, item }) => {
 
   return (
     <>
-      <div className="faq-area pt-100 pb-50">
+      <div className="faq-area ptb-100">
         <div className="container">
           <div className="section-title">
             <h2 className="fw-semibold">{title}</h2>

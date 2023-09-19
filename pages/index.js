@@ -26,6 +26,7 @@ import {
 } from "constants/constants";
 import OurPlatforms from "@/components/ICOLanding/OurPlatforms";
 import PartnerArea from "@/components/TechnologySolutions/PartnerArea";
+import NewsletterForm2 from "@/components/Common/NewsletterForm2";
 
 export default function Home3() {
   return (
@@ -51,7 +52,7 @@ export default function Home3() {
       <OurTeamMember data={personsData} items={listItem} teamData={teamData} />
 
       <PartnerArea />
-
+      <NewsletterForm2 />
       {/* <OurLatestBlog /> */}
 
       {/* <NewsletterForm /> */}
