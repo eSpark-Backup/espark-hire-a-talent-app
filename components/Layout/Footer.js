@@ -80,7 +80,7 @@ const Footer = () => {
                   {sliderData?.map((item) => {
                     return (
                       <li key={item.id}>
-                        <Link href={`/service-detail/${item.id}`}>
+                        <Link href={`/hire/${item.slug}`}>
                           <a>{item.title}</a>
                         </Link>
                       </li>
