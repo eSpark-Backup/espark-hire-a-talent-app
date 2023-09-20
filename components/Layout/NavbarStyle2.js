@@ -1,6 +1,8 @@
 import React, { useState } from "react";
 import Link from "@/utils/ActiveLink";
 import Head from "next/head";
+import { seoContent } from "constants/SEOConstant";
+import { useRouter } from "next/router";
 
 const NavbarStyle2 = () => {
   const [menu, setMenu] = React.useState(true);
@@ -29,15 +31,71 @@ const NavbarStyle2 = () => {
     ? "navbar-toggler navbar-toggler-right collapsed"
     : "navbar-toggler navbar-toggler-right";
 
+  const router = useRouter();
+  const gettingPath = router?.asPath;
+  const filterTitle = seoContent.filter((item) =>
+    item.link.includes(gettingPath)
+  );
+
   return (
     <>
       <Head>
-        <title>
-          eSpark-Talent {selectedNavItem ? `| ${selectedNavItem}` : ""}
-        </title>
-        <meta name="viewport" content="initial-scale=1.0, width=device-width" />
-      </Head>
+        <meta
+          http-equiv="Content-Type"
+          content="text/html; charset=utf-8"
+        ></meta>
+        <meta name="robots" content="follow, index"></meta>
+        <title>{filterTitle[0]?.title}</title>
+        <meta name="description" content={filterTitle[0]?.description}></meta>
+        <link rel="canonical" href={filterTitle[0]?.canonical}></link>
 
+        <meta property="og:local" content={filterTitle[0]?.ogLocal}></meta>
+        <meta property="og:type" content={filterTitle[0]?.ogType}></meta>
+        <meta property="og:title" content={filterTitle[0]?.ogTitle}></meta>
+        <meta
+          property="og:description"
+          content={filterTitle[0]?.ogDescription}
+        />
+        <meta property="og:url" content={filterTitle[0]?.ogUrl}></meta>
+        <meta
+          property="og:site_name"
+          content={filterTitle[0]?.ogSiteName}
+        ></meta>
+        <meta property="og:image" content={filterTitle[0]?.ogImage}></meta>
+        <meta property="og:image:type" content="image/jpeg" />
+        <meta
+          property="og:image:alt"
+          content={filterTitle[0]?.description}
+        ></meta>
+        <meta name="twitter:card" content={filterTitle[0]?.twitterCard}></meta>
+        <meta
+          name="twitter:title"
+          content={filterTitle[0]?.twitterTitle}
+        ></meta>
+        <meta
+          name="twitter:description"
+          content={filterTitle[0]?.twitterDescription}
+        />
+        <meta name="twitter:site" content={filterTitle[0]?.ogSiteName}></meta>
+        <meta name="twitter:creator" content="@twitter:eSparkTalent"></meta>
+        <meta name="twitter:image" content={filterTitle[0]?.ogImage}></meta>
+        <meta name="twitter:label1" content="Written by"></meta>
+        <meta name="twitter:data1" content="eSparkTalent"></meta>
+        <meta name="twitter:label1" content="Powered by"></meta>
+        <meta name="twitter:data1" content="@twitter:eSparkConsGroup"></meta>
+        <meta
+          property="article:modified_time"
+          content={filterTitle[0]?.articleModifiedTime}
+        ></meta>
+        <meta
+          property="article:published_time"
+          content={filterTitle[0]?.articlePublishTime}
+        ></meta>
+        <meta
+          name="article:author"
+          content={filterTitle[0]?.articleAuthor}
+        ></meta>
+      </Head>
       <header className="header-area header-style-two">
         <div id="navbar" className="navbar-area">
           <nav className="navbar navbar-expand-md navbar-light">
