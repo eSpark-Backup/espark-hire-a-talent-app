@@ -258,10 +258,13 @@ const NavbarStyle2 = () => {
                   </li>
 
                   <li className="nav-item">
-                    <Link href="/blog" activeClassName="active">
+                    <Link href="/blogs" activeClassName="active">
                       <a
                         className={`nav-link ${
-                          gettingActiveLink === "/blog"  || gettingActiveLink === "/blog/[eachId]" ? "active" : ""
+                          gettingActiveLink === "/blogs" ||
+                          gettingActiveLink === "/blogs/[eachId]"
+                            ? "active"
+                            : ""
                         }`}
                         onClick={() => handleNavItemClick("Blog")}
                       >
