@@ -40,34 +40,53 @@ const NavbarStyle2 = () => {
   return (
     <>
       <Head>
+        <meta
+          http-equiv="Content-Type"
+          content="text/html; charset=utf-8"
+        ></meta>
+        <meta name="robots" content="follow, index"></meta>
         <title>{filterTitle[0]?.title}</title>
         <meta name="description" content={filterTitle[0]?.description}></meta>
+        <link rel="canonical" href={filterTitle[0]?.canonical}></link>
+
+        <meta property="og:local" content={filterTitle[0]?.ogLocal}></meta>
+        <meta property="og:type" content={filterTitle[0]?.ogType}></meta>
+        <meta property="og:title" content={filterTitle[0]?.ogTitle}></meta>
         <meta
           property="og:description"
           content={filterTitle[0]?.ogDescription}
-        ></meta>
-        <meta property="og:title" content={filterTitle[0]?.ogTitle}></meta>
-        <meta
-          name="twitter:description"
-          content={filterTitle[0]?.twitterDescription}
-        ></meta>
-        <meta
-          name="twitter:title"
-          content={filterTitle[0]?.twitterTitle}
-        ></meta>
-        <link rel="canonical" href={filterTitle[0]?.canonical}></link>
-        <meta property="og:local" content={filterTitle[0]?.ogLocal}></meta>
-        <meta property="og:type" content={filterTitle[0]?.ogType}></meta>
+        />
         <meta property="og:url" content={filterTitle[0]?.ogUrl}></meta>
         <meta
           property="og:site_name"
           content={filterTitle[0]?.ogSiteName}
         ></meta>
+        <meta property="og:image" content={filterTitle[0]?.ogImage}></meta>
+        <meta property="og:image:type" content="image/jpeg" />
+        <meta
+          property="og:image:alt"
+          content={filterTitle[0]?.description}
+        ></meta>
+        <meta name="twitter:card" content={filterTitle[0]?.twitterCard}></meta>
+        <meta
+          name="twitter:title"
+          content={filterTitle[0]?.twitterTitle}
+        ></meta>
+        <meta
+          name="twitter:description"
+          content={filterTitle[0]?.twitterDescription}
+        />
+        <meta name="twitter:site" content={filterTitle[0]?.ogSiteName}></meta>
+        <meta name="twitter:creator" content="@twitter:eSparkTalent"></meta>
+        <meta name="twitter:image" content={filterTitle[0]?.ogImage}></meta>
+        <meta name="twitter:label1" content="Written by"></meta>
+        <meta name="twitter:data1" content="eSparkTalent"></meta>
+        <meta name="twitter:label1" content="Powered by"></meta>
+        <meta name="twitter:data1" content="@twitter:eSparkConsGroup"></meta>
         <meta
           property="article:modified_time"
           content={filterTitle[0]?.articleModifiedTime}
         ></meta>
-        <meta property="og:image" content={filterTitle[0]?.ogImage}></meta>
         <meta
           property="article:published_time"
           content={filterTitle[0]?.articlePublishTime}
@@ -76,8 +95,6 @@ const NavbarStyle2 = () => {
           name="article:author"
           content={filterTitle[0]?.articleAuthor}
         ></meta>
-        <meta name="twitter:card" content={filterTitle[0]?.twitterCard}></meta>
-        <meta name="twitter:site" content={filterTitle[0]?.twitterSite}></meta>
       </Head>
       <header className="header-area header-style-two">
         <div id="navbar" className="navbar-area">
