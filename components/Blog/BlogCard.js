@@ -11,7 +11,7 @@ const BlogCard = ({ item }) => {
               <div key={i} className="col-lg-4 col-md-6 col-sm-6">
                 <div className="single-blog-post">
                   <div className="image">
-                    <Link href={`/blog/${item.id}`}>
+                    <Link href={`/blogs/${item.id}`}>
                       <a className="d-block">
                         <img src={item.imageLink} alt="image" />
                       </a>
@@ -20,14 +20,14 @@ const BlogCard = ({ item }) => {
                   </div>
                   <div className="content">
                     <h3>
-                      <Link href={`/blog/${item.id}`}>
+                      <Link href={`/blogs/${item.id}`}>
                         <a>{item?.title}</a>
                       </Link>
                     </h3>
                     <p>{item?.mainParagraph}</p>
 
                     {/* <Link href="/blog-details"> */}
-                    <Link href={`/blog/${item.id}`}>
+                    <Link href={`/blogs/${item.id}`}>
                       <a className="default-btn">
                         <span className="ri-arrow-right-s-line"></span>
                         Read More
