@@ -393,8 +393,15 @@
     padding-right: 0;
     margin-top: 15px;
   }
+  /* .single-blog-post .content h3 {
+    font-size: 18px;
+  } */
   .single-blog-post .content h3 {
     font-size: 18px;
+    height: auto;
+  }
+  .single-blog-post .content p {
+    height: auto;
   }
   .single-blog-post .content .default-btn {
     margin-top: 0;
@@ -3422,6 +3429,12 @@
     height: 50px;
     width: 50px;
   }
+  .single-blog-post .content h3 {
+    height: 90px;
+  }
+  .single-blog-post .content p {
+    height: 130px !important;
+  }
 }
 
 /* Min width 1200px to Max width 1355px */
@@ -3560,7 +3573,28 @@
   .faq-accordion .accordion .accordion__item .accordion__button {
     font-size: 16px !important;
   }
+  .single-blog-post .content h3 {
+    height: 90px;
+  }
+  .single-blog-post .content p {
+    height: 130px !important;
+  }
+  .single-blog-post .image .date {
+    right: -38%;
+  }
 }
+@media only screen and (min-width: 1356px) and (max-width: 1399px) {
+  .single-blog-post .image .date {
+    right: -38%;
+  }
+  .single-blog-post .content h3 {
+    height: 90.614px;
+  }
+  .single-blog-post .content p {
+    height: 120px;
+  }
+}
+
 /* Min width 1550px */
 @media only screen and (min-width: 1550px) {
   .shape1 {
@@ -3683,12 +3717,12 @@
 }
 
 @media screen and (max-width: 374px) {
-  .with-space{
+  .with-space {
     margin-top: 30px;
   }
 }
-@media screen and (min-width:375px) and (max-width: 575px) {
-  .with-space{
+@media screen and (min-width: 375px) and (max-width: 575px) {
+  .with-space {
     margin-top: 25px;
   }
 }

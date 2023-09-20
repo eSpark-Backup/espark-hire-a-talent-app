@@ -9,6 +9,7 @@ import ServicesItem from "@/components/Services/ServicesItem";
 import { useRouter } from "next/router";
 import Platforms from "@/components/CryptoStartup/Platforms";
 import { ThreeDots } from "react-loader-spinner";
+import NewsletterForm2 from "@/components/Common/NewsletterForm2";
 
 export default function ServiceDetails() {
   const router = useRouter();
@@ -91,7 +92,7 @@ export default function ServiceDetails() {
         title={sections[4].heading}
         paragraph={sections[4].paragraph}
       />
-
+      <NewsletterForm2 />
       {/* <ServiceDetailsContent /> */}
       {/* <GetStarted /> */}
     </>
