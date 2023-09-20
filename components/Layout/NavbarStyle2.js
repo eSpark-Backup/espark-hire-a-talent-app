@@ -33,15 +33,9 @@ const NavbarStyle2 = () => {
 
   const router = useRouter();
   const gettingPath = router?.asPath;
-  const filterTitle = seoContent.filter((item) => item.link.includes(gettingPath));
-
-
-
-
-
-
-
-
+  const filterTitle = seoContent.filter((item) =>
+    item.link.includes(gettingPath)
+  );
 
   return (
     <>
@@ -57,7 +51,33 @@ const NavbarStyle2 = () => {
           name="twitter:description"
           content={filterTitle[0]?.twitterDescription}
         ></meta>
-        <meta name="twitter:title" content={filterTitle[0]?.twitterTitle}></meta>
+        <meta
+          name="twitter:title"
+          content={filterTitle[0]?.twitterTitle}
+        ></meta>
+        <link rel="canonical" href={filterTitle[0]?.canonical}></link>
+        <meta property="og:local" content={filterTitle[0]?.ogLocal}></meta>
+        <meta property="og:type" content={filterTitle[0]?.ogType}></meta>
+        <meta property="og:url" content={filterTitle[0]?.ogUrl}></meta>
+        <meta
+          property="og:site_name"
+          content={filterTitle[0]?.ogSiteName}
+        ></meta>
+        <meta
+          property="article:modified_time"
+          content={filterTitle[0]?.articleModifiedTime}
+        ></meta>
+        <meta property="og:image" content={filterTitle[0]?.ogImage}></meta>
+        <meta
+          property="article:published_time"
+          content={filterTitle[0]?.articlePublishTime}
+        ></meta>
+        <meta
+          name="article:author"
+          content={filterTitle[0]?.articleAuthor}
+        ></meta>
+        <meta name="twitter:card" content={filterTitle[0]?.twitterCard}></meta>
+        <meta name="twitter:site" content={filterTitle[0]?.twitterSite}></meta>
       </Head>
       <header className="header-area header-style-two">
         <div id="navbar" className="navbar-area">
