@@ -256,7 +256,7 @@ const NavbarStyle2 = () => {
                   </li>
 
                   <li className="nav-item">
-                    <Link href="/blogs" activeClassName="active">
+                    <Link href="/blog" activeClassName="active">
                       <a
                         className={`nav-link ${
                           selectedNavItem === "Blog" ? "active" : ""
