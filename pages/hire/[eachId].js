@@ -14,7 +14,8 @@ import NewsletterForm2 from "@/components/Common/NewsletterForm2";
 export default function ServiceDetails() {
   const router = useRouter();
   const getId = router.query.eachId;
-  const filterData = sliderData?.filter((item) => item?.id === parseInt(getId));
+  // const newTitle = getId.replaceAll("-", " ");
+  const filterData = sliderData?.filter((item) => item?.slug === getId);
 
   if (!filterData.length) {
     return (
