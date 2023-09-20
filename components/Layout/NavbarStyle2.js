@@ -37,6 +37,8 @@ const NavbarStyle2 = () => {
     item.link.includes(gettingPath)
   );
 
+  const gettingActiveLink = router?.pathname;
+
   return (
     <>
       <Head>
@@ -233,7 +235,7 @@ const NavbarStyle2 = () => {
                     <Link href="/about-us" activeClassName="active">
                       <a
                         className={`nav-link ${
-                          selectedNavItem === "what we do" ? "active" : ""
+                          gettingActiveLink === "/about-us" ? "active" : ""
                         }`}
                         onClick={() => handleNavItemClick("what we do")}
                       >
@@ -246,7 +248,7 @@ const NavbarStyle2 = () => {
                     <Link href="/services" activeClassName="active">
                       <a
                         className={`nav-link ${
-                          selectedNavItem === "How it works" ? "active" : ""
+                          gettingActiveLink === "services" ? "active" : ""
                         }`}
                         onClick={() => handleNavItemClick("How it works")}
                       >
@@ -259,7 +261,7 @@ const NavbarStyle2 = () => {
                     <Link href="/blog" activeClassName="active">
                       <a
                         className={`nav-link ${
-                          selectedNavItem === "Blog" ? "active" : ""
+                          gettingActiveLink === "/blog"  || gettingActiveLink === "/blog/[eachId]" ? "active" : ""
                         }`}
                         onClick={() => handleNavItemClick("Blog")}
                       >
@@ -272,7 +274,7 @@ const NavbarStyle2 = () => {
                     <Link href="/careers" activeClassName="active">
                       <a
                         className={`nav-link ${
-                          selectedNavItem === "Career" ? "active" : ""
+                          gettingActiveLink === "/careers" ? "active" : ""
                         }`}
                         onClick={() => handleNavItemClick("Career")}
                       >

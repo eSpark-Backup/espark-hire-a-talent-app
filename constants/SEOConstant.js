@@ -69,7 +69,76 @@ export const seoContent = [
     twitterSite: "",
   },
   {
-    link: "/blogs/",
+    link: "/blog/",
+    title: "Insights and Trends on Talent Hiring | eSparkTalent Blogs",
+    description:
+      "Stay updated with the latest trends and insights on developer hiring and talent acquisition. Explore eSparkTalent blogs for expert advice and knowledge.",
+    ogDescription:
+      "Stay updated with the latest trends and insights on developer hiring and talent acquisition. Explore eSparkTalent blogs for expert advice and knowledge.",
+    ogTitle: "Insights and Trends on Talent Hiring | eSparkTalent Blogs",
+    twitterDescription:
+      "Stay updated with the latest trends and insights on developer hiring and talent acquisition. Explore eSparkTalent blogs for expert advice and knowledge.",
+    twitterTitle: "Insights and Trends on Talent Hiring | eSparkTalent Blogs",
+    canonical: "/blogs/",
+    ogLocal: "en_US",
+    ogType: "website",
+    ogUrl: "/blogs/",
+    ogSiteName: "eSpark Talent",
+    articleModifiedTime: "2023-09-19T06:22:05",
+    ogImage: "https://www.esparktalent.com/images/logo.png",
+    articlePublishTime: "2023-09-08T06:00:05",
+    articleAuthor: "eSpark Talent",
+    twitterCard: "summary_large_image",
+    twitterSite: "",
+  },
+  {
+    link: "/blog/3/",
+    title: "Insights and Trends on Talent Hiring | eSparkTalent Blogs",
+    description:
+      "Stay updated with the latest trends and insights on developer hiring and talent acquisition. Explore eSparkTalent blogs for expert advice and knowledge.",
+    ogDescription:
+      "Stay updated with the latest trends and insights on developer hiring and talent acquisition. Explore eSparkTalent blogs for expert advice and knowledge.",
+    ogTitle: "Insights and Trends on Talent Hiring | eSparkTalent Blogs",
+    twitterDescription:
+      "Stay updated with the latest trends and insights on developer hiring and talent acquisition. Explore eSparkTalent blogs for expert advice and knowledge.",
+    twitterTitle: "Insights and Trends on Talent Hiring | eSparkTalent Blogs",
+    canonical: "/blogs/",
+    ogLocal: "en_US",
+    ogType: "website",
+    ogUrl: "/blogs/",
+    ogSiteName: "eSpark Talent",
+    articleModifiedTime: "2023-09-19T06:22:05",
+    ogImage: "https://www.esparktalent.com/images/logo.png",
+    articlePublishTime: "2023-09-08T06:00:05",
+    articleAuthor: "eSpark Talent",
+    twitterCard: "summary_large_image",
+    twitterSite: "",
+  },
+  {
+    link: "/blog/1/",
+    title: "Insights and Trends on Talent Hiring | eSparkTalent Blogs",
+    description:
+      "Stay updated with the latest trends and insights on developer hiring and talent acquisition. Explore eSparkTalent blogs for expert advice and knowledge.",
+    ogDescription:
+      "Stay updated with the latest trends and insights on developer hiring and talent acquisition. Explore eSparkTalent blogs for expert advice and knowledge.",
+    ogTitle: "Insights and Trends on Talent Hiring | eSparkTalent Blogs",
+    twitterDescription:
+      "Stay updated with the latest trends and insights on developer hiring and talent acquisition. Explore eSparkTalent blogs for expert advice and knowledge.",
+    twitterTitle: "Insights and Trends on Talent Hiring | eSparkTalent Blogs",
+    canonical: "/blogs/",
+    ogLocal: "en_US",
+    ogType: "website",
+    ogUrl: "/blogs/",
+    ogSiteName: "eSpark Talent",
+    articleModifiedTime: "2023-09-19T06:22:05",
+    ogImage: "https://www.esparktalent.com/images/logo.png",
+    articlePublishTime: "2023-09-08T06:00:05",
+    articleAuthor: "eSpark Talent",
+    twitterCard: "summary_large_image",
+    twitterSite: "",
+  },
+  {
+    link: "/blog/2/",
     title: "Insights and Trends on Talent Hiring | eSparkTalent Blogs",
     description:
       "Stay updated with the latest trends and insights on developer hiring and talent acquisition. Explore eSparkTalent blogs for expert advice and knowledge.",
