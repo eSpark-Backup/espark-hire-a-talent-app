@@ -4,7 +4,7 @@ import React from "react";
 const NewsletterForm2 = () => {
   return (
     <>
-      <div className="subscribe2-area pt-100">
+      <div className="subscribe2-area pt-0">
         <div className="container-fluid px-0">
           <div className="page-title-area2">
             <div className="subscribe2-inner">
@@ -13,8 +13,8 @@ const NewsletterForm2 = () => {
                 Boosts Your Company Faster <br /> with Amazing eSpark Talent
               </h2>
               <p>
-                Connect with skilled interviewers who will help <br/> you find the
-                right people for your company's growth.
+                Connect with skilled interviewers who will help <br /> you find
+                the right people for your company's growth.
               </p>
               <div className="newsletter-form">
                 <Link href="https://calendly.com/esparktalents/60min?month=2023-09">
