@@ -1,12 +1,6 @@
 export const seoContent = [
   {
     link: "/",
-    // content: `<title>Global Recruitment and Onboarding Solutions | eSparkTalent</title>
-    //     <meta name="description" content="Discover top talent for your business. Outsource hiring processes with eSparkTalent and find the best fit for your team."></meta>
-    //     <meta property="og:description" content="Discover top talent for your business. Outsource hiring processes with eSparkTalent and find the best fit for your team."></meta>
-    //     <meta property="og:title" content="Global Recruitment and Onboarding Solutions | eSparkTalent"></meta>
-    //     <meta name="twitter:description" content="Discover top talent for your business. Outsource hiring processes with eSparkTalent and find the best fit for your team."></meta>
-    //     <meta name="twitter:title" content="Global Recruitment and Onboarding Solutions | eSparkTalent"></meta>`,
     title: "Global Recruitment and Onboarding Solutions | eSparkTalent",
     description:
       "Discover top talent for your business. Outsource hiring processes with eSparkTalent and find the best fit for your team.",
@@ -16,16 +10,20 @@ export const seoContent = [
     twitterDescription:
       "Discover top talent for your business. Outsource hiring processes with eSparkTalent and find the best fit for your team.",
     twitterTitle: "Global Recruitment and Onboarding Solutions | eSparkTalent",
+    canonical: "/",
+    ogLocal: "en_US",
+    ogType: "website",
+    ogUrl: "/",
+    ogSiteName: "eSpark Talent",
+    articleModifiedTime: "2023-09-19T06:22:02",
+    ogImage: "https://www.esparktalent.com/images/logo.png",
+    articlePublishTime: "2023-09-05T06:00:02",
+    articleAuthor: "eSpark Talent",
+    twitterCard: "summary_large_image",
+    twitterSite: "",
   },
   {
     link: "/about-us/",
-
-    // content: `<title>About Us - Outsourced Employees & Management | eSparkTalent</title>
-    // <meta name="description" content="Learn about eSparkTalent, offering outsourced employees and efficient management solutions. We handle talent sourcing and management, reducing employer cost."></meta>
-    // <meta property="og:description" content="Learn about eSparkTalent, offering outsourced employees and efficient management solutions. We handle talent sourcing and management, reducing employer cost."></meta>
-    // <meta property="og:title" content="About Us - Outsourced Employees & Management | eSparkTalent"></meta>
-    // <meta name="twitter:description" content="Learn about eSparkTalent, offering outsourced employees and efficient management solutions. We handle talent sourcing and management, reducing employer cost."></meta>
-    // <meta name="twitter:title" content="About Us - Outsourced Employees & Management | eSparkTalent"></meta>`,
     title: "About Us - Outsourced Employees & Management | eSparkTalent",
     description:
       "Learn about eSparkTalent, offering outsourced employees and efficient management solutions. We handle talent sourcing and management, reducing employer cost.",
@@ -35,15 +33,20 @@ export const seoContent = [
     twitterDescription:
       "Learn about eSparkTalent, offering outsourced employees and efficient management solutions. We handle talent sourcing and management, reducing employer cost.",
     twitterTitle: "About Us - Outsourced Employees & Management | eSparkTalent",
+    canonical: "/about-us/",
+    ogLocal: "en_US",
+    ogType: "website",
+    ogUrl: "/about-us/",
+    ogSiteName: "eSpark Talent",
+    articleModifiedTime: "2023-09-19T06:22:03",
+    ogImage: "https://www.esparktalent.com/images/logo.png",
+    articlePublishTime: "2023-09-06T06:00:03",
+    articleAuthor: "eSpark Talent",
+    twitterCard: "summary_large_image",
+    twitterSite: "",
   },
   {
     link: "/services/",
-    // content: `<title>Expert Developer Hiring and HR Services | eSparkTalent</title>
-    // <meta name="description" content="eSparkTalent offers professional talent and developer hiring services. Find the best human resource solutions to supercharge your team building."></meta>
-    // <meta property="og:description" content="eSparkTalent offers professional talent and developer hiring services. Find the best human resource solutions to supercharge your team building."></meta>
-    // <meta property="og:title" content="Expert Developer Hiring and HR Services | eSparkTalent"></meta>
-    // <meta name="twitter:description" content="eSparkTalent offers professional talent and developer hiring services. Find the best human resource solutions to supercharge your team building."></meta>
-    // <meta name="twitter:title" content="Expert Developer Hiring and HR Services | eSparkTalent"></meta>`,
     title: "Expert Developer Hiring and HR Services | eSparkTalent",
     description:
       "eSparkTalent offers professional talent and developer hiring services. Find the best human resource solutions to supercharge your team building.",
@@ -53,15 +56,20 @@ export const seoContent = [
     twitterDescription:
       "eSparkTalent offers professional talent and developer hiring services. Find the best human resource solutions to supercharge your team building.",
     twitterTitle: "Expert Developer Hiring and HR Services | eSparkTalent",
+    canonical: "/services/",
+    ogLocal: "en_US",
+    ogType: "website",
+    ogUrl: "/services/",
+    ogSiteName: "eSpark Talent",
+    articleModifiedTime: "2023-09-19T06:22:04",
+    ogImage: "https://www.esparktalent.com/images/logo.png",
+    articlePublishTime: "2023-09-07T06:00:04",
+    articleAuthor: "eSpark Talent",
+    twitterCard: "summary_large_image",
+    twitterSite: "",
   },
   {
     link: "/blogs/",
-    // content: `<title>Insights and Trends on Talent Hiring | eSparkTalent Blogs</title>
-    // <meta name="description" content="Stay updated with the latest trends and insights on developer hiring and talent acquisition. Explore eSparkTalent blogs for expert advice and knowledge."></meta>
-    // <meta property="og:description" content="Stay updated with the latest trends and insights on developer hiring and talent acquisition. Explore eSparkTalent blogs for expert advice and knowledge."></meta>
-    // <meta property="og:title" content="Insights and Trends on Talent Hiring | eSparkTalent Blogs"></meta>
-    // <meta name="twitter:description" content="Stay updated with the latest trends and insights on developer hiring and talent acquisition. Explore eSparkTalent blogs for expert advice and knowledge."></meta>
-    // <meta name="twitter:title" content="Insights and Trends on Talent Hiring | eSparkTalent Blogs"></meta>`,
     title: "Insights and Trends on Talent Hiring | eSparkTalent Blogs",
     description:
       "Stay updated with the latest trends and insights on developer hiring and talent acquisition. Explore eSparkTalent blogs for expert advice and knowledge.",
@@ -71,15 +79,20 @@ export const seoContent = [
     twitterDescription:
       "Stay updated with the latest trends and insights on developer hiring and talent acquisition. Explore eSparkTalent blogs for expert advice and knowledge.",
     twitterTitle: "Insights and Trends on Talent Hiring | eSparkTalent Blogs",
+    canonical: "/blogs/",
+    ogLocal: "en_US",
+    ogType: "website",
+    ogUrl: "/blogs/",
+    ogSiteName: "eSpark Talent",
+    articleModifiedTime: "2023-09-19T06:22:05",
+    ogImage: "https://www.esparktalent.com/images/logo.png",
+    articlePublishTime: "2023-09-08T06:00:05",
+    articleAuthor: "eSpark Talent",
+    twitterCard: "summary_large_image",
+    twitterSite: "",
   },
   {
     link: "/careers/",
-    // content: `<title>Join Our Team | Career Opportunities at eSparkTalent</title>
-    // <meta name="description" content="Explore exciting career opportunities at eSparkTalent. We're hiring expert talent to supercharge our team. Join us and grow your career!"></meta>
-    // <meta property="og:description" content="Explore exciting career opportunities at eSparkTalent. We're hiring expert talent to supercharge our team. Join us and grow your career!"></meta>
-    // <meta property="og:title" content="Join Our Team | Career Opportunities at eSparkTalent"></meta>
-    // <meta name="twitter:description" content="Explore exciting career opportunities at eSparkTalent. We're hiring expert talent to supercharge our team. Join us and grow your career!"></meta>
-    // <meta name="twitter:title" content="Join Our Team | Career Opportunities at eSparkTalent"></meta>`,
     title: "Join Our Team | Career Opportunities at eSparkTalent",
     description:
       "Explore exciting career opportunities at eSparkTalent. We're hiring expert talent to supercharge our team. Join us and grow your career!",
@@ -89,15 +102,20 @@ export const seoContent = [
     twitterDescription:
       "Explore exciting career opportunities at eSparkTalent. We're hiring expert talent to supercharge our team. Join us and grow your career!",
     twitterTitle: "Join Our Team | Career Opportunities at eSparkTalent",
+    canonical: "/careers/",
+    ogLocal: "en_US",
+    ogType: "website",
+    ogUrl: "/careers/",
+    ogSiteName: "eSpark Talent",
+    articleModifiedTime: "2023-09-19T06:22:06",
+    ogImage: "https://www.esparktalent.com/images/logo.png",
+    articlePublishTime: "2023-09-09T06:00:06",
+    articleAuthor: "eSpark Talent",
+    twitterCard: "summary_large_image",
+    twitterSite: "",
   },
   {
     link: "/contact/",
-    // content: `<title>Contact Us | Get in Touch with eSparkTalent</title>
-    // <meta name="description" content="Reach out to eSparkTalent for expert developer hiring and talent acquisition solutions. Let us help you build an exceptional team for your business."></meta>
-    // <meta property="og:description" content="Reach out to eSparkTalent for expert developer hiring and talent acquisition solutions. Let us help you build an exceptional team for your business."></meta>
-    // <meta property="og:title" content="Contact Us | Get in Touch with eSparkTalent"></meta>
-    // <meta name="twitter:description" content="Reach out to eSparkTalent for expert developer hiring and talent acquisition solutions. Let us help you build an exceptional team for your business."></meta>
-    // <meta name="twitter:title" content="Contact Us | Get in Touch with eSparkTalent"></meta>`,
     title: "Contact Us | Get in Touch with eSparkTalent",
     description:
       "Reach out to eSparkTalent for expert developer hiring and talent acquisition solutions. Let us help you build an exceptional team for your business.",
@@ -107,15 +125,20 @@ export const seoContent = [
     twitterDescription:
       "Reach out to eSparkTalent for expert developer hiring and talent acquisition solutions. Let us help you build an exceptional team for your business.",
     twitterTitle: "Contact Us | Get in Touch with eSparkTalent",
+    canonical: "/contact/",
+    ogLocal: "en_US",
+    ogType: "website",
+    ogUrl: "/contact/",
+    ogSiteName: "eSpark Talent",
+    articleModifiedTime: "2023-09-19T06:22:07",
+    ogImage: "https://www.esparktalent.com/images/logo.png",
+    articlePublishTime: "2023-09-10T06:00:07",
+    articleAuthor: "eSpark Talent",
+    twitterCard: "summary_large_image",
+    twitterSite: "",
   },
   {
     link: "/hire/mobile-app-developer/",
-    // content: `<title>Hire a Mobile App Developer | Expert Mobile App Development | eSparkTalent</title>
-    // <meta name="description" content="Looking to hire a mobile app developer? eSparkTalent offers expert mobile app development services. Find the perfect developer for your project today!"></meta>
-    // <meta property="og:description" content="Looking to hire a mobile app developer? eSparkTalent offers expert mobile app development services. Find the perfect developer for your project today!"></meta>
-    // <meta property="og:title" content="Hire a Mobile App Developer | Expert Mobile App Development | eSparkTalent"></meta>
-    // <meta name="twitter:description" content="Looking to hire a mobile app developer? eSparkTalent offers expert mobile app development services. Find the perfect developer for your project today!"></meta>
-    // <meta name="twitter:title" content="Hire a Mobile App Developer | Expert Mobile App Development | eSparkTalent"></meta>`,
     title:
       "Hire a Mobile App Developer | Expert Mobile App Development | eSparkTalent",
     description:
@@ -128,15 +151,20 @@ export const seoContent = [
       "Looking to hire a mobile app developer? eSparkTalent offers expert mobile app development services. Find the perfect developer for your project today!",
     twitterTitle:
       "Hire a Mobile App Developer | Expert Mobile App Development | eSparkTalent",
+    canonical: "/hire/mobile-app-developer/",
+    ogLocal: "en_US",
+    ogType: "website",
+    ogUrl: "/hire/mobile-app-developer/",
+    ogSiteName: "eSpark Talent",
+    articleModifiedTime: "2023-09-19T06:22:08",
+    ogImage: "https://www.esparktalent.com/images/logo.png",
+    articlePublishTime: "2023-09-11T06:00:08",
+    articleAuthor: "eSpark Talent",
+    twitterCard: "summary_large_image",
+    twitterSite: "",
   },
   {
     link: "/hire/web-developer/",
-    // content: `<title>Hire a Web Developer | Expert Web Development | eSparkTalent</title>
-    // <meta name="description" content="Looking to hire a web developer? eSparkTalent offers expert web development services. Find the perfect developer for your project today!"></meta>
-    // <meta property="og:description" content="Looking to hire a web developer? eSparkTalent offers expert web development services. Find the perfect developer for your project today!"></meta>
-    // <meta property="og:title" content="Hire a Web Developer | Expert Web Development | eSparkTalent"></meta>
-    // <meta name="twitter:description" content="Looking to hire a web developer? eSparkTalent offers expert web development services. Find the perfect developer for your project today!"></meta>
-    // <meta name="twitter:title" content="Hire a Web Developer | Expert Web Development | eSparkTalent"></meta>`,
     title: "Hire a Web Developer | Expert Web Development | eSparkTalent",
     description:
       "Looking to hire a web developer? eSparkTalent offers expert web development services. Find the perfect developer for your project today!",
@@ -147,15 +175,20 @@ export const seoContent = [
       "Looking to hire a web developer? eSparkTalent offers expert web development services. Find the perfect developer for your project today!",
     twitterTitle:
       "Hire a Web Developer | Expert Web Development | eSparkTalent",
+    canonical: "/hire/web-developer/",
+    ogLocal: "en_US",
+    ogType: "website",
+    ogUrl: "/hire/web-developer/",
+    ogSiteName: "eSpark Talent",
+    articleModifiedTime: "2023-09-19T06:22:09",
+    ogImage: "https://www.esparktalent.com/images/logo.png",
+    articlePublishTime: "2023-09-12T06:00:09",
+    articleAuthor: "eSpark Talent",
+    twitterCard: "summary_large_image",
+    twitterSite: "",
   },
   {
     link: "/hire/digital-marketer/",
-    // content: `<title>Hire a Digital Marketer | Expert Digital Marketing | eSparkTalent</title>
-    // <meta name="description" content="Looking to hire a digital marketer? eSparkTalent offers expert digital marketing services. Find the perfect digital marketer for your project today!"></meta>
-    // <meta property="og:description" content="Looking to hire a digital marketer? eSparkTalent offers expert digital marketing services. Find the perfect digital marketer for your project today!"></meta>
-    // <meta property="og:title" content="Hire a Digital Marketer | Expert Digital Marketing | eSparkTalent"></meta>
-    // <meta name="twitter:description" content="Looking to hire a digital marketer? eSparkTalent offers expert digital marketing services. Find the perfect digital marketer for your project today!"></meta>
-    // <meta name="twitter:title" content="Hire a Digital Marketer | Expert Digital Marketing | eSparkTalent"></meta>`,
     title: "Hire a Digital Marketer | Expert Digital Marketing | eSparkTalent",
     description:
       "Looking to hire a digital marketer? eSparkTalent offers expert digital marketing services. Find the perfect digital marketer for your project today!",
@@ -167,15 +200,20 @@ export const seoContent = [
       "Looking to hire a digital marketer? eSparkTalent offers expert digital marketing services. Find the perfect digital marketer for your project today!",
     twitterTitle:
       "Hire a Digital Marketer | Expert Digital Marketing | eSparkTalent",
+    canonical: "/hire/digital-marketer/",
+    ogLocal: "en_US",
+    ogType: "website",
+    ogUrl: "/hire/digital-marketer/",
+    ogSiteName: "eSpark Talent",
+    articleModifiedTime: "2023-09-19T06:22:10",
+    ogImage: "https://www.esparktalent.com/images/logo.png",
+    articlePublishTime: "2023-09-13T06:00:10",
+    articleAuthor: "eSpark Talent",
+    twitterCard: "summary_large_image",
+    twitterSite: "",
   },
   {
     link: "/hire/embedded-developer/",
-    // content: `<title>Hire an Embedded Developer | Expert Embedded Development | eSparkTalent</title>
-    // <meta name="description" content="Looking to hire a embedded developer? eSparkTalent offers expert embedded development services. Find the perfect embedded developer for your project today!"></meta>
-    // <meta property="og:description" content="Looking to hire a embedded developer? eSparkTalent offers expert embedded development services. Find the perfect embedded developer for your project today!"></meta>
-    // <meta property="og:title" content="Hire an Embedded Developer | Expert Embedded Development | eSparkTalent"></meta>
-    // <meta name="twitter:description" content="Looking to hire a embedded developer? eSparkTalent offers expert embedded development services. Find the perfect embedded developer for your project today!"></meta>
-    // <meta name="twitter:title" content="Hire an Embedded Developer | Expert Embedded Development | eSparkTalent"></meta>`,
     title:
       "Hire an Embedded Developer | Expert Embedded Development | eSparkTalent",
     description:
@@ -188,15 +226,20 @@ export const seoContent = [
       "Looking to hire a embedded developer? eSparkTalent offers expert embedded development services. Find the perfect embedded developer for your project today!",
     twitterTitle:
       "Hire an Embedded Developer | Expert Embedded Development | eSparkTalent",
+    canonical: "/hire/embedded-developer/",
+    ogLocal: "en_US",
+    ogType: "website",
+    ogUrl: "/hire/embedded-developer/",
+    ogSiteName: "eSpark Talent",
+    articleModifiedTime: "2023-09-19T06:22:11",
+    ogImage: "https://www.esparktalent.com/images/logo.png",
+    articlePublishTime: "2023-09-14T06:00:11",
+    articleAuthor: "eSpark Talent",
+    twitterCard: "summary_large_image",
+    twitterSite: "",
   },
   {
     link: "/hire/database-developer/",
-    // content: `<title>Hire an Database Developer | Expert Database Development | eSparkTalent</title>
-    // <meta name="description" content="Looking to hire a database developer? eSparkTalent offers expert database development services. Find the perfect database developer for your project today!"></meta>
-    // <meta property="og:description" content="Looking to hire a database developer? eSparkTalent offers expert database development services. Find the perfect database developer for your project today!"></meta>
-    // <meta property="og:title" content="Hire an Database Developer | Expert Database Development | eSparkTalent"></meta>
-    // <meta name="twitter:description" content="Looking to hire a database developer? eSparkTalent offers expert database development services. Find the perfect database developer for your project today!"></meta>
-    // <meta name="twitter:title" content="Hire an Database Developer | Expert Database Development | eSparkTalent"></meta>`,
     title:
       "Hire an Database Developer | Expert Database Development | eSparkTalent",
     description:
@@ -209,25 +252,39 @@ export const seoContent = [
       "Looking to hire a database developer? eSparkTalent offers expert database development services. Find the perfect database developer for your project today!",
     twitterTitle:
       "Hire an Database Developer | Expert Database Development | eSparkTalent",
+    canonical: "/hire/database-developer/",
+    ogLocal: "en_US",
+    ogType: "website",
+    ogUrl: "/hire/database-developer/",
+    ogSiteName: "eSpark Talent",
+    articleModifiedTime: "2023-09-19T06:22:12",
+    ogImage: "https://www.esparktalent.com/images/logo.png",
+    articlePublishTime: "2023-09-15T06:00:12",
+    articleAuthor: "eSpark Talent",
+    twitterCard: "summary_large_image",
+    twitterSite: "",
   },
   {
     link: "/hire/qa-developer/",
-    // content: `<title>Hire an QA Developer | Expert QA Developer | eSparkTalent</title>
-    // <meta name="description" content="Looking to hire a QA developer? eSparkTalent offers expert QA services. Find the perfect QA developer for your project today!"></meta>
-    // <meta property="og:description" content="Looking to hire a QA developer? eSparkTalent offers expert QA services. Find the perfect QA developer for your project today!"></meta>
-    // <meta property="og:title" content="Hire an QA Developer | Expert QA Developer | eSparkTalent"></meta>
-    // <meta name="twitter:description" content="Looking to hire a QA developer? eSparkTalent offers expert QA services. Find the perfect QA developer for your project today!"></meta>
-    // <meta name="twitter:title" content="Hire an QA Developer | Expert QA Developer | eSparkTalent"></meta>`,
     title: "Hire an QA Developer | Expert QA Developer | eSparkTalent",
     description:
       "Looking to hire a QA developer? eSparkTalent offers expert QA services. Find the perfect QA developer for your project today!",
     ogDescription:
       "Looking to hire a QA developer? eSparkTalent offers expert QA services. Find the perfect QA developer for your project today!",
-    ogTitle:
-      "Hire an QA Developer | Expert QA Developer | eSparkTalent",
+    ogTitle: "Hire an QA Developer | Expert QA Developer | eSparkTalent",
     twitterDescription:
       "Looking to hire a QA developer? eSparkTalent offers expert QA services. Find the perfect QA developer for your project today!",
-    twitterTitle:
-      "Hire an QA Developer | Expert QA Developer | eSparkTalent",
+    twitterTitle: "Hire an QA Developer | Expert QA Developer | eSparkTalent",
+    canonical: "/hire/qa-developer/",
+    ogLocal: "en_US",
+    ogType: "website",
+    ogUrl: "/hire/qa-developer/",
+    ogSiteName: "eSpark Talent",
+    articleModifiedTime: "2023-09-19T06:22:13",
+    ogImage: "https://www.esparktalent.com/images/logo.png",
+    articlePublishTime: "2023-09-16T06:00:13",
+    articleAuthor: "eSpark Talent",
+    twitterCard: "summary_large_image",
+    twitterSite: "",
   },
 ];
