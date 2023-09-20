@@ -1,5 +1,5 @@
-import React from 'react'
-import Link from 'next/link'
+import React from "react";
+import Link from "next/link";
 
 const LatestNews = () => {
   return (
@@ -15,8 +15,8 @@ const LatestNews = () => {
           </div>
 
           <div className="row justify-content-center">
-            <div 
-              className="col-lg-4 col-md-6" 
+            <div
+              className="col-lg-4 col-md-6"
               data-aos="fade-up"
               data-aos-delay="200"
               data-aos-duration="1200"
@@ -24,7 +24,7 @@ const LatestNews = () => {
             >
               <div className="blog-style-card">
                 <div className="blog-image">
-                  <Link href="/blog-details">
+                  <Link href="/blogs">
                     <a>
                       <img
                         src="/images/cybersecurity-services/blog/blog-1.jpg"
@@ -41,7 +41,7 @@ const LatestNews = () => {
                     <li>March 15, 2022</li>
                   </ul>
                   <h3>
-                    <Link href="/blog-details">
+                    <Link href="/blogs">
                       <a>
                         Proper Guide Line Learning Strategies About Cyber
                         Security
@@ -52,8 +52,8 @@ const LatestNews = () => {
               </div>
             </div>
 
-            <div 
-              className="col-lg-4 col-md-6" 
+            <div
+              className="col-lg-4 col-md-6"
               data-aos="fade-up"
               data-aos-delay="400"
               data-aos-duration="1200"
@@ -61,7 +61,7 @@ const LatestNews = () => {
             >
               <div className="blog-style-card">
                 <div className="blog-image">
-                  <Link href="/blog-details">
+                  <Link href="/blogs">
                     <a>
                       <img
                         src="/images/cybersecurity-services/blog/blog-2.jpg"
@@ -78,7 +78,7 @@ const LatestNews = () => {
                     <li>March 15, 2022</li>
                   </ul>
                   <h3>
-                    <Link href="/blog-details">
+                    <Link href="/blogs">
                       <a>Rules To Protect Your Account From Cyber Attack</a>
                     </Link>
                   </h3>
@@ -86,7 +86,7 @@ const LatestNews = () => {
               </div>
             </div>
 
-            <div 
+            <div
               className="col-lg-4 col-md-6"
               data-aos="fade-up"
               data-aos-delay="600"
@@ -95,7 +95,7 @@ const LatestNews = () => {
             >
               <div className="blog-style-card">
                 <div className="blog-image">
-                  <Link href="/blog-details">
+                  <Link href="/blogs">
                     <a>
                       <img
                         src="/images/cybersecurity-services/blog/blog-3.jpg"
@@ -112,7 +112,7 @@ const LatestNews = () => {
                     <li>March 15, 2022</li>
                   </ul>
                   <h3>
-                    <Link href="/blog-details">
+                    <Link href="/blogs">
                       <a>
                         Rules For Introducing Web Code To Increase Cyber
                         Security
@@ -126,11 +126,14 @@ const LatestNews = () => {
         </div>
 
         <div className="blog-style-shape">
-          <img src="/images/cybersecurity-services/blog/shape.png" alt="image" />
+          <img
+            src="/images/cybersecurity-services/blog/shape.png"
+            alt="image"
+          />
         </div>
       </div>
     </>
-  )
-}
+  );
+};
 
-export default LatestNews
+export default LatestNews;

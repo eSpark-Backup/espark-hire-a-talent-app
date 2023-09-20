@@ -1,5 +1,5 @@
-import React from 'react'
-import Link from 'next/link'
+import React from "react";
+import Link from "next/link";
 
 const OurLatestBlog = () => {
   return (
@@ -16,8 +16,8 @@ const OurLatestBlog = () => {
           </div>
 
           <div className="row justify-content-center">
-            <div 
-              className="col-lg-4 col-md-6 col-sm-12" 
+            <div
+              className="col-lg-4 col-md-6 col-sm-12"
               data-aos="fade-up"
               data-aos-delay="400"
               data-aos-duration="1200"
@@ -25,7 +25,7 @@ const OurLatestBlog = () => {
             >
               <div className="single-blog-post">
                 <div className="image">
-                  <Link href="/blog-details">
+                  <Link href="/blogs">
                     <a className="d-block">
                       <img src="/images/blog/blog1.jpg" alt="image" />
                     </a>
@@ -34,7 +34,7 @@ const OurLatestBlog = () => {
                 </div>
                 <div className="content">
                   <h3>
-                    <Link href="/blog-details">
+                    <Link href="/blogs">
                       <a>Resources for Teachers</a>
                     </Link>
                   </h3>
@@ -44,7 +44,7 @@ const OurLatestBlog = () => {
                     aliqua. Ut enim ad minim veniam.
                   </p>
 
-                  <Link href="/blog-details">
+                  <Link href="/blogs">
                     <a className="default-btn">
                       <span className="ri-arrow-right-s-line"></span>Read More
                     </a>
@@ -53,8 +53,8 @@ const OurLatestBlog = () => {
               </div>
             </div>
 
-            <div 
-              className="col-lg-4 col-md-6 col-sm-12" 
+            <div
+              className="col-lg-4 col-md-6 col-sm-12"
               data-aos="fade-up"
               data-aos-delay="600"
               data-aos-duration="1200"
@@ -62,7 +62,7 @@ const OurLatestBlog = () => {
             >
               <div className="single-blog-post">
                 <div className="image">
-                  <Link href="/blog-details">
+                  <Link href="/blogs">
                     <a className="d-block">
                       <img src="/images/blog/blog2.jpg" alt="image" />
                     </a>
@@ -71,7 +71,7 @@ const OurLatestBlog = () => {
                 </div>
                 <div className="content">
                   <h3>
-                    <Link href="/blog-details">
+                    <Link href="/blogs">
                       <a>Instructional Strategies</a>
                     </Link>
                   </h3>
@@ -80,7 +80,7 @@ const OurLatestBlog = () => {
                     do eiusmod tempor incididunt ut labore et dolore magna
                     aliqua. Ut enim ad minim veniam.
                   </p>
-                  <Link href="/blog-details">
+                  <Link href="/blogs">
                     <a className="default-btn">
                       <span className="ri-arrow-right-s-line"></span>Read More
                     </a>
@@ -88,9 +88,9 @@ const OurLatestBlog = () => {
                 </div>
               </div>
             </div>
-            
-            <div 
-              className="col-lg-4 col-md-6 col-sm-12" 
+
+            <div
+              className="col-lg-4 col-md-6 col-sm-12"
               data-aos="fade-up"
               data-aos-delay="800"
               data-aos-duration="1200"
@@ -98,7 +98,7 @@ const OurLatestBlog = () => {
             >
               <div className="single-blog-post">
                 <div className="image">
-                  <Link href="/blog-details">
+                  <Link href="/blogs">
                     <a className="d-block">
                       <img src="/images/blog/blog3.jpg" alt="image" />
                     </a>
@@ -107,7 +107,7 @@ const OurLatestBlog = () => {
                 </div>
                 <div className="content">
                   <h3>
-                    <Link href="/blog-details">
+                    <Link href="/blogs">
                       <a>Fitness Guideline Program</a>
                     </Link>
                   </h3>
@@ -116,7 +116,7 @@ const OurLatestBlog = () => {
                     do eiusmod tempor incididunt ut labore et dolore magna
                     aliqua. Ut enim ad minim veniam.
                   </p>
-                  <Link href="/blog-details">
+                  <Link href="/blogs">
                     <a className="default-btn">
                       <span className="ri-arrow-right-s-line"></span>Read More
                     </a>
@@ -128,7 +128,7 @@ const OurLatestBlog = () => {
         </div>
       </div>
     </>
-  )
-}
+  );
+};
 
-export default OurLatestBlog
+export default OurLatestBlog;
