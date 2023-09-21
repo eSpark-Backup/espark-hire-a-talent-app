@@ -25,7 +25,7 @@ const BlogDetailsContent = ({ data }) => {
             </div>
             <div className="col-lg-6 col-md-12">
               <div className="image">
-                <img src="/images/blog/boeo.png" alt="image" />
+                <img src={data[0]?.bigImageLink} alt="image" />
               </div>
             </div>
           </div>
