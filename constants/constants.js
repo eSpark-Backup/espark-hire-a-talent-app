@@ -56,7 +56,7 @@ export const sliderData = [
   {
     id: 1,
     title: "Hire a Mobile App Developer",
-    slug:"mobile-app-developer",
+    slug: "mobile-app-developer",
     content:
       "We have the most talented and top-notch app developers at eSpark Talent ready to provide quality-based app development services for your businesses. Through our expertise, we can help you propel your app content into reality by developing a seamless mobile app experience.​",
     imageLink: "/images/icon/app-development.png",
@@ -195,7 +195,7 @@ export const sliderData = [
   {
     id: 2,
     title: "Hire a Web Developer",
-    slug:"web-developer",
+    slug: "web-developer",
     content:
       "With robust web development services for your business offered by eSpark Talent, our customers can gain a technological edge in their Web apps and websites which not only improves the overall business productivity but also ensures that your brand's promotion is top notch.​",
     imageLink: "/images/icon/web.png",
@@ -376,7 +376,7 @@ export const sliderData = [
   {
     id: 3,
     title: "Hire a Digital Marketer",
-    slug:"digital-marketer",
+    slug: "digital-marketer",
     content:
       "Are you looking for a Digital Marketing Expert who ensures that your brand gets much-needed exposure by reaching your dedicated audience? eSpark Talent offers digital marketing professionals required for a breakthrough in the highly competitive online marketing realm.",
     imageLink: "/images/icon/digital-campaign.png",
@@ -564,7 +564,7 @@ export const sliderData = [
   {
     id: 4,
     title: "Hire an Embedded Developer",
-    slug:"embedded-developer",
+    slug: "embedded-developer",
     content:
       "Are you looking for an expert Embedded System Designer for your hardware Projects? eSpark Talent has over 5+ years of experience working on various Embedded System Projects, that includes PCB design, Firmware Development, Embedded Linux development, and more.",
     imageLink: "/images/icon/Group 36.png",
@@ -725,7 +725,7 @@ export const sliderData = [
   {
     id: 5,
     title: "Hire a Database Developer",
-    slug:"database-developer",
+    slug: "database-developer",
     content:
       "Are you seeking a dedicated developer to design, optimize and maintain your database? eSpark Talent offers sophisticated Database Developers with market competitive skills and expertise to handle your Database Design related projects very effectively and professionally.​",
     imageLink: "/images/icon/Group 31.png",
@@ -906,7 +906,7 @@ export const sliderData = [
   {
     id: 6,
     title: "Hire a QA Engineer",
-    slug:"qa-developer",
+    slug: "qa-developer",
     content:
       "A Quality Assurance Engineer is the cornerstone of every quality-based software program. We offer experienced QA Engineers who make sure that your software programs, apps, or websites go through robust testing and follow the state of the art quality checklist.​",
     imageLink: "/images/icon/question-and-answer.png",
@@ -1247,8 +1247,7 @@ export const WhatWeWorkItems = [
 ];
 // Industry Partners
 export const Title = "Our Prestigious Clients";
-export const Paragraph =
-  "";
+export const Paragraph = "";
 
 export const processOfHowItWorks = [
   {
@@ -1413,7 +1412,8 @@ export const FaqData = [
   },
   {
     heading: "What is the employer cost at eSpark Talent?",
-    paragraph: "At eSpark Talent, the employer cost is estimated between 14.99% - 19.99%.",
+    paragraph:
+      "At eSpark Talent, the employer cost is estimated between 14.99% - 19.99%.",
     toggle: false,
   },
   {
@@ -1445,5 +1445,24 @@ export const FaqData = [
     paragraph:
       "Employees can work 45 hours per week, which can vary as per the requirement of the client. Learn more about working hours in our salaried, hourly, and project-based employee policies.",
     toggle: false,
+  },
+];
+
+export const socialLinks = [
+  {
+    link: "https://www.facebook.com/people/eSpark-Talent/61550048738610/",
+    className: "facebook",
+  },
+  {
+    link: "https://twitter.com/eSparkTalent",
+    className: "twitter",
+  },
+  {
+    link: "https://www.linkedin.com/company/espark-talent/",
+    className: "linkedin",
+  },
+  {
+    link: "https://www.instagram.com/esparktalent/",
+    className: "instagram",
   },
 ];
