@@ -1,3 +1,4 @@
+import { socialLinks } from "constants/constants";
 import React from "react";
 const BlogDetailsContent = ({ data }) => {
   return (
@@ -32,7 +33,20 @@ const BlogDetailsContent = ({ data }) => {
           <div className="blog-details-desc">
             <div className="article-content">
               <ul className="social-links">
-                <li>
+                <ul className="social-links">
+                  {socialLinks.map((item, index) => (
+                    <li key={index}>
+                      <a
+                        href={item.link}
+                        target="_blank"
+                        className={item.className}
+                      >
+                        <i className={`ri-${item.className}-fill`}></i>
+                      </a>
+                    </li>
+                  ))}
+                </ul>
+                {/* <li>
                   <a
                     href="https://www.facebook.com/people/eSpark-Talent/61550048738610/"
                     target="_blank"
@@ -67,7 +81,7 @@ const BlogDetailsContent = ({ data }) => {
                   >
                     <i className="ri-instagram-fill"></i>
                   </a>
-                </li>
+                </li> */}
               </ul>
               <div dangerouslySetInnerHTML={{ __html: data[0]?.content }} />
             </div>

@@ -1,6 +1,10 @@
 import React from "react";
 import Link from "next/link";
-import { sliderData, footerContact } from "../../constants/constants";
+import {
+  sliderData,
+  footerContact,
+  socialLinks,
+} from "../../constants/constants";
 import NewsletterForm2 from "../Common/NewsletterForm2";
 
 const Footer = () => {
@@ -33,6 +37,19 @@ const Footer = () => {
                   eSpark Talent next-level automation and in-house
                   infrastructure, quality always comes first for our customers.
                 </p>
+                <ul className="social-links">
+                  {socialLinks.map((item, index) => (
+                    <li key={index}>
+                      <a
+                        href={item.link}
+                        target="_blank"
+                        className={item.className}
+                      >
+                        <i className={`ri-${item.className}-fill`}></i>
+                      </a>
+                    </li>
+                  ))}
+                </ul>
                 {/* <div className="newsletter-form">
                   <p>SUBSCRIBE TO OUR NEWSLETTER</p>
                   <form data-toggle="validator">
