@@ -3182,8 +3182,8 @@ Blog Details Area CSS
 }
 
 .blog-details-desc {
-  border-top: 1px solid #eeeeee;
-  padding-top: 50px;
+  /* border-top: 1px solid #eeeeee; */
+  /* padding-top: 50px; */
   margin-top: 50px;
 }
 

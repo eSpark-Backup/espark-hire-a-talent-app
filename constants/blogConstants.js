@@ -11,6 +11,7 @@ export const blogData = [
     id: 1,
     title: "Benefits of Employee Outsourcing.",
     imageLink: "/images/blog/benefits.png",
+    bigImageLink: "/images/blog/blog1.png",
     mainHeading: `Employee Outsourcing - The Future 
       of Hiring Professional Workforce.`,
     mainParagraph: `What is Employee Outsourcing? And how does it bring 
@@ -46,6 +47,7 @@ flexibility and productivity at the workplace? Grab the
   {
     id: 2,
     title: "Primest Employee Recruitment Strategies for Success",
+    bigImageLink: "/images/blog/blog2.png",
     imageLink: "/images/blog/primest-Employee.png",
     mainHeading: `Primest Employee Recruitment
 Strategies for Success.`,
@@ -124,6 +126,7 @@ Follow!</strong></span></span></p>
     id: 3,
     title: "8 Tips Guide for Bringing Positive Work Culture.",
     imageLink: "/images/blog/8-Tips-Guide.png",
+    bigImageLink: "/images/blog/blog3.png",
     mainHeading: `Secret of Bringing Positive Work Culture - A Compressive Guide For 
 Office Workplaces.`,
     mainParagraph: `Companies must embrace the change and follow what

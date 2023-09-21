@@ -268,7 +268,7 @@ const NavbarStyle2 = () => {
                         }`}
                         onClick={() => handleNavItemClick("Blog")}
                       >
-                        Blog
+                        Blogs
                       </a>
                     </Link>
                   </li>
