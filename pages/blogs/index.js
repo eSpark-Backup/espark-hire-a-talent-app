@@ -8,7 +8,7 @@ import NewsletterForm2 from "@/components/Common/NewsletterForm2";
 export default function Blog() {
   return (
     <>
-      <PageTitle homeText="Home" pageTitle="Blog" pageSubTitle={"Blog"} />
+      <PageTitle homeText="Home" pageTitle="Blogs" pageSubTitle={"Blogs"} />
 
       <BlogCard item={blogData} />
       <NewsletterForm2 />
