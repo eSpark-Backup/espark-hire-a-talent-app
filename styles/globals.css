@@ -4512,13 +4512,14 @@ Footer Area CSS
 
 .single-footer-widget .social-links li a {
   display: block;
-  line-height: 32px;
-  width: 32px;
+  line-height: 40px;
+  width: 40px;
   border-radius: 50%;
-  height: 32px;
+  height: 40px;
   text-align: center;
-  background-color: var(--blackColor);
+  /* background-color: var(--blackColor); */
   color: var(--whiteColor);
+  font-size: 18px;
 }
 
 .single-footer-widget .social-links li a:hover {
@@ -9481,4 +9482,33 @@ subscribe2 Area CSS
 .subscribe2-inner .newsletter-form button:hover {
   color: var(--whiteColor);
   background-color: var(--blackColor);
+}
+
+.single-footer-widget .social-links .facebook{
+  background-color: #3b5998;
+}
+.single-footer-widget .social-links .facebook:hover{
+  transform: scale(1.15);
+  background-color: #3b5998;
+}
+.single-footer-widget .social-links .twitter{
+  background-color: #1da1f2;
+}
+.single-footer-widget .social-links .twitter:hover{
+  transform: scale(1.15);
+  background-color: #1da1f2;
+}
+.single-footer-widget .social-links .linkedin{
+  background-color: #0077b5;
+}
+.single-footer-widget .social-links .linkedin:hover{
+  transform: scale(1.15);
+  background-color: #0077b5;
+}
+.single-footer-widget .social-links .instagram{
+  background-color: #ed46d2;
+}
+.single-footer-widget .social-links .instagram:hover{
+  transform: scale(1.15);
+  background-color: #ed46d2;
 }
