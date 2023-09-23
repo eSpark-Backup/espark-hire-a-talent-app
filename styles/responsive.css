@@ -663,7 +663,7 @@
     margin-top: 30px;
   }
   .blog-details-desc {
-    padding-top: 45px;
+    /* padding-top: 45px; */
   }
   .blog-details-desc .article-content {
     max-width: 100%;
@@ -2283,7 +2283,7 @@
     font-size: 15px;
   }
   .blog-details-desc .article-content .social-links {
-    right: -65px;
+    right: -30px;
   }
   blockquote,
   .blockquote {
@@ -3582,6 +3582,12 @@
   .single-blog-post .image .date {
     right: -38%;
   }
+/* hasni edits */
+
+.blog-details-desc .article-content .social-links {
+  right: -50px;
+}
+
 }
 @media only screen and (min-width: 1356px) and (max-width: 1399px) {
   .single-blog-post .image .date {

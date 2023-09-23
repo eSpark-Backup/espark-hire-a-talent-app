@@ -11,6 +11,7 @@ export const blogData = [
     id: 1,
     title: "Benefits of Employee Outsourcing.",
     imageLink: "/images/blog/benefits.png",
+    bigImageLink: "/images/blog/blog1.png",
     mainHeading: `Employee Outsourcing - The Future 
       of Hiring Professional Workforce.`,
     mainParagraph: `What is Employee Outsourcing? And how does it bring 
@@ -21,7 +22,7 @@ flexibility and productivity at the workplace? Grab the
       "Sept 15, 2023",
       "/images/user/mehdi-raza.png"
     ),
-    content: `<p><span style="white-space:pre-wrap;">This is the era of social revolution, and every diligent professional is all set to offer their acquired skills to<br>native or foreign corporate companies. It doesn’t matter if you are living in any well-established or developing country, there will always be a need for prolific individuals who could lower the workload of corporate offices.</span></p>
+    content: `<p><span style="white-space:pre-wrap;">This is the era of social revolution, and every diligent professional is all set to offer their acquired skills to native or foreign corporate companies. It doesn’t matter if you are living in any well-established or developing country, there will always be a need for prolific individuals who could lower the workload of corporate offices.</span></p>
         <p><span style="white-space:pre-wrap;">In most cases, the HR department and management of the companies are pointed out for the lack of work flexibility and productivity at the workplace. However, it is a universal fact that the corporate professional system will always involve management issues and workforce instability. Therefore, companies are going to need the perfect alternative for the growth of their business and the professional run of their management.</span></p>
         <p><span style="white-space:pre-wrap;">In this time of competition, there is only one way out that can support companies to bounce back and come asprofile-earning businesses. Yes, you got it right, we are talking about employee outsourcing.</span></p>
         <p><span style="white-space:pre-wrap;"><strong style="font-size: 24px;">What is Employee Outsourcing?</strong></span></p>
@@ -35,17 +36,18 @@ flexibility and productivity at the workplace? Grab the
             <li style="line-height: 1.5;"><span style="white-space:pre-wrap;">Hired employees are paid through monthly or weekly salary packages as per the signed contracts between the employers and the HR companies.</span></li>
             <li style="line-height: 1.5;"><span style="white-space:pre-wrap;">Outsourced employees do have the benefit of job security as they are associated with their in-house companies and work on tasks assigned by clients on a daily basis.</span></li>
         </ul>
-        <p><span style="white-space:pre-wrap;"><strong style="font-size: 24px;">5 Top Benefits of Employee Outsourcing<br></strong><br>It always looks fine and easy to hire a freelancer to get the work done. However, the association of experienced professionals hired to support the workforce every day is considered the best choice. Here is how legal and contracted employee outsourcing can benefit companies and business individuals in today’s time.</span></p>
-        <p><span style="white-space:pre-wrap;"><strong style="font-size: 18px;">Lower Office Workload</strong><br>Employee outsourcing is not a regular thing for companies. As expert professionals are called for help when companies require urgent support in their workplaces. Thus, the need for outsourced employees is mostly initiated when companies can’t find any possible solution to lower the workload. It directly indicates that employee outsourcing reduces the pressure of office workload from in-house staff.<br><br><strong style="font-size: 18px;">Bring Positive Change At The Workplace</strong><br>Companies aim to continue the flow of a positive working environment. And for that employee outsourcing can come for assistance. The working system of the offices automatically changes when every task is handled and completed at that exact time. It means that obtaining outsourcing services can really bring the needed productive change for companies.</span></p>
-        <p><span style="white-space:pre-wrap;"><strong style="font-size: 18px;">Reduce Labor Costs</strong><br>Privately owned and well-renowned companies grab the understanding of how much it takes to hire a suitable professional. Moreover, common employees are far away from the knowledge of how much it costs for companies to arrange every office supply. Therefore, hiring professionals who offer their expertise without causing labor costs saves time and directly benefits the companies.<br><br><strong style="font-size: 18px;">Increase Profit Earning Opportunities</strong><br>Corporate systems work on the capabilities of hired employees of the companies. In that account, businesses will be able to earn good profit by the fast regulation of the provided work. The collaboration of the outsourced team always does the job of completing the needful tasks in minimum time. That’s why it can be expressed that fast working results can bring valuable profit-earning opportunities for companies.</span></p>
-        <p><span style="white-space:pre-wrap;"><strong style="font-size: 18px;">Extend Professional Network Worldwide</strong><br>The moment companies get the association of the outsourced employees their businesses meet with foreign collaborations. Simply put, a partnership with an outsourced human resource-providing company can lead an employer’s brand to the worldwide network. In the same way, a trustful connection with outsourced professionals living in different countries also promotes the company brand around the globe.<br><br><strong style="font-size: 18px;">Final Words</strong><br>Outsourced human resource service-providing companies are recognized as the finest assets for assisting businesses during urgent needs. Hence, by offering an extended list of outsourced professionals HR firms proudly support numerous multinational companies. In that case, agencies and enterprises can freely hire the services of trusted professionals. Similarly, the hired outsourced employees will work like daily in-house employees but will offer advantageous benefits that are shared above.</span></p>
-        <p><span style="white-space:pre-wrap;"><br>This is the end of our blog. If you are in search of a top employee outsourcing service provider company that could offer instant assistance. Then, feel free to contact eSpark Talent and avail convenient and on-time human resource services.</span></p>
+        <p><span style="white-space:pre-wrap;"><strong style="font-size: 24px;">5 Top Benefits of Employee Outsourcing </strong> It always looks fine and easy to hire a freelancer to get the work done. However, the association of experienced professionals hired to support the workforce every day is considered the best choice. Here is how legal and contracted employee outsourcing can benefit companies and business individuals in today’s time.</span></p>
+        <p><span style="white-space:pre-wrap;"><strong style="font-size: 18px;">Lower Office Workload</strong> Employee outsourcing is not a regular thing for companies. As expert professionals are called for help when companies require urgent support in their workplaces. Thus, the need for outsourced employees is mostly initiated when companies can’t find any possible solution to lower the workload. It directly indicates that employee outsourcing reduces the pressure of office workload from in-house staff.  <strong style="font-size: 18px;">Bring Positive Change At The Workplace</strong> Companies aim to continue the flow of a positive working environment. And for that employee outsourcing can come for assistance. The working system of the offices automatically changes when every task is handled and completed at that exact time. It means that obtaining outsourcing services can really bring the needed productive change for companies.</span></p>
+        <p><span style="white-space:pre-wrap;"><strong style="font-size: 18px;">Reduce Labor Costs</strong> Privately owned and well-renowned companies grab the understanding of how much it takes to hire a suitable professional. Moreover, common employees are far away from the knowledge of how much it costs for companies to arrange every office supply. Therefore, hiring professionals who offer their expertise without causing labor costs saves time and directly benefits the companies.  <strong style="font-size: 18px;">Increase Profit Earning Opportunities</strong> Corporate systems work on the capabilities of hired employees of the companies. In that account, businesses will be able to earn good profit by the fast regulation of the provided work. The collaboration of the outsourced team always does the job of completing the needful tasks in minimum time. That’s why it can be expressed that fast working results can bring valuable profit-earning opportunities for companies.</span></p>
+        <p><span style="white-space:pre-wrap;"><strong style="font-size: 18px;">Extend Professional Network Worldwide</strong> The moment companies get the association of the outsourced employees their businesses meet with foreign collaborations. Simply put, a partnership with an outsourced human resource-providing company can lead an employer’s brand to the worldwide network. In the same way, a trustful connection with outsourced professionals living in different countries also promotes the company brand around the globe.  <strong style="font-size: 18px;">Final Words</strong> Outsourced human resource service-providing companies are recognized as the finest assets for assisting businesses during urgent needs. Hence, by offering an extended list of outsourced professionals HR firms proudly support numerous multinational companies. In that case, agencies and enterprises can freely hire the services of trusted professionals. Similarly, the hired outsourced employees will work like daily in-house employees but will offer advantageous benefits that are shared above.</span></p>
+        <p><span style="white-space:pre-wrap;"> This is the end of our blog. If you are in search of a top employee outsourcing service provider company that could offer instant assistance. Then, feel free to contact eSpark Talent and avail convenient and on-time human resource services.</span></p>
         
         `,
   },
   {
     id: 2,
     title: "Primest Employee Recruitment Strategies for Success",
+    bigImageLink: "/images/blog/blog2.png",
     imageLink: "/images/blog/primest-Employee.png",
     mainHeading: `Primest Employee Recruitment
 Strategies for Success.`,
@@ -95,20 +97,20 @@ Follow!</strong></span></span></p>
             <li style="line-height: 2.8;"><span style="white-space:pre-wrap;"><span style="font-weight: 600;">Lunch & Regular Handling of Social Media Accounts</span></span>
             <p><span style="white-space:pre-wrap;">An active presence on the social media platform is essential in today’s time. Daily regulation of the professional and social media platforms not only promotes the company brand but also spreads the positive and productive message of the workplace. In fact, professional and social media platforms such as LinkedIn, Indeed, and Facebook does grab more attention than other digital platforms.</span></p>
             </li>
-            <br>
+             
             <li style="line-height: 2.8;"><span style="white-space:pre-wrap;"><span style="font-weight: 600;">Utilization of All Online Job-Hunting Platforms.</span></span>
             <p><span style="white-space:pre-wrap;">The utilization of all online job-hunting platforms means having an upper hand on job-searching websites. Many feel that you can only get the perfect candidates through famous platforms. However, if companies want to grow their social network, they will need a great number of candidates through every JD post.</span></p>
             </li>
-            <br>
+             
             <li style="line-height: 2.8;"><span style="white-space:pre-wrap;"><span style="font-weight: 600;">Showcase of Attractive Job Description & On-Boarding Posts</span></span>
             <p><span style="white-space:pre-wrap;">Job description posts are not a piece of cake and a game for everyone. As they are opportunistic publishing copies for content marketers and social media strategists. That’s why you will need to train your social media executives to come up with stimulating and call-to-action descriptions that could attract the candidates.</span></p>
             <p><span style="white-space:pre-wrap;">Furthermore, companies are also open to share success stories and prosperous hiring campaigns through their professional pages and social media accounts to captivate other intended future candidates.</span></p>
             </li>
-            <br>
+             
             <li style="line-height: 2.8;"><span style="white-space:pre-wrap;"><span style="font-weight: 600;">Employee of Referral Program & Comfortable On-Boarding Process.</span></span>
             <p><span style="white-space:pre-wrap;">Talking about the success stories and onboarding posts, how can we forget the highlight of the employee referral programs? It is admirable and worth appreciating that companies offer plenty of fringe benefits to their employees for their growth. But the publication of these offer perks can pack their workplace with more smart and diligent employees. Likewise, the display of the best perks and benefits influences other professionals to avail the opportunity and join your company,</span></p>
             </li>
-            <br>
+             
             <li style="line-height: 2.8;"><span style="white-space:pre-wrap;"><span style="font-weight: 600;">Acquire Help From Employee Outsourced Service Providers</span></span>
             <p><span style="white-space:pre-wrap;">The use of social connectivity and online assistance has always supported every business company. In the same way, acquiring employee outsourcing services from the noted human resource-providing company can save the day for your firm.</span></p>
             <p><span style="white-space:pre-wrap;">Employee outsourcing comes for the support of companies when they need skillful assistance from remote-based professionals. Likewise, outsourced talent-providing companies are always packed with needed experts who are ready to get hired and offer their expertise.</span></p>
@@ -124,6 +126,7 @@ Follow!</strong></span></span></p>
     id: 3,
     title: "8 Tips Guide for Bringing Positive Work Culture.",
     imageLink: "/images/blog/8-Tips-Guide.png",
+    bigImageLink: "/images/blog/blog3.png",
     mainHeading: `Secret of Bringing Positive Work Culture - A Compressive Guide For 
 Office Workplaces.`,
     mainParagraph: `Companies must embrace the change and follow what
@@ -147,33 +150,33 @@ Workplace</strong></span></span></p>
           <li style="line-height: 2.8;"><span style="white-space:pre-wrap;"><span style="font-weight: 600;">Embrace The Change for Betterment</span></span>
             <p><span style="white-space:pre-wrap;">If you are a corporate professional and acquire the details of the current market trend, then it is essential for your enterprise to embrace the change. In this era of entrepreneurs, innovation is the key to beating the competition, as professional firms are one of the stakeholders of innovative and positive work culture.</span></p>
           </li>
-          <br>
+           
           <li style="line-height: 2.8;"><span style="white-space:pre-wrap;"><span style="font-weight: 600;">Sat Intelligible Organization Goals</span></span>
             <p><span style="white-space:pre-wrap;">The allocation of clear and uncomplicated company goals not only benefits management but also eases the working employees. Hence, the workforce must feel motivated regarding their service to the employers. Second, openly described goals for each department will avoid any upcoming misunderstandings and office flaws. Thus, every workplace does have its own policies which is why it is highly advised to address the goals under the adopted hierarchy.</span></p>
           </li>
-          <br>
+           
           <li style="line-height: 2.8;"><span style="white-space:pre-wrap;"><span style="font-weight: 600;">Prevent Micromanagement Approaches</span></span>
             <p><span style="white-space:pre-wrap;">In today’s time, there are mixed reviews regarding the implementation of micromanagement. Likewise, some are in support of supervision that could accelerate office activities and present worthwhile results. On the other hand, others are totally against unneeded supervision that doesn't allow all employees and departments to execute innovative and creative exercises at the workplace.</span></p>
             <p><span style="white-space:pre-wrap;">Your office should not follow the practices that frustrate the workforce and limit them and their capabilities. Otherwise, we all have the understanding that many organizations went into dust who limited their workforce and enforced restrictions on creativity.</span></p>
           </li>
-          <br>
+           
           <li style="line-height: 2.8;"><span style="white-space:pre-wrap;"><span style="font-weight: 600;">Demote Unwanted Overtime & Late Hours Routines</span></span>
             <p><span style="white-space:pre-wrap;">Yes, it is convincing that companies want their employees to be trustworthy and provide the best to the table. Similarly, we also accept the fact that businesses can need overtime work to complete the needed tasks. However, all these requisites do not explain the permit of regular unfavorable overtime and late hours routines. That’s why today is the time to stop promoting these practices.</span></p>
           </li>
-           <br>
+            
           <li style="line-height: 2.8;"><span style="white-space:pre-wrap;"><span style="font-weight: 600;">Promote Inclusivity & Social Interaction</span></span>
             <p><span style="white-space:pre-wrap;">Companies are built with the active involvement of all members. Including directors, managers, leads, and other employees. The diligence in the work comes when all the involved individuals in the organization have the freedom to offer earned expertise and utilize their acquired experience. Moreover, every excited new joiner aims to be welcomed and valued like others within the organization. In that case, the liberty of inclusivity and social interaction can change companies’ environment and produce unexpected organizational financial profit.</span></p>
           </li>
-           <br>
+            
           <li style="line-height: 2.8;"><span style="white-space:pre-wrap;"><span style="font-weight: 600;">Foster Employee Rights & Allow Zero Tolerance Policy</span></span>
             <p><span style="white-space:pre-wrap;">Strong roots and fertile land of the plant become the reason for its instant natural growth. Similarly, acknowledgment of employee rights and execution of zero tolerance policy can work as the growing roots and supportive land for companies. As proper understanding of the policies and terms backs the employees and companies to speak up and say no to inappropriate behaviors and practices within the workplace.</span></p>
           </li>
-           <br>
+            
           <li style="line-height: 2.8;"><span style="white-space:pre-wrap;"><span style="font-weight: 600;">Lower Office Workload Through Employee Outsourcing</span></span>
             <p><span style="white-space:pre-wrap;">There can be many ideas to alter the most occurring issue in most of companies. Yes, we are talking about office workload. In this time of digitalization, there are many ways to get the assistance of freelance professionals. However, companies ask for those who could be reliable and work like their own in-house employees. On that account, acquiring employee outsourcing services can be a smart choice.</span></p>
             <p><span style="white-space:pre-wrap;">The hiring of outsourced professionals not only reduces the work pressure from in-house employees of the companies but also puts forward the flexibility to the office cubicle.</span></p>
           </li>
-            <br>
+             
           <li style="line-height: 2.8;"><span style="white-space:pre-wrap;"><span style="font-weight: 600;">Encourage Workforce & Organize Employee Recognition Programs</span></span>
             <p><span style="white-space:pre-wrap;">Workforce encouragement doesn’t mean to promote only a few noted departments, as every individual requires praise from the management. In addition, companies can organize employee recognition programs to improve team culture, retain employees, and resurrect their lost motivation back on track</span></p>
             </li> 
