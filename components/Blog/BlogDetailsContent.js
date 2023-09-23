@@ -5,7 +5,7 @@ const BlogDetailsContent = ({ data }) => {
     <>
       <div className="blog-details-area ptb-100">
         <div className="container">
-          <div className="blog-details-header row align-items-center justify-content-center">
+          <div className="blog-details-header row align-items-top justify-content-top">
             <div className="col-lg-6 col-md-12">
               <div className="content">
                 <h1>{data[0]?.mainHeading}</h1>
