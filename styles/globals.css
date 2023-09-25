@@ -9516,7 +9516,7 @@ subscribe2 Area CSS
 /* Thankyou page styling starts from here */
 .thank-you-main {
   min-height: 100vh;
-  width: 99vw;
+  /* width: 99vw; */
   display: flex;
   /* justify-content: center;
   align-items: center; */
