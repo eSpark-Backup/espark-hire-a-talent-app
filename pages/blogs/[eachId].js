@@ -6,7 +6,7 @@ import { blogData } from "constants/blogConstants";
 export default function BlogDetails() {
   const router = useRouter();
   const getId = router.query.eachId;
-  const filterData = blogData?.filter((item) => item?.id === parseInt(getId));
+  const filterData = blogData?.filter((item) => item?.slug === getId);
   return (
     <>
       <BlogDetailsContent data={filterData} />
