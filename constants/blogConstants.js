@@ -9,6 +9,7 @@ const postedItems = (name, date, img) => {
 export const blogData = [
   {
     id: 1,
+    slug:'benefits-employee-outsourcing',
     title: "Benefits of Employee Outsourcing.",
     imageLink: "/images/blog/benefits.png",
     bigImageLink: "/images/blog/blog1.png",
@@ -19,7 +20,7 @@ flexibility and productivity at the workplace? Grab the
        needful insights here.`,
     postedBy: postedItems(
       "Mehdi Raza",
-      "Sept 15, 2023",
+      "Sept 24, 2023",
       "/images/user/mehdi-raza.png"
     ),
     content: `<div class="blogs-content">
@@ -100,6 +101,7 @@ flexibility and productivity at the workplace? Grab the
   },
   {
     id: 2,
+    slug:'employee-recruitment-strategies',
     title: "Primest Employee Recruitment Strategies for Success",
     bigImageLink: "/images/blog/blog2.png",
     imageLink: "/images/blog/primest-Employee.png",
@@ -110,7 +112,7 @@ must-follow practices to hire the best talent for your
 company.`,
     postedBy: postedItems(
       "Mehdi Raza",
-      "Sept 15, 2023",
+      "Sept 25, 2023",
       "/images/user/mehdi-raza.png"
     ),
     content: `<div class="blogs-content">
@@ -236,6 +238,7 @@ company.`,
   },
   {
     id: 3,
+    slug:'positive-work-culture',
     title: "8 Tips Guide for Bringing Positive Work Culture.",
     imageLink: "/images/blog/8-Tips-Guide.png",
     bigImageLink: "/images/blog/blog3.png",
@@ -246,7 +249,7 @@ is best for them. Here are the eight working tips to
 showcase your workplace with productivity.`,
     postedBy: postedItems(
       "Mehdi Raza",
-      "Sept 15, 2023",
+      "Sept 26, 2023",
       "/images/user/mehdi-raza.png"
     ),
     content: `<div class="blogs-content">
