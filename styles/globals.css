@@ -9533,41 +9533,44 @@ subscribe2 Area CSS
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding-top: 30px;
+  padding: 45px 0px;
 }
 .thank-header .thankyou-heading-1 {
   color: #fff;
   text-align: center;
   text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.4);
   /* font-family: Montserrat; */
-  font-size: 52px;
+  font-size: 40px;
   font-style: normal;
+  line-height: 28px;
   font-weight: 700;
-  line-height: 67.6px; /* 130% */
+  line-height: 52px; /* 130% */
 }
 .thank-header .thankyou-heading-2 {
   color: #fff;
   text-align: center;
   text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
-  font-size: 35px;
+  font-size: 32px;
   font-style: normal;
   font-weight: 500;
-  line-height: 45.5px; /* 130% */
+  line-height: 28px;
+  line-height: 36px; /* 130% */
 }
 .thank-header .thankyou-paragraph {
   color: #fff;
   text-align: center;
   text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.4);
-  font-size: 22px;
+  font-size: 16px;
   font-style: normal;
+  line-height: 19px;
   font-weight: 400;
-  line-height: 33px; /* 150% */
+  line-height: 30px; /* 150% */
 }
 .thankyou-features-box {
-  margin-bottom: 30px;
+  /* margin-bottom: 30px; */
   border-radius: 10px;
   /* text-align: center; */
-  padding: 50px 30px;
+  padding: 11px 30px;
   position: relative;
   z-index: 1;
   background: transparent;
@@ -9578,14 +9581,14 @@ subscribe2 Area CSS
   text-shadow: 1.0254536867141724px 1.0254536867141724px 1.0254536867141724px
     rgba(0, 0, 0, 0.2);
   /* font-family: Poppins; */
-  font-size: 28.713px;
+  font-size: 22px;
   font-style: normal;
   font-weight: 700;
   line-height: 37.327px; /* 130% */
 }
 .thankyou-features-box ul li {
   color: #fff;
-  font-size: 20.509px;
+  font-size: 16px;
   font-style: normal;
   font-weight: 400;
   line-height: 26.662px; /* 130% */
@@ -9609,6 +9612,7 @@ subscribe2 Area CSS
 .thank-header .container .section-title h2 {
   color: var(--whiteColor);
   margin-top: 20px;
+  height: 70px;
 }
 .thank-header .container .row {
   margin-top: -60px;
