@@ -88,7 +88,7 @@ flexibility and productivity at the workplace? Grab the
         with an outsourced human resource-providing company can lead an employer’s brand to the worldwide network. In the
         same way, a trustful connection with outsourced professionals living in different countries also promotes the
         company brand around the globe.
-    <h2>Final Words</h2>
+    <h3>Final Words</h3>
     <p>Outsourced human resource service-providing companies are recognized as the finest assets for assisting businesses during urgent
         needs. Hence, by offering an extended list of outsourced professionals HR firms proudly support numerous
         multinational companies. In that case, agencies and enterprises can freely hire the services of trusted
@@ -132,41 +132,41 @@ company.`,
         adopted change has landed challenges for human resource departments in the onboarding process. Here are some of the
         common reasons for the challenging hiring process worldwide.
     
-    <h2>Multiple Resigns</h2>
+    <h3>Multiple Resigns</h3>
     
     <p>Even though in-house employment benefits professionals with fringe advantages every company faces multiple
         resignations in just one week or month. It was a time when there wasn’t any second thought of even thinking about
         leaving a job. Thus, now it is quite an everyday event. The search for multiple candidates diverse the focus of the
         management and HR department that delays the hiring process.
     
-    <h2>Instant Hiring</h2>
+    <h3>Instant Hiring</h3>
     
     <p>The notification of urgent hiring raises the pressing bar for the HR department, as it results instant hiring. The
         immediate onboarding can’t always work for the betterment of the workplace, because one bad decision can lead things
         to go south. Secondly, the pressure of instant hiring also pushes the HR department into running unneeded long
         campaigns that cause unexpected time.
     
-    <h2>Searching Only Right & Qualified Candidates</h2>
+    <h3>Searching Only Right & Qualified Candidates</h3>
     
     <p>Today, where online employment is at its peak there are numerous in-house workplaces that are still at the backend in
         this game. Companies who are following old-style hiring and talent search practices take more time on candidates who
         are perfect picks and qualified at the same time. As in most cases, the right candidate seems overqualified. That’s
         why the search for a suitable candidate can be more difficult than it looks like.
     
-    <h2>Attracting Candidates With Positive Brand Image</h2>
+    <h3>Attracting Candidates With Positive Brand Image</h3>
     
     <p>Companies care more about their public image as all marketing campaigns and strategies are for the best brand
         promotion. Every hiring process is conducted with the consideration of highlighting a positive brand image. And due
         to this inclusion in the operation, the initial purpose of hiring the best talent goes into the dust and wastes
         plenty of weeks in the search for ideal candidates.
     
-    <h2>Element of Social Revolution</h2>
+    <h3>Element of Social Revolution</h3>
     
     <p>The social revolution simply means that employees decide where they want to work and how they like to work. This
         social revolution factor can work for the employees and offer the needful freedom. Hence, it raises questions
         regarding the reliability and professionalism of the employees.
     
-    <h2>Lack of Modern Talent Hunting Practices</h2>
+    <h3>Lack of Modern Talent Hunting Practices</h3>
     
     <p>It is true that there are various recruitment stages and requirements that force the onboarding of talent to consume
         time. However, the lack of digitalized ways of onboarding approaches can also become the reason for the challenging
@@ -183,20 +183,20 @@ company.`,
         undertaking of the recruitment. In that account, here are the top five must-have strategies that can help your
         company push forward its hiring process.
     <ol>
-        <li><h2>Lunch & Regular Handling of Social Media Accounts</h2>
+        <li><h3>Lunch & Regular Handling of Social Media Accounts</h3>
             <p>An active presence on the social media platform is essential in today’s time. Daily regulation of the
                 professional and social media platforms not only promotes the company brand but also spreads the positive
                 and productive message of the workplace. In fact, professional and social media platforms such as LinkedIn,
                 Indeed, and Facebook does grab more attention than other digital platforms.
         </li>
         <br>
-        <li><h2>Utilization of All Online Job-Hunting Platforms.</h2>
+        <li><h3>Utilization of All Online Job-Hunting Platforms.</h3>
             <p>The utilization of all online job-hunting platforms means having an upper hand on job-searching websites.
                 Many feel that you can only get the perfect candidates through famous platforms. However, if companies want
                 to grow their social network, they will need a great number of candidates through every JD post.
         </li>
         <br>
-        <li><h2>Showcase of Attractive Job Description & On-Boarding Posts</h2>
+        <li><h3>Showcase of Attractive Job Description & On-Boarding Posts</h3>
             <p>Job description posts are not a piece of cake and a game for everyone. As they are opportunistic publishing
                 copies for content marketers and social media strategists. That’s why you will need to train your social
                 media executives to come up with stimulating and call-to-action descriptions that could attract the
@@ -205,7 +205,7 @@ company.`,
                 professional pages and social media accounts to captivate other intended future candidates.
         </li>
         <br>
-        <li><h2>Employee of Referral Program & Comfortable On-Boarding Process.</h2>
+        <li><h3>Employee of Referral Program & Comfortable On-Boarding Process.</h3>
             <p>Talking about the success stories and onboarding posts, how can we forget the highlight of the employee
                 referral programs? It is admirable and worth appreciating that companies offer plenty of fringe benefits to
                 their employees for their growth. But the publication of these offer perks can pack their workplace with
@@ -213,7 +213,7 @@ company.`,
                 professionals to avail the opportunity and join your company,
         </li>
         <br>
-        <li><h2>Acquire Help From Employee Outsourced Service Providers</h2>
+        <li><h3>Acquire Help From Employee Outsourced Service Providers</h3>
             <p>The use of social connectivity and online assistance has always supported every business company. In the same
                 way, acquiring employee outsourcing services from the noted human resource-providing company can save the
                 day for your firm.
@@ -276,13 +276,13 @@ showcase your workplace with productivity.`,
             Therefore, shared practices require the full attention of the companies. Similarly, the daily implementation of
             these tips can only drive your intended change in the company.
         <ol>
-            <li><h2>Embrace The Change for Betterment</h2>
+            <li><h3>Embrace The Change for Betterment</h3>
                 <p>If you are a corporate professional and acquire the details of the current market trend, then it is
                     essential for your enterprise to embrace the change. In this era of entrepreneurs, innovation is the key
                     to beating the competition, as professional firms are one of the stakeholders of innovative and positive
                     work culture.</p>
             </li>
-            <li><h2>Sat Intelligible Organization Goals</h2>
+            <li><h3>Sat Intelligible Organization Goals</h3>
                 <p>The allocation of clear and uncomplicated company goals not only benefits management but also eases the
                     working employees. Hence, the workforce must feel motivated regarding their service to the employers.
                     Second, openly described goals for each department will avoid any upcoming misunderstandings and office
@@ -290,7 +290,7 @@ showcase your workplace with productivity.`,
                     goals under the adopted hierarchy.
             </li>
             <br>
-            <li><h2>Prevent Micromanagement Approaches</h2>
+            <li><h3>Prevent Micromanagement Approaches</h3>
                 <p>In today’s time, there are mixed reviews regarding the implementation of micromanagement. Likewise, some
                     are in support of supervision that could accelerate office activities and present worthwhile results. On
                     the other hand, others are totally against unneeded supervision that doesn't allow all employees and
@@ -300,14 +300,14 @@ showcase your workplace with productivity.`,
                     limited their workforce and enforced restrictions on creativity.
             </li>
             <br>
-            <li><h2>Demote Unwanted Overtime & Late Hours Routines</h2>
+            <li><h3>Demote Unwanted Overtime & Late Hours Routines</h3>
                 <p>Yes, it is convincing that companies want their employees to be trustworthy and provide the best to the
                     table. Similarly, we also accept the fact that businesses can need overtime work to complete the needed
                     tasks. However, all these requisites do not explain the permit of regular unfavorable overtime and late
                     hours routines. That’s why today is the time to stop promoting these practices.
             </li>
             <br>
-            <li><h2>Promote Inclusivity & Social Interaction</h2>
+            <li><h3>Promote Inclusivity & Social Interaction</h3>
                 <p>Companies are built with the active involvement of all members. Including directors, managers, leads, and
                     other employees. The diligence in the work comes when all the involved individuals in the organization
                     have the freedom to offer earned expertise and utilize their acquired experience. Moreover, every
@@ -316,14 +316,14 @@ showcase your workplace with productivity.`,
                     organizational financial profit.
             </li>
             <br>
-            <li><h2>Foster Employee Rights & Allow Zero Tolerance Policy</h2>
+            <li><h3>Foster Employee Rights & Allow Zero Tolerance Policy</h3>
                 <p>Strong roots and fertile land of the plant become the reason for its instant natural growth. Similarly,
                     acknowledgment of employee rights and execution of zero tolerance policy can work as the growing roots
                     and supportive land for companies. As proper understanding of the policies and terms backs the employees
                     and companies to speak up and say no to inappropriate behaviors and practices within the workplace.
             </li>
             <br>
-            <li><h2>Lower Office Workload Through Employee Outsourcing</h2>
+            <li><h3>Lower Office Workload Through Employee Outsourcing</h3>
                 <p>There can be many ideas to alter the most occurring issue in most of companies. Yes, we are talking about
                     office workload. In this time of digitalization, there are many ways to get the assistance of freelance
                     professionals. However, companies ask for those who could be reliable and work like their own in-house
@@ -332,7 +332,7 @@ showcase your workplace with productivity.`,
                     companies but also puts forward the flexibility to the office cubicle.
             </li>
             <br>
-            <li><h2>Encourage Workforce & Organize Employee Recognition Programs</h2>
+            <li><h3>Encourage Workforce & Organize Employee Recognition Programs</h3>
                 <p>Workforce encouragement doesn’t mean to promote only a few noted departments, as every individual
                     requires praise from the management. In addition, companies can organize employee recognition programs
                     to improve team culture, retain employees, and resurrect their lost motivation back on track
