@@ -9,7 +9,7 @@ const postedItems = (name, date, img) => {
 export const blogData = [
   {
     id: 1,
-    slug:'benefits-employee-outsourcing',
+    slug: 'benefits-employee-outsourcing',
     title: "Benefits of Employee Outsourcing.",
     imageLink: "/images/blog/benefits.png",
     bigImageLink: "/images/blog/blog1.png",
