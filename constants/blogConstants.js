@@ -9,6 +9,7 @@ const postedItems = (name, date, img) => {
 export const blogData = [
   {
     id: 1,
+    slug: 'benefits-employee-outsourcing',
     title: "Benefits of Employee Outsourcing.",
     imageLink: "/images/blog/benefits.png",
     bigImageLink: "/images/blog/blog1.png",
@@ -19,7 +20,7 @@ flexibility and productivity at the workplace? Grab the
        needful insights here.`,
     postedBy: postedItems(
       "Mehdi Raza",
-      "Sept 15, 2023",
+      "Sept 24, 2023",
       "/images/user/mehdi-raza.png"
     ),
     content: `<p><span style="white-space:pre-wrap;">This is the era of social revolution, and every diligent professional is all set to offer their acquired skills to native or foreign corporate companies. It doesn’t matter if you are living in any well-established or developing country, there will always be a need for prolific individuals who could lower the workload of corporate offices.</span></p>
@@ -46,6 +47,7 @@ flexibility and productivity at the workplace? Grab the
   },
   {
     id: 2,
+    slug:'employee-recruitment-strategies',
     title: "Primest Employee Recruitment Strategies for Success",
     bigImageLink: "/images/blog/blog2.png",
     imageLink: "/images/blog/primest-Employee.png",
@@ -56,7 +58,7 @@ must-follow practices to hire the best talent for your
 company.`,
     postedBy: postedItems(
       "Mehdi Raza",
-      "Sept 15, 2023",
+      "Sept 25, 2023",
       "/images/user/mehdi-raza.png"
     ),
     content: `<p><span style="white-space:pre-wrap;">The professional world is surrounded by various office exercises. However, the recruitment process appears to be a much-needed implementation. The hiring and dismissal of employees seem like regular practices of corporate companies. Hence, for a couple of years, the management of business workplaces has been facing some alarming scenarios that directly point towards difficulties during the recruitment process.</span></p>
@@ -124,6 +126,7 @@ Follow!</strong></span></span></p>
   },
   {
     id: 3,
+    slug:'positive-work-culture',
     title: "8 Tips Guide for Bringing Positive Work Culture.",
     imageLink: "/images/blog/8-Tips-Guide.png",
     bigImageLink: "/images/blog/blog3.png",
@@ -134,7 +137,7 @@ is best for them. Here are the eight working tips to
 showcase your workplace with productivity.`,
     postedBy: postedItems(
       "Mehdi Raza",
-      "Sept 15, 2023",
+      "Sept 26, 2023",
       "/images/user/mehdi-raza.png"
     ),
     content: `<p><span style="white-space:pre-wrap;">After the inventions of recent technologies, experienced professionals can undoubtedly predict the future of office employment. Hence, there won’t be any denying that the social revolution of the business and corporate companies has freed the employees from the unfavorable chains of reliability. Likewise, talented and skillful individuals no longer required positions and employment with workload burdens that were common in the Industrial Revolution era.</span></p>
