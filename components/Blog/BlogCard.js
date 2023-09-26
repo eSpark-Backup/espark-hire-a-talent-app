@@ -11,7 +11,7 @@ const BlogCard = ({ item }) => {
               <div key={i} className="col-lg-4 col-md-6 col-sm-6">
                 <div className="single-blog-post">
                   <div className="image">
-                    <Link href={`/blogs/${item.id}`}>
+                    <Link href={`/blogs/${item.slug}`}>
                       <a className="d-block">
                         <img src={item.imageLink} alt="image" />
                       </a>
