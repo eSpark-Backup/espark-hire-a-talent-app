@@ -92,7 +92,7 @@ export const seoContent = [
     twitterSite: "",
   },
   {
-    link: "/blogs/3/",
+    link: "/blogs/positive-work-culture/",
     title: "Insights and Trends on Talent Hiring | eSparkTalent Blogs",
     description:
       "Stay updated with the latest trends and insights on developer hiring and talent acquisition. Explore eSparkTalent blogs for expert advice and knowledge.",
@@ -115,7 +115,7 @@ export const seoContent = [
     twitterSite: "",
   },
   {
-    link: "/blogs/1/",
+    link: "/blogs/benefits-employee-outsourcing/",
     title: "Insights and Trends on Talent Hiring | eSparkTalent Blogs",
     description:
       "Stay updated with the latest trends and insights on developer hiring and talent acquisition. Explore eSparkTalent blogs for expert advice and knowledge.",
@@ -138,7 +138,7 @@ export const seoContent = [
     twitterSite: "",
   },
   {
-    link: "/blogs/2/",
+    link: "/blogs/employee-recruitment-strategies/",
     title: "Insights and Trends on Talent Hiring | eSparkTalent Blogs",
     description:
       "Stay updated with the latest trends and insights on developer hiring and talent acquisition. Explore eSparkTalent blogs for expert advice and knowledge.",

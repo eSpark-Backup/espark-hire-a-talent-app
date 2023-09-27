@@ -3138,6 +3138,7 @@ Blog Details Area CSS
 
 .blog-details-header .content p {
   padding-right: 50px;
+  font-size: 17px;
 }
 
 .blog-details-header .content .post-author-meta {
@@ -7330,6 +7331,34 @@ Blog Area CSS
   top: -200px;
   z-index: -1;
 }
+/*================================================
+Blog Content
+=================================================*/
+
+.blogs-content p {
+  line-height: 1.9 !important;
+  font-size: 17px !important;
+  margin-bottom: 20px !important;
+}
+
+.blogs-content h2 {
+  font-weight: 600 !important;
+  font-size: 25px !important;
+  margin-bottom: 20px !important;
+}
+
+.blogs-content h3 {
+  margin-top: 0px !important;
+  font-weight: 400 !important;
+  font-size: 20px !important;
+}
+.blogs-content li::marker {
+  font-size: 20px !important;
+}
+.blogs-content ul li {
+  font-size: 17px !important;
+  line-height: 1.5 !important;
+}
 
 /*================================================
 Value Trade Area CSS
@@ -9484,31 +9513,31 @@ subscribe2 Area CSS
   background-color: var(--blackColor);
 }
 
-.single-footer-widget .social-links .facebook{
+.single-footer-widget .social-links .facebook {
   background-color: #3b5998;
 }
-.single-footer-widget .social-links .facebook:hover{
+.single-footer-widget .social-links .facebook:hover {
   transform: scale(1.15);
   background-color: #3b5998;
 }
-.single-footer-widget .social-links .twitter{
+.single-footer-widget .social-links .twitter {
   background-color: #1da1f2;
 }
-.single-footer-widget .social-links .twitter:hover{
+.single-footer-widget .social-links .twitter:hover {
   transform: scale(1.15);
   background-color: #1da1f2;
 }
-.single-footer-widget .social-links .linkedin{
+.single-footer-widget .social-links .linkedin {
   background-color: #0077b5;
 }
-.single-footer-widget .social-links .linkedin:hover{
+.single-footer-widget .social-links .linkedin:hover {
   transform: scale(1.15);
   background-color: #0077b5;
 }
-.single-footer-widget .social-links .instagram{
+.single-footer-widget .social-links .instagram {
   background-color: #ed46d2;
 }
-.single-footer-widget .social-links .instagram:hover{
+.single-footer-widget .social-links .instagram:hover {
   transform: scale(1.15);
   background-color: #ed46d2;
 }

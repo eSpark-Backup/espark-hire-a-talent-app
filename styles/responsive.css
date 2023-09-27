@@ -1816,6 +1816,15 @@
   .single-team-member img {
     width: 80%;
   }
+  .blogs-content p, .blogs-content ul li {
+    font-size: 15px !important;
+  }
+  .blogs-content h2{
+    font-size: 22px !important;
+  }
+  .blogs-content h3 {
+    font-size: 18px !important;
+  }
 }
 
 /* Min width 576px to Max width 767px */
@@ -1876,11 +1885,14 @@
     padding-left: 10px;
     padding-right: 10px;
   }
+
+
   /* .faq-accordion .accordion .accordion__item .accordion__button img {
     display: none;
   } */
 
   /* End "Cybersecurity Demo Responsive, Cryptocurrency Demo Responsive & ICO Landing Demo Responsive" */
+  
 }
 
 /* Min width 768px to Max width 991px */
@@ -2987,6 +2999,17 @@
     width: 30px;
     height: 30px;
   }
+  .blogs-content p, .blogs-content ul li {
+    font-size: 16px !important;
+  }
+  .blogs-content p, .blogs-content ul li {
+    font-size: 17px !important;
+  }
+  .blogs-content h2{
+    font-size: 22px !important;
+  }
+
+
 }
 
 /* Min width 992px to Max width 1199px */
@@ -3494,6 +3517,9 @@
   }
   .single-blog-post .content p {
     height: 130px !important;
+  }
+  .blogs-content p, .blogs-content ul li {
+    font-size: 17px !important;
   }
 }
 
