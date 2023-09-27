@@ -1825,6 +1825,9 @@
   .blogs-content h3 {
     font-size: 18px !important;
   }
+  .thankyou-features-box{
+    padding: 11px 12px;
+  }
 }
 
 /* Min width 576px to Max width 767px */
@@ -1892,6 +1895,9 @@
   } */
 
   /* End "Cybersecurity Demo Responsive, Cryptocurrency Demo Responsive & ICO Landing Demo Responsive" */
+  .thankyou-features-box{
+    padding: 11px 12px;
+  }
   
 }
 
