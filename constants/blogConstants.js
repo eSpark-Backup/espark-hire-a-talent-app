@@ -9,7 +9,7 @@ const postedItems = (name, date, img) => {
 export const blogData = [
   {
     id: 1,
-    slug:'benefits-employee-outsourcing',
+    slug: "benefits-employee-outsourcing",
     title: "Benefits of Employee Outsourcing.",
     imageLink: "/images/blog/benefits.png",
     bigImageLink: "/images/blog/blog1.png",
@@ -101,7 +101,7 @@ flexibility and productivity at the workplace? Grab the
   },
   {
     id: 2,
-    slug:'employee-recruitment-strategies',
+    slug: "employee-recruitment-strategies",
     title: "Primest Employee Recruitment Strategies for Success",
     bigImageLink: "/images/blog/blog2.png",
     imageLink: "/images/blog/primest-Employee.png",
@@ -191,13 +191,13 @@ company.`,
                 and productive message of the workplace. In fact, professional and social media platforms such as LinkedIn,
                 Indeed, and Facebook does grab more attention than other digital platforms.
         </li>
-        <br>
+        
         <li><h3>Utilization of All Online Job-Hunting Platforms.</h3>
             <p>The utilization of all online job-hunting platforms means having an upper hand on job-searching websites.
                 Many feel that you can only get the perfect candidates through famous platforms. However, if companies want
                 to grow their social network, they will need a great number of candidates through every JD post.
         </li>
-        <br>
+        
         <li><h3>Showcase of Attractive Job Description & On-Boarding Posts</h3>
             <p>Job description posts are not a piece of cake and a game for everyone. As they are opportunistic publishing
                 copies for content marketers and social media strategists. That’s why you will need to train your social
@@ -206,7 +206,7 @@ company.`,
             <p>Furthermore, companies are also open to share success stories and prosperous hiring campaigns through their
                 professional pages and social media accounts to captivate other intended future candidates.
         </li>
-        <br>
+        
         <li><h3>Employee of Referral Program & Comfortable On-Boarding Process.</h3>
             <p>Talking about the success stories and onboarding posts, how can we forget the highlight of the employee
                 referral programs? It is admirable and worth appreciating that companies offer plenty of fringe benefits to
@@ -214,7 +214,7 @@ company.`,
                 more smart and diligent employees. Likewise, the display of the best perks and benefits influences other
                 professionals to avail the opportunity and join your company,
         </li>
-        <br>
+        
         <li><h3>Acquire Help From Employee Outsourced Service Providers</h3>
             <p>The use of social connectivity and online assistance has always supported every business company. In the same
                 way, acquiring employee outsourcing services from the noted human resource-providing company can save the
@@ -238,7 +238,7 @@ company.`,
   },
   {
     id: 3,
-    slug:'positive-work-culture',
+    slug: "positive-work-culture",
     title: "8 Tips Guide for Bringing Positive Work Culture.",
     imageLink: "/images/blog/8-Tips-Guide.png",
     bigImageLink: "/images/blog/blog3.png",
@@ -292,7 +292,7 @@ showcase your workplace with productivity.`,
                     flaws. Thus, every workplace does have its own policies which is why it is highly advised to address the
                     goals under the adopted hierarchy.
             </li>
-            <br>
+            
             <li><h3>Prevent Micromanagement Approaches</h3>
                 <p>In today’s time, there are mixed reviews regarding the implementation of micromanagement. Likewise, some
                     are in support of supervision that could accelerate office activities and present worthwhile results. On
@@ -302,14 +302,14 @@ showcase your workplace with productivity.`,
                     capabilities. Otherwise, we all have the understanding that many organizations went into dust who
                     limited their workforce and enforced restrictions on creativity.
             </li>
-            <br>
+            
             <li><h3>Demote Unwanted Overtime & Late Hours Routines</h3>
                 <p>Yes, it is convincing that companies want their employees to be trustworthy and provide the best to the
                     table. Similarly, we also accept the fact that businesses can need overtime work to complete the needed
                     tasks. However, all these requisites do not explain the permit of regular unfavorable overtime and late
                     hours routines. That’s why today is the time to stop promoting these practices.
             </li>
-            <br>
+            
             <li><h3>Promote Inclusivity & Social Interaction</h3>
                 <p>Companies are built with the active involvement of all members. Including directors, managers, leads, and
                     other employees. The diligence in the work comes when all the involved individuals in the organization
@@ -318,14 +318,14 @@ showcase your workplace with productivity.`,
                     liberty of inclusivity and social interaction can change companies’ environment and produce unexpected
                     organizational financial profit.
             </li>
-            <br>
+            
             <li><h3>Foster Employee Rights & Allow Zero Tolerance Policy</h3>
                 <p>Strong roots and fertile land of the plant become the reason for its instant natural growth. Similarly,
                     acknowledgment of employee rights and execution of zero tolerance policy can work as the growing roots
                     and supportive land for companies. As proper understanding of the policies and terms backs the employees
                     and companies to speak up and say no to inappropriate behaviors and practices within the workplace.
             </li>
-            <br>
+            
             <li><h3>Lower Office Workload Through Employee Outsourcing</h3>
                 <p>There can be many ideas to alter the most occurring issue in most of companies. Yes, we are talking about
                     office workload. In this time of digitalization, there are many ways to get the assistance of freelance
@@ -334,7 +334,7 @@ showcase your workplace with productivity.`,
                 <p>The hiring of outsourced professionals not only reduces the work pressure from in-house employees of the
                     companies but also puts forward the flexibility to the office cubicle.
             </li>
-            <br>
+            
             <li><h3>Encourage Workforce & Organize Employee Recognition Programs</h3>
                 <p>Workforce encouragement doesn’t mean to promote only a few noted departments, as every individual
                     requires praise from the management. In addition, companies can organize employee recognition programs
