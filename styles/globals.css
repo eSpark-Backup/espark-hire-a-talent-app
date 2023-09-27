@@ -3138,6 +3138,7 @@ Blog Details Area CSS
 
 .blog-details-header .content p {
   padding-right: 50px;
+  font-size: 17px;
 }
 
 .blog-details-header .content .post-author-meta {
@@ -7338,26 +7339,24 @@ Blog Content
   line-height: 1.9 !important;
   font-size: 17px !important;
   margin-bottom: 20px !important;
-  font-family: Titillium Web !important;
 }
+
 .blogs-content h2 {
   font-weight: 600 !important;
   font-size: 25px !important;
   margin-bottom: 20px !important;
-  font-family: Titillium Web !important;
 }
-.blogs-content li h3 {
-  font-weight: 400 !important;
-  font-size: 20px !important;
-  margin-top: 0px !important;
-  font-family: Titillium Web !important;
-}
+
 .blogs-content h3 {
+  margin-top: 0px !important;
   font-weight: 400 !important;
   font-size: 20px !important;
-  font-family: Titillium Web !important;
+}
+.blogs-content li::marker {
+  font-size: 20px !important;
 }
 .blogs-content ul li {
+  font-size: 20px !important;
   line-height: 1.5 !important;
 }
 
