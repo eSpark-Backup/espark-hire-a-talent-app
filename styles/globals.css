@@ -3030,6 +3030,7 @@ Blog Area CSS
 
 .single-blog-post .image img {
   border-radius: 15px;
+  width: 100%;
 }
 
 /* .single-blog-post .image .date {
