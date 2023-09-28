@@ -9562,7 +9562,8 @@ subscribe2 Area CSS
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 45px 0px;
+  padding-top: 45px;
+  padding-bottom: 45px;
 }
 .thank-header .thankyou-heading-1 {
   color: #fff;
@@ -9581,7 +9582,7 @@ subscribe2 Area CSS
   text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
   font-size: 32px;
   font-style: normal;
-  font-weight: 500;
+  font-weight: 600;
   line-height: 28px;
   line-height: 36px; /* 130% */
 }
@@ -9641,7 +9642,9 @@ subscribe2 Area CSS
 .thank-header .container .section-title h2 {
   color: var(--whiteColor);
   margin-top: 20px;
-  height: 70px;
+  height: 75px;
+  font-weight: 700;
+  font-size: 28px;
 }
 .thank-header .container .row {
   margin-top: -60px;
