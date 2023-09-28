@@ -13,15 +13,19 @@ function ThankYou() {
     <>
       <div className="thank-you-main">
         <div className="container-fluid thank-header">
-          <a href="/"><img
-            src="/images/ThankyouPageLogo.png"
-            width={"157.983px"}
-            height={"74.775px"}
-          /></a>
+          <a href="/">
+            <img
+              src="/images/ThankyouPageLogo.png"
+              width={"157.983px"}
+              height={"74.775px"}
+            />
+          </a>
           <div>
             <h1 className="thankyou-heading-1">{thankYouHeadings[0]}</h1>
             <h1 className="thankyou-heading-1">{thankYouHeadings[1]}</h1>
-            <h2 className="thankyou-heading-2">{thankYouHeadings[2]}</h2>
+            <h2 className="thankyou-heading-2">
+              Take Your Business To The Next Level
+            </h2>
           </div>
           {thankYouParas.map((item, index) => (
             <p className="thankyou-paragraph" key={index}>

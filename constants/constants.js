@@ -1471,7 +1471,6 @@ export const socialLinks = [
 export const thankYouHeadings = [
   "Thank You",
   "Your Discovery Call is Booked!",
-  "Take Your Business To The Next Level",
 ];
 
 export const thankYouParas = [
