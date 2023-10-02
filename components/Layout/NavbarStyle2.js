@@ -232,7 +232,7 @@ const NavbarStyle2 = () => {
                   </li> */}
 
                   <li className="nav-item">
-                    <Link href="/about-us" activeClassName="active">
+                    <Link href="/what-we-do" activeClassName="active">
                       <a
                         className={`nav-link ${
                           gettingActiveLink === "/about-us" ? "active" : ""
@@ -245,7 +245,7 @@ const NavbarStyle2 = () => {
                   </li>
 
                   <li className="nav-item">
-                    <Link href="/services" activeClassName="active">
+                    <Link href="/how-it-works" activeClassName="active">
                       <a
                         className={`nav-link ${
                           gettingActiveLink === "services" ? "active" : ""
