@@ -25,18 +25,24 @@ function MyApp({ Component, pageProps }) {
   const { pathname } = useRouter();
   return (
     <React.Fragment>
-      {pathname !== "/coming-soon" ? (
+      {pathname === "/thankyou" ? (
         <React.Fragment>
-          <NavbarStyle2 />
+          {" "}
           <Component {...pageProps} />
           <Footer />
           <ScrollToTop />
+        </React.Fragment>
+      ) : pathname === "/coming-soon" ? (
+        <React.Fragment>
+          {/* <NavbarStyle2 /> */}
+          <Component {...pageProps} />
+          {/* <ScrollToTop /> */}
         </React.Fragment>
       ) : (
         <React.Fragment>
           <NavbarStyle2 />
           <Component {...pageProps} />
-          {/* <Footer /> */}
+          <Footer />
           <ScrollToTop />
         </React.Fragment>
       )}
