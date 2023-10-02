@@ -1466,3 +1466,45 @@ export const socialLinks = [
     className: "instagram",
   },
 ];
+
+// Thank You Page Data
+export const thankYouHeadings = [
+  "Thank You",
+  "Your Discovery Call is Booked!",
+];
+
+export const thankYouParas = [
+  "Your call has been scheduled.",
+  "We will call you at the date and time you picked.",
+  "Be sure to add the appointment to your calendar NOW!",
+];
+
+export const thankyouCards = [
+  {
+    heading: "Call + Requirements",
+    items: [
+      "Discovery Call at Selected Date & Time",
+      "We will get your Candidate Requirements from you",
+      "Walk away with a Custom Job Description",
+    ],
+    icon: "/images/icon/Call.png",
+  },
+  {
+    heading: "Candidate Interview",
+    items: [
+      "We'll Handpick the Perfect Candidate for you",
+      "Schedule an Interview with your Candidate",
+      "90%+ Placement Success Rate",
+    ],
+    icon: "/images/icon/Interview.png",
+  },
+  {
+    heading: "Get Started",
+    items: [
+      "Sign your Contract",
+      "On-Boarding Call with your Dedicated Customer Success Manager",
+      "Activate Massive Growth",
+    ],
+    icon: "/images/icon/Employee.png",
+  },
+];
