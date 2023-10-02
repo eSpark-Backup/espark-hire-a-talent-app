@@ -18,16 +18,17 @@ const BlogCard = ({ item }) => {
                     </Link>
                     <span className="date">{item?.postedBy?.date}</span>
                   </div>
+
                   <div className="content">
                     <h3>
-                      <Link href={`/blogs/${item.id}`}>
+                      <Link href={`/blogs/${item.slug}`}>
                         <a>{item?.title}</a>
                       </Link>
                     </h3>
                     <p>{item?.mainParagraph}</p>
 
                     {/* <Link href="/blog-details"> */}
-                    <Link href={`/blogs/${item.id}`}>
+                    <Link href={`/blogs/${item.slug}`}>
                       <a className="default-btn">
                         <span className="ri-arrow-right-s-line"></span>
                         Read More
