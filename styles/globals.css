@@ -9584,8 +9584,7 @@ subscribe2 Area CSS
   font-size: 32px;
   font-style: normal;
   font-weight: 600;
-  line-height: 28px;
-  line-height: 36px; /* 130% */
+  line-height: 45.5px; /* 130% */
 }
 .thank-header .thankyou-paragraph {
   color: #fff;
