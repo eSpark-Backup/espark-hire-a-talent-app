@@ -24,7 +24,7 @@ function ThankYou() {
             <h1 className="thankyou-heading-1">{thankYouHeadings[0]}</h1>
             <h1 className="thankyou-heading-1">{thankYouHeadings[1]}</h1>
             <h2 className="thankyou-heading-2">
-              Take Your Business To The Next Level
+              Take Your <span style={{fontWeight:"700"}}>Business</span> To The <span style={{fontWeight:"700"}}>Next Level</span>
             </h2>
           </div>
           {thankYouParas.map((item, index) => (
