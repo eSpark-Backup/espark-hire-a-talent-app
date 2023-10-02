@@ -1,7 +1,10 @@
 import Link from "next/link";
+import { useRouter } from "next/router";
 import React from "react";
 
 const NewsletterForm2 = () => {
+  const router = useRouter();
+  const gettingPath = router.pathname;
   return (
     <>
       <div className="subscribe2-area pt-0">
@@ -16,13 +19,15 @@ const NewsletterForm2 = () => {
                 Connect with skilled interviewers who will help <br /> you find
                 the right people for your company's growth.
               </p>
-              <div className="newsletter-form">
-                <Link href="https://calendly.com/esparktalents/60min?month=2023-09">
-                  <a target="_blank">
-                    <button type="submit">Schedule a Meeting</button>
-                  </a>
-                </Link>
-              </div>
+              {gettingPath === "/thankyou" ? null : (
+                <div className="newsletter-form">
+                  <Link href="https://calendly.com/esparktalents/60min?month=2023-09">
+                    <a target="_blank">
+                      <button type="submit">Schedule a Meeting</button>
+                    </a>
+                  </Link>
+                </div>
+              )}
             </div>
             <div className="shape1">
               <img src="/images/cta/ctaImage1.png" alt="image" />
