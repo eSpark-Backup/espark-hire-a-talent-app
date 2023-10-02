@@ -9645,6 +9645,7 @@ subscribe2 Area CSS
   margin-top: 20px;
   height: 75px;
   font-weight: 700;
+  font-family: var(--fontFamily);
   font-size: 28px;
 }
 .thank-header .container .row {
