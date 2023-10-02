@@ -10,7 +10,7 @@ export const blogData = [
   {
     id: 1,
     slug: "benefits-employee-outsourcing",
-    title: "Benefits of Employee Outsourcing.",
+    title: "Benefits of Employee Outsourcing",
     imageLink: "/images/blog/benefits.png",
     bigImageLink: "/images/blog/blog1.png",
     mainHeading: `Employee Outsourcing - The Future 
@@ -239,7 +239,7 @@ company.`,
   {
     id: 3,
     slug: "positive-work-culture",
-    title: "8 Tips Guide for Bringing Positive Work Culture.",
+    title: "8 Tips Guide for Bringing Positive Work Culture",
     imageLink: "/images/blog/8-Tips-Guide.png",
     bigImageLink: "/images/blog/blog3.png",
     mainHeading: `Secret of Bringing Positive Work Culture - A Compressive Guide For 
