@@ -3858,6 +3858,7 @@
   .thank-header .thankyou-heading-2 {
     font-size: 35px;
     line-height: 45.5px;
+    margin-bottom: 30px;
   }
   .thank-header .thankyou-paragraph {
     font-size: 22px;
@@ -3865,7 +3866,7 @@
   }
   .thankyou-features-box h3 {
     font-size: 28.713px;
-    line-height: 37.327px; 
+    line-height: 37.327px;
   }
   .thankyou-features-box ul li {
     font-size: 20.509px;
