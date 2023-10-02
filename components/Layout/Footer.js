@@ -110,12 +110,12 @@ const Footer = () => {
                 <h3>Company</h3>
                 <ul className="quick-links mt-5">
                   <li>
-                    <Link href="/about-us">
+                    <Link href="/what-we-do">
                       <a>What we do</a>
                     </Link>
                   </li>
                   <li>
-                    <Link href="/services">
+                    <Link href="/how-it-works">
                       <a>How it works</a>
                     </Link>
                   </li>
