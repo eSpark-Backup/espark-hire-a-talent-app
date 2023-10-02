@@ -18,6 +18,7 @@ const BlogCard = ({ item }) => {
                     </Link>
                     <span className="date">{item?.postedBy?.date}</span>
                   </div>
+
                   <div className="content">
                     <h3>
                       <Link href={`/blogs/${item.slug}`}>

@@ -3030,6 +3030,7 @@ Blog Area CSS
 
 .single-blog-post .image img {
   border-radius: 15px;
+  width: 100%;
 }
 
 /* .single-blog-post .image .date {
@@ -7356,7 +7357,7 @@ Blog Content
   font-size: 20px !important;
 }
 .blogs-content ul li {
-  font-size: 20px !important;
+  font-size: 17px !important;
   line-height: 1.5 !important;
 }
 
@@ -9541,3 +9542,112 @@ subscribe2 Area CSS
   transform: scale(1.15);
   background-color: #ed46d2;
 }
+
+/* Thankyou page styling starts from here */
+.thank-you-main {
+  min-height: 100vh;
+  /* width: 99vw; */
+  display: flex;
+  /* justify-content: center;
+  align-items: center; */
+  /* margin-top: 10vh; */
+  flex-direction: column;
+  overflow-x: hidden;
+}
+.thank-header {
+  background-image: url(/images/bg/ThankYouPageBG.png);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 0.88;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 45px;
+  padding-bottom: 45px;
+}
+.thank-header .thankyou-heading-1 {
+  color: #fff;
+  text-align: center;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.4);
+  /* font-family: Montserrat; */
+  font-size: 40px;
+  font-style: normal;
+  line-height: 28px;
+  font-weight: 700;
+  line-height: 52px; /* 130% */
+}
+.thank-header .thankyou-heading-2 {
+  color: #fff;
+  text-align: center;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 45.5px; /* 130% */
+}
+.thank-header .thankyou-paragraph {
+  color: #fff;
+  text-align: center;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.4);
+  font-size: 16px;
+  font-style: normal;
+  line-height: 19px;
+  font-weight: 400;
+  line-height: 30px; /* 150% */
+}
+.thankyou-features-box {
+  /* margin-bottom: 30px; */
+  border-radius: 10px;
+  /* text-align: center; */
+  padding: 11px 30px;
+  position: relative;
+  z-index: 1;
+  background: transparent;
+}
+.thankyou-features-box h3 {
+  color: #fff;
+  text-align: center;
+  text-shadow: 1.0254536867141724px 1.0254536867141724px 1.0254536867141724px
+    rgba(0, 0, 0, 0.2);
+  /* font-family: Poppins; */
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 37.327px; /* 130% */
+}
+.thankyou-features-box ul li {
+  color: #fff;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26.662px; /* 130% */
+}
+.thankyou-features-box .icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.thank-you-main .container-fluid2 {
+  background-color: #2d7184;
+  box-shadow: 0px -18px 12px -12px rgba(0, 0, 0, 0.75);
+  padding: 15px;
+}
+.thank-you-partner-slider {
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.thank-header .container .section-title h2 {
+  color: var(--whiteColor);
+  margin-top: 20px;
+  height: 75px;
+  font-weight: 700;
+  font-family: var(--fontFamily);
+  font-size: 28px;
+}
+.thank-header .container .row {
+  margin-top: -60px;
+}
+/* Thankyou Page Styling Finish Here. */
