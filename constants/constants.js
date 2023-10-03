@@ -1468,10 +1468,7 @@ export const socialLinks = [
 ];
 
 // Thank You Page Data
-export const thankYouHeadings = [
-  "Thank You",
-  "Your Discovery Call is Booked!",
-];
+export const thankYouHeadings = ["Thank You", "Your Discovery Call is Booked!"];
 
 export const thankYouParas = [
   "Your call has been scheduled.",
@@ -1508,3 +1505,5 @@ export const thankyouCards = [
     icon: "/images/icon/Employee.png",
   },
 ];
+
+
