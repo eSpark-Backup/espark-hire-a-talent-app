@@ -9,7 +9,7 @@ function Career() {
   return (
     <>
       <PageTitle homeText="Home" pageTitle="Careers" pageSubTitle="Careers" />
-      <div className="container">
+      <div className="container-xxl career-section ptb-100">
         <Dropdown />
         <CareerCards data={jobInfo} />
       </div>
