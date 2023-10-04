@@ -1913,7 +1913,7 @@
     padding-bottom: 15px;
   }
   .career-card-button {
-    justify-content: end;
+    justify-content: flex-end;
     width: 100%;
     display: flex;
     height: auto;
@@ -3058,7 +3058,7 @@
     padding-bottom: 15px;
   }
   .career-card-button {
-    justify-content: end;
+    justify-content: flex-end;
     width: 100%;
     display: flex;
     height: auto;
