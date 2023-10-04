@@ -9662,9 +9662,17 @@ subscribe2 Area CSS
   padding: 10.5px 15px;
   margin-bottom: 30px !important;
   appearance: none;
+  color: var(--optionalColor);
+  font-size: 16px;
+  font-weight: 400;
   background-image: url(/images/icon/image_dropdown.png);
   background-position: right 0.75rem center;
   background-repeat: no-repeat;
+}
+.dropdown .option {
+  font-size: 16px;
+  font-weight: 400;
+  color: var(--optionalColor);
 }
 .career-card {
   border-top: 1px solid #dee2e6;
@@ -9681,15 +9689,15 @@ subscribe2 Area CSS
   flex-shrink: 0;
   gap: -1px;
 }
-.career-card-title h2 {
-  color: #3359a2;
-  font-size: 24px;
+.career-card-title h3 {
+  color: var(--blackColor);
+  font-size: 22px;
   font-style: normal;
-  font-weight: 500;
+  font-weight: 600;
   line-height: 28.8px;
 }
 .career-card-title p {
-  color: #000;
+  color: var(--optionalColor);
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
@@ -9701,15 +9709,15 @@ subscribe2 Area CSS
   gap: -1px;
   flex-shrink: 0;
 }
-.career-card-description h2 {
-  color: #3359a2;
-  font-size: 24px;
+.career-card-description h3 {
+  color: var(--blackColor);
+  font-size: 22px;
   font-style: normal;
-  font-weight: 500;
+  font-weight: 600;
   line-height: 28.8px;
 }
 .career-card-description p {
-  color: #000;
+  color: var(--optionalColor);
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
