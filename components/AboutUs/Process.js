@@ -6,7 +6,7 @@ const Process = ({ title, processData }) => {
       <div className="process-area ptb-100">
         <div className="container-xl">
           <div className="process-inner">
-            <h4 className="text-center mb-5 fw-semibold">{title}</h4>
+            <h2 className="text-center mb-5 fw-semibold">{title}</h2>
             <div className="row justify-content-center">
               {processData?.map((processItems, i) => (
                 <div
