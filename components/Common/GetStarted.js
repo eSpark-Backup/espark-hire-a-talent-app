@@ -18,7 +18,7 @@ const GetStarted = (props) => {
                 <img src="/images/06.png" alt="image" className='pt-5' />
               </div>
             </div>
-            <div className="col-lg-6 col-md-12">
+            <div className="col-lg-6 col-md-12 new-style">
               <div className="get-started-content pt-0">
                 {/* <span className="sub-title">READY TO STARTED?</span> */}
                 <h2 className="fw-semibold">
