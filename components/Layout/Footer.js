@@ -16,6 +16,38 @@ const Footer = () => {
   return (
     <React.Fragment>
       <footer className="footer-area">
+        {/* Linkedin Insight Tag */}
+        <script
+          type="text/javascript"
+          dangerouslySetInnerHTML={{
+            __html: `_linkedin_partner_id = "6113401";
+              window._linkedin_data_partner_ids = window._linkedin_data_partner_ids || [];
+              window._linkedin_data_partner_ids.push(_linkedin_partner_id);`,
+          }}
+        />
+        <script
+          type="text/javascript"
+          dangerouslySetInnerHTML={{
+            __html: `(function(l) {
+              if (!l){window.lintrk = function(a,b){window.lintrk.q.push([a,b])};
+              window.lintrk.q=[]}
+              var s = document.getElementsByTagName("script")[0];
+              var b = document.createElement("script");
+              b.type = "text/javascript";b.async = true;
+              b.src = "https://snap.licdn.com/li.lms-analytics/insight.min.js";
+              s.parentNode.insertBefore(b, s);})(window.lintrk);`,
+          }}
+        />
+        <noscript>
+          <noscript>
+            <img
+              height="1"
+              width="1"
+              style={{ display: "none" }}
+              src="https://px.ads.linkedin.com/collect/?pid=6113401&fmt=gif"
+            />
+          </noscript>
+        </noscript>
         <div className="container">
           <div className="row justify-content-center">
             <div className="col-xl-6 col-lg-3 col-sm-6 ">
@@ -110,12 +142,12 @@ const Footer = () => {
                 <h3>Company</h3>
                 <ul className="quick-links mt-5">
                   <li>
-                    <Link href="/about-us">
+                    <Link href="/what-we-do">
                       <a>What we do</a>
                     </Link>
                   </li>
                   <li>
-                    <Link href="/services">
+                    <Link href="/how-it-works">
                       <a>How it works</a>
                     </Link>
                   </li>
