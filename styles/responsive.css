@@ -447,7 +447,7 @@
     font-size: 12px;
   }
   .get-started-content h2 {
-    font-size: 25px;
+    font-size: 25px !important;
     margin-bottom: 12px;
   }
   .get-started-content .default-btn {
@@ -907,7 +907,7 @@
   .home-content .sub-title {
     font-size: 13px;
   }
-  .home-content h1 {
+  .home-content h1, .subscribe2-inner h1 {
     font-size: 30px;
   }
   .home-content .default-btn {
@@ -1180,7 +1180,7 @@
     font-size: 15px;
   }
   .what-we-work-content h2 {
-    font-size: 25px;
+    font-size: 25px !important;
   }
   .what-we-work-content .we-work-inner-box {
     padding: 20px;
@@ -1830,6 +1830,9 @@
   .thankyou-features-box {
     padding: 11px 12px;
   }
+  .process-inner h2{
+    font-size: 25px !important;
+  }
 }
 
 /* Min width 576px to Max width 767px */
@@ -2165,7 +2168,7 @@
     font-size: 13px;
   }
   .get-started-content h2 {
-    font-size: 32px;
+    font-size: 32px !important;
   }
   .get-started-content h2 br {
     display: none !important;
@@ -2480,7 +2483,7 @@
     font-size: 14px;
     margin-bottom: 15px;
   }
-  .home-content h1 {
+  .home-content h1, .subscribe2-inner h1 {
     font-size: 40px;
   }
   .home-content .default-btn {
@@ -2681,7 +2684,7 @@
     padding-left: 0;
   }
   .what-we-work-content h2 {
-    font-size: 30px;
+    font-size: 30px !important;
   }
   .what-we-work-shape {
     display: none;
@@ -3016,6 +3019,9 @@
   .blogs-content h2 {
     font-size: 22px !important;
   }
+  .process-inner h2{
+    font-size: 32px !important;
+  }
 }
 
 /* Min width 992px to Max width 1199px */
@@ -3300,7 +3306,7 @@
     height: 60px !important;
     bottom: -1px;
   }
-  .home-content h1 {
+  .home-content h1, .subscribe2-inner h1 {
     font-size: 35px;
   }
   .about-img {
@@ -3527,6 +3533,9 @@
   .blogs-content p,
   .blogs-content ul li {
     font-size: 17px !important;
+  }
+  .process-inner h2{
+    font-size: 36px;
   }
 }
 
@@ -3829,6 +3838,9 @@
 }
 
 @media only screen and (min-width: 1920px) {
+  .new-style{
+    margin-top: 80px;
+  }
   .cryptocurrency-banner-area .container-fluid {
     max-width: 2070px;
   }
