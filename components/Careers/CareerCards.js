@@ -82,7 +82,7 @@ const CareerCards = ({ data }) => {
             </div>
           </div>
         ))}
-        {currentPosts.length >= 1 ? (
+        {currentPosts.length >= 10 ? (
           <div className="col-lg-12 col-md-12 col-sm-12">
             <div className="pagination-area">
               <div className="nav-links">
