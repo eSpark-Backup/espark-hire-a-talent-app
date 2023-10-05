@@ -11,7 +11,7 @@ import Platforms from "@/components/CryptoStartup/Platforms";
 import { ThreeDots } from "react-loader-spinner";
 import NewsletterForm2 from "@/components/Common/NewsletterForm2";
 
-export default function ServiceDetails() {
+const BlogDetails = () => {
   const router = useRouter();
   const getId = router.query.eachId;
   // const newTitle = getId.replaceAll("-", " ");
@@ -97,4 +97,28 @@ export default function ServiceDetails() {
       {/* <GetStarted /> */}
     </>
   );
-}
+};
+
+export const getStaticPaths = async () => {
+  const paths = sliderData.map((post) => ({
+    params: { eachId: post.slug },
+  }));
+
+  return {
+    paths,
+    fallback: false,
+  };
+};
+
+export const getStaticProps = async ({ params }) => {
+  const { eachId } = params;
+  const filterData = sliderData.filter((item) => item.slug === eachId);
+
+  return {
+    props: {
+      blogPost: filterData[0] || null,
+    },
+  };
+};
+
+export default BlogDetails;
