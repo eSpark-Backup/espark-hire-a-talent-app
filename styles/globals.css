@@ -3788,7 +3788,7 @@ Page Title Area CSS
   color: var(--optionalColor);
   display: inline-block;
   position: relative;
-  font-size: 17px;
+  font-size: 16px;
   margin-left: 10px;
   margin-right: 10px;
 }
@@ -3804,6 +3804,7 @@ Page Title Area CSS
 
 .page-title-content ul li a {
   display: block;
+  font-size: 16px;
   color: var(--mainColor);
 }
 
@@ -9517,7 +9518,7 @@ subscribe2 Area CSS
 .subscribe2-inner .newsletter-form .input-newsletter:focus::placeholder {
   color: transparent;
 }
-.process-inner h2{
+.process-inner h2 {
   font-size: var(--sub-heading);
   font-weight: 700 !important;
   font-family: var(--fontFamily2);
@@ -9601,8 +9602,6 @@ subscribe2 Area CSS
   transform: scale(1.15);
   background-color: #ed46d2;
 }
-
-
 
 /* Thankyou page styling starts from here */
 .thank-you-main {
