@@ -907,7 +907,8 @@
   .home-content .sub-title {
     font-size: 13px;
   }
-  .home-content h1, .subscribe2-inner h1 {
+  .home-content h1,
+  .subscribe2-inner h1 {
     font-size: 30px;
   }
   .home-content .default-btn {
@@ -1830,7 +1831,7 @@
   .thankyou-features-box {
     padding: 11px 12px;
   }
-  .process-inner h2{
+  .process-inner h2 {
     font-size: 25px !important;
   }
 }
@@ -1901,6 +1902,34 @@
   /* End "Cybersecurity Demo Responsive, Cryptocurrency Demo Responsive & ICO Landing Demo Responsive" */
   .thankyou-features-box {
     padding: 11px 12px;
+  }
+  .career-section {
+    padding: 30px;
+  }
+  .career-card {
+    border: none;
+    border-radius: 20px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
+    padding-top: 40px !important;
+    padding: 20px;
+  }
+  .career-card-title {
+    padding-bottom: 15px;
+  }
+  .career-card-button {
+    justify-content: flex-end;
+    width: 100%;
+    display: flex;
+    height: auto;
+    padding-top: 15px;
+    padding-bottom: 15px;
+  }
+  .career-card-button .default-btn {
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  .career-card-button .default-btn {
+    font-size: 18px;
   }
 }
 
@@ -2483,7 +2512,8 @@
     font-size: 14px;
     margin-bottom: 15px;
   }
-  .home-content h1, .subscribe2-inner h1 {
+  .home-content h1,
+  .subscribe2-inner h1 {
     font-size: 40px;
   }
   .home-content .default-btn {
@@ -3019,8 +3049,33 @@
   .blogs-content h2 {
     font-size: 22px !important;
   }
-  .process-inner h2{
-    font-size: 32px !important;
+  .career-section {
+    padding: 50px 30px;
+  }
+  .career-card {
+    border: none;
+    border-radius: 20px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
+    padding-top: 40px !important;
+    padding: 20px;
+  }
+  .career-card-title {
+    padding-bottom: 15px;
+  }
+  .career-card-button {
+    justify-content: flex-end;
+    width: 100%;
+    display: flex;
+    height: auto;
+    padding-top: 15px;
+    padding-bottom: 15px;
+  }
+  .career-card-button .default-btn {
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  .career-card-button .default-btn {
+    font-size: 18px;
   }
 }
 
@@ -3306,7 +3361,8 @@
     height: 60px !important;
     bottom: -1px;
   }
-  .home-content h1, .subscribe2-inner h1 {
+  .home-content h1,
+  .subscribe2-inner h1 {
     font-size: 35px;
   }
   .about-img {
@@ -3534,8 +3590,38 @@
   .blogs-content ul li {
     font-size: 17px !important;
   }
-  .process-inner h2{
-    font-size: 36px;
+  .process-inner h2 {
+    font-size: 32px !important;
+  }
+  .career-section {
+    padding: 50px 30px;
+  }
+  .career-card {
+    padding: 40px;
+  }
+  .career-card-title {
+    padding-bottom: 15px;
+  }
+  .career-card-button {
+    justify-content: center;
+    /* width: auto; */
+    display: flex;
+    height: auto;
+    padding-top: 15px;
+    padding-bottom: 15px;
+  }
+  .career-card-button .default-btn {
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  .career-card-button .default-btn {
+    font-size: 18px;
+  }
+  .career-section .horizonal-line {
+    display: none;
+  }
+  .new-style {
+    margin-top: 40px;
   }
 }
 
@@ -3708,6 +3794,36 @@
   .blog-details-desc .article-content .social-links {
     right: -50px;
   }
+  .career-section {
+    padding: 50px 30px;
+  }
+  .career-card {
+    padding: 40px;
+  }
+  .career-card-title {
+    padding-bottom: 15px;
+  }
+  .career-card-button {
+    justify-content: center;
+    /* width: auto; */
+    display: flex;
+    height: auto;
+    padding-top: 15px;
+    padding-bottom: 15px;
+  }
+  .career-card-button .default-btn {
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  .career-card-button .default-btn {
+    font-size: 18px;
+  }
+  .career-section .horizonal-line {
+    display: none;
+  }
+  .new-style {
+    margin-top: 60px;
+  }
 }
 @media only screen and (min-width: 1356px) and (max-width: 1399px) {
   .single-blog-post .image .date {
@@ -3737,6 +3853,69 @@
   }
   .thankyou-features-box ul li {
     font-size: 16px;
+  }
+  .career-section {
+    padding: 50px 30px;
+  }
+  .career-card {
+    padding: 40px;
+  }
+  .career-card-title {
+    padding-bottom: 15px;
+  }
+  .career-card-button {
+    justify-content: center;
+    /* width: auto; */
+    display: flex;
+    height: auto;
+    padding-top: 15px;
+    padding-bottom: 15px;
+  }
+  .career-card-button .default-btn {
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  .career-card-button .default-btn {
+    font-size: 18px;
+  }
+  .career-section .horizonal-line {
+    display: none;
+  }
+  .new-style {
+    margin-top: 65px;
+  }
+}
+
+@media only screen and (min-width: 1400px) and (max-width: 1549px) {
+  .career-section {
+    padding: 50px 30px;
+  }
+  .career-card {
+    padding: 40px;
+  }
+  .career-card-title {
+    padding-bottom: 15px;
+  }
+  .career-card-button {
+    justify-content: center;
+    /* width: auto; */
+    display: flex;
+    height: auto;
+    padding-top: 15px;
+    padding-bottom: 15px;
+  }
+  .career-card-button .default-btn {
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  .career-card-button .default-btn {
+    font-size: 18px;
+  }
+  .career-section .horizonal-line {
+    display: none;
+  }
+  .new-style {
+    margin-top: 65px;
   }
 }
 
@@ -3834,11 +4013,42 @@
     padding-left: 120px;
     padding-right: 120px;
   }
+  .career-section {
+    padding: 50px 30px;
+  }
+  .career-card {
+    padding: 40px;
+  }
+  .career-card-title {
+    padding-bottom: 15px;
+  }
+  .career-card-button {
+    justify-content: center;
+    /* width: auto; */
+    display: flex;
+    height: auto;
+    padding-top: 15px;
+    padding-bottom: 15px;
+  }
+  .career-card-button .default-btn {
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  .career-card-button .default-btn {
+    font-size: 18px;
+  }
+  .career-section .horizonal-line {
+    display: none;
+  }
+  .new-style {
+    margin-top: 70px;
+  }
+
   /* End "Cybersecurity Demo Responsive, Cryptocurrency Demo Responsive & ICO Landing Demo Responsive" */
 }
 
 @media only screen and (min-width: 1920px) {
-  .new-style{
+  .new-style {
     margin-top: 80px;
   }
   .cryptocurrency-banner-area .container-fluid {
@@ -3884,6 +4094,33 @@
     font-size: 20.509px;
     line-height: 28.713px;
   }
+  .career-section {
+    padding: 50px 30px;
+  }
+  .career-card {
+    padding: 40px;
+  }
+  .career-card-title {
+    padding-bottom: 15px;
+  }
+  .career-card-button {
+    justify-content: center;
+    /* width: auto; */
+    display: flex;
+    height: auto;
+    padding-top: 15px;
+    padding-bottom: 15px;
+  }
+  .career-card-button .default-btn {
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  .career-card-button .default-btn {
+    font-size: 18px;
+  }
+  .career-section .horizonal-line {
+    display: none;
+  }
 }
 
 @media screen and (max-width: 374px) {
@@ -3893,6 +4130,37 @@
   .thank-header .container .section-title h2 {
     height: 70px;
   }
+  .career-section {
+    padding: 30px 20px;
+  }
+  .career-card {
+    border: none;
+    border-radius: 20px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
+    padding-top: 30px !important;
+    padding: 15px;
+    margin: 20px 4px;
+  }
+  .career-card-title {
+    padding-bottom: 15px;
+  }
+  .career-card-button {
+    align-items: start;
+    height: auto;
+    padding-top: 15px;
+    padding-bottom: 15px;
+  }
+  .career-card-button .default-btn {
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  .career-card-button .default-btn {
+    font-size: 18px;
+  }
+  .career-section .dropdown {
+    margin-bottom: 10px !important;
+  }
 }
 @media screen and (min-width: 375px) and (max-width: 575px) {
   .with-space {
@@ -3900,6 +4168,36 @@
   }
   .thank-header .container .section-title h2 {
     height: 70px;
+  }
+  .career-section {
+    padding: 30px 30px;
+  }
+  .career-card {
+    border: none;
+    border-radius: 20px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
+    padding: 30px 15px;
+    margin: 20px 4px;
+  }
+  .career-card-title {
+    padding-bottom: 15px;
+  }
+  .career-card-button {
+    align-items: start;
+    height: auto;
+    padding-top: 15px;
+    padding-top: 15px;
+  }
+  .career-card-button .default-btn {
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  .career-section .dropdown {
+    margin-bottom: 10px !important;
+  }
+  .career-card-button .default-btn {
+    font-size: 18px;
   }
 }
 /* @media screen and (min-width: 401px) and (max-width: 490px){

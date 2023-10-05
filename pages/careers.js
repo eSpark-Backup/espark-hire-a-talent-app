@@ -1,24 +1,17 @@
 import React from "react";
-import Link from "next/link";
-import NewsletterForm2 from "@/components/Common/NewsletterForm2";
-
+// import Link from "next/link";
+// import NewsletterForm2 from "@/components/Common/NewsletterForm2";
+import PageTitle from "@/components/Common/PageTitle";
+import CareerCards from "@/components/Careers/CareerCards";
+import { jobInfo } from "constants/careerConstants";
 function Career() {
   return (
     <>
-      <div className="coming-soon-main">
-        <h1 className="text-center">Great things coming soon.</h1>
-        <img
-          src="/images/coming-soon.png"
-          style={{ width: "auto", height: "300px" }}
-        />
-        <br />
-        <Link href="/">
-          <a className="coming-soon-button text-center py-2">Go To Home</a>
-        </Link>
+      <PageTitle homeText="Home" pageTitle="Careers" pageSubTitle="Careers" />
+      <div className="container-xxl career-section ptb-100">
+       <CareerCards data={jobInfo} />
       </div>
-      <NewsletterForm2 />
     </>
   );
 }
-
 export default Career;
