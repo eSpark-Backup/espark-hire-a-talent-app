@@ -9,7 +9,6 @@ export default function Blog() {
   return (
     <>
       <PageTitle homeText="Home" pageTitle="Blogs" pageSubTitle={"Blogs"} />
-
       <BlogCard item={blogData} />
       <NewsletterForm2 />
       {/* <GetStarted /> */}
