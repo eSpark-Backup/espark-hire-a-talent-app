@@ -38,7 +38,6 @@ const NavbarStyle2 = () => {
   );
 
   const gettingActiveLink = router?.pathname;
-
   return (
     <>
       <Head>
