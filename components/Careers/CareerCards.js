@@ -2,6 +2,7 @@ import React, { useState, useEffect } from "react";
 import Link from "next/link";
 
 const CareerCards = ({ data }) => {
+  console.log(data, "data");
   const [selectedCategory, setSelectedCategory] = useState("All");
   const [currentPage, setCurrentPage] = useState(1);
   const [postsPerPage] = useState(10);
@@ -82,7 +83,7 @@ const CareerCards = ({ data }) => {
             </div>
           </div>
         ))}
-        {currentPosts.length >= 10 ? (
+        {data.length >= 10 && filteredData.length >= 10 ? (
           <div className="col-lg-12 col-md-12 col-sm-12">
             <div className="pagination-area">
               <div className="nav-links">
@@ -119,6 +120,7 @@ const CareerCards = ({ data }) => {
             </div>
           </div>
         ) : null}
+        {console.log(currentPosts)}
       </div>
     </>
   );
