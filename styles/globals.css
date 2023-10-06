@@ -9734,6 +9734,7 @@ subscribe2 Area CSS
   font-weight: 400;
   color: var(--optionalColor);
 }
+
 .career-card {
   border-top: 1px solid #dee2e6;
   display: flex;
@@ -9755,6 +9756,7 @@ subscribe2 Area CSS
   font-style: normal;
   font-weight: 600;
   line-height: 28.8px;
+  margin-bottom: 0;
 }
 .career-card-title p {
   color: var(--optionalColor);
@@ -9775,6 +9777,7 @@ subscribe2 Area CSS
   font-style: normal;
   font-weight: 600;
   line-height: 28.8px;
+  margin-bottom: 0;
 }
 .career-card-description p {
   color: var(--optionalColor);
