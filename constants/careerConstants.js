@@ -13,16 +13,16 @@ export const jobInfo = [
     ],
   },
   {
-    heading: "Senior React JS Developer",
+    heading: "Senior React Js Developer",
     description:
-      "eSpark Talent is currently seeking a talented and motivated Intermediate React JS Developer to join our development team. As an Intermediate React JS Developer, you will play a key role in designing and developing web applications using React JS and related technologies. You will work closely with our team of developers, designers, and product managers to create exceptional user experiences.",
+      "eSpark Talent is currently seeking a talented and motivated Intermediate React JS Developer to join our development team. As an Intermediate React JS Developer, you will play a key role in designing and developing web applications using React Js and related technologies. You will work closely with our team of developers, designers, and product managers to create exceptional user experiences.",
     link: "https://form.jotform.com/232743808106455",
     date: "2023/09/26",
     location: ["Karachi", "Pakistan"],
     category: [
       "Senior Developer",
-      "React JS Developer",
-      "Senior React JS Developer",
+      "React Js Developer",
+      "Senior React Js Developer",
     ],
   },
 ];
