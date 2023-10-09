@@ -4111,13 +4111,18 @@ Pagination CSS
 
 .pagination-area .page-numbers:hover {
   color: var(--blackColor);
+  background: rgba(0, 252, 244, 0.05);
 }
 
 .pagination-area .page-numbers.current {
-  background: var(--whiteColor);
-  color: var(--mainColor);
+  background: var(--mainColor);
+  color: var(--whiteColor);
 }
 
+.pagination-area .page-numbers.current:hover {
+  background: var(--blackColor);
+  color: var(--whiteColor);
+}
 .pagination-area .page-numbers:first-child {
   margin-left: 0;
 }
