@@ -4112,6 +4112,7 @@ Pagination CSS
 .pagination-area .page-numbers:hover {
   color: var(--blackColor);
   background: rgba(0, 252, 244, 0.05);
+  cursor: pointer;
 }
 
 .pagination-area .page-numbers.current {
