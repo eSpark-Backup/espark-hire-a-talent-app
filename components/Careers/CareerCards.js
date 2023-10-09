@@ -85,36 +85,41 @@ const CareerCards = ({ data }) => {
         {data.length > 10 && filteredData.length > 10 ? (
           <div className="col-lg-12 col-md-12 col-sm-12">
             <div className="pagination-area">
-              <div className="nav-links">
-                {pageNumbers.map((pageNumber) => (
-                  <span
-                    key={pageNumber}
-                    className={
-                      pageNumber === currentPage
-                        ? "current page-numbers"
-                        : "page-numbers"
-                    }
-                    onClick={() => handlePageChange(pageNumber)}
-                  >
-                    {pageNumber}
-                  </span>
-                ))}
-                {currentPage < pageNumbers.length && (
-                  <a
-                    className="next page-numbers"
-                    onClick={() => handlePageChange(currentPage + 1)}
-                  >
-                    <i className="ri-arrow-right-line"></i>
-                  </a>
-                )}
-                {currentPage >= pageNumbers.length && (
-                  <a
-                    className="next page-numbers"
-                    onClick={() => handlePrevious(currentPage - 1)}
-                  >
-                    <i className="ri-arrow-left-line"></i>
-                  </a>
-                )}
+              <div className="nav-links d-flex justify-content-between">
+                <div style={{ display: "flex", justifyContent: "flex-start" }}>
+                  {pageNumbers.map((pageNumber) => (
+                    <span
+                      key={pageNumber}
+                      className={
+                        pageNumber === currentPage
+                          ? "current page-numbers"
+                          : "page-numbers"
+                      }
+                      onClick={() => handlePageChange(pageNumber)}
+                    >
+                      {pageNumber}
+                    </span>
+                  ))}
+                </div>
+                <div style={{ display: "flex", justifyContent: "flex-end" }}>
+                  {currentPage !== 1 && (
+                    <a
+                      className="next page-numbers"
+                      onClick={() => handlePrevious(currentPage - 1)}
+                      style={{ marginRight: "10px" }} // Adding some space between the buttons
+                    >
+                      <i className="ri-arrow-left-line"></i>
+                    </a>
+                  )}
+                  {currentPage < pageNumbers.length && (
+                    <a
+                      className="next page-numbers"
+                      onClick={() => handlePageChange(currentPage + 1)}
+                    >
+                      <i className="ri-arrow-right-line"></i>
+                    </a>
+                  )}
+                </div>
               </div>
             </div>
           </div>
