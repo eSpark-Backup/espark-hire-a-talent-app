@@ -5,6 +5,7 @@ const CareerCards = ({ data }) => {
   const [selectedCategory, setSelectedCategory] = useState("All");
   const [currentPage, setCurrentPage] = useState(1);
   const [postsPerPage] = useState(10);
+  const totalPages = 10;
   const allCategories = [
     ...new Set(data.flatMap((eachCard) => eachCard.heading)),
   ];
@@ -15,30 +16,55 @@ const CareerCards = ({ data }) => {
   const indexOfLastPost = currentPage * postsPerPage;
   const indexOfFirstPost = indexOfLastPost - postsPerPage;
   const currentPosts = filteredData.slice(indexOfFirstPost, indexOfLastPost);
-  const pageNumbers = [];
-  for (let i = 1; i <= Math.ceil(filteredData.length / postsPerPage); i++) {
-    pageNumbers.push(i);
-  }
-  const handlePrevious = (pageNumber) => {
-    if (currentPage == 1) {
-      return null;
-    } else {
-      setCurrentPage(pageNumber);
+  
+  const handlePageClick = (page) => {
+    setCurrentPage(page);
+  };
+
+  const handlePreviousClick = () => {
+    if (currentPage > 1) {
+      setCurrentPage(currentPage - 1);
     }
   };
-  const handlePageChange = (pageNumber) => {
-    setCurrentPage(pageNumber);
+
+  const handleNextClick = () => {
+    if (currentPage < totalPages) {
+      setCurrentPage(currentPage + 1);
+    }
   };
-
-  useEffect(() => {
-    setSelectedCategory("All");
-    setCurrentPage(1);
-  }, [data]);
-
+  
   useEffect(() => {
     setCurrentPage(1);
   }, [selectedCategory]);
 
+  const renderPaginationButtons = () => {
+    const buttons = [];
+    const ellipsis = <span className="page-numbers">...</span>;
+
+    for (let page = 1; page <= totalPages; page++) {
+      const isSelected = page === currentPage;
+
+      if (
+        page === 1 ||
+        page === totalPages ||
+        Math.abs(page - currentPage) <= 1
+      ) {
+        buttons.push(
+          <button
+            key={page}
+            className={isSelected ? "current page-numbers" : "page-numbers"}
+            onClick={() => handlePageClick(page)}
+          >
+            {page}
+          </button>
+        );
+      } else if (buttons[buttons.length - 1] !== ellipsis) {
+        buttons.push(ellipsis);
+      }
+    }
+    return buttons;
+  };
+  
   return (
     <>
       <div>
@@ -83,46 +109,39 @@ const CareerCards = ({ data }) => {
           </div>
         ))}
         {data.length > 10 && filteredData.length > 10 ? (
-          <div className="col-lg-12 col-md-12 col-sm-12">
-            <div className="pagination-area">
-              <div className="nav-links d-flex justify-content-between">
-                <div style={{ display: "flex", justifyContent: "flex-start" }}>
-                  {pageNumbers.map((pageNumber) => (
-                    <span
-                      key={pageNumber}
-                      className={
-                        pageNumber === currentPage
-                          ? "current page-numbers"
-                          : "page-numbers"
-                      }
-                      onClick={() => handlePageChange(pageNumber)}
-                    >
-                      {pageNumber}
-                    </span>
-                  ))}
-                </div>
-                <div style={{ display: "flex", justifyContent: "flex-end" }}>
-                  {currentPage !== 1 && (
-                    <a
-                      className="next page-numbers"
-                      onClick={() => handlePrevious(currentPage - 1)}
-                      style={{ marginRight: "10px" }} // Adding some space between the buttons
-                    >
-                      <i className="ri-arrow-left-line"></i>
-                    </a>
-                  )}
-                  {currentPage < pageNumbers.length && (
-                    <a
-                      className="next page-numbers"
-                      onClick={() => handlePageChange(currentPage + 1)}
-                    >
-                      <i className="ri-arrow-right-line"></i>
-                    </a>
-                  )}
-                </div>
-              </div>
-            </div>
-          </div>
+         <nav className="pagination-area">
+         <ul className="nav-links">
+           <li>
+             <button
+               onClick={handlePreviousClick}
+               className={
+                 currentPage === 1 ? "page-numbers disabled" : "page-numbers"
+               }
+               style={{
+                cursor: currentPage === 1 ? 'default' : 'pointer',
+              }}
+             >
+               <i className="ri-arrow-left-line"></i>
+             </button>
+           </li>
+           {renderPaginationButtons()}
+           <li>
+             <button
+               className={
+                 currentPage === totalPages
+                   ? "page-numbers disabled"
+                   : "page-numbers"
+               }
+               style={{
+                cursor: currentPage === totalPages ? 'default' : 'pointer',
+              }}
+               onClick={handleNextClick}
+             >
+               <i className="ri-arrow-right-line"></i>
+             </button>
+           </li>
+         </ul>
+       </nav>
         ) : null}
       </div>
     </>

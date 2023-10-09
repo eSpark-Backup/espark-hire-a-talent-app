@@ -4072,6 +4072,12 @@ Pagination CSS
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
+  padding: 0;
+  list-style-type: none;
+  flex-wrap: wrap;
+  gap: 5px;
+  justify-content: center;
+  row-gap: 15px;
 }
 
 .pagination-area .page-numbers {
@@ -4131,7 +4137,17 @@ Pagination CSS
 .pagination-area .page-numbers:last-child {
   margin-right: 0;
 }
-
+.pagination-area .disabled {
+  cursor: pointer;
+  background: rgb(249 249 249);
+  color: rgb(213 213 213);
+  box-shadow: none;
+}
+.pagination-area .disabled:hover{
+  background: rgb(249 249 249);
+  color: rgb(213 213 213);
+  box-shadow: none;
+}
 /*================================================
 Contact Area CSS
 =================================================*/
