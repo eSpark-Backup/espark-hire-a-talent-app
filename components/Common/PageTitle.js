@@ -1,5 +1,5 @@
-import React from 'react'
-import Link from 'next/link'
+import React from "react";
+import Link from "next/link";
 
 const PageTitle = ({ pageTitle, homeText, pageSubTitle }) => {
   return (
@@ -25,7 +25,7 @@ const PageTitle = ({ pageTitle, homeText, pageSubTitle }) => {
         <img src="/images/shape/shape2.png" alt="image" />
       </div> */}
     </div>
-  )
-}
+  );
+};
 
-export default PageTitle
+export default PageTitle;
