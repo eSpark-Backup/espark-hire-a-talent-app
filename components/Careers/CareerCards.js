@@ -6,13 +6,13 @@ const CareerCards = ({ data }) => {
   const [currentPage, setCurrentPage] = useState(1);
   const [postsPerPage] = useState(10);
   const allCategories = [
-    ...new Set(data.flatMap((eachCard) => eachCard.category)),
+    ...new Set(data.flatMap((eachCard) => eachCard.heading)),
   ];
 
   const filteredData =
     selectedCategory === "All"
       ? data
-      : data.filter((eachCard) => eachCard.category.includes(selectedCategory));
+      : data.filter((eachCard) => eachCard.heading.includes(selectedCategory));
 
   const indexOfLastPost = currentPage * postsPerPage;
   const indexOfFirstPost = indexOfLastPost - postsPerPage;
