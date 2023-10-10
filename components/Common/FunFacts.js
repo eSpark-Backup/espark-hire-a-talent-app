@@ -6,9 +6,9 @@ const FunFacts = () => {
       <div className="funfacts-area pt-50 pb-100">
         <div className="container">
           <div className="section-title">
-            <h1 className="fw-semibold text-lg-start text-center my-3">
+            <h2 className="fw-semibold text-lg-start text-center my-3">
               We Have Completed 100+ Projects Successfully
-            </h1>
+            </h2>
           </div>
           <div className="row justify-content-center align-items-center my-2">
             <div

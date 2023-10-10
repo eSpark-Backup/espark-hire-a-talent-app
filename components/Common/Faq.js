@@ -36,9 +36,10 @@ const Faq = ({ title, item }) => {
                       >
                         <p
                           style={{
-                            fontSize: "20px",
+                            fontSize: "22px",
                             fontWeight: "600",
                             color: "#09114A",
+
                           }}
                         >
                           {item.heading}
@@ -56,9 +57,9 @@ const Faq = ({ title, item }) => {
                         <AccordionItemPanel>
                           <p
                             style={{
-                              fontSize: "18px",
+                              fontSize: "16px",
                               fontWeight: "400",
-                              color: "#09114A",
+                              color: "#6F76A8",
                             }}
                           >
                             {item.paragraph}
