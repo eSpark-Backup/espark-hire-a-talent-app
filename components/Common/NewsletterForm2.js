@@ -12,9 +12,9 @@ const NewsletterForm2 = () => {
           <div className="page-title-area2">
             <div className="subscribe2-inner">
               {/* <span className="sub-title">READY TO GET STARTED</span> */}
-              <h2>
+              <h1>
                 Boosts Your Company Faster <br /> with Amazing eSpark Talent
-              </h2>
+              </h1>
               <p>
                 Connect with skilled interviewers who will help <br /> you find
                 the right people for your company's growth.
