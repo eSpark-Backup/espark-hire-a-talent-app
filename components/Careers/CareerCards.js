@@ -5,18 +5,20 @@ const CareerCards = ({ data }) => {
   const [selectedCategory, setSelectedCategory] = useState("All");
   const [currentPage, setCurrentPage] = useState(1);
   const [postsPerPage] = useState(10);
-  const totalPages = 10;
+  const totalPages = 15;
   const allCategories = [
     ...new Set(data.flatMap((eachCard) => eachCard.heading)),
   ];
+
   const filteredData =
     selectedCategory === "All"
       ? data
       : data.filter((eachCard) => eachCard.heading.includes(selectedCategory));
+
   const indexOfLastPost = currentPage * postsPerPage;
   const indexOfFirstPost = indexOfLastPost - postsPerPage;
   const currentPosts = filteredData.slice(indexOfFirstPost, indexOfLastPost);
-  
+
   const handlePageClick = (page) => {
     setCurrentPage(page);
   };
@@ -32,14 +34,18 @@ const CareerCards = ({ data }) => {
       setCurrentPage(currentPage + 1);
     }
   };
-  
+
   useEffect(() => {
     setCurrentPage(1);
   }, [selectedCategory]);
 
   const renderPaginationButtons = () => {
     const buttons = [];
-    const ellipsis = <span className="page-numbers">...</span>;
+    const ellipsis = (
+      <span key={"ellipsis"} className="page-numbers">
+        ...
+      </span>
+    );
 
     for (let page = 1; page <= totalPages; page++) {
       const isSelected = page === currentPage;
@@ -64,7 +70,7 @@ const CareerCards = ({ data }) => {
     }
     return buttons;
   };
-  
+
   return (
     <>
       <div>
@@ -72,7 +78,7 @@ const CareerCards = ({ data }) => {
           className="dropdown"
           onChange={(e) => setSelectedCategory(e.target.value)}
         >
-          <option className="option" value="All">
+          <option className="option" value="All" key="all">
             All
           </option>
           {allCategories.map((category, index) => (
@@ -83,7 +89,7 @@ const CareerCards = ({ data }) => {
         </select>
       </div>
       <div>
-        {currentPosts.map((eachCard, index) => (
+        {currentPosts?.map((eachCard, index) => (
           <div className="row career-card" key={index}>
             <div className="col-lg-3 col-sm-12 career-card-title">
               <h3>{eachCard?.heading}</h3>
@@ -108,40 +114,40 @@ const CareerCards = ({ data }) => {
             </div>
           </div>
         ))}
-        {data.length > 10 && filteredData.length > 10 ? (
-         <nav className="pagination-area">
-         <ul className="nav-links">
-           <li>
-             <button
-               onClick={handlePreviousClick}
-               className={
-                 currentPage === 1 ? "page-numbers disabled" : "page-numbers"
-               }
-               style={{
-                cursor: currentPage === 1 ? 'default' : 'pointer',
-              }}
-             >
-               <i className="ri-arrow-left-line"></i>
-             </button>
-           </li>
-           {renderPaginationButtons()}
-           <li>
-             <button
-               className={
-                 currentPage === totalPages
-                   ? "page-numbers disabled"
-                   : "page-numbers"
-               }
-               style={{
-                cursor: currentPage === totalPages ? 'default' : 'pointer',
-              }}
-               onClick={handleNextClick}
-             >
-               <i className="ri-arrow-right-line"></i>
-             </button>
-           </li>
-         </ul>
-       </nav>
+        {data?.length > 10 && filteredData?.length > 10 ? (
+          <nav className="pagination-area">
+            <ul className="nav-links">
+              <li>
+                <button
+                  onClick={handlePreviousClick}
+                  className={
+                    currentPage === 1 ? "page-numbers disabled" : "page-numbers"
+                  }
+                  style={{
+                    cursor: currentPage === 1 ? "default" : "pointer",
+                  }}
+                >
+                  <i className="ri-arrow-left-line"></i>
+                </button>
+              </li>
+              {renderPaginationButtons()}
+              <li>
+                <button
+                  className={
+                    currentPage === totalPages
+                      ? "page-numbers disabled"
+                      : "page-numbers"
+                  }
+                  style={{
+                    cursor: currentPage === totalPages ? "default" : "pointer",
+                  }}
+                  onClick={handleNextClick}
+                >
+                  <i className="ri-arrow-right-line"></i>
+                </button>
+              </li>
+            </ul>
+          </nav>
         ) : null}
       </div>
     </>
