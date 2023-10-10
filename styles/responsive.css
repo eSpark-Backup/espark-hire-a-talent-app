@@ -4164,6 +4164,20 @@
   .career-section .dropdown {
     margin-bottom: 10px !important;
   }
+  .pagination-area .nav-links {
+    gap: 1px;
+    row-gap: 5px;
+  }
+  .pagination-area .page-numbers {
+    width: 25px;
+    height: 25px;
+    text-align: center;
+    padding-right: 0px;
+    padding-left: 0px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+  }
 }
 @media screen and (min-width: 375px) and (max-width: 575px) {
   .with-space {
@@ -4201,6 +4215,20 @@
   }
   .career-card-button .default-btn {
     font-size: 18px;
+  }
+  .pagination-area .nav-links {
+    gap: 1px;
+    row-gap: 5px;
+  }
+  .pagination-area .page-numbers {
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    padding-right: 0px;
+    padding-left: 0px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
   }
 }
 /* @media screen and (min-width: 401px) and (max-width: 490px){

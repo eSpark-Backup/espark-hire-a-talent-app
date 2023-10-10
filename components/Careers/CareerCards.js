@@ -5,20 +5,19 @@ const CareerCards = ({ data }) => {
   const [selectedCategory, setSelectedCategory] = useState("All");
   const [currentPage, setCurrentPage] = useState(1);
   const [postsPerPage] = useState(10);
-  const totalPages = 15;
   const allCategories = [
-    ...new Set(data.flatMap((eachCard) => eachCard.heading)),
+    ...new Set(data.flatMap((eachCard) => eachCard.category)),
   ];
 
   const filteredData =
     selectedCategory === "All"
       ? data
-      : data.filter((eachCard) => eachCard.heading.includes(selectedCategory));
+      : data.filter((eachCard) => eachCard.category.includes(selectedCategory));
 
   const indexOfLastPost = currentPage * postsPerPage;
   const indexOfFirstPost = indexOfLastPost - postsPerPage;
   const currentPosts = filteredData.slice(indexOfFirstPost, indexOfLastPost);
-
+  const totalPages = Math.ceil(filteredData.length / postsPerPage);
   const handlePageClick = (page) => {
     setCurrentPage(page);
   };
@@ -39,13 +38,14 @@ const CareerCards = ({ data }) => {
     setCurrentPage(1);
   }, [selectedCategory]);
 
+  useEffect(() => {
+    setSelectedCategory("All");
+    setCurrentPage(1);
+  }, [data]);
+
   const renderPaginationButtons = () => {
     const buttons = [];
-    const ellipsis = (
-      <span key={"ellipsis"} className="page-numbers">
-        ...
-      </span>
-    );
+    let ellipsis = "...";
 
     for (let page = 1; page <= totalPages; page++) {
       const isSelected = page === currentPage;
@@ -114,7 +114,7 @@ const CareerCards = ({ data }) => {
             </div>
           </div>
         ))}
-        {data?.length > 10 && filteredData?.length > 10 ? (
+        {filteredData.length > postsPerPage ? (
           <nav className="pagination-area">
             <ul className="nav-links">
               <li>
