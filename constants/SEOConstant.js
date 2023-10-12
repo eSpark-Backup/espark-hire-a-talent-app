@@ -429,4 +429,50 @@ export const seoContent = [
     twitterCard: "summary_large_image",
     twitterSite: "",
   },
+  {
+    link: "/privacy-policy/",
+    title: "Privacy Policy | eSparkTalent",
+    description:
+      "Discover top talent for your business. Outsource hiring processes with eSparkTalent and find the best fit for your team.",
+    ogDescription:
+      "Discover top talent for your business. Outsource hiring processes with eSparkTalent and find the best fit for your team.",
+    ogTitle: "Global Recruitment and Onboarding Solutions | eSparkTalent",
+    twitterDescription:
+      "Discover top talent for your business. Outsource hiring processes with eSparkTalent and find the best fit for your team.",
+    twitterTitle: "Global Recruitment and Onboarding Solutions | eSparkTalent",
+    canonical: "https://esparktalent.com/",
+    ogLocal: "en_US",
+    ogType: "website",
+    ogUrl: "https://esparktalent.com/",
+    ogSiteName: "eSpark Talent",
+    articleModifiedTime: "2023-09-19T06:22:02",
+    ogImage: "https://esparktalent.com/images/logo.png",
+    articlePublishTime: "2023-09-05T06:00:02",
+    articleAuthor: "eSpark Talent",
+    twitterCard: "summary_large_image",
+    twitterSite: "",
+  },
+  {
+    link: "/terms-conditions/",
+    title: "Terms and Conditions | eSparkTalent",
+    description:
+      "Discover top talent for your business. Outsource hiring processes with eSparkTalent and find the best fit for your team.",
+    ogDescription:
+      "Discover top talent for your business. Outsource hiring processes with eSparkTalent and find the best fit for your team.",
+    ogTitle: "Global Recruitment and Onboarding Solutions | eSparkTalent",
+    twitterDescription:
+      "Discover top talent for your business. Outsource hiring processes with eSparkTalent and find the best fit for your team.",
+    twitterTitle: "Global Recruitment and Onboarding Solutions | eSparkTalent",
+    canonical: "https://esparktalent.com/",
+    ogLocal: "en_US",
+    ogType: "website",
+    ogUrl: "https://esparktalent.com/",
+    ogSiteName: "eSpark Talent",
+    articleModifiedTime: "2023-09-19T06:22:02",
+    ogImage: "https://esparktalent.com/images/logo.png",
+    articlePublishTime: "2023-09-05T06:00:02",
+    articleAuthor: "eSpark Talent",
+    twitterCard: "summary_large_image",
+    twitterSite: "",
+  }
 ];
