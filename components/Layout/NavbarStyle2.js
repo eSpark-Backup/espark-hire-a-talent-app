@@ -280,7 +280,7 @@ const NavbarStyle2 = () => {
                         }`}
                         onClick={() => handleNavItemClick("Career")}
                       >
-                        Career
+                        Careers
                       </a>
                     </Link>
                   </li>
