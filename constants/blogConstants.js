@@ -296,7 +296,7 @@ flexibility and productivity at the workplace? Grab the
         with an outsourced human resource-providing company can lead an employer’s brand to the worldwide network. In the
         same way, a trustful connection with outsourced professionals living in different countries also promotes the
         company brand around the globe.
-    <h3>Final Words</h3>
+    <h2>Final Words</h2>
     <p>Outsourced human resource service-providing companies are recognized as the finest assets for assisting businesses during urgent
         needs. Hence, by offering an extended list of outsourced professionals HR firms proudly support numerous
         multinational companies. In that case, agencies and enterprises can freely hire the services of trusted
