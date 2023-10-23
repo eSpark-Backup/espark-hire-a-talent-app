@@ -51,7 +51,7 @@ const OurServices = ({ title, para, items }) => {
                   }
                 >
                   <div className="d-flex align-items-center">
-                    <img src={eachCard.imageLink} alt="image" />
+                    <img src={eachCard.imageLink} alt="Global Recruitment - global recruitment agency - worldwide recruiting agency - global recruitment services - global recruitment solutions - eSpark Talent" />
                     {/* <h3>
                       <Link href={slide.link}>
                         <a>{slide.title}</a>
