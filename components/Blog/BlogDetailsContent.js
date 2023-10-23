@@ -12,7 +12,7 @@ const BlogDetailsContent = ({ data }) => {
                 <p>{data[0]?.mainParagraph}</p>
                 <div className="post-author-meta">
                   <div className="d-flex align-items-center">
-                    <img src={data[0]?.postedBy?.image} alt="image" />
+                    <img src={data[0]?.postedBy?.image} alt={data[0]?.postedBy?.alt} />
                     <div className="title">
                       <span className="name">
                         By <a href="#">{data[0]?.postedBy?.name}</a>
@@ -25,7 +25,7 @@ const BlogDetailsContent = ({ data }) => {
             </div>
             <div className="col-lg-6 col-md-12">
               <div className="image">
-                <img src={data[0]?.bigImageLink} alt="image" />
+                <img src={data[0]?.bigImageLink} alt={data[0]?.altTag} />
               </div>
             </div>
           </div>

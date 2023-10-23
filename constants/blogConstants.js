@@ -1,8 +1,9 @@
-const postedItems = (name, date, img) => {
+const postedItems = (name, date, img, alt) => {
   return {
     name: name,
     date: date,
     image: img,
+    alt: alt,
   };
 };
 
@@ -12,13 +13,15 @@ export const blogData = [
     slug: "hr-consultant",
     title: "How to Start Independently HR Consulting",
     imageLink: "/images/blog/hr-consultant.png",
+    altTag: "HR Consultant - Consultant HR - HR Consulting - eSpark Talent",
     bigImageLink: "/images/blog/comprehensive-guide.jpg",
     mainHeading: `Guide to Become A Successful Independent HR Consultant`,
     mainParagraph: `Got skills & qualifications related to HR consulting? Start offering services independently with our well-explained guide here. `,
     postedBy: postedItems(
       "Mehdi Raza",
       "Oct 06, 2023",
-      "/images/user/mehdi-raza.png"
+      "/images/user/mehdi-raza.png",
+      "HR Consultant - Consultant HR - HR Consulting - eSpark Talent"
     ),
     content: `<div class="blogs-content">
                 <p>Digitalization and online earning platforms have eased professionals to utilize their acquired skills and valuable money. As every demanding professional job can be done online, then why not HR consulting?</p>
@@ -83,13 +86,16 @@ export const blogData = [
     slug: "human-resource-management",
     title: "Defining Human Resource Management: A Dive into HRM.",
     imageLink: "/images/blog/human-resource-management.png",
+    altTag:
+      "Human Resource Management - Role of human resource management - Scope of Human Resource Management - Human Resource Management jobs - eSpark Talent",
     bigImageLink: "/images/blog/blog10.jpg",
     mainHeading: `Human Resource Management - The Demanding Approach for Business Success`,
     mainParagraph: `Want to know everything about human resource management and other HR functions? Here is our informative and well-experienced blog about HRM.`,
     postedBy: postedItems(
       "Mehdi Raza",
       "Oct 05, 2023",
-      "/images/user/mehdi-raza.png"
+      "/images/user/mehdi-raza.png",
+      "Human Resource Management - Role of human resource management - Scope of Human Resource Management - Human Resource Management jobs - eSpark Talent"
     ),
     content: `<div class="blogs-content">
             <p>Corporate professionals and job-hunting individuals will be very much familiar with human resource management. The reason for the popularity of the HR department in the business world links with the involvement in different companies' endeavors.</p>
@@ -156,13 +162,16 @@ export const blogData = [
     slug: "hiring-manager",
     title: "Getting to Know Your Hiring Manager: A Step-by-Step Guide",
     imageLink: "/images/blog/hiring-manager.png",
+    altTag:
+      "Hiring Manager - Hiring manager vs recruiter - Hiring manager vs HR - eSpark Talent",
     bigImageLink: "/images/blog/blog4.jpg",
     mainHeading: `Everything to Know About Hiring Manager - Skills & Responsibilities.`,
     mainParagraph: `Who are hiring managers? and what skills are required to be a professional hiring manager? Find out all here.`,
     postedBy: postedItems(
       "Mehdi Raza",
       "Oct 04, 2023",
-      "/images/user/mehdi-raza.png"
+      "/images/user/mehdi-raza.png",
+      "Hiring Manager - Hiring manager vs recruiter - Hiring manager vs HR - eSpark Talent"
     ),
     content: `<div class="blogs-content">
         <p>In today’s time almost every professional knows that the HR department owns the responsibility of hiring employees. So, where does a hiring manager come for the service? Yes! We know that you also have some questions regarding the work of hiring managers to clear your mind. That's why today’s interesting blog is all about those creative and smart managers.</p>
@@ -219,6 +228,8 @@ export const blogData = [
     slug: "benefits-employee-outsourcing",
     title: "Benefits of Employee Outsourcing",
     imageLink: "/images/blog/benefits.png",
+    altTag:
+      "Employee Outsourcing - Employee outsourcing jobs - Employee outsourcing companies - Staff outsourcing services - Importance of outsourcing - espark Talent",
     bigImageLink: "/images/blog/blog1.png",
     mainHeading: `Employee Outsourcing - The Future 
       of Hiring Professional Workforce.`,
@@ -228,7 +239,8 @@ flexibility and productivity at the workplace? Grab the
     postedBy: postedItems(
       "Mehdi Raza",
       "Sept 24, 2023",
-      "/images/user/mehdi-raza.png"
+      "/images/user/mehdi-raza.png",
+      "Employee Outsourcing - Employee outsourcing jobs - Employee outsourcing companies - Staff outsourcing services - Importance of outsourcing - espark Talent"
     ),
     content: `<div class="blogs-content">
         <p>This is the era of social revolution, and every diligent professional is all set to offer their acquired skills to
@@ -312,6 +324,8 @@ flexibility and productivity at the workplace? Grab the
     title: "Primest Employee Recruitment Strategies for Success",
     bigImageLink: "/images/blog/blog2.png",
     imageLink: "/images/blog/primest-Employee.png",
+    altTag:
+      "Employee Recruitment - Employee recruitment in hrm - Recruitment process - Sources of recruitment - Sources of employee recruitment - espark Talent",
     mainHeading: `Primest Employee Recruitment
 Strategies for Success.`,
     mainParagraph: `Want to update your recruitment process? Here are the 
@@ -320,7 +334,8 @@ company.`,
     postedBy: postedItems(
       "Mehdi Raza",
       "Sept 25, 2023",
-      "/images/user/mehdi-raza.png"
+      "/images/user/mehdi-raza.png",
+      "Employee Recruitment - Employee recruitment in hrm - Recruitment process - Sources of recruitment - Sources of employee recruitment - espark Talent"
     ),
     content: `<div class="blogs-content">
     <p>The professional world is surrounded by various office exercises. However, the recruitment process appears to be a
@@ -448,6 +463,8 @@ company.`,
     slug: "positive-work-culture",
     title: "8 Tips Guide for Bringing Positive Work Culture",
     imageLink: "/images/blog/8-Tips-Guide.png",
+    altTag:
+      "Positive Work Culture - Positive culture examples - Positive workplace culture examples - espark Talent",
     bigImageLink: "/images/blog/blog3.png",
     mainHeading: `Secret of Bringing Positive Work Culture - A Compressive Guide For 
 Office Workplaces.`,
@@ -457,7 +474,8 @@ showcase your workplace with productivity.`,
     postedBy: postedItems(
       "Mehdi Raza",
       "Sept 26, 2023",
-      "/images/user/mehdi-raza.png"
+      "/images/user/mehdi-raza.png",
+      "Positive Work Culture - Positive culture examples - Positive workplace culture examples - espark Talent"
     ),
     content: `<div class="blogs-content">
         <p>After the inventions of recent technologies, experienced professionals can undoubtedly predict the future of
