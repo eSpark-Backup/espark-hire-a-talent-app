@@ -16,13 +16,13 @@ const Platforms = ({ heading, paragraph, data }) => {
                 <div className="col-lg-3 col-md-3 col-sm-6" key={i}>
                   <div className="platforms-item with-white-color">
                     <div className="image">
-                      <img src={eachItem.icon} alt="image" />
+                      <img src={eachItem.icon} alt="Hire app developer - Freelance mobile app developer - Hire dedicated mobile app developers - Hire cross platform app developer - Hire a mobile app developer – eSpark Talent" />
                     </div>
                     <h3>{eachItem.title}</h3>
                     <p>{eachItem.paragraph}</p>
 
                     <div className="arrow-image">
-                      <img src={eachItem.arrowPath} alt="image" />
+                      <img src={eachItem.arrowPath} alt="Hire app developer - Freelance mobile app developer - Hire dedicated mobile app developers - Hire cross platform app developer - Hire a mobile app developer – eSpark Talent" />
                     </div>
                   </div>
                 </div>
@@ -30,7 +30,7 @@ const Platforms = ({ heading, paragraph, data }) => {
                 <div className="col-lg-3 col-md-3 col-sm-6" key={i}>
                   <div className="platforms-item with-white-color">
                     <div className="image">
-                      <img src={eachItem.icon} alt="image" />
+                      <img src={eachItem.icon} alt="Hire app developer - Freelance mobile app developer - Hire dedicated mobile app developers - Hire cross platform app developer - Hire a mobile app developer – eSpark Talent" />
                     </div>
                     <h3>{eachItem.title}</h3>
                     <p>{eachItem.paragraph}</p>
