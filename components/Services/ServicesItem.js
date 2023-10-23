@@ -23,7 +23,7 @@ const ServicesItem = ({ title, Paragraph, data, id }) => {
               >
                 <div className="single-services-box border">
                   <div className="d-flex align-items-center ">
-                    <img src={items?.icons} alt="image" width={50} />
+                    <img src={items?.icons} alt={items?.alt} width={50} />
                     <h3>
                       {/* <a href="/service-details"></a> */}
                       {items?.name}
