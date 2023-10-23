@@ -1,8 +1,9 @@
 import React from "react";
 import NewsletterForm2 from "@/components/Common/NewsletterForm2";
 import Link from "next/link";
-import { data } from "constants/discovery_call_constant";
+import { We_Adapt_To_Your_Need, data } from "constants/discovery_call_constant";
 import PartnerArea from "@/components/TechnologySolutions/PartnerArea";
+import Adapt from "@/components/Book_A_Discovery_Call/Adapt";
 
 function DiscoveryCall() {
   const { heading, subHeading, list, text, subText, link } = data;
@@ -50,6 +51,7 @@ function DiscoveryCall() {
           </a>
         </div>
       </div>
+      <Adapt data={We_Adapt_To_Your_Need} />
       <NewsletterForm2 />
     </>
   );

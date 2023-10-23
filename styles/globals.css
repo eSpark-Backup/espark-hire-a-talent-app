@@ -9820,13 +9820,14 @@ subscribe2 Area CSS
   display: block;
 }
 
-/* discovery-all page styling starts from here */
-.discovery-call {
+/* discovery-call styling starts from here */
+/* .discovery-call {
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   overflow-x: hidden;
-}
+} */
+
 .discovery-call-header {
   background-image: url(/images/discovery_call/discovery-bg.png);
   background-position: center center;
@@ -9900,7 +9901,6 @@ subscribe2 Area CSS
 }
 .discovery-call-button {
   width: 465px;
-  
   display: inline-flex;
   text-align: center;
   padding: 16px 21px 21px 21px;
@@ -9912,6 +9912,10 @@ subscribe2 Area CSS
   border-left: 1px solid #11615f;
   background: #029894;
   box-shadow: 0px 3.96517px 2.97388px -2.97388px rgba(103, 35, 35, 0.25);
+}
+.discovery-call-button:hover {
+  background-color: var(--blackColor);
+  color: var(--whiteColor);
 }
 .discovery-call-button .free-strategy {
   color: #fff;
@@ -9926,11 +9930,220 @@ subscribe2 Area CSS
 .discovery-call-button .limited-free {
   color: #fff;
   text-align: center;
-  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.20);
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2);
   /* font-family: Segoe UI; */
   font-size: 15px;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
 }
-/* Thankyou Page Styling Finish Here. */
+/* discovery-call Styling Finish Here. */
+
+/*================================================
+We adapt to your needs Area CSS
+=================================================*/
+/* .we-adapt-to-your-need-aera {
+  padding-top: 80px;
+  padding-bottom: 80px;
+} */
+.we-adapt-to-your-need-content {
+  width: 100%;
+  height: 100%;
+  padding: 60px;
+  position: relative;
+  z-index: 1;
+}
+/* .background {
+  width: 1052px;
+  height: 842px;
+  flex-shrink: 0;
+  border-radius: 32px 0px 0px 32px;
+  opacity: 0.06;
+  background: #029894;
+  z-index: -1;
+  position: absolute;
+  right: 300px;
+  margin-top: 40px;
+} */
+
+.we-adapt-to-your-need-content h2 {
+  margin-bottom: 10px;
+  font-size: 40px;
+  font-weight: 700 !important;
+  font-family: var(--fontFamily2);
+}
+.we-adapt-to-your-need-content .logo {
+  width: 48px;
+  height: 48px;
+}
+.we-adapt-to-your-need-content h2 .dot {
+  color: #029894;
+  font-family: Outfit;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 60px;
+}
+.we-adapt-to-your-need-content .style-two {
+  padding-right: 30px;
+}
+.we-adapt-to-your-need-content #timer {
+  background-color: var(--whiteColor);
+  border: 1px solid var(--mainColor);
+  padding: 30px;
+  border-radius: 15px;
+  text-align: center;
+}
+
+.we-adapt-to-your-need-content #timer div {
+  color: var(--mainColor);
+  font-size: 40px;
+  font-weight: bold;
+  margin-right: 45px;
+}
+
+.we-adapt-to-your-need-content #timer div:last-child {
+  margin-right: 0;
+}
+
+.we-adapt-to-your-need-content #timer div span {
+  display: block;
+  margin-top: -2px;
+  font-size: 15.5px;
+  font-weight: 500;
+  color: var(--optionalColor);
+}
+.we-adapt-to-your-need-content h3 {
+  margin-bottom: 0;
+}
+.we-adapt-to-your-need-content p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.we-adapt-to-your-need-content .we-adapt-to-your-need-with-progress {
+  margin-top: 20px;
+}
+
+.we-adapt-to-your-need-content .we-adapt-to-your-need-with-progress .top-list {
+  padding: 0;
+  margin-bottom: 10px;
+}
+
+.we-adapt-to-your-need-content
+  .we-adapt-to-your-need-with-progress
+  .top-list
+  li {
+  list-style-type: none;
+  color: var(--mainColor);
+}
+
+.we-adapt-to-your-need-content
+  .we-adapt-to-your-need-with-progress
+  .progress-wrapper {
+  position: relative;
+}
+
+.we-adapt-to-your-need-content
+  .we-adapt-to-your-need-with-progress
+  .progress-wrapper
+  .progress {
+  background-color: #e1e1e1;
+  border-radius: 50px;
+}
+
+.we-adapt-to-your-need-content
+  .we-adapt-to-your-need-with-progress
+  .progress-wrapper
+  .progress-bar {
+  background-color: var(--mainColor);
+  border-radius: 50px;
+}
+
+.we-adapt-to-your-need-content
+  .we-adapt-to-your-need-with-progress
+  .progress-wrapper::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 15px;
+  width: 1px;
+  height: 30px;
+  background-color: var(--blackColor);
+}
+
+.we-adapt-to-your-need-content
+  .we-adapt-to-your-need-with-progress
+  .progress-wrapper::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 15px;
+  width: 1px;
+  height: 30px;
+  background-color: var(--blackColor);
+}
+
+.we-adapt-to-your-need-content
+  .we-adapt-to-your-need-with-progress
+  .bottom-list {
+  padding: 0;
+  margin-bottom: 0;
+  margin-top: 20px;
+}
+
+.we-adapt-to-your-need-content
+  .we-adapt-to-your-need-with-progress
+  .bottom-list
+  li {
+  list-style-type: none;
+  color: var(--optionalColor);
+}
+
+.we-adapt-to-your-need-content .we-adapt-to-your-need-btn {
+  padding: 0;
+  margin-top: 25px;
+  margin-bottom: 0;
+}
+
+.we-adapt-to-your-need-content .we-adapt-to-your-need-btn li {
+  list-style-type: none;
+  display: inline-block;
+  margin-right: 20px;
+  color: var(--optionalColor);
+}
+
+.we-adapt-to-your-need-content .we-adapt-to-your-need-btn li:last-child {
+  margin-right: 0;
+}
+
+.we-adapt-to-your-need-content .we-adapt-to-your-need-btn li .buy-token-btn {
+  display: inline-block;
+  padding: 10.8px 30px;
+  background-color: #2e3433;
+  color: var(--whiteColor);
+  border-radius: 5px;
+  font-family: var(--fontFamily2);
+  font-size: var(--fontSize);
+  font-weight: 500;
+  -webkit-transition: var(--transition);
+  transition: var(--transition);
+}
+
+.we-adapt-to-your-need-content
+  .we-adapt-to-your-need-btn
+  li
+  .buy-token-btn:hover {
+  background-color: var(--mainColor);
+  color: var(--whiteColor);
+}
+
+.we-adapt-to-your-need-content .we-adapt-to-your-need-shape {
+  position: absolute;
+  right: 20px;
+  bottom: 10px;
+  z-index: -1;
+  max-width: 50px;
+  -webkit-animation: moveleftbounce 5s linear infinite;
+  animation: moveleftbounce 5s linear infinite;
+}
