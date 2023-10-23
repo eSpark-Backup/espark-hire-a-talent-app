@@ -17,7 +17,7 @@ const Services = ({ ServicesPara, ServicesTitle, cardsItems }) => {
                   <div className="row align-items-center">
                     <div className="col-lg-6 col-md-6">
                       <div className="services-image">
-                        <img src={eachCard.imageLink} alt="image" />
+                        <img src={eachCard.imageLink} alt="HR consultant - human resource planning - HR service - HR solutions - HR recruitment - HR outsourcing – eSpark talent" />
                       </div>
                     </div>
                     <div className="col-lg-6 col-md-6">
@@ -189,7 +189,7 @@ const Services = ({ ServicesPara, ServicesTitle, cardsItems }) => {
         <div className="cyber-security-services-shape">
           <img
             src="/images/cybersecurity-services/services/shape.png"
-            alt="image"
+            alt="HR consultant - human resource planning - HR service - HR solutions - HR recruitment - HR outsourcing – eSpark talent"
           />
         </div>
       </div>

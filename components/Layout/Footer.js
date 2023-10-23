@@ -57,7 +57,7 @@ const Footer = () => {
                     <img
                       src="/images/logo.png"
                       className="talent-logo"
-                      alt="logo"
+                      alt="Global Recruitment - global recruitment agency - worldwide recruiting agency - global recruitment services - global recruitment solutions - eSpark Talent"
                     />
                   </a>
                 </Link>
