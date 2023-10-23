@@ -51,6 +51,8 @@ const Faq = ({ title, item }) => {
                               ? "/images/icon/Group_93.svg"
                               : "/images/icon/group_92.svg"
                           }
+
+                          alt="Outsourced Employee - Staff Outsourcing Solutions - Outsourced Staff - Global Employment Outsourcing - Employment Outsourcing Services – eSpark Talent"
                         />
                       </div>
                       <div>
