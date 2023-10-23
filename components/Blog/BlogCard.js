@@ -13,7 +13,7 @@ const BlogCard = ({ item }) => {
                   <div className="image">
                     <Link href={`/blogs/${item.slug}`}>
                       <a className="d-block">
-                        <img src={item.imageLink} alt="image" />
+                        <img src={item.imageLink} alt={item.altTag} />
                       </a>
                     </Link>
                     <span className="date">{item?.postedBy?.date}</span>

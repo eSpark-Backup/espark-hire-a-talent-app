@@ -42,14 +42,17 @@ export const bannerData = [
     imagePath: "/images/banner-img.png",
     link: "/contact",
     buttonText: "Find a Talent",
+    altTag:
+      "Global Recruitment - global recruitment agency - worldwide recruiting agency - global recruitment services - global recruitment solutions - eSpark Talent",
   },
 ];
-const servicesItem = (name, description, list, icons) => {
+const servicesItem = (name, description, list, icons, alt) => {
   return {
     name: name,
     description: description,
     list: list,
     icons: icons,
+    alt: alt,
   };
 };
 export const sliderData = [
@@ -75,13 +78,15 @@ export const sliderData = [
           "Android App Developers",
           "A professional team knows how to include demanding features in a single Android application. You can only find those creative minds on our highlighting listing of professionals.",
           ["React Native​", "Android", "Java", "Flutter"],
-          "/images/icon/Group29.png"
+          "/images/icon/Group29.png",
+          "Hire app developer - Freelance mobile app developer - Hire dedicated mobile app developers - Hire cross platform app developer - Hire a mobile app developer – eSpark Talent"
         ),
         servicesItem(
           "iOS App Developers​",
           "It required clever observations from the developers to come up with the best iOS applications. Our offered listing of developers will bring the best talent available in the town.",
           ["Swift​​", "MVVM/MVP", "UIKit​", "SwiftUI"],
-          "/images/icon/Group49.png"
+          "/images/icon/Group49.png",
+          "Hire app developer - Freelance mobile app developer - Hire dedicated mobile app developers - Hire cross platform app developer - Hire a mobile app developer – eSpark Talent"
         ),
       ],
       content: {
@@ -211,7 +216,8 @@ export const sliderData = [
           "JavaScript Developers​",
           "You can stimulate the users with the help of JavaScript developers hired from our demanding platform. Our services are always open 24/7.",
           ["React. Js", "Vue.Js", "Next.Js", "Angular"],
-          "/images/icon/Group61.png"
+          "/images/icon/Group61.png",
+          "Hire a web developer - Freelance web developer - Find web developer - Hire front end developers - Hire full stack developer - Hire node js developer – eSpark Talent"
         ),
         servicesItem(
           ".Net Developers​",
@@ -222,7 +228,8 @@ export const sliderData = [
             "Web Applications",
             "Data Analysis​",
           ],
-          "/images/icon/Group62.png"
+          "/images/icon/Group62.png",
+          "Hire a web developer - Freelance web developer - Find web developer - Hire front end developers - Hire full stack developer - Hire node js developer – eSpark Talent"
         ),
         servicesItem(
           "Node.js Developers​",
@@ -233,7 +240,8 @@ export const sliderData = [
             "Design Ideas",
             "High Performance Applications​​",
           ],
-          "/images/icon/Group63.png"
+          "/images/icon/Group63.png",
+          "Hire a web developer - Freelance web developer - Find web developer - Hire front end developers - Hire full stack developer - Hire node js developer – eSpark Talent"
         ),
         servicesItem(
           "WordPress Developers​",
@@ -244,7 +252,8 @@ export const sliderData = [
             "Expertise in PLs",
             "Technical Knowledge​​",
           ],
-          "/images/icon/Group64.png"
+          "/images/icon/Group64.png",
+          "Hire a web developer - Freelance web developer - Find web developer - Hire front end developers - Hire full stack developer - Hire node js developer – eSpark Talent"
         ),
         servicesItem(
           "Shopify Developers​​",
@@ -255,13 +264,15 @@ export const sliderData = [
             "Domain Assistance",
             "Query Management​",
           ],
-          "/images/icon/Shopify.png"
+          "/images/icon/Shopify.png",
+          "Hire a web developer - Freelance web developer - Find web developer - Hire front end developers - Hire full stack developer - Hire node js developer – eSpark Talent"
         ),
         servicesItem(
           "PHP Developers​​",
           "Our PHP developers are lined up for you to come and hire them. They are just a few steps away to be on your side and offer acclaimed skills.",
           ["CRM", "API", "Cloud Assistance", "Laravel​"],
-          "/images/icon/Php.png"
+          "/images/icon/Php.png",
+          "Hire a web developer - Freelance web developer - Find web developer - Hire front end developers - Hire full stack developer - Hire node js developer – eSpark Talent"
         ),
       ],
       content: {
@@ -399,7 +410,8 @@ export const sliderData = [
             "Instagram Ads",
             "Product Marketing",
           ],
-          "/images/icon/Group.png"
+          "/images/icon/Group.png",
+          "Hire a digital marketer - ppc specialist - Online marketing expert - Hire digital marketing expert - Hire digital marketing freelancer – eSpark Talent"
         ),
         servicesItem(
           "Landing Page Experts",
@@ -410,7 +422,8 @@ export const sliderData = [
             "Advertisement/PR",
             "Newsletters",
           ],
-          "/images/icon/Landing page.png"
+          "/images/icon/Landing page.png",
+          "Hire a digital marketer - ppc specialist - Online marketing expert - Hire digital marketing expert - Hire digital marketing freelancer – eSpark Talent"
         ),
         servicesItem(
           "CRO Executives",
@@ -421,7 +434,8 @@ export const sliderData = [
             "Marketing Speak",
             "CRO Consulting",
           ],
-          "/images/icon/Man.png"
+          "/images/icon/Man.png",
+          "Hire a digital marketer - ppc specialist - Online marketing expert - Hire digital marketing expert - Hire digital marketing freelancer – eSpark Talent"
         ),
         servicesItem(
           "PPC Specialists",
@@ -432,7 +446,8 @@ export const sliderData = [
             "SEO Strategy",
             "Search Engine Ranking",
           ],
-          "/images/icon/Paid_search.png"
+          "/images/icon/Paid_search.png",
+          "Hire a digital marketer - ppc specialist - Online marketing expert - Hire digital marketing expert - Hire digital marketing freelancer – eSpark Talent"
         ),
         servicesItem(
           "Social Media Handlers",
@@ -443,13 +458,15 @@ export const sliderData = [
             "Promotional Copies",
             "Digital Platforms Handling",
           ],
-          "/images/icon/Social_media.png"
+          "/images/icon/Social_media.png",
+          "Hire a digital marketer - ppc specialist - Online marketing expert - Hire digital marketing expert - Hire digital marketing freelancer – eSpark Talent"
         ),
         servicesItem(
           "SEO Experts",
           "Content is king and every business requires a team of creative minds who produce brand promoting and audience-grabbing worlds. Connect with us and hire a creative writer.",
           ["Blogs", "Articles", "Copies", "Web Content"],
-          "/images/icon/Copywriting.png"
+          "/images/icon/Copywriting.png",
+          "Hire a digital marketer - ppc specialist - Online marketing expert - Hire digital marketing expert - Hire digital marketing freelancer – eSpark Talent"
         ),
       ],
       content: {
@@ -588,7 +605,8 @@ export const sliderData = [
             "Embedded Linux",
             "Debugging & Tracing",
           ],
-          "/images/icon/Group67.png"
+          "/images/icon/Group67.png",
+          "Hire embedded programmer - Hire embedded software engineers - Expert embedded development - Hire an embedded developer – eSpark Talent"
         ),
         servicesItem(
           "PCB Design and Assembly​​",
@@ -599,7 +617,8 @@ export const sliderData = [
             "PCB Routing",
             "Debugging & Testing",
           ],
-          "/images/icon/Pcb.png"
+          "/images/icon/Pcb.png",
+          "Hire embedded programmer - Hire embedded software engineers - Expert embedded development - Hire an embedded developer – eSpark Talent"
         ),
         servicesItem(
           "Python / Matlab​​",
@@ -610,7 +629,8 @@ export const sliderData = [
             "Simulation & Testing",
             "AI & Data Sciences",
           ],
-          "/images/icon/Python.png"
+          "/images/icon/Python.png",
+          "Hire embedded programmer - Hire embedded software engineers - Expert embedded development - Hire an embedded developer – eSpark Talent"
         ),
       ],
       content: {
@@ -743,7 +763,8 @@ export const sliderData = [
           "MongoDB Developers​",
           "Meet with a genius team of MongoDB developers. With faster and more scalable services they offer their services life and professional database engineers.",
           ["MongoDB Atlas​", "CRUD Methods​", "JSON", "MongoDB JavaScript​"],
-          "/images/icon/Database.png"
+          "/images/icon/Database.png",
+          "Hire a database developer - Freelance database developer - Hire mysql developers - Hire mariadb developers - Hire oracle developers – eSpark Talent"
         ),
         servicesItem(
           "MariaDB Developers​​",
@@ -754,7 +775,8 @@ export const sliderData = [
             "C++​",
             "Linux Distributions​",
           ],
-          "/images/icon/DB.png"
+          "/images/icon/DB.png",
+          "Hire a database developer - Freelance database developer - Hire mysql developers - Hire mariadb developers - Hire oracle developers – eSpark Talent"
         ),
         servicesItem(
           "Firebase Developers ​​​",
@@ -765,13 +787,15 @@ export const sliderData = [
             "Firebase Services​​",
             "Machine Learning Kit​​",
           ],
-          "/images/icon/Server.png"
+          "/images/icon/Server.png",
+          "Hire a database developer - Freelance database developer - Hire mysql developers - Hire mariadb developers - Hire oracle developers – eSpark Talent"
         ),
         servicesItem(
           "MySQL Developers​​​​",
           "MySQL is a relational database that is managed by experienced database professionals. It is easy and handy to hire them and avail their offered services.",
           ["Oracle​", "Logical Data Model​​", "JSON​​", "Data Manipulation​​​"],
-          "/images/icon/Mysql.png"
+          "/images/icon/Mysql.png",
+          "Hire a database developer - Freelance database developer - Hire mysql developers - Hire mariadb developers - Hire oracle developers – eSpark Talent"
         ),
         servicesItem(
           "SQL Developers​​​​​",
@@ -782,7 +806,8 @@ export const sliderData = [
             "Scalar Functions​",
             "Quadratic Function​​​",
           ],
-          "/images/icon/Sql.png"
+          "/images/icon/Sql.png",
+          "Hire a database developer - Freelance database developer - Hire mysql developers - Hire mariadb developers - Hire oracle developers – eSpark Talent"
         ),
         servicesItem(
           "PostgreSQL Developers​​",
@@ -793,7 +818,8 @@ export const sliderData = [
             "Named Notation​​",
             "Extended Features​​​​",
           ],
-          "/images/icon/Group70.png"
+          "/images/icon/Group70.png",
+          "Hire a database developer - Freelance database developer - Hire mysql developers - Hire mariadb developers - Hire oracle developers – eSpark Talent"
         ),
       ],
       content: {
@@ -930,7 +956,8 @@ export const sliderData = [
             "Security Tests​",
             "Unit Testing",
           ],
-          "/images/icon/Artificial intelligence.png"
+          "/images/icon/Artificial intelligence.png",
+          "Hire qa testing developer - Hire qa developer - Hire dedicated qa tester - Hire a qa developer - Expert qa developer – eSpark Talent"
         ),
         servicesItem(
           "Manual Testing​​",
@@ -941,7 +968,8 @@ export const sliderData = [
             "System Testing​​",
             "White Box Testing​",
           ],
-          "/images/icon/Test.png"
+          "/images/icon/Test.png",
+          "Hire qa testing developer - Hire qa developer - Hire dedicated qa tester - Hire a qa developer - Expert qa developer – eSpark Talent"
         ),
       ],
       content: {
@@ -1065,6 +1093,8 @@ export const platFormItems = [
     arrowLink: "/images/crypto-startup/platforms/arrow-1.png",
     content:
       "Let us know your requirements, so we can find the perfect fit for your team.",
+    altTag:
+      "Global Recruitment - global recruitment agency - worldwide recruiting agency - global recruitment services - global recruitment solutions - eSpark Talent",
   },
   {
     imageLink: "/images/crypto-startup/platforms/Conversation.png",
@@ -1072,6 +1102,8 @@ export const platFormItems = [
     arrowLink: "/images/crypto-startup/platforms/arrow-2.png",
     content:
       "Schedule a meeting with our HR experts to plan the best approach for your business.",
+    altTag:
+      "Global Recruitment - global recruitment agency - worldwide recruiting agency - global recruitment services - global recruitment solutions - eSpark Talent",
   },
   {
     imageLink: "/images/crypto-startup/platforms/platforms-2.png",
@@ -1079,6 +1111,8 @@ export const platFormItems = [
     arrowLink: "/images/crypto-startup/platforms/arrow-1.png",
     content:
       "Connect with skilled interviewers who will help you find the right people for your company's growth.",
+    altTag:
+      "Global Recruitment - global recruitment agency - worldwide recruiting agency - global recruitment services - global recruitment solutions - eSpark Talent",
   },
   {
     imageLink: "/images/crypto-startup/platforms/Meeting.png",
@@ -1086,6 +1120,8 @@ export const platFormItems = [
     arrowLink: "/images/crypto-startup/platforms/arrow-1.png",
     content:
       " Ensuring a smooth transition for new hires into your organization.",
+    altTag:
+      "Global Recruitment - global recruitment agency - worldwide recruiting agency - global recruitment services - global recruitment solutions - eSpark Talent",
   },
 ];
 // export const platFormItems = [
@@ -1505,5 +1541,3 @@ export const thankyouCards = [
     icon: "/images/icon/Employee.png",
   },
 ];
-
-

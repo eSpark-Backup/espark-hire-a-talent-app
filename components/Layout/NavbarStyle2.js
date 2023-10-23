@@ -110,7 +110,7 @@ const NavbarStyle2 = () => {
                 >
                   <img
                     src="/images/logo.png"
-                    alt="Site logo"
+                    alt="Global Recruitment - global recruitment agency - worldwide recruiting agency - global recruitment services - global recruitment solutions - eSpark Talent"
                     className="talent-logo"
                   />
                 </a>
