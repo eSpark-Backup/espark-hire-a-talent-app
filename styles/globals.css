@@ -4143,7 +4143,7 @@ Pagination CSS
   color: rgb(213 213 213);
   box-shadow: none;
 }
-.pagination-area .disabled:hover{
+.pagination-area .disabled:hover {
   background: rgb(249 249 249);
   color: rgb(213 213 213);
   box-shadow: none;
@@ -9819,3 +9819,118 @@ subscribe2 Area CSS
 .career-section .horizonal-line {
   display: block;
 }
+
+/* discovery-all page styling starts from here */
+.discovery-call {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  overflow-x: hidden;
+}
+.discovery-call-header {
+  background-image: url(/images/discovery_call/discovery-bg.png);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 0.88;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 85px;
+  padding-bottom: 85px;
+}
+.discovery-call-header .discovery-call-heading-1 {
+  color: #fff;
+  text-align: center;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.4);
+  /* font-family: Montserrat; */
+  font-size: 40px;
+  font-style: normal;
+  line-height: 28px;
+  font-weight: 700;
+  line-height: 52px; /* 130% */
+}
+.discovery-call-header .discovery-call-heading-2 {
+  color: #fff;
+  text-align: center;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 45.5px; /* 130% */
+}
+.discovery-call-features {
+  border-radius: 10px;
+  padding: 11px 30px;
+  position: relative;
+  z-index: 1;
+  background: transparent;
+}
+.discovery-call-features h3 {
+  color: #fff;
+  text-align: center;
+  text-shadow: 1.0254536867141724px 1.0254536867141724px 1.0254536867141724px
+    rgba(0, 0, 0, 0.2);
+  /* font-family: Poppins; */
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 37.327px; /* 130% */
+}
+.discovery-call-features ul li {
+  color: #fff;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26.662px; /* 130% */
+}
+.discovery-call-img img {
+  width: 609.567px;
+  height: 393.569px;
+}
+.discovery-call .container-fluid2 {
+  background-color: #2d7184;
+  box-shadow: 0px -18px 12px -12px rgba(0, 0, 0, 0.75);
+  padding: 15px;
+}
+
+.discovery-call-header .container .row {
+  padding-top: 20px;
+  padding-bottom: 30px;
+}
+.discovery-call-button {
+  width: 465px;
+  
+  display: inline-flex;
+  text-align: center;
+  padding: 16px 21px 21px 21px;
+  flex-direction: column;
+  border-radius: 10px;
+  border-top: 1px solid #11615f;
+  border-right: 1px solid #11615f;
+  border-bottom: 3px solid #11615f;
+  border-left: 1px solid #11615f;
+  background: #029894;
+  box-shadow: 0px 3.96517px 2.97388px -2.97388px rgba(103, 35, 35, 0.25);
+}
+.discovery-call-button .free-strategy {
+  color: #fff;
+  text-align: center;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2);
+  /* font-family: Poppins; */
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.discovery-call-button .limited-free {
+  color: #fff;
+  text-align: center;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.20);
+  /* font-family: Segoe UI; */
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+/* Thankyou Page Styling Finish Here. */
