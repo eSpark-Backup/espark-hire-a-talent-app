@@ -30,13 +30,13 @@ const NewsletterForm2 = () => {
               )}
             </div>
             <div className="shape1">
-              <img src="/images/cta/ctaImage1.png" alt="image" />
+              <img src="/images/cta/ctaImage1.png" alt="Global Recruitment - global recruitment agency - worldwide recruiting agency - global recruitment services - global recruitment solutions - eSpark Talent" />
             </div>
             <div className="shape3">
-              <img src="/images/cta/ctaImage2.png" alt="image" />
+              <img src="/images/cta/ctaImage2.png" alt="Global Recruitment - global recruitment agency - worldwide recruiting agency - global recruitment services - global recruitment solutions - eSpark Talent" />
             </div>
             <div className="shape4">
-              <img src="/images/cta/ctaImage3.png" alt="image" />
+              <img src="/images/cta/ctaImage3.png" alt="Global Recruitment - global recruitment agency - worldwide recruiting agency - global recruitment services - global recruitment solutions - eSpark Talent" />
             </div>
           </div>
         </div>
