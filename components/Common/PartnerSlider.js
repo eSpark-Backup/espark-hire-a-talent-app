@@ -41,37 +41,37 @@ const PartnerSlider = () => {
           >
             <SwiperSlide>
               <div className="partner-item">
-                <img src="/images/partner/new-partner-1.jpg" alt="image" />
+                <img src="/images/partner/new-partner-1.jpg" alt="HR consultant - human resource planning - HR service - HR solutions - HR recruitment - HR outsourcing – eSpark talent" />
               </div>
             </SwiperSlide>
 
             <SwiperSlide>
               <div className="partner-item">
-                <img src="/images/partner/new-partner-2.jpg" alt="image" />
+                <img src="/images/partner/new-partner-2.jpg" alt="HR consultant - human resource planning - HR service - HR solutions - HR recruitment - HR outsourcing – eSpark talent" />
               </div>
             </SwiperSlide>
 
             <SwiperSlide>
               <div className="partner-item">
-                <img src="/images/partner/new-partner-3.jpg" alt="image" />
+                <img src="/images/partner/new-partner-3.jpg" alt="HR consultant - human resource planning - HR service - HR solutions - HR recruitment - HR outsourcing – eSpark talent" />
               </div>
             </SwiperSlide>
 
             <SwiperSlide>
               <div className="partner-item">
-                <img src="/images/partner/new-partner-4.jpg" alt="image" />
+                <img src="/images/partner/new-partner-4.jpg" alt="HR consultant - human resource planning - HR service - HR solutions - HR recruitment - HR outsourcing – eSpark talent" />
               </div>
             </SwiperSlide>
 
             <SwiperSlide>
               <div className="partner-item">
-                <img src="/images/partner/new-partner-5.jpg" alt="image" />
+                <img src="/images/partner/new-partner-5.jpg" alt="HR consultant - human resource planning - HR service - HR solutions - HR recruitment - HR outsourcing – eSpark talent" />
               </div>
             </SwiperSlide>
 
             <SwiperSlide>
               <div className="partner-item">
-                <img src="/images/partner/new-partner-6.jpg" alt="image" />
+                <img src="/images/partner/new-partner-6.jpg" alt="HR consultant - human resource planning - HR service - HR solutions - HR recruitment - HR outsourcing – eSpark talent" />
               </div>
             </SwiperSlide>
 

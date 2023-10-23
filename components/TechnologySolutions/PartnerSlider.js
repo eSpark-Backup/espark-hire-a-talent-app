@@ -34,36 +34,36 @@ const PartnerSlider = () => {
       >
         <SwiperSlide>
           <div className="partner-item">
-            <img src="/images/partner/new-partner-1.jpg" alt="image" />
+            <img src="/images/partner/new-partner-1.jpg" alt="Global Recruitment - global recruitment agency - worldwide recruiting agency - global recruitment services - global recruitment solutions - eSpark Talent" />
           </div>
         </SwiperSlide>
 
         <SwiperSlide>
           <div className="partner-item">
-            <img src="/images/partner/new-partner-2.jpg" alt="image" />
+            <img src="/images/partner/new-partner-2.jpg" alt="Global Recruitment - global recruitment agency - worldwide recruiting agency - global recruitment services - global recruitment solutions - eSpark Talent" />
           </div>
         </SwiperSlide>
 
         <SwiperSlide>
           <div className="partner-item">
-            <img src="/images/partner/new-partner-3.jpg" alt="image" />
+            <img src="/images/partner/new-partner-3.jpg" alt="Global Recruitment - global recruitment agency - worldwide recruiting agency - global recruitment services - global recruitment solutions - eSpark Talent" />
           </div>
         </SwiperSlide>
 
         <SwiperSlide>
           <div className="partner-item">
-            <img src="/images/partner/new-partner-4.jpg" alt="image" />
+            <img src="/images/partner/new-partner-4.jpg" alt="Global Recruitment - global recruitment agency - worldwide recruiting agency - global recruitment services - global recruitment solutions - eSpark Talent" />
           </div>
         </SwiperSlide>
 
         <SwiperSlide>
           <div className="partner-item">
-            <img src="/images/partner/new-partner-5.jpg" alt="image" />
+            <img src="/images/partner/new-partner-5.jpg" alt="Global Recruitment - global recruitment agency - worldwide recruiting agency - global recruitment services - global recruitment solutions - eSpark Talent" />
           </div>
         </SwiperSlide>
         <SwiperSlide>
           <div className="partner-item">
-            <img src="/images/partner/new-partner-6.jpg" alt="image" />
+            <img src="/images/partner/new-partner-6.jpg" alt="Global Recruitment - global recruitment agency - worldwide recruiting agency - global recruitment services - global recruitment solutions - eSpark Talent" />
           </div>
         </SwiperSlide>
 

@@ -13,7 +13,7 @@ const WhatWeWork = ({ paragraph, Items, title, image, shape }) => {
                 data-aos-duration="1200"
                 data-aos-once="true"
               >
-                <img src={image} width={"500px"} height={"500px"} />
+                <img src={image} width={"500px"} height={"500px"} alt="Outsourced Employee - Staff Outsourcing Solutions - Outsourced Staff - Global Employment Outsourcing - Employment Outsourcing Services – eSpark Talent" />
               </div>
             </div>
             <div className="col-lg-6 col-md-12">
@@ -24,7 +24,7 @@ const WhatWeWork = ({ paragraph, Items, title, image, shape }) => {
                 {Items?.map((eachItems, i) => (
                   <div className="we-work-inner-box" key={i}>
                     <div className="image">
-                      <img src={eachItems.icon} alt="image" />
+                      <img src={eachItems.icon} alt="Outsourced Employee - Staff Outsourcing Solutions - Outsourced Staff - Global Employment Outsourcing - Employment Outsourcing Services – eSpark Talent" />
                     </div>
                     <h3>{eachItems.title}</h3>
                     <p>{eachItems.description}</p>
@@ -77,7 +77,7 @@ const WhatWeWork = ({ paragraph, Items, title, image, shape }) => {
           </div>
         </div>
         <div className="what-we-work-shape">
-          <img src={shape} alt="image" />
+          <img src={shape} alt="Outsourced Employee - Staff Outsourcing Solutions - Outsourced Staff - Global Employment Outsourcing - Employment Outsourcing Services – eSpark Talent" />
         </div>
       </div>
     </React.Fragment>
