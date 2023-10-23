@@ -15,7 +15,7 @@ const GetStarted = (props) => {
                 data-aos-duration="1200"
                 data-aos-once="true"
               >
-                <img src="/images/06.png" alt="image" className='pt-5' />
+                <img src="/images/06.png" alt="Outsourced Employee - Staff Outsourcing Solutions - Outsourced Staff - Global Employment Outsourcing - Employment Outsourcing Services – eSpark Talent" className='pt-5' />
               </div>
             </div>
             <div className="col-lg-6 col-md-12 new-style">
