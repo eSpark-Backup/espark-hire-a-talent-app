@@ -28,7 +28,7 @@ const OurTeamMember = (props) => {
                             : "single-team-member"
                         }
                       >
-                        <img src={person.img} alt="team" />
+                        <img src={person.img} alt="Global Recruitment - global recruitment agency - worldwide recruiting agency - global recruitment services - global recruitment solutions - eSpark Talent" />
                         <div
                           className={
                             i === 0
