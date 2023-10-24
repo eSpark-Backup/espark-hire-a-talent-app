@@ -1,11 +1,24 @@
-import React from 'react'
-import { Swiper, SwiperSlide } from 'swiper/react'
+import React from "react";
+import { Swiper, SwiperSlide } from "swiper/react";
 // import { Pagination } from 'swiper'
-import { Autoplay } from 'swiper'
-const WhyChooseCrypto = ({ image, title, paragraph, Items, backGround, shape }) => {
+import { Autoplay } from "swiper";
+const WhyChooseCrypto = ({
+  image,
+  title,
+  paragraph,
+  Items,
+  backGround,
+  shape,
+}) => {
   return (
     <React.Fragment>
-      <div className={backGround ? "about-area bg-gradient-image ptb-100" : "cryptocurrency-choose-area ptb-100 overflow-hidden "}>
+      <div
+        className={
+          backGround
+            ? "about-area bg-gradient-image ptb-100"
+            : "cryptocurrency-choose-area ptb-100 overflow-hidden "
+        }
+      >
         <div className="container">
           <div className="row align-items-center">
             <div className="col-lg-6 col-md-12">
@@ -17,9 +30,13 @@ const WhyChooseCrypto = ({ image, title, paragraph, Items, backGround, shape }) 
               >
                 <img
                   src={image}
+                  alt="Outsourced Employee - Staff Outsourcing Solutions - Outsourced Staff - Global Employment Outsourcing - Employment Outsourcing Services – eSpark Talent"
                 />
                 <div className="shape5">
-                  <img src={shape} />
+                  <img
+                    src={shape}
+                    alt="Outsourced Employee - Staff Outsourcing Solutions - Outsourced Staff - Global Employment Outsourcing - Employment Outsourcing Services – eSpark Talent"
+                  />
                 </div>
               </div>
             </div>
@@ -32,7 +49,7 @@ const WhyChooseCrypto = ({ image, title, paragraph, Items, backGround, shape }) 
               >
                 {/* <span className="sub-title">Why Choose Crypto</span> */}
                 <h2>{title}</h2>
-                <p className='my-4'>{paragraph}</p>
+                <p className="my-4">{paragraph}</p>
                 <Swiper
                   spaceBetween={30}
                   loop={true}
@@ -61,14 +78,12 @@ const WhyChooseCrypto = ({ image, title, paragraph, Items, backGround, shape }) 
                     <SwiperSlide key={i}>
                       <div className="choose-inner-box">
                         <div className="image">
-                          <img
-                            src={slide.image}
+                          <img src={slide.image} 
+                          alt="Outsourced Employee - Staff Outsourcing Solutions - Outsourced Staff - Global Employment Outsourcing - Employment Outsourcing Services – eSpark Talent"
                           />
                         </div>
                         <h3>{slide.heading}</h3>
-                        <p>
-                          {slide.paragraph}
-                        </p>
+                        <p>{slide.paragraph}</p>
                       </div>
                     </SwiperSlide>
                   ))}
@@ -118,7 +133,7 @@ const WhyChooseCrypto = ({ image, title, paragraph, Items, backGround, shape }) 
         </div>
       </div>
     </React.Fragment>
-  )
-}
+  );
+};
 
-export default WhyChooseCrypto
+export default WhyChooseCrypto;
