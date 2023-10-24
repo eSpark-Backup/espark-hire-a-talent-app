@@ -14,7 +14,7 @@ const AboutUs = ({ title, paragraph, data, image }) => {
                 data-aos-duration="1200"
                 data-aos-once="true"
               >
-                <img src={image} alt="image" width={"600px"} height={"600px"} />
+                <img src={image} alt="Hire app developer - Freelance mobile app developer - Hire dedicated mobile app developers - Hire cross platform app developer - Hire a mobile app developer – eSpark Talent" width={"600px"} height={"600px"} />
               </div>
             </div>
 
