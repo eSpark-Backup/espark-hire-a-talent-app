@@ -1981,6 +1981,32 @@
     padding-left: auto;
     padding-right: 0;
   }
+  .reliable-and-secure-content {
+    padding: 10px;
+    position: relative;
+    top: 0;
+  }
+  .reliable-and-secure-content h2 {
+    line-height: 1.1;
+    margin-bottom: 15px;
+    font-size: 32px;
+  }
+  .reliable-and-secure-area {
+    padding-bottom: 30px;
+  }
+  .our-process-content h2 {
+    text-align: left;
+    font-size: 32px;
+    margin-top: 30px;
+    margin-bottom: 5px;
+    line-height: 1.1px;
+  }
+  .our-process-content p {
+    text-align: left;
+  }
+  .our-process-box {
+    padding: 11px 0;
+  }
 }
 
 /* Min width 768px to Max width 991px */
@@ -3165,9 +3191,29 @@
   .discovery-call-features ul li {
     font-size: 15px;
   }
-  .we-adapt-to-your-need-content {
+  /* .we-adapt-to-your-need-content {
     padding-left: 140px;
     padding-right: 0;
+  } */
+  .reliable-and-secure-content {
+    position: relative;
+    top: 0;
+  }
+  .reliable-and-secure-content h2 {
+    line-height: 1.1;
+    margin-bottom: 15px;
+    font-size: 32px;
+  }
+  .reliable-and-secure-area {
+    padding-bottom: 30px;
+  }
+  .our-process-content h2 {
+    font-size: 32px;
+    margin-bottom: 5px;
+    line-height: 1.1px;
+  }
+  .our-process-box {
+    padding: 11px 0;
   }
 }
 
@@ -3767,6 +3813,24 @@
     right: 4%;
     margin-top: 38px;
   }
+  .reliable-and-secure-content {
+    padding: 10px;
+    position: relative;
+    top: 0;
+  }
+  .reliable-and-secure-content h2 {
+    line-height: 1.1;
+    margin-bottom: 15px;
+    font-size: 32px;
+  }
+  .reliable-and-secure-area {
+    padding-bottom: 27px;
+  }
+  .our-process-content h2 {
+    font-size: 32px;
+    margin-bottom: 5px;
+    line-height: 1.7px;
+  }
 }
 
 /* Min width 1200px to Max width 1355px */
@@ -4004,6 +4068,17 @@
     right: 4%;
     margin-top: 62px;
   }
+  .reliable-and-secure-content {
+    top: 0;
+  }
+  .our-process-content h2 {
+    width: 400px;
+    margin-left: auto;
+  }
+  .our-process-content img {
+    margin-right: 0;
+    margin-left: auto;
+  }
 }
 @media only screen and (min-width: 1356px) and (max-width: 1399px) {
   .single-blog-post .image .date {
@@ -4097,6 +4172,10 @@
     right: 3%;
     margin-top: 48px;
   }
+  .our-process-content h2 {
+    width: 400px;
+    margin-left: auto;
+  }
 }
 
 @media only screen and (min-width: 1400px) and (max-width: 1549px) {
@@ -4156,6 +4235,17 @@
     position: absolute;
     right: 3%;
     margin-top: 62px;
+  }
+  .our-process-content h2 {
+    width: 500px;
+    /* margin-left: auto; */
+  }
+  .our-process-content p {
+    width: 500px;
+    /* margin-left: auto; */
+  }
+  .our-process-image img {
+    margin-right: 0;
   }
 }
 
@@ -4220,7 +4310,7 @@
     right: 0;
     bottom: -1px;
     z-index: 2;
-    content: "";
+    content: '';
     height: 96px;
     position: absolute;
     background-image: url(/images/shape/waves.png);
@@ -4309,6 +4399,14 @@
     position: absolute;
     right: 8%;
     margin-top: 62px;
+  }
+  .our-process-content h2 {
+    width: 500px;
+    /* margin-left: auto; */
+  }
+  .our-process-content p {
+    width: 500px;
+    /* margin-left: auto; */
   }
   /* End "Cybersecurity Demo Responsive, Cryptocurrency Demo Responsive & ICO Landing Demo Responsive" */
 }
@@ -4428,6 +4526,14 @@
     right: 14%;
     margin-top: 62px;
   }
+  .our-process-content h2 {
+    width: 500px;
+    /* margin-left: auto; */
+  }
+  .our-process-content p {
+    width: 500px;
+    /* margin-left: auto; */
+  }
 }
 
 @media screen and (max-width: 374px) {
@@ -4523,6 +4629,41 @@
     width: 30px;
     height: 30px;
   }
+  .reliable-and-secure-content {
+    padding: 30px;
+    position: relative;
+    top: 0;
+  }
+  .reliable-and-secure-content h2 {
+    line-height: 1.1;
+    margin-bottom: 15px;
+    font-size: 32px;
+  }
+  .reliable-and-secure-area {
+    padding-bottom: 30px;
+  }
+  .reliable-and-secure-image {
+    padding: 30px;
+  }
+  .our-process-content h2 {
+    text-align: left;
+    font-size: 30px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    line-height: 1.2;
+  }
+  .our-process-content p {
+    text-align: left;
+  }
+  .our-process-area {
+    padding: 30px;
+  }
+  .our-process-content h2 .dot {
+    display: none;
+  }
+  .our-process-box {
+    padding: 11px 0;
+  }
 }
 @media screen and (min-width: 375px) and (max-width: 575px) {
   .with-space {
@@ -4609,6 +4750,38 @@
     padding-right: 25px;
     margin: auto;
     display: block;
+  }
+  .reliable-and-secure-content {
+    padding: 30px;
+    position: relative;
+    top: 0;
+  }
+  .reliable-and-secure-content h2 {
+    line-height: 1.1;
+    margin-bottom: 15px;
+    font-size: 32px;
+  }
+  .reliable-and-secure-area {
+    padding-bottom: 30px;
+  }
+  .reliable-and-secure-image {
+    padding: 30px;
+  }
+  .our-process-content h2 {
+    text-align: left;
+    font-size: 30px;
+    margin-top: 30px;
+    margin-bottom: 5px;
+    line-height: 1.8px;
+  }
+  .our-process-content p {
+    text-align: left;
+  }
+  .our-process-area {
+    padding: 20px;
+  }
+  .our-process-box {
+    padding: 11px 3px;
   }
 }
 /* @media screen and (min-width: 401px) and (max-width: 490px){
