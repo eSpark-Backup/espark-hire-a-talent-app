@@ -38,8 +38,8 @@ This files table contents are outlined below>>>>>
 Default CSS
 =================================================*/
 :root {
-  --fontFamily: "Titillium Web", sans-serif;
-  --fontFamily2: "Cabin", sans-serif;
+  --fontFamily: 'Titillium Web', sans-serif;
+  --fontFamily2: 'Cabin', sans-serif;
   --mainColor: #029894;
   --optionalColor: #6f76a8;
   --whiteColor: #ffffff;
@@ -249,7 +249,7 @@ textarea.form-control {
   width: 48px;
   border-radius: 5px;
   z-index: -1;
-  content: "";
+  content: '';
   position: absolute;
   height: 100%;
   left: 0;
@@ -483,7 +483,7 @@ Header Area CSS
   top: 50%;
   right: 0;
   width: 1px;
-  content: "";
+  content: '';
   height: 15px;
   position: absolute;
   -webkit-transform: translateY(-50%);
@@ -629,7 +629,7 @@ Header Area CSS
 
 .navbar-area .navbar .navbar-nav .nav-item .dropdown-toggle::before {
   position: absolute;
-  content: "\EA4E";
+  content: '\EA4E';
   line-height: 1;
   right: -2px;
   top: 36px;
@@ -1148,7 +1148,7 @@ Main Banner Area CSS
 .main-banner-image::before {
   width: 745px;
   height: 745px;
-  content: "";
+  content: '';
   position: absolute;
   left: 0;
   z-index: -1;
@@ -1237,7 +1237,7 @@ Features Area CSS
 }
 
 .single-features-box::before {
-  content: "";
+  content: '';
   position: absolute;
   left: 0;
   -webkit-transition: var(--transition);
@@ -1609,9 +1609,9 @@ Services Area CSS
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
-  display: "flex";
-  justify-content: "space-between";
-  flex-direction: "column";
+  display: 'flex';
+  justify-content: 'space-between';
+  flex-direction: 'column';
   height: 420px;
 }
 
@@ -1681,7 +1681,7 @@ Services Area CSS
 }
 
 .single-services-box::before {
-  content: "";
+  content: '';
   position: absolute;
   left: 0;
   -webkit-transition: var(--transition);
@@ -1696,7 +1696,7 @@ Services Area CSS
 }
 
 .single-services-box::after {
-  content: "";
+  content: '';
   position: absolute;
   left: 0;
   -webkit-transition: var(--transition);
@@ -1857,7 +1857,7 @@ Process Area CSS
   left: 0;
   right: 0;
   bottom: 0;
-  content: "";
+  content: '';
   z-index: -1;
   height: 160px;
   position: absolute;
@@ -1902,7 +1902,7 @@ Process Area CSS
 }
 
 .process-inner::before {
-  content: "";
+  content: '';
   position: absolute;
   left: 0;
   right: 0;
@@ -2044,7 +2044,7 @@ Case Studies Area CSS
   top: 0;
   right: 0;
   z-index: -1;
-  content: "";
+  content: '';
   width: 540px;
   height: 540px;
   position: absolute;
@@ -2412,7 +2412,7 @@ Case Studies Details Area CSS
   left: 0;
   right: 0;
   top: 50%;
-  content: "";
+  content: '';
   height: 1px;
   z-index: -1;
   position: absolute;
@@ -2982,7 +2982,7 @@ Feedback Area CSS
 }
 
 .single-feedback-box::before {
-  content: "";
+  content: '';
   right: 50px;
   z-index: -1;
   width: 55px;
@@ -3074,7 +3074,7 @@ Blog Area CSS
   top: 50%;
   width: 50px;
   height: 1px;
-  content: "";
+  content: '';
   position: absolute;
   -webkit-transform: translateY(-50%);
   transform: translateY(-50%);
@@ -3585,7 +3585,7 @@ Blog Details Area CSS
   .comment-respond
   .comment-form
   .form-check
-  .form-check-input[type="checkbox"] {
+  .form-check-input[type='checkbox'] {
   border-radius: 0;
   -webkit-box-shadow: unset !important;
   box-shadow: unset !important;
@@ -3595,7 +3595,7 @@ Blog Details Area CSS
   .comment-respond
   .comment-form
   .form-check
-  .form-check-input[type="checkbox"]:checked {
+  .form-check-input[type='checkbox']:checked {
   background-color: var(--mainColor);
   border-color: var(--mainColor);
 }
@@ -3657,7 +3657,7 @@ blockquote cite::before,
   width: 20px;
   height: 2px;
   background-color: var(--mainColor);
-  content: "";
+  content: '';
   position: absolute;
 }
 
@@ -3667,7 +3667,7 @@ blockquote::after,
   left: 0;
   bottom: 0;
   width: 3px;
-  content: "";
+  content: '';
   position: absolute;
   background-color: var(--mainColor);
   margin-top: 20px;
@@ -3698,7 +3698,7 @@ Get Started Area CSS
 .get-started-image::before {
   left: 0;
   right: 0;
-  content: "";
+  content: '';
   opacity: 0.36;
   width: 590px;
   z-index: -1;
@@ -3795,7 +3795,7 @@ Page Title Area CSS
 
 .page-title-content ul li::before {
   position: absolute;
-  content: "\EA6E";
+  content: '\EA6E';
   right: -18px;
   top: 1.7px;
   font-family: remixicon;
@@ -4349,13 +4349,13 @@ Contact Area CSS
   color: var(--blackColor);
 }
 
-.contact-form .form-check .form-check-input[type="checkbox"] {
+.contact-form .form-check .form-check-input[type='checkbox'] {
   border-radius: 0;
   -webkit-box-shadow: unset !important;
   box-shadow: unset !important;
 }
 
-.contact-form .form-check .form-check-input[type="checkbox"]:checked {
+.contact-form .form-check .form-check-input[type='checkbox']:checked {
   background-color: var(--mainColor);
   border-color: var(--mainColor);
 }
@@ -4411,7 +4411,7 @@ Footer Area CSS
 .single-footer-widget h3::before {
   left: 0;
   bottom: 0;
-  content: "";
+  content: '';
   width: 44px;
   height: 2px;
   position: absolute;
@@ -4694,7 +4694,7 @@ Footer Area CSS
 }
 
 .copyright-area ul li::before {
-  content: "";
+  content: '';
   position: absolute;
   left: -23px;
   top: 50%;
@@ -4864,7 +4864,7 @@ Main Banner Area CSS
   right: 0;
   bottom: -3px;
   z-index: 2;
-  content: "";
+  content: '';
   height: 96px !important;
   position: absolute;
   background-image: url(/images/shape/waves.png);
@@ -5120,7 +5120,7 @@ Feedback Area CSS
   left: 0;
   right: 0;
   bottom: 0;
-  content: "";
+  content: '';
   z-index: -1;
   height: 250px;
   position: absolute;
@@ -5163,7 +5163,7 @@ Feedback Area CSS
 }
 
 .single-feedback-item::before {
-  content: "";
+  content: '';
   right: 50px;
   z-index: -1;
   width: 55px;
@@ -5773,7 +5773,7 @@ Quote Area CSS
   top: 0;
   left: 0;
   right: 0;
-  content: "";
+  content: '';
   z-index: -1;
   height: 74px;
   position: absolute;
@@ -6678,7 +6678,7 @@ Video Area CSS
 }
 
 .video-view-content .video-btn::before {
-  content: "";
+  content: '';
   display: block;
   position: absolute;
   top: 0;
@@ -7359,7 +7359,7 @@ Blog Area CSS
 
 .blog-style-card .blog-content .meta li::before {
   position: absolute;
-  content: "\EA6E";
+  content: '\EA6E';
   right: -23px;
   top: 1.7px;
   font-family: remixicon;
@@ -7760,7 +7760,7 @@ Pre Token Sale Ends Area CSS
 .pre-token-sale-ends-content
   .pre-token-sale-ends-with-progress
   .progress-wrapper::before {
-  content: "";
+  content: '';
   position: absolute;
   top: 0;
   left: 15px;
@@ -7772,7 +7772,7 @@ Pre Token Sale Ends Area CSS
 .pre-token-sale-ends-content
   .pre-token-sale-ends-with-progress
   .progress-wrapper::after {
-  content: "";
+  content: '';
   position: absolute;
   top: 0;
   right: 15px;
@@ -8705,7 +8705,7 @@ ICO Landing Banner Area CSS
   .banner-pre-token-sale-ends
   .pre-token-sale-ends-with-progress
   .progress-wrapper::before {
-  content: "";
+  content: '';
   position: absolute;
   top: 0;
   left: 15px;
@@ -8718,7 +8718,7 @@ ICO Landing Banner Area CSS
   .banner-pre-token-sale-ends
   .pre-token-sale-ends-with-progress
   .progress-wrapper::after {
-  content: "";
+  content: '';
   position: absolute;
   top: 0;
   right: 15px;
@@ -10063,7 +10063,7 @@ We adapt to your needs Area CSS
 .we-adapt-to-your-need-content
   .we-adapt-to-your-need-with-progress
   .progress-wrapper::before {
-  content: "";
+  content: '';
   position: absolute;
   top: 0;
   left: 15px;
@@ -10075,7 +10075,7 @@ We adapt to your needs Area CSS
 .we-adapt-to-your-need-content
   .we-adapt-to-your-need-with-progress
   .progress-wrapper::after {
-  content: "";
+  content: '';
   position: absolute;
   top: 0;
   right: 15px;
@@ -10146,4 +10146,117 @@ We adapt to your needs Area CSS
   max-width: 50px;
   -webkit-animation: moveleftbounce 5s linear infinite;
   animation: moveleftbounce 5s linear infinite;
+}
+
+/*================================================
+Reliable And Secure Area CSS
+=================================================*/
+.reliable-and-secure-area {
+  padding-bottom: 45px;
+  position: relative;
+  z-index: 1;
+  overflow: hidden;
+}
+
+/* .reliable-and-secure-area .container {
+  padding-left: auto;
+  padding-right: 0;
+} */
+
+.reliable-and-secure-content {
+  max-width: 650px;
+  position: relative;
+  top: -50px;
+}
+
+.reliable-and-secure-content h3 {
+  display: block;
+}
+
+.reliable-and-secure-content h2 {
+  margin-bottom: 18px;
+  font-weight: 700;
+  line-height: 1.4;
+  margin-bottom: 0;
+  font-size: var(--sub-heading);
+  font-family: var(--fontFamily2);
+}
+
+.reliable-and-secure-content h3 {
+  font-size: var(--card-heading);
+  font-weight: 600;
+  margin-bottom: 12px;
+}
+
+/*================================================
+Our Process Area CSS
+=================================================*/
+.our-process-area {
+  padding-bottom: 20px;
+  position: relative;
+  z-index: 1;
+  overflow: hidden;
+}
+
+/* .reliable-and-secure-area .container {
+  padding-left: auto;
+  padding-right: 0;
+} */
+
+.our-process-content {
+  max-width: 650px;
+  position: relative;
+  /* top: -50px; */
+}
+
+.our-process-content h3 {
+  display: block;
+  font-size: var(--card-heading);
+  font-weight: 600;
+  margin-bottom: 12px;
+}
+.our-process-content p {
+  text-align: right;
+}
+.our-process-content h2 {
+  margin-bottom: 18px;
+  font-weight: 700;
+  line-height: 1.4;
+  margin-bottom: 0;
+  font-size: var(--sub-heading);
+  font-family: var(--fontFamily2);
+  text-align: right;
+}
+.our-process-content h2 .dot {
+  color: #029894;
+  font-family: Outfit;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 60px;
+}
+.our-process-image img {
+  margin: auto;
+  display: block;
+}
+.our-process-box {
+  padding: 11px 30px;
+}
+.our-process-box h3 {
+  color: var(--blackColor);
+  /* text-shadow: 1.0254536867141724px 1.0254536867141724px 1.0254536867141724px
+    rgba(0, 0, 0, 0.2); */
+  /* font-family: Poppins; */
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 37.327px; /* 130% */
+}
+.our-process-box .icon {
+  margin: 12px 0;
+  align-items: center;
+  z-index: 1;
+  position: relative;
+  width: 48px;
+  height: 48px;
 }

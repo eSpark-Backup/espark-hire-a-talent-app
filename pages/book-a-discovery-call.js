@@ -1,9 +1,16 @@
-import React from "react";
-import NewsletterForm2 from "@/components/Common/NewsletterForm2";
-import Link from "next/link";
-import { We_Adapt_To_Your_Need, data } from "constants/discovery_call_constant";
-import PartnerArea from "@/components/TechnologySolutions/PartnerArea";
-import Adapt from "@/components/Book_A_Discovery_Call/Adapt";
+import React from 'react';
+import NewsletterForm2 from '@/components/Common/NewsletterForm2';
+import {
+  Our_Process,
+  Reliable_And_Secure,
+  We_Adapt_To_Your_Need,
+  data,
+} from 'constants/discovery_call_constant';
+import Adapt from '@/components/Book_A_Discovery_Call/Adapt';
+import ReliableAndSecure from '@/components/Book_A_Discovery_Call/ReliableAndSecure';
+import OurProcess from '@/components/Book_A_Discovery_Call/OurProcess';
+import { sliderData } from 'constants/constants';
+import DiscoveryServices from '@/components/Book_A_Discovery_Call/DiscoveryServices';
 
 function DiscoveryCall() {
   const { heading, subHeading, list, text, subText, link } = data;
@@ -15,8 +22,8 @@ function DiscoveryCall() {
           <a href="/">
             <img
               src="/images/ThankyouPageLogo.png"
-              width={"157.983px"}
-              height={"74.775px"}
+              width={'157.983px'}
+              height={'74.775px'}
             />
           </a>
           <div>
@@ -52,6 +59,9 @@ function DiscoveryCall() {
         </div>
       </div>
       <Adapt data={We_Adapt_To_Your_Need} />
+      <ReliableAndSecure data={Reliable_And_Secure} />
+      <OurProcess data={Our_Process} />
+      {/* <DiscoveryServices items={sliderData} /> */}
       <NewsletterForm2 />
     </>
   );
