@@ -1872,6 +1872,15 @@
   .discovery-call-features ul li {
     font-size: 15px;
   }
+  .subscribe2-inner {
+    padding: 50px;
+    text-align: center;
+    background-color: var(--mainColor);
+    background-image: url(/images/shape/before-footer-updated.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
 }
 
 /* Min width 576px to Max width 767px */
@@ -2006,6 +2015,42 @@
   }
   .our-process-box {
     padding: 11px 0;
+  }
+  .Hiring-content-box {
+    display: flex;
+    flex-direction: column;
+  }
+  .Hiring-box {
+    /* width: 350.938px; */
+    /* height: 350px; */
+    border-radius: 107.465px;
+    background: #fff;
+    box-shadow: 0px 0px 7.86327px 0px rgba(0, 0, 0, 0.25);
+    padding: 25px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: auto;
+    /* margin-top: 22px; */
+    margin-bottom: 22px;
+  }
+  .Hiring-box p {
+    width: auto;
+    /* height: 170px; */
+    font-style: normal;
+    font-weight: 400;
+    line-height: 23px;
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+  .Hiring-text h1 {
+    font-size: 20px;
+    line-break: anywhere;
+    line-height: 22px;
+  }
+  .Hiring-number h1 {
+    font-size: 52px;
   }
 }
 
@@ -3215,6 +3260,38 @@
   .our-process-box {
     padding: 11px 0;
   }
+  .Hiring-box {
+    /* width: 350.938px; */
+    /* height: 400px; */
+    border-radius: 107.465px;
+    background: #fff;
+    box-shadow: 0px 0px 7.86327px 0px rgba(0, 0, 0, 0.25);
+    padding: 15px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: auto;
+    /* margin-top: 22px; */
+    margin-bottom: 22px;
+  }
+  .Hiring-box p {
+    width: auto;
+    height: 170px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 23px;
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+  .Hiring-text h1 {
+    font-size: 20px;
+    line-break: anywhere;
+    line-height: 22px;
+  }
+  .Hiring-number h1 {
+    font-size: 52px;
+  }
 }
 
 /* Min width 992px to Max width 1199px */
@@ -3831,6 +3908,38 @@
     margin-bottom: 5px;
     line-height: 1.7px;
   }
+  .Hiring-box {
+    /* width: 489.938px; */
+    /* height: 400px; */
+    border-radius: 107.465px;
+    background: #fff;
+    box-shadow: 0px 0px 7.86327px 0px rgba(0, 0, 0, 0.25);
+    padding: 40px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: auto;
+    /* margin-top: 22px; */
+    margin-bottom: 22px;
+  }
+  .Hiring-box p {
+    width: auto;
+    height: 180px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    padding-left: 15px;
+    /* padding-right: 50px; */
+  }
+  .Hiring-text h1 {
+    font-size: 23px;
+    line-break: anywhere;
+    line-height: 30px;
+  }
+  .Hiring-number h1 {
+    font-size: 75px;
+  }
 }
 
 /* Min width 1200px to Max width 1355px */
@@ -4079,6 +4188,38 @@
     margin-right: 0;
     margin-left: auto;
   }
+  .Hiring-box {
+    /* width: 489.938px; */
+    /* height: 400px; */
+    border-radius: 107.465px;
+    background: #fff;
+    box-shadow: 0px 0px 7.86327px 0px rgba(0, 0, 0, 0.25);
+    padding: 40px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: auto;
+    /* margin-top: 22px; */
+    margin-bottom: 22px;
+  }
+  .Hiring-box p {
+    width: auto;
+    height: 141.843px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    padding-left: 7px;
+    /* padding-right: 50px; */
+  }
+  .Hiring-text h1 {
+    font-size: 31px;
+    line-break: anywhere;
+    line-height: 35px;
+  }
+  .Hiring-number h1 {
+    font-size: 95px;
+  }
 }
 @media only screen and (min-width: 1356px) and (max-width: 1399px) {
   .single-blog-post .image .date {
@@ -4176,6 +4317,38 @@
     width: 400px;
     margin-left: auto;
   }
+  .Hiring-box {
+    /* width: 489.938px; */
+    /* height: 400px; */
+    border-radius: 107.465px;
+    background: #fff;
+    box-shadow: 0px 0px 7.86327px 0px rgba(0, 0, 0, 0.25);
+    padding: 40px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: auto;
+    /* margin-top: 22px; */
+    margin-bottom: 22px;
+  }
+  .Hiring-box p {
+    width: auto;
+    height: 141.843px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    padding-left: 7px;
+    /* padding-right: 50px; */
+  }
+  .Hiring-text h1 {
+    font-size: 31px;
+    line-break: anywhere;
+    line-height: 35px;
+  }
+  .Hiring-number h1 {
+    font-size: 95px;
+  }
 }
 
 @media only screen and (min-width: 1400px) and (max-width: 1549px) {
@@ -4246,6 +4419,32 @@
   }
   .our-process-image img {
     margin-right: 0;
+  }
+  .Hiring-box {
+    width: 489.938px;
+    height: 323.949px;
+    border-radius: 107.465px;
+    background: #fff;
+    box-shadow: 0px 0px 7.86327px 0px rgba(0, 0, 0, 0.25);
+    padding: 40px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 18px;
+  }
+  .Hiring-box p {
+    width: auto;
+    font-style: normal;
+    /* font-weight: 400; */
+    line-height: 30px;
+    padding-left: 25px;
+    padding-right: 20px;
+  }
+  .Hiring-text h1 {
+    line-break: anywhere;
   }
 }
 
@@ -4408,6 +4607,32 @@
     width: 500px;
     /* margin-left: auto; */
   }
+  .Hiring-box {
+    width: 489.938px;
+    height: 323.949px;
+    border-radius: 107.465px;
+    background: #fff;
+    box-shadow: 0px 0px 7.86327px 0px rgba(0, 0, 0, 0.25);
+    padding: 40px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 18px;
+  }
+  .Hiring-box p {
+    width: auto;
+    font-style: normal;
+    /* font-weight: 400; */
+    line-height: 30px;
+    padding-left: 25px;
+    padding-right: 20px;
+  }
+  .Hiring-text h1 {
+    line-break: anywhere;
+  }
   /* End "Cybersecurity Demo Responsive, Cryptocurrency Demo Responsive & ICO Landing Demo Responsive" */
 }
 
@@ -4533,6 +4758,32 @@
   .our-process-content p {
     width: 500px;
     /* margin-left: auto; */
+  }
+  .Hiring-box {
+    width: 489.938px;
+    height: 323.949px;
+    border-radius: 107.465px;
+    background: #fff;
+    box-shadow: 0px 0px 7.86327px 0px rgba(0, 0, 0, 0.25);
+    padding: 40px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 18px;
+  }
+  .Hiring-box p {
+    width: auto;
+    font-style: normal;
+    /* font-weight: 400; */
+    line-height: 30px;
+    padding-left: 25px;
+    padding-right: 20px;
+  }
+  .Hiring-text h1 {
+    line-break: anywhere;
   }
 }
 
