@@ -13,11 +13,10 @@ const NewsletterForm2 = () => {
             <div className="subscribe2-inner">
               {/* <span className="sub-title">READY TO GET STARTED</span> */}
               <h1>
-                Boosts Your Company Faster <br /> with Amazing eSpark Talent
+              Connect With eSpark Talent & Uplift The Professional<br /> Performance of Your Business Now! 
               </h1>
               <p>
-                Connect with skilled interviewers who will help <br /> you find
-                the right people for your company's growth.
+              Get in touch with skilled interviewers who will help  <br /> you find the right people for your company's growth
               </p>
               {gettingPath === "/thankyou" ? null : (
                 <div className="newsletter-form">
