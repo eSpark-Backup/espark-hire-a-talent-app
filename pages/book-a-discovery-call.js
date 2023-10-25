@@ -15,6 +15,8 @@ import { sliderData } from 'constants/constants';
 import DiscoveryServices from '@/components/Book_A_Discovery_Call/DiscoveryServices';
 import MeetTheTeam from '@/components/Book_A_Discovery_Call/MeetTheTeam';
 import Hiring from '@/components/Book_A_Discovery_Call/Hiring';
+import GetTalent from '@/components/Book_A_Discovery_Call/GetTalent';
+import ClientFeedback from '@/components/Book_A_Discovery_Call/ClientFeedback';
 
 function DiscoveryCall() {
   const { heading, subHeading, list, text, subText, link } = data;
@@ -65,9 +67,11 @@ function DiscoveryCall() {
       <Adapt data={We_Adapt_To_Your_Need} />
       <ReliableAndSecure data={Reliable_And_Secure} />
       <OurProcess data={Our_Process} />
-      {/* <DiscoveryServices items={sliderData} /> */}
-      <MeetTheTeam data={Meet_The_Team} />
+      <DiscoveryServices items={sliderData} />
       <Hiring data={Hiring_data} />
+      <MeetTheTeam data={Meet_The_Team} />
+      <GetTalent />
+      <ClientFeedback />
       <NewsletterForm2 />
     </>
   );
