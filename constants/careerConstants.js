@@ -2,7 +2,7 @@ export const jobInfo = [
   {
     heading: "Senior .Net Developer",
     description:
-      "eSpark Talent is looking for a Senior .NET Developer who is a seasoned professional with in -depth knowledge and expertise in developing web applications using ASP.NET, .NET Core, and .NET Entity Framework.They should also be proficient in working with Microservices architecture, Razor Pages, and have experience with various databases, including SQLite.",
+      "eSpark Talent is looking for a Senior .NET Developer who is a seasoned professional with in -depth knowledge and expertise in developing web applications using ASP.NET, .NET Core, and .NET Entity Framework. They should also be proficient in working with Microservices architecture, Razor Pages, and have experience with various databases, including SQLite.",
     link: "https://form.jotform.com/232952694147465",
     date: "2023/10/23",
     location: ["Karachi", "Pakistan"],
