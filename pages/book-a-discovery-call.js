@@ -1,6 +1,8 @@
 import React from 'react';
 import NewsletterForm2 from '@/components/Common/NewsletterForm2';
 import {
+  Hiring_data,
+  Meet_The_Team,
   Our_Process,
   Reliable_And_Secure,
   We_Adapt_To_Your_Need,
@@ -11,6 +13,8 @@ import ReliableAndSecure from '@/components/Book_A_Discovery_Call/ReliableAndSec
 import OurProcess from '@/components/Book_A_Discovery_Call/OurProcess';
 import { sliderData } from 'constants/constants';
 import DiscoveryServices from '@/components/Book_A_Discovery_Call/DiscoveryServices';
+import MeetTheTeam from '@/components/Book_A_Discovery_Call/MeetTheTeam';
+import Hiring from '@/components/Book_A_Discovery_Call/Hiring';
 
 function DiscoveryCall() {
   const { heading, subHeading, list, text, subText, link } = data;
@@ -62,6 +66,8 @@ function DiscoveryCall() {
       <ReliableAndSecure data={Reliable_And_Secure} />
       <OurProcess data={Our_Process} />
       {/* <DiscoveryServices items={sliderData} /> */}
+      <MeetTheTeam data={Meet_The_Team} />
+      <Hiring data={Hiring_data} />
       <NewsletterForm2 />
     </>
   );
