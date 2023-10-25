@@ -22,26 +22,25 @@ export const personsData = [
 ];
 
 export const listItem = [
-  "Save on Your Tech Stack With One HR and payroll platform",
-  "Reduce onboarding time to just 5 minutes",
-  "Eliminate errors and duplicate work with one process",
-  "Get a holistic view of employer costs, headcount and churn",
-  "Give your whole team a consistent experience",
+  "eSpark Talent is packed with experienced embedded systems",
+  "developers, clever database developers, dedicated QA engineers,",
+  "creative digital marketers, and inventive web development specialists.",
+  "So, say yes to our IT outsourcing services and hire them now!​",
 ];
 export const teamData = {
-  title: "Enjoy the benefits of having everything in a single platform",
+  title: "We Offer All IT Experts in A Single Platform With Our Top Employee Outsourcing Solutions",
   subTitle: "OUR EXPERTS",
   buttonText: "Schedule a Meeting",
 };
 export const bannerData = [
   {
     id: 1,
-    subTitle: "Supercharge your expert team-building with eSparkTalent!",
-    title: "Supercharge your expert team-building with eSparkTalent!",
-    para: "With eSpark, your business can easily hire employees in Pakistan. No more worrying about local laws, complex tax systems, or managing international payroll. eSpark takes care of everything in 50+ countries.​",
+    subTitle: "Thrive Your Business With eSpark Talent’s Advanced Global Recruitment And Onboarding Solutions.",
+    title: "Thrive Your Business With eSpark Talent’s Advanced Global Recruitment And Onboarding Solutions.",
+    para: "Are you in search of instant hiring & immediate IT outsourcing services? eSpark Talent, the leading HR outsourcing solutions provider is here for assistance to lower workload and boost your business’s performance worldwide.​",
     imagePath: "/images/banner-img.png",
     link: "/contact",
-    buttonText: "Find a Talent",
+    buttonText: "Hire a Talent",
     altTag:
       "Global Recruitment - global recruitment agency - worldwide recruiting agency - global recruitment services - global recruitment solutions - eSpark Talent",
   },
@@ -163,28 +162,28 @@ export const sliderData = [
                 title: "Tell Us What You Need​",
                 arrowPath: "/images/crypto-startup/platforms/arrow-1.png",
                 paragraph:
-                  "Let us know your requirements, so we can find the perfect fit for your team.",
+                  "Share your employee outsourcing requirements, so we can hunt the best talent for your business.​",
               },
               {
                 icon: "/images/crypto-startup/platforms/Conversation.png",
                 title: "Talk to Our HR Team​",
                 arrowPath: "/images/crypto-startup/platforms/arrow-2.png",
                 paragraph:
-                  "Schedule a meeting with our HR experts to plan the best approach for your business.",
+                  "Schedule a meeting with our HR outsourcing experts to furnish the best talent for your company.",
               },
               {
                 icon: "/images/crypto-startup/platforms/platforms-2.png",
                 title: "Meet Interview Pros",
                 arrowPath: "/images/crypto-startup/platforms/arrow-1.png",
                 paragraph:
-                  "Connect with skilled interviewers who will help you find the right people for your company's growth.",
+                  "Connect with skilled interviewers to find the right IT Outsourcing team to back your company with diligence.",
               },
               {
                 icon: "/images/crypto-startup/platforms/Meeting.png",
-                title: "Onboarding",
+                title: "Onboard Employees",
                 arrowPath: "/images/crypto-startup/platforms/arrow-1.png",
                 paragraph:
-                  " Ensuring a smooth transition for new hires into your organization.",
+                  " Get your intended IT professionals with a smooth transition through our fast HR outsourcing assistance.",
               },
             ],
           },
@@ -350,28 +349,28 @@ export const sliderData = [
                 title: "Tell Us What You Need​",
                 arrowPath: "/images/crypto-startup/platforms/arrow-1.png",
                 paragraph:
-                  "Let us know your requirements, so we can find the perfect fit for your team.",
+                  "Share your employee outsourcing requirements, so we can hunt the best talent for your business.​",
               },
               {
                 icon: "/images/crypto-startup/platforms/Conversation.png",
                 title: "Talk to Our HR Team​",
                 arrowPath: "/images/crypto-startup/platforms/arrow-2.png",
                 paragraph:
-                  "Schedule a meeting with our HR experts to plan the best approach for your business.",
+                  "Schedule a meeting with our HR outsourcing experts to furnish the best talent for your company.",
               },
               {
                 icon: "/images/crypto-startup/platforms/platforms-2.png",
                 title: "Meet Interview Pros",
                 arrowPath: "/images/crypto-startup/platforms/arrow-1.png",
                 paragraph:
-                  "Connect with skilled interviewers who will help you find the right people for your company's growth.",
+                  "Connect with skilled interviewers to find the right IT Outsourcing team to back your company with diligence.",
               },
               {
                 icon: "/images/crypto-startup/platforms/Meeting.png",
-                title: "Onboarding",
+                title: "Onboard Employees",
                 arrowPath: "/images/crypto-startup/platforms/arrow-1.png",
                 paragraph:
-                  " Ensuring a smooth transition for new hires into your organization.",
+                  " Get your intended IT professionals with a smooth transition through our fast HR outsourcing assistance.",
               },
             ],
           },
@@ -544,28 +543,28 @@ export const sliderData = [
                 title: "Tell Us What You Need​",
                 arrowPath: "/images/crypto-startup/platforms/arrow-1.png",
                 paragraph:
-                  "Let us know your requirements, so we can find the perfect fit for your team.",
+                  "Share your employee outsourcing requirements, so we can hunt the best talent for your business.​",
               },
               {
                 icon: "/images/crypto-startup/platforms/Conversation.png",
                 title: "Talk to Our HR Team​",
                 arrowPath: "/images/crypto-startup/platforms/arrow-2.png",
                 paragraph:
-                  "Schedule a meeting with our HR experts to plan the best approach for your business.",
+                  "Schedule a meeting with our HR outsourcing experts to furnish the best talent for your company.",
               },
               {
                 icon: "/images/crypto-startup/platforms/platforms-2.png",
                 title: "Meet Interview Pros",
                 arrowPath: "/images/crypto-startup/platforms/arrow-1.png",
                 paragraph:
-                  "Connect with skilled interviewers who will help you find the right people for your company's growth.",
+                  "Connect with skilled interviewers to find the right IT Outsourcing team to back your company with diligence.",
               },
               {
                 icon: "/images/crypto-startup/platforms/Meeting.png",
-                title: "Onboarding",
+                title: "Onboard Employees",
                 arrowPath: "/images/crypto-startup/platforms/arrow-1.png",
                 paragraph:
-                  " Ensuring a smooth transition for new hires into your organization.",
+                  " Get your intended IT professionals with a smooth transition through our fast HR outsourcing assistance.",
               },
             ],
           },
@@ -708,28 +707,28 @@ export const sliderData = [
                 title: "Tell Us What You Need​",
                 arrowPath: "/images/crypto-startup/platforms/arrow-1.png",
                 paragraph:
-                  "Let us know your requirements, so we can find the perfect fit for your team.",
+                  "Share your employee outsourcing requirements, so we can hunt the best talent for your business.​",
               },
               {
                 icon: "/images/crypto-startup/platforms/Conversation.png",
                 title: "Talk to Our HR Team​",
                 arrowPath: "/images/crypto-startup/platforms/arrow-2.png",
                 paragraph:
-                  "Schedule a meeting with our HR experts to plan the best approach for your business.",
+                  "Schedule a meeting with our HR outsourcing experts to furnish the best talent for your company.",
               },
               {
                 icon: "/images/crypto-startup/platforms/platforms-2.png",
                 title: "Meet Interview Pros",
                 arrowPath: "/images/crypto-startup/platforms/arrow-1.png",
                 paragraph:
-                  "Connect with skilled interviewers who will help you find the right people for your company's growth.",
+                  "Connect with skilled interviewers to find the right IT Outsourcing team to back your company with diligence.",
               },
               {
                 icon: "/images/crypto-startup/platforms/Meeting.png",
-                title: "Onboarding",
+                title: "Onboard Employees",
                 arrowPath: "/images/crypto-startup/platforms/arrow-1.png",
                 paragraph:
-                  " Ensuring a smooth transition for new hires into your organization.",
+                  " Get your intended IT professionals with a smooth transition through our fast HR outsourcing assistance.",
               },
             ],
           },
@@ -895,28 +894,28 @@ export const sliderData = [
                 title: "Tell Us What You Need​",
                 arrowPath: "/images/crypto-startup/platforms/arrow-1.png",
                 paragraph:
-                  "Let us know your requirements, so we can find the perfect fit for your team.",
+                  "Share your employee outsourcing requirements, so we can hunt the best talent for your business.​",
               },
               {
                 icon: "/images/crypto-startup/platforms/Conversation.png",
                 title: "Talk to Our HR Team​",
                 arrowPath: "/images/crypto-startup/platforms/arrow-2.png",
                 paragraph:
-                  "Schedule a meeting with our HR experts to plan the best approach for your business.",
+                  "Schedule a meeting with our HR outsourcing experts to furnish the best talent for your company.",
               },
               {
                 icon: "/images/crypto-startup/platforms/platforms-2.png",
                 title: "Meet Interview Pros",
                 arrowPath: "/images/crypto-startup/platforms/arrow-1.png",
                 paragraph:
-                  "Connect with skilled interviewers who will help you find the right people for your company's growth.",
+                  "Connect with skilled interviewers to find the right IT Outsourcing team to back your company with diligence.",
               },
               {
                 icon: "/images/crypto-startup/platforms/Meeting.png",
-                title: "Onboarding",
+                title: "Onboard Employees",
                 arrowPath: "/images/crypto-startup/platforms/arrow-1.png",
                 paragraph:
-                  " Ensuring a smooth transition for new hires into your organization.",
+                  " Get your intended IT professionals with a smooth transition through our fast HR outsourcing assistance.",
               },
             ],
           },
@@ -1046,28 +1045,28 @@ export const sliderData = [
                 title: "Tell Us What You Need​",
                 arrowPath: "/images/crypto-startup/platforms/arrow-1.png",
                 paragraph:
-                  "Let us know your requirements, so we can find the perfect fit for your team.",
+                  "Share your employee outsourcing requirements, so we can hunt the best talent for your business.​",
               },
               {
                 icon: "/images/crypto-startup/platforms/Conversation.png",
                 title: "Talk to Our HR Team​",
                 arrowPath: "/images/crypto-startup/platforms/arrow-2.png",
                 paragraph:
-                  "Schedule a meeting with our HR experts to plan the best approach for your business.",
+                  "Schedule a meeting with our HR outsourcing experts to furnish the best talent for your company.",
               },
               {
                 icon: "/images/crypto-startup/platforms/platforms-2.png",
                 title: "Meet Interview Pros",
                 arrowPath: "/images/crypto-startup/platforms/arrow-1.png",
                 paragraph:
-                  "Connect with skilled interviewers who will help you find the right people for your company's growth.",
+                  "Connect with skilled interviewers to find the right IT Outsourcing team to back your company with diligence.",
               },
               {
                 icon: "/images/crypto-startup/platforms/Meeting.png",
-                title: "Onboarding",
+                title: "Onboard Employees",
                 arrowPath: "/images/crypto-startup/platforms/arrow-1.png",
                 paragraph:
-                  " Ensuring a smooth transition for new hires into your organization.",
+                  " Get your intended IT professionals with a smooth transition through our fast HR outsourcing assistance.",
               },
             ],
           },
@@ -1082,7 +1081,7 @@ export const sliderData = [
   },
 ];
 
-export const BudgetTitle = "Save Your Time & Budget";
+export const BudgetTitle = "Browse Through Our HR Outsourcing IT Domains";
 export const BudgetPara =
   "Experience the best global tech talent and enjoy the tech world without getting exhausted through the hiring process. Hire an expert developer, designer and engineer now.";
 
@@ -1092,7 +1091,7 @@ export const platFormItems = [
     title: "Tell Us What You Need​",
     arrowLink: "/images/crypto-startup/platforms/arrow-1.png",
     content:
-      "Let us know your requirements, so we can find the perfect fit for your team.",
+      "Share your employee outsourcing requirements, so we can hunt the best talent for your business.​",
     altTag:
       "Global Recruitment - global recruitment agency - worldwide recruiting agency - global recruitment services - global recruitment solutions - eSpark Talent",
   },
@@ -1101,7 +1100,7 @@ export const platFormItems = [
     title: "Talk to Our HR Team​​​",
     arrowLink: "/images/crypto-startup/platforms/arrow-2.png",
     content:
-      "Schedule a meeting with our HR experts to plan the best approach for your business.",
+      "Schedule a meeting with our HR outsourcing experts to furnish the best talent for your company.",
     altTag:
       "Global Recruitment - global recruitment agency - worldwide recruiting agency - global recruitment services - global recruitment solutions - eSpark Talent",
   },
@@ -1110,16 +1109,16 @@ export const platFormItems = [
     title: "Meet Interview Pros",
     arrowLink: "/images/crypto-startup/platforms/arrow-1.png",
     content:
-      "Connect with skilled interviewers who will help you find the right people for your company's growth.",
+      "Connect with skilled interviewers to find the right IT Outsourcing team to back your company with diligence.",
     altTag:
       "Global Recruitment - global recruitment agency - worldwide recruiting agency - global recruitment services - global recruitment solutions - eSpark Talent",
   },
   {
     imageLink: "/images/crypto-startup/platforms/Meeting.png",
-    title: "Onboarding",
+    title: "Onboard Employees",
     arrowLink: "/images/crypto-startup/platforms/arrow-1.png",
     content:
-      " Ensuring a smooth transition for new hires into your organization.",
+      " Get your intended IT professionals with a smooth transition through our fast HR outsourcing assistance.",
     altTag:
       "Global Recruitment - global recruitment agency - worldwide recruiting agency - global recruitment services - global recruitment solutions - eSpark Talent",
   },
@@ -1153,14 +1152,14 @@ export const platFormItems = [
 //     imageLink: "/images/crypto-startup/platforms/Meeting.png",
 //   },
 // ];
-export const title = "How It Works?";
+export const title = "How To Avail eSpark Talent’s Employee Outsourcing Services?  ";
 export const content =
   "Our screening process is automatically started from gathering your applications and providing you a job description that is tailored  according to your needs.";
 
 export const aboutTitle =
-  "eSpark The only HR platform with everything you need, for everyone!​";
+  "Welcome to eSpark Talent’s HR Outsourcing Services - Hire A Talent Within 24 Hours!";
 export const aboutContent =
-  "We're making global team management so easy, business don't need to think twice. Whether you want to hire contractors and employees worldwide without opening legal entities, streamline HR for your global team, or consolidate payroll for everyone";
+  "eSpark Talent’s IT outsourcing services are 24/7 active to offer innovative and professional teams of web developers, mobile app developers. embedded developers, and database developers. Don’t need to think twice, as our master QA engineers, and genius digital marketers got your back during every business endeavor.";
 export const aboutItems = [
   {
     item: "24/7 Active Service​",
