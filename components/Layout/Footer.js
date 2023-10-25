@@ -64,10 +64,11 @@ const Footer = () => {
                 <br />
                 <br />
                 <p>
-                  Our guaranteed top-tier service and industry-leading worldwide
-                  coverage provides peace of mind for any global team. With
-                  eSpark Talent next-level automation and in-house
-                  infrastructure, quality always comes first for our customers.
+                  eSpark Talent makes team management easy. With the most
+                  advanced & sustainable global recruitment solutions, we offer
+                  agile and diligent employees through instant HR outsourcing
+                  services. Let’s convert your company into a business giant
+                  together!
                 </p>
                 <ul className="social-links">
                   {socialLinks.map((item, index) => (
