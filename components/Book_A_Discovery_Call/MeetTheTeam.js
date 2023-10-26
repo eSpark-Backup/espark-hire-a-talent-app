@@ -1,4 +1,4 @@
-import React from "react";
+import React from 'react';
 
 const MeetTheTeam = ({ data }) => {
   const { heading, items } = data;
