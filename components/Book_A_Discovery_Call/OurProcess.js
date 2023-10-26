@@ -5,7 +5,7 @@ const OurProcess = ({ data }) => {
     <div className="our-process-area">
       <div className="container">
         <div className="row align-items-center">
-          <div className="col-lg-5 col-md-6 col-sm-12 mx-auto">
+          <div className="col-xl-5 col-lg-5 col-md-6 col-sm-12 mx-auto">
             <div
               className="our-process-image"
               data-aos="fade-up"
@@ -15,17 +15,17 @@ const OurProcess = ({ data }) => {
               <img src={image} alt="image" />
             </div>
           </div>
-          <div className="col-lg-5 col-md-6 col-sm-12 mx-auto">
+          <div className="col-xl-6 col-lg-5 col-md-6 col-sm-12 mx-auto">
             <div
               className="our-process-content"
               data-aos="fade-left"
               data-aos-duration="1200"
               data-aos-once="true"
             >
-              <h2>
+              <h1>
                 {subHeading}
                 {subHeading ? <span className="dot">.</span> : null}
-              </h2>
+              </h1>
               <p>{description}</p>
             </div>
           </div>

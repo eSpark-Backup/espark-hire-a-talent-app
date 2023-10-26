@@ -4,20 +4,19 @@ import Link from 'next/link';
 const DiscoveryServices = ({ title, para, items }) => {
   return (
     <>
-      <div className="services-area ptb-70">
-        <div className="container-xl">
+      <div className="services-area ptb-70 pt-0">
+        <div className="container-fluid">
           <div className="section-title">
             <h2 className="fw-semibold">{title}</h2>
             <p>{para}</p>
           </div>
-          <div className="row justify-content-center">
+          <div className="row justify-content-center gap-3">
             {items?.map((eachCard, i) => (
               <div
                 key={i}
                 className={
-                  eachCard.homeComponent
-                    ? 'col-lg-4 single-services-item with-boxshadow size-change'
-                    : 'col-lg-4 single-services-item with-boxshadow'
+                  // 'col-xl-3 col-lg-3 col-md-5 col-sm-4  single-services-item with-boxshadow size-change'
+                  'col-xl-3 col-lg-3 col-md-5 col-sm-4  single-services-item with-boxshadow'
                 }
               >
                 <div className="d-flex align-items-center">

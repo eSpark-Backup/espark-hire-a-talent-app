@@ -9839,12 +9839,13 @@ subscribe2 Area CSS
   align-items: center;
   padding-top: 85px;
   padding-bottom: 85px;
+  font-family: Poppins;
 }
 .discovery-call-header .discovery-call-heading-1 {
   color: #fff;
   text-align: center;
   text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.4);
-  /* font-family: Montserrat; */
+  font-family: Poppins;
   font-size: 40px;
   font-style: normal;
   line-height: 28px;
@@ -9859,6 +9860,7 @@ subscribe2 Area CSS
   font-style: normal;
   font-weight: 600;
   line-height: 45.5px; /* 130% */
+  font-family: Poppins;
 }
 .discovery-call-features {
   border-radius: 10px;
@@ -9877,6 +9879,7 @@ subscribe2 Area CSS
   font-style: normal;
   font-weight: 700;
   line-height: 37.327px; /* 130% */
+  font-family: Poppins;
 }
 .discovery-call-features ul li {
   color: #fff;
@@ -9884,6 +9887,7 @@ subscribe2 Area CSS
   font-style: normal;
   font-weight: 400;
   line-height: 26.662px; /* 130% */
+  font-family: Poppins;
 }
 .discovery-call-img img {
   width: 609.567px;
@@ -9926,6 +9930,7 @@ subscribe2 Area CSS
   font-style: normal;
   font-weight: 700;
   line-height: normal;
+  font-family: Poppins;
 }
 .discovery-call-button .limited-free {
   color: #fff;
@@ -9936,6 +9941,7 @@ subscribe2 Area CSS
   font-style: normal;
   font-weight: 400;
   line-height: normal;
+  font-family: Poppins;
 }
 /* discovery-call Styling Finish Here. */
 
@@ -9950,6 +9956,7 @@ We adapt to your needs Area CSS
   width: 100%;
   height: 100%;
   padding: 60px;
+  font-family: Poppins;
   position: relative;
   z-index: 1;
 }
@@ -9970,7 +9977,7 @@ We adapt to your needs Area CSS
   margin-bottom: 10px;
   font-size: 40px;
   font-weight: 700 !important;
-  font-family: var(--fontFamily2);
+  font-family: Poppins;
 }
 .we-adapt-to-your-need-content .logo {
   width: 48px;
@@ -9978,7 +9985,7 @@ We adapt to your needs Area CSS
 }
 .we-adapt-to-your-need-content h2 .dot {
   color: #029894;
-  font-family: Outfit;
+  font-family: Poppins;
   font-size: 48px;
   font-style: normal;
   font-weight: 500;
@@ -10167,25 +10174,28 @@ Reliable And Secure Area CSS
   max-width: 650px;
   position: relative;
   top: -50px;
+  font-family: Outfit;
 }
 
 .reliable-and-secure-content h3 {
   display: block;
+  font-family: Outfit;
 }
 
 .reliable-and-secure-content h2 {
   margin-bottom: 18px;
-  font-weight: 700;
+  font-weight: 500 !important;
   line-height: 1.4;
   margin-bottom: 0;
-  font-size: var(--sub-heading);
-  font-family: var(--fontFamily2);
+  font-size: 87px;
+  font-family: Outfit;
 }
 
 .reliable-and-secure-content h3 {
-  font-size: var(--card-heading);
-  font-weight: 600;
+  font-size: 35px;
+  font-family: Outfit;
   margin-bottom: 12px;
+  font-weight: 400;
 }
 
 /*================================================
@@ -10214,23 +10224,26 @@ Our Process Area CSS
   font-size: var(--card-heading);
   font-weight: 600;
   margin-bottom: 12px;
+  font-family: Outfit;
 }
 .our-process-content p {
   text-align: right;
+  font-family: Outfit;
+  font-weight: 400;
 }
-.our-process-content h2 {
+.our-process-content h1 {
   margin-bottom: 18px;
-  font-weight: 700;
+  font-weight: 500;
   line-height: 1.4;
   margin-bottom: 0;
   font-size: var(--sub-heading);
-  font-family: var(--fontFamily2);
+  font-family: Outfit;
   text-align: right;
 }
-.our-process-content h2 .dot {
+.our-process-content h1 .dot {
   color: #029894;
   font-family: Outfit;
-  font-size: 48px;
+  font-size: 87px;
   font-style: normal;
   font-weight: 500;
   line-height: 60px;
@@ -10250,6 +10263,7 @@ Our Process Area CSS
   font-size: 22px;
   font-style: normal;
   font-weight: 700;
+  font-family: Outfit;
   line-height: 37.327px; /* 130% */
 }
 .our-process-box .icon {
@@ -10264,6 +10278,14 @@ Our Process Area CSS
 /*================================================
 Meet The Team Area CSS
 =================================================*/
+.meet-the-team-area h2 {
+  text-align: center;
+  font-family: Outfit;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 53.3px; /* 111.042% */
+}
 
 .meet-the-team-box {
   text-align: center;
@@ -10276,10 +10298,14 @@ Meet The Team Area CSS
 
 .meet-the-team-box .content h3 {
   margin-bottom: 8px;
-  font-size: 22px;
+  /* font-size: 22px; */
   font-style: normal;
-  font-weight: 700;
+  /* font-weight: 700; */
   line-height: 37.327px;
+  font-family: Outfit;
+font-size: 24px;
+font-style: normal;
+font-weight: 700;
 }
 
 /*================================================
@@ -10302,6 +10328,18 @@ Hiring Area CSS
   font-style: normal;
   font-weight: 700;
   line-height: 41.675px; /* 96.364% */
+}
+.Hiring-area h2 {
+  color: #09114a;
+  text-align: center;
+  font-family: Outfit;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 53.3px; /* 111.042% */
+}
+.Hiring-area p {
+  font-family: Outfit;
 }
 
 /*================================================
@@ -10352,4 +10390,119 @@ get talent Area CSS
 .get-talent-content .newsletter-form button:hover {
   background-color: var(--blackColor);
   color: var(--whiteColor);
+}
+
+/*================================================
+client feedback Area CSS
+=================================================*/
+
+.client-feedback {
+  display: flex;
+  /* width: 1110.902px; */
+  margin: auto;
+  height: 581.057px;
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 0;
+  background-color: #ffffff00;
+  /* box-shadow: 10px 25px 25px 7px rgba(0, 0, 0, 0.1); */
+}
+.client-feedback .swiper-button-prev {
+  color: transparent;
+  background-image: url(/images/discovery_call/pre.png);
+  width: 55.362px;
+  height: 55.362px;
+  top: auto;
+  bottom: 15px;
+  left: auto;
+  right: 820px;
+  background-repeat: no-repeat;
+}
+.client-feedback .swiper-button-next {
+  color: transparent;
+  background-image: url(/images/discovery_call/next.png);
+  width: 55.362px;
+  height: 55.362px;
+  top: auto;
+  bottom: 15px;
+  left: 820px;
+  right: auto;
+  background-repeat: no-repeat;
+}
+.swiper-pagination-bullets,
+.swiper-pagination-bullets.swiper-pagination-horizontal,
+.swiper-pagination-custom,
+.swiper-pagination-fraction {
+  bottom: 29px !important;
+  left: 0;
+  right: 0;
+  width: 11% !important;
+  gap: auto;
+  justify-content: space-around;
+  display: flex;
+  margin: auto;
+}
+.client-feedback .swiper-pagination-bullet {
+  width: 20px;
+  height: 20px;
+  background: #c7c7c7;
+}
+.client-feedback .swiper-pagination-bullet-active {
+  background: #00718a;
+}
+.client-feedback-card {
+  /* width: 1110.902px; */
+  /* min-height: 100%; */
+  /* min-height: 441.057px; */
+  /* box-shadow: 0px 45.38903px 96.57241px 0px rgba(0, 0, 0, 0.24); */
+  justify-content: center;
+  display: flex;
+  box-shadow: 0px 45px 65px 0px rgba(0, 0, 0, 0.24);
+}
+.client-feedback-card .feedback-bg {
+  background-color: #3b5998;
+  width: 52%;
+  height: 100%;
+  z-index: 1;
+  position: absolute;
+  left: 0;
+}
+.client-feedback-card .feedback-img {
+  position: relative;
+  z-index: 2;
+}
+.feedback-rating-ul {
+  list-style-type: none;
+  display: flex;
+  padding-left: 0;
+  margin-bottom: 8px;
+  gap: 4px;
+}
+.feedback-content {
+  padding: 20px;
+  padding-top: 0 !important;
+}
+.feedback-content h1 {
+  color: #525252;
+  font-family: var(--fontFamily);
+  font-size: 39.509px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-bottom: 0;
+}
+.feedback-content h2 {
+  color: #525252;
+  font-family: var(--fontFamily);
+  font-size: 30.213px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.feedback-content p {
+  text-align: justify;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 150%;
+  padding-right: 40px;
 }
