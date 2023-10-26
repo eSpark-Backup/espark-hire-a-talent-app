@@ -4,7 +4,7 @@ const MeetTheTeam = ({ data }) => {
   const { heading, items } = data;
   return (
     <>
-      <div className="meet-the-team-area pt-70 pb-70">
+      <div className="MeetTheTeam meet-the-team-area pt-70 pb-70">
         <div className="container">
           <div className="section-title style-two">
             <div className="row align-items-center justify-content-center">
