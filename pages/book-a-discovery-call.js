@@ -1,11 +1,13 @@
 import React from 'react';
 import NewsletterForm2 from '@/components/Common/NewsletterForm2';
 import {
+  ClientFeedbackData,
   Hiring_data,
   Meet_The_Team,
   Our_Process,
   Reliable_And_Secure,
   We_Adapt_To_Your_Need,
+  clientFeedbackData,
   data,
 } from 'constants/discovery_call_constant';
 import Adapt from '@/components/Book_A_Discovery_Call/Adapt';
@@ -71,8 +73,7 @@ function DiscoveryCall() {
       <Hiring data={Hiring_data} />
       <MeetTheTeam data={Meet_The_Team} />
       <GetTalent />
-      <ClientFeedback />
-      <NewsletterForm2 />
+      <ClientFeedback data={ClientFeedbackData} />
     </>
   );
 }
