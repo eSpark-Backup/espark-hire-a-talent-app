@@ -4,7 +4,7 @@ import Link from 'next/link';
 const DiscoveryServices = ({ title, para, items }) => {
   return (
     <>
-      <div className="services-area ptb-70 pt-0">
+      <div className="DiscoveryServices services-area ptb-70 pt-0">
         <div className="container-fluid">
           <div className="section-title">
             <h2 className="fw-semibold">{title}</h2>

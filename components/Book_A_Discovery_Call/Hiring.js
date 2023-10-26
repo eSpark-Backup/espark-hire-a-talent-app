@@ -1,11 +1,11 @@
 import React from 'react';
 
-const Hiring = ({ data }) => {
+const HiringTab = ({ data }) => {
   const { heading, description, items } = data;
   console.log(heading, 'ad');
   return (
     <>
-      <div className="Hiring-area pb-70">
+      <div className="HiringTab Hiring-area pb-70">
         <div className="container-xl">
           <div className="section-title style-two">
             <div className="row align-items-center justify-content-center">
@@ -48,4 +48,4 @@ const Hiring = ({ data }) => {
   );
 };
 
-export default Hiring;
+export default HiringTab;
