@@ -1,5 +1,5 @@
-import Link from "next/link";
-import React from "react";
+import Link from 'next/link';
+import React from 'react';
 
 const Adapt = ({ data }) => {
   const { cardHeading, image, listItem, text, link } = data;
@@ -9,7 +9,7 @@ const Adapt = ({ data }) => {
       <div className="we-adapt-to-your-need-aera">
         <div className="container">
           <div className="row align-items-center justify-content-center">
-            <div className="col-xl-5 col-lg-4 col-md-8">
+            <div className="col-xl-5 col-lg-4 col-md-7">
               <div
                 className="we-adapt-to-your-need-image"
                 data-aos="fade-up"
