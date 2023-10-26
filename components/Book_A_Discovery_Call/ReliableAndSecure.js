@@ -5,7 +5,7 @@ const ReliableAndSecure = ({ data }) => {
   const { title, subHeading, description, image } = data;
   return (
     <>
-      <div className="reliable-and-secure-area">
+      <div className="ReliableAndSecure reliable-and-secure-area">
         <div className="container">
           <div className="row align-items-center">
             <div className="col-lg-6 col-md-6 col-sm-10 mx-auto">

@@ -3,7 +3,7 @@ import React from 'react';
 
 const GetTalent = ({ data }) => {
   return (
-    <div className="subscribe2-area pt-0">
+    <div className="GetTalent subscribe2-area pt-0">
       <div className="container-fluid px-0">
         <div className="get-talent">
           <div className="get-talent-content">
