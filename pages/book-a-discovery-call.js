@@ -10,13 +10,13 @@ import {
   clientFeedbackData,
   data,
 } from 'constants/discovery_call_constant';
-import Adapt from '@/components/Book_A_Discovery_Call/Adapt';
+import AdaptTab from '@/components/Book_A_Discovery_Call/Adapt';
 import ReliableAndSecure from '@/components/Book_A_Discovery_Call/ReliableAndSecure';
 import OurProcess from '@/components/Book_A_Discovery_Call/OurProcess';
 import { sliderData } from 'constants/constants';
 import DiscoveryServices from '@/components/Book_A_Discovery_Call/DiscoveryServices';
 import MeetTheTeam from '@/components/Book_A_Discovery_Call/MeetTheTeam';
-import Hiring from '@/components/Book_A_Discovery_Call/Hiring';
+import HiringTab from '@/components/Book_A_Discovery_Call/Hiring';
 import GetTalent from '@/components/Book_A_Discovery_Call/GetTalent';
 import ClientFeedback from '@/components/Book_A_Discovery_Call/ClientFeedback';
 
@@ -25,7 +25,7 @@ function DiscoveryCall() {
   const { cardHeading, items } = list;
   return (
     <>
-      <div className="discovery-call">
+      <div className="DiscoveryCall discovery-call">
         <div className="container-fluid discovery-call-header">
           <a href="/">
             <img
@@ -66,11 +66,11 @@ function DiscoveryCall() {
           </a>
         </div>
       </div>
-      <Adapt data={We_Adapt_To_Your_Need} />
+      <AdaptTab data={We_Adapt_To_Your_Need} />
       <ReliableAndSecure data={Reliable_And_Secure} />
       <OurProcess data={Our_Process} />
       <DiscoveryServices items={sliderData} />
-      <Hiring data={Hiring_data} />
+      <HiringTab data={Hiring_data} />
       <MeetTheTeam data={Meet_The_Team} />
       <GetTalent />
       <ClientFeedback data={ClientFeedbackData} />

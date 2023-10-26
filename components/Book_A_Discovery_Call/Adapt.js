@@ -1,11 +1,11 @@
 import Link from 'next/link';
 import React from 'react';
 
-const Adapt = ({ data }) => {
+const AdaptTab = ({ data }) => {
   const { cardHeading, image, listItem, text, link } = data;
   return (
     <>
-      <div className="background"></div>
+      <div className="AdaptTab background"></div>
       <div className="we-adapt-to-your-need-aera">
         <div className="container">
           <div className="row align-items-center justify-content-center">
@@ -51,4 +51,4 @@ const Adapt = ({ data }) => {
   );
 };
 
-export default Adapt;
+export default AdaptTab;

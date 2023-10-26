@@ -10174,12 +10174,12 @@ Reliable And Secure Area CSS
   max-width: 650px;
   position: relative;
   top: -50px;
-  font-family: Outfit;
+  font-family: Outfit !important;
 }
 
 .reliable-and-secure-content h3 {
   display: block;
-  font-family: Outfit;
+  font-family: Outfit !important;
 }
 
 .reliable-and-secure-content h2 {
@@ -10188,12 +10188,12 @@ Reliable And Secure Area CSS
   line-height: 1.4;
   margin-bottom: 0;
   font-size: 87px;
-  font-family: Outfit;
+  font-family: Outfit !important;
 }
 
 .reliable-and-secure-content h3 {
   font-size: 35px;
-  font-family: Outfit;
+  font-family: Outfit !important;
   margin-bottom: 12px;
   font-weight: 400;
 }
@@ -10224,11 +10224,11 @@ Our Process Area CSS
   font-size: var(--card-heading);
   font-weight: 600;
   margin-bottom: 12px;
-  font-family: Outfit;
+  font-family: Outfit !important;
 }
 .our-process-content p {
   text-align: right;
-  font-family: Outfit;
+  font-family: Outfit !important;
   font-weight: 400;
 }
 .our-process-content h1 {
@@ -10237,12 +10237,12 @@ Our Process Area CSS
   line-height: 1.4;
   margin-bottom: 0;
   font-size: var(--sub-heading);
-  font-family: Outfit;
+  font-family: Outfit !important;
   text-align: right;
 }
 .our-process-content h1 .dot {
   color: #029894;
-  font-family: Outfit;
+  font-family: Outfit !important;
   font-size: 87px;
   font-style: normal;
   font-weight: 500;
@@ -10263,7 +10263,7 @@ Our Process Area CSS
   font-size: 22px;
   font-style: normal;
   font-weight: 700;
-  font-family: Outfit;
+  font-family: Outfit !important;
   line-height: 37.327px; /* 130% */
 }
 .our-process-box .icon {
@@ -10280,7 +10280,7 @@ Meet The Team Area CSS
 =================================================*/
 .meet-the-team-area h2 {
   text-align: center;
-  font-family: Outfit;
+  font-family: Outfit !important;
   font-size: 48px;
   font-style: normal;
   font-weight: 600;
@@ -10302,10 +10302,10 @@ Meet The Team Area CSS
   font-style: normal;
   /* font-weight: 700; */
   line-height: 37.327px;
-  font-family: Outfit;
-font-size: 24px;
-font-style: normal;
-font-weight: 700;
+  font-family: Outfit !important;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
 }
 
 /*================================================
@@ -10315,7 +10315,7 @@ Hiring Area CSS
 .Hiring-number h1 {
   color: #000;
   text-align: center;
-  /* font-family: Outfit; */
+  /* font-family: Outfit !important; */
   font-size: 107.465px;
   font-style: normal;
   font-weight: 800;
@@ -10323,7 +10323,7 @@ Hiring Area CSS
 }
 .Hiring-text h1 {
   color: #029894;
-  /* font-family: Outfit; */
+  /* font-family: Outfit !important; */
   font-size: 43.248px;
   font-style: normal;
   font-weight: 700;
@@ -10332,14 +10332,14 @@ Hiring Area CSS
 .Hiring-area h2 {
   color: #09114a;
   text-align: center;
-  font-family: Outfit;
+  font-family: Outfit !important;
   font-size: 48px;
   font-style: normal;
   font-weight: 600;
   line-height: 53.3px; /* 111.042% */
 }
 .Hiring-area p {
-  font-family: Outfit;
+  font-family: Outfit !important;
 }
 
 /*================================================
@@ -10505,4 +10505,15 @@ client feedback Area CSS
   font-weight: 500;
   line-height: 150%;
   padding-right: 40px;
+}
+
+.GetTalent,
+.ClientFeedback,
+.MeetTheTeam,
+.HiringTab,
+.DiscoveryServices,
+.OurProcess,
+.ReliableAndSecure,
+.AdaptTab {
+  font-family: Outfit !important;
 }
