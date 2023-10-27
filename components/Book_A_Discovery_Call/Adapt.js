@@ -27,7 +27,7 @@ const AdaptTab = ({ data }) => {
                   {cardHeading ? <span className="dot">.</span> : null}
                 </h2>
                 {listItem?.map((items, i) => (
-                  <div className="row my-xl-4 my-lg-2 my-md-3 my-sm-3">
+                  <div key={i} className="row my-xl-4 my-lg-2 my-md-3 my-sm-3">
                     <div className="col-2 col-md-4 w-auto justify-content-center d-flex">
                       <img src={items.logo} className="logo" />
                     </div>
