@@ -2003,6 +2003,12 @@
   .reliable-and-secure-area {
     padding-bottom: 30px;
   }
+  .our-process-content h1{
+    line-height: 35px;
+  }
+  .our-process-content h1 .dot{
+    font-size: 48px;
+  }
   .our-process-content h2 {
     text-align: left;
     font-size: 32px;
@@ -2016,44 +2022,38 @@
   .our-process-box {
     padding: 11px 0;
   }
-  .Hiring-content-box {
-    display: flex;
-    flex-direction: column;
+  .hiring-box-header {
+    height: 50px;
+  }
+  .HiringTab {
+    margin-bottom: 15px;
+  }
+  .HiringTab-para {
+    margin: auto;
   }
   .Hiring-box {
-    /* width: 350.938px; */
-    height: 350px;
-    border-radius: 107.465px;
-    background: #fff;
-    box-shadow: 0px 0px 7.86327px 0px rgba(0, 0, 0, 0.25);
-    /* padding: 25px; */
-    padding-left: 30px;
-    padding-right: 30px;
-    padding-bottom: 25px;
-    justify-content: center;
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    margin: auto;
-    /* margin-top: 22px; */
-    margin-bottom: 22px;
+    width: auto;
+    height: 320.949px;
+    margin: 0px 0px 22px 0px;
+    border-radius: 70.465px;
+    /* padding: 40px; */
+    padding-top: 40px;
+    align-items: start;
   }
   .Hiring-box p {
-    width: auto;
-    /* height: 170px; */
+    width: 12.9rem;
+    height: 125px;
     font-style: normal;
-    font-weight: 400;
-    line-height: 23px;
-    /* padding-left: 30px; */
-    /* padding-right: 30px; */
-  }
-  .Hiring-text h1 {
-    font-size: 18px;
-    line-break: anywhere;
-    line-height: 22px;
+    line-height: 25px;
+    /* font-weight: 400; */
   }
   .Hiring-number h1 {
-    font-size: 52px;
+    font-size: 50.465px;
+  }
+  .Hiring-text h1 {
+    width: auto;
+    font-size: 18px;
+    height: 40px;
   }
   .feedback-title h2 {
     font-size: 31px;
@@ -2111,6 +2111,9 @@
   }
   .client-feedback .swiper-pagination-bullet-active {
     background: #00718a;
+  }
+  .we-adapt-to-your-need-content h2{
+    font-size: 32px;
   }
 }
 
@@ -3317,41 +3320,39 @@
     margin-bottom: 5px;
     line-height: 1.1px;
   }
+  .our-process-content h1 {
+    line-height: 45px;
+  }
+  .our-process-content h1 .dot {
+    font-size: 40px;
+  }
   .our-process-box {
     padding: 11px 0;
   }
+  .HiringTab {
+    margin-bottom: 15px;
+  }
   .Hiring-box {
-    width: 386.938px;
-    /* height: 356px; */
-    border-radius: 107.465px;
-    background: #fff;
-    box-shadow: 0px 0px 7.86327px 0px rgba(0, 0, 0, 0.25);
-    padding: 15px;
-    justify-content: center;
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    /* margin: auto; */
-    /* margin-left: auto; */
-    /* margin-top: 22px; */
-    margin-bottom: 22px;
+    width: auto;
+    height: 310.949px;
+    margin: 0px 0px 22px 0px;
+    border-radius: 80.465px;
+    padding: 40px;
+    align-items: start;
   }
   .Hiring-box p {
-    width: auto;
-    height: 170px;
+    /* width: 300px; */
+    height: 125px;
     font-style: normal;
-    font-weight: 400;
-    line-height: 23px;
-    padding-left: 30px;
-    padding-right: 30px;
-  }
-  .Hiring-text h1 {
-    font-size: 20px;
-    line-break: anywhere;
-    line-height: 22px;
+    line-height: 25px;
+    /* font-weight: 400; */
   }
   .Hiring-number h1 {
-    font-size: 52px;
+    font-size: 70.465px;
+  }
+  .Hiring-text h1 {
+    width: auto;
+    font-size: 25px;
   }
   .feedback-title h2 {
     font-size: 31px;
@@ -3403,6 +3404,17 @@
   }
   .client-feedback .swiper-pagination-bullet-active {
     background: #00718a;
+  }
+  .we-adapt-to-your-need-content h2 {
+    font-size: 32px;
+    text-align: center;
+    margin-bottom: 5px;
+  }
+  .reliable-and-secure-content h3 {
+    font-size: 25px;
+  }
+  .reliable-and-secure-content h2 {
+    font-size: 40px;
   }
 }
 
@@ -4020,37 +4032,29 @@
     margin-bottom: 5px;
     line-height: 1.7px;
   }
+  .HiringTab {
+    margin-bottom: 15px;
+  }
   .Hiring-box {
-    /* width: 489.938px; */
-    /* height: 400px; */
-    border-radius: 107.465px;
-    background: #fff;
-    box-shadow: 0px 0px 7.86327px 0px rgba(0, 0, 0, 0.25);
+    width: auto;
+    height: 290.949px;
+    margin: 0px 0px 22px 0px;
+    border-radius: 85.465px;
     padding: 40px;
-    justify-content: center;
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    margin: auto;
-    /* margin-top: 22px; */
-    margin-bottom: 22px;
   }
   .Hiring-box p {
     width: auto;
-    height: 180px;
+    height: 125px;
     font-style: normal;
-    font-weight: 400;
-    line-height: 30px;
-    padding-left: 15px;
-    /* padding-right: 50px; */
-  }
-  .Hiring-text h1 {
-    font-size: 23px;
-    line-break: anywhere;
-    line-height: 30px;
+    line-height: 25px;
+    /* font-weight: 400; */
   }
   .Hiring-number h1 {
-    font-size: 75px;
+    font-size: 70.465px;
+  }
+  .Hiring-text h1 {
+    width: auto;
+    font-size: 25px;
   }
   .feedback-title h2 {
     font-size: 31px;
@@ -4102,6 +4106,12 @@
   }
   .client-feedback .swiper-pagination-bullet-active {
     background: #00718a;
+  }
+  .our-process-content h1 {
+    line-height: 43px;
+  }
+  .our-process-content h1 .dot {
+    font-size: 42px;
   }
 }
 
@@ -4347,41 +4357,34 @@
     width: 400px;
     margin-left: auto;
   }
+  .our-process-content h1 {
+    line-height: 47px;
+  }
+  .our-process-content h1 .dot {
+    font-size: 48px;
+  }
   .our-process-content img {
     margin-right: 0;
     margin-left: auto;
   }
   .Hiring-box {
-    /* width: 489.938px; */
-    /* height: 400px; */
-    border-radius: 107.465px;
-    background: #fff;
-    box-shadow: 0px 0px 7.86327px 0px rgba(0, 0, 0, 0.25);
-    padding: 40px;
-    justify-content: center;
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    margin: auto;
-    /* margin-top: 22px; */
-    margin-bottom: 22px;
+    width: 450px;
+    height: 320.949px;
+    margin: 20px 0px;
+    border-radius: 90.465px;
   }
   .Hiring-box p {
-    width: auto;
-    height: 141.843px;
+    width: 380px;
+    height: 125px;
     font-style: normal;
-    font-weight: 400;
     line-height: 30px;
-    padding-left: 7px;
-    /* padding-right: 50px; */
-  }
-  .Hiring-text h1 {
-    font-size: 31px;
-    line-break: anywhere;
-    line-height: 35px;
+    /* font-weight: 400; */
   }
   .Hiring-number h1 {
-    font-size: 95px;
+    font-size: 80.465px;
+  }
+  .Hiring-text h1 {
+    font-size: 30px;
   }
   .feedback-title h2 {
     font-size: 31px;
@@ -4422,6 +4425,10 @@
   }
   .client-feedback .swiper-pagination-bullet-active {
     background: #00718a;
+  }
+  .reliable-and-secure-content h2 {
+    font-size: 57px;
+    line-height: 60px;
   }
 }
 @media only screen and (min-width: 1356px) and (max-width: 1399px) {
@@ -4504,6 +4511,13 @@
     padding-top: 80px;
     padding-bottom: 80px;
   }
+  .we-adapt-to-your-need-content h2 {
+    line-height: 47px;
+  }
+  .reliable-and-secure-content h2 {
+    font-size: 57px;
+    line-height: 60px;
+  }
   .background {
     width: 900px;
     height: 850px;
@@ -4516,41 +4530,34 @@
     right: 3%;
     margin-top: 48px;
   }
+  .our-process-content h1 {
+    line-height: 47px;
+  }
+  .our-process-content h1 .dot {
+    font-size: 48px;
+  }
   .our-process-content h2 {
     width: 400px;
     margin-left: auto;
   }
   .Hiring-box {
-    /* width: 489.938px; */
-    /* height: 400px; */
-    border-radius: 107.465px;
-    background: #fff;
-    box-shadow: 0px 0px 7.86327px 0px rgba(0, 0, 0, 0.25);
-    padding: 40px;
-    justify-content: center;
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    margin: auto;
-    /* margin-top: 22px; */
-    margin-bottom: 22px;
+    width: 450px;
+    height: 320.949px;
+    margin: 20px 0px;
+    border-radius: 90.465px;
   }
   .Hiring-box p {
-    width: auto;
-    height: 141.843px;
+    width: 380px;
+    height: 125px;
     font-style: normal;
-    font-weight: 400;
     line-height: 30px;
-    padding-left: 7px;
-    /* padding-right: 50px; */
-  }
-  .Hiring-text h1 {
-    font-size: 31px;
-    line-break: anywhere;
-    line-height: 35px;
+    /* font-weight: 400; */
   }
   .Hiring-number h1 {
-    font-size: 95px;
+    font-size: 80.465px;
+  }
+  .Hiring-text h1 {
+    font-size: 30px;
   }
   .feedback-title h2 {
     font-size: 31px;
@@ -4648,31 +4655,26 @@
   .our-process-image img {
     margin-right: 0;
   }
+  .client-feedback-card .row {
+    height: 441.057px;
+  }
   .Hiring-box {
     width: 489.938px;
     height: 323.949px;
-    border-radius: 107.465px;
-    background: #fff;
-    box-shadow: 0px 0px 7.86327px 0px rgba(0, 0, 0, 0.25);
-    padding: 40px;
-    justify-content: center;
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    margin: auto;
-    margin-top: 20px;
-    margin-bottom: 18px;
+    margin: 20px 0px;
   }
   .Hiring-box p {
-    width: auto;
+    width: 400px;
+    height: 125px;
     font-style: normal;
-    /* font-weight: 400; */
     line-height: 30px;
-    padding-left: 25px;
-    padding-right: 20px;
+    /* font-weight: 400; */
+  }
+  .Hiring-number h1 {
+    font-size: 90.465px;
   }
   .Hiring-text h1 {
-    line-break: anywhere;
+    font-size: 35px;
   }
   .client-feedback-card .row {
     height: 441.057px;
@@ -4693,7 +4695,7 @@
   }
   .our-process-content h1 {
     font-size: 55px;
-    line-height: 1.1;
+    line-height: 78px;
     margin-left: auto;
     font-weight: 700;
     text-align: right;
@@ -4896,28 +4898,20 @@
   .Hiring-box {
     width: 489.938px;
     height: 323.949px;
-    border-radius: 107.465px;
-    background: #fff;
-    box-shadow: 0px 0px 7.86327px 0px rgba(0, 0, 0, 0.25);
-    padding: 40px;
-    justify-content: center;
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    margin: auto;
-    margin-top: 20px;
-    margin-bottom: 18px;
+    margin: 20px 0px;
   }
   .Hiring-box p {
-    width: auto;
+    width: 400px;
+    height: 125px;
     font-style: normal;
-    /* font-weight: 400; */
     line-height: 30px;
-    padding-left: 25px;
-    padding-right: 20px;
+    /* font-weight: 400; */
+  }
+  .Hiring-number h1 {
+    font-size: 90.465px;
   }
   .Hiring-text h1 {
-    line-break: anywhere;
+    font-size: 35px;
   }
   .client-feedback-card .row {
     height: 441.057px;
@@ -5104,29 +5098,21 @@
   .Hiring-box {
     width: 489.938px;
     height: 323.949px;
-    border-radius: 107.465px;
-    background: #fff;
-    box-shadow: 0px 0px 7.86327px 0px rgba(0, 0, 0, 0.25);
-    padding: 40px;
-    padding-top: 25px;
-    justify-content: center;
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    margin: auto;
-    margin-top: 20px;
-    margin-bottom: 18px;
+    margin: 20px 0px;
   }
   .Hiring-box p {
-    width: auto;
+    width: 400px;
+    height: 125px;
     font-style: normal;
-    /* font-weight: 400; */
     line-height: 30px;
-    padding-left: 25px;
-    padding-right: 20px;
+    /* font-weight: 400; */
+  }
+
+  .Hiring-number h1 {
+    font-size: 90.465px;
   }
   .Hiring-text h1 {
-    line-break: anywhere;
+    font-size: 35px;
   }
   .client-feedback-card .row {
     height: 441.057px;
@@ -5227,6 +5213,9 @@
     margin-bottom: 15px;
     text-align: center;
   }
+  .we-adapt-to-your-need-content h2{
+    line-height: 1.1px;
+  }
   .we-adapt-to-your-need-image {
     padding: 40px;
     padding-bottom: 20px;
@@ -5255,6 +5244,18 @@
   }
   .reliable-and-secure-image {
     padding: 30px;
+  }
+  .reliable-and-secure-content h3 {
+    font-size: 20px;
+  }
+  .our-process-content h1{
+    line-height: 35px;
+  }
+  .our-process-content h1{
+    font-size: 35px;
+  }
+  .our-process-content h1 .dot{
+    font-size: 35px; 
   }
   .our-process-content h2 {
     text-align: left;
@@ -5335,41 +5336,33 @@
   .feedback-rating {
     margin-top: 15px;
   }
-  .Hiring-box {
-    /* width: 350.938px; */
-    height: 400px;
-    border-radius: 107.465px;
-    background: #fff;
-    box-shadow: 0px 0px 7.86327px 0px rgba(0, 0, 0, 0.25);
-    /* padding: 25px; */
-    padding-left: 35px;
-    padding-right: 30px;
-    padding-bottom: 20px;
-    padding-top: 20px;
-    /* justify-content: center; */
-    display: flex;
-    align-items: center;
-    flex-direction: column;
+  .HiringTab {
+    margin-bottom: 15px;
+  }
+  .HiringTab-para {
     margin: auto;
-    /* margin-top: 22px; */
-    margin-bottom: 22px;
+  }
+  .Hiring-box {
+    width: auto;
+    height: 340.949px;
+    margin: 0px 0px 22px 0px;
+    border-radius: 50.465px;
+    padding: 40px;
+    align-items: start;
   }
   .Hiring-box p {
-    width: auto;
-    /* height: 170px; */
+    width: 240px;
+    height: 125px;
     font-style: normal;
-    font-weight: 400;
-    line-height: 23px;
-    /* padding-left: 30px; */
-    /* padding-right: 30px; */
-  }
-  .Hiring-text h1 {
-    font-size: 18px;
-    line-break: anywhere;
-    /* line-height: 22px; */
+    line-height: 25px;
+    /* font-weight: 400; */
   }
   .Hiring-number h1 {
-    font-size: 52px;
+    font-size: 50.465px;
+  }
+  .Hiring-text h1 {
+    width: auto;
+    font-size: 20px;
   }
 }
 @media screen and (min-width: 375px) and (max-width: 575px) {
@@ -5450,6 +5443,7 @@
     margin-bottom: 15px;
     font-family: Poppins;
     text-align: center;
+    line-height: 1.1px;
   }
   .we-adapt-to-your-need-image {
     padding: 40px;
@@ -5469,11 +5463,20 @@
     margin-bottom: 15px;
     font-size: 32px;
   }
+  .reliable-and-secure-content h3 {
+    font-size: 25px;
+  }
   .reliable-and-secure-area {
     padding-bottom: 30px;
   }
   .reliable-and-secure-image {
     padding: 30px;
+  }
+  .our-process-content h1{
+    line-height: 42px;
+  }
+  .our-process-content h1 .dot{
+    font-size: 40px; 
   }
   .our-process-content h2 {
     text-align: left;
@@ -5551,49 +5554,42 @@
   .feedback-rating {
     margin-top: 15px;
   }
-  .Hiring-box {
-    /* width: 350.938px; */
-    height: 330px;
-    border-radius: 107.465px;
-    background: #fff;
-    box-shadow: 0px 0px 7.86327px 0px rgba(0, 0, 0, 0.25);
-    /* padding: 25px; */
-    padding-left: 35px;
-    padding-right: 30px;
-    padding-bottom: 20px;
-    padding-top: 20px;
-    /* justify-content: center; */
-    display: flex;
-    align-items: center;
-    flex-direction: column;
+  .HiringTab {
+    margin-bottom: 15px;
+  }
+  .HiringTab-para {
     margin: auto;
-    /* margin-top: 22px; */
-    margin-bottom: 22px;
+  }
+  .Hiring-box {
+    height: 310.949px;
+    margin: auto;
+    margin-top: 25px;
+    border-radius: 80.465px;
+    padding: 40px;
+    align-items: start;
   }
   .Hiring-box p {
-    width: auto;
-    /* height: 170px; */
+    width: 290px;
+    /* height: 125px; */
     font-style: normal;
-    font-weight: 400;
-    line-height: 23px;
-    /* padding-left: 30px; */
-    /* padding-right: 30px; */
-  }
-  .Hiring-text h1 {
-    font-size: 18px;
-    line-break: anywhere;
-    /* line-height: 22px; */
+    line-height: 25px;
+    /* font-weight: 400; */
   }
   .Hiring-number h1 {
-    font-size: 52px;
+    font-size: 70.465px;
+  }
+  .Hiring-text h1 {
+    width: auto;
+    font-size: 25px;
   }
 }
-/* @media screen and (min-width: 401px) and (max-width: 490px){
+/* @media screen and (max-width: 490px){
   .with-space {
     margin-top: 18px;
   }
-}
-@media screen and (min-width: 491px) and (max-width: 575px) {
+  
+} */
+/* @media screen and (min-width: 491px) and (max-width: 575px) {
   .with-space {
     margin-top: 10px;
   }

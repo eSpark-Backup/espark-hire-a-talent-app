@@ -10311,23 +10311,48 @@ Meet The Team Area CSS
 /*================================================
 Hiring Area CSS
 =================================================*/
+.HiringTab {
+  margin-bottom: 70px;
+}
+
+.Hiring-box {
+  /* width: 489.938px;
+  height: 323.949px; */
+  border-radius: 107.465px;
+  background: #fff;
+  box-shadow: 0px 0px 7.86327px 0px rgba(0, 0, 0, 0.25);
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+.Hiring-box p {
+  padding: 0;
+}
+.hiring-box-header {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
 
 .Hiring-number h1 {
   color: #000;
   text-align: center;
-  /* font-family: Outfit !important; */
-  font-size: 107.465px;
+  font-family: Outfit !important;
+  /* font-size: 90.465px; */
   font-style: normal;
   font-weight: 800;
-  line-height: 69.852px;
+  line-height: 80px;
+  width: 100%;
+  /* line-break: auto; */
 }
 .Hiring-text h1 {
   color: #029894;
-  /* font-family: Outfit !important; */
-  font-size: 43.248px;
+  font-family: Outfit !important;
+  /* font-size: 35px; */
   font-style: normal;
   font-weight: 700;
-  line-height: 41.675px; /* 96.364% */
+  line-height: 1.1;
+  width: 330px;
 }
 .Hiring-area h2 {
   color: #09114a;
@@ -10354,6 +10379,7 @@ get talent Area CSS
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
+  width: 100%;
 }
 .get-talent-content {
   padding: 50px;
@@ -10405,6 +10431,7 @@ client feedback Area CSS
   align-items: center;
   flex-shrink: 0;
   background-color: #ffffff00;
+  overflow: hidden;
   /* box-shadow: 10px 25px 25px 7px rgba(0, 0, 0, 0.1); */
 }
 .client-feedback .swiper-button-prev {
@@ -10484,7 +10511,8 @@ client feedback Area CSS
 }
 .feedback-content h1 {
   color: #525252;
-  font-family: var(--fontFamily);
+  /* font-family: var(--fontFamily); */
+  font-family: Lato;
   font-size: 39.509px;
   font-style: normal;
   font-weight: 700;
@@ -10493,11 +10521,12 @@ client feedback Area CSS
 }
 .feedback-content h2 {
   color: #525252;
-  font-family: var(--fontFamily);
+  /* font-family: var(--fontFamily); */
   font-size: 30.213px;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
+  font-family: Lato;
 }
 .feedback-content p {
   text-align: justify;
@@ -10505,6 +10534,7 @@ client feedback Area CSS
   font-weight: 500;
   line-height: 150%;
   padding-right: 40px;
+  font-family: Lato;
 }
 
 .GetTalent,

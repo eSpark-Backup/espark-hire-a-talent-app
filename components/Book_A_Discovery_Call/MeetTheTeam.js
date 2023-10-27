@@ -15,7 +15,7 @@ const MeetTheTeam = ({ data }) => {
           </div>
           <div className="row justify-content-center">
             {items?.map((item, i) => (
-              <div className="col-xl-3 col-lg-3 col-md-4 col-sm-6">
+              <div key={i} className="col-xl-3 col-lg-3 col-md-4 col-sm-6">
                 <div className="meet-the-team-box">
                   <div
                     className="image"
