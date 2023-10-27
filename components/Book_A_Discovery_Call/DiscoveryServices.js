@@ -1,6 +1,4 @@
 import React from 'react';
-import Link from 'next/link';
-
 const DiscoveryServices = ({ title, para, items }) => {
   return (
     <>
@@ -16,7 +14,7 @@ const DiscoveryServices = ({ title, para, items }) => {
                 key={i}
                 className={
                   // 'col-xl-3 col-lg-3 col-md-5 col-sm-4  single-services-item with-boxshadow size-change'
-                  'col-xl-3 col-lg-3 col-md-5 col-sm-4  single-services-item with-boxshadow'
+                  'col-xl-3 col-lg-3 col-md-5 col-sm-5 single-services-item with-boxshadow'
                 }
               >
                 <div className="d-flex align-items-center">

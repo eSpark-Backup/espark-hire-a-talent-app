@@ -15,9 +15,9 @@ import {
 const ClientFeedback = ({ data }) => {
   const { mainheading, items } = data;
   return (
-    <div className='ClientFeedback container-lg pb-lg-5 pt-1'>
-      <div className='feedback-title'>
-        <h2 className='text-center my-5'>{mainheading}</h2>
+    <div className="ClientFeedback container-lg pb-lg-5 pt-1">
+      <div className="feedback-title">
+        <h2 className="text-center my-5">{mainheading}</h2>
       </div>
       <Swiper
         // cssMode={true}
@@ -26,66 +26,66 @@ const ClientFeedback = ({ data }) => {
         pagination={true}
         mousewheel={false}
         effect={'fade'}
-        // autoplay={{
-        //   delay: 2500,
-        //   disableOnInteraction: false,
-        // }}
+        autoplay={{
+          delay: 2500,
+          disableOnInteraction: false,
+        }}
         fadeEffect={{ crossFade: true }}
-        autoplayDisableOnInteraction={true}
         speed={500}
         modules={[
-          // Autoplay,
+          Autoplay,
           Navigation,
           Pagination,
           Mousewheel,
           Keyboard,
           EffectFade,
         ]}
-        className='mySwiper client-feedback'>
+        className="mySwiper client-feedback"
+      >
         {items?.map((items, i) => (
-          <SwiperSlide>
-            <div className='row justify-content-center align-items-center'>
-              <div className='col-xl-11 col-lg-11 col-md-12 col-sm-12'>
-                <div className='client-feedback-card'>
-                  <div className='row justify-content-center'>
-                    <div className='col-xl-5 col-lg-5 col-md-4 col-sm-8 position-relative d-flex justify-content-center align-items-center'>
-                      <div className='feedback-bg'></div>
-                      <div className='feedback-img'>
-                        <img src={items?.image} alt='img' />
+          <SwiperSlide key={i}>
+            <div className="row justify-content-center align-items-center">
+              <div className="col-xl-11 col-lg-11 col-md-12 col-sm-12">
+                <div className="client-feedback-card">
+                  <div className="row justify-content-center">
+                    <div className="col-xl-5 col-lg-5 col-md-4 col-sm-8 position-relative d-flex justify-content-center align-items-center">
+                      <div className="feedback-bg"></div>
+                      <div className="feedback-img">
+                        <img src={items?.image} alt="img" />
                       </div>
                     </div>
-                    <div className='col-xl-7 col-lg-7 col-md-8 col-sm-10 position-relative d-flex align-items-center'>
-                      <div className='feedback-content'>
-                        <div className='feedback-rating'>
-                          <ul className='feedback-rating-ul'>
+                    <div className="col-xl-7 col-lg-7 col-md-8 col-sm-10 position-relative d-flex align-items-center">
+                      <div className="feedback-content">
+                        <div className="feedback-rating">
+                          <ul className="feedback-rating-ul">
                             <li>
                               <img
-                                src='/images/discovery_call/star.png'
-                                alt='rating_img'
+                                src="/images/discovery_call/star.png"
+                                alt="rating_img"
                               />
                             </li>
                             <li>
                               <img
-                                src='/images/discovery_call/star.png'
-                                alt='rating_img'
+                                src="/images/discovery_call/star.png"
+                                alt="rating_img"
                               />
                             </li>
                             <li>
                               <img
-                                src='/images/discovery_call/star.png'
-                                alt='rating_img'
+                                src="/images/discovery_call/star.png"
+                                alt="rating_img"
                               />
                             </li>
                             <li>
                               <img
-                                src='/images/discovery_call/star.png'
-                                alt='rating_img'
+                                src="/images/discovery_call/star.png"
+                                alt="rating_img"
                               />
                             </li>
                             <li>
                               <img
-                                src='/images/discovery_call/star_d.png'
-                                alt='rating_img'
+                                src="/images/discovery_call/star_d.png"
+                                alt="rating_img"
                               />
                             </li>
                           </ul>
