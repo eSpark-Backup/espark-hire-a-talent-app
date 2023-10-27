@@ -107,22 +107,22 @@ export const Hiring_data = {
     "eSpark Talent's process is designed for speed and efficiency, enabling you to secure top remote developer talent within 24 hours.",
   items: [
     {
-      title: 'Rapid Candidate Search:',
+      title: `Rapid Candidate <br /> Search:`,
       description:
         " Rapid Candidate Search: Leveraging eSpark Talent's extensive network and resources, we swiftly identify and shortlist potential candidates who match your technical requirements.",
     },
     {
-      title: 'Technical Skill Assessment:',
+      title: `Technical Skill <br /> Assessment:`,
       description:
         ' eSpark Talent administers tailored skill assessment tests, including coding challenges and quizzes, to ensure candidates possess the necessary technical proficiency.',
     },
     {
-      title: 'Express Onboarding within 3 Days:',
+      title: `Express Onboarding <br /> within 3 Days:`,
       description:
         ' Our streamlined onboarding process ensures that selected remote developers have access to essential tools, development environments, and resources, expediting their integration into your team.',
     },
     {
-      title: 'Client-Developer Introduction:',
+      title: `Client-Developer <br /> Introduction:`,
       description:
         ' We facilitate a formal meeting between the client and the selected developer, introducing them to your project, team, and expectations, thereby ensuring a seamless transition.',
     },
