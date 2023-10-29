@@ -19,7 +19,7 @@ const MeetTheTeam = ({ data }) => {
                 <div className="meet-the-team-box">
                   <div
                     className="image"
-                    data-aos="fade-left"
+                    data-aos="fade-up"
                     data-aos-duration="1200"
                     data-aos-once="true"
                   >
@@ -27,7 +27,7 @@ const MeetTheTeam = ({ data }) => {
                   </div>
                   <div
                     className="content"
-                    data-aos="fade-left"
+                    data-aos="fade-up"
                     data-aos-duration="1200"
                     data-aos-once="true"
                   >
