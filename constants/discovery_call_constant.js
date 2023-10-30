@@ -63,7 +63,7 @@ export const Our_Process = {
   Item: [
     {
       icon: '/images/discovery_call/icon_1.png',
-      heading: 'Book a discovery call',
+      heading: 'Book a discovery call.',
       description: 'Tell us about your business and project needs.',
       hrStatus: 'flex',
     },

@@ -15,7 +15,7 @@ const OurProcess = ({ data }) => {
               <img src={image} alt="image" />
             </div>
           </div>
-          <div className="col-xl-6 col-lg-5 col-md-6 col-sm-12 mx-auto">
+          <div className="col-xl-7 col-lg-7 col-md-6 col-sm-12 mx-auto mx-lg-0">
             <div
               className="our-process-content"
               data-aos="fade-left"

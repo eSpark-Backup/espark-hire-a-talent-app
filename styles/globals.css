@@ -9856,9 +9856,9 @@ subscribe2 Area CSS
   color: #fff;
   text-align: center;
   text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
-  font-size: 32px;
+  font-size: 43px;
   font-style: normal;
-  font-weight: 600;
+  font-weight: 400;
   line-height: 45.5px; /* 130% */
   font-family: Poppins;
 }
@@ -9977,7 +9977,7 @@ We adapt to your needs Area CSS
   margin-bottom: 10px;
   font-size: 40px;
   font-weight: 700 !important;
-  font-family: Poppins;
+  font-family: Outfit;
 }
 .we-adapt-to-your-need-content .logo {
   width: 48px;
@@ -9985,7 +9985,7 @@ We adapt to your needs Area CSS
 }
 .we-adapt-to-your-need-content h2 .dot {
   color: #029894;
-  font-family: Poppins;
+  font-family: Outfit;
   font-size: 48px;
   font-style: normal;
   font-weight: 500;
@@ -10021,9 +10021,12 @@ We adapt to your needs Area CSS
   color: var(--optionalColor);
 }
 .we-adapt-to-your-need-content h3 {
+  font-family: Outfit;
   margin-bottom: 0;
 }
 .we-adapt-to-your-need-content p {
+  font-family: Outfit;
+  color: #272e34;
   margin-top: 0;
   margin-bottom: 0;
 }
@@ -10181,6 +10184,9 @@ Reliable And Secure Area CSS
   display: block;
   font-family: Outfit !important;
 }
+.reliable-and-secure-content p {
+  color: #000;
+}
 
 .reliable-and-secure-content h2 {
   margin-bottom: 18px;
@@ -10230,6 +10236,7 @@ Our Process Area CSS
   text-align: right;
   font-family: Outfit !important;
   font-weight: 400;
+  color: #000;
 }
 .our-process-content h1 {
   margin-bottom: 18px;
@@ -10266,6 +10273,9 @@ Our Process Area CSS
   font-family: Outfit !important;
   line-height: 37.327px; /* 130% */
 }
+.our-process-box p {
+  color: #000;
+}
 .our-process-box .icon {
   margin: 12px 0;
   align-items: center;
@@ -10285,6 +10295,7 @@ Meet The Team Area CSS
   font-style: normal;
   font-weight: 600;
   line-height: 53.3px; /* 111.042% */
+  color: #000;
 }
 
 .meet-the-team-box {
@@ -10306,6 +10317,7 @@ Meet The Team Area CSS
   font-size: 24px;
   font-style: normal;
   font-weight: 700;
+  color: #000;
 }
 
 /*================================================
@@ -10327,6 +10339,7 @@ Hiring Area CSS
 }
 .Hiring-box p {
   padding: 0;
+  color: #000;
 }
 .hiring-box-header {
   display: flex;
@@ -10365,6 +10378,7 @@ Hiring Area CSS
 }
 .Hiring-area p {
   font-family: Outfit !important;
+  color: #000;
 }
 
 /*================================================
@@ -10498,6 +10512,9 @@ client feedback Area CSS
   position: relative;
   z-index: 2;
 }
+.feedback-title h2 {
+  color: #000;
+}
 .feedback-rating-ul {
   list-style-type: none;
   display: flex;
@@ -10535,6 +10552,7 @@ client feedback Area CSS
   line-height: 150%;
   padding-right: 40px;
   font-family: Lato;
+  color: #000;
 }
 
 .GetTalent,
