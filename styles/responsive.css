@@ -1986,6 +1986,21 @@
     padding-top: 45px;
     padding-bottom: 45px;
   }
+  .we-adapt-to-your-need-aera {
+    padding-top: 30px;
+    padding-bottom: 60px;
+  }
+  .background {
+    width: 100%;
+    height: 750px;
+    /* flex-shrink: 0; */
+    /* border-radius: 32px 32px 32px 32px; */
+    opacity: 0.06;
+    background: #029894;
+    z-index: -1;
+    position: absolute;
+    margin-top: 370px;
+  }
   .we-adapt-to-your-need-content {
     padding-left: auto;
     padding-right: 0;
@@ -2003,10 +2018,10 @@
   .reliable-and-secure-area {
     padding-bottom: 30px;
   }
-  .our-process-content h1{
+  .our-process-content h1 {
     line-height: 35px;
   }
-  .our-process-content h1 .dot{
+  .our-process-content h1 .dot {
     font-size: 48px;
   }
   .our-process-content h2 {
@@ -2112,7 +2127,7 @@
   .client-feedback .swiper-pagination-bullet-active {
     background: #00718a;
   }
-  .we-adapt-to-your-need-content h2{
+  .we-adapt-to-your-need-content h2 {
     font-size: 32px;
   }
 }
@@ -3299,10 +3314,21 @@
   .discovery-call-features ul li {
     font-size: 15px;
   }
-  /* .we-adapt-to-your-need-content {
-    padding-left: 140px;
-    padding-right: 0;
-  } */
+  .we-adapt-to-your-need-aera {
+    padding-top: 30px;
+    padding-bottom: 60px;
+  }
+  .background {
+    width: 100%;
+    height: 750px;
+    /* flex-shrink: 0; */
+    /* border-radius: 32px 32px 32px 32px; */
+    opacity: 0.06;
+    background: #029894;
+    z-index: -1;
+    position: absolute;
+    margin-top: 350px;
+  }
   .reliable-and-secure-content {
     position: relative;
     top: 0;
@@ -4004,7 +4030,7 @@
   }
   .background {
     width: 750px;
-    height: 610px;
+    height: 650px;
     flex-shrink: 0;
     border-radius: 32px 0px 0px 32px;
     opacity: 0.06;
@@ -4648,6 +4674,9 @@
     width: 500px;
     /* margin-left: auto; */
   }
+  .our-process-content h1 {
+    line-height: 60px !important;
+  }
   .our-process-content p {
     width: 500px;
     /* margin-left: auto; */
@@ -4694,22 +4723,22 @@
     line-height: 32px;
   }
   .our-process-content h1 {
-    font-size: 55px;
+    font-size: 56px;
     line-height: 78px;
-    margin-left: auto;
     font-weight: 700;
     text-align: right;
     width: 600px;
   }
   .our-process-content p {
     margin-left: auto;
+    margin-right: 55px;
   }
   .discovery-call-header .discovery-call-heading-1 {
     font-size: 52px;
     line-height: 67.6px;
   }
   .discovery-call-header .discovery-call-heading-2 {
-    font-size: 35px;
+    font-size: 43px;
     line-height: 45.5px;
     margin-bottom: 30px;
   }
@@ -4883,17 +4912,15 @@
     margin-top: 62px;
   }
   .our-process-content h1 {
-    width: 580px;
-    font-size: 55px !important;
-    line-height: 1.1 !important;
-    font-weight: 700 !important;
-    /* width: 630px !important; */
-    text-align: right !important;
-    margin-left: auto;
+    font-size: 56px;
+    line-height: 60px;
+    font-weight: 700;
+    text-align: right;
+    width: 600px;
   }
   .our-process-content p {
-    width: 500px;
     margin-left: auto;
+    margin-right: 55px;
   }
   .Hiring-box {
     width: 489.938px;
@@ -4935,7 +4962,7 @@
     line-height: 67.6px;
   }
   .discovery-call-header .discovery-call-heading-2 {
-    font-size: 35px;
+    font-size: 43px;
     line-height: 45.5px;
     margin-bottom: 30px;
   }
@@ -5038,7 +5065,7 @@
     line-height: 67.6px;
   }
   .discovery-call-header .discovery-call-heading-2 {
-    font-size: 35px;
+    font-size: 43px;
     line-height: 45.5px;
     margin-bottom: 30px;
   }
@@ -5068,7 +5095,7 @@
     height: 100%;
     padding: 60px;
     position: relative;
-    font-family: Poppins;
+    font-family: Outfit;
     z-index: 1;
   }
   .background {
@@ -5084,16 +5111,15 @@
     margin-top: 62px;
   }
   .our-process-content h1 {
-    font-size: 55px;
-    line-height: 1.1;
+    font-size: 56px;
+    line-height: 60px;
     font-weight: 700;
-    width: 630px;
     text-align: right;
-    /* margin-left: auto; */
+    width: 600px;
   }
   .our-process-content p {
-    width: auto;
-    /* margin-left: auto; */
+    margin-left: auto;
+    margin-right: 55px;
   }
   .Hiring-box {
     width: 489.938px;
@@ -5203,6 +5229,21 @@
     padding-right: 10px;
     padding-top: 0;
   }
+  .we-adapt-to-your-need-aera {
+    padding-top: 10px;
+    padding-bottom: 20px;
+  }
+  .background {
+    width: 100%;
+    height: 720px;
+    /* flex-shrink: 0; */
+    /* border-radius: 32px 32px 32px 32px; */
+    opacity: 0.06;
+    background: #029894;
+    z-index: -1;
+    position: absolute;
+    margin-top: 240px;
+  }
   .we-adapt-to-your-need-content .row {
     margin-top: 15px;
     margin-bottom: 15px;
@@ -5213,7 +5254,7 @@
     margin-bottom: 15px;
     text-align: center;
   }
-  .we-adapt-to-your-need-content h2{
+  .we-adapt-to-your-need-content h2 {
     line-height: 1.1px;
   }
   .we-adapt-to-your-need-image {
@@ -5248,14 +5289,14 @@
   .reliable-and-secure-content h3 {
     font-size: 20px;
   }
-  .our-process-content h1{
+  .our-process-content h1 {
     line-height: 35px;
   }
-  .our-process-content h1{
+  .our-process-content h1 {
     font-size: 35px;
   }
-  .our-process-content h1 .dot{
-    font-size: 35px; 
+  .our-process-content h1 .dot {
+    font-size: 35px;
   }
   .our-process-content h2 {
     text-align: left;
@@ -5429,6 +5470,21 @@
   .discovery-call-button .free-strategy {
     font-size: 18px;
   }
+  .we-adapt-to-your-need-aera {
+    padding-top: 10px;
+    padding-bottom: 30px;
+  }
+  .background {
+    width: 100%;
+    height: 800px;
+    /* flex-shrink: 0; */
+    /* border-radius: 32px 32px 32px 32px; */
+    opacity: 0.06;
+    background: #029894;
+    z-index: -1;
+    position: absolute;
+    margin-top: 280px;
+  }
   .we-adapt-to-your-need-content {
     padding-left: 40px;
     padding-right: 40px;
@@ -5439,9 +5495,9 @@
     margin-bottom: 15px;
   }
   .we-adapt-to-your-need-content h2 {
-    font-size: 25px;
+    font-size: 28px;
     margin-bottom: 15px;
-    font-family: Poppins;
+    font-family: Outfit;
     text-align: center;
     line-height: 1.1px;
   }
@@ -5472,11 +5528,11 @@
   .reliable-and-secure-image {
     padding: 30px;
   }
-  .our-process-content h1{
+  .our-process-content h1 {
     line-height: 42px;
   }
-  .our-process-content h1 .dot{
-    font-size: 40px; 
+  .our-process-content h1 .dot {
+    font-size: 40px;
   }
   .our-process-content h2 {
     text-align: left;
