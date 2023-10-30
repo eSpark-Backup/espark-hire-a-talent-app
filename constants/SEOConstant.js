@@ -211,6 +211,85 @@ export const seoContent = [
     twitterSite: "",
   },
   {
+    link: "/blogs/handling-employee-benefits/",
+    title:
+      "Premier Steps & Tips For Handling Employee Benefits | eSparkTalent Blogs",
+    description:
+      "Need assistance in handling employee benefits. Here is our comprehensive guide of all the finest steps and working tips.",
+    ogDescription:
+      "Need assistance in handling employee benefits. Here is our comprehensive guide of all the finest steps and working tips.",
+    ogTitle:
+      "Premier Steps & Tips For Handling Employee Benefits | eSparkTalent Blogs",
+    twitterDescription:
+      "Need assistance in handling employee benefits. Here is our comprehensive guide of all the finest steps and working tips.",
+    twitterTitle:
+      "Premier Steps & Tips For Handling Employee Benefits | eSparkTalent Blogs",
+    canonical: "https://esparktalent.com/blogs/handling-employee-benefits/",
+    ogLocal: "en_US",
+    ogType: "website",
+    ogUrl: "https://esparktalent.com/blogs/handling-employee-benefits/",
+    ogSiteName: "eSpark Talent",
+    articleModifiedTime: "2023-27-04T06:22:05",
+    ogImage:
+      "https://esparktalent.com/images/blog/Handling Employee Benefits.jpg",
+    articlePublishTime: "2023-27-04T06:00:05",
+    articleAuthor: "eSpark Talent",
+    twitterCard: "summary_large_image",
+    twitterSite: "",
+  },
+  {
+    link: "/blogs/streamline-payroll-processing/",
+    title:
+      "How to Streamline Payroll Processing - Step-by-Step Guide | eSparkTalent Blogs",
+    description:
+      "Got stuck in the complicated payment cycle? Relax and note down these contemporary tips to streamline payroll processing of your workplace.",
+    ogDescription:
+      "Got stuck in the complicated payment cycle? Relax and note down these contemporary tips to streamline payroll processing of your workplace.",
+    ogTitle:
+      "How to Streamline Payroll Processing - Step-by-Step Guide | eSparkTalent Blogs",
+    twitterDescription:
+      "Got stuck in the complicated payment cycle? Relax and note down these contemporary tips to streamline payroll processing of your workplace.",
+    twitterTitle:
+      "How to Streamline Payroll Processing - Step-by-Step Guide | eSparkTalent Blogs",
+    canonical: "https://esparktalent.com/blogs/streamline-payroll-processing/",
+    ogLocal: "en_US",
+    ogType: "website",
+    ogUrl: "https://esparktalent.com/blogs/streamline-payroll-processing/",
+    ogSiteName: "eSpark Talent",
+    articleModifiedTime: "2023-26-06T06:22:05",
+    ogImage:
+      "https://esparktalent.com/images/blog/streamline-payroll-processing.jpg",
+    articlePublishTime: "2023-26-06T06:00:05",
+    articleAuthor: "eSpark Talent",
+    twitterCard: "summary_large_image",
+    twitterSite: "",
+  },
+  {
+    link: "/blogs/remote-work/",
+    title: "How to Overcome the Isolation of Remote Work | eSparkTalent Blogs",
+    description:
+      "Is remote work not good for employees? Learn about the reasons and altering solutions for isolation due to remote jobs here.",
+    ogDescription:
+      "Is remote work not good for employees? Learn about the reasons and altering solutions for isolation due to remote jobs here.",
+    ogTitle:
+      "How to Overcome the Isolation of Remote Work | eSparkTalent Blogs",
+    twitterDescription:
+      "Is remote work not good for employees? Learn about the reasons and altering solutions for isolation due to remote jobs here.",
+    twitterTitle:
+      "How to Overcome the Isolation of Remote Work | eSparkTalent Blogs",
+    canonical: "https://esparktalent.com/blogs/remote-work/",
+    ogLocal: "en_US",
+    ogType: "website",
+    ogUrl: "https://esparktalent.com/blogs/remote-work/",
+    ogSiteName: "eSpark Talent",
+    articleModifiedTime: "2023-25-06T06:22:05",
+    ogImage: "https://esparktalent.com/images/remote-work.png",
+    articlePublishTime: "2023-25-06T06:00:05",
+    articleAuthor: "eSpark Talent",
+    twitterCard: "summary_large_image",
+    twitterSite: "",
+  },
+  {
     link: "/blogs/hr-consultant/",
     title: "How to Start Independently HR Consulting | eSparkTalent Blogs",
     description:
@@ -220,7 +299,8 @@ export const seoContent = [
     ogTitle: "How to Start Independently HR Consulting | eSparkTalent Blogs",
     twitterDescription:
       "Got skills & qualifications related to HR consulting? Start offering services independently with our well-explained guide here.",
-    twitterTitle: "How to Start Independently HR Consulting | eSparkTalent Blogs",
+    twitterTitle:
+      "How to Start Independently HR Consulting | eSparkTalent Blogs",
     canonical: "https://esparktalent.com/blogs/hr-consultant/",
     ogLocal: "en_US",
     ogType: "website",
@@ -474,5 +554,5 @@ export const seoContent = [
     articleAuthor: "eSpark Talent",
     twitterCard: "summary_large_image",
     twitterSite: "",
-  }
+  },
 ];
