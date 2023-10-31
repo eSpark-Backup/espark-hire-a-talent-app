@@ -11,6 +11,7 @@ import {
   EffectFade,
   Autoplay,
 } from 'swiper';
+import StarRating from './StarRating';
 
 const ClientFeedback = ({ data }) => {
   const { mainheading, items } = data;
@@ -57,38 +58,7 @@ const ClientFeedback = ({ data }) => {
                     <div className="col-xl-7 col-lg-7 col-md-8 col-sm-10 position-relative d-flex align-items-center">
                       <div className="feedback-content">
                         <div className="feedback-rating">
-                          <ul className="feedback-rating-ul">
-                            <li>
-                              <img
-                                src="/images/discovery_call/star.png"
-                                alt="rating_img"
-                              />
-                            </li>
-                            <li>
-                              <img
-                                src="/images/discovery_call/star.png"
-                                alt="rating_img"
-                              />
-                            </li>
-                            <li>
-                              <img
-                                src="/images/discovery_call/star.png"
-                                alt="rating_img"
-                              />
-                            </li>
-                            <li>
-                              <img
-                                src="/images/discovery_call/star.png"
-                                alt="rating_img"
-                              />
-                            </li>
-                            <li>
-                              <img
-                                src="/images/discovery_call/star_d.png"
-                                alt="rating_img"
-                              />
-                            </li>
-                          </ul>
+                          <StarRating stars={4} />
                         </div>
                         <h1>{items?.title}</h1>
                         <h2>{items?.subTitle}</h2>

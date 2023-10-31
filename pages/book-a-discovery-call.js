@@ -20,6 +20,7 @@ import HiringTab from '@/components/Book_A_Discovery_Call/Hiring';
 import GetTalent from '@/components/Book_A_Discovery_Call/GetTalent';
 import ClientFeedback from '@/components/Book_A_Discovery_Call/ClientFeedback';
 
+
 function DiscoveryCall() {
   const { heading, subHeading, list, text, subText, link } = data;
   const { cardHeading, items } = list;
@@ -55,7 +56,13 @@ function DiscoveryCall() {
               </div>
               <div className="col-lg-6 d-flex justify-content-center">
                 <div className="discovery-call-img">
-                  <img src="/images/discovery_call/discovery_img.png" />
+                  <video controls autoPlay>
+                    <source
+                      src={'/images/discovery_call/video.mp4'}
+                      type="video/mp4"
+                    />
+                  </video>
+                  {/* <img src="/images/discovery_call/video.mp4" /> */}
                 </div>
               </div>
             </div>
