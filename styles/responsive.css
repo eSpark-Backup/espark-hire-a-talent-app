@@ -1994,14 +1994,14 @@
   }
   .background {
     width: 100%;
-    height: 750px;
+    height: 800px;
     /* flex-shrink: 0; */
     /* border-radius: 32px 32px 32px 32px; */
     opacity: 0.06;
     background: #029894;
     z-index: -1;
     position: absolute;
-    margin-top: 370px;
+    margin-top: 400px;
   }
   .we-adapt-to-your-need-content {
     padding-left: auto;
@@ -5274,25 +5274,20 @@
   .discovery-call-button .free-strategy {
     font-size: 18px;
   }
-  .we-adapt-to-your-need-content {
-    padding-left: 10px;
-    padding-right: 10px;
-    padding-top: 0;
-  }
   .we-adapt-to-your-need-aera {
     padding-top: 10px;
     padding-bottom: 20px;
   }
   .background {
-    width: 100%;
-    height: 720px;
-    /* flex-shrink: 0; */
-    /* border-radius: 32px 32px 32px 32px; */
-    opacity: 0.06;
-    background: #029894;
-    z-index: -1;
-    position: absolute;
-    margin-top: 240px;
+    display: none;
+  }
+  .we-adapt-to-your-need-content {
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 40px;
+    background-color: #f0f9f9;
+    border-radius: 32px 32px 32px 32px;
+    
   }
   .we-adapt-to-your-need-content .row {
     margin-top: 15px;
@@ -5532,20 +5527,15 @@
     padding-bottom: 30px;
   }
   .background {
-    width: 100%;
-    height: 800px;
-    /* flex-shrink: 0; */
-    /* border-radius: 32px 32px 32px 32px; */
-    opacity: 0.06;
-    background: #029894;
-    z-index: -1;
-    position: absolute;
-    margin-top: 280px;
+    display: none;
   }
   .we-adapt-to-your-need-content {
     padding-left: 40px;
     padding-right: 40px;
-    padding-top: 0;
+    padding-top: 60px;
+    background-color: #f0f9f9;
+    border-radius: 32px 32px 32px 32px;
+    
   }
   .we-adapt-to-your-need-content .row {
     margin-top: 15px;
