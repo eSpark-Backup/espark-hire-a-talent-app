@@ -9889,10 +9889,13 @@ subscribe2 Area CSS
   line-height: 26.662px; /* 130% */
   font-family: Poppins;
 }
-.discovery-call-img img {
-  width: 609.567px;
-  height: 393.569px;
+.discovery-call-img video {
+  width: 100%;
+  height: 100%;
+  border-radius: 21px;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
 }
+
 .discovery-call .container-fluid2 {
   background-color: #2d7184;
   box-shadow: 0px -18px 12px -12px rgba(0, 0, 0, 0.75);
@@ -10023,6 +10026,7 @@ We adapt to your needs Area CSS
 .we-adapt-to-your-need-content h3 {
   font-family: Outfit;
   margin-bottom: 0;
+  color: #1b1f22;
 }
 .we-adapt-to-your-need-content p {
   font-family: Outfit;
@@ -10183,9 +10187,10 @@ Reliable And Secure Area CSS
 .reliable-and-secure-content h3 {
   display: block;
   font-family: Outfit !important;
+  color: #09114a;
 }
 .reliable-and-secure-content p {
-  color: #000;
+  color: #09114a;
 }
 
 .reliable-and-secure-content h2 {
@@ -10263,7 +10268,7 @@ Our Process Area CSS
   padding: 11px 30px;
 }
 .our-process-box h3 {
-  color: var(--blackColor);
+  color: #000 !important;
   /* text-shadow: 1.0254536867141724px 1.0254536867141724px 1.0254536867141724px
     rgba(0, 0, 0, 0.2); */
   /* font-family: Poppins; */
@@ -10295,7 +10300,7 @@ Meet The Team Area CSS
   font-style: normal;
   font-weight: 600;
   line-height: 53.3px; /* 111.042% */
-  color: #000;
+  color: #09114a;
 }
 
 .meet-the-team-box {
@@ -10336,6 +10341,9 @@ Hiring Area CSS
   align-items: center;
   display: flex;
   justify-content: center;
+}
+.HiringTab-para {
+  color: #737373 !important;
 }
 .Hiring-box p {
   padding: 0;
@@ -10513,7 +10521,7 @@ client feedback Area CSS
   z-index: 2;
 }
 .feedback-title h2 {
-  color: #000;
+  color: #09114a;
 }
 .feedback-rating-ul {
   list-style-type: none;
@@ -10552,7 +10560,7 @@ client feedback Area CSS
   line-height: 150%;
   padding-right: 40px;
   font-family: Lato;
-  color: #000;
+  color: #525252;
 }
 
 .GetTalent,
