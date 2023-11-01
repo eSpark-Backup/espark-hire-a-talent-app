@@ -55,7 +55,7 @@ function DiscoveryCall() {
               </div>
               <div className="col-lg-6 d-flex justify-content-center">
                 <div className="discovery-call-img">
-                  <video controls autoPlay muted>
+                  <video controls autoPlay muted loop>
                     <source
                       src={'/images/discovery_call/video.mp4'}
                       // src={'https://youtu.be/wHRmeesEPaI'}
