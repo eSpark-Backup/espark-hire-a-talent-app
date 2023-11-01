@@ -10,6 +10,289 @@ const postedItems = (name, date, img, alt) => {
 export const blogData = [
   {
     id: 1,
+    slug: "handling-employee-benefits",
+    title: "Premier Steps & Tips For Handling Employee Benefits",
+    imageLink: "/images/blog/Handling Employee Benefits-vertical.png",
+    altTag:
+      "Employee Benefits - Employee Benefits in HRM - Employee Benefits importance - eSpark Talent",
+    bigImageLink: "/images/blog/Handling Employee Benefits.jpg",
+    mainHeading: `Handling Employee Benefits - The Ultimate Guide`,
+    mainParagraph: `Need assistance in handling employee benefits. Here is our comprehensive guide of all the finest steps and working tips.`,
+    postedBy: postedItems(
+      "Mehdi Raza",
+      "Oct 27, 2023",
+      "/images/user/mehdi-raza.png",
+      "Employee Benefits - Employee Benefits in HRM - Employee Benefits importance - eSpark Talent"
+    ),
+    content: `<div class="blogs-content">
+                <p>Handling employee benefits means taking full responsibility of workforce needs. Likewise, many human resource professionals feel that the process of employee benefits is quite costly. Therefore, strong observation, an active mindset, and brilliant payroll management skills are required.</p>
+                <p>However, many are aware that with smart steps and top-rated techniques, a benefits administrator can ease the HR department and management. Moreover, insights about the sustainable employee benefits process help HR to support the workforce and retain them.</p>
+                <p>Chill Out because today’s blog is all about managing employee benefits and how you can implement new benefits by following the shared steps and tips below. So, scroll down and find them all!</p>
+                <h3>Key Takeaway</h3>
+                <ul>
+                    <li>Openly explained steps of handling employee benefits.</li>
+                    <li>Smart and trending techniques to manage employee benefits.</li>
+                    <li>Convincing answers of frequently asked questions regarding the management of employee benefits.</li>
+                </ul>
+                <h2>What Is Handling Employee Benefits?</h2>
+                <p>Handling employee benefits simply means managing and regulating of awarded perks to all office staff. It includes the launch of new benefits and utilization of the already existing employee welfare program.</p>
+                <p>Furthermore, employee benefits also known as fringe benefits are those perks that are accorded to the working professionals within the organizations. Health insurance, medical coverage, and social security are some of the common offerings that are permitted to employees separate from monthly salary packages.</p>
+                <h2>What does A Benefits Administrator do?</h2>
+                <p>Many get confused with the designated title of benefits administrator. Hence, the person in charge of this position works under the HR department and implements employee welfare policies and programs. In other words, the benefit administrator is the listener of the staff's problems and issues. Moreover, the address of the welfare policies also comes under the power of an employee benefits executive.</p>
+                <h2>Effective Steps to Offer & Handle Employee Benefits</h2>
+                <p>The human resource departments do have their processes of handling of offered perks to office employees. Thus, still, things can get complicated. That’s why it is vital to grab everything insightful to streamline and advance employee benefit management. Here are the top eight steps that you should consider while overseeing and allowing new benefits without disturbing the payroll process and other endeavors of the HR department.</p>
+                <ol>
+                    <li>
+                        <h3>Acknowledge The Need for Intended Employee Benefits.</h3>
+                        <p>Who doesn’t want to get accorded the beneficial rewards from the company? Therefore, the allocation of all the perks is always valuable for the employees. Although the administrators must acknowledge the actual need for the existing and new fringe benefits. As advantages and convenience may profit the employee but can affect the financial budget of the company.</p>
+                    </li>
+                    <li>
+                        <h3>Lay Out The Positives & Possibilities of The Obtained Benefit.</h3>
+                        <p>The second step is to list out all the best things that an intended benefit can bring to the organization and current workforce. If the positives and possibilities work under the support of the benefit, then further action in the process should be taken. Similarly, understanding the existing benefits is also essential for proper handling.</p>
+                    </li>
+                    <li>
+                        <h3>Keep a Record of the Company Budget.</h3>
+                        <p>Before all the steps to follow, it is important to go through with the financial record of the company. Because it all depends on the current stability of the organization to support any campaign that involves the investment of a great amount of financial costs.</p>
+                    </li>
+                    <li>
+                        <h3>Perceive The Company’s Employee Benefits Policy.</h3>
+                        <p>Human resource officers can face various issues regarding the welfare benefits of employees. So, the best way to go through them is to start from the basics and perceive the decided policy which helps the system to work accordingly. On the other hand, for the permit of new benefits, it is demanding to work in the consideration of the company’s employee benefits policy.</p>
+                    </li>
+                    <li>
+                        <h3>Counsel With Management & Employee.</h3>
+                        <p>If the executives like to change something or bring any new campaign, they must counsel their senior for approval, advice, and even feedback. As formal suggestions and a stamp of approval from someone experienced is essential. Plus, to move things in the corporate office you must have full authority to manage and bring the change.</p>
+                    </li>
+                    <li>
+                        <h3>Develop A Plan Program for New Benefits.</h3>
+                        <p>This step is for the launch of the new benefit policy. In this stage, the design and practical actions of the offering benefit are decided and performed. Everything that is involved is analyzed and major things are considered before the final go. Likewise,</p>
+                        <ul>
+                            <li>The cost budget of the offering. </li>
+                            <li>Data collection from all resources.</li>
+                            <li>Approval from all shareholders of the company.</li>
+                            <li>Comparison with other fringe benefits.</li>
+                            <li>Negotiations with vendors.</li>
+
+                        </ul>
+                    </li>
+                    <p></p>
+                    <li>
+                        <h3>Formulate The Plan Involving Government Regulations.</h3>
+                        <p>When all things go well as planned then the recognition of the government regulations should also be considered. This indicates that an association with a law firm will be required to clear the goals of the company from any possible complications. Hence, it is vitally important for the corporate agencies to follow every government legality to keep things clear and lawful.</p>
+                    </li>
+                    <li>
+                        <h3>Never Forget to Note Down The Feedback</h3>
+                        <p>The round of feedback points to the reaction of all the stakeholders (investors, management, employers, employees, and the state) of the enterprise. This practice will put forward notable things. Like, the positives, negatives, and organizational effects. So, never ignore the power of the general point of view, as they can help you make further decisions for the working employee benefits policy.</p>
+                    </li>
+                </ol>
+    
+                <h2>5 Top-Level Tips on Handling Employee Benefits</h2>
+                <p>In the management of the workplaces, everything works like a process to earn profitable and adventurous results. What if we tell you that there are some premier tips that can help you run an easy and smoother employee benefits process? Yes! Here are the foremost tips companies must start executing from now on.</p>
+                <ol>
+                    <li>
+                        <h3>Design Employee Benefits Policy Easy to Understand</h3>
+                        <p>Corporate professionals will agree from this point that it is never easy to understand the permitted benefit policy. Hence, all professionals require the proper session to fully grasp the importance of the policy. Therefore, companies should design and address their policies clearly and understandably if they don’t want to face issues from employees regarding schemes and approaches.</p>
+                    </li>
+                    <li>
+                        <h3>Explore Unique Employee Benefits</h3>
+                        <p>The market is filled with companies who are offering several benefits to their staff. Hence, it would be inappropriate to express that due to these offers, they are successful. The point is that a company should award those benefits that are really useful and favorable for the staff. Secondly, the best employee perks attract smart minds who back the organizations to grow.</p>
+                    </li>
+                    <li>
+                        <h3>Associate With Employee Outsourcing Firm</h3>
+                        <p>It is coherent that employee outsourcing firms accelerate the workforce of the in-house companies. Similarly, this can also assist the benefits administrators in balancing the system, as there is a pack of perks offered by third-party employee outsourcing companies. So, a professional association with a human resources providing agency is a wise and clever move.</p>
+                    </li>
+                    <li>
+                        <h3>Offer Benefits That Meet Employee Needs</h3>
+                        <p>Every employee within the workplace does have the right to share occurring muddles within the company. In the same way, staff should also be listened if any change or reshaping of the policies is concerned. In fact, the exercise of benefits is for the employees. That’s why it has become vital to develop a benefit policy that could fulfill the needs of the employees.</p>
+                    </li>
+                    <li>
+                        <h3>Market Your Benefits for Brand Promotion</h3>
+                        <p>The promotion of the offered perks and benefits spread the positive word of mouth of the company. This technique shows that the issuing of perks can assist the organization to spread the network and earn worthwhile accolades. Plus, good promotion of every proposed reward strengthens the presence of the enterprise in the market.</p>
+                    </li>
+                    
+                </ol>
+
+                <h2>Wrapping It Up</h2>
+                <p>It can be effortless to develop action plans to balance every management function. But it is not an everyday thing to come up with sustainable campaigns. On that account, companies must grasp every unique reasoning technique to continue the flow of consistency.</p>
+                <p>That's all for now, as we will see you soon! Feel free to visit <a href="https://esparktalent.com/">eSpark Talent's</a> official website to hire the best-outsourced talent in the town. Follow our Instagram, <a href="https://www.facebook.com/people/eSpark-Talent/61550048738610/" target="_blank">Facebook</a>, and <a href="https://www.linkedin.com/company/espark-talent/" target="_blank">LinkedIn</a> pages to get updated about our furnished outsourcing services.</p>
+                </div>
+                `,
+  },
+  {
+    id: 2,
+    slug: "streamline-payroll-processing",
+    title: "How to Streamline Payroll Processing - Step-by-Step Guide",
+    imageLink: "/images/blog/streamline-payroll-processing-vertical.png",
+    altTag:
+      "Streamline Payroll Processing - Payroll Processing Salary - Payroll Processing HRM - eSpark Talent",
+    bigImageLink: "/images/blog/streamline-payroll-processing.jpg",
+    mainHeading: `Easy Tips to Streamline Payroll Processing`,
+    mainParagraph: `Got stuck in the complicated payment cycle? Relax and note down these contemporary tips to streamline payroll processing of your workplace.`,
+    postedBy: postedItems(
+      "Mehdi Raza",
+      "Oct 26, 2023",
+      "/images/user/mehdi-raza.png",
+      "Streamline Payroll Processing - Payroll Processing Salary - Payroll Processing HRM - eSpark Talent"
+    ),
+    content: `<div class="blogs-content">
+            <p>What are the signs of a perfect office place according to you? We can have a never-ending discussion here. But we all can agree on one thing, that a company with streamline payroll processing always wins the game. In fact, a firm that pays employees on time and regulates the administrative financial payroll cycle professionally earns reliable support from the working employees.</p>
+            <p>Challenges in the payroll process are expected when the workplace system is not updated. As disorganized records of expenses and not tracking employees' business hours come as the primest financial management hurdles in business organizations. That’s why today we have come up with exceptional tips for smoother payroll processing.</p>
+            <h3>Key Takeaway</h3>
+            <ul>
+                <li>List of operational ways to streamline payroll processing.</li>
+                <li>Benefits of modern technology in the payroll process.</li>
+                <li>Suggestion of easy data access & acquiring professional support.</li>
+            </ul>
+            <h2>Top 9 Working Ways To Streamline Payroll Processing</h2>
+            <p>Most of the human resource executives come up with questions like, is it possible to manage and streamline payroll processing without going into financial cycle complications? If you ask us then it is possible, as there are plenty of alternatives, but you have to be smart enough to implement them. Here are the paramount ways to streamline your payroll process like a pro.</p>
+            <ol>
+                <li>
+                    <h3>Welcome New Business Technologies</h3>
+                    <p>Modern digital technology owns the future, and the human resource department should not be left alone. Therefore, companies will be required to embrace the allocation of new business tech gadgets. Technologies such as mobile, cloud-based, and integrated systems must be utilized as per their requirements.</p>
+                    <p>Furthermore, the main goal of these inventions relates to the furnishing of an easy and comfortable environment for people. That’s why it is vital to use automated payroll software such as ADP, Workful, and OnPay to prevent human errors and continue the uncomplicated flow of the payroll process.</p>
+                </li>
+                <li>
+                    <h3>Acknowledge The Requirement of the Department</h3>
+                    <p>The acknowledged rule is the founding implementation of corporate businesses. As every decision in the office cubicle is made with the approval of the HR department and the management of the company. Similarly, before going for certain changes or running new business campaigns that involve financial involvement must need the acknowledgment of specific departments.</p>
+                    <p>Companies will need to get the accounting and HR departments in the loop to decide the spending and payroll cycle of the workforce. The practice of concession helps the management to learn more about office requirements.</p>
+                </li>
+                <li>
+                    <h3>Manage The Intended Costs</h3>
+                    <p>The employee payroll holds the most expensive rate of companies. The monthly cycle repeats itself and employees are permitted to receive their salaries. The practice of a monthly payroll cycle is permanent, but companies can reduce other unneeded costs that are occurring for months without the proper use. The handling of unwanted costs directly benefits the payroll process and converts it into an easy practice for both employees and management.</p>
+                </li>
+                <li>
+                    <h3>Combine Payroll With Other Business Functions</h3>
+                    <p>The financial expenses and payroll do have a never-ending connection. Because of that, the process of cost distribution gets disturbed at the end of every month. Why don’t you obtain the assistance of software likewise, QuickBooks, FreshBooks, and Xero? These online accounting applications help companies to manage the payroll without any hassle. Hence, you will be free from the pressure of filling of the payments.</p>
+                </li>
+                <li>
+                    <h3>Don’t Hesitate to Communicate With Experts</h3>
+                    <p>Law tax changes and other allocation make it difficult for the companies to capitalize. Thus, it is considered a silly observation expressing that few individuals handling the payroll will never require help from experienced professionals.</p>
+                    <p>In reality, companies must have an association with experienced ones to come for the rescue if any complication in the payroll process arises. Companies can ask for the assistance of senior accountants and expert human resource professionals with expertise in the payroll process. Their input will bring valuable ideas for the management of costs and expenses.</p>
+                </li>
+                <li>
+                    <h3>Lay Out Safe & Accessible Data Transmission Process</h3>
+                    <p>Employees and departments must have easy access to their needed data. A convenient way of reaching out to the required data works for the employees and accounting department. Companies can review the pay rates and cost records every day. Moreover, the security of the transmitted data is also essential in order to prevent future challenges in the payment process. The purchase of cloud-based security can shield the data that is shared with all the managing departments.</p>
+                </li>
+                <li>
+                    <h3>Acquire Employee Outsourcing Services.</h3>
+                    <p>Companies having associations with third-party organizations for outsourcing keep themselves free from payroll problems. In simple understanding, the private contractor or company becomes responsible for the payment and salary of the outsourced employees and that clears the road for in-house offices. In that case, a workplace filled with outsourced employees helps to streamline the payroll process.</p>
+                </li>
+                <li>
+                    <h3>Always Get Updated With Legislation Changes </h3>
+                    <p>The legislation changes mainly happen unexpectedly. Your business should be protected from the effects of the changes. In addition, it becomes the responsibility of the HR department and the management to acknowledge the changes and bring alternatives to defend the payroll. The gathered information about the latest legislative changes shows that the companies are surrounded by an active workforce. Plus, it is all about the regulation of the payroll exercises.</p>
+                </li>
+                <li>
+                    <h3>Uncomplicated Payroll Process Makes Life Easy</h3>
+                    <p>There can be numerous inclusions in the office management to control the extra costs and balance the payroll proceeding. However, market agencies and other corporate enterprises will entail the allocation of an uncomplicated payroll process that is well-understood by all the participants within the organization. It directly points out that workplaces will demand unchallenging and effortless remuneration processes after every passing year.</p>
+                </li>
+            </ol>
+
+            <h2>To Sum It Up</h2>
+            <p>Management of the payroll can be supported by various online software and applications. Likewise, hundreds of tutorials are available regarding accounting software usage and online payroll proceedings on the internet. This shows the importance of a flexible payroll accounting process. So, step ahead and follow these shared steps and streamline your payment cycle process.</p>
+            <p>That’s all for now, as we will be right back with another interesting and informative blog. For the urgent hiring of professional outsourced talent feel free to visit <a href="https://esparktalent.com/">eSpark Talent</a>. Hence, you can follow us on Instagram, <a href="https://www.facebook.com/people/eSpark-Talent/61550048738610/" target="_blank">Facebook</a>, and <a href="https://www.linkedin.com/company/espark-talent/" target="_blank">LinkedIn</a> to learn more about our demanding services. Take Care!</p>
+            </div>
+            `,
+  },
+  {
+    id: 3,
+    slug: "remote-work",
+    title: "Empower Yourself: How to Overcome the Isolation of Remote Work",
+    imageLink: "/images/blog/remote-work-vertical.png",
+    altTag:
+      "Remote Work - Remote Work Part Time - Remote Job Worldwide - eSpark Talent",
+    bigImageLink: "/images/blog/remote-work.png",
+    mainHeading: `How to Get Rid of Feeling Isolated During Remote Work?`,
+    mainParagraph: `Is remote work not good for employees? Learn about the reasons and altering solutions for isolation due to remote jobs here.`,
+    postedBy: postedItems(
+      "Mehdi Raza",
+      "Oct 25, 2023",
+      "/images/user/mehdi-raza.png",
+      "Remote Work - Remote Work Part Time - Remote Job Worldwide - eSpark Talent"
+    ),
+    content: `<div class="blogs-content">
+                    <p>Hybrid office working models during COVID-19 may grab applause for the current demand of remote work employment around the masses. But we can’t run from the fact that it was a common thing for countries, like the Netherlands, Ireland, and Swedes where most of the remote-based employees are found. These points reveal that the work-from-home practice of professional employment was always on the cards to change the future of corporate companies.</p>
+                <p>However, in recent years, things have not completely worked for this way of professional employment. Likewise, according to the research during and after the pandemic, it was found that around 56% to 67% of employees have faced isolated situations due to working from home.</p>
+                <p>Let’s dive into the prime reasons why employees feel lonely even though they are working in one of the most comfortable places they can ever want. And then move into the top tips to overcome the isolation effects while working from home.</p>
+                <h3>Highlights</h3>
+                <ul>
+                    <li>Open-hand explanation of loneliness due to remote work.</li>
+                    <li>5 prime reasons for Isolation during a remote job.</li>
+                    <li>10 restorative tips to prevail isolation while working remotely.</li>
+                </ul>
+                <h2>What Do You Mean By Isolation During Remote Work?</h2>
+                <p>Isolation is the unwanted feeling that is felt by humans due to multiple reasons that involve their personal flaws as well. Like, overthinking, taking stress, and feeling burdened all the time. Today’s younger generation seems to be fine with offering expertise through remote work. Thus, the current gathered facts suggest something different. Like, working employees between 18 to 24 feel lonelier and more left out while working from home.</p>
+                <p>The search engine is filled with research projects that started right after the pandemic suggesting that even though working remotely is in demand there are some drowning side effects of it. That’s the reason that queries related to this way of isolation are trending on Google.</p>
+                <h2>What Are The Main Reasons for Isolation During Remote Work?</h2>
+                <p>Social connectivity is in human nature. Even though the world is top-up with introverts who like to be on their own, social connectivity is the reason for the success of the human race. Hence, there is not one who is 100% introverted as every human requires someone to share their feelings and keep the day going.</p>
+                <p>Coming back to the point, the most relaxing way of working known as remote employment also has unexpected after-effects that should be discussed to get the perfect salvation. That’s why here are major reasons that cause loneliness while doing the job from home.</p>
+                
+                <h3>Informal Working Practice</h3>
+                <p>Working from home was never part of the plan before the trend of digitalization, as the social revolution of digital platforms is praised for the launch of this practice. The human body and mindset need the support and connectivity of others to feel part of the system.</p>
+                <p>Moreover, the remote practice may feel out of character for virtual employees. So, the informal way of working in the comfort of home does feel different and unaccepted by those who are agonized through this type of employment type.</p>
+                <h3>Lack of Social Interaction</h3>
+                <p>Corporate cubicles can be the spaces of workload packed with only business and technical talks. However, there are also a few fun and mind-energizing exercises that happen within the organizations where employees interact with each other. Likewise, mealtime breaks, company events, corporate parties, and conferences.</p>
+                <p>Furthermore, the presence of other colleagues also makes employees busy. Therefore, not having these kinds of social interactions forces remote-based professionals to go into the deep thoughts of loneliness.</p>
+                <h3>Comfort & Boredness of Home</h3>
+                <p>First-time eating fruits or foreign cuisines are always loved. But if we tell you that you will need to eat them regularly for a couple of upcoming months, then what will be the reaction? This is the same case with the easy practice of working from home. It is maybe comfortable but can also be boring and dry as dust.</p>
+                <h3>Demand of Being Active 24/7</h3>
+                <p>The acceptance of the homely office also comes with some toughest decisions. Even though employees are contracted to offer eight to nine hours of professional work, the remote model avails 24/7 activeness of the employees.</p>
+                <p>No matter if there is a decided time between the company and the employee, there has to be communication availability for the home-based employees with the managements of the offices. And that stress of being active all the time gives them the feeling of being lost in office stuff only.</p>
+                <h3>The Feeling of Being Trapped Only Into Office Workload.</h3>
+                <p>Humans are not angels or immortals as every being has a story to tell. We are the finest creation on this earth and need the busyness to service and achieve big in life; that’s why we get involved in various personal and professional endeavors.</p>
+                <p>The regular practice of working without proper physical interaction can steal the freedom of employees that has given them the feel of being human like others. The remote workforce can go into deep thoughts of being lost when they face the encounter being an AI robotic machine trapped in their own houses.</p>
+
+                <h2>10 Tips to Overcome the Feelings of Isolation During Working From Home</h2>
+                <p>We, as humans, have an identical special thing that we always find sustainable solutions to our own problems. Similarly, in this case, there are various approaches that can be adopted and actively followed by remote-based employees to tackle the undesirable feelings of isolation. Below are the foremost tips you can apply in your daily remote life to eliminate the feeling of being exhausted and lonely.</p>
+                <ol>
+                    <li>
+                        <h3>Start The Day Earlier & Have a Walk Around The Neighborhood </h3>
+                        <p>It is all about our mindset and regularly followed actions that generate the feeling of being free or exhausted. That’s why your everyday should be fresh and pleasant. You can start the day earlier and then have a walk around your nearby areas to feel the presence of the surroundings.</p>
+
+                    </li>
+                    <li>
+                        <h3>Decide The Daily To-Do List Before Kicking off Things Everyday</h3>
+                        <p>Being active all day just for the sack of quick response and rapid submission of the assigned work, remote employees are left with zero time for themselves. In simple understanding, some employees working from their comfort zone can also work against them and eat their own personal space. On that account, you can create a to-do list daily even if you have to start work late. As your working hours should always be decided in order to take full advantage of the remote benefit.</p>
+
+                    </li>
+                    <li>
+                        <h3>Switch Your Decided Remote Location </h3>
+                        <p>There is no need to shift, as you just have to be more creative in order to love working from home. Likewise, you can settle down your PC or whole setup in a different place of the house or just go outside and start working at open parks, libraries, or cafes which you will find a little bit busy but enough for you to be active with other humans.</p>
+                    </li>
+                    <li>
+                        <h3>Join Other Remote Professionals at Nearby Shared Workspaces </h3>
+                        <p>Shared workplaces are the finest spots for those who don’t want to face regular corporate management and still offer the same business time services. The world is packed with workstations where virtual employees surround themselves with other remote professionals on their decided flexible timing. </p>
+                    </li>
+                    <li>
+                        <h3>Fully Utilize The Flexible Timing </h3>
+                        <p>The habit of being on time and focusing on the work while serving duties with flexible timing can cause this worth appreciating opportunity. New technological inventions are only for the efficiency and convenience of humans. That’s why you should buckle up and take full advantage of your flexible remote timing.  Likewise, you can decide your own time to work and spend most of the time doing what excites you more and energizes your inner self. </p>
+                    </li>
+                    <li>
+                        <h3>Follow The Acknowledgment Rule</h3>
+                        <p>The acknowledgment rule means reaching out to your office colleagues and notifying them about your current tasks and office involvement. Every workplace management admires those who keep themselves involved through acknowledgment. You can easily loop in with other department colleagues virtually and wave the flag of being active. This action will improve your performance in the company and also give you a sense of being connected to the world.</p>
+                    </li>
+                    <li>
+                        <h3>Take Extended Breaks While Working & Have a Round of Surroundings</h3>
+                        <p>If your work and expertise are appreciated, then you deserve the long breaks that could energize you to come back to the game with extra power. Flexible timing gives you the freedom to be ready for the assigned work and shock the world with effective results. A break of one hour or 45 minutes is enough for you to freshen up and visit any stimulating place nearby. Just like most of the remote lads prefer visiting coffee shops and parks.</p>
+                    </li>
+                    <li>
+                        <h3>A Hobby Always Alters the Loneliness </h3>
+                        <p>Just like your household needs your presence; similarly, your inner feeling also entails something worth a mood lifter. If you don’t want to go outside, then finding a hobby and regular practice can connect you with the surroundings and nature. The most recommended suggestions are learning musical instruments, watching movies, and playing online games.</p>
+                    </li>
+                    <li>
+                        <h3>Entertainment is Key to Happiness</h3>
+                        <p>Keep the back volume high, as your house should be rocking wherever you encounter any breakdown during work.  Music is the absolute mood-shifter; that’s why you must try this out and shake your head to get lost in the rhythm of it. Regular work without social connectivity can raise the alarm bars; thus, you can dominate the feeling through a little bit of spice of fun and enjoyment.</p>
+                    </li>
+                    <li>
+                        <h3>Convert Yourself Into A Digital Nomad </h3>
+                        <p>How dreamy does it feel to work for your intended company and visit the world at the same time? Guess what! Around 36 million people are living this life, and they are called digital nomads. This dreamlike idea is for those who are living a bachelor's life and want to explore the world without losing their remote job. The digital nomad’s life can give the feeling of being active again in this universe by visiting the wonders of the world.</p>
+                    </li>
+                </ol>
+                <h2>Ending Lines</h2>
+                <p>The shared list can extend to thirty to fifty suggestions and ideas, as it is always the play of our minds. Instead of thinking that a remote job pulls down individuals we should utilize this allocation and promote it with fast and creative results. Productive results come when all the participants are active and ready to serve with their all-in instincts. This is the end of today’s blog. Visit the official website of <a href="https://esparktalent.com/">eSpark Talent</a> to learn more about employee outsourcing services that are supporting worldwide businesses to grow. Follow us on Instagram, <a href="https://www.facebook.com/people/eSpark-Talent/61550048738610/" target="_blank">Facebook</a>, and <a href="https://www.linkedin.com/company/espark-talent/" target="_blank">LinkedIn</a> to get updates regarding the helpful experts we offer to our clients.</p>
+                </div>
+                `,
+  },
+  {
+    id: 4,
     slug: "hr-consultant",
     title: "How to Start Independently HR Consulting",
     imageLink: "/images/blog/hr-consultant.png",
@@ -79,10 +362,11 @@ export const blogData = [
             <h2>To Sum It Up</h2>
             <p>Due to social networking and digital availability new earning opportunities have been generated every passing day. Young professionals must understand the need for skillful practical work and start utilizing their obtained skills. It is acceptable that the path can be difficult, but it is never impossible. So, relax, note down these tips, and start your voyage to success from today!</p>
             <p>That’s all for today dear readers. We will be right back with another worth-reading blog. Till then, take care, and visit the official website of eSpark Talent to learn more about employee outsourcing services. Follow us on LinkedIn, Facebook, and Instagram to discover everything about our future offered onboarding opportunities.</p>
+            </div>
             `,
   },
   {
-    id: 2,
+    id: 5,
     slug: "human-resource-management",
     title: "Defining Human Resource Management: A Dive into HRM.",
     imageLink: "/images/blog/human-resource-management.png",
@@ -155,10 +439,11 @@ export const blogData = [
         <p>The allocation of human resource management should earn positive regard for the smoother and hassle-free running of the business companies. HR’s work totally depends on collective participation. Hence, that is the reason the department seems busy all the time.</p>
         <p>It is true that offering the best business and IoT-related services is vital for the growth of companies. But without a running force like HR, it seems kind of unworkable to balance all the offerings.</p>
         <p>Lastly, thanks all for reading our today’s blog. We will be right back with another informative blog soon. Visit the official website of eSpark Talent to learn more about our online human resource and employee outsourcing services. Follow us on Instagram, Facebook, and LinkedIn for day-to-day updates of our business endeavors.</p>
+        </div>
         `,
   },
   {
-    id: 3,
+    id: 6,
     slug: "hiring-manager",
     title: "Getting to Know Your Hiring Manager: A Step-by-Step Guide",
     imageLink: "/images/blog/hiring-manager.png",
@@ -221,10 +506,11 @@ export const blogData = [
     <p>The simple answer is yes, but most of the platforms actively offer all employee recruitment services to other companies. It means that they are more into serving the firms with all human resource services. Employee outsourcing platforms already have expert managers in their team to hire and bring the best talent on the table. That’s why they are recognized as the finest players in human resource services worldwide.</p>
     <h2>To Wrap It Up</h2>
     <p>Recruitment or onboarding managers can be famously known as the final decision-makers for hiring employees. Thus, there is more that should be learned about the responsibilities and involvements of this position, just like the shared points above. Well, this is the end of today’s blog, and we will see you soon! eSpark Talent is a renowned employee outsourcing services provider. Feel free to visit our official website and follow us on Facebook, Instagram, and LinkedIn to grab more about our professional endeavors.</p>
+    </div>
     `,
   },
   {
-    id: 4,
+    id: 7,
     slug: "benefits-employee-outsourcing",
     title: "Benefits of Employee Outsourcing",
     imageLink: "/images/blog/benefits.png",
@@ -316,10 +602,11 @@ flexibility and productivity at the workplace? Grab the
         advantageous benefits that are shared above.
     <p>This is the end of our blog. If you are in search of a top employee outsourcing service provider company that
         could offer instant assistance. Then, feel free to contact eSpark Talent and avail convenient and on-time human
-        resource services.</div> `,
+        resource services.</p>
+        </div> `,
   },
   {
-    id: 5,
+    id: 8,
     slug: "employee-recruitment-strategies",
     title: "Primest Employee Recruitment Strategies for Success",
     bigImageLink: "/images/blog/blog2.png",
@@ -455,11 +742,11 @@ company.`,
     <p>Lastly, this is the end of our today’s blog, and we will be right back. If you are looking for an experienced and
         convenient outsourced employee-providing company, then visit the official website of eSpark Talent and get your
         selected professionals within 24 hours. Hence, follow us on our LinkedIn, Facebook and Instagram for day-to-day
-        updates.
+        updates.</p>
     </div>`,
   },
   {
-    id: 6,
+    id: 9,
     slug: "positive-work-culture",
     title: "8 Tips Guide for Bringing Positive Work Culture",
     imageLink: "/images/blog/8-Tips-Guide.png",
@@ -576,7 +863,7 @@ showcase your workplace with productivity.`,
                     always believe in their consistent pursuits to achieve business excellence.
                 <p>That is all for today. We will be right back with another entertaining and informative blog. Lastly,
                     connect with <a href="https://esparktalent.com" target="_blank">eSpark Talent</a> if you require professional employee outsourcing services to advance your
-                    workforce and continue a flexible workflow.
+                    workforce and continue a flexible workflow.</p>
     </div>
         `,
   },
