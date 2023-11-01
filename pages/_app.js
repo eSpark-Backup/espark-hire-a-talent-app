@@ -38,6 +38,12 @@ function MyApp({ Component, pageProps }) {
           <Component {...pageProps} />
           {/* <ScrollToTop /> */}
         </React.Fragment>
+      ) : pathname === "/book-a-discovery-call" ? (
+        <React.Fragment>
+          <Component {...pageProps} />
+          <Footer />
+          <ScrollToTop />
+        </React.Fragment>
       ) : (
         <React.Fragment>
           <NavbarStyle2 />
