@@ -10,8 +10,8 @@ const StarRating = ({ stars }) => {
           <img
             src={
               rating <= stars
-                ? '/images/discovery_call/star.png'
-                : '/images/discovery_call/star_d.png'
+                ? '/images/discovery_call/bright-star.svg'
+                : '/images/discovery_call/dark-star.svg'
             }
             alt="rating_img"
           />
