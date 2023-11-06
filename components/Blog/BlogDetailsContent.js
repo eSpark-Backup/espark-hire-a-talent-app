@@ -44,7 +44,13 @@ const BlogDetailsContent = ({ data }) => {
                         target="_blank"
                         className={item.className}
                       >
-                        <i className={`ri-${item.className}-fill`}></i>
+                        <img
+                          src={item?.src}
+                          className={item?.className}
+                          width={'90%'}
+                          height={'90%'}
+                          alt="social-icons"
+                        />
                       </a>
                     </li>
                   ))}
