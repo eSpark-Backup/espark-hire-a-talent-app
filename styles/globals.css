@@ -3299,20 +3299,22 @@ Blog Details Area CSS
 }
 
 .blog-details-desc .article-content .social-links li a:hover {
-  -webkit-transform: scale(1.15);
-  transform: scale(1.15);
+  transform: scale(1.1);
 }
 
 .blog-details-desc .article-content .social-links li a.facebook {
-  background-color: #3b5998;
+  /* background-color: #3b5998; */
+  background-color: transparent;
 }
 
 .blog-details-desc .article-content .social-links li a.twitter {
-  background-color: #1da1f2;
+  /* background-color: #1da1f2; */
+  background-color: transparent;
 }
 
 .blog-details-desc .article-content .social-links li a.linkedin {
-  background-color: #0077b5;
+  /* background-color: #0077b5; */
+  background-color: transparent;
 }
 
 .blog-details-desc .article-content .social-links li a.instagram {
@@ -3324,7 +3326,8 @@ Blog Details Area CSS
     #d6249f 60%,
     #285aeb 90%
   ); */
-  background: #ed46d2;
+  /* background: #ed46d2; */
+  background-color: transparent;
 }
 
 .blog-details-desc .article-content .social-links li:last-child {
@@ -9596,33 +9599,40 @@ subscribe2 Area CSS
   background-color: var(--blackColor);
 }
 
+.single-footer-widget .social-links li a:hover {
+  transform: scale(1.1);
+}
 .single-footer-widget .social-links .facebook {
-  background-color: #3b5998;
+  /* background-color: #3b5998; */
+  background-color: transparent;
 }
 .single-footer-widget .social-links .facebook:hover {
-  transform: scale(1.15);
-  background-color: #3b5998;
+  /* background-color: #3b5998; */
+  background-color: transparent;
 }
 .single-footer-widget .social-links .twitter {
-  background-color: #1da1f2;
+  /* background-color: #1da1f2; */
+  background-color: transparent;
 }
 .single-footer-widget .social-links .twitter:hover {
-  transform: scale(1.15);
-  background-color: #1da1f2;
+  background-color: transparent;
+  /* background-color: #1da1f2; */
 }
 .single-footer-widget .social-links .linkedin {
-  background-color: #0077b5;
+  /* background-color: #0077b5; */
+  background-color: transparent;
 }
 .single-footer-widget .social-links .linkedin:hover {
-  transform: scale(1.15);
-  background-color: #0077b5;
+  background-color: transparent;
+  /* background-color: #0077b5; */
 }
 .single-footer-widget .social-links .instagram {
-  background-color: #ed46d2;
+  /* background-color: #ed46d2; */
+  background-color: transparent;
 }
 .single-footer-widget .social-links .instagram:hover {
-  transform: scale(1.15);
-  background-color: #ed46d2;
+  background-color: transparent;
+  /* background-color: #ed46d2; */
 }
 
 /* Thankyou page styling starts from here */
