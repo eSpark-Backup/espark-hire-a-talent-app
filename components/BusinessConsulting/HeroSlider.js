@@ -1,7 +1,7 @@
-import React from "react";
-import { Swiper, SwiperSlide } from "swiper/react";
-import { Navigation } from "swiper";
-import Link from "next/link";
+import React from 'react';
+import { Swiper, SwiperSlide } from 'swiper/react';
+import { Navigation } from 'swiper';
+import Link from 'next/link';
 // import SimpleContent from './content'
 
 const HeroSlider = (props) => {
@@ -20,7 +20,7 @@ const HeroSlider = (props) => {
               <div className="banner-item">
                 <div className="container">
                   <div className="row align-items-center">
-                    <div className="col-lg-6 col-md-12">
+                    <div className="col-xl-6 col-lg-6 col-md-12">
                       <div className="home-content">
                         {/* <span className="sub-title">{slide.subTitle}</span> */}
                         <h1>{slide.title}</h1>
@@ -33,7 +33,7 @@ const HeroSlider = (props) => {
                         </Link>
                       </div>
                     </div>
-                    <div className="col-lg-6 col-md-12">
+                    <div className="col-xl-6 col-lg-6 col-md-12">
                       <div className="home-image mt-5">
                         <img src={slide.imagePath} alt={slide.altTag} />
                       </div>
