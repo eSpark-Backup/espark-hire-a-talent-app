@@ -1,5 +1,5 @@
-import { socialLinks } from "constants/constants";
-import React from "react";
+import { socialLinks } from 'constants/constants';
+import React from 'react';
 const BlogDetailsContent = ({ data }) => {
   return (
     <>
@@ -12,7 +12,10 @@ const BlogDetailsContent = ({ data }) => {
                 <p>{data[0]?.mainParagraph}</p>
                 <div className="post-author-meta">
                   <div className="d-flex align-items-center">
-                    <img src={data[0]?.postedBy?.image} alt={data[0]?.postedBy?.alt} />
+                    <img
+                      src={data[0]?.postedBy?.image}
+                      alt={data[0]?.postedBy?.alt}
+                    />
                     <div className="title">
                       <span className="name">
                         By <a href="#">{data[0]?.postedBy?.name}</a>
@@ -41,7 +44,13 @@ const BlogDetailsContent = ({ data }) => {
                         target="_blank"
                         className={item.className}
                       >
-                        <i className={`ri-${item.className}-fill`}></i>
+                        <img
+                          src={item?.src}
+                          className={item?.className}
+                          width={'90%'}
+                          height={'90%'}
+                          alt="social-icons"
+                        />
                       </a>
                     </li>
                   ))}
