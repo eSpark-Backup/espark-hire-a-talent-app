@@ -1,30 +1,30 @@
 const postedItems = (name, date, img, alt) => {
-  return {
-    name: name,
-    date: date,
-    image: img,
-    alt: alt,
-  };
+    return {
+        name: name,
+        date: date,
+        image: img,
+        alt: alt,
+    };
 };
 
 export const blogData = [
-  {
-    id: 1,
-    slug: "handling-employee-benefits",
-    title: "Premier Steps & Tips For Handling Employee Benefits",
-    imageLink: "/images/blog/Handling Employee Benefits-vertical.png",
-    altTag:
-      "Employee Benefits - Employee Benefits in HRM - Employee Benefits importance - eSpark Talent",
-    bigImageLink: "/images/blog/Handling Employee Benefits.jpg",
-    mainHeading: `Handling Employee Benefits - The Ultimate Guide`,
-    mainParagraph: `Need assistance in handling employee benefits. Here is our comprehensive guide of all the finest steps and working tips.`,
-    postedBy: postedItems(
-      "Mehdi Raza",
-      "Oct 27, 2023",
-      "/images/user/mehdi-raza.png",
-      "Employee Benefits - Employee Benefits in HRM - Employee Benefits importance - eSpark Talent"
-    ),
-    content: `<div class="blogs-content">
+    {
+        id: 1,
+        slug: "handling-employee-benefits",
+        title: "Premier Steps & Tips For Handling Employee Benefits",
+        imageLink: "/images/blog/Handling Employee Benefits-vertical.png",
+        altTag:
+            "Employee Benefits - Employee Benefits in HRM - Employee Benefits importance - eSpark Talent",
+        bigImageLink: "/images/blog/Handling Employee Benefits.jpg",
+        mainHeading: `Handling Employee Benefits - The Ultimate Guide`,
+        mainParagraph: `Need assistance in handling employee benefits. Here is our comprehensive guide of all the finest steps and working tips.`,
+        postedBy: postedItems(
+            "Mehdi Raza",
+            "Oct 27, 2023",
+            "/images/user/mehdi-raza.png",
+            "Employee Benefits - Employee Benefits in HRM - Employee Benefits importance - eSpark Talent"
+        ),
+        content: `<div class="blogs-content">
                 <p>Handling employee benefits means taking full responsibility of workforce needs. Likewise, many human resource professionals feel that the process of employee benefits is quite costly. Therefore, strong observation, an active mindset, and brilliant payroll management skills are required.</p>
                 <p>However, many are aware that with smart steps and top-rated techniques, a benefits administrator can ease the HR department and management. Moreover, insights about the sustainable employee benefits process help HR to support the workforce and retain them.</p>
                 <p>Chill Out because today’s blog is all about managing employee benefits and how you can implement new benefits by following the shared steps and tips below. So, scroll down and find them all!</p>
@@ -116,24 +116,24 @@ export const blogData = [
                 <p>That's all for now, as we will see you soon! Feel free to visit <a href="https://esparktalent.com/">eSpark Talent's</a> official website to hire the best-outsourced talent in the town. Follow our Instagram, <a href="https://www.facebook.com/people/eSpark-Talent/61550048738610/" target="_blank">Facebook</a>, and <a href="https://www.linkedin.com/company/espark-talent/" target="_blank">LinkedIn</a> pages to get updated about our furnished outsourcing services.</p>
                 </div>
                 `,
-  },
-  {
-    id: 2,
-    slug: "streamline-payroll-processing",
-    title: "How to Streamline Payroll Processing - Step-by-Step Guide",
-    imageLink: "/images/blog/streamline-payroll-processing-vertical.png",
-    altTag:
-      "Streamline Payroll Processing - Payroll Processing Salary - Payroll Processing HRM - eSpark Talent",
-    bigImageLink: "/images/blog/streamline-payroll-processing.jpg",
-    mainHeading: `Easy Tips to Streamline Payroll Processing`,
-    mainParagraph: `Got stuck in the complicated payment cycle? Relax and note down these contemporary tips to streamline payroll processing of your workplace.`,
-    postedBy: postedItems(
-      "Mehdi Raza",
-      "Oct 26, 2023",
-      "/images/user/mehdi-raza.png",
-      "Streamline Payroll Processing - Payroll Processing Salary - Payroll Processing HRM - eSpark Talent"
-    ),
-    content: `<div class="blogs-content">
+    },
+    {
+        id: 2,
+        slug: "streamline-payroll-processing",
+        title: "How to Streamline Payroll Processing - Step-by-Step Guide",
+        imageLink: "/images/blog/streamline-payroll-processing-vertical.png",
+        altTag:
+            "Streamline Payroll Processing - Payroll Processing Salary - Payroll Processing HRM - eSpark Talent",
+        bigImageLink: "/images/blog/streamline-payroll-processing.jpg",
+        mainHeading: `Easy Tips to Streamline Payroll Processing`,
+        mainParagraph: `Got stuck in the complicated payment cycle? Relax and note down these contemporary tips to streamline payroll processing of your workplace.`,
+        postedBy: postedItems(
+            "Mehdi Raza",
+            "Oct 26, 2023",
+            "/images/user/mehdi-raza.png",
+            "Streamline Payroll Processing - Payroll Processing Salary - Payroll Processing HRM - eSpark Talent"
+        ),
+        content: `<div class="blogs-content">
             <p>What are the signs of a perfect office place according to you? We can have a never-ending discussion here. But we all can agree on one thing, that a company with streamline payroll processing always wins the game. In fact, a firm that pays employees on time and regulates the administrative financial payroll cycle professionally earns reliable support from the working employees.</p>
             <p>Challenges in the payroll process are expected when the workplace system is not updated. As disorganized records of expenses and not tracking employees' business hours come as the primest financial management hurdles in business organizations. That’s why today we have come up with exceptional tips for smoother payroll processing.</p>
             <h3>Key Takeaway</h3>
@@ -191,24 +191,24 @@ export const blogData = [
             <p>That’s all for now, as we will be right back with another interesting and informative blog. For the urgent hiring of professional outsourced talent feel free to visit <a href="https://esparktalent.com/">eSpark Talent</a>. Hence, you can follow us on Instagram, <a href="https://www.facebook.com/people/eSpark-Talent/61550048738610/" target="_blank">Facebook</a>, and <a href="https://www.linkedin.com/company/espark-talent/" target="_blank">LinkedIn</a> to learn more about our demanding services. Take Care!</p>
             </div>
             `,
-  },
-  {
-    id: 3,
-    slug: "remote-work",
-    title: "Empower Yourself: How to Overcome the Isolation of Remote Work",
-    imageLink: "/images/blog/remote-work-vertical.png",
-    altTag:
-      "Remote Work - Remote Work Part Time - Remote Job Worldwide - eSpark Talent",
-    bigImageLink: "/images/blog/remote-work.png",
-    mainHeading: `How to Get Rid of Feeling Isolated During Remote Work?`,
-    mainParagraph: `Is remote work not good for employees? Learn about the reasons and altering solutions for isolation due to remote jobs here.`,
-    postedBy: postedItems(
-      "Mehdi Raza",
-      "Oct 25, 2023",
-      "/images/user/mehdi-raza.png",
-      "Remote Work - Remote Work Part Time - Remote Job Worldwide - eSpark Talent"
-    ),
-    content: `<div class="blogs-content">
+    },
+    {
+        id: 3,
+        slug: "remote-work",
+        title: "Empower Yourself: How to Overcome the Isolation of Remote Work",
+        imageLink: "/images/blog/remote-work-vertical.png",
+        altTag:
+            "Remote Work - Remote Work Part Time - Remote Job Worldwide - eSpark Talent",
+        bigImageLink: "/images/blog/remote-work.png",
+        mainHeading: `How to Get Rid of Feeling Isolated During Remote Work?`,
+        mainParagraph: `Is remote work not good for employees? Learn about the reasons and altering solutions for isolation due to remote jobs here.`,
+        postedBy: postedItems(
+            "Mehdi Raza",
+            "Oct 25, 2023",
+            "/images/user/mehdi-raza.png",
+            "Remote Work - Remote Work Part Time - Remote Job Worldwide - eSpark Talent"
+        ),
+        content: `<div class="blogs-content">
                     <p>Hybrid office working models during COVID-19 may grab applause for the current demand of remote work employment around the masses. But we can’t run from the fact that it was a common thing for countries, like the Netherlands, Ireland, and Swedes where most of the remote-based employees are found. These points reveal that the work-from-home practice of professional employment was always on the cards to change the future of corporate companies.</p>
                 <p>However, in recent years, things have not completely worked for this way of professional employment. Likewise, according to the research during and after the pandemic, it was found that around 56% to 67% of employees have faced isolated situations due to working from home.</p>
                 <p>Let’s dive into the prime reasons why employees feel lonely even though they are working in one of the most comfortable places they can ever want. And then move into the top tips to overcome the isolation effects while working from home.</p>
@@ -290,23 +290,23 @@ export const blogData = [
                 <p>The shared list can extend to thirty to fifty suggestions and ideas, as it is always the play of our minds. Instead of thinking that a remote job pulls down individuals we should utilize this allocation and promote it with fast and creative results. Productive results come when all the participants are active and ready to serve with their all-in instincts. This is the end of today’s blog. Visit the official website of <a href="https://esparktalent.com/">eSpark Talent</a> to learn more about employee outsourcing services that are supporting worldwide businesses to grow. Follow us on Instagram, <a href="https://www.facebook.com/people/eSpark-Talent/61550048738610/" target="_blank">Facebook</a>, and <a href="https://www.linkedin.com/company/espark-talent/" target="_blank">LinkedIn</a> to get updates regarding the helpful experts we offer to our clients.</p>
                 </div>
                 `,
-  },
-  {
-    id: 4,
-    slug: "hr-consultant",
-    title: "How to Start Independently HR Consulting",
-    imageLink: "/images/blog/hr-consultant.png",
-    altTag: "HR Consultant - Consultant HR - HR Consulting - eSpark Talent",
-    bigImageLink: "/images/blog/comprehensive-guide.jpg",
-    mainHeading: `Guide to Become A Successful Independent HR Consultant`,
-    mainParagraph: `Got skills & qualifications related to HR consulting? Start offering services independently with our well-explained guide here. `,
-    postedBy: postedItems(
-      "Mehdi Raza",
-      "Oct 06, 2023",
-      "/images/user/mehdi-raza.png",
-      "HR Consultant - Consultant HR - HR Consulting - eSpark Talent"
-    ),
-    content: `<div class="blogs-content">
+    },
+    {
+        id: 4,
+        slug: "hr-consultant",
+        title: "How to Start Independently HR Consulting",
+        imageLink: "/images/blog/hr-consultant.png",
+        altTag: "HR Consultant - Consultant HR - HR Consulting - eSpark Talent",
+        bigImageLink: "/images/blog/comprehensive-guide.jpg",
+        mainHeading: `Guide to Become A Successful Independent HR Consultant`,
+        mainParagraph: `Got skills & qualifications related to HR consulting? Start offering services independently with our well-explained guide here. `,
+        postedBy: postedItems(
+            "Mehdi Raza",
+            "Oct 06, 2023",
+            "/images/user/mehdi-raza.png",
+            "HR Consultant - Consultant HR - HR Consulting - eSpark Talent"
+        ),
+        content: `<div class="blogs-content">
                 <p>Digitalization and online earning platforms have eased professionals to utilize their acquired skills and valuable money. As every demanding professional job can be done online, then why not HR consulting?</p>
             <p>Doesn’t it feel relaxing to be the boss of your own? As the comfort of the home offers a positive work mood. The world has adopted the online earning approach, and now this is the time for HR consultants to join the club. </p>
             <p>Offering human resource services independently saves professionals from the hurdle of the regular corporate work cycle. On the other hand, it seems like a more hectic task to launch an in-house HR services business. That's why let’s learn how individuals can offer their expertise of HR without working under any in-house firm.</p>
@@ -364,24 +364,24 @@ export const blogData = [
             <p>That’s all for today dear readers. We will be right back with another worth-reading blog. Till then, take care, and visit the official website of eSpark Talent to learn more about employee outsourcing services. Follow us on LinkedIn, Facebook, and Instagram to discover everything about our future offered onboarding opportunities.</p>
             </div>
             `,
-  },
-  {
-    id: 5,
-    slug: "human-resource-management",
-    title: "Defining Human Resource Management: A Dive into HRM.",
-    imageLink: "/images/blog/human-resource-management.png",
-    altTag:
-      "Human Resource Management - Role of human resource management - Scope of Human Resource Management - Human Resource Management jobs - eSpark Talent",
-    bigImageLink: "/images/blog/blog10.jpg",
-    mainHeading: `Human Resource Management - The Demanding Approach for Business Success`,
-    mainParagraph: `Want to know everything about human resource management and other HR functions? Here is our informative and well-experienced blog about HRM.`,
-    postedBy: postedItems(
-      "Mehdi Raza",
-      "Oct 05, 2023",
-      "/images/user/mehdi-raza.png",
-      "Human Resource Management - Role of human resource management - Scope of Human Resource Management - Human Resource Management jobs - eSpark Talent"
-    ),
-    content: `<div class="blogs-content">
+    },
+    {
+        id: 5,
+        slug: "human-resource-management",
+        title: "Defining Human Resource Management: A Dive into HRM.",
+        imageLink: "/images/blog/human-resource-management.png",
+        altTag:
+            "Human Resource Management - Role of human resource management - Scope of Human Resource Management - Human Resource Management jobs - eSpark Talent",
+        bigImageLink: "/images/blog/blog10.jpg",
+        mainHeading: `Human Resource Management - The Demanding Approach for Business Success`,
+        mainParagraph: `Want to know everything about human resource management and other HR functions? Here is our informative and well-experienced blog about HRM.`,
+        postedBy: postedItems(
+            "Mehdi Raza",
+            "Oct 05, 2023",
+            "/images/user/mehdi-raza.png",
+            "Human Resource Management - Role of human resource management - Scope of Human Resource Management - Human Resource Management jobs - eSpark Talent"
+        ),
+        content: `<div class="blogs-content">
             <p>Corporate professionals and job-hunting individuals will be very much familiar with human resource management. The reason for the popularity of the HR department in the business world links with the involvement in different companies' endeavors.</p>
         <p>Business biggies and small privately-owned companies do have their own way of running things around. In the same way, HR executives develop management strategies to honor the adopted approaches and guide the workforce to follow them actively.</p>
         <p>Even though the HR department is quite open to all, there are still a few things that aren’t clear to most of the people. Likewise, what is HRM, what is involved in the HR department, and how does it function within the organization? So, let’s suit up and dive into the world of HRM and get the information insights here.</p>
@@ -441,24 +441,24 @@ export const blogData = [
         <p>Lastly, thanks all for reading our today’s blog. We will be right back with another informative blog soon. Visit the official website of eSpark Talent to learn more about our online human resource and employee outsourcing services. Follow us on Instagram, Facebook, and LinkedIn for day-to-day updates of our business endeavors.</p>
         </div>
         `,
-  },
-  {
-    id: 6,
-    slug: "hiring-manager",
-    title: "Getting to Know Your Hiring Manager: A Step-by-Step Guide",
-    imageLink: "/images/blog/hiring-manager.png",
-    altTag:
-      "Hiring Manager - Hiring manager vs recruiter - Hiring manager vs HR - eSpark Talent",
-    bigImageLink: "/images/blog/blog4.jpg",
-    mainHeading: `Everything to Know About Hiring Manager - Skills & Responsibilities.`,
-    mainParagraph: `Who are hiring managers? and what skills are required to be a professional hiring manager? Find out all here.`,
-    postedBy: postedItems(
-      "Mehdi Raza",
-      "Oct 04, 2023",
-      "/images/user/mehdi-raza.png",
-      "Hiring Manager - Hiring manager vs recruiter - Hiring manager vs HR - eSpark Talent"
-    ),
-    content: `<div class="blogs-content">
+    },
+    {
+        id: 6,
+        slug: "hiring-manager",
+        title: "Getting to Know Your Hiring Manager: A Step-by-Step Guide",
+        imageLink: "/images/blog/hiring-manager.png",
+        altTag:
+            "Hiring Manager - Hiring manager vs recruiter - Hiring manager vs HR - eSpark Talent",
+        bigImageLink: "/images/blog/blog4.jpg",
+        mainHeading: `Everything to Know About Hiring Manager - Skills & Responsibilities.`,
+        mainParagraph: `Who are hiring managers? and what skills are required to be a professional hiring manager? Find out all here.`,
+        postedBy: postedItems(
+            "Mehdi Raza",
+            "Oct 04, 2023",
+            "/images/user/mehdi-raza.png",
+            "Hiring Manager - Hiring manager vs recruiter - Hiring manager vs HR - eSpark Talent"
+        ),
+        content: `<div class="blogs-content">
         <p>In today’s time almost every professional knows that the HR department owns the responsibility of hiring employees. So, where does a hiring manager come for the service? Yes! We know that you also have some questions regarding the work of hiring managers to clear your mind. That's why today’s interesting blog is all about those creative and smart managers.</p>
     <p>The hiring process can be hectic sometimes as every company wants the best of the best workforce to extend their business. The thinking process is acceptable as no one wants to be left out in this competitive world. Hence, during these urgencies and requirements of hunting the best talent, the services of hiring specialists are acquired.</p>
     <p>Well, that’s not enough as there is much to know about this professional field of quick and energetic minds. Scroll down to learn more!</p>
@@ -508,123 +508,149 @@ export const blogData = [
     <p>Recruitment or onboarding managers can be famously known as the final decision-makers for hiring employees. Thus, there is more that should be learned about the responsibilities and involvements of this position, just like the shared points above. Well, this is the end of today’s blog, and we will see you soon! eSpark Talent is a renowned employee outsourcing services provider. Feel free to visit our official website and follow us on Facebook, Instagram, and LinkedIn to grab more about our professional endeavors.</p>
     </div>
     `,
-  },
-  {
-    id: 7,
-    slug: "benefits-employee-outsourcing",
-    title: "Benefits of Employee Outsourcing",
-    imageLink: "/images/blog/benefits.png",
-    altTag:
-      "Employee Outsourcing - Employee outsourcing jobs - Employee outsourcing companies - Staff outsourcing services - Importance of outsourcing - espark Talent",
-    bigImageLink: "/images/blog/blog1.png",
-    mainHeading: `Employee Outsourcing - The Future 
-      of Hiring Professional Workforce.`,
-    mainParagraph: `What is Employee Outsourcing? And how does it bring 
-flexibility and productivity at the workplace? Grab the
-       needful insights here.`,
-    postedBy: postedItems(
-      "Mehdi Raza",
-      "Sept 24, 2023",
-      "/images/user/mehdi-raza.png",
-      "Employee Outsourcing - Employee outsourcing jobs - Employee outsourcing companies - Staff outsourcing services - Importance of outsourcing - espark Talent"
-    ),
-    content: `<div class="blogs-content">
-        <p>This is the era of social revolution, and every diligent professional is all set to offer their acquired skills to
-        native or foreign corporate companies. It doesn’t matter if you are living in any well-established or developing
-        country, there will always be a need for prolific individuals who could lower the workload of corporate offices.
-    <p>In most cases, the HR department and management of the companies are pointed out for the lack of work flexibility and
-        productivity at the workplace. However, it is a universal fact that the corporate professional system will always
-        involve management issues and workforce instability. Therefore, companies are going to need the perfect alternative
-        for the growth of their business and the professional run of their management.
-    <p>In this time of competition, there is only one way out that can support companies to bounce back and come
-        asprofile-earning businesses. Yes, you got it right, we are talking about employee outsourcing.
-    <h2>What is Employee Outsourcing?</h2>
-    <p>Corporate professionals of social revolution are known as the problem-solvers. Hence, it is in human nature to bring
-        the perfect alternatives to resolve the occurring issues. Likewise, employee outsourcing services acquired by
-        companies can easily back their working workforce
-    <p>Employee outsourcing is the process of obtaining association with talented and expert professionals who serve
-        companies as third-party service providers. In simple understanding, companies hire professionals who work for them
-        with flexible or office working hours timing from different in-house locations. Moreover, there are various modes of
-        acquiring outsourcing services. Likewise, some hired individuals are self-promoting freelancers who offer services
-        through a private outsourcing contractor. On the other hand, some provide services through certified human resource
-        service-providing companies.
-    <h2>How Employee Outsourcing Services Are Different From Freelancing?</h2>
-    <p>This question is always pitched to outsourced employees, as freelancing does connect with this channel of
-        professionalism. However, there are various highlights and mentions that clarify the differences. Likewise
-    <ul>
-        <li>Unlike freelancers, outsourced employees are legally hired professionals who represent
-            their hired companies while serving their clients.</li>
-        <li>During service, they earn all the benefits that in-house employees are accorded. But
-            the daily tasks are assigned by client companies.</li>
-        <li>Hired employees are paid through monthly or weekly salary packages as per the signed
-            contracts between the employers and the HR companies.</li>
-        <li>Outsourced employees do have the benefit of job security as they are associated with
-            their in-house companies and work on tasks assigned by clients on a daily basis.</li>
-    </ul>
-    <h2>5 Top Benefits of Employee Outsourcing</h2>
-    <p>It always looks fine and easy
-        to hire a freelancer to get the work done. However, the association of experienced professionals hired to support
-        the workforce every day is considered the best choice. Here is how legal and contracted employee outsourcing can
-        benefit companies and business individuals in today’s time.
-    <h3>Lower Office Workload</h3>
-    <p>Employee outsourcing is not a regular thing for
-        companies. As expert professionals are called for help when companies require urgent support in their workplaces.
-        Thus, the need for outsourced employees is mostly initiated when companies can’t find any possible solution to lower
-        the workload. It directly indicates that employee outsourcing reduces the pressure of office workload from in-house
-        staff.
-      <h3>Bring Positive Change At The Workplace</h3>
-        <p>Companies aim to
-        continue the flow of a positive working environment. And for that employee outsourcing can come for assistance. The
-        working system of the offices automatically changes when every task is handled and completed at that exact time. It
-        means that obtaining outsourcing services can really bring the needed productive change for companies.
-    <h3>Reduce Labor Costs</h3>
-    <p>Privately owned and well-renowned companies grab the
-        understanding of how much it takes to hire a suitable professional. Moreover, common employees are far away from the
-        knowledge of how much it costs for companies to arrange every office supply. Therefore, hiring professionals who
-        offer their expertise without causing labor costs saves time and directly benefits the companies.
-    <h3>Increase Profit Earning Opportunities</h3>
-        <p>Corporate systems work on the
-        capabilities of hired employees of the companies. In that account, businesses will be able to earn good profit by
-        the fast regulation of the provided work. The collaboration of the outsourced team always does the job of completing
-        the needful tasks in minimum time. That’s why it can be expressed that fast working results can bring valuable
-        profit-earning opportunities for companies.
-    <h3>Extend Professional Network Worldwide</h3>
-    <p>The moment companies get the
-        association of the outsourced employees their businesses meet with foreign collaborations. Simply put, a partnership
-        with an outsourced human resource-providing company can lead an employer’s brand to the worldwide network. In the
-        same way, a trustful connection with outsourced professionals living in different countries also promotes the
-        company brand around the globe.
-    <h2>Final Words</h2>
-    <p>Outsourced human resource service-providing companies are recognized as the finest assets for assisting businesses during urgent
-        needs. Hence, by offering an extended list of outsourced professionals HR firms proudly support numerous
-        multinational companies. In that case, agencies and enterprises can freely hire the services of trusted
-        professionals. Similarly, the hired outsourced employees will work like daily in-house employees but will offer
-        advantageous benefits that are shared above.
-    <p>This is the end of our blog. If you are in search of a top employee outsourcing service provider company that
-        could offer instant assistance. Then, feel free to contact eSpark Talent and avail convenient and on-time human
-        resource services.</p>
-        </div> `,
-  },
-  {
-    id: 8,
-    slug: "employee-recruitment-strategies",
-    title: "Primest Employee Recruitment Strategies for Success",
-    bigImageLink: "/images/blog/blog2.png",
-    imageLink: "/images/blog/primest-Employee.png",
-    altTag:
-      "Employee Recruitment - Employee recruitment in hrm - Recruitment process - Sources of recruitment - Sources of employee recruitment - espark Talent",
-    mainHeading: `Primest Employee Recruitment
+    },
+    {
+        id: 7,
+        slug: "positive-work-culture",
+        title: "8 Tips Guide for Bringing Positive Work Culture",
+        imageLink: "/images/blog/8-Tips-Guide.png",
+        altTag:
+            "Positive Work Culture - Positive culture examples - Positive workplace culture examples - espark Talent",
+        bigImageLink: "/images/blog/blog3.png",
+        mainHeading: `Secret of Bringing Positive Work Culture - A Compressive Guide For 
+Office Workplaces.`,
+        mainParagraph: `Companies must embrace the change and follow what
+is best for them. Here are the eight working tips to 
+showcase your workplace with productivity.`,
+        postedBy: postedItems(
+            "Mehdi Raza",
+            "Sept 26, 2023",
+            "/images/user/mehdi-raza.png",
+            "Positive Work Culture - Positive culture examples - Positive workplace culture examples - espark Talent"
+        ),
+        content: `<div class="blogs-content">
+        <p>After the inventions of recent technologies, experienced professionals can undoubtedly predict the future of
+            office employment. Hence, there won’t be any denying that the social revolution of the business and corporate
+            companies has freed the employees from the unfavorable chains of reliability. Likewise, talented and skillful
+            individuals no longer required positions and employment with workload burdens that were common in the Industrial
+            Revolution era.
+        <p>Now, suitable employment has become the personal frontier of applicants. Therefore, companies entail the
+            allocation of something new and fresh at their workplace to initiate a positive work culture and reliability in
+            their workforce.
+        <p>Time to avail everything regarding the needed change in the organizations in order to become successful examples
+            in this corporate world. As all the practices directly connect with the care of the workforce and the promotion
+            of employee recognition. Let’s learn more about flexible work culture and foremost tips to bring optimistic
+            change here
+        <h2>What Do You Mean By Positive Work Culture? </h2>
+        <p>Even though business firms have accepted that issues in office management and regulations will never end, there
+            is still hope for a definite makeover. If we take some time and observe the daily activities of the workplaces,
+            then many flaws in management and employee wellness will pop up. So, the alternation of those issues and work
+            for the advancement of the employee can be the primary steps towards a positive work culture.
+        <p>Furthermore, the mission of running office regulations smoothly always leads companies toward their intended
+            target goals. That’s why it can be believed that the success of workplaces in this competitive world depends on
+            an authorized productive work culture. Scroll down to find working ways that can help your company to have its
+            best run of the decade.
+         <h2>8 Productive Ways to Convert Your Office Into A Dynamic Professional Workplace</h2>
+        <p>Every professional firm requires sustainable and consistent elements to earn that one overnight success moment.
+            Therefore, shared practices require the full attention of the companies. Similarly, the daily implementation of
+            these tips can only drive your intended change in the company.
+        <ol>
+            <li><h3>Embrace The Change for Betterment</h3>
+                <p>If you are a corporate professional and acquire the details of the current market trend, then it is
+                    essential for your enterprise to embrace the change. In this era of entrepreneurs, innovation is the key
+                    to beating the competition, as professional firms are one of the stakeholders of innovative and positive
+                    work culture.</p>
+            </li>
+            <li><h3>Set Intelligible Organization Goals</h3>
+                <p>The allocation of clear and uncomplicated company goals not only benefits management but also eases the
+                    working employees. Hence, the workforce must feel motivated regarding their service to the employers.
+                    Second, openly described goals for each department will avoid any upcoming misunderstandings and office
+                    flaws. Thus, every workplace does have its own policies which is why it is highly advised to address the
+                    goals under the adopted hierarchy.
+            </li>
+            
+            <li><h3>Prevent Micromanagement Approaches</h3>
+                <p>In today’s time, there are mixed reviews regarding the implementation of micromanagement. Likewise, some
+                    are in support of supervision that could accelerate office activities and present worthwhile results. On
+                    the other hand, others are totally against unneeded supervision that doesn't allow all employees and
+                    departments to execute innovative and creative exercises at the workplace.
+                <p>Your office should not follow the practices that frustrate the workforce and limit them and their
+                    capabilities. Otherwise, we all have the understanding that many organizations went into dust who
+                    limited their workforce and enforced restrictions on creativity.
+            </li>
+            
+            <li><h3>Demote Unwanted Overtime & Late Hours Routines</h3>
+                <p>Yes, it is convincing that companies want their employees to be trustworthy and provide the best to the
+                    table. Similarly, we also accept the fact that businesses can need overtime work to complete the needed
+                    tasks. However, all these requisites do not explain the permit of regular unfavorable overtime and late
+                    hours routines. That’s why today is the time to stop promoting these practices.
+            </li>
+            
+            <li><h3>Promote Inclusivity & Social Interaction</h3>
+                <p>Companies are built with the active involvement of all members. Including directors, managers, leads, and
+                    other employees. The diligence in the work comes when all the involved individuals in the organization
+                    have the freedom to offer earned expertise and utilize their acquired experience. Moreover, every
+                    excited new joiner aims to be welcomed and valued like others within the organization. In that case, the
+                    liberty of inclusivity and social interaction can change companies’ environment and produce unexpected
+                    organizational financial profit.
+            </li>
+            
+            <li><h3>Foster Employee Rights & Allow Zero Tolerance Policy</h3>
+                <p>Strong roots and fertile land of the plant become the reason for its instant natural growth. Similarly,
+                    acknowledgment of employee rights and execution of zero tolerance policy can work as the growing roots
+                    and supportive land for companies. As proper understanding of the policies and terms backs the employees
+                    and companies to speak up and say no to inappropriate behaviors and practices within the workplace.
+            </li>
+            
+            <li><h3>Lower Office Workload Through Employee Outsourcing</h3>
+                <p>There can be many ideas to alter the most occurring issue in most of companies. Yes, we are talking about
+                    office workload. In this time of digitalization, there are many ways to get the assistance of freelance
+                    professionals. However, companies ask for those who could be reliable and work like their own in-house
+                    employees. On that account, acquiring employee outsourcing services can be a smart choice.
+                <p>The hiring of outsourced professionals not only reduces the work pressure from in-house employees of the
+                    companies but also puts forward the flexibility to the office cubicle.
+            </li>
+            
+            <li><h3>Encourage Workforce & Organize Employee Recognition Programs</h3>
+                <p>Workforce encouragement doesn’t mean to promote only a few noted departments, as every individual
+                    requires praise from the management. In addition, companies can organize employee recognition programs
+                    to improve team culture, retain employees, and resurrect their lost motivation back on track
+            </li>
+        </ol>
+        <p><h2>Bottom Line</h2>
+                <p>It is easy to lay out all the changes or make a list of additional inclusions for the companies. Although
+                    it does take more than just a few minutes of stimulation. Secondly, not every change in the firm is
+                    related to profit earnings. That’s why those who have the authority to bring constructive change must
+                    acknowledge its process and utilize the tips like a smart professional.
+                <p>There is not any reference available suggesting a company with a dynamic work culture fails to earn
+                    profit and grab the ranking among the top brands worldwide. So, companies should never lose hope and
+                    always believe in their consistent pursuits to achieve business excellence.
+                <p>That is all for today. We will be right back with another entertaining and informative blog. Lastly,
+                    connect with <a href="https://esparktalent.com" target="_blank">eSpark Talent</a> if you require professional employee outsourcing services to advance your
+                    workforce and continue a flexible workflow.</p>
+    </div>
+        `,
+    },
+    {
+        id: 8,
+        slug: "employee-recruitment-strategies",
+        title: "Primest Employee Recruitment Strategies for Success",
+        bigImageLink: "/images/blog/blog2.png",
+        imageLink: "/images/blog/primest-Employee.png",
+        altTag:
+            "Employee Recruitment - Employee recruitment in hrm - Recruitment process - Sources of recruitment - Sources of employee recruitment - espark Talent",
+        mainHeading: `Primest Employee Recruitment
 Strategies for Success.`,
-    mainParagraph: `Want to update your recruitment process? Here are the 
+        mainParagraph: `Want to update your recruitment process? Here are the 
 must-follow practices to hire the best talent for your
 company.`,
-    postedBy: postedItems(
-      "Mehdi Raza",
-      "Sept 25, 2023",
-      "/images/user/mehdi-raza.png",
-      "Employee Recruitment - Employee recruitment in hrm - Recruitment process - Sources of recruitment - Sources of employee recruitment - espark Talent"
-    ),
-    content: `<div class="blogs-content">
+        postedBy: postedItems(
+            "Mehdi Raza",
+            "Sept 25, 2023",
+            "/images/user/mehdi-raza.png",
+            "Employee Recruitment - Employee recruitment in hrm - Recruitment process - Sources of recruitment - Sources of employee recruitment - espark Talent"
+        ),
+        content: `<div class="blogs-content">
     <p>The professional world is surrounded by various office exercises. However, the recruitment process appears to be a
         much-needed implementation. The hiring and dismissal of employees seem like regular practices of corporate
         companies. Hence, for a couple of years, the management of business workplaces has been facing some alarming
@@ -744,127 +770,101 @@ company.`,
         selected professionals within 24 hours. Hence, follow us on our LinkedIn, Facebook and Instagram for day-to-day
         updates.</p>
     </div>`,
-  },
-  {
-    id: 9,
-    slug: "positive-work-culture",
-    title: "8 Tips Guide for Bringing Positive Work Culture",
-    imageLink: "/images/blog/8-Tips-Guide.png",
-    altTag:
-      "Positive Work Culture - Positive culture examples - Positive workplace culture examples - espark Talent",
-    bigImageLink: "/images/blog/blog3.png",
-    mainHeading: `Secret of Bringing Positive Work Culture - A Compressive Guide For 
-Office Workplaces.`,
-    mainParagraph: `Companies must embrace the change and follow what
-is best for them. Here are the eight working tips to 
-showcase your workplace with productivity.`,
-    postedBy: postedItems(
-      "Mehdi Raza",
-      "Sept 26, 2023",
-      "/images/user/mehdi-raza.png",
-      "Positive Work Culture - Positive culture examples - Positive workplace culture examples - espark Talent"
-    ),
-    content: `<div class="blogs-content">
-        <p>After the inventions of recent technologies, experienced professionals can undoubtedly predict the future of
-            office employment. Hence, there won’t be any denying that the social revolution of the business and corporate
-            companies has freed the employees from the unfavorable chains of reliability. Likewise, talented and skillful
-            individuals no longer required positions and employment with workload burdens that were common in the Industrial
-            Revolution era.
-        <p>Now, suitable employment has become the personal frontier of applicants. Therefore, companies entail the
-            allocation of something new and fresh at their workplace to initiate a positive work culture and reliability in
-            their workforce.
-        <p>Time to avail everything regarding the needed change in the organizations in order to become successful examples
-            in this corporate world. As all the practices directly connect with the care of the workforce and the promotion
-            of employee recognition. Let’s learn more about flexible work culture and foremost tips to bring optimistic
-            change here
-        <h2>What Do You Mean By Positive Work Culture? </h2>
-        <p>Even though business firms have accepted that issues in office management and regulations will never end, there
-            is still hope for a definite makeover. If we take some time and observe the daily activities of the workplaces,
-            then many flaws in management and employee wellness will pop up. So, the alternation of those issues and work
-            for the advancement of the employee can be the primary steps towards a positive work culture.
-        <p>Furthermore, the mission of running office regulations smoothly always leads companies toward their intended
-            target goals. That’s why it can be believed that the success of workplaces in this competitive world depends on
-            an authorized productive work culture. Scroll down to find working ways that can help your company to have its
-            best run of the decade.
-         <h2>8 Productive Ways to Convert Your Office Into A Dynamic Professional Workplace</h2>
-        <p>Every professional firm requires sustainable and consistent elements to earn that one overnight success moment.
-            Therefore, shared practices require the full attention of the companies. Similarly, the daily implementation of
-            these tips can only drive your intended change in the company.
-        <ol>
-            <li><h3>Embrace The Change for Betterment</h3>
-                <p>If you are a corporate professional and acquire the details of the current market trend, then it is
-                    essential for your enterprise to embrace the change. In this era of entrepreneurs, innovation is the key
-                    to beating the competition, as professional firms are one of the stakeholders of innovative and positive
-                    work culture.</p>
-            </li>
-            <li><h3>Set Intelligible Organization Goals</h3>
-                <p>The allocation of clear and uncomplicated company goals not only benefits management but also eases the
-                    working employees. Hence, the workforce must feel motivated regarding their service to the employers.
-                    Second, openly described goals for each department will avoid any upcoming misunderstandings and office
-                    flaws. Thus, every workplace does have its own policies which is why it is highly advised to address the
-                    goals under the adopted hierarchy.
-            </li>
-            
-            <li><h3>Prevent Micromanagement Approaches</h3>
-                <p>In today’s time, there are mixed reviews regarding the implementation of micromanagement. Likewise, some
-                    are in support of supervision that could accelerate office activities and present worthwhile results. On
-                    the other hand, others are totally against unneeded supervision that doesn't allow all employees and
-                    departments to execute innovative and creative exercises at the workplace.
-                <p>Your office should not follow the practices that frustrate the workforce and limit them and their
-                    capabilities. Otherwise, we all have the understanding that many organizations went into dust who
-                    limited their workforce and enforced restrictions on creativity.
-            </li>
-            
-            <li><h3>Demote Unwanted Overtime & Late Hours Routines</h3>
-                <p>Yes, it is convincing that companies want their employees to be trustworthy and provide the best to the
-                    table. Similarly, we also accept the fact that businesses can need overtime work to complete the needed
-                    tasks. However, all these requisites do not explain the permit of regular unfavorable overtime and late
-                    hours routines. That’s why today is the time to stop promoting these practices.
-            </li>
-            
-            <li><h3>Promote Inclusivity & Social Interaction</h3>
-                <p>Companies are built with the active involvement of all members. Including directors, managers, leads, and
-                    other employees. The diligence in the work comes when all the involved individuals in the organization
-                    have the freedom to offer earned expertise and utilize their acquired experience. Moreover, every
-                    excited new joiner aims to be welcomed and valued like others within the organization. In that case, the
-                    liberty of inclusivity and social interaction can change companies’ environment and produce unexpected
-                    organizational financial profit.
-            </li>
-            
-            <li><h3>Foster Employee Rights & Allow Zero Tolerance Policy</h3>
-                <p>Strong roots and fertile land of the plant become the reason for its instant natural growth. Similarly,
-                    acknowledgment of employee rights and execution of zero tolerance policy can work as the growing roots
-                    and supportive land for companies. As proper understanding of the policies and terms backs the employees
-                    and companies to speak up and say no to inappropriate behaviors and practices within the workplace.
-            </li>
-            
-            <li><h3>Lower Office Workload Through Employee Outsourcing</h3>
-                <p>There can be many ideas to alter the most occurring issue in most of companies. Yes, we are talking about
-                    office workload. In this time of digitalization, there are many ways to get the assistance of freelance
-                    professionals. However, companies ask for those who could be reliable and work like their own in-house
-                    employees. On that account, acquiring employee outsourcing services can be a smart choice.
-                <p>The hiring of outsourced professionals not only reduces the work pressure from in-house employees of the
-                    companies but also puts forward the flexibility to the office cubicle.
-            </li>
-            
-            <li><h3>Encourage Workforce & Organize Employee Recognition Programs</h3>
-                <p>Workforce encouragement doesn’t mean to promote only a few noted departments, as every individual
-                    requires praise from the management. In addition, companies can organize employee recognition programs
-                    to improve team culture, retain employees, and resurrect their lost motivation back on track
-            </li>
-        </ol>
-        <p><h2>Bottom Line</h2>
-                <p>It is easy to lay out all the changes or make a list of additional inclusions for the companies. Although
-                    it does take more than just a few minutes of stimulation. Secondly, not every change in the firm is
-                    related to profit earnings. That’s why those who have the authority to bring constructive change must
-                    acknowledge its process and utilize the tips like a smart professional.
-                <p>There is not any reference available suggesting a company with a dynamic work culture fails to earn
-                    profit and grab the ranking among the top brands worldwide. So, companies should never lose hope and
-                    always believe in their consistent pursuits to achieve business excellence.
-                <p>That is all for today. We will be right back with another entertaining and informative blog. Lastly,
-                    connect with <a href="https://esparktalent.com" target="_blank">eSpark Talent</a> if you require professional employee outsourcing services to advance your
-                    workforce and continue a flexible workflow.</p>
-    </div>
-        `,
-  },
+    },
+    {
+        id: 9,
+        slug: "benefits-employee-outsourcing",
+        title: "Benefits of Employee Outsourcing",
+        imageLink: "/images/blog/benefits.png",
+        altTag:
+            "Employee Outsourcing - Employee outsourcing jobs - Employee outsourcing companies - Staff outsourcing services - Importance of outsourcing - espark Talent",
+        bigImageLink: "/images/blog/blog1.png",
+        mainHeading: `Employee Outsourcing - The Future 
+      of Hiring Professional Workforce.`,
+        mainParagraph: `What is Employee Outsourcing? And how does it bring 
+flexibility and productivity at the workplace? Grab the
+       needful insights here.`,
+        postedBy: postedItems(
+            "Mehdi Raza",
+            "Sept 24, 2023",
+            "/images/user/mehdi-raza.png",
+            "Employee Outsourcing - Employee outsourcing jobs - Employee outsourcing companies - Staff outsourcing services - Importance of outsourcing - espark Talent"
+        ),
+        content: `<div class="blogs-content">
+        <p>This is the era of social revolution, and every diligent professional is all set to offer their acquired skills to
+        native or foreign corporate companies. It doesn’t matter if you are living in any well-established or developing
+        country, there will always be a need for prolific individuals who could lower the workload of corporate offices.
+    <p>In most cases, the HR department and management of the companies are pointed out for the lack of work flexibility and
+        productivity at the workplace. However, it is a universal fact that the corporate professional system will always
+        involve management issues and workforce instability. Therefore, companies are going to need the perfect alternative
+        for the growth of their business and the professional run of their management.
+    <p>In this time of competition, there is only one way out that can support companies to bounce back and come
+        asprofile-earning businesses. Yes, you got it right, we are talking about employee outsourcing.
+    <h2>What is Employee Outsourcing?</h2>
+    <p>Corporate professionals of social revolution are known as the problem-solvers. Hence, it is in human nature to bring
+        the perfect alternatives to resolve the occurring issues. Likewise, employee outsourcing services acquired by
+        companies can easily back their working workforce
+    <p>Employee outsourcing is the process of obtaining association with talented and expert professionals who serve
+        companies as third-party service providers. In simple understanding, companies hire professionals who work for them
+        with flexible or office working hours timing from different in-house locations. Moreover, there are various modes of
+        acquiring outsourcing services. Likewise, some hired individuals are self-promoting freelancers who offer services
+        through a private outsourcing contractor. On the other hand, some provide services through certified human resource
+        service-providing companies.
+    <h2>How Employee Outsourcing Services Are Different From Freelancing?</h2>
+    <p>This question is always pitched to outsourced employees, as freelancing does connect with this channel of
+        professionalism. However, there are various highlights and mentions that clarify the differences. Likewise
+    <ul>
+        <li>Unlike freelancers, outsourced employees are legally hired professionals who represent
+            their hired companies while serving their clients.</li>
+        <li>During service, they earn all the benefits that in-house employees are accorded. But
+            the daily tasks are assigned by client companies.</li>
+        <li>Hired employees are paid through monthly or weekly salary packages as per the signed
+            contracts between the employers and the HR companies.</li>
+        <li>Outsourced employees do have the benefit of job security as they are associated with
+            their in-house companies and work on tasks assigned by clients on a daily basis.</li>
+    </ul>
+    <h2>5 Top Benefits of Employee Outsourcing</h2>
+    <p>It always looks fine and easy
+        to hire a freelancer to get the work done. However, the association of experienced professionals hired to support
+        the workforce every day is considered the best choice. Here is how legal and contracted employee outsourcing can
+        benefit companies and business individuals in today’s time.
+    <h3>Lower Office Workload</h3>
+    <p>Employee outsourcing is not a regular thing for
+        companies. As expert professionals are called for help when companies require urgent support in their workplaces.
+        Thus, the need for outsourced employees is mostly initiated when companies can’t find any possible solution to lower
+        the workload. It directly indicates that employee outsourcing reduces the pressure of office workload from in-house
+        staff.
+      <h3>Bring Positive Change At The Workplace</h3>
+        <p>Companies aim to
+        continue the flow of a positive working environment. And for that employee outsourcing can come for assistance. The
+        working system of the offices automatically changes when every task is handled and completed at that exact time. It
+        means that obtaining outsourcing services can really bring the needed productive change for companies.
+    <h3>Reduce Labor Costs</h3>
+    <p>Privately owned and well-renowned companies grab the
+        understanding of how much it takes to hire a suitable professional. Moreover, common employees are far away from the
+        knowledge of how much it costs for companies to arrange every office supply. Therefore, hiring professionals who
+        offer their expertise without causing labor costs saves time and directly benefits the companies.
+    <h3>Increase Profit Earning Opportunities</h3>
+        <p>Corporate systems work on the
+        capabilities of hired employees of the companies. In that account, businesses will be able to earn good profit by
+        the fast regulation of the provided work. The collaboration of the outsourced team always does the job of completing
+        the needful tasks in minimum time. That’s why it can be expressed that fast working results can bring valuable
+        profit-earning opportunities for companies.
+    <h3>Extend Professional Network Worldwide</h3>
+    <p>The moment companies get the
+        association of the outsourced employees their businesses meet with foreign collaborations. Simply put, a partnership
+        with an outsourced human resource-providing company can lead an employer’s brand to the worldwide network. In the
+        same way, a trustful connection with outsourced professionals living in different countries also promotes the
+        company brand around the globe.
+    <h2>Final Words</h2>
+    <p>Outsourced human resource service-providing companies are recognized as the finest assets for assisting businesses during urgent
+        needs. Hence, by offering an extended list of outsourced professionals HR firms proudly support numerous
+        multinational companies. In that case, agencies and enterprises can freely hire the services of trusted
+        professionals. Similarly, the hired outsourced employees will work like daily in-house employees but will offer
+        advantageous benefits that are shared above.
+    <p>This is the end of our blog. If you are in search of a top employee outsourcing service provider company that
+        could offer instant assistance. Then, feel free to contact eSpark Talent and avail convenient and on-time human
+        resource services.</p>
+        </div> `,
+    },
 ];
