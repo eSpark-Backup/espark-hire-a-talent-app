@@ -57,7 +57,7 @@ const OurServices = () => {
                     </span>
                   </li>
                 </ul>
-                <Link href="/service-details">
+                <Link legacyBehavior href="/service-details">
                   <a className="default-btn">
                     <span className="ri-arrow-right-s-line"></span>Learn More
                   </a>
@@ -106,7 +106,7 @@ const OurServices = () => {
                     </span>
                   </li>
                 </ul>
-                <Link href="/service-details">
+                <Link legacyBehavior href="/service-details">
                   <a className="default-btn">
                     <span className="ri-arrow-right-s-line"></span>Learn More
                   </a>
@@ -155,7 +155,7 @@ const OurServices = () => {
                     </span>
                   </li>
                 </ul>
-                <Link href="/service-details">
+                <Link legacyBehavior href="/service-details">
                   <a className="default-btn">
                     <span className="ri-arrow-right-s-line"></span>Learn More
                   </a>
@@ -205,7 +205,7 @@ const OurServices = () => {
                     </span>
                   </li>
                 </ul>
-                <Link href="/service-details">
+                <Link legacyBehavior href="/service-details">
                   <a className="default-btn">
                     <span className="ri-arrow-right-s-line"></span>Learn More
                   </a>
@@ -257,7 +257,7 @@ const OurServices = () => {
                     </span>
                   </li>
                 </ul>
-                <Link href="/service-details">
+                <Link legacyBehavior href="/service-details">
                   <a className="default-btn">
                     <span className="ri-arrow-right-s-line"></span>Learn More
                   </a>
@@ -307,7 +307,7 @@ const OurServices = () => {
                     </span>
                   </li>
                 </ul>
-                <Link href="/service-details">
+                <Link legacyBehavior href="/service-details">
                   <a className="default-btn">
                     <span className="ri-arrow-right-s-line"></span>Learn More
                   </a>

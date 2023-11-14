@@ -46,7 +46,7 @@ const Footer = () => {
           <div className="row justify-content-center">
             <div className="col-xl-6 col-lg-3 col-sm-6 ">
               <div className="single-footer-widget">
-                <Link href="/">
+                <Link legacyBehavior href="/">
                   <a className="d-inline-block logo">
                     <img
                       src="/images/logo.png"
@@ -93,7 +93,7 @@ const Footer = () => {
                   {sliderData?.map((item) => {
                     return (
                       <li key={item.id}>
-                        <Link href={`/hire/${item.slug}`}>
+                        <Link legacyBehavior href={`/hire/${item.slug}`}>
                           <a>{item.title}</a>
                         </Link>
                       </li>
@@ -107,27 +107,27 @@ const Footer = () => {
                 <h3>Company</h3>
                 <ul className="quick-links mt-5">
                   <li>
-                    <Link href="/what-we-do">
+                    <Link legacyBehavior href="/what-we-do">
                       <a>What we do</a>
                     </Link>
                   </li>
                   <li>
-                    <Link href="/how-it-works">
+                    <Link legacyBehavior href="/how-it-works">
                       <a>How it works</a>
                     </Link>
                   </li>
                   <li>
-                    <Link href="/contact">
+                    <Link legacyBehavior href="/contact">
                       <a>Contact Us</a>
                     </Link>
                   </li>
                   <li>
-                    <Link href="/blogs">
+                    <Link legacyBehavior href="/blogs">
                       <a>Blogs</a>
                     </Link>
                   </li>
                   <li>
-                    <Link href="/careers">
+                    <Link legacyBehavior href="/careers">
                       <a>Careers</a>
                     </Link>
                   </li>
@@ -156,12 +156,12 @@ const Footer = () => {
               <div className="col-lg-6 col-sm-6 col-md-6">
                 <ul>
                   <li>
-                    <Link href="/privacy-policy">
+                    <Link legacyBehavior href="/privacy-policy">
                       <a>Privacy Policy</a>
                     </Link>
                   </li>
                   <li>
-                    <Link href="/terms-conditions">
+                    <Link legacyBehavior href="/terms-conditions">
                       <a>Terms & Conditions</a>
                     </Link>
                   </li>

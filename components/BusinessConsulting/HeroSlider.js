@@ -25,11 +25,11 @@ const HeroSlider = (props) => {
                         {/* <span className="sub-title">{slide.subTitle}</span> */}
                         <h1>{slide.title}</h1>
                         <h5>{slide.para}</h5>
-                        <Link href="https://calendly.com/esparktalents/60min?month=2023-09">
-                          <a className="default-btn style-two" target="_blank">
+                        <Link legacyBehavior href="https://calendly.com/esparktalents/60min?month=2023-09">
+                          <span className="default-btn style-two" target="_blank">
                             <span className="ri-arrow-right-s-line"></span>
                             {slide.buttonText}
-                          </a>
+                          </span>
                         </Link>
                       </div>
                     </div>

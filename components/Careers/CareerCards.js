@@ -1,23 +1,14 @@
 import React, { useState, useEffect } from "react";
 import Link from "next/link";
+import { useRouter } from "next/router";
 
-const CareerCards = ({ data }) => {
+const CareerCards = ({ jobs, jobCategories }) => {
+  const router = useRouter();
   const [selectedCategory, setSelectedCategory] = useState("All");
   const [currentPage, setCurrentPage] = useState(1);
   const [postsPerPage] = useState(10);
-  const allCategories = [
-    ...new Set(data.flatMap((eachCard) => eachCard.heading)),
-  ];
 
-  const filteredData =
-    selectedCategory === "All"
-      ? data
-      : data.filter((eachCard) => eachCard.heading.includes(selectedCategory));
-
-  const indexOfLastPost = currentPage * postsPerPage;
-  const indexOfFirstPost = indexOfLastPost - postsPerPage;
-  const currentPosts = filteredData.slice(indexOfFirstPost, indexOfLastPost);
-  const totalPages = Math.ceil(filteredData.length / postsPerPage);
+  const totalPages = Math.ceil(jobs.length / postsPerPage);
   const handlePageClick = (page) => {
     setCurrentPage(page);
   };
@@ -41,7 +32,7 @@ const CareerCards = ({ data }) => {
   useEffect(() => {
     setSelectedCategory("All");
     setCurrentPage(1);
-  }, [data]);
+  }, [jobs]);
 
   const renderPaginationButtons = () => {
     const buttons = [];
@@ -71,50 +62,62 @@ const CareerCards = ({ data }) => {
     return buttons;
   };
 
+  const handleJobCategoryChange = (e) => {
+    // set query param to selected category
+
+    router.push({
+      pathname: router.pathname,
+      query: { ...router.query, jobCategory: e.target.value },
+    });
+
+    setSelectedCategory(e.target.value);
+  };
+
   return (
     <>
       <div>
-        <select
-          className="dropdown"
-          onChange={(e) => setSelectedCategory(e.target.value)}
-        >
-          <option className="option" value="All" key="all">
+        <select className="dropdown" onChange={handleJobCategoryChange}>
+          <option className="option" value="all" key="all">
             All
           </option>
-          {allCategories.map((category, index) => (
-            <option className="option" key={index} value={category}>
-              {category}
+          {jobCategories.map((category, index) => (
+            <option
+              className="option"
+              key={`job-category-${index}`}
+              value={category._id}
+            >
+              {category.title}
             </option>
           ))}
         </select>
       </div>
       <div>
-        {currentPosts?.map((eachCard, index) => (
+        {jobs.map((job, index) => (
           <div className="row career-card" key={index}>
             <div className="col-lg-3 col-sm-12 career-card-title">
-              <h3>{eachCard?.heading}</h3>
+              <h3>{job.title}</h3>
               <p>
-                {eachCard.location[0]}
+                {job.location}
                 <br />
-                {eachCard.date}
+                {job.date}
               </p>
             </div>
             <hr className="horizonal-line" />
             <div className="col-lg-6 col-sm-12 career-card-description">
               <h3>Description</h3>
-              <p>{eachCard?.description}</p>
+              <p>{job.description}</p>
             </div>
             <div className="col-lg-3 col-sm-12 career-card-button">
-              <Link href={eachCard?.link}>
-                <a className="default-btn style-two" target="_blank">
+              <Link legacyBehavior href={job.applyLink}>
+                <span className="default-btn style-two" target="_blank">
                   <span className="ri-arrow-right-s-line"></span>
                   Apply Now
-                </a>
+                </span>
               </Link>
             </div>
           </div>
         ))}
-        {filteredData.length > postsPerPage ? (
+        {jobs.length > postsPerPage ? (
           <nav className="pagination-area">
             <ul className="nav-links">
               <li>

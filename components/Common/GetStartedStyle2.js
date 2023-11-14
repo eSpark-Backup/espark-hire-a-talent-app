@@ -29,7 +29,7 @@ const GetStartedStyle2 = () => {
                   do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                   Ut enim ad minim veniam.
                 </p>
-                <Link href="/contact">
+                <Link legacyBehavior href="/contact">
                   <a className="default-btn style-two">
                     <span className="ri-arrow-right-s-line"></span>Get Started
                     Now
