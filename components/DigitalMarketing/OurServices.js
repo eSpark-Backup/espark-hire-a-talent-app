@@ -44,7 +44,7 @@ const OurServices = () => {
                 <div className="d-flex align-items-center">
                   <img src="/images/icon/icon8.png" alt="image" />
                   <h3>
-                    <Link href="/service-details">
+                    <Link legacyBehavior href="/service-details">
                       <a>Branding</a>
                     </Link>
                   </h3>
@@ -78,7 +78,7 @@ const OurServices = () => {
                   </li>
                 </ul>
 
-                <Link href="/service-details">
+                <Link legacyBehavior href="/service-details">
                   <a className="default-btn">
                     <span className="ri-arrow-right-s-line"></span>Learn More
                   </a>
@@ -91,7 +91,7 @@ const OurServices = () => {
                 <div className="d-flex align-items-center">
                   <img src="/images/icon/icon9.png" alt="image" />
                   <h3>
-                    <Link href="/service-details">
+                    <Link legacyBehavior href="/service-details">
                       <a>Design</a>
                     </Link>
                   </h3>
@@ -124,7 +124,7 @@ const OurServices = () => {
                   </li>
                 </ul>
 
-                <Link href="/service-details">
+                <Link legacyBehavior href="/service-details">
                   <a className="default-btn">
                     <span className="ri-arrow-right-s-line"></span>Learn More
                   </a>
@@ -137,7 +137,7 @@ const OurServices = () => {
                 <div className="d-flex align-items-center">
                   <img src="/images/icon/icon10.png" alt="image" />
                   <h3>
-                    <Link href="/service-details">
+                    <Link legacyBehavior href="/service-details">
                       <a>Content</a>
                     </Link>
                   </h3>
@@ -170,7 +170,7 @@ const OurServices = () => {
                   </li>
                 </ul>
 
-                <Link href="/service-details">
+                <Link legacyBehavior href="/service-details">
                   <a className="default-btn">
                     <span className="ri-arrow-right-s-line"></span>Learn More
                   </a>
@@ -183,7 +183,7 @@ const OurServices = () => {
                 <div className="d-flex align-items-center">
                   <img src="/images/icon/icon11.png" alt="image" />
                   <h3>
-                    <Link href="/service-details">
+                    <Link legacyBehavior href="/service-details">
                       <a>Strategy</a>
                     </Link>
                   </h3>
@@ -217,7 +217,7 @@ const OurServices = () => {
                   </li>
                 </ul>
 
-                <Link href="/service-details">
+                <Link legacyBehavior href="/service-details">
                   <a className="default-btn">
                     <span className="ri-arrow-right-s-line"></span>Learn More
                   </a>
@@ -230,7 +230,7 @@ const OurServices = () => {
                 <div className="d-flex align-items-center">
                   <img src="/images/icon/icon12.png" alt="image" />
                   <h3>
-                    <Link href="/service-details">
+                    <Link legacyBehavior href="/service-details">
                       <a>Marketing</a>
                     </Link>
                   </h3>
@@ -266,7 +266,7 @@ const OurServices = () => {
                   </li>
                 </ul>
 
-                <Link href="/service-details">
+                <Link legacyBehavior href="/service-details">
                   <a className="default-btn">
                     <span className="ri-arrow-right-s-line"></span>Learn More
                   </a>
@@ -279,7 +279,7 @@ const OurServices = () => {
                 <div className="d-flex align-items-center">
                   <img src="/images/icon/icon13.png" alt="image" />
                   <h3>
-                    <Link href="/service-details">
+                    <Link legacyBehavior href="/service-details">
                       <a>Technology</a>
                     </Link>
                   </h3>
@@ -313,7 +313,7 @@ const OurServices = () => {
                   </li>
                 </ul>
 
-                <Link href="/service-details">
+                <Link legacyBehavior href="/service-details">
                   <a className="default-btn">
                     <span className="ri-arrow-right-s-line"></span>Learn More
                   </a>

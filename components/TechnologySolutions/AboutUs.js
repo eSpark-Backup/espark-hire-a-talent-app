@@ -62,7 +62,7 @@ const AboutUs = () => {
                     </div>
                   </li>
                 </ul>
-                <Link href="/about-us">
+                <Link legacyBehavior href="/about-us">
                   <a className="default-btn">
                     <span className="ri-arrow-right-s-line"></span>More About Us
                   </a>

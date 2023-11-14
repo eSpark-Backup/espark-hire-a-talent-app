@@ -7,39 +7,39 @@ const Footer = () => {
       <footer className="footer-style-wrap-area">
         <div className="container">
           <div className="footer-widget-style-wrap">
-            <Link href="/">
+            <Link legacyBehavior href="/">
               <a className="d-inline-block logo">
                 <img src="/images/black-logo.png" className="talent-logo" alt="logo" />
               </a>
             </Link>
             <ul className="quick-links">
               <li>
-                <Link href="/">
+                <Link legacyBehavior href="/">
                   <a>Home</a>
                 </Link>
               </li>
               <li>
-                <Link href="/what-we-do">
+                <Link legacyBehavior href="/what-we-do">
                   <a>About Us</a>
                 </Link>
               </li>
               <li>
-                <Link href="/case-studies">
+                <Link legacyBehavior href="/case-studies">
                   <a>Case Studies</a>
                 </Link>
               </li>
               <li>
-                <Link href="/blog">
+                <Link legacyBehavior href="/blog">
                   <a>Our News</a>
                 </Link>
               </li>
               <li>
-                <Link href="/contact">
+                <Link legacyBehavior href="/contact">
                   <a>Contact Us</a>
                 </Link>
               </li>
               <li>
-                <Link href="/pricing">
+                <Link legacyBehavior href="/pricing">
                   <a>Pricing</a>
                 </Link>
               </li>
