@@ -62,7 +62,7 @@ const PricingPlan = () => {
                   </ul>
                 </div>
 
-                <Link href="/contact">
+                <Link legacyBehavior href="/contact">
                   <a className="link-btn">Get Started</a>
                 </Link>
 
@@ -122,7 +122,7 @@ const PricingPlan = () => {
                   </ul>
                 </div>
 
-                <Link href="/contact">
+                <Link legacyBehavior href="/contact">
                   <a className="link-btn">Get Started</a>
                 </Link>
 
@@ -182,7 +182,7 @@ const PricingPlan = () => {
                   </ul>
                 </div>
 
-                <Link href="/contact">
+                <Link legacyBehavior href="/contact">
                   <a className="link-btn">Get Started</a>
                 </Link>
 

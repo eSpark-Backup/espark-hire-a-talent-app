@@ -14,7 +14,7 @@ export default function Custom404Page() {
 
         <p className='mb-4'>The page you are looking for might have been removed had its name changed or is temporarily unavailable.</p>
 
-        <Link href="/">
+        <Link legacyBehavior href="/">
           <a className="default-btn style-two">
             Back to Homepage 
             <span className='ri-arrow-right-s-line'></span>

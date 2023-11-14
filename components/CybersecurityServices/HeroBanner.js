@@ -21,7 +21,7 @@ const HeroBanner = () => {
                   lacinia eget consectetur sed convallis at tellus. Donec rutrum
                   congue leo eget malesuada.
                 </p>
-                <Link href="/contact">
+                <Link legacyBehavior href="/contact">
                   <a className="default-btn style-two">
                     <span className="ri-arrow-right-s-line"></span>Learn More
                   </a>

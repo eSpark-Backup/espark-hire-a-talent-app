@@ -20,7 +20,7 @@ const NewsletterForm2 = () => {
               </p>
               {gettingPath === "/thankyou" ? null : (
                 <div className="newsletter-form">
-                  <Link href="https://calendly.com/esparktalents/60min?month=2023-09">
+                  <Link legacyBehavior href="https://calendly.com/esparktalents/60min?month=2023-09">
                     <a target="_blank">
                       <button type="submit">Schedule a Meeting</button>
                     </a>
