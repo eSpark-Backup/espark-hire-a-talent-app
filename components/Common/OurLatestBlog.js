@@ -25,7 +25,7 @@ const OurLatestBlog = () => {
             >
               <div className="single-blog-post">
                 <div className="image">
-                  <Link href="/blogs">
+                  <Link legacyBehavior href="/blogs">
                     <a className="d-block">
                       <img src="/images/blog/blog1.jpg" alt="image" />
                     </a>
@@ -34,7 +34,7 @@ const OurLatestBlog = () => {
                 </div>
                 <div className="content">
                   <h3>
-                    <Link href="/blogs">
+                    <Link legacyBehavior href="/blogs">
                       <a>Resources for Teachers</a>
                     </Link>
                   </h3>
@@ -44,7 +44,7 @@ const OurLatestBlog = () => {
                     aliqua. Ut enim ad minim veniam.
                   </p>
 
-                  <Link href="/blogs">
+                  <Link legacyBehavior href="/blogs">
                     <a className="default-btn">
                       <span className="ri-arrow-right-s-line"></span>Read More
                     </a>
@@ -62,7 +62,7 @@ const OurLatestBlog = () => {
             >
               <div className="single-blog-post">
                 <div className="image">
-                  <Link href="/blogs">
+                  <Link legacyBehavior href="/blogs">
                     <a className="d-block">
                       <img src="/images/blog/blog2.jpg" alt="image" />
                     </a>
@@ -71,7 +71,7 @@ const OurLatestBlog = () => {
                 </div>
                 <div className="content">
                   <h3>
-                    <Link href="/blogs">
+                    <Link legacyBehavior href="/blogs">
                       <a>Instructional Strategies</a>
                     </Link>
                   </h3>
@@ -80,7 +80,7 @@ const OurLatestBlog = () => {
                     do eiusmod tempor incididunt ut labore et dolore magna
                     aliqua. Ut enim ad minim veniam.
                   </p>
-                  <Link href="/blogs">
+                  <Link legacyBehavior href="/blogs">
                     <a className="default-btn">
                       <span className="ri-arrow-right-s-line"></span>Read More
                     </a>
@@ -98,7 +98,7 @@ const OurLatestBlog = () => {
             >
               <div className="single-blog-post">
                 <div className="image">
-                  <Link href="/blogs">
+                  <Link legacyBehavior href="/blogs">
                     <a className="d-block">
                       <img src="/images/blog/blog3.jpg" alt="image" />
                     </a>
@@ -107,7 +107,7 @@ const OurLatestBlog = () => {
                 </div>
                 <div className="content">
                   <h3>
-                    <Link href="/blogs">
+                    <Link legacyBehavior href="/blogs">
                       <a>Fitness Guideline Program</a>
                     </Link>
                   </h3>
@@ -116,7 +116,7 @@ const OurLatestBlog = () => {
                     do eiusmod tempor incididunt ut labore et dolore magna
                     aliqua. Ut enim ad minim veniam.
                   </p>
-                  <Link href="/blogs">
+                  <Link legacyBehavior href="/blogs">
                     <a className="default-btn">
                       <span className="ri-arrow-right-s-line"></span>Read More
                     </a>

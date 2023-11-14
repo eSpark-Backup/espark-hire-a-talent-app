@@ -79,28 +79,28 @@ const BlogCard = ({ item }) => {
               <div key={index} className="col-lg-4 col-md-6 col-sm-6">
                 <div className="single-blog-post">
                   <div className="image">
-                    <Link href={`/blogs/${eachCard.slug}`}>
-                      <a className="d-block">
+                    <Link legacyBehavior href={`/blogs/${eachCard.slug}`}>
+                      <span className="d-block">
                         <img src={eachCard.imageLink} alt={eachCard.altTag} />
-                      </a>
+                      </span>
                     </Link>
                     <span className="date">{eachCard?.postedBy?.date}</span>
                   </div>
 
                   <div className="content">
                     <h3>
-                      <Link href={`/blogs/${eachCard.slug}`}>
-                        <a>{eachCard?.title}</a>
+                      <Link legacyBehavior href={`/blogs/${eachCard.slug}`}>
+                        <span>{eachCard?.title}</span>
                       </Link>
                     </h3>
                     <p>{eachCard?.mainParagraph}</p>
 
-                    {/* <Link href="/blog-details"> */}
-                    <Link href={`/blogs/${eachCard.slug}`}>
-                      <a className="default-btn">
+                    {/* <Link legacyBehavior href="/blog-details"> */}
+                    <Link legacyBehavior href={`/blogs/${eachCard.slug}`}>
+                      <span className="default-btn">
                         <span className="ri-arrow-right-s-line"></span>
                         Read More
-                      </a>
+                      </span>
                     </Link>
                   </div>
                 </div>

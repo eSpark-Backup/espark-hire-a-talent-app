@@ -1,5 +1,5 @@
-import { socialLinks } from 'constants/constants';
-import React from 'react';
+import { socialLinks } from "constants/constants";
+import React from "react";
 const BlogDetailsContent = ({ data }) => {
   return (
     <>
@@ -42,13 +42,14 @@ const BlogDetailsContent = ({ data }) => {
                       <a
                         href={item.link}
                         target="_blank"
+                        rel="noopener noreferrer"
                         className={item.className}
                       >
                         <img
                           src={item?.src}
                           className={item?.className}
-                          width={'90%'}
-                          height={'90%'}
+                          width={"90%"}
+                          height={"90%"}
                           alt="social-icons"
                         />
                       </a>

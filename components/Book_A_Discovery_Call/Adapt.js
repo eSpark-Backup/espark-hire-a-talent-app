@@ -37,10 +37,10 @@ const AdaptTab = ({ data }) => {
                     </div>
                   </div>
                 ))}
-                <Link href={link}>
-                  <a className="default-btn style-two" target="_blank">
+                <Link legacyBehavior href={link}>
+                  <span className="default-btn style-two" target="_blank">
                     {text}
-                  </a>
+                  </span>
                 </Link>
               </div>
             </div>

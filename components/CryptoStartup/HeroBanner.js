@@ -23,7 +23,7 @@ const HeroBanner = () => {
 
                 <ul className="banner-btn-list">
                   <li>
-                    <Link href="/contact">
+                    <Link legacyBehavior href="/contact">
                       <a className="default-btn style-two">
                         <span className="ri-arrow-right-s-line"></span>Learn
                         More

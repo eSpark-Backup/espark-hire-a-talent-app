@@ -101,7 +101,7 @@ const NavbarStyle2 = () => {
         <div id="navbar" className="navbar-area">
           <nav className="navbar navbar-expand-md navbar-light">
             <div className="container-lg">
-              <Link href="/">
+              <Link legacyBehavior href="/">
                 <a
                   className={`navbar-brand ${
                     selectedNavItem === "Home" ? "active" : ""
@@ -134,44 +134,44 @@ const NavbarStyle2 = () => {
               <div className={classOne} id="navbarSupportedContent">
                 <ul className="navbar-nav ms-auto">
                   {/* <li className="nav-item">
-                    <Link href="#">
+                    <Link legacyBehavior href="#">
                       <a className="dropdown-toggle nav-link">
                         Home
                       </a>
                     </Link>
                     <ul className="dropdown-menu">
                       <li className="nav-item">
-                        <Link href="/" activeClassName="active">
+                        <Link legacyBehavior href="/" activeClassName="active">
                           <a className="nav-link">Technology Solutions</a>
                         </Link>
                       </li>
 
                       <li className="nav-item">
-                        <Link href="/index-2" activeClassName="active">
+                        <Link legacyBehavior href="/index-2" activeClassName="active">
                           <a className="nav-link">Digital Marketing</a>
                         </Link>
                       </li>
 
                       <li className="nav-item">
-                        <Link href="/index-3" activeClassName="active">
+                        <Link legacyBehavior href="/index-3" activeClassName="active">
                           <a className="nav-link">Business Consulting</a>
                         </Link>
                       </li>
 
                       <li className="nav-item">
-                        <Link href="/index-4" activeClassName="active">
+                        <Link legacyBehavior href="/index-4" activeClassName="active">
                           <a className="nav-link">Cybersecurity Services</a>
                         </Link>
                       </li>
 
                       <li className="nav-item">
-                        <Link href="/index-5" activeClassName="active">
+                        <Link legacyBehavior href="/index-5" activeClassName="active">
                           <a className="nav-link">Crypto Startup</a>
                         </Link>
                       </li>
 
                       <li className="nav-item">
-                        <Link href="/index-6" activeClassName="active">
+                        <Link legacyBehavior href="/index-6" activeClassName="active">
                           <a className="nav-link">ICO Landing</a>
                         </Link>
                       </li>
@@ -179,7 +179,7 @@ const NavbarStyle2 = () => {
                   </li>
 
                   <li className="nav-item">
-                    <Link href="/about-us" activeClassName="active">
+                    <Link legacyBehavior href="/about-us" activeClassName="active">
                       <a className="nav-link">About Us</a>
                     </Link>
                   </li>
@@ -190,12 +190,12 @@ const NavbarStyle2 = () => {
                     </a>
                     <ul className="dropdown-menu">
                       <li className="nav-item">
-                        <Link href="/services" activeClassName="active">
+                        <Link legacyBehavior href="/services" activeClassName="active">
                           <a className="nav-link">Services</a>
                         </Link>
                       </li>
                       <li className="nav-item">
-                        <Link href="/service-details" activeClassName="active">
+                        <Link legacyBehavior href="/service-details" activeClassName="active">
                           <a className="nav-link">Services Details</a>
                         </Link>
                       </li>
@@ -208,22 +208,22 @@ const NavbarStyle2 = () => {
                     </a>
                     <ul className="dropdown-menu">
                       <li className="nav-item">
-                        <Link href="/case-studies" activeClassName="active">
+                        <Link legacyBehavior href="/case-studies" activeClassName="active">
                           <a className="nav-link">Case Studies</a>
                         </Link>
                       </li>
                       <li className="nav-item">
-                        <Link href="/case-studies-2" activeClassName="active">
+                        <Link legacyBehavior href="/case-studies-2" activeClassName="active">
                           <a className="nav-link">Case Studies #2</a>
                         </Link>
                       </li>
                       <li className="nav-item">
-                        <Link href="/case-studies" activeClassName="active">
+                        <Link legacyBehavior href="/case-studies" activeClassName="active">
                           <a className="nav-link">Case Studies #3</a>
                         </Link>
                       </li>
                       <li className="nav-item">
-                        <Link href="/case-studies-details" activeClassName="active">
+                        <Link legacyBehavior href="/case-studies-details" activeClassName="active">
                           <a className="nav-link">Case Studies Details</a>
                         </Link>
                       </li>
@@ -231,7 +231,7 @@ const NavbarStyle2 = () => {
                   </li> */}
 
                   <li className="nav-item">
-                    <Link href="/what-we-do" activeClassName="active">
+                    <Link legacyBehavior href="/what-we-do" activeClassName="active">
                       <a
                         className={`nav-link ${
                           gettingActiveLink === "/about-us" ? "active" : ""
@@ -244,7 +244,7 @@ const NavbarStyle2 = () => {
                   </li>
 
                   <li className="nav-item">
-                    <Link href="/how-it-works" activeClassName="active">
+                    <Link legacyBehavior href="/how-it-works" activeClassName="active">
                       <a
                         className={`nav-link ${
                           gettingActiveLink === "services" ? "active" : ""
@@ -257,7 +257,7 @@ const NavbarStyle2 = () => {
                   </li>
 
                   <li className="nav-item">
-                    <Link href="/blogs" activeClassName="active">
+                    <Link legacyBehavior href="/blogs" activeClassName="active">
                       <a
                         className={`nav-link ${
                           gettingActiveLink === "/blogs" ||
@@ -273,7 +273,7 @@ const NavbarStyle2 = () => {
                   </li>
 
                   <li className="nav-item">
-                    <Link href="/careers" activeClassName="active">
+                    <Link legacyBehavior href="/careers" activeClassName="active">
                       <a
                         className={`nav-link ${
                           gettingActiveLink === "/careers" ? "active" : ""
@@ -285,7 +285,7 @@ const NavbarStyle2 = () => {
                     </Link>
                   </li>
                   {/* <li className="nav-item">
-                    <Link href="/contact" activeClassName="active">
+                    <Link legacyBehavior href="/contact" activeClassName="active">
                       <a
                         className={`nav-link ${
                           selectedNavItem === "Contact" ? "active" : ""
@@ -297,7 +297,7 @@ const NavbarStyle2 = () => {
                     </Link>
                   </li> */}
                   <li className="nav-item">
-                    <Link
+                    <Link legacyBehavior
                       href="https://form.jotform.com/232503890925459"
                       // activeClassName="active"
                     >
@@ -314,7 +314,7 @@ const NavbarStyle2 = () => {
                   </li>
 
                   {/* <li className="nabar-buttons">
-                    <Link href="/contact" activeClassName="active">
+                    <Link legacyBehavior href="/contact" activeClassName="active">
                       <a
                         className={`default-btn style-two ${
                           selectedNavItem === "Apply as a Developer"
@@ -330,7 +330,7 @@ const NavbarStyle2 = () => {
                     </Link>
                   </li> */}
                   <li className="nabar-buttons">
-                    <Link
+                    <Link legacyBehavior
                       href="https://calendly.com/esparktalents/60min?month=2023-09"
                       activeClassName="active"
                     >
@@ -351,10 +351,10 @@ const NavbarStyle2 = () => {
               {/* <span className="ri-edit-2-line"></span> */}
               {/* <span className="ri-edit-2-line"></span> */}
               <div className="others-option">
-                {/* <Link href="https://form.jotform.com/232274579439468 ">
+                {/* <Link legacyBehavior href="https://form.jotform.com/232274579439468 ">
                   <a className="default-btn style-two">Apply as a Developer</a>
                 </Link> */}
-                <Link href="https://calendly.com/esparktalents/60min?month=2023-09">
+                <Link legacyBehavior href="https://calendly.com/esparktalents/60min?month=2023-09">
                   <a className="default-btn style-two" target="_blank">
                     Hire a Talent
                   </a>
