@@ -24,7 +24,7 @@ const LatestNews = () => {
             >
               <div className="blog-style-card">
                 <div className="blog-image">
-                  <Link href="/blogs">
+                  <Link legacyBehavior href="/blogs">
                     <a>
                       <img
                         src="/images/cybersecurity-services/blog/blog-1.jpg"
@@ -41,7 +41,7 @@ const LatestNews = () => {
                     <li>March 15, 2022</li>
                   </ul>
                   <h3>
-                    <Link href="/blogs">
+                    <Link legacyBehavior href="/blogs">
                       <a>
                         Proper Guide Line Learning Strategies About Cyber
                         Security
@@ -61,7 +61,7 @@ const LatestNews = () => {
             >
               <div className="blog-style-card">
                 <div className="blog-image">
-                  <Link href="/blogs">
+                  <Link legacyBehavior href="/blogs">
                     <a>
                       <img
                         src="/images/cybersecurity-services/blog/blog-2.jpg"
@@ -78,7 +78,7 @@ const LatestNews = () => {
                     <li>March 15, 2022</li>
                   </ul>
                   <h3>
-                    <Link href="/blogs">
+                    <Link legacyBehavior href="/blogs">
                       <a>Rules To Protect Your Account From Cyber Attack</a>
                     </Link>
                   </h3>
@@ -95,7 +95,7 @@ const LatestNews = () => {
             >
               <div className="blog-style-card">
                 <div className="blog-image">
-                  <Link href="/blogs">
+                  <Link legacyBehavior href="/blogs">
                     <a>
                       <img
                         src="/images/cybersecurity-services/blog/blog-3.jpg"
@@ -112,7 +112,7 @@ const LatestNews = () => {
                     <li>March 15, 2022</li>
                   </ul>
                   <h3>
-                    <Link href="/blogs">
+                    <Link legacyBehavior href="/blogs">
                       <a>
                         Rules For Introducing Web Code To Increase Cyber
                         Security
