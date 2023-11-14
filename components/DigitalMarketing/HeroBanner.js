@@ -10,7 +10,7 @@ const HeroBanner = () => {
             <span className="sub-title">AWARD WINNING COMPANY</span>
             <h1>Make Your Business More Money With Team Of Experts</h1>
 
-            <Link href="/contact">
+            <Link legacyBehavior href="/contact">
               <a className="default-btn style-two">
                 <span className="ri-arrow-right-s-line"></span>Get Started Now
               </a>
