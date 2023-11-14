@@ -53,7 +53,7 @@ const OurServices = ({ title, para, items }) => {
                   <div className="d-flex align-items-center">
                     <img src={eachCard.imageLink} alt="Global Recruitment - global recruitment agency - worldwide recruiting agency - global recruitment services - global recruitment solutions - eSpark Talent" />
                     {/* <h3>
-                      <Link href={slide.link}>
+                      <Link legacyBehavior href={slide.link}>
                         <a>{slide.title}</a>
                       </Link>
                     </h3> */}
@@ -61,17 +61,17 @@ const OurServices = ({ title, para, items }) => {
                   </div>
                   <p>{eachCard.content}</p>
                   {eachCard.homeComponent ? (
-                    <Link
+                    <Link legacyBehavior
                       href={
                         "hire" +
                         "/" +
                         eachCard.slug
                       }
                     >
-                      <a className="default-btn align-self-end">
+                      <span className="default-btn align-self-end">
                         <span className="ri-arrow-right-s-line"></span>
                         {eachCard.buttonText}
-                      </a>
+                      </span>
                     </Link>
                   ) : null}
                 </div>

@@ -9,7 +9,7 @@ const PageTitle = ({ pageTitle, homeText, pageSubTitle }) => {
           <h1>{pageTitle}</h1>
           <ul>
             <li>
-              <Link href="/">
+              <Link legacyBehavior href="/">
                 <a>{homeText}</a>
               </Link>
             </li>

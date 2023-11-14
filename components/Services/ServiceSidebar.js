@@ -9,32 +9,32 @@ const ServiceSidebar = () => {
                     <h3>Services List</h3>
                     <ul>
                         <li>
-                            <Link href="/service-details">
+                            <Link legacyBehavior href="/service-details">
                                 <a>Branding <i className="ri-arrow-right-line"></i></a>
                             </Link>
                         </li>
                         <li>
-                            <Link href="/service-details">
+                            <Link legacyBehavior href="/service-details">
                                 <a>Design <i className="ri-arrow-right-line"></i></a>
                             </Link>
                         </li>
                         <li>
-                            <Link href="/service-details">
+                            <Link legacyBehavior href="/service-details">
                                 <a>Content <i className="ri-arrow-right-line"></i></a>
                             </Link>
                         </li>
                         <li>
-                            <Link href="/service-details">
+                            <Link legacyBehavior href="/service-details">
                                 <a>Strategy <i className="ri-arrow-right-line"></i></a>
                             </Link>
                         </li>
                         <li>
-                            <Link href="/service-details">
+                            <Link legacyBehavior href="/service-details">
                                 <a>Marketing <i className="ri-arrow-right-line"></i></a>
                             </Link>
                         </li>
                         <li>
-                            <Link href="/service-details">
+                            <Link legacyBehavior href="/service-details">
                                 <a>Technology <i className="ri-arrow-right-line"></i></a>
                             </Link>
                         </li>
