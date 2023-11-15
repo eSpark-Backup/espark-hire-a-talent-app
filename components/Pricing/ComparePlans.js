@@ -124,7 +124,7 @@ const ComparePlans = () => {
                   <td>-</td>
                   <td>-</td>
                   <td>
-                    <Link href="/contact">
+                    <Link legacyBehavior href="/contact">
                       <a>Get A Quote</a>
                     </Link>
                   </td>
@@ -135,7 +135,7 @@ const ComparePlans = () => {
                   <td>-</td>
                   <td>-</td>
                   <td>
-                    <Link href="/contact">
+                    <Link legacyBehavior href="/contact">
                       <a>Get A Quote</a>
                     </Link>
                   </td>
@@ -146,7 +146,7 @@ const ComparePlans = () => {
                   <td>Unlimited</td>
                   <td>Unlimited</td>
                   <td>
-                    <Link href="/contact">
+                    <Link legacyBehavior href="/contact">
                       <a>Get A Quote</a>
                     </Link>
                   </td>
@@ -157,7 +157,7 @@ const ComparePlans = () => {
                   <td>-</td>
                   <td>-</td>
                   <td>
-                    <Link href="/contact">
+                    <Link legacyBehavior href="/contact">
                       <a>Get A Quote</a>
                     </Link>
                   </td>
@@ -169,28 +169,28 @@ const ComparePlans = () => {
                     Need more information? <a href="#">Contact Us</a>
                   </td>
                   <td>
-                    <Link href="/pricing">
+                    <Link legacyBehavior href="/pricing">
                       <a className="link-btn">
                         Get Started
                       </a>
                     </Link>
                   </td>
                   <td>
-                    <Link href="/pricing">
+                    <Link legacyBehavior href="/pricing">
                       <a className="link-btn">
                         Get Started
                       </a>
                     </Link>
                   </td>
                   <td>
-                    <Link href="/pricing">
+                    <Link legacyBehavior href="/pricing">
                       <a className="link-btn">
                         Get Started
                       </a>
                     </Link>
                   </td>
                   <td>
-                    <Link href="/pricing">
+                    <Link legacyBehavior href="/pricing">
                       <a className="link-btn">
                         Get Started
                       </a>

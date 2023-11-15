@@ -26,7 +26,7 @@ const PricingTable = () => {
                   <p>Pricing includes coverage for users</p>
                 </div>
 
-                <Link href="/contact">
+                <Link legacyBehavior href="/contact">
                   <a className="link-btn">
                     Get Started
                   </a>
@@ -72,7 +72,7 @@ const PricingTable = () => {
                   <p>Pricing includes coverage for users</p>
                 </div>
 
-                <Link href="/contact">
+                <Link legacyBehavior href="/contact">
                   <a className="link-btn">
                     Get Started
                   </a>
@@ -118,7 +118,7 @@ const PricingTable = () => {
                   <p>Pricing includes coverage for users</p>
                 </div>
 
-                <Link href="/contact">
+                <Link legacyBehavior href="/contact">
                   <a className="link-btn">
                     Get Started
                   </a>
@@ -165,12 +165,12 @@ const PricingTable = () => {
                   <p>Annual billing only</p>
                 </div>
 
-                <Link href="/contact">
+                <Link legacyBehavior href="/contact">
                   <a className="link-btn">
                     Contact Us
                   </a>
                 </Link>
-                
+
                 <div className="features-list">
                   <h5>ALL FEATURES:</h5>
                   <ul>
