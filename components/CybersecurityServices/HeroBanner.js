@@ -8,8 +8,8 @@ const HeroBanner = () => {
         <div className="container-fluid">
           <div className="row align-items-center">
             <div className="col-lg-6 col-md-12">
-              <div 
-                className="cybersecurity-banner-content" 
+              <div
+                className="cybersecurity-banner-content"
                 data-aos="fade-left"
                 data-aos-duration="1200"
                 data-aos-once="true"
@@ -21,7 +21,7 @@ const HeroBanner = () => {
                   lacinia eget consectetur sed convallis at tellus. Donec rutrum
                   congue leo eget malesuada.
                 </p>
-                <Link href="/contact">
+                <Link legacyBehavior href="/contact">
                   <a className="default-btn style-two">
                     <span className="ri-arrow-right-s-line"></span>Learn More
                   </a>
@@ -30,8 +30,8 @@ const HeroBanner = () => {
             </div>
 
             <div className="col-lg-6 col-md-12">
-              <div 
-                className="cybersecurity-banner-image" 
+              <div
+                className="cybersecurity-banner-image"
                 data-aos="fade-up"
                 data-aos-duration="1200"
                 data-aos-once="true"
