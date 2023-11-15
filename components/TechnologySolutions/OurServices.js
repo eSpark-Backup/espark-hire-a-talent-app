@@ -15,8 +15,8 @@ const OurServices = () => {
             </p>
           </div>
           <div className="row justify-content-center">
-            <div 
-              className="col-xl-4 col-lg-6 col-md-6 col-sm-12" 
+            <div
+              className="col-xl-4 col-lg-6 col-md-6 col-sm-12"
               data-aos="fade-up"
               data-aos-delay="100"
               data-aos-duration="1200"
@@ -57,7 +57,7 @@ const OurServices = () => {
                     </span>
                   </li>
                 </ul>
-                <Link href="/service-details">
+                <Link legacyBehavior href="/service-details">
                   <a className="default-btn">
                     <span className="ri-arrow-right-s-line"></span>Learn More
                   </a>
@@ -65,8 +65,8 @@ const OurServices = () => {
               </div>
             </div>
 
-            <div 
-              className="col-xl-4 col-lg-6 col-md-6 col-sm-12" 
+            <div
+              className="col-xl-4 col-lg-6 col-md-6 col-sm-12"
               data-aos="fade-up"
               data-aos-delay="200"
               data-aos-duration="1200"
@@ -106,7 +106,7 @@ const OurServices = () => {
                     </span>
                   </li>
                 </ul>
-                <Link href="/service-details">
+                <Link legacyBehavior href="/service-details">
                   <a className="default-btn">
                     <span className="ri-arrow-right-s-line"></span>Learn More
                   </a>
@@ -114,8 +114,8 @@ const OurServices = () => {
               </div>
             </div>
 
-            <div 
-              className="col-xl-4 col-lg-6 col-md-6 col-sm-12" 
+            <div
+              className="col-xl-4 col-lg-6 col-md-6 col-sm-12"
               data-aos="fade-up"
               data-aos-delay="300"
               data-aos-duration="1200"
@@ -155,7 +155,7 @@ const OurServices = () => {
                     </span>
                   </li>
                 </ul>
-                <Link href="/service-details">
+                <Link legacyBehavior href="/service-details">
                   <a className="default-btn">
                     <span className="ri-arrow-right-s-line"></span>Learn More
                   </a>
@@ -163,8 +163,8 @@ const OurServices = () => {
               </div>
             </div>
 
-            <div 
-              className="col-xl-4 col-lg-6 col-md-6 col-sm-12" 
+            <div
+              className="col-xl-4 col-lg-6 col-md-6 col-sm-12"
               data-aos="fade-up"
               data-aos-delay="400"
               data-aos-duration="1200"
@@ -205,7 +205,7 @@ const OurServices = () => {
                     </span>
                   </li>
                 </ul>
-                <Link href="/service-details">
+                <Link legacyBehavior href="/service-details">
                   <a className="default-btn">
                     <span className="ri-arrow-right-s-line"></span>Learn More
                   </a>
@@ -213,8 +213,8 @@ const OurServices = () => {
               </div>
             </div>
 
-            <div 
-              className="col-xl-4 col-lg-6 col-md-6 col-sm-12" 
+            <div
+              className="col-xl-4 col-lg-6 col-md-6 col-sm-12"
               data-aos="fade-up"
               data-aos-delay="500"
               data-aos-duration="1200"
@@ -257,7 +257,7 @@ const OurServices = () => {
                     </span>
                   </li>
                 </ul>
-                <Link href="/service-details">
+                <Link legacyBehavior href="/service-details">
                   <a className="default-btn">
                     <span className="ri-arrow-right-s-line"></span>Learn More
                   </a>
@@ -265,8 +265,8 @@ const OurServices = () => {
               </div>
             </div>
 
-            <div 
-              className="col-xl-4 col-lg-6 col-md-6 col-sm-12" 
+            <div
+              className="col-xl-4 col-lg-6 col-md-6 col-sm-12"
               data-aos="fade-up"
               data-aos-delay="600"
               data-aos-duration="1200"
@@ -307,7 +307,7 @@ const OurServices = () => {
                     </span>
                   </li>
                 </ul>
-                <Link href="/service-details">
+                <Link legacyBehavior href="/service-details">
                   <a className="default-btn">
                     <span className="ri-arrow-right-s-line"></span>Learn More
                   </a>

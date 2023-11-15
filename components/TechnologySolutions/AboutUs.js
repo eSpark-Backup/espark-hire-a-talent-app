@@ -8,8 +8,8 @@ const AboutUs = () => {
         <div className="container">
           <div className="row align-items-center">
             <div className="col-lg-6 col-md-12">
-              <div 
-                className="about-image" 
+              <div
+                className="about-image"
                 data-aos="fade-up"
                 data-aos-duration="1000"
                 data-aos-once="true"
@@ -62,7 +62,7 @@ const AboutUs = () => {
                     </div>
                   </li>
                 </ul>
-                <Link href="/about-us">
+                <Link legacyBehavior href="/about-us">
                   <a className="default-btn">
                     <span className="ri-arrow-right-s-line"></span>More About Us
                   </a>

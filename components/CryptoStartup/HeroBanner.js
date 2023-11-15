@@ -8,7 +8,7 @@ const HeroBanner = () => {
         <div className="container-fluid">
           <div className="row align-items-center">
             <div className="col-lg-6 col-md-12">
-              <div 
+              <div
                 className="cryptocurrency-banner-content"
                 data-aos="fade-left"
                 data-aos-duration="1200"
@@ -23,7 +23,7 @@ const HeroBanner = () => {
 
                 <ul className="banner-btn-list">
                   <li>
-                    <Link href="/contact">
+                    <Link legacyBehavior href="/contact">
                       <a className="default-btn style-two">
                         <span className="ri-arrow-right-s-line"></span>Learn
                         More
@@ -82,7 +82,7 @@ const HeroBanner = () => {
             </div>
 
             <div className="col-lg-6 col-md-12">
-              <div 
+              <div
                 className="cryptocurrency-banner-image"
                 data-aos="fade-up"
                 data-aos-duration="1200"
