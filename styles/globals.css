@@ -38,8 +38,8 @@ This files table contents are outlined below>>>>>
 Default CSS
 =================================================*/
 :root {
-  --fontFamily: 'Titillium Web', sans-serif;
-  --fontFamily2: 'Cabin', sans-serif;
+  --fontFamily: "Titillium Web", sans-serif;
+  --fontFamily2: "Cabin", sans-serif;
   --mainColor: #029894;
   --optionalColor: #6f76a8;
   --whiteColor: #ffffff;
@@ -249,7 +249,7 @@ textarea.form-control {
   width: 48px;
   border-radius: 5px;
   z-index: -1;
-  content: '';
+  content: "";
   position: absolute;
   height: 100%;
   left: 0;
@@ -271,6 +271,7 @@ textarea.form-control {
 .default-btn:hover::before {
   width: 100%;
 }
+
 .default-btn.style-two-v2 {
   background-color: var(--mainColor);
   color: var(--whiteColor);
@@ -278,6 +279,7 @@ textarea.form-control {
   padding-right: 30px;
   margin: 0px;
 }
+
 .default-btn.style-two {
   background-color: var(--mainColor);
   color: var(--whiteColor);
@@ -483,7 +485,7 @@ Header Area CSS
   top: 50%;
   right: 0;
   width: 1px;
-  content: '';
+  content: "";
   height: 15px;
   position: absolute;
   -webkit-transform: translateY(-50%);
@@ -629,7 +631,7 @@ Header Area CSS
 
 .navbar-area .navbar .navbar-nav .nav-item .dropdown-toggle::before {
   position: absolute;
-  content: '\EA4E';
+  content: "\EA4E";
   line-height: 1;
   right: -2px;
   top: 36px;
@@ -992,6 +994,7 @@ Header Area CSS
   padding-bottom: 7px;
   /* width: 247px; */
 }
+
 .navbar-area .navbar .default-btn.style-two {
   padding-left: 30px;
   padding-right: 30px;
@@ -1004,6 +1007,7 @@ Header Area CSS
   /* color: #dc84fc; */
   margin-top: -1px;
 }
+
 .navbar-area .navbar .default-btn::before {
   display: none !important;
 }
@@ -1087,10 +1091,12 @@ Header Area CSS
     position: relative;
     padding-top: 15px;
   }
+
   .navbar-area {
     padding-top: 15px;
     padding-bottom: 15px;
   }
+
   .navbar-area.is-sticky {
     top: 0;
     left: 0;
@@ -1148,7 +1154,7 @@ Main Banner Area CSS
 .main-banner-image::before {
   width: 745px;
   height: 745px;
-  content: '';
+  content: "";
   position: absolute;
   left: 0;
   z-index: -1;
@@ -1237,7 +1243,7 @@ Features Area CSS
 }
 
 .single-features-box::before {
-  content: '';
+  content: "";
   position: absolute;
   left: 0;
   -webkit-transition: var(--transition);
@@ -1308,6 +1314,7 @@ About Area CSS
 .about-content {
   padding-left: 15px;
 }
+
 .about-content .sub-title {
   background-color: rgba(2, 152, 148, 0.15);
   -webkit-transition: var(--transition);
@@ -1337,6 +1344,7 @@ About Area CSS
 .about-content p {
   max-width: 520px;
 }
+
 /* .about-content .hire_service_paragraph{
   font-size: 14px;
   max-width: 120px;
@@ -1461,10 +1469,12 @@ About Area CSS
     -webkit-transform: translateY(0px);
     transform: translateY(0px);
   }
+
   50% {
     -webkit-transform: translateY(20px);
     transform: translateY(20px);
   }
+
   100% {
     -webkit-transform: translateY(0px);
     transform: translateY(0px);
@@ -1476,10 +1486,12 @@ About Area CSS
     -webkit-transform: translateY(0px);
     transform: translateY(0px);
   }
+
   50% {
     -webkit-transform: translateY(20px);
     transform: translateY(20px);
   }
+
   100% {
     -webkit-transform: translateY(0px);
     transform: translateY(0px);
@@ -1491,10 +1503,12 @@ About Area CSS
     -webkit-transform: translateX(0px);
     transform: translateX(0px);
   }
+
   50% {
     -webkit-transform: translateX(20px);
     transform: translateX(20px);
   }
+
   100% {
     -webkit-transform: translateX(0px);
     transform: translateX(0px);
@@ -1506,10 +1520,12 @@ About Area CSS
     -webkit-transform: translateX(0px);
     transform: translateX(0px);
   }
+
   50% {
     -webkit-transform: translateX(20px);
     transform: translateX(20px);
   }
+
   100% {
     -webkit-transform: translateX(0px);
     transform: translateX(0px);
@@ -1521,21 +1537,27 @@ About Area CSS
   100% {
     border-radius: 63% 37% 54% 46% / 55% 48% 52% 45%;
   }
+
   14% {
     border-radius: 40% 60% 54% 46% / 49% 60% 40% 51%;
   }
+
   28% {
     border-radius: 54% 46% 38% 62% / 49% 70% 30% 51%;
   }
+
   42% {
     border-radius: 61% 39% 55% 45% / 61% 38% 62% 39%;
   }
+
   56% {
     border-radius: 61% 39% 67% 33% / 70% 50% 50% 30%;
   }
+
   70% {
     border-radius: 50% 50% 34% 66% / 56% 68% 32% 44%;
   }
+
   84% {
     border-radius: 46% 54% 50% 50% / 35% 61% 39% 65%;
   }
@@ -1546,21 +1568,27 @@ About Area CSS
   100% {
     border-radius: 63% 37% 54% 46% / 55% 48% 52% 45%;
   }
+
   14% {
     border-radius: 40% 60% 54% 46% / 49% 60% 40% 51%;
   }
+
   28% {
     border-radius: 54% 46% 38% 62% / 49% 70% 30% 51%;
   }
+
   42% {
     border-radius: 61% 39% 55% 45% / 61% 38% 62% 39%;
   }
+
   56% {
     border-radius: 61% 39% 67% 33% / 70% 50% 50% 30%;
   }
+
   70% {
     border-radius: 50% 50% 34% 66% / 56% 68% 32% 44%;
   }
+
   84% {
     border-radius: 46% 54% 50% 50% / 35% 61% 39% 65%;
   }
@@ -1609,9 +1637,9 @@ Services Area CSS
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
-  display: 'flex';
-  justify-content: 'space-between';
-  flex-direction: 'column';
+  display: "flex";
+  justify-content: "space-between";
+  flex-direction: "column";
   height: 420px;
 }
 
@@ -1681,7 +1709,7 @@ Services Area CSS
 }
 
 .single-services-box::before {
-  content: '';
+  content: "";
   position: absolute;
   left: 0;
   -webkit-transition: var(--transition);
@@ -1696,7 +1724,7 @@ Services Area CSS
 }
 
 .single-services-box::after {
-  content: '';
+  content: "";
   position: absolute;
   left: 0;
   -webkit-transition: var(--transition);
@@ -1857,7 +1885,7 @@ Process Area CSS
   left: 0;
   right: 0;
   bottom: 0;
-  content: '';
+  content: "";
   z-index: -1;
   height: 160px;
   position: absolute;
@@ -1902,7 +1930,7 @@ Process Area CSS
 }
 
 .process-inner::before {
-  content: '';
+  content: "";
   position: absolute;
   left: 0;
   right: 0;
@@ -2044,7 +2072,7 @@ Case Studies Area CSS
   top: 0;
   right: 0;
   z-index: -1;
-  content: '';
+  content: "";
   width: 540px;
   height: 540px;
   position: absolute;
@@ -2412,7 +2440,7 @@ Case Studies Details Area CSS
   left: 0;
   right: 0;
   top: 50%;
-  content: '';
+  content: "";
   height: 1px;
   z-index: -1;
   position: absolute;
@@ -2982,7 +3010,7 @@ Feedback Area CSS
 }
 
 .single-feedback-box::before {
-  content: '';
+  content: "";
   right: 50px;
   z-index: -1;
   width: 55px;
@@ -3069,12 +3097,13 @@ Blog Area CSS
   transform: rotate(90deg);
   color: var(--optionalColor);
 }
+
 .single-blog-post .image .date::before {
   left: 0;
   top: 50%;
   width: 50px;
   height: 1px;
-  content: '';
+  content: "";
   position: absolute;
   -webkit-transform: translateY(-50%);
   transform: translateY(-50%);
@@ -3099,9 +3128,11 @@ Blog Area CSS
   font-style: normal;
   font-size: var(--card-heading);
   font-weight: 600;
-  line-height: 28.8px; /* 120% */
+  line-height: 28.8px;
+  /* 120% */
   height: 60.614px;
 }
+
 .single-blog-post .content p {
   height: 100px;
 }
@@ -3588,7 +3619,7 @@ Blog Details Area CSS
   .comment-respond
   .comment-form
   .form-check
-  .form-check-input[type='checkbox'] {
+  .form-check-input[type="checkbox"] {
   border-radius: 0;
   -webkit-box-shadow: unset !important;
   box-shadow: unset !important;
@@ -3598,7 +3629,7 @@ Blog Details Area CSS
   .comment-respond
   .comment-form
   .form-check
-  .form-check-input[type='checkbox']:checked {
+  .form-check-input[type="checkbox"]:checked {
   background-color: var(--mainColor);
   border-color: var(--mainColor);
 }
@@ -3660,7 +3691,7 @@ blockquote cite::before,
   width: 20px;
   height: 2px;
   background-color: var(--mainColor);
-  content: '';
+  content: "";
   position: absolute;
 }
 
@@ -3670,7 +3701,7 @@ blockquote::after,
   left: 0;
   bottom: 0;
   width: 3px;
-  content: '';
+  content: "";
   position: absolute;
   background-color: var(--mainColor);
   margin-top: 20px;
@@ -3701,7 +3732,7 @@ Get Started Area CSS
 .get-started-image::before {
   left: 0;
   right: 0;
-  content: '';
+  content: "";
   opacity: 0.36;
   width: 590px;
   z-index: -1;
@@ -3798,7 +3829,7 @@ Page Title Area CSS
 
 .page-title-content ul li::before {
   position: absolute;
-  content: '\EA6E';
+  content: "\EA6E";
   right: -18px;
   top: 1.7px;
   font-family: remixicon;
@@ -3868,6 +3899,7 @@ Page Title Area CSS
   filter: blur(0);
   opacity: 1;
 }
+
 .page-title-area2 {
   z-index: 1;
   position: relative;
@@ -3898,6 +3930,7 @@ Page Title Area CSS
 .page-title-area2 .shape3 img {
   animation: none;
 }
+
 .page-title-area2 .shape4 {
   bottom: 8%;
   right: 14%;
@@ -3907,6 +3940,7 @@ Page Title Area CSS
 .page-title-area2 .shape4 img {
   animation: none;
 }
+
 /*================================================
 FAQ Area CSS
 =================================================*/
@@ -3941,6 +3975,7 @@ FAQ Area CSS
 .faq-accordion .accordion .accordion__item .accordion__panel {
   animation: fadein 0.75s ease-in-out;
 }
+
 /* .faq-accordion .accordion .accordion__item .accordion__button {
   width: 100%;
   border: none;
@@ -3984,16 +4019,19 @@ FAQ Area CSS
   font-size: 19px;
   font-weight: 600;
 }
+
 .faq-accordion .accordion .accordion__item .accordion__button .button-header {
   display: flex;
   align-items: center;
   justify-content: space-between;
   width: 100%;
 }
+
 .faq-accordion .accordion .accordion__item .accordion__button img {
   width: 50.855px;
   height: 50.855px;
 }
+
 /* .faq-accordion .accordion .accordion__item .accordion__button::before {
   position: absolute;
   right: 15px;
@@ -4133,6 +4171,7 @@ Pagination CSS
   background: var(--blackColor);
   color: var(--whiteColor);
 }
+
 .pagination-area .page-numbers:first-child {
   margin-left: 0;
 }
@@ -4140,17 +4179,20 @@ Pagination CSS
 .pagination-area .page-numbers:last-child {
   margin-right: 0;
 }
+
 .pagination-area .disabled {
   cursor: pointer;
   background: rgb(249 249 249);
   color: rgb(213 213 213);
   box-shadow: none;
 }
+
 .pagination-area .disabled:hover {
   background: rgb(249 249 249);
   color: rgb(213 213 213);
   box-shadow: none;
 }
+
 /*================================================
 Contact Area CSS
 =================================================*/
@@ -4352,13 +4394,13 @@ Contact Area CSS
   color: var(--blackColor);
 }
 
-.contact-form .form-check .form-check-input[type='checkbox'] {
+.contact-form .form-check .form-check-input[type="checkbox"] {
   border-radius: 0;
   -webkit-box-shadow: unset !important;
   box-shadow: unset !important;
 }
 
-.contact-form .form-check .form-check-input[type='checkbox']:checked {
+.contact-form .form-check .form-check-input[type="checkbox"]:checked {
   background-color: var(--mainColor);
   border-color: var(--mainColor);
 }
@@ -4414,7 +4456,7 @@ Footer Area CSS
 .single-footer-widget h3::before {
   left: 0;
   bottom: 0;
-  content: '';
+  content: "";
   width: 44px;
   height: 2px;
   position: absolute;
@@ -4685,6 +4727,7 @@ Footer Area CSS
   margin-bottom: 0;
   list-style-type: none;
 }
+
 .copyright-area p {
   text-align: end;
 }
@@ -4697,7 +4740,7 @@ Footer Area CSS
 }
 
 .copyright-area ul li::before {
-  content: '';
+  content: "";
   position: absolute;
   left: -23px;
   top: 50%;
@@ -4867,7 +4910,7 @@ Main Banner Area CSS
   right: 0;
   bottom: -3px;
   z-index: 2;
-  content: '';
+  content: "";
   height: 96px !important;
   position: absolute;
   background-image: url(/images/shape/waves.png);
@@ -5027,6 +5070,7 @@ Services Area CSS
 .single-services-item .default-btn {
   margin-top: 30px;
 }
+
 /* New class added because how it works cards have less content */
 .size-change {
   height: 450px;
@@ -5037,6 +5081,7 @@ Services Area CSS
   -webkit-box-shadow: 0 0 35px rgba(0, 0, 0, 0.07);
   box-shadow: 0 0 35px rgba(0, 0, 0, 0.07);
 }
+
 .single-services-item.with-boxshadow p {
   margin-top: 20px;
 }
@@ -5075,6 +5120,7 @@ Services Area CSS
   padding-left: 50px;
   padding-right: 50px;
 }
+
 .aboutUs-Services-slides {
   padding-right: 10px;
   padding-bottom: 10px;
@@ -5123,7 +5169,7 @@ Feedback Area CSS
   left: 0;
   right: 0;
   bottom: 0;
-  content: '';
+  content: "";
   z-index: -1;
   height: 250px;
   position: absolute;
@@ -5166,7 +5212,7 @@ Feedback Area CSS
 }
 
 .single-feedback-item::before {
-  content: '';
+  content: "";
   right: 50px;
   z-index: -1;
   width: 55px;
@@ -5210,6 +5256,7 @@ Team Area CSS
 .team-section-title {
   padding-left: 15px;
 }
+
 .team-section-title ul li {
   color: var(--optionalColor);
 }
@@ -5227,11 +5274,13 @@ Team Area CSS
   font-size: 14px;
   font-weight: 300;
 }
+
 .team-section-title ul {
   list-style-type: none;
   margin-left: 0px;
   padding-left: 0px;
 }
+
 .team-section-title .sub-title:hover {
   background-color: var(--mainColor);
   color: var(--whiteColor);
@@ -5271,6 +5320,7 @@ Team Area CSS
   bottom: 0;
   left: 0;
 }
+
 .single-team-member .content1 {
   background-color: var(--mainColor);
   /* border-radius: 0 30px 0 0; */
@@ -5285,6 +5335,7 @@ Team Area CSS
   justify-content: center;
   align-items: center;
 }
+
 .single-team-member .content2 {
   background-color: var(--mainColor);
   /* border-radius: 0 30px 0 0; */
@@ -5299,6 +5350,7 @@ Team Area CSS
   justify-content: center;
   align-items: center;
 }
+
 .single-team-member .content3 {
   background-color: var(--mainColor);
   /* border-radius: 0 30px 0 0; */
@@ -5313,6 +5365,7 @@ Team Area CSS
   justify-content: center;
   align-items: center;
 }
+
 .single-team-member .content4 {
   background-color: var(--mainColor);
   /* border-radius: 0 30px 0 0; */
@@ -5350,6 +5403,7 @@ Team Area CSS
   font-size: 13px;
   text-align: center;
 }
+
 .single-team-member .content div,
 .single-team-member .content1 div,
 .single-team-member .content2 div,
@@ -5574,6 +5628,7 @@ Subscribe Area CSS
   justify-content: center !important;
   align-items: center !important;
 }
+
 /* .call-Card {
   width: 350px;
   height: 310px;
@@ -5603,9 +5658,11 @@ Subscribe Area CSS
   background-color: var(--mainColor);
   border-radius: 13px;
 }
+
 .call-Card h5 {
   color: var(--whiteColor);
 }
+
 .call-Card-Round-Image {
   width: 150px;
   height: 150px;
@@ -5615,6 +5672,7 @@ Subscribe Area CSS
   background-repeat: no-repeat;
   background-size: cover;
 }
+
 .call-Card button {
   font-weight: 600;
   color: #636060;
@@ -5622,6 +5680,7 @@ Subscribe Area CSS
   border-radius: 3px;
   padding: 10px 20px;
 }
+
 .subscribe-inner .sub-title {
   background-color: rgba(255, 255, 255, 0.1);
   -webkit-transition: var(--transition);
@@ -5776,7 +5835,7 @@ Quote Area CSS
   top: 0;
   left: 0;
   right: 0;
-  content: '';
+  content: "";
   z-index: -1;
   height: 74px;
   position: absolute;
@@ -6509,6 +6568,7 @@ What We Work Area CSS
   padding-left: 30px;
   padding-right: 30px;
 }
+
 .funfacts-area .container .section-title h2 {
   font-family: var(--fontFamily2);
   font-weight: 700 !important;
@@ -6681,7 +6741,7 @@ Video Area CSS
 }
 
 .video-view-content .video-btn::before {
-  content: '';
+  content: "";
   display: block;
   position: absolute;
   top: 0;
@@ -6708,11 +6768,13 @@ Video Area CSS
     -webkit-transform: scale(1);
     transform: scale(1);
   }
+
   75% {
     -webkit-transform: scale(1.75);
     transform: scale(1.75);
     opacity: 1;
   }
+
   100% {
     -webkit-transform: scale(2);
     transform: scale(2);
@@ -6725,11 +6787,13 @@ Video Area CSS
     -webkit-transform: scale(1);
     transform: scale(1);
   }
+
   75% {
     -webkit-transform: scale(1.75);
     transform: scale(1.75);
     opacity: 1;
   }
+
   100% {
     -webkit-transform: scale(2);
     transform: scale(2);
@@ -7362,7 +7426,7 @@ Blog Area CSS
 
 .blog-style-card .blog-content .meta li::before {
   position: absolute;
-  content: '\EA6E';
+  content: "\EA6E";
   right: -23px;
   top: 1.7px;
   font-family: remixicon;
@@ -7400,6 +7464,7 @@ Blog Area CSS
   top: -200px;
   z-index: -1;
 }
+
 /*================================================
 Blog Content
 =================================================*/
@@ -7423,9 +7488,11 @@ Blog Content
   font-weight: 400 !important;
   font-size: 20px !important;
 }
+
 .blogs-content li::marker {
   font-size: 20px !important;
 }
+
 .blogs-content ul li {
   /* font-size: 17px !important; */
   font-size: var(--fontSize);
@@ -7763,7 +7830,7 @@ Pre Token Sale Ends Area CSS
 .pre-token-sale-ends-content
   .pre-token-sale-ends-with-progress
   .progress-wrapper::before {
-  content: '';
+  content: "";
   position: absolute;
   top: 0;
   left: 15px;
@@ -7775,7 +7842,7 @@ Pre Token Sale Ends Area CSS
 .pre-token-sale-ends-content
   .pre-token-sale-ends-with-progress
   .progress-wrapper::after {
-  content: '';
+  content: "";
   position: absolute;
   top: 0;
   right: 15px;
@@ -8708,7 +8775,7 @@ ICO Landing Banner Area CSS
   .banner-pre-token-sale-ends
   .pre-token-sale-ends-with-progress
   .progress-wrapper::before {
-  content: '';
+  content: "";
   position: absolute;
   top: 0;
   left: 15px;
@@ -8721,7 +8788,7 @@ ICO Landing Banner Area CSS
   .banner-pre-token-sale-ends
   .pre-token-sale-ends-with-progress
   .progress-wrapper::after {
-  content: '';
+  content: "";
   position: absolute;
   top: 0;
   right: 15px;
@@ -9331,6 +9398,7 @@ Footer Area CSS
 .service-sidebar .sidebar-box ul li a i {
   float: right;
 }
+
 /*# sourceMappingURL=globals.css.map */
 
 /* Coming Soon Page Starts */
@@ -9346,14 +9414,17 @@ Footer Area CSS
   background-size: cover;
   flex-direction: column;
 }
+
 .coming-soon-main h2 {
   color: var(--optionalColor);
 }
+
 .coming-soon-main h1 {
   color: var(--blackColor);
   font-size: 40px;
   font-family: var(--fontFamily2);
 }
+
 .coming-soon-button {
   background-color: var(--mainColor);
   color: var(--whiteColor);
@@ -9361,10 +9432,12 @@ Footer Area CSS
   height: 40px;
   border-radius: 4px;
 }
+
 .coming-soon-button:hover {
   background-color: var(--blackColor);
   color: var(--whiteColor);
 }
+
 /* Coming Soon Finish */
 .talent-logo {
   max-width: 120px;
@@ -9543,6 +9616,7 @@ subscribe2 Area CSS
 .subscribe2-inner .newsletter-form .input-newsletter:focus::placeholder {
   color: transparent;
 }
+
 .process-inner h2 {
   font-size: var(--sub-heading);
   font-weight: 700 !important;
@@ -9602,34 +9676,42 @@ subscribe2 Area CSS
 .single-footer-widget .social-links li a:hover {
   transform: scale(1.1);
 }
+
 .single-footer-widget .social-links .facebook {
   /* background-color: #3b5998; */
   background-color: transparent;
 }
+
 .single-footer-widget .social-links .facebook:hover {
   /* background-color: #3b5998; */
   background-color: transparent;
 }
+
 .single-footer-widget .social-links .twitter {
   /* background-color: #1da1f2; */
   background-color: transparent;
 }
+
 .single-footer-widget .social-links .twitter:hover {
   background-color: transparent;
   /* background-color: #1da1f2; */
 }
+
 .single-footer-widget .social-links .linkedin {
   /* background-color: #0077b5; */
   background-color: transparent;
 }
+
 .single-footer-widget .social-links .linkedin:hover {
   background-color: transparent;
   /* background-color: #0077b5; */
 }
+
 .single-footer-widget .social-links .instagram {
   /* background-color: #ed46d2; */
   background-color: transparent;
 }
+
 .single-footer-widget .social-links .instagram:hover {
   background-color: transparent;
   /* background-color: #ed46d2; */
@@ -9646,6 +9728,7 @@ subscribe2 Area CSS
   flex-direction: column;
   overflow-x: hidden;
 }
+
 .thank-header {
   background-image: url(/images/bg/ThankYouPageBG.png);
   background-position: center center;
@@ -9658,6 +9741,7 @@ subscribe2 Area CSS
   padding-top: 45px;
   padding-bottom: 45px;
 }
+
 .thank-header .thankyou-heading-1 {
   color: #fff;
   text-align: center;
@@ -9667,8 +9751,10 @@ subscribe2 Area CSS
   font-style: normal;
   line-height: 28px;
   font-weight: 700;
-  line-height: 52px; /* 130% */
+  line-height: 52px;
+  /* 130% */
 }
+
 .thank-header .thankyou-heading-2 {
   color: #fff;
   text-align: center;
@@ -9676,8 +9762,10 @@ subscribe2 Area CSS
   font-size: 32px;
   font-style: normal;
   font-weight: 600;
-  line-height: 45.5px; /* 130% */
+  line-height: 45.5px;
+  /* 130% */
 }
+
 .thank-header .thankyou-paragraph {
   color: #fff;
   text-align: center;
@@ -9686,8 +9774,10 @@ subscribe2 Area CSS
   font-style: normal;
   line-height: 19px;
   font-weight: 400;
-  line-height: 30px; /* 150% */
+  line-height: 30px;
+  /* 150% */
 }
+
 .thankyou-features-box {
   /* margin-bottom: 30px; */
   border-radius: 10px;
@@ -9697,6 +9787,7 @@ subscribe2 Area CSS
   z-index: 1;
   background: transparent;
 }
+
 .thankyou-features-box h3 {
   color: #fff;
   text-align: center;
@@ -9706,31 +9797,38 @@ subscribe2 Area CSS
   font-size: 22px;
   font-style: normal;
   font-weight: 700;
-  line-height: 37.327px; /* 130% */
+  line-height: 37.327px;
+  /* 130% */
 }
+
 .thankyou-features-box ul li {
   color: #fff;
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
-  line-height: 26.662px; /* 130% */
+  line-height: 26.662px;
+  /* 130% */
 }
+
 .thankyou-features-box .icon {
   display: flex;
   justify-content: center;
   align-items: center;
 }
+
 .thank-you-main .container-fluid2 {
   background-color: #2d7184;
   box-shadow: 0px -18px 12px -12px rgba(0, 0, 0, 0.75);
   padding: 15px;
 }
+
 .thank-you-partner-slider {
   height: 200px;
   display: flex;
   justify-content: center;
   align-items: center;
 }
+
 .thank-header .container .section-title h2 {
   color: var(--whiteColor);
   margin-top: 20px;
@@ -9739,9 +9837,11 @@ subscribe2 Area CSS
   font-family: var(--fontFamily);
   font-size: 28px;
 }
+
 .thank-header .container .row {
   margin-top: -60px;
 }
+
 /* Thankyou Page Styling Finish Here. */
 
 /* Careers Page styling starts here */
@@ -9761,6 +9861,7 @@ subscribe2 Area CSS
   background-position: right 0.75rem center;
   background-repeat: no-repeat;
 }
+
 .dropdown .option {
   font-size: 16px;
   font-weight: 400;
@@ -9774,6 +9875,7 @@ subscribe2 Area CSS
   margin-bottom: 20px !important;
   margin: 0px;
 }
+
 .career-card-title {
   display: flex;
   flex-direction: column;
@@ -9782,6 +9884,7 @@ subscribe2 Area CSS
   flex-shrink: 0;
   gap: -1px;
 }
+
 .career-card-title h3 {
   color: var(--blackColor);
   font-size: 22px;
@@ -9790,6 +9893,7 @@ subscribe2 Area CSS
   line-height: 28.8px;
   margin-bottom: 0;
 }
+
 .career-card-title p {
   color: var(--optionalColor);
   font-size: 16px;
@@ -9797,12 +9901,14 @@ subscribe2 Area CSS
   font-weight: 400;
   line-height: 28.8px;
 }
+
 .career-card-description {
   padding: 0px 12px 0.78px 12px;
   align-items: flex-start;
   gap: -1px;
   flex-shrink: 0;
 }
+
 .career-card-description h3 {
   color: var(--blackColor);
   font-size: 22px;
@@ -9811,6 +9917,7 @@ subscribe2 Area CSS
   line-height: 28.8px;
   margin-bottom: 0;
 }
+
 .career-card-description p {
   color: var(--optionalColor);
   font-size: 16px;
@@ -9818,14 +9925,17 @@ subscribe2 Area CSS
   font-weight: 400;
   line-height: 28.8px;
 }
+
 .career-card-button {
   height: 202.5px;
   display: flex;
   align-items: center;
 }
+
 .career-card-button .default-btn {
   border-radius: 800px;
 }
+
 .career-section .horizonal-line {
   display: block;
 }
@@ -9851,6 +9961,7 @@ subscribe2 Area CSS
   padding-bottom: 85px;
   font-family: Poppins;
 }
+
 .discovery-call-header .discovery-call-heading-1 {
   color: #fff;
   text-align: center;
@@ -9860,8 +9971,10 @@ subscribe2 Area CSS
   font-style: normal;
   line-height: 28px;
   font-weight: 700;
-  line-height: 52px; /* 130% */
+  line-height: 52px;
+  /* 130% */
 }
+
 .discovery-call-header .discovery-call-heading-2 {
   color: #fff;
   text-align: center;
@@ -9869,9 +9982,11 @@ subscribe2 Area CSS
   font-size: 43px;
   font-style: normal;
   font-weight: 400;
-  line-height: 45.5px; /* 130% */
+  line-height: 45.5px;
+  /* 130% */
   font-family: Poppins;
 }
+
 .discovery-call-features {
   border-radius: 10px;
   padding: 11px 30px;
@@ -9879,6 +9994,7 @@ subscribe2 Area CSS
   z-index: 1;
   background: transparent;
 }
+
 .discovery-call-features h3 {
   color: #fff;
   text-align: center;
@@ -9888,17 +10004,21 @@ subscribe2 Area CSS
   font-size: 22px;
   font-style: normal;
   font-weight: 700;
-  line-height: 37.327px; /* 130% */
+  line-height: 37.327px;
+  /* 130% */
   font-family: Poppins;
 }
+
 .discovery-call-features ul li {
   color: #fff;
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
-  line-height: 26.662px; /* 130% */
+  line-height: 26.662px;
+  /* 130% */
   font-family: Poppins;
 }
+
 .discovery-call-img video {
   width: 100%;
   height: 100%;
@@ -9916,6 +10036,7 @@ subscribe2 Area CSS
   padding-top: 20px;
   padding-bottom: 30px;
 }
+
 .discovery-call-button {
   width: 465px;
   display: inline-flex;
@@ -9930,10 +10051,12 @@ subscribe2 Area CSS
   background: #029894;
   box-shadow: 0px 3.96517px 2.97388px -2.97388px rgba(103, 35, 35, 0.25);
 }
+
 .discovery-call-button:hover {
   background-color: var(--blackColor);
   color: var(--whiteColor);
 }
+
 .discovery-call-button .free-strategy {
   color: #fff;
   text-align: center;
@@ -9945,6 +10068,7 @@ subscribe2 Area CSS
   line-height: normal;
   font-family: Poppins;
 }
+
 .discovery-call-button .limited-free {
   color: #fff;
   text-align: center;
@@ -9956,6 +10080,7 @@ subscribe2 Area CSS
   line-height: normal;
   font-family: Poppins;
 }
+
 /* discovery-call Styling Finish Here. */
 
 /*================================================
@@ -9973,6 +10098,7 @@ We adapt to your needs Area CSS
   position: relative;
   z-index: 1;
 }
+
 /* .background {
   width: 1052px;
   height: 842px;
@@ -9992,10 +10118,12 @@ We adapt to your needs Area CSS
   font-weight: 700 !important;
   font-family: Outfit;
 }
+
 .we-adapt-to-your-need-content .logo {
   width: 48px;
   height: 48px;
 }
+
 .we-adapt-to-your-need-content h2 .dot {
   color: #029894;
   font-family: Outfit;
@@ -10004,9 +10132,11 @@ We adapt to your needs Area CSS
   font-weight: 500;
   line-height: 60px;
 }
+
 .we-adapt-to-your-need-content .style-two {
   padding-right: 30px;
 }
+
 .we-adapt-to-your-need-content #timer {
   background-color: var(--whiteColor);
   border: 1px solid var(--mainColor);
@@ -10033,11 +10163,13 @@ We adapt to your needs Area CSS
   font-weight: 500;
   color: var(--optionalColor);
 }
+
 .we-adapt-to-your-need-content h3 {
   font-family: Outfit;
   margin-bottom: 0;
   color: #1b1f22;
 }
+
 .we-adapt-to-your-need-content p {
   font-family: Outfit;
   color: #272e34;
@@ -10087,7 +10219,7 @@ We adapt to your needs Area CSS
 .we-adapt-to-your-need-content
   .we-adapt-to-your-need-with-progress
   .progress-wrapper::before {
-  content: '';
+  content: "";
   position: absolute;
   top: 0;
   left: 15px;
@@ -10099,7 +10231,7 @@ We adapt to your needs Area CSS
 .we-adapt-to-your-need-content
   .we-adapt-to-your-need-with-progress
   .progress-wrapper::after {
-  content: '';
+  content: "";
   position: absolute;
   top: 0;
   right: 15px;
@@ -10199,6 +10331,7 @@ Reliable And Secure Area CSS
   font-family: Outfit !important;
   color: #09114a;
 }
+
 .reliable-and-secure-content p {
   color: #09114a;
 }
@@ -10247,12 +10380,14 @@ Our Process Area CSS
   margin-bottom: 12px;
   font-family: Outfit !important;
 }
+
 .our-process-content p {
   text-align: right;
   font-family: Outfit !important;
   font-weight: 400;
   color: #000;
 }
+
 .our-process-content h1 {
   margin-bottom: 18px;
   font-weight: 500;
@@ -10262,6 +10397,7 @@ Our Process Area CSS
   font-family: Outfit !important;
   text-align: right;
 }
+
 .our-process-content h1 .dot {
   color: #029894;
   font-family: Outfit !important;
@@ -10270,13 +10406,16 @@ Our Process Area CSS
   font-weight: 500;
   line-height: 60px;
 }
+
 .our-process-image img {
   margin: auto;
   display: block;
 }
+
 .our-process-box {
   padding: 11px 30px;
 }
+
 .our-process-box h3 {
   color: #000 !important;
   /* text-shadow: 1.0254536867141724px 1.0254536867141724px 1.0254536867141724px
@@ -10286,11 +10425,14 @@ Our Process Area CSS
   font-style: normal;
   font-weight: 700;
   font-family: Outfit !important;
-  line-height: 37.327px; /* 130% */
+  line-height: 37.327px;
+  /* 130% */
 }
+
 .our-process-box p {
   color: #000;
 }
+
 .our-process-box .icon {
   margin: 12px 0;
   align-items: center;
@@ -10309,7 +10451,8 @@ Meet The Team Area CSS
   font-size: 48px;
   font-style: normal;
   font-weight: 600;
-  line-height: 53.3px; /* 111.042% */
+  line-height: 53.3px;
+  /* 111.042% */
   color: #09114a;
 }
 
@@ -10352,13 +10495,16 @@ Hiring Area CSS
   display: flex;
   justify-content: center;
 }
+
 .HiringTab-para {
   color: #737373 !important;
 }
+
 .Hiring-box p {
   padding: 0;
   color: #000;
 }
+
 .hiring-box-header {
   display: flex;
   align-items: center;
@@ -10376,6 +10522,7 @@ Hiring Area CSS
   width: 100%;
   /* line-break: auto; */
 }
+
 .Hiring-text h1 {
   color: #029894;
   font-family: Outfit !important;
@@ -10385,6 +10532,7 @@ Hiring Area CSS
   line-height: 1.1;
   width: 330px;
 }
+
 .Hiring-area h2 {
   color: #09114a;
   text-align: center;
@@ -10392,8 +10540,10 @@ Hiring Area CSS
   font-size: 48px;
   font-style: normal;
   font-weight: 600;
-  line-height: 53.3px; /* 111.042% */
+  line-height: 53.3px;
+  /* 111.042% */
 }
+
 .Hiring-area p {
   font-family: Outfit !important;
   color: #000;
@@ -10413,6 +10563,7 @@ get talent Area CSS
   background-size: cover;
   width: 100%;
 }
+
 .get-talent-content {
   padding: 50px;
   text-align: center;
@@ -10422,13 +10573,16 @@ get talent Area CSS
   background-repeat: no-repeat;
   background-size: cover;
 }
+
 .get-talent-content h3 {
   color: #fff;
   font-size: 48px;
   font-style: normal;
   font-weight: 500;
-  line-height: 60px; /* 125% */
+  line-height: 60px;
+  /* 125% */
 }
+
 .get-talent-content .newsletter-form button {
   background-color: var(--whiteColor);
   /* transition: var(--transition); */
@@ -10445,6 +10599,7 @@ get talent Area CSS
   font-size: var(--fontSize);
   font-weight: 700;
 }
+
 .get-talent-content .newsletter-form button:hover {
   background-color: var(--blackColor);
   color: var(--whiteColor);
@@ -10466,6 +10621,7 @@ client feedback Area CSS
   overflow: hidden;
   /* box-shadow: 10px 25px 25px 7px rgba(0, 0, 0, 0.1); */
 }
+
 .client-feedback .swiper-button-prev {
   color: transparent;
   background-image: url(/images/discovery_call/pre.png);
@@ -10477,6 +10633,7 @@ client feedback Area CSS
   right: 820px;
   background-repeat: no-repeat;
 }
+
 .client-feedback .swiper-button-next {
   color: transparent;
   background-image: url(/images/discovery_call/next.png);
@@ -10488,6 +10645,7 @@ client feedback Area CSS
   right: auto;
   background-repeat: no-repeat;
 }
+
 .swiper-pagination-bullets,
 .swiper-pagination-bullets.swiper-pagination-horizontal,
 .swiper-pagination-custom,
@@ -10501,14 +10659,17 @@ client feedback Area CSS
   display: flex;
   margin: auto;
 }
+
 .client-feedback .swiper-pagination-bullet {
   width: 20px;
   height: 20px;
   background: #c7c7c7;
 }
+
 .client-feedback .swiper-pagination-bullet-active {
   background: #00718a;
 }
+
 .client-feedback-card {
   /* width: 1110.902px; */
   /* min-height: 100%; */
@@ -10518,6 +10679,7 @@ client feedback Area CSS
   display: flex;
   box-shadow: 0px 45px 65px 0px rgba(0, 0, 0, 0.24);
 }
+
 .client-feedback-card .feedback-bg {
   background-color: #3b5998;
   width: 52%;
@@ -10526,13 +10688,16 @@ client feedback Area CSS
   position: absolute;
   left: 0;
 }
+
 .client-feedback-card .feedback-img {
   position: relative;
   z-index: 2;
 }
+
 .feedback-title h2 {
   color: #09114a;
 }
+
 .feedback-rating-ul {
   list-style-type: none;
   display: flex;
@@ -10540,10 +10705,12 @@ client feedback Area CSS
   margin-bottom: 8px;
   gap: 4px;
 }
+
 .feedback-content {
   padding: 20px;
   padding-top: 0 !important;
 }
+
 .feedback-content h1 {
   color: #525252;
   /* font-family: var(--fontFamily); */
@@ -10554,6 +10721,7 @@ client feedback Area CSS
   line-height: normal;
   margin-bottom: 0;
 }
+
 .feedback-content h2 {
   color: #525252;
   /* font-family: var(--fontFamily); */
@@ -10563,6 +10731,7 @@ client feedback Area CSS
   line-height: normal;
   font-family: Lato;
 }
+
 .feedback-content p {
   text-align: justify;
   font-style: normal;
@@ -10582,4 +10751,407 @@ client feedback Area CSS
 .ReliableAndSecure,
 .AdaptTab {
   font-family: Outfit !important;
+}
+
+/*================================================
+CV CSS
+=================================================*/
+
+.cv-area {
+  width: 60%;
+  margin: 55px auto;
+}
+
+.cv-heading {
+  font-family: Poppins;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 38px;
+  color: #000000;
+  margin-bottom: 0px;
+}
+
+.cv-card-area {
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.25), 0px 3px 10px rgba(0, 0, 0, 0.2);
+  padding: 48px;
+  margin-bottom: 48px;
+}
+
+.cv-banner {
+  background: url("/images/cvs/background.png");
+  background-repeat: round;
+  background-size: cover;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.25), 0px 3px 10px rgba(0, 0, 0, 0.2);
+  margin-bottom: 48px;
+  padding: 46px 0px;
+}
+
+.cv-banner-area {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.banner-image {
+  width: 407.83px;
+  height: 407.83px;
+  margin-right: 40px;
+}
+
+.banner-image img {
+  width: 100%;
+}
+
+.employee-name {
+  font-family: Montserrat;
+  font-weight: 600;
+  font-size: 56px;
+  line-height: 45px;
+  letter-spacing: 0.02em;
+  color: #ffffff;
+  text-shadow: 0px 3px 6px #000000;
+}
+
+.employee-post {
+  background: #005577;
+  box-shadow: 0px 5px 9.1px rgba(0, 0, 0, 0.49);
+  width: 239.9px;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.employee-post span {
+  font-family: Montserrat;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 45px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  letter-spacing: 0.04em;
+  color: #ffffff;
+  padding: 0px 10px;
+}
+
+.emoployee-tag {
+  font-family: Montserrat;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 45px;
+  letter-spacing: 0.04em;
+  color: #ffffff;
+  margin-top: 5px;
+}
+
+.hire-me {
+  background: #005677;
+  box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.59);
+  border-radius: 13.03px;
+  border: none;
+  font-family: Poppins;
+  font-weight: 700;
+  font-size: 13px;
+  line-height: 19px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #ffffff;
+  padding: 15px;
+}
+
+.divide {
+  display: flex;
+  justify-content: space-between;
+  flex: 1;
+}
+
+.cv-aboutme-area,
+.profile-area {
+  flex-basis: 50%;
+}
+
+.profile-area {
+  margin-left: 18px;
+}
+
+.cv-aboutme-area {
+}
+
+.aboutme-description {
+  font-family: Poppins;
+  font-weight: 400;
+  font-size: 13.3228px;
+  line-height: 20px;
+  color: #000000;
+  width: 498px;
+}
+
+.profile-detail {
+  color: #3c3c3c;
+}
+
+.aboutme,
+.profile-detail {
+  margin-bottom: 27px;
+}
+
+.profile-details-area {
+  display: flex;
+  justify-content: space-between;
+}
+
+.experience {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.expertise {
+}
+
+.english-level {
+}
+
+.profile-detail-heading {
+  font-family: Poppins;
+  font-weight: 500;
+  font-size: 17.7638px;
+  line-height: 22px;
+  letter-spacing: 0.194291px;
+  text-transform: capitalize;
+  color: #212121;
+  margin-bottom: 8px;
+}
+
+.with-icon {
+  display: flex;
+  align-items: flex-end;
+}
+
+.profile-info {
+  font-family: Poppins;
+  font-weight: 400;
+  font-size: 14.4331px;
+  line-height: 20px;
+  color: #7c7c7c;
+  margin-bottom: 0px;
+  text-transform: capitalize;
+}
+
+.image-badge {
+  padding-left: 13px;
+}
+
+.tag-list {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 5px;
+}
+
+.tags {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #f2f2f2;
+  border-radius: 22.2047px;
+  font-family: Poppins;
+  font-weight: 500;
+  font-size: 11.1024px;
+  line-height: 18px;
+  color: #212121;
+  padding: 5.55118px 20.6948px 5.55118px 16.6535px;
+  margin: 22px 10px 0px 0px;
+}
+
+.tech-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: flex-end;
+  margin-top: 11px;
+}
+
+.tool-progressbar {
+  flex-basis: 48.5%;
+}
+
+.tech-icon {
+}
+
+.progress-visual-full {
+  margin: 11px 0px;
+}
+
+.progress-visual-part {
+  transition: width 1s;
+}
+
+.cv-pl {
+  padding-left: 48px;
+}
+
+.work-experience {
+  margin-top: 31px;
+}
+
+.experience-info {
+  padding-left: 48px;
+}
+
+.position-heading {
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.list-marker {
+  position: absolute;
+  width: 28.6px;
+  height: 28.6px;
+  background: #049583;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.list-marker-inner {
+  width: 17.32px;
+  height: 17.32px;
+  background: #afebff;
+  display: block;
+  border-radius: 50%;
+}
+
+.work-position {
+  font-family: Poppins;
+  font-weight: 800;
+  font-size: 27.7559px;
+  line-height: 23px;
+  color: #212121;
+  margin-bottom: 0px;
+}
+
+.work-company {
+  font-family: Poppins;
+  font-weight: 400;
+  font-size: 17.7638px;
+  line-height: 18px;
+  display: flex;
+  align-items: center;
+  color: #212121;
+  margin: 9.87px 0px;
+}
+
+.experience-list {
+  padding: 0px 0px 0px 68px;
+  margin: 0px 0px 36px 0px;
+}
+
+.work-experience-info {
+  font-family: Inter;
+  font-weight: 400;
+  font-size: 14.4331px;
+  line-height: 26px;
+  color: #7c7c7c;
+}
+
+.progress-info-area {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  margin-top: 31px;
+}
+
+.progress-info {
+  /* flex-basis: 25%; */
+  text-align: center;
+}
+
+.progress-info svg,
+.progress-info svg path {
+  width: 137.75px;
+  height: 137.75px;
+}
+
+.names {
+  font-family: Poppins;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 38px;
+  color: #000000;
+  margin-bottom: 32px;
+}
+
+.feedback-name {
+  font-family: Poppins;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 46px;
+  letter-spacing: 0.194291px;
+  text-transform: capitalize;
+  color: #049583;
+  margin-bottom: 11px;
+}
+
+.divider {
+  display: flex;
+  /* align-items: center; */
+  justify-content: space-between;
+}
+
+.middle-border {
+  width: 0px;
+  height: 233.48px;
+  border: 1px solid rgba(0, 0, 0, 0.77);
+  margin-top: 30px;
+  /* margin: 0px 87px 0px 131px; */
+}
+
+.hat-icon {
+  width: 55.51px;
+  height: 55.51px;
+  background: #049583;
+  box-shadow: 0px 4.44094px 4.44094px rgba(0, 0, 0, 0.25);
+  border-radius: 7.77165px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.detail-wrapper {
+  display: flex;
+  margin-top: 31px;
+  margin-left: 27px;
+}
+
+.education-detail {
+  margin-left: 19px;
+}
+
+.major {
+  font-family: Poppins;
+  font-weight: 800;
+  font-size: 15.5433px;
+  line-height: 23px;
+  text-transform: uppercase;
+  color: #212121;
+  margin-bottom: 1.54px;
+}
+
+.institude-name {
+  font-family: Poppins;
+  font-weight: 500;
+  font-size: 14.4331px;
+  line-height: 20px;
+  color: #212121;
+  margin-bottom: 9px;
+}
+
+.time-period {
+  font-family: Poppins;
+  font-weight: 400;
+  font-size: 12.2126px;
+  line-height: 18px;
+  color: #212121;
 }
