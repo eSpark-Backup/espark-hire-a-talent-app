@@ -1881,6 +1881,273 @@
     background-repeat: no-repeat;
     background-size: cover;
   }
+
+  /* Start CV Responsive Css */
+
+  .cv-area {
+    width: 90%;
+    margin: 18px auto;
+  }
+
+  .cv-banner {
+    padding: 6px 0px;
+    margin-bottom: 20px;
+  }
+
+  .cv-banner-area {
+    display: block;
+    text-align: center;
+  }
+
+  .banner-image {
+    width: 187.83px;
+    height: 187.83px;
+    margin: 0px auto 15px;
+  }
+
+  .employee-name {
+    font-size: 30px;
+    line-height: 26px;
+  }
+
+  .employee-post {
+    width: 145px;
+    margin: 15px auto 10px;
+  }
+
+  .employee-post span {
+    line-height: 27px;
+    font-size: 14px;
+  }
+
+  .emoployee-tag {
+    font-size: 12px;
+    line-height: 30px;
+  }
+
+  .hire-me {
+    padding: 10px 12px;
+    line-height: 14px;
+    font-size: 11px;
+    border-radius: 10.03px;
+    margin: 0px auto 15px;
+  }
+
+  .cv-card-area {
+    padding: 16px 12px;
+    margin: 0px auto 20px;
+  }
+
+  .divide {
+    display: block;
+  }
+
+  .aboutme,
+  .profile-detail {
+    margin-bottom: 10px;
+  }
+
+  .cv-heading {
+    font-size: 18px;
+    line-height: 18px;
+    text-align: center;
+  }
+
+  .cv-aboutme-area {
+    margin-bottom: 12px;
+  }
+
+  .aboutme-description {
+    width: 100%;
+    font-size: 12px;
+    line-height: 19px;
+  }
+
+  .profile-area {
+    margin-left: 0px;
+  }
+
+  .profile-details-area {
+    flex-wrap: wrap;
+  }
+
+  .experience {
+    margin-top: 0px;
+  }
+
+  .profile-detail-heading {
+    font-size: 11px;
+    line-height: 14px;
+    margin-bottom: 2px;
+  }
+
+  .profile-info {
+    margin-bottom: 0px;
+    font-weight: 400;
+    font-size: 10px;
+  }
+
+  .tag-list {
+    margin-top: 0px;
+  }
+
+  .image-badge {
+    padding-left: 5px;
+  }
+
+  .tags {
+    margin: 10px 8px 0px 0px;
+    font-size: 10px;
+    line-height: 16px;
+    padding: 4.5px 14px 4.5px 14px;
+  }
+
+  .tech-list {
+    margin-top: 9px;
+    display: block;
+  }
+
+  .tech-icon {
+    width: 55px;
+  }
+
+  .progress-visual-full {
+    margin: 6px 0px;
+    height: 14.15px !important;
+  }
+
+  .google-icon {
+    width: 75px;
+  }
+
+  .position-heading {
+    align-items: baseline;
+  }
+
+  .list-marker {
+    width: 20.6px;
+    height: 20.6px;
+  }
+
+  .list-marker-inner {
+    width: 10.32px;
+    height: 10.32px;
+  }
+
+  .work-position {
+    font-size: 16.7559px;
+    line-height: 16px;
+  }
+
+  .cv-pl {
+    padding-left: 35px;
+  }
+
+  .work-company {
+    font-size: 13px;
+    line-height: 14px;
+    margin: 5.87px 0px;
+  }
+
+  .progress-info-area {
+    margin-top: 10px;
+    flex-wrap: wrap;
+  }
+
+  .work-experience {
+    margin-top: 14px;
+  }
+
+  .experience-list {
+    margin: 0px 0px 10px 0px;
+    padding: 0px 0px 0px 52px;
+  }
+
+  .work-experience-info {
+    font-size: 11.4331px;
+    line-height: 18px;
+  }
+
+  .progress-info {
+    flex-basis: 50%;
+    margin-bottom: 15px;
+  }
+
+  .names {
+    font-size: 12px;
+    line-height: 20px;
+    margin-bottom: 10px;
+  }
+
+  .feedback-name {
+    font-size: 12px;
+    line-height: 20px;
+    margin-bottom: 10px;
+  }
+
+  .progress-info svg,
+  .progress-info svg path {
+    width: 83.75px;
+    height: 83.75px;
+  }
+
+  .progress-info text {
+    font-size: 23px;
+  }
+
+  .cv-feedback-area {
+    align-items: baseline;
+  }
+
+  .divider {
+    display: block;
+  }
+
+  .detail-wrapper {
+    margin-top: 16px;
+    margin-left: 6px;
+  }
+
+  .middle-border {
+    height: 143.48px;
+    margin-top: 26px;
+    display: none;
+  }
+
+  .certificate {
+    margin-top: 16px;
+  }
+
+  .hat-icon {
+    width: 39.51px;
+    height: 39.51px;
+  }
+
+  .hat-icon img {
+    width: 25px;
+  }
+
+  .education-detail {
+    margin-left: 12px;
+  }
+
+  .major {
+    font-size: 13.5433px;
+    line-height: 18px;
+  }
+
+  .institude-name {
+    margin-bottom: 5px;
+    font-size: 12px;
+    line-height: 16px;
+  }
+
+  .time-period {
+    font-size: 10.2126px;
+    line-height: 14px;
+  }
+
+  /* End CV Responsive Css */
 }
 
 /* Min width 576px to Max width 767px */
@@ -3446,6 +3713,226 @@
   .reliable-and-secure-content h2 {
     font-size: 40px;
   }
+
+  /* Start CV Responsive Css */
+
+  .cv-area {
+    width: 90%;
+    margin: 24px auto;
+  }
+
+  .cv-banner {
+    padding: 6px 0px;
+    margin-bottom: 26px;
+  }
+
+  .banner-image {
+    width: 217.83px;
+    height: 217.83px;
+    margin-right: 18px;
+  }
+
+  .employee-name {
+    font-size: 34px;
+    line-height: 28px;
+  }
+
+  .employee-post {
+    width: 160.9px;
+    margin-top: 12px;
+  }
+
+  .employee-post span {
+    line-height: 30px;
+    font-size: 15px;
+  }
+
+  .emoployee-tag {
+    font-size: 15px;
+    line-height: 30px;
+  }
+
+  .hire-me {
+    padding: 12px;
+    line-height: 14px;
+    font-size: 12px;
+    border-radius: 10.03px;
+  }
+
+  .cv-card-area {
+    padding: 20px 15px;
+    margin-bottom: 26px;
+  }
+
+  .aboutme,
+  .profile-detail {
+    margin-bottom: 10px;
+  }
+
+  .cv-heading {
+    font-size: 20px;
+    line-height: 23px;
+  }
+
+  .aboutme-description {
+    width: 320px;
+    font-size: 12px;
+    line-height: 19px;
+  }
+
+  .profile-area {
+    margin-left: 0px;
+  }
+
+  .profile-detail-heading {
+    font-size: 11px;
+    line-height: 14px;
+    margin-bottom: 2px;
+  }
+
+  .profile-info {
+    margin-bottom: 0px;
+    font-weight: 400;
+    font-size: 10px;
+  }
+
+  .tag-list {
+    margin-top: 0px;
+  }
+
+  .image-badge {
+    padding-left: 5px;
+  }
+
+  .tags {
+    margin: 10px 8px 0px 0px;
+    font-size: 10px;
+    line-height: 16px;
+    padding: 4.5px 14px 4.5px 14px;
+  }
+
+  .tech-list {
+    margin-top: 9px;
+  }
+
+  .tech-icon {
+    width: 65px;
+  }
+
+  .progress-visual-full {
+    margin: 7px 0px;
+    height: 15.15px !important;
+  }
+
+  .google-icon {
+    width: 85px;
+  }
+
+  .list-marker {
+    width: 22.6px;
+    height: 22.6px;
+  }
+
+  .list-marker-inner {
+    width: 12.32px;
+    height: 12.32px;
+  }
+
+  .work-position {
+    font-size: 18.7559px;
+    line-height: 18px;
+  }
+
+  .cv-pl {
+    padding-left: 35px;
+  }
+
+  .work-company {
+    font-size: 13.7638px;
+    line-height: 14px;
+    margin: 5.87px 0px;
+  }
+
+  .progress-info-area {
+    margin-top: 6px;
+  }
+
+  .work-experience {
+    margin-top: 14px;
+  }
+
+  .experience-list {
+    margin: 0px 0px 16px 0px;
+    padding: 0px 0px 0px 62px;
+  }
+
+  .work-experience-info {
+    font-size: 13.4331px;
+    line-height: 24px;
+  }
+
+  .names {
+    font-size: 13px;
+    line-height: 22px;
+    margin-bottom: 10px;
+  }
+
+  .feedback-name {
+    font-size: 14px;
+    line-height: 26px;
+    margin-bottom: 12px;
+  }
+
+  .progress-info svg,
+  .progress-info svg path {
+    width: 83.75px;
+    height: 83.75px;
+  }
+
+  .progress-info text {
+    font-size: 23px;
+  }
+
+  .detail-wrapper {
+    margin-top: 16px;
+    margin-left: 6px;
+  }
+
+  .middle-border {
+    height: 143.48px;
+    margin-top: 26px;
+  }
+
+  .hat-icon {
+    width: 39.51px;
+    height: 39.51px;
+  }
+
+  .hat-icon img {
+    width: 25px;
+  }
+
+  .education-detail {
+    margin-left: 12px;
+  }
+
+  .major {
+    font-size: 13.5433px;
+    line-height: 18px;
+  }
+
+  .institude-name {
+    margin-bottom: 5px;
+    font-size: 12px;
+    line-height: 16px;
+  }
+
+  .time-period {
+    font-size: 10.2126px;
+    line-height: 14px;
+  }
+
+  /* End CV Responsive Css */
 }
 
 /* Min width 992px to Max width 1199px */
@@ -4163,6 +4650,217 @@
   .home-image img {
     height: 410px;
   }
+
+  /* Start CV Responsive Css */
+
+  .cv-area {
+    width: 85%;
+    margin: 28px auto;
+  }
+
+  .cv-banner {
+    padding: 12px 0px;
+    margin-bottom: 30px;
+  }
+
+  .banner-image {
+    width: 247.83px;
+    height: 247.83px;
+    margin-right: 22px;
+  }
+
+  .employee-name {
+    font-size: 38px;
+    line-height: 30px;
+  }
+
+  .employee-post {
+    width: 170.9px;
+    margin-top: 14px;
+  }
+
+  .employee-post span {
+    line-height: 34px;
+    font-size: 17px;
+  }
+
+  .emoployee-tag {
+    font-size: 16px;
+    line-height: 34px;
+  }
+
+  .hire-me {
+    padding: 12px;
+    line-height: 14px;
+    font-size: 12px;
+  }
+
+  .cv-card-area {
+    padding: 25px;
+    margin-bottom: 30px;
+  }
+
+  .aboutme,
+  .profile-detail {
+    margin-bottom: 12px;
+  }
+
+  .cv-heading {
+    font-size: 22px;
+    line-height: 26px;
+  }
+
+  .aboutme-description {
+    width: 380px;
+    font-size: 12.3228px;
+  }
+
+  .profile-area {
+    margin-left: 0px;
+  }
+
+  .profile-detail-heading {
+    font-size: 14.7638px;
+    line-height: 16px;
+    margin-bottom: 4px;
+  }
+
+  .profile-info {
+    margin-bottom: 0px;
+    font-weight: 400;
+    font-size: 12.4331px;
+  }
+
+  .tag-list {
+    margin-top: 0px;
+  }
+
+  .image-badge {
+    padding-left: 5px;
+  }
+
+  .tags {
+    margin: 12px 10px 0px 0px;
+  }
+
+  .tech-icon {
+    width: 80px;
+  }
+
+  .progress-visual-full {
+    margin: 7px 0px;
+    height: 17.15px !important;
+  }
+
+  .google-icon {
+    width: 100px;
+  }
+
+  .list-marker {
+    width: 24.6px;
+    height: 24.6px;
+  }
+
+  .list-marker-inner {
+    width: 14.32px;
+    height: 14.32px;
+  }
+
+  .work-position {
+    font-size: 19.7559px;
+    line-height: 20px;
+  }
+
+  .cv-pl {
+    padding-left: 40px;
+  }
+
+  .work-company {
+    font-size: 14.7638px;
+    line-height: 14px;
+    margin: 5.87px 0px;
+  }
+
+  .progress-info-area {
+    margin-top: 11px;
+  }
+
+  .work-experience {
+    margin-top: 21px;
+  }
+
+  .experience-list {
+    margin: 0px 0px 16px 0px;
+    padding: 0px 0px 0px 62px;
+  }
+
+  .work-experience-info {
+    font-size: 13.4331px;
+    line-height: 24px;
+  }
+
+  .names {
+    font-size: 14px;
+    line-height: 26px;
+    margin-bottom: 12px;
+  }
+
+  .feedback-name {
+    font-size: 14px;
+    line-height: 26px;
+    margin-bottom: 12px;
+  }
+
+  .progress-info svg,
+  .progress-info svg path {
+    width: 93.75px;
+    height: 93.75px;
+  }
+
+  .progress-info text {
+    font-size: 25px;
+  }
+
+  .detail-wrapper {
+    margin-top: 20px;
+    margin-left: 8px;
+  }
+
+  .middle-border {
+    height: 163.48px;
+    margin-top: 26px;
+  }
+
+  .hat-icon {
+    width: 42.51px;
+    height: 42.51px;
+  }
+
+  .hat-icon img {
+    width: 30px;
+  }
+
+  .education-detail {
+    margin-left: 12px;
+  }
+
+  .major {
+    font-size: 14.5433px;
+    line-height: 20px;
+  }
+
+  .institude-name {
+    margin-bottom: 5px;
+    font-size: 13.4331px;
+    line-height: 18px;
+  }
+
+  .time-period {
+    font-size: 12.2126px;
+    line-height: 16px;
+  }
+
+  /* End CV Responsive Css */
 }
 
 /* Min width 1200px to Max width 1355px */
@@ -4507,6 +5205,185 @@
     /* max-width: 640px; */
     height: 472px;
   }
+
+  /* Start CV Responsive Css */
+
+  .cv-area {
+    width: 75%;
+    margin: 42px auto;
+  }
+
+  .cv-banner {
+    padding: 16px 0px;
+    margin-bottom: 34px;
+  }
+
+  .banner-image {
+    width: 277.83px;
+    height: 277.83px;
+    margin-right: 26px;
+  }
+
+  .employee-name {
+    font-size: 44px;
+    line-height: 32px;
+  }
+
+  .employee-post {
+    width: 180.9px;
+    margin-top: 16px;
+  }
+
+  .employee-post span {
+    line-height: 38px;
+    font-size: 18px;
+  }
+
+  .emoployee-tag {
+    font-size: 18px;
+    line-height: 34px;
+  }
+
+  .hire-me {
+    padding: 13px;
+    line-height: 16px;
+  }
+
+  .employee-post span {
+    line-height: 42px;
+  }
+
+  .cv-card-area {
+    padding: 30px;
+    margin-bottom: 32px;
+  }
+
+  .aboutme,
+  .profile-detail {
+    margin-bottom: 15px;
+  }
+
+  .cv-heading {
+    font-size: 27px;
+    line-height: 30px;
+  }
+
+  .aboutme-description {
+    width: 400px;
+  }
+
+  .profile-area {
+    margin-left: 8px;
+  }
+
+  .profile-detail-heading {
+    font-size: 15.7638px;
+    line-height: 18px;
+  }
+
+  .image-badge {
+    padding-left: 8px;
+  }
+
+  .tags {
+    margin: 16px 10px 0px 0px;
+  }
+
+  .tech-icon {
+    width: 100px;
+  }
+
+  .progress-visual-full {
+    margin: 9px 0px;
+    height: 17.15px !important;
+  }
+
+  .google-icon {
+    width: 120px;
+  }
+
+  .list-marker {
+    width: 26.6px;
+    height: 26.6px;
+  }
+
+  .list-marker-inner {
+    width: 16.32px;
+    height: 16.32px;
+  }
+
+  .work-position {
+    font-size: 23.7559px;
+    line-height: 20px;
+  }
+
+  .cv-pl {
+    padding-left: 45px;
+  }
+
+  .work-company {
+    font-size: 16.7638px;
+    line-height: 16px;
+    margin: 9.87px 0px;
+  }
+
+  .progress-info-area {
+    margin-top: 21px;
+  }
+
+  .work-experience {
+    margin-top: 21px;
+  }
+
+  .experience-list {
+    margin: 0px 0px 22px 0px;
+  }
+
+  .names {
+    font-size: 16px;
+    line-height: 30px;
+    margin-bottom: 15px;
+  }
+
+  .feedback-name {
+    font-size: 16px;
+    line-height: 30px;
+    margin-bottom: 15px;
+  }
+
+  .progress-info svg,
+  .progress-info svg path {
+    width: 107.75px;
+    height: 107.75px;
+  }
+
+  .progress-info text {
+    font-size: 25px;
+  }
+
+  .detail-wrapper {
+    margin-top: 22px;
+    margin-left: 12px;
+  }
+
+  .middle-border {
+    height: 193.48px;
+  }
+
+  .hat-icon {
+    width: 52.51px;
+    height: 52.51px;
+  }
+
+  .education-detail {
+    margin-left: 14px;
+  }
+
+  .institude-name {
+    margin-bottom: 5px;
+  }
+
+  /* End CV Responsive Css */
 }
 @media only screen and (min-width: 1356px) and (max-width: 1399px) {
   .single-blog-post .image .date {
@@ -4688,6 +5565,171 @@
     /* max-width: 640px; */
     height: 472px;
   }
+
+  /* Start CV Responsive Css */
+  .cv-area {
+    width: 70%;
+    margin: 45px auto;
+  }
+
+  .cv-banner {
+    padding: 20px 0px;
+    margin-bottom: 38px;
+  }
+
+  .banner-image {
+    width: 307.83px;
+    height: 307.83px;
+    margin-right: 30px;
+  }
+
+  .employee-name {
+    font-size: 46px;
+    line-height: 36px;
+  }
+
+  .employee-post {
+    width: 200.9px;
+    margin-top: 18px;
+  }
+
+  .emoployee-tag {
+    font-size: 18px;
+    line-height: 40px;
+  }
+
+  .hire-me {
+    padding: 14px;
+  }
+
+  .employee-post span {
+    line-height: 42px;
+  }
+
+  .cv-card-area {
+    padding: 30px 30px;
+    margin-bottom: 32px;
+  }
+
+  .aboutme,
+  .profile-detail {
+    margin-bottom: 20px;
+  }
+
+  .cv-heading {
+    font-size: 28px;
+    line-height: 30px;
+  }
+
+  .aboutme-description {
+    width: 400px;
+  }
+
+  .profile-area {
+    margin-left: 8px;
+  }
+
+  .profile-detail-heading {
+    font-size: 16.7638px;
+    line-height: 20px;
+  }
+
+  .image-badge {
+    padding-left: 8px;
+  }
+
+  .tags {
+    margin: 20px 10px 0px 0px;
+  }
+
+  .tech-icon {
+    width: 100px;
+  }
+
+  .progress-visual-full {
+    margin: 10px 0px;
+  }
+
+  .google-icon {
+    width: 120px;
+  }
+
+  .list-marker {
+    width: 26.6px;
+    height: 26.6px;
+  }
+
+  .list-marker-inner {
+    width: 16.32px;
+    height: 16.32px;
+  }
+
+  .work-position {
+    font-size: 24.7559px;
+    line-height: 20px;
+  }
+
+  .cv-pl {
+    padding-left: 45px;
+  }
+
+  .progress-info-area {
+    margin-top: 21px;
+  }
+
+  .work-experience {
+    margin-top: 26px;
+  }
+
+  .experience-list {
+    margin: 0px 0px 30px 0px;
+  }
+
+  .names {
+    font-size: 17px;
+    line-height: 32px;
+    margin-bottom: 16px;
+  }
+
+  .feedback-name {
+    font-size: 17px;
+    line-height: 32px;
+    margin-bottom: 15px;
+  }
+
+  .progress-info svg,
+  .progress-info svg path {
+    width: 117.75px;
+    height: 117.75px;
+  }
+
+  .progress-info text {
+    font-size: 25px;
+  }
+
+  .detail-wrapper {
+    margin-top: 22px;
+    margin-left: 16px;
+  }
+
+  .middle-border {
+    height: 213.48px;
+  }
+
+  .hat-icon {
+    width: 52.51px;
+    height: 52.51px;
+  }
+
+  .education-detail {
+    margin-left: 16px;
+  }
+
+  .institude-name {
+    margin-bottom: 5px;
+  }
+
+  /* End CV Responsive Css */
 }
 
 @media only screen and (min-width: 1400px) and (max-width: 1549px) {
@@ -4842,6 +5884,139 @@
     font-weight: 700;
     line-height: 43.2px; /* 180% */
   }
+
+  /* Start CV Responsive Css */
+  .cv-area {
+    width: 65%;
+  }
+
+  .cv-banner {
+    padding: 30px 0px;
+    margin-bottom: 44px;
+  }
+
+  .banner-image {
+    width: 357.83px;
+    height: 357.83px;
+    margin-right: 34px;
+  }
+
+  .employee-name {
+    font-size: 50px;
+    line-height: 42px;
+  }
+
+  .employee-post {
+    width: 219.9px;
+  }
+
+  .employee-post span {
+    line-height: 42px;
+  }
+
+  .cv-card-area {
+    padding: 40px 35px;
+    margin-bottom: 40px;
+  }
+
+  .aboutme,
+  .profile-detail {
+    margin-bottom: 20px;
+  }
+
+  .cv-heading {
+    font-size: 30px;
+    line-height: 35px;
+  }
+
+  .aboutme-description {
+    width: 400px;
+  }
+
+  .profile-area {
+    margin-left: 8px;
+  }
+
+  .profile-detail-heading {
+    font-size: 16.7638px;
+    line-height: 20px;
+  }
+
+  .image-badge {
+    padding-left: 8px;
+  }
+
+  .tags {
+    margin: 20px 10px 0px 0px;
+  }
+
+  .tech-icon {
+    width: 100px;
+  }
+
+  .google-icon {
+    width: 120px;
+  }
+
+  .list-marker {
+    width: 26.6px;
+    height: 26.6px;
+  }
+
+  .list-marker-inner {
+    width: 16.32px;
+    height: 16.32px;
+  }
+
+  .work-position {
+    font-size: 26.7559px;
+  }
+
+  .work-experience {
+    margin-top: 26px;
+  }
+
+  .experience-list {
+    margin: 0px 0px 30px 0px;
+  }
+
+  .names {
+    font-size: 17px;
+    line-height: 32px;
+    margin-bottom: 20px;
+  }
+
+  .feedback-name {
+    font-size: 17px;
+    line-height: 32px;
+    margin-bottom: 20px;
+  }
+
+  .progress-info svg,
+  .progress-info svg path {
+    width: 127.75px;
+    height: 127.75px;
+  }
+
+  .detail-wrapper {
+    margin-top: 26px;
+    margin-left: 20px;
+  }
+
+  .hat-icon {
+    width: 54.51px;
+    height: 54.51px;
+  }
+
+  .education-detail {
+    margin-left: 17px;
+  }
+
+  .institude-name {
+    margin-bottom: 7px;
+  }
+
+  /* End CV Responsive Css */
 }
 
 /* Min width 1550px */
@@ -4905,7 +6080,7 @@
     right: 0;
     bottom: -1px;
     z-index: 2;
-    content: '';
+    content: "";
     height: 96px;
     position: absolute;
     background-image: url(/images/shape/waves.png);
@@ -5073,6 +6248,12 @@
     line-height: 43.2px; /* 180% */
   }
   /* End "Cybersecurity Demo Responsive, Cryptocurrency Demo Responsive & ICO Landing Demo Responsive" */
+
+  /* Start CV Page Responsive */
+  .cv-area {
+    width: 65%;
+    margin: 50px auto;
+  }
 }
 
 @media only screen and (min-width: 1920px) {
@@ -5247,6 +6428,11 @@
     width: 450px;
     line-height: 32px;
   }
+
+  /* .cv-area {
+    width: 60%;
+    margin: 55px auto;
+  } */
 }
 
 @media screen and (max-width: 374px) {
@@ -5496,6 +6682,19 @@
     width: auto;
     font-size: 20px;
   }
+
+  .progress-info-area-small {
+    display: block;
+  }
+
+  .progress-info-area-small .progress-info {
+    margin-bottom: 12px;
+  }
+
+  .progress-info-area-small .names,
+  .progress-info-area-small .feedback-name {
+    margin-bottom: 5px;
+  }
 }
 @media screen and (min-width: 375px) and (max-width: 575px) {
   .with-space {
@@ -5729,6 +6928,19 @@
   .Hiring-text h1 {
     width: auto;
     font-size: 25px;
+  }
+
+  .progress-info-area-small {
+    display: block;
+  }
+
+  .progress-info-area-small .progress-info {
+    margin-bottom: 12px;
+  }
+
+  .progress-info-area-small .names,
+  .progress-info-area-small .feedback-name {
+    margin-bottom: 5px;
   }
 }
 /* @media screen and (max-width: 490px){
