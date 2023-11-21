@@ -1,48 +1,57 @@
-import React, { useEffect } from "react";
+import React from "react";
 
-import Detail from "@/components/Cv/Detail";
-import TechTools from "@/components/Cv/TechTools";
-import WorkExperience from "@/components/Cv/WorkExperience";
-import Expertise from "@/components/Cv/Expertise";
-import Tools from "@/components/Cv/Tool";
-import Feedback from "@/components/Cv/Feedback";
-import EducationCertificate from "@/components/Cv/EducationCertificate";
-import Banner from "@/components/Cv/Banner";
+import { useRouter } from "next/router";
 
 import { cvData } from "constants/cvsConstants";
 
 export default function CV() {
-  useEffect(() => {
-    let header = document.querySelector("header");
-    let footer = document.querySelector("footer");
+  const router = useRouter();
 
-    header.style.display = "none";
-    footer.style.display = "none";
-  });
+  const handleClick = (id) => {
+    router.push(`/cvs/${id}`);
+  };
 
   return (
-    <div className="cv-area">
-      <Banner banner={cvData[0].banner} />
-
-      <Detail
-        para={cvData[0].aboutMe}
-        profileDetail={cvData[0].profileDetail}
-      />
-
-      <TechTools tools={cvData[0].techTools} />
-
-      <WorkExperience experience={cvData[0].workExperience} />
-
-      <Expertise expertise={cvData[0].expertise} />
-
-      <Tools tools={cvData[0].tools} />
-
-      <EducationCertificate
-        education={cvData[0].education}
-        certification={cvData[0].certification}
-      />
-
-      <Feedback feedbacks={cvData[0].feedback} />
+    <div className="container cv-main-area">
+      <div className="row">
+        {cvData.map((cv, index) => (
+          <div className="col-lg-4 col-md-6 col-sm-12 col">
+            <GridView
+              banner={cv.banner}
+              key={index}
+              handleClick={handleClick}
+              cvId={cv.id}
+            />
+          </div>
+        ))}
+      </div>
     </div>
   );
 }
+
+const GridView = (props) => {
+  const { index, banner, handleClick, cvId } = props;
+
+  return (
+    <div key={index} className="cv-banner cv-grid">
+      <div className="cv-banner-area cv-grid-banner-area">
+        <div className="banner-image grid-banner-image">
+          <img src={banner.image} />
+        </div>
+
+        <div className="banner-details">
+          <h1 className="employee-name grid-employee-name">{banner.name}</h1>
+          <div className="employee-post grid-employee-post">
+            <span>{banner.post}</span>
+          </div>
+          <h6 className="emoployee-tag grid-emoployee-tag">{banner.tag}</h6>
+
+          <button className="hire-me grid-hire">Hire {banner.hireMe}</button>
+          <button className="cv-view-more" onClick={() => handleClick(cvId)}>
+            view more
+          </button>
+        </div>
+      </div>
+    </div>
+  );
+};
