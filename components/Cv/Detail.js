@@ -3,7 +3,7 @@ import React from "react";
 import CvCard from "./CvCard";
 
 const Detail = (props) => {
-  const { description, profileDetail } = props;
+  const { para, profileDetail } = props;
   const { expertise, englishLevel, experienceYear, tags, icon } = profileDetail;
 
   return (
@@ -13,7 +13,7 @@ const Detail = (props) => {
         <div className="cv-aboutme-area">
           <h1 className="cv-heading aboutme">About me</h1>
           <div>
-            <p className="aboutme-description">{description}</p>
+            <p className="aboutme-description">{para?.description}</p>
           </div>
         </div>
 
@@ -26,14 +26,12 @@ const Detail = (props) => {
             <div className="profile-details-area">
               <div className="expertise">
                 <h4 className="profile-detail-heading">Expertise</h4>
-                {expertise.map((exp, index) => (
-                  <div key={index} className="with-icon">
-                    <p className="profile-info">{exp}</p>
-                    <div className="image-badge">
-                      <img src={icon} alt="" />
-                    </div>
+                <div className="with-icon">
+                  <p className="profile-info">{expertise}</p>
+                  <div className="image-badge">
+                    <img src={icon} alt="" />
                   </div>
-                ))}
+                </div>
               </div>
 
               <div className="english-level">

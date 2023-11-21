@@ -22,7 +22,7 @@ const WorkExperience = ({ experience }) => {
             <ul className="experience-list">
               {exp.workDescription.map((desc, index) => (
                 <li key={index} className="work-experience-info">
-                  {desc}
+                  {desc}.
                 </li>
               ))}
             </ul>
