@@ -1892,6 +1892,8 @@
   .cv-banner {
     padding: 6px 0px;
     margin-bottom: 20px;
+    background-repeat: no-repeat;
+    /* background-position: center; */
   }
 
   .cv-banner-area {
@@ -1900,8 +1902,8 @@
   }
 
   .banner-image {
-    width: 187.83px;
-    height: 187.83px;
+    width: 187px;
+    height: 187px;
     margin: 0px auto 15px;
   }
 
@@ -1911,7 +1913,6 @@
   }
 
   .employee-post {
-    width: 145px;
     margin: 15px auto 10px;
   }
 
@@ -1929,7 +1930,7 @@
     padding: 10px 12px;
     line-height: 14px;
     font-size: 11px;
-    border-radius: 10.03px;
+    border-radius: 10px;
     margin: 0px auto 15px;
   }
 
@@ -1961,6 +1962,7 @@
     width: 100%;
     font-size: 12px;
     line-height: 19px;
+    margin-bottom: 6px;
   }
 
   .profile-area {
@@ -2011,9 +2013,16 @@
     width: 55px;
   }
 
+  .tech-names {
+    font-size: 14px;
+    line-height: 16px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+  }
+
   .progress-visual-full {
     margin: 6px 0px;
-    height: 14.15px !important;
+    height: 14px !important;
   }
 
   .google-icon {
@@ -2025,17 +2034,17 @@
   }
 
   .list-marker {
-    width: 20.6px;
-    height: 20.6px;
+    width: 20px;
+    height: 20px;
   }
 
   .list-marker-inner {
-    width: 10.32px;
-    height: 10.32px;
+    width: 10px;
+    height: 10px;
   }
 
   .work-position {
-    font-size: 16.7559px;
+    font-size: 16px;
     line-height: 16px;
   }
 
@@ -2046,7 +2055,7 @@
   .work-company {
     font-size: 13px;
     line-height: 14px;
-    margin: 5.87px 0px;
+    margin: 5px 0px;
   }
 
   .progress-info-area {
@@ -2064,7 +2073,7 @@
   }
 
   .work-experience-info {
-    font-size: 11.4331px;
+    font-size: 11px;
     line-height: 18px;
   }
 
@@ -2087,8 +2096,8 @@
 
   .progress-info svg,
   .progress-info svg path {
-    width: 83.75px;
-    height: 83.75px;
+    width: 83px;
+    height: 83px;
   }
 
   .progress-info text {
@@ -2109,7 +2118,7 @@
   }
 
   .middle-border {
-    height: 143.48px;
+    height: 143px;
     margin-top: 26px;
     display: none;
   }
@@ -2119,8 +2128,8 @@
   }
 
   .hat-icon {
-    width: 39.51px;
-    height: 39.51px;
+    width: 39px;
+    height: 39px;
   }
 
   .hat-icon img {
@@ -2132,7 +2141,7 @@
   }
 
   .major {
-    font-size: 13.5433px;
+    font-size: 13px;
     line-height: 18px;
   }
 
@@ -2143,7 +2152,7 @@
   }
 
   .time-period {
-    font-size: 10.2126px;
+    font-size: 10px;
     line-height: 14px;
   }
 
@@ -3727,8 +3736,8 @@
   }
 
   .banner-image {
-    width: 217.83px;
-    height: 217.83px;
+    width: 217px;
+    height: 217px;
     margin-right: 18px;
   }
 
@@ -3738,7 +3747,6 @@
   }
 
   .employee-post {
-    width: 160.9px;
     margin-top: 12px;
   }
 
@@ -3808,7 +3816,7 @@
     margin: 10px 8px 0px 0px;
     font-size: 10px;
     line-height: 16px;
-    padding: 4.5px 14px 4.5px 14px;
+    padding: 4px 14px 4px 14px;
   }
 
   .tech-list {
@@ -3819,9 +3827,16 @@
     width: 65px;
   }
 
+  .tech-names {
+    font-size: 17px;
+    line-height: 18px;
+    margin-bottom: 5px;
+    margin-top: 2px;
+  }
+
   .progress-visual-full {
     margin: 7px 0px;
-    height: 15.15px !important;
+    height: 15px !important;
   }
 
   .google-icon {
@@ -3829,17 +3844,17 @@
   }
 
   .list-marker {
-    width: 22.6px;
-    height: 22.6px;
+    width: 22px;
+    height: 22px;
   }
 
   .list-marker-inner {
-    width: 12.32px;
-    height: 12.32px;
+    width: 12px;
+    height: 12px;
   }
 
   .work-position {
-    font-size: 18.7559px;
+    font-size: 18px;
     line-height: 18px;
   }
 
@@ -3848,9 +3863,9 @@
   }
 
   .work-company {
-    font-size: 13.7638px;
+    font-size: 13px;
     line-height: 14px;
-    margin: 5.87px 0px;
+    margin: 5px 0px;
   }
 
   .progress-info-area {
@@ -3867,7 +3882,7 @@
   }
 
   .work-experience-info {
-    font-size: 13.4331px;
+    font-size: 13px;
     line-height: 24px;
   }
 
@@ -3885,8 +3900,8 @@
 
   .progress-info svg,
   .progress-info svg path {
-    width: 83.75px;
-    height: 83.75px;
+    width: 83px;
+    height: 83px;
   }
 
   .progress-info text {
@@ -3899,13 +3914,13 @@
   }
 
   .middle-border {
-    height: 143.48px;
+    height: 143px;
     margin-top: 26px;
   }
 
   .hat-icon {
-    width: 39.51px;
-    height: 39.51px;
+    width: 39px;
+    height: 39px;
   }
 
   .hat-icon img {
@@ -3917,7 +3932,7 @@
   }
 
   .major {
-    font-size: 13.5433px;
+    font-size: 13px;
     line-height: 18px;
   }
 
@@ -3928,7 +3943,7 @@
   }
 
   .time-period {
-    font-size: 10.2126px;
+    font-size: 10px;
     line-height: 14px;
   }
 
@@ -4664,8 +4679,8 @@
   }
 
   .banner-image {
-    width: 247.83px;
-    height: 247.83px;
+    width: 247px;
+    height: 247px;
     margin-right: 22px;
   }
 
@@ -4675,7 +4690,6 @@
   }
 
   .employee-post {
-    width: 170.9px;
     margin-top: 14px;
   }
 
@@ -4712,7 +4726,7 @@
 
   .aboutme-description {
     width: 380px;
-    font-size: 12.3228px;
+    font-size: 12px;
   }
 
   .profile-area {
@@ -4720,7 +4734,7 @@
   }
 
   .profile-detail-heading {
-    font-size: 14.7638px;
+    font-size: 14px;
     line-height: 16px;
     margin-bottom: 4px;
   }
@@ -4728,7 +4742,7 @@
   .profile-info {
     margin-bottom: 0px;
     font-weight: 400;
-    font-size: 12.4331px;
+    font-size: 12px;
   }
 
   .tag-list {
@@ -4747,9 +4761,16 @@
     width: 80px;
   }
 
+  .tech-names {
+    font-size: 17px;
+    line-height: 18px;
+    margin-bottom: 5px;
+    margin-top: 2px;
+  }
+
   .progress-visual-full {
     margin: 7px 0px;
-    height: 17.15px !important;
+    height: 17px !important;
   }
 
   .google-icon {
@@ -4757,17 +4778,17 @@
   }
 
   .list-marker {
-    width: 24.6px;
-    height: 24.6px;
+    width: 24px;
+    height: 24px;
   }
 
   .list-marker-inner {
-    width: 14.32px;
-    height: 14.32px;
+    width: 14px;
+    height: 14px;
   }
 
   .work-position {
-    font-size: 19.7559px;
+    font-size: 19px;
     line-height: 20px;
   }
 
@@ -4776,9 +4797,9 @@
   }
 
   .work-company {
-    font-size: 14.7638px;
+    font-size: 14px;
     line-height: 14px;
-    margin: 5.87px 0px;
+    margin: 5px 0px;
   }
 
   .progress-info-area {
@@ -4795,7 +4816,7 @@
   }
 
   .work-experience-info {
-    font-size: 13.4331px;
+    font-size: 13px;
     line-height: 24px;
   }
 
@@ -4813,8 +4834,8 @@
 
   .progress-info svg,
   .progress-info svg path {
-    width: 93.75px;
-    height: 93.75px;
+    width: 93px;
+    height: 93px;
   }
 
   .progress-info text {
@@ -4827,13 +4848,13 @@
   }
 
   .middle-border {
-    height: 163.48px;
+    height: 163px;
     margin-top: 26px;
   }
 
   .hat-icon {
-    width: 42.51px;
-    height: 42.51px;
+    width: 42px;
+    height: 42px;
   }
 
   .hat-icon img {
@@ -4845,18 +4866,18 @@
   }
 
   .major {
-    font-size: 14.5433px;
+    font-size: 14px;
     line-height: 20px;
   }
 
   .institude-name {
     margin-bottom: 5px;
-    font-size: 13.4331px;
+    font-size: 13px;
     line-height: 18px;
   }
 
   .time-period {
-    font-size: 12.2126px;
+    font-size: 12px;
     line-height: 16px;
   }
 
@@ -5219,8 +5240,8 @@
   }
 
   .banner-image {
-    width: 277.83px;
-    height: 277.83px;
+    width: 277px;
+    height: 277px;
     margin-right: 26px;
   }
 
@@ -5230,13 +5251,12 @@
   }
 
   .employee-post {
-    width: 180.9px;
     margin-top: 16px;
   }
 
   .employee-post span {
     line-height: 38px;
-    font-size: 18px;
+    font-size: 17px;
   }
 
   .emoployee-tag {
@@ -5247,10 +5267,6 @@
   .hire-me {
     padding: 13px;
     line-height: 16px;
-  }
-
-  .employee-post span {
-    line-height: 42px;
   }
 
   .cv-card-area {
@@ -5277,7 +5293,7 @@
   }
 
   .profile-detail-heading {
-    font-size: 15.7638px;
+    font-size: 15px;
     line-height: 18px;
   }
 
@@ -5293,9 +5309,16 @@
     width: 100px;
   }
 
+  .tech-names {
+    font-size: 19px;
+    line-height: 20px;
+    margin-bottom: 8px;
+    margin-top: 2px;
+  }
+
   .progress-visual-full {
     margin: 9px 0px;
-    height: 17.15px !important;
+    height: 17px !important;
   }
 
   .google-icon {
@@ -5303,17 +5326,17 @@
   }
 
   .list-marker {
-    width: 26.6px;
-    height: 26.6px;
+    width: 26px;
+    height: 26px;
   }
 
   .list-marker-inner {
-    width: 16.32px;
-    height: 16.32px;
+    width: 16px;
+    height: 16px;
   }
 
   .work-position {
-    font-size: 23.7559px;
+    font-size: 23px;
     line-height: 20px;
   }
 
@@ -5322,9 +5345,9 @@
   }
 
   .work-company {
-    font-size: 16.7638px;
+    font-size: 16px;
     line-height: 16px;
-    margin: 9.87px 0px;
+    margin: 9px 0px;
   }
 
   .progress-info-area {
@@ -5353,8 +5376,8 @@
 
   .progress-info svg,
   .progress-info svg path {
-    width: 107.75px;
-    height: 107.75px;
+    width: 107px;
+    height: 107px;
   }
 
   .progress-info text {
@@ -5367,12 +5390,12 @@
   }
 
   .middle-border {
-    height: 193.48px;
+    height: 193px;
   }
 
   .hat-icon {
-    width: 52.51px;
-    height: 52.51px;
+    width: 52px;
+    height: 52px;
   }
 
   .education-detail {
@@ -5567,6 +5590,7 @@
   }
 
   /* Start CV Responsive Css */
+
   .cv-area {
     width: 70%;
     margin: 45px auto;
@@ -5578,8 +5602,8 @@
   }
 
   .banner-image {
-    width: 307.83px;
-    height: 307.83px;
+    width: 307px;
+    height: 307px;
     margin-right: 30px;
   }
 
@@ -5589,7 +5613,6 @@
   }
 
   .employee-post {
-    width: 200.9px;
     margin-top: 18px;
   }
 
@@ -5604,6 +5627,7 @@
 
   .employee-post span {
     line-height: 42px;
+    font-size: 19px;
   }
 
   .cv-card-area {
@@ -5630,7 +5654,7 @@
   }
 
   .profile-detail-heading {
-    font-size: 16.7638px;
+    font-size: 16px;
     line-height: 20px;
   }
 
@@ -5646,6 +5670,13 @@
     width: 100px;
   }
 
+  .tech-names {
+    font-size: 20px;
+    line-height: 20px;
+    margin-bottom: 8px;
+    margin-top: 2px;
+  }
+
   .progress-visual-full {
     margin: 10px 0px;
   }
@@ -5655,17 +5686,17 @@
   }
 
   .list-marker {
-    width: 26.6px;
-    height: 26.6px;
+    width: 26px;
+    height: 26px;
   }
 
   .list-marker-inner {
-    width: 16.32px;
-    height: 16.32px;
+    width: 16px;
+    height: 16px;
   }
 
   .work-position {
-    font-size: 24.7559px;
+    font-size: 24px;
     line-height: 20px;
   }
 
@@ -5699,8 +5730,8 @@
 
   .progress-info svg,
   .progress-info svg path {
-    width: 117.75px;
-    height: 117.75px;
+    width: 117px;
+    height: 117px;
   }
 
   .progress-info text {
@@ -5713,12 +5744,12 @@
   }
 
   .middle-border {
-    height: 213.48px;
+    height: 213px;
   }
 
   .hat-icon {
-    width: 52.51px;
-    height: 52.51px;
+    width: 52px;
+    height: 52px;
   }
 
   .education-detail {
@@ -5886,6 +5917,7 @@
   }
 
   /* Start CV Responsive Css */
+
   .cv-area {
     width: 65%;
   }
@@ -5896,8 +5928,8 @@
   }
 
   .banner-image {
-    width: 357.83px;
-    height: 357.83px;
+    width: 357px;
+    height: 357px;
     margin-right: 34px;
   }
 
@@ -5906,12 +5938,9 @@
     line-height: 42px;
   }
 
-  .employee-post {
-    width: 219.9px;
-  }
-
   .employee-post span {
     line-height: 42px;
+    font-size: 19px;
   }
 
   .cv-card-area {
@@ -5938,7 +5967,7 @@
   }
 
   .profile-detail-heading {
-    font-size: 16.7638px;
+    font-size: 16px;
     line-height: 20px;
   }
 
@@ -5954,22 +5983,29 @@
     width: 100px;
   }
 
+  .tech-names {
+    font-size: 21px;
+    line-height: 20px;
+    margin-bottom: 11px;
+    margin-top: 5px;
+  }
+
   .google-icon {
     width: 120px;
   }
 
   .list-marker {
-    width: 26.6px;
-    height: 26.6px;
+    width: 26px;
+    height: 26px;
   }
 
   .list-marker-inner {
-    width: 16.32px;
-    height: 16.32px;
+    width: 16px;
+    height: 16px;
   }
 
   .work-position {
-    font-size: 26.7559px;
+    font-size: 26px;
   }
 
   .work-experience {
@@ -5994,8 +6030,8 @@
 
   .progress-info svg,
   .progress-info svg path {
-    width: 127.75px;
-    height: 127.75px;
+    width: 127px;
+    height: 127px;
   }
 
   .detail-wrapper {
@@ -6004,8 +6040,8 @@
   }
 
   .hat-icon {
-    width: 54.51px;
-    height: 54.51px;
+    width: 54px;
+    height: 54px;
   }
 
   .education-detail {
@@ -6428,11 +6464,6 @@
     width: 450px;
     line-height: 32px;
   }
-
-  /* .cv-area {
-    width: 60%;
-    margin: 55px auto;
-  } */
 }
 
 @media screen and (max-width: 374px) {
