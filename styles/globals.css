@@ -10777,6 +10777,14 @@ CV CSS
   margin-bottom: 48px;
 }
 
+.cv-main-area {
+  margin-top: 104px;
+}
+
+.cv-main-area .col {
+  margin-bottom: 48px;
+}
+
 .cv-banner {
   background: url("/images/cvs/background.png");
   background-repeat: round;
@@ -10786,10 +10794,23 @@ CV CSS
   padding: 46px 0px;
 }
 
+.cv-grid {
+  background: url("/images/cvs/background-portrait.png");
+  background-repeat: round;
+  background-size: cover;
+  margin-bottom: 40px;
+  padding: 10px 15px;
+  height: 95%;
+}
+
 .cv-banner-area {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+.cv-grid-banner-area {
+  display: block;
 }
 
 .banner-image {
@@ -10798,8 +10819,18 @@ CV CSS
   margin-right: 40px;
 }
 
+.grid-banner-image {
+  width: 217px;
+  height: 217px;
+  margin: 0px auto 12px;
+}
+
 .banner-image img {
   width: 100%;
+}
+
+.banner-details {
+  text-align: center;
 }
 
 .employee-name {
@@ -10811,6 +10842,10 @@ CV CSS
   color: #ffffff;
   text-shadow: 0px 3px 6px #000000;
   text-transform: uppercase;
+}
+
+.grid-employee-name {
+  font-size: 34px;
 }
 
 .employee-post {
@@ -10836,6 +10871,10 @@ CV CSS
   text-wrap: nowrap;
 }
 
+.grid-employee-post {
+  margin: 15px auto;
+}
+
 .emoployee-tag {
   font-family: Montserrat;
   font-weight: 600;
@@ -10847,7 +10886,13 @@ CV CSS
   text-transform: uppercase;
 }
 
-.hire-me {
+.grid-emoployee-tag {
+  font-size: 18px;
+  line-height: 35px;
+}
+
+.hire-me,
+.cv-view-more {
   background: #005677;
   box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.59);
   border-radius: 13px;
@@ -10856,11 +10901,37 @@ CV CSS
   font-weight: 700;
   font-size: 13px;
   line-height: 19px;
-  display: flex;
-  align-items: center;
-  text-align: center;
   color: #ffffff;
   padding: 15px;
+  display: block;
+}
+
+.grid-hire {
+  margin: 0px auto;
+  width: 162px;
+  text-align: center;
+}
+
+.cv-view-more {
+  /* background: linear-gradient(
+    to right,
+    #005677 0%,
+    #005677 50%,
+    #003b4d 50%,
+    #003b4d 100%
+  ); */
+  /* background-size: 200% 100%; */
+  transition: background-color 0.5s;
+  margin: 20px auto 0px;
+  width: 162px;
+  text-align: center;
+  text-transform: capitalize;
+  display: inline-block;
+}
+
+.cv-view-more:hover {
+  /* background-position: -100% 0; */
+  background-color: #065d79;
 }
 
 .divide {
