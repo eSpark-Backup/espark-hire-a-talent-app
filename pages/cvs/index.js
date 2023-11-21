@@ -22,31 +22,27 @@ export default function CV() {
 
   return (
     <div className="cv-area">
-      {cvData.map((cv, index) => (
-        <>
-          <Banner banner={cv.banner} />
+      <Banner banner={cvData[0].banner} />
 
-          <Detail
-            description={cv.aboutMe.description}
-            profileDetail={cv.profileDetail}
-          />
+      <Detail
+        para={cvData[0].aboutMe}
+        profileDetail={cvData[0].profileDetail}
+      />
 
-          <TechTools tools={cv.techTools} />
+      <TechTools tools={cvData[0].techTools} />
 
-          <WorkExperience experience={cv.workExperience} />
+      <WorkExperience experience={cvData[0].workExperience} />
 
-          <Expertise expertise={cv.expertise} />
+      <Expertise expertise={cvData[0].expertise} />
 
-          <Tools tools={cv.tools} />
+      <Tools tools={cvData[0].tools} />
 
-          <EducationCertificate
-            education={cv.education}
-            certification={cv.certification}
-          />
+      <EducationCertificate
+        education={cvData[0].education}
+        certification={cvData[0].certification}
+      />
 
-          <Feedback feedbacks={cv.feedback} />
-        </>
-      ))}
+      <Feedback feedbacks={cvData[0].feedback} />
     </div>
   );
 }
