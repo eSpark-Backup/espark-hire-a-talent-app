@@ -17,7 +17,7 @@ const Banner = (props) => {
           </div>
           <h6 className="emoployee-tag">{banner.tag}</h6>
 
-          <button className="hire-me">Hire Kashif Hussain</button>
+          <button className="hire-me">Hire {banner.hireMe}</button>
         </div>
       </div>
     </div>
