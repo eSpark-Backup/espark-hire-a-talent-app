@@ -1,6 +1,7 @@
 import React, { useEffect } from "react";
 
 import { useRouter } from "next/router";
+import { Inter } from "next/font/google";
 
 import Banner from "@/components/Cv/Banner";
 import Detail from "@/components/Cv/Detail";
@@ -13,7 +14,6 @@ import Feedback from "@/components/Cv/Feedback";
 
 import { cvData } from "constants/cvsConstants";
 
-import { Inter } from "next/font/google";
 const inter = Inter({
   weight: ["100", "200", "300", "400"],
   subsets: ["latin"],
@@ -30,7 +30,12 @@ const IndividualCV = () => {
 
     header.style.display = "none";
     footer.style.display = "none";
-  });
+
+    return () => {
+      header.style.display = "";
+      footer.style.display = "";
+    };
+  }, []);
 
   return (
     <div className={`cv-area ${inter.className}`}>
