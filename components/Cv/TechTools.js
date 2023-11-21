@@ -10,8 +10,9 @@ const TechTools = ({ tools }) => {
         {tools.map((tool, index) => (
           <ProgressLine
             key={index}
-            icon={tool.icon}
-            name={tool.techName}
+            icon={tool?.icon}
+            name={tool?.techName}
+            techName={tool?.name}
             visualParts={[
               {
                 percentage: `${tool.percentage}%`,
@@ -28,6 +29,7 @@ const TechTools = ({ tools }) => {
 const ProgressLine = ({
   icon,
   name,
+  techName,
   visualParts = [
     {
       percentage: "0%",
@@ -53,14 +55,19 @@ const ProgressLine = ({
 
   return (
     <div className="tool-progressbar">
-      <div
-        className={[
-          "tech-icon",
-          name === "google-analytics" ? "google-icon" : "",
-        ].join(" ")}
-      >
-        <img src={icon} alt={name} />
-      </div>
+      {icon ? (
+        <div
+          className={[
+            "tech-icon",
+            name === "google-analytics" ? "google-icon" : "",
+          ].join(" ")}
+        >
+          <img src={icon} alt={name} />
+        </div>
+      ) : (
+        <h3 className="tech-names">{techName}</h3>
+      )}
+
       <div
         className="progress-visual-full"
         style={{
