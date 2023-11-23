@@ -1,7 +1,22 @@
 import React, { useState, useEffect } from "react";
 import Link from "next/link";
+import Image from "next/image";
+import { createClient } from "next-sanity";
+import imageUrlBuilder from "@sanity/image-url";
 
-const BlogCard = ({ item }) => {
+const builder = imageUrlBuilder(
+  createClient({
+    projectId: "93d1bm1e",
+    dataset: "production",
+    useCdn: true,
+  })
+);
+
+function urlFor(source) {
+  return builder.image(source);
+}
+
+const BlogsCards = ({ item, blogs }) => {
   const [selectedCategory, setSelectedCategory] = useState("All");
   const [currentPage, setCurrentPage] = useState(1);
   const [postsPerPage] = useState(6);
@@ -56,7 +71,8 @@ const BlogCard = ({ item }) => {
         Math.abs(page - currentPage) <= 1
       ) {
         buttons.push(
-          <a href="#"
+          <a
+            href="#"
             key={page}
             className={isSelected ? "current page-numbers" : "page-numbers"}
             onClick={() => handlePageClick(page)}
@@ -75,44 +91,60 @@ const BlogCard = ({ item }) => {
       <div className="blog-area ptb-100">
         <div className="container">
           <div className="row justify-content-center">
-            {currentPosts?.map((eachCard, index) => (
-              <div key={index} className="col-lg-4 col-md-6 col-sm-6">
-                <div className="single-blog-post">
-                  <div className="image">
-                    <Link legacyBehavior href={`/blogs/${eachCard.slug}`}>
-                      <span className="d-block">
-                        <img src={eachCard.imageLink} alt={eachCard.altTag} />
-                      </span>
-                    </Link>
-                    <span className="date">{eachCard?.postedBy?.date}</span>
-                  </div>
-
-                  <div className="content">
-                    <h3>
-                      <Link legacyBehavior href={`/blogs/${eachCard.slug}`}>
-                        <span>{eachCard?.title}</span>
+            {blogs &&
+              blogs.map((blog, index) => (
+                <div key={index} className="col-lg-4 col-md-6 col-sm-6">
+                  <div className="single-blog-post">
+                    <div className="image">
+                      <Link legacyBehavior href={`/blogs/${blog.slug.current}`}>
+                        <span className="d-block">
+                          <Image
+                            src={urlFor(blog.featureImage).auto('format').url()}
+                            alt={blog.title}
+                            width={900}
+                            height={100}
+                          />
+                        </span>
                       </Link>
-                    </h3>
-                    <p>{eachCard?.mainParagraph}</p>
-
-                    {/* <Link legacyBehavior href="/blog-details"> */}
-                    <Link legacyBehavior href={`/blogs/${eachCard.slug}`}>
-                      <span className="default-btn">
-                        <span className="ri-arrow-right-s-line"></span>
-                        Read More
+                      <span className="date">
+                        {Intl.DateTimeFormat("en-US", {
+                          year: "numeric",
+                          month: "short",
+                          day: "2-digit",
+                        }).format(new Date(blog.publishedAt))}
                       </span>
-                    </Link>
+                    </div>
+
+                    <div className="content">
+                      <h3>
+                        <Link
+                          legacyBehavior
+                          href={`/blogs/${blog.slug.current}`}
+                        >
+                          <span>{blog.title}</span>
+                        </Link>
+                      </h3>
+                      <p>{blog.subtitle}</p>
+
+                      {/* <Link legacyBehavior href="/blog-details"> */}
+                      <Link legacyBehavior href={`/blogs/${blog.slug.current}`}>
+                        <span className="default-btn">
+                          <span className="ri-arrow-right-s-line"></span>
+                          Read More
+                        </span>
+                      </Link>
+                    </div>
                   </div>
                 </div>
-              </div>
-            ))}
+              ))}
           </div>
         </div>
-        {filtereditem?.length > postsPerPage ? (
+        {/* {filtereditem?.length > postsPerPage ? (
           <nav className="pagination-area">
             <ul className="nav-links">
               <li>
-                <a href="#"
+                <a
+                  href="#"
                   onClick={handlePreviousClick}
                   className={
                     currentPage === 1 ? "page-numbers disabled" : "page-numbers"
@@ -126,7 +158,8 @@ const BlogCard = ({ item }) => {
               </li>
               {renderPaginationButtons()}
               <li>
-                <a href="#"
+                <a
+                  href="#"
                   className={
                     currentPage === totalPages
                       ? "page-numbers disabled"
@@ -142,10 +175,10 @@ const BlogCard = ({ item }) => {
               </li>
             </ul>
           </nav>
-        ) : null}
+        ) : null} */}
       </div>
     </>
   );
 };
 
-export default BlogCard;
+export default BlogsCards;
