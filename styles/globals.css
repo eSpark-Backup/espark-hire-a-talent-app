@@ -10754,6 +10754,44 @@ client feedback Area CSS
 }
 
 /*================================================
+Landing Page CSS
+=================================================*/
+
+.light-link .nav-item .nav-link {
+  color: #fff !important;
+}
+
+.light-link .nav-item .nav-link:hover {
+  color: #09114a !important;
+}
+
+.landing-banner {
+  background-color: #029894;
+  width: 100%;
+  padding-top: 112px;
+}
+
+.landing-section-title h2 {
+  font-family: Poppins;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 29px;
+  color: #001c63;
+  margin-bottom: 0px;
+}
+
+.content-heading {
+}
+
+.landing-form {
+  height: 603.58px;
+}
+
+.add-padding {
+  padding: 28px 0px;
+}
+
+/*================================================
 CV CSS
 =================================================*/
 
@@ -10769,6 +10807,7 @@ CV CSS
   line-height: 38px;
   color: #000000;
   margin-bottom: 0px;
+  text-transform: capitalize;
 }
 
 .cv-card-area {
@@ -10898,12 +10937,20 @@ CV CSS
   border-radius: 13px;
   border: none;
   font-family: Poppins;
-  font-weight: 700;
+  font-weight: 600;
   font-size: 13px;
   line-height: 19px;
   color: #ffffff;
   padding: 15px;
   display: block;
+  text-transform: capitalize;
+  transition: var(--transition);
+}
+
+.hire-me:hover {
+  background: #ffffff;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  color: #049583;
 }
 
 .grid-hire {
@@ -10927,11 +10974,28 @@ CV CSS
   text-align: center;
   text-transform: capitalize;
   display: inline-block;
+  background: #ffffff;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  color: #049583;
+  transition: var(--transition);
 }
 
 .cv-view-more:hover {
-  /* background-position: -100% 0; */
+  background: #f3f0f0;
+  box-shadow: 0px 8px 8px rgba(0, 0, 0, 0.4);
+  color: #000000;
+}
+
+/* .cv-view-more:hover {
+  background-position: -100% 0;
   background-color: #065d79;
+} */
+
+.main-box-banner {
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
 }
 
 .divide {
@@ -11027,6 +11091,12 @@ CV CSS
   color: #212121;
   padding: 5.5px 20.5px 5.5px 16.5px;
   margin: 22px 10px 0px 0px;
+  transition: var(--transition);
+}
+
+.tags:hover {
+  background-color: #029894;
+  color: #ffffff;
 }
 
 .tech-list {
@@ -11131,12 +11201,16 @@ CV CSS
 .progress-info-area {
   display: flex;
   justify-content: space-between;
-  align-items: flex-end;
+  /* align-items: flex-end; */
   margin-top: 31px;
 }
 
 .progress-info {
   text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .progress-info svg,
@@ -11149,7 +11223,7 @@ CV CSS
   font-family: Poppins;
   font-weight: 500;
   font-size: 18px;
-  line-height: 38px;
+  line-height: 28px;
   color: #000000;
   margin-bottom: 32px;
 }
@@ -11158,7 +11232,7 @@ CV CSS
   font-family: Poppins;
   font-weight: 700;
   font-size: 20px;
-  line-height: 46px;
+  line-height: 36px;
   letter-spacing: 0.194291px;
   text-transform: capitalize;
   color: #049583;
@@ -11167,16 +11241,13 @@ CV CSS
 
 .divider {
   display: flex;
-  /* align-items: center; */
-  justify-content: space-between;
 }
 
 .middle-border {
   width: 0px;
   height: 233px;
   border: 1px solid rgba(0, 0, 0, 0.77);
-  margin-top: 30px;
-  /* margin: 0px 87px 0px 131px; */
+  margin: 30px 87px 0px 131px;
 }
 
 .hat-icon {
@@ -11194,14 +11265,15 @@ CV CSS
   display: flex;
   margin-top: 31px;
   margin-left: 27px;
+  width: 383px;
 }
 
 .education-detail {
   margin-left: 19px;
+  flex: 1;
 }
 
 .major {
-  font-family: Poppins;
   font-weight: 800;
   font-size: 15px;
   line-height: 23px;

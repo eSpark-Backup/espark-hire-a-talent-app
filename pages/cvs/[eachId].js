@@ -1,7 +1,9 @@
-import React, { useEffect } from "react";
+import React, { useEffect, useState } from "react";
 
 import { useRouter } from "next/router";
 import { Inter } from "next/font/google";
+
+import Link from "next/link";
 
 import Banner from "@/components/Cv/Banner";
 import Detail from "@/components/Cv/Detail";
@@ -15,7 +17,7 @@ import Feedback from "@/components/Cv/Feedback";
 import { cvData } from "constants/cvsConstants";
 
 const inter = Inter({
-  weight: ["100", "200", "300", "400"],
+  weight: ["100", "200", "300", "400", "500", "600", "700", "800", "900"],
   subsets: ["latin"],
 });
 
@@ -23,6 +25,8 @@ const IndividualCV = () => {
   const router = useRouter();
   const getId = router.query.eachId;
   const cv = cvData?.find((item) => item?.id === parseInt(getId));
+
+  const [windowWidth, setWindowWidth] = useState(null);
 
   useEffect(() => {
     let header = document.querySelector("header");
@@ -37,26 +41,45 @@ const IndividualCV = () => {
     };
   }, []);
 
-  return (
-    <div className={`cv-area ${inter.className}`}>
-      <Banner banner={cv.banner} />
+  useEffect(() => {
+    const handleResize = () => {
+      setWindowWidth(window.innerWidth);
+    };
 
-      <Detail para={cv.aboutMe} profileDetail={cv.profileDetail} />
+    handleResize();
+
+    window.addEventListener("resize", handleResize);
+
+    return () => {
+      window.removeEventListener("resize", handleResize);
+    };
+  }, []);
+
+  return (
+    <div className="cv-area">
+      <Banner banner={cv.banner} windowWidth={windowWidth} />
+
+      <Detail
+        para={cv.aboutMe}
+        profileDetail={cv.profileDetail}
+        windowWidth={windowWidth}
+      />
 
       <TechTools tools={cv.techTools} />
 
-      <WorkExperience experience={cv.workExperience} />
+      <WorkExperience experience={cv.workExperience} inter={inter} />
 
-      <Expertise expertise={cv.expertise} />
+      <Expertise expertise={cv.expertise} windowWidth={windowWidth} />
 
-      <Tools tools={cv.tools} />
+      <Tools tools={cv.tools} windowWidth={windowWidth} />
 
       <EducationCertificate
         education={cv.education}
         certification={cv.certification}
+        inter={inter}
       />
 
-      <Feedback feedbacks={cv.feedback} />
+      <Feedback feedbacks={cv.feedback} windowWidth={windowWidth} />
     </div>
   );
 };

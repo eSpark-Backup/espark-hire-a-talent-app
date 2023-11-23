@@ -2,7 +2,7 @@ import React from "react";
 
 import CvCard from "./CvCard";
 
-const WorkExperience = ({ experience }) => {
+const WorkExperience = ({ experience, inter }) => {
   return (
     <CvCard>
       <h1 className="cv-heading">Work Experience</h1>
@@ -21,7 +21,10 @@ const WorkExperience = ({ experience }) => {
 
             <ul className="experience-list">
               {exp.workDescription.map((desc, index) => (
-                <li key={index} className="work-experience-info">
+                <li
+                  key={index}
+                  className={`work-experience-info ${inter.className}`}
+                >
                   {desc}.
                 </li>
               ))}
