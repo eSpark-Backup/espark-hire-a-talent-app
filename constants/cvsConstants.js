@@ -10,7 +10,9 @@ export const cvData = [
     },
 
     aboutMe: {
-      description: `Manage google ads, facebook, google analytics and other paid media accounts. Day to day planning and execution of paid media campaigns daily, weekly and monthly monitoring, analysis and reporting of campaigns. Track and analyse results from campaigns to identify potential opportunities for improvements. Track and analyse results from campaigns to identify potential opportunities for improvements.`,
+      firstParagraph: `Manage google ads, facebook, google analytics and other paid media accounts. Day to day planning and execution of paid media campaigns daily, weekly and monthly monitoring, analysis and reporting of campaigns. Track and analyse results from campaigns to identify potential opportunities for improvements.`,
+      secondParagraph:
+        "Track and analyse results from campaigns to identify potential opportunities for improvements.",
     },
 
     profileDetail: {
@@ -92,43 +94,49 @@ export const cvData = [
       },
     ],
 
-    expertise: [
-      {
-        name: "Social Media Marketing",
-        percentage: 40,
-      },
-      {
-        name: "Search Engine Optimization",
-        percentage: 40,
-      },
-      {
-        name: "Copy Writing & Copy editing",
-        percentage: 40,
-      },
-      {
-        name: "Media Buying",
-        percentage: 40,
-      },
-    ],
+    expertise: {
+      content: [
+        {
+          name: "Social Media Marketing",
+          percentage: 40,
+        },
+        {
+          name: "Search Engine Optimization",
+          percentage: 40,
+        },
+        {
+          name: "Copy Writing & Copy editing",
+          percentage: 40,
+        },
+        {
+          name: "Media Buying",
+          percentage: 40,
+        },
+      ],
+      className: "col-lg-3 col-md-4 col-sm-6 col-xs-12",
+    },
 
-    tools: [
-      {
-        name: "Facebook Ads Manger",
-        percentage: 40,
-      },
-      {
-        name: "Google Ads Manager",
-        percentage: 40,
-      },
-      {
-        name: "LinkedIn Ads Manger",
-        percentage: 40,
-      },
-      {
-        name: "Kayzen Digital Advertising",
-        percentage: 40,
-      },
-    ],
+    tools: {
+      content: [
+        {
+          name: "Facebook Ads Manger",
+          percentage: 40,
+        },
+        {
+          name: "Google Ads Manager",
+          percentage: 40,
+        },
+        {
+          name: "LinkedIn Ads Manger",
+          percentage: 40,
+        },
+        {
+          name: "Kayzen Digital Advertising",
+          percentage: 40,
+        },
+      ],
+      className: "col-lg-3 col-md-4 col-sm-6 col-xs-12",
+    },
 
     education: {
       university: {
@@ -139,10 +147,10 @@ export const cvData = [
         logo: "/images/cvs/outlined-hat.png",
       },
       college: {
-        name: "INTERMEDIATE (PRE-ENGINEERING)",
+        name: "Government Degree College",
         fromDate: "01/2013",
         toDate: " 01/2015",
-        major: "BBA in Digital Marketing",
+        major: "INTERMEDIATE (PRE-ENGINEERING)",
         grade: "77%(AGrade)",
         logo: "/images/cvs/filled-hat.png",
       },
@@ -161,20 +169,23 @@ export const cvData = [
       },
     ],
 
-    feedback: [
-      {
-        name: "HR Screening Feedback",
-        percentage: 40,
-      },
-      {
-        name: "Technical Middle Tier Feedback",
-        percentage: 40,
-      },
-      {
-        name: "Technical Final Feedback",
-        percentage: 40,
-      },
-    ],
+    feedback: {
+      content: [
+        {
+          name: "HR Screening Feedback",
+          percentage: 40,
+        },
+        {
+          name: "Technical Middle Tier Feedback",
+          percentage: 40,
+        },
+        {
+          name: "Technical Final Feedback",
+          percentage: 40,
+        },
+      ],
+      className: "col-lg-4 col-md-4 col-sm-6 col-xs-12",
+    },
   },
 
   {
@@ -188,7 +199,7 @@ export const cvData = [
     },
 
     aboutMe: {
-      description:
+      firstParagraph:
         "Dedicated and efficient full stack developer with 2+ years of experience in application layers , presentation layers, and data bases. Expertise in both F/E and B /E technologies . Spear headed successful transition  from LAMP stack to MERN which cut latency by 40% and increased effectiveness of data base administrators by 20%. Seeking to further improve HTML5 and CSS3 skills as the future full stack developer.",
     },
 
@@ -256,43 +267,49 @@ export const cvData = [
       },
     ],
 
-    expertise: [
-      {
-        name: "MongoDB",
-        percentage: 40,
-      },
-      {
-        name: "Express framework",
-        percentage: 40,
-      },
-      {
-        name: "Java script (ESX)",
-        percentage: 40,
-      },
-      {
-        name: "Node JS",
-        percentage: 40,
-      },
-    ],
+    expertise: {
+      content: [
+        {
+          name: "MongoDB",
+          percentage: 40,
+        },
+        {
+          name: "Express framework",
+          percentage: 40,
+        },
+        {
+          name: "Java script (ESX)",
+          percentage: 40,
+        },
+        {
+          name: "Node JS",
+          percentage: 40,
+        },
+      ],
+      className: "col-lg-3 col-md-4 col-sm-6 sol-xs-12",
+    },
 
-    tools: [
-      {
-        name: "Laravel Framework",
-        percentage: 40,
-      },
-      {
-        name: ".NET Framework",
-        percentage: 40,
-      },
-      {
-        name: "MySQL",
-        percentage: 40,
-      },
-      {
-        name: "Google Firebase",
-        percentage: 40,
-      },
-    ],
+    tools: {
+      content: [
+        {
+          name: "Laravel Framework",
+          percentage: 40,
+        },
+        {
+          name: ".NET Framework",
+          percentage: 40,
+        },
+        {
+          name: "MySQL",
+          percentage: 40,
+        },
+        {
+          name: "Google Firebase",
+          percentage: 40,
+        },
+      ],
+      className: "col-lg-3 col-md-4 col-sm-6 sol-xs-12",
+    },
 
     certification: [
       {
@@ -302,20 +319,23 @@ export const cvData = [
       },
     ],
 
-    feedback: [
-      {
-        name: "HR Screening Feedback",
-        percentage: 40,
-      },
-      {
-        name: "Technical Middle Tier Feedback",
-        percentage: 40,
-      },
-      {
-        name: "Technical Final Feedback",
-        percentage: 40,
-      },
-    ],
+    feedback: {
+      content: [
+        {
+          name: "HR Screening Feedback",
+          percentage: 40,
+        },
+        {
+          name: "Technical Middle Tier Feedback",
+          percentage: 40,
+        },
+        {
+          name: "Technical Final Feedback",
+          percentage: 40,
+        },
+      ],
+      className: "col-lg-4 col-md-4 col-sm-6 sol-xs-12",
+    },
   },
 
   {
@@ -329,7 +349,7 @@ export const cvData = [
     },
 
     aboutMe: {
-      description:
+      firstParagraph:
         "Here pursue a career in a challenging environment, where I can utilize and enhance my abilities & knowledge to achieve organizational goals. Well aware of managing things in  the right way, I have a quality of leader ship Fast learning ability and hard work.",
     },
 
@@ -405,43 +425,49 @@ export const cvData = [
       },
     ],
 
-    expertise: [
-      {
-        name: "WordPress",
-        percentage: 40,
-      },
-      {
-        name: "WooCommerce",
-        percentage: 40,
-      },
-      {
-        name: "GravityForms",
-        percentage: 40,
-      },
-      {
-        name: "Avada",
-        percentage: 40,
-      },
-    ],
+    expertise: {
+      content: [
+        {
+          name: "WordPress",
+          percentage: 40,
+        },
+        {
+          name: "WooCommerce",
+          percentage: 40,
+        },
+        {
+          name: "GravityForms",
+          percentage: 40,
+        },
+        {
+          name: "Avada",
+          percentage: 40,
+        },
+      ],
+      className: "col-lg-3 col-md-4 col-sm-6 col-xs-12",
+    },
 
-    tools: [
-      {
-        name: "React",
-        percentage: 40,
-      },
-      {
-        name: "React Native",
-        percentage: 40,
-      },
-      {
-        name: "Node Js",
-        percentage: 40,
-      },
-      {
-        name: "Express",
-        percentage: 40,
-      },
-    ],
+    tools: {
+      content: [
+        {
+          name: "React",
+          percentage: 40,
+        },
+        {
+          name: "React Native",
+          percentage: 40,
+        },
+        {
+          name: "Node Js",
+          percentage: 40,
+        },
+        {
+          name: "Express",
+          percentage: 40,
+        },
+      ],
+      className: "col-lg-3 col-md-4 col-sm-6 col-xs-12",
+    },
 
     education: {
       university: {
@@ -473,20 +499,23 @@ export const cvData = [
       },
     ],
 
-    feedback: [
-      {
-        name: "HR Screening Feedback",
-        percentage: 40,
-      },
-      {
-        name: "Technical Middle Tier Feedback",
-        percentage: 40,
-      },
-      {
-        name: "Technical Final Feedback",
-        percentage: 40,
-      },
-    ],
+    feedback: {
+      content: [
+        {
+          name: "HR Screening Feedback",
+          percentage: 40,
+        },
+        {
+          name: "Technical Middle Tier Feedback",
+          percentage: 40,
+        },
+        {
+          name: "Technical Final Feedback",
+          percentage: 40,
+        },
+      ],
+      className: "col-lg-4 col-md-4 col-sm-6 col-xs-12",
+    },
   },
 
   {
@@ -500,7 +529,7 @@ export const cvData = [
     },
 
     aboutMe: {
-      description:
+      firstParagraph:
         "I'm a Computer System graduate with a passion for crafting top-notch web applications that exceed client expectations. As a lifelong learner with an insatiable curiosity, I'm always seeking to broaden my knowledge and skill set to stay ahead of the curve. Currently, I'm a React JS developer working on cutting-edge products  that has challenged me to push the boundaries of my technical skills. With expertise in React JS, Next JS, and React Native, I'm a versatile developer who's equally comfortable working on web and mobile applications.",
     },
 
@@ -576,43 +605,49 @@ export const cvData = [
       },
     ],
 
-    expertise: [
-      {
-        name: "Tailwind CSS",
-        percentage: 40,
-      },
-      {
-        name: "Redux",
-        percentage: 40,
-      },
-      {
-        name: "Java script",
-        percentage: 40,
-      },
-      {
-        name: "Typescript",
-        percentage: 40,
-      },
-    ],
+    expertise: {
+      content: [
+        {
+          name: "Tailwind CSS",
+          percentage: 40,
+        },
+        {
+          name: "Redux",
+          percentage: 40,
+        },
+        {
+          name: "Java script",
+          percentage: 40,
+        },
+        {
+          name: "Typescript",
+          percentage: 40,
+        },
+      ],
+      className: "col-lg-3 col-md-4 col-sm-6 col-xs-12",
+    },
 
-    tools: [
-      {
-        name: "Fire base",
-        percentage: 40,
-      },
-      {
-        name: "React Native",
-        percentage: 40,
-      },
-      {
-        name: "Node JS",
-        percentage: 40,
-      },
-      {
-        name: "Express",
-        percentage: 40,
-      },
-    ],
+    tools: {
+      content: [
+        {
+          name: "Fire base",
+          percentage: 40,
+        },
+        {
+          name: "React Native",
+          percentage: 40,
+        },
+        {
+          name: "Node JS",
+          percentage: 40,
+        },
+        {
+          name: "Express",
+          percentage: 40,
+        },
+      ],
+      className: "col-lg-3 col-md-4 col-sm-6 col-xs-12",
+    },
 
     education: {
       university: {
@@ -645,20 +680,23 @@ export const cvData = [
       },
     ],
 
-    feedback: [
-      {
-        name: "HR Screening Feedback",
-        percentage: 40,
-      },
-      {
-        name: "Technical Middle Tier Feedback",
-        percentage: 40,
-      },
-      {
-        name: "Technical Final Feedback",
-        percentage: 40,
-      },
-    ],
+    feedback: {
+      content: [
+        {
+          name: "HR Screening Feedback",
+          percentage: 40,
+        },
+        {
+          name: "Technical Middle Tier Feedback",
+          percentage: 40,
+        },
+        {
+          name: "Technical Final Feedback",
+          percentage: 40,
+        },
+      ],
+      className: "col-lg-4 col-md-4 col-sm-6 col-xs-12",
+    },
   },
 
   {
@@ -672,7 +710,7 @@ export const cvData = [
     },
 
     aboutMe: {
-      description:
+      firstParagraph:
         "Highly skilled and results-driven React Native Developer with a passion for creating cutting-edge mobile applications. Known for blending novel design elements and interactive features to craft captivating user experiences. Adept at advancing in any type of apps with unique interfaces that set new industry standards. Committed to delivering user-friendly interfaces and entertainment driven functionalities while achieving exceptional ROI.",
     },
 
@@ -748,43 +786,49 @@ export const cvData = [
       },
     ],
 
-    expertise: [
-      {
-        name: "React",
-        percentage: 40,
-      },
-      {
-        name: "React Native",
-        percentage: 40,
-      },
-      {
-        name: "Java script",
-        percentage: 40,
-      },
-      {
-        name: "Typescript",
-        percentage: 40,
-      },
-    ],
+    expertise: {
+      content: [
+        {
+          name: "React",
+          percentage: 40,
+        },
+        {
+          name: "React Native",
+          percentage: 40,
+        },
+        {
+          name: "Java script",
+          percentage: 40,
+        },
+        {
+          name: "Typescript",
+          percentage: 40,
+        },
+      ],
+      className: "col-lg-3 col-md-4 col-sm-6 col-xs-12",
+    },
 
-    tools: [
-      {
-        name: "Fire base",
-        percentage: 40,
-      },
-      {
-        name: "React Native",
-        percentage: 40,
-      },
-      {
-        name: "Node JS",
-        percentage: 40,
-      },
-      {
-        name: "Express",
-        percentage: 40,
-      },
-    ],
+    tools: {
+      content: [
+        {
+          name: "Fire base",
+          percentage: 40,
+        },
+        {
+          name: "React Native",
+          percentage: 40,
+        },
+        {
+          name: "Node JS",
+          percentage: 40,
+        },
+        {
+          name: "Express",
+          percentage: 40,
+        },
+      ],
+      className: "col-lg-3 col-md-4 col-sm-6 col-xs-12",
+    },
 
     education: {
       university: {
@@ -817,20 +861,23 @@ export const cvData = [
       },
     ],
 
-    feedback: [
-      {
-        name: "HR Screening Feedback",
-        percentage: 40,
-      },
-      {
-        name: "Technical Middle Tier Feedback",
-        percentage: 40,
-      },
-      {
-        name: "Technical Final Feedback",
-        percentage: 40,
-      },
-    ],
+    feedback: {
+      content: [
+        {
+          name: "HR Screening Feedback",
+          percentage: 40,
+        },
+        {
+          name: "Technical Middle Tier Feedback",
+          percentage: 40,
+        },
+        {
+          name: "Technical Final Feedback",
+          percentage: 40,
+        },
+      ],
+      className: "col-lg-4 col-md-4 col-sm-6 col-xs-12",
+    },
   },
 
   {
@@ -840,11 +887,11 @@ export const cvData = [
       name: "Rohail Zafar",
       post: "Software Engineer",
       tag: "software engineering crafting digital solutions",
-      hireMe: "Rohail Zafa",
+      hireMe: "Rohail Zafar",
     },
 
     aboutMe: {
-      description:
+      firstParagraph:
         "I am a skilled IT graduate with 7+ years of Application development experience. My present objectives are to continue to provide a high-quality development service and participate in project and product management.",
     },
 
@@ -916,43 +963,49 @@ export const cvData = [
       },
     ],
 
-    expertise: [
-      {
-        name: "React",
-        percentage: 40,
-      },
-      {
-        name: "React Native",
-        percentage: 40,
-      },
-      {
-        name: "Java script",
-        percentage: 40,
-      },
-      {
-        name: "Typescript",
-        percentage: 40,
-      },
-    ],
+    expertise: {
+      content: [
+        {
+          name: "React",
+          percentage: 40,
+        },
+        {
+          name: "React Native",
+          percentage: 40,
+        },
+        {
+          name: "Java script",
+          percentage: 40,
+        },
+        {
+          name: "Typescript",
+          percentage: 40,
+        },
+      ],
+      className: "col-lg-3 col-md-4 col-sm-6 col-xs-12",
+    },
 
-    tools: [
-      {
-        name: "Fire base",
-        percentage: 40,
-      },
-      {
-        name: "React Native",
-        percentage: 40,
-      },
-      {
-        name: "Node JS",
-        percentage: 40,
-      },
-      {
-        name: "Express",
-        percentage: 40,
-      },
-    ],
+    tools: {
+      content: [
+        {
+          name: "Fire base",
+          percentage: 40,
+        },
+        {
+          name: "React Native",
+          percentage: 40,
+        },
+        {
+          name: "Node JS",
+          percentage: 40,
+        },
+        {
+          name: "Express",
+          percentage: 40,
+        },
+      ],
+      className: "col-lg-3 col-md-4 col-sm-6 col-xs-12",
+    },
 
     education: {
       university: {
@@ -979,20 +1032,23 @@ export const cvData = [
       },
     ],
 
-    feedback: [
-      {
-        name: "HR Screening Feedback",
-        percentage: 40,
-      },
-      {
-        name: "Technical Middle Tier Feedback",
-        percentage: 40,
-      },
-      {
-        name: "Technical Final Feedback",
-        percentage: 40,
-      },
-    ],
+    feedback: {
+      content: [
+        {
+          name: "HR Screening Feedback",
+          percentage: 40,
+        },
+        {
+          name: "Technical Middle Tier Feedback",
+          percentage: 40,
+        },
+        {
+          name: "Technical Final Feedback",
+          percentage: 40,
+        },
+      ],
+      className: "col-lg-4 col-md-4 col-sm-6 col-xs-12",
+    },
   },
 
   {
@@ -1006,7 +1062,7 @@ export const cvData = [
     },
 
     aboutMe: {
-      description:
+      firstParagraph:
         "Intermediate React developer with a year of developing and professional experience in the IT industry, bringing in depth knowledge of latest technology trends to produce clean website and application design.",
     },
 
@@ -1078,43 +1134,49 @@ export const cvData = [
       },
     ],
 
-    expertise: [
-      {
-        name: "React",
-        percentage: 40,
-      },
-      {
-        name: "React Native",
-        percentage: 40,
-      },
-      {
-        name: "Java script",
-        percentage: 40,
-      },
-      {
-        name: "Typescript",
-        percentage: 40,
-      },
-    ],
+    expertise: {
+      content: [
+        {
+          name: "React",
+          percentage: 40,
+        },
+        {
+          name: "React Native",
+          percentage: 40,
+        },
+        {
+          name: "Java script",
+          percentage: 40,
+        },
+        {
+          name: "Typescript",
+          percentage: 40,
+        },
+      ],
+      className: "col-lg-3 col-md-4 col-sm-6 col-xs-12",
+    },
 
-    tools: [
-      {
-        name: "Fire base",
-        percentage: 40,
-      },
-      {
-        name: "React Native",
-        percentage: 40,
-      },
-      {
-        name: "Node JS",
-        percentage: 40,
-      },
-      {
-        name: "Express",
-        percentage: 40,
-      },
-    ],
+    tools: {
+      content: [
+        {
+          name: "Fire base",
+          percentage: 40,
+        },
+        {
+          name: "React Native",
+          percentage: 40,
+        },
+        {
+          name: "Node JS",
+          percentage: 40,
+        },
+        {
+          name: "Express",
+          percentage: 40,
+        },
+      ],
+      className: "col-lg-3 col-md-4 col-sm-6 col-xs-12",
+    },
 
     education: {
       university: {
@@ -1141,20 +1203,23 @@ export const cvData = [
       },
     ],
 
-    feedback: [
-      {
-        name: "HR Screening Feedback",
-        percentage: 40,
-      },
-      {
-        name: "Technical Middle Tier Feedback",
-        percentage: 40,
-      },
-      {
-        name: "Technical Final Feedback",
-        percentage: 40,
-      },
-    ],
+    feedback: {
+      content: [
+        {
+          name: "HR Screening Feedback",
+          percentage: 40,
+        },
+        {
+          name: "Technical Middle Tier Feedback",
+          percentage: 40,
+        },
+        {
+          name: "Technical Final Feedback",
+          percentage: 40,
+        },
+      ],
+      className: "col-lg-4 col-md-4 col-sm-6 col-xs-12",
+    },
   },
 
   {
@@ -1168,7 +1233,7 @@ export const cvData = [
     },
 
     aboutMe: {
-      description:
+      firstParagraph:
         "To utilize my skills and contribute my expertise and knowledge in electronic processes and applications such as designing, testing, troubleshooting, and modifying electronic equipment.",
     },
 
@@ -1240,43 +1305,49 @@ export const cvData = [
       },
     ],
 
-    expertise: [
-      {
-        name: "PLC’s.",
-        percentage: 40,
-      },
-      {
-        name: "RTOS",
-        percentage: 40,
-      },
-      {
-        name: "Silicon Labs",
-        percentage: 40,
-      },
-      {
-        name: "Espressif",
-        percentage: 40,
-      },
-    ],
+    expertise: {
+      content: [
+        {
+          name: "PLC’s.",
+          percentage: 40,
+        },
+        {
+          name: "RTOS",
+          percentage: 40,
+        },
+        {
+          name: "Silicon Labs",
+          percentage: 40,
+        },
+        {
+          name: "Espressif",
+          percentage: 40,
+        },
+      ],
+      className: "col-lg-3 col-md-4 col-sm-6 col-xs-12",
+    },
 
-    tools: [
-      {
-        name: "PCB",
-        percentage: 40,
-      },
-      {
-        name: "Proteus",
-        percentage: 40,
-      },
-      {
-        name: "Eagle CAD",
-        percentage: 40,
-      },
-      {
-        name: "Altium",
-        percentage: 40,
-      },
-    ],
+    tools: {
+      content: [
+        {
+          name: "PCB",
+          percentage: 40,
+        },
+        {
+          name: "Proteus",
+          percentage: 40,
+        },
+        {
+          name: "Eagle CAD",
+          percentage: 40,
+        },
+        {
+          name: "Altium",
+          percentage: 40,
+        },
+      ],
+      className: "col-lg-3 col-md-4 col-sm-6 col-xs-12",
+    },
 
     education: {
       university: {
@@ -1303,20 +1374,23 @@ export const cvData = [
       },
     ],
 
-    feedback: [
-      {
-        name: "HR Screening Feedback",
-        percentage: 40,
-      },
-      {
-        name: "Technical Middle Tier Feedback",
-        percentage: 40,
-      },
-      {
-        name: "Technical Final Feedback",
-        percentage: 40,
-      },
-    ],
+    feedback: {
+      content: [
+        {
+          name: "HR Screening Feedback",
+          percentage: 40,
+        },
+        {
+          name: "Technical Middle Tier Feedback",
+          percentage: 40,
+        },
+        {
+          name: "Technical Final Feedback",
+          percentage: 40,
+        },
+      ],
+      className: "col-lg-4 col-md-4 col-sm-6 col-xs-12",
+    },
   },
 
   {
@@ -1330,7 +1404,7 @@ export const cvData = [
     },
 
     aboutMe: {
-      description:
+      firstParagraph:
         "Muzamil Ali This side! Completed my Bachelors in Computer System Engineering. Innovative Frontend Developer with two year of building websites, I enjoy working in front end technologies. My core expertise lies in Javascript Reactjs React-native Bootstrap TailwindCSS Sass HTML CSS. I am constantly looking to expand my skillset my intention is to get to peak of MERN STACK Developer.",
     },
 
@@ -1399,43 +1473,49 @@ export const cvData = [
       },
     ],
 
-    expertise: [
-      {
-        name: "React Native",
-        percentage: 40,
-      },
-      {
-        name: "HTML",
-        percentage: 40,
-      },
-      {
-        name: "CSS",
-        percentage: 40,
-      },
-      {
-        name: "SASS",
-        percentage: 40,
-      },
-    ],
+    expertise: {
+      content: [
+        {
+          name: "React Native",
+          percentage: 40,
+        },
+        {
+          name: "HTML",
+          percentage: 40,
+        },
+        {
+          name: "CSS",
+          percentage: 40,
+        },
+        {
+          name: "SASS",
+          percentage: 40,
+        },
+      ],
+      className: "col-lg-3 col-md-4 col-sm-6 col-xs-12",
+    },
 
-    tools: [
-      {
-        name: "JQuery",
-        percentage: 40,
-      },
-      {
-        name: "Bootstrap",
-        percentage: 40,
-      },
-      {
-        name: "Tailwind CSS",
-        percentage: 40,
-      },
-      {
-        name: "Redux",
-        percentage: 40,
-      },
-    ],
+    tools: {
+      content: [
+        {
+          name: "JQuery",
+          percentage: 40,
+        },
+        {
+          name: "Bootstrap",
+          percentage: 40,
+        },
+        {
+          name: "Tailwind CSS",
+          percentage: 40,
+        },
+        {
+          name: "Redux",
+          percentage: 40,
+        },
+      ],
+      className: "col-lg-3 col-md-4 col-sm-6 col-xs-12",
+    },
 
     education: {
       university: {
@@ -1462,19 +1542,22 @@ export const cvData = [
       },
     ],
 
-    feedback: [
-      {
-        name: "HR Screening Feedback",
-        percentage: 40,
-      },
-      {
-        name: "Technical Middle Tier Feedback",
-        percentage: 40,
-      },
-      {
-        name: "Technical Final Feedback",
-        percentage: 40,
-      },
-    ],
+    feedback: {
+      content: [
+        {
+          name: "HR Screening Feedback",
+          percentage: 40,
+        },
+        {
+          name: "Technical Middle Tier Feedback",
+          percentage: 40,
+        },
+        {
+          name: "Technical Final Feedback",
+          percentage: 40,
+        },
+      ],
+      className: "col-lg-4 col-md-4 col-sm-6 col-xs-12",
+    },
   },
 ];
