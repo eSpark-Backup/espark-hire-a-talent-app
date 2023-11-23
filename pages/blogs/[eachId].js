@@ -8,7 +8,6 @@ const BlogDetails = ({ blogPost }) => {
   const router = useRouter();
   const getId = router.query.eachId;
   const filterData = blogData?.filter((item) => item?.slug === getId);
-  console.log("blogPost", blogPost);
   const props = {
     title: "set default title",
     metaDescription: "set default metaDescription",
@@ -26,6 +25,8 @@ const client = createClient({
   dataset: "production",
   useCdn: true,
 });
+
+export const dynamic = 'force-dynamic';
 
 export const getStaticPaths = async () => {
   try {
