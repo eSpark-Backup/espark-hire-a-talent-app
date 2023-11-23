@@ -18,8 +18,6 @@ function urlFor(source) {
 }
 
 const BlogDetailsContent = ({ data, blogPost }) => {
-  console.log("data", data);
-  console.log("blogPost", blogPost);
   return (
     <>
       <div className="blog-details-area ptb-100">
