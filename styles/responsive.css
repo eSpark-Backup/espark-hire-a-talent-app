@@ -1905,6 +1905,15 @@
     /* background-position: center; */
   }
 
+  .cv-grid {
+    background-size: 100% 100%;
+  }
+
+  .potrait-view {
+    background-image: url("/images/cvs/background-portrait.png");
+    background-size: 100% 100%;
+  }
+
   .cv-banner-area {
     display: block;
     text-align: center;
@@ -1958,7 +1967,7 @@
   }
 
   .cv-card-area {
-    padding: 16px 12px;
+    padding: 16px 10px;
     margin: 0px auto 20px;
   }
 
@@ -1994,10 +2003,20 @@
 
   .profile-details-area {
     flex-wrap: wrap;
+    justify-content: flex-start;
+  }
+
+  .expertise {
+    margin-top: 0px;
+    flex-basis: 45%;
+  }
+
+  .english-level {
+    flex-basis: 45%;
   }
 
   .experience {
-    margin-top: 0px;
+    flex-basis: 50%;
   }
 
   .profile-detail-heading {
@@ -2127,9 +2146,9 @@
     font-size: 23px;
   }
 
-  .cv-feedback-area {
+  /* .cv-feedback-area {
     align-items: baseline;
-  }
+  } */
 
   .divider {
     display: block;
@@ -2138,6 +2157,7 @@
   .detail-wrapper {
     margin-top: 16px;
     margin-left: 6px;
+    width: auto;
   }
 
   .middle-border {
@@ -2160,11 +2180,11 @@
   }
 
   .education-detail {
-    margin-left: 12px;
+    margin-left: 10px;
   }
 
   .major {
-    font-size: 13px;
+    font-size: 12px;
     line-height: 18px;
   }
 
@@ -3845,6 +3865,25 @@
     margin-left: 0px;
   }
 
+  .profile-details-area {
+    flex-wrap: wrap;
+  }
+
+  .expertise {
+    flex-basis: 50%;
+    /* margin-right: 20px; */
+    margin-bottom: 4px;
+  }
+
+  .english-level {
+    flex-basis: 45%;
+    margin-left: 10px;
+  }
+
+  .experience {
+    flex-basis: 50%;
+  }
+
   .profile-detail-heading {
     font-size: 11px;
     line-height: 14px;
@@ -3863,6 +3902,10 @@
 
   .image-badge {
     padding-left: 5px;
+  }
+
+  .profile-info {
+    font-size: 13px;
   }
 
   .tags {
@@ -3951,6 +3994,10 @@
     margin-bottom: 12px;
   }
 
+  .progress-info {
+    margin-bottom: 12px;
+  }
+
   .progress-info svg,
   .progress-info svg path {
     width: 83px;
@@ -3964,11 +4011,12 @@
   .detail-wrapper {
     margin-top: 16px;
     margin-left: 6px;
+    width: 293px;
   }
 
   .middle-border {
     height: 143px;
-    margin-top: 26px;
+    margin: 26px 40px 0px;
   }
 
   .hat-icon {
@@ -4794,7 +4842,7 @@
   }
 
   .cv-card-area {
-    padding: 25px;
+    padding: 25px 20px;
     margin-bottom: 30px;
   }
 
@@ -4818,7 +4866,7 @@
   }
 
   .profile-detail-heading {
-    font-size: 14px;
+    font-size: 13px;
     line-height: 16px;
     margin-bottom: 4px;
   }
@@ -4835,6 +4883,10 @@
 
   .image-badge {
     padding-left: 5px;
+  }
+
+  .profile-info {
+    font-size: 13px;
   }
 
   .tags {
@@ -4929,11 +4981,12 @@
   .detail-wrapper {
     margin-top: 20px;
     margin-left: 8px;
+    width: 343px;
   }
 
   .middle-border {
     height: 163px;
-    margin-top: 26px;
+    margin: 26px 60px 0px 50px;
   }
 
   .hat-icon {
@@ -5373,7 +5426,7 @@
   }
 
   .cv-card-area {
-    padding: 30px;
+    padding: 30px 25px;
     margin-bottom: 32px;
   }
 
@@ -5406,6 +5459,31 @@
 
   .tags {
     margin: 16px 10px 0px 0px;
+  }
+
+  .profile-info {
+    width: 103px;
+    font-size: 13px;
+  }
+
+  .common-flex {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .expertise {
+    flex-basis: 32.3%;
+  }
+
+  .english-level {
+    flex-basis: 32.3%;
+    margin-left: 7px;
+  }
+
+  .experience {
+    flex-basis: 37.3%;
+    margin-left: 7px;
   }
 
   .tech-icon {
@@ -5494,11 +5572,16 @@
 
   .middle-border {
     height: 193px;
+    margin: 30px 60px 0px 50px;
   }
 
   .hat-icon {
-    width: 52px;
-    height: 52px;
+    width: 48px;
+    height: 48px;
+  }
+
+  .hat-icon img {
+    width: 30px;
   }
 
   .education-detail {
@@ -5788,7 +5871,7 @@
   }
 
   .profile-area {
-    margin-left: 8px;
+    margin-left: 0px;
   }
 
   .profile-detail-heading {
@@ -5802,6 +5885,30 @@
 
   .tags {
     margin: 20px 10px 0px 0px;
+  }
+
+  .profile-info {
+    width: 103px;
+  }
+
+  .common-flex {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .expertise {
+    flex-basis: 30.3%;
+  }
+
+  .english-level {
+    flex-basis: 30.3%;
+    margin-left: 7px;
+  }
+
+  .experience {
+    flex-basis: 39.3%;
+    margin-left: 7px;
   }
 
   .tech-icon {
@@ -5856,13 +5963,13 @@
 
   .names {
     font-size: 17px;
-    line-height: 32px;
+    line-height: 28px;
     margin-bottom: 16px;
   }
 
   .feedback-name {
     font-size: 17px;
-    line-height: 32px;
+    line-height: 28px;
     margin-bottom: 15px;
   }
 
@@ -5882,12 +5989,17 @@
   }
 
   .middle-border {
-    height: 213px;
+    height: 203px;
+    margin: 30px 60px 0px 50px;
   }
 
   .hat-icon {
-    width: 52px;
-    height: 52px;
+    width: 48px;
+    height: 48px;
+  }
+
+  .hat-icon img {
+    width: 30px;
   }
 
   .education-detail {
@@ -6115,7 +6227,7 @@
   }
 
   .cv-card-area {
-    padding: 40px 35px;
+    padding: 40px 25px;
     margin-bottom: 40px;
   }
 
@@ -6134,11 +6246,11 @@
   }
 
   .profile-area {
-    margin-left: 8px;
+    margin-left: 0px;
   }
 
   .profile-detail-heading {
-    font-size: 16px;
+    font-size: 15px;
     line-height: 20px;
   }
 
@@ -6148,6 +6260,25 @@
 
   .tags {
     margin: 20px 10px 0px 0px;
+  }
+
+  .common-flex {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .expertise {
+    flex-basis: 31.3%;
+  }
+
+  .english-level {
+    flex-basis: 31.3%;
+    margin-left: 7px;
+  }
+
+  .experience {
+    flex-basis: 37.3%;
   }
 
   .tech-icon {
@@ -6189,13 +6320,13 @@
 
   .names {
     font-size: 17px;
-    line-height: 32px;
+    line-height: 28px;
     margin-bottom: 20px;
   }
 
   .feedback-name {
     font-size: 17px;
-    line-height: 32px;
+    line-height: 28px;
     margin-bottom: 20px;
   }
 
@@ -6211,12 +6342,16 @@
   }
 
   .hat-icon {
-    width: 54px;
-    height: 54px;
+    width: 52px;
+    height: 52px;
   }
 
   .education-detail {
     margin-left: 17px;
+  }
+
+  .middle-border {
+    margin: 30px 60px 0px 50px;
   }
 
   .institude-name {
@@ -6455,12 +6590,6 @@
     line-height: 43.2px; /* 180% */
   }
   /* End "Cybersecurity Demo Responsive, Cryptocurrency Demo Responsive & ICO Landing Demo Responsive" */
-
-  /* Start CV Page Responsive */
-  .cv-area {
-    width: 65%;
-    margin: 50px auto;
-  }
 }
 
 @media only screen and (min-width: 1920px) {
@@ -6896,6 +7025,19 @@
   .progress-info-area-small .names,
   .progress-info-area-small .feedback-name {
     margin-bottom: 5px;
+  }
+
+  .expertise {
+    flex-basis: 50%;
+    margin-bottom: 4px;
+  }
+
+  .english-level {
+    flex-basis: 50%;
+  }
+
+  .experience {
+    flex-basis: 50%;
   }
 }
 @media screen and (min-width: 375px) and (max-width: 575px) {

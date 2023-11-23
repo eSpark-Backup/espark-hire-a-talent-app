@@ -3,13 +3,13 @@ import React from "react";
 import CvCard from "./CvCard";
 
 const EducationCertificate = (props) => {
-  const { education, certification } = props;
+  const { education, certification, inter } = props;
 
   return (
     <CvCard>
       <div className="divider">
         {education ? (
-          <div>
+          <div className="education">
             <h1 className="cv-heading">EDUCATION</h1>
 
             <div className="detail-wrapper">
@@ -21,7 +21,9 @@ const EducationCertificate = (props) => {
               </div>
 
               <div className="education-detail">
-                <h4 className="major">{education?.university?.major}</h4>
+                <h4 className={`major ${inter.className}`}>
+                  {education?.university?.major}
+                </h4>
                 <h5 className="institude-name">
                   {education?.university?.name}
                 </h5>
@@ -41,7 +43,9 @@ const EducationCertificate = (props) => {
               </div>
 
               <div className="education-detail">
-                <h4 className="major">{education?.college?.major}</h4>
+                <h4 className={`major ${inter.className}`}>
+                  {education?.college?.major}
+                </h4>
                 <h5 className="institude-name">{education?.college?.name}</h5>
                 <p className="time-period">
                   {education?.college?.fromDate} - {education?.college?.toDate}{" "}
@@ -66,7 +70,7 @@ const EducationCertificate = (props) => {
                   </div>
 
                   <div className="education-detail">
-                    <h4 className="major">{cert?.name}</h4>
+                    <h4 className={`major ${inter.className}`}>{cert?.name}</h4>
                     <h5 className="institude-name">{cert?.from}</h5>
                   </div>
                 </div>
