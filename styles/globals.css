@@ -3036,48 +3036,29 @@ Blog Area CSS
 }
 
 .single-blog-post .image {
-  position: relative;
-  padding-right: 60px;
   border-radius: 15px;
+  display: flex;
 }
 
 .single-blog-post .image img {
   border-radius: 15px;
-  width: 100%;
+  width: 90%;
 }
 
-/* .single-blog-post .image .date {
-    top: -10px;
-    right: -33%;
-    position: absolute;
-    padding-left: 60px;
-    -webkit-transform-origin: 0;
-    transform-origin: 0;
-    -webkit-transform: rotate(90deg);
-    transform: rotate(90deg);
-    color: var(--optionalColor);
-  } */
 
 .single-blog-post .image .date {
-  top: -10px;
-  right: -33%;
-  position: absolute;
-  padding-left: 70px;
-  -webkit-transform-origin: 0;
-  transform-origin: 0;
-  -webkit-transform: rotate(90deg);
-  transform: rotate(90deg);
+  display: flex;
+  position: relative;
+  align-items: center;
+  writing-mode: vertical-lr;
   color: var(--optionalColor);
+  text-orientation: mixed;
+  column-gap: 5px;
 }
 .single-blog-post .image .date::before {
-  left: 0;
-  top: 50%;
-  width: 50px;
-  height: 1px;
+  height: 50px;
+  width: 1px;
   content: '';
-  position: absolute;
-  -webkit-transform: translateY(-50%);
-  transform: translateY(-50%);
   background-color: var(--optionalColor);
 }
 
