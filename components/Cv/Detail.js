@@ -3,7 +3,7 @@ import React from "react";
 import CvCard from "./CvCard";
 
 const Detail = (props) => {
-  const { para, profileDetail } = props;
+  const { para, profileDetail, windowWidth } = props;
   const { expertise, englishLevel, experienceYear, tags, icon } = profileDetail;
 
   return (
@@ -13,7 +13,8 @@ const Detail = (props) => {
         <div className="cv-aboutme-area">
           <h1 className="cv-heading aboutme">About me</h1>
           <div>
-            <p className="aboutme-description">{para?.description}</p>
+            <p className="aboutme-description">{para?.firstParagraph}</p>
+            <p className="aboutme-description">{para?.secondParagraph}</p>
           </div>
         </div>
 
@@ -23,8 +24,12 @@ const Detail = (props) => {
           <h1 className="cv-heading profile-detail">Profile Detail</h1>
 
           <div className="">
-            <div className="profile-details-area">
-              <div className="expertise">
+            <div
+              className={`profile-details-area ${
+                windowWidth < 375 ? "justify-content-start" : ""
+              }`}
+            >
+              <div className="expertise common-flex">
                 <h4 className="profile-detail-heading">Expertise</h4>
                 <div className="with-icon">
                   <p className="profile-info">{expertise}</p>
@@ -34,7 +39,7 @@ const Detail = (props) => {
                 </div>
               </div>
 
-              <div className="english-level">
+              <div className="english-level common-flex">
                 <h4 className="profile-detail-heading">English Level</h4>
                 <div className="with-icon">
                   <p className="profile-info">{englishLevel}</p>
@@ -44,7 +49,7 @@ const Detail = (props) => {
                 </div>
               </div>
 
-              <div className="experience">
+              <div className="experience common-flex">
                 <h4 className="profile-detail-heading">Years of Experience</h4>
                 <p className="profile-info">{experienceYear}</p>
               </div>

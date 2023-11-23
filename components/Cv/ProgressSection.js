@@ -1,26 +1,10 @@
-import React, { useState, useEffect } from "react";
+import React from "react";
 
 import CvCard from "./CvCard";
 import ProgressBar from "./Progressbar";
 
 const ProgressSection = (props) => {
-  const { data, heading, feedback } = props;
-
-  const [windowWidth, setWindowWidth] = useState(null);
-
-  useEffect(() => {
-    const handleResize = () => {
-      setWindowWidth(window.innerWidth);
-    };
-
-    handleResize();
-
-    window.addEventListener("resize", handleResize);
-
-    return () => {
-      window.removeEventListener("resize", handleResize);
-    };
-  }, []);
+  const { data, heading, feedback, windowWidth } = props;
 
   return (
     <CvCard>
@@ -28,13 +12,14 @@ const ProgressSection = (props) => {
 
       <div
         className={[
+          "row",
           "progress-info-area",
           feedback ? "cv-feedback-area" : "",
           windowWidth <= 375 ? "progress-info-area-small" : "",
         ].join(" ")}
       >
-        {data.map((elem, index) => (
-          <div key={index} className="progress-info">
+        {data?.content?.map((elem, index) => (
+          <div key={index} className={`progress-info ${data?.className}`}>
             <h6 className={feedback ? "feedback-name" : "names"}>
               {elem.name}
             </h6>
