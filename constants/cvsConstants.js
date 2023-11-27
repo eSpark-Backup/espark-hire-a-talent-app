@@ -10,9 +10,9 @@ export const cvData = [
     },
 
     aboutMe: {
-      firstParagraph: `Manage google ads, facebook, google analytics and other paid media accounts. Day to day planning and execution of paid media campaigns daily, weekly and monthly monitoring, analysis and reporting of campaigns. Track and analyse results from campaigns to identify potential opportunities for improvements.`,
+      firstParagraph: `Manage google ads, facebook, google analytics and other paid media accounts. Day to day planning and execution of paid media campaigns daily, weekly and monthly monitoring, analysis and reporting of campaigns. Track and analyze results from campaigns to identify potential opportunities for improvements.`,
       secondParagraph:
-        "Track and analyse results from campaigns to identify potential opportunities for improvements.",
+        "Track and analyze results from campaigns to identify potential opportunities for improvements.",
     },
 
     profileDetail: {
@@ -113,13 +113,13 @@ export const cvData = [
           percentage: 40,
         },
       ],
-      className: "col-lg-3 col-md-4 col-sm-6 col-xs-12",
+      className: "col-lg-3 col-md-3 col-sm-6 col-xs-12",
     },
 
     tools: {
       content: [
         {
-          name: "Facebook Ads Manger",
+          name: "Facebook Ads Manager",
           percentage: 40,
         },
         {
@@ -127,7 +127,7 @@ export const cvData = [
           percentage: 40,
         },
         {
-          name: "LinkedIn Ads Manger",
+          name: "LinkedIn Ads Manager",
           percentage: 40,
         },
         {
@@ -135,7 +135,7 @@ export const cvData = [
           percentage: 40,
         },
       ],
-      className: "col-lg-3 col-md-4 col-sm-6 col-xs-12",
+      className: "col-lg-3 col-md-3 col-sm-6 col-xs-12",
     },
 
     education: {
@@ -260,9 +260,9 @@ export const cvData = [
         company: "Innovative Network Private Ltd",
         workDescription: [
           "Improved code maintainability for all companies brand websites",
-          "Deployed NODEJ S Application on Google C loud Platform",
+          "Deployed NODEJS Application on Google Cloud Platform",
           "Developed Dashboards on PHP Laravel & Core PHP",
-          "Deployed 3 MERN Stack Apps & RES T APIs on Digital Oceans Ubuntu Server",
+          "Deployed 3 MERN Stack Apps & REST APIs on Digital Oceans Ubuntu Server",
         ],
       },
     ],
@@ -286,7 +286,7 @@ export const cvData = [
           percentage: 40,
         },
       ],
-      className: "col-lg-3 col-md-4 col-sm-6 sol-xs-12",
+      className: "col-lg-3 col-md-3 col-sm-6 sol-xs-12",
     },
 
     tools: {
@@ -308,7 +308,7 @@ export const cvData = [
           percentage: 40,
         },
       ],
-      className: "col-lg-3 col-md-4 col-sm-6 sol-xs-12",
+      className: "col-lg-3 col-md-3 col-sm-6 sol-xs-12",
     },
 
     certification: [
@@ -444,7 +444,7 @@ export const cvData = [
           percentage: 40,
         },
       ],
-      className: "col-lg-3 col-md-4 col-sm-6 col-xs-12",
+      className: "col-lg-3 col-md-3 col-sm-6 col-xs-12",
     },
 
     tools: {
@@ -466,7 +466,7 @@ export const cvData = [
           percentage: 40,
         },
       ],
-      className: "col-lg-3 col-md-4 col-sm-6 col-xs-12",
+      className: "col-lg-3 col-md-3 col-sm-6 col-xs-12",
     },
 
     education: {
@@ -481,7 +481,7 @@ export const cvData = [
         name: "Board of Intermediate Education",
         fromDate: "2011",
         toDate: " 2013",
-        major: "F.Sc (Pre -Engginering)",
+        major: "F.Sc (Pre-Engineering)",
         logo: "/images/cvs/filled-hat.png",
       },
     },
@@ -530,7 +530,7 @@ export const cvData = [
 
     aboutMe: {
       firstParagraph:
-        "I'm a Computer System graduate with a passion for crafting top-notch web applications that exceed client expectations. As a lifelong learner with an insatiable curiosity, I'm always seeking to broaden my knowledge and skill set to stay ahead of the curve. Currently, I'm a React JS developer working on cutting-edge products  that has challenged me to push the boundaries of my technical skills. With expertise in React JS, Next JS, and React Native, I'm a versatile developer who's equally comfortable working on web and mobile applications.",
+        "I'm a Computer System graduate with a passion for crafting top-notch web applications that exceed client expectations. As a lifelong learner with an insatiable curiosity, I'm always seeking to broaden my knowledge and skillset to stay ahead of the curve. Currently, I'm a React JS developer working on cutting-edge products  that has challenged me to push the boundaries of my technical skills. With expertise in React JS, Next JS, and React Native, I'm a versatile developer who's equally comfortable working on web and mobile applications.",
     },
 
     profileDetail: {
@@ -624,7 +624,7 @@ export const cvData = [
           percentage: 40,
         },
       ],
-      className: "col-lg-3 col-md-4 col-sm-6 col-xs-12",
+      className: "col-lg-3 col-md-3 col-sm-6 col-xs-12",
     },
 
     tools: {
@@ -646,7 +646,7 @@ export const cvData = [
           percentage: 40,
         },
       ],
-      className: "col-lg-3 col-md-4 col-sm-6 col-xs-12",
+      className: "col-lg-3 col-md-3 col-sm-6 col-xs-12",
     },
 
     education: {
@@ -805,7 +805,7 @@ export const cvData = [
           percentage: 40,
         },
       ],
-      className: "col-lg-3 col-md-4 col-sm-6 col-xs-12",
+      className: "col-lg-3 col-md-3 col-sm-6 col-xs-12",
     },
 
     tools: {
@@ -827,7 +827,7 @@ export const cvData = [
           percentage: 40,
         },
       ],
-      className: "col-lg-3 col-md-4 col-sm-6 col-xs-12",
+      className: "col-lg-3 col-md-3 col-sm-6 col-xs-12",
     },
 
     education: {
@@ -982,7 +982,7 @@ export const cvData = [
           percentage: 40,
         },
       ],
-      className: "col-lg-3 col-md-4 col-sm-6 col-xs-12",
+      className: "col-lg-3 col-md-3 col-sm-6 col-xs-12",
     },
 
     tools: {
@@ -1004,7 +1004,7 @@ export const cvData = [
           percentage: 40,
         },
       ],
-      className: "col-lg-3 col-md-4 col-sm-6 col-xs-12",
+      className: "col-lg-3 col-md-3 col-sm-6 col-xs-12",
     },
 
     education: {
@@ -1019,7 +1019,7 @@ export const cvData = [
         name: "Government Degree College",
         fromDate: "2011",
         toDate: " 2013",
-        major: "F.Sc (Pre -Engginering)",
+        major: "F.Sc (Pre-Engineering)",
         logo: "/images/cvs/filled-hat.png",
       },
     },
@@ -1153,7 +1153,7 @@ export const cvData = [
           percentage: 40,
         },
       ],
-      className: "col-lg-3 col-md-4 col-sm-6 col-xs-12",
+      className: "col-lg-3 col-md-3 col-sm-6 col-xs-12",
     },
 
     tools: {
@@ -1175,7 +1175,7 @@ export const cvData = [
           percentage: 40,
         },
       ],
-      className: "col-lg-3 col-md-4 col-sm-6 col-xs-12",
+      className: "col-lg-3 col-md-3 col-sm-6 col-xs-12",
     },
 
     education: {
@@ -1241,7 +1241,7 @@ export const cvData = [
       expertise: "Embedded Systems",
       englishLevel: "english",
       experienceYear: "5+ years",
-      tags: ["circuit designing", "Proteus", "EagleCAD"],
+      tags: ["Circuit Designing", "Proteus", "EagleCAD"],
       icon: "/images/cvs/badge.png",
     },
 
@@ -1324,7 +1324,7 @@ export const cvData = [
           percentage: 40,
         },
       ],
-      className: "col-lg-3 col-md-4 col-sm-6 col-xs-12",
+      className: "col-lg-3 col-md-3 col-sm-6 col-xs-12",
     },
 
     tools: {
@@ -1346,7 +1346,7 @@ export const cvData = [
           percentage: 40,
         },
       ],
-      className: "col-lg-3 col-md-4 col-sm-6 col-xs-12",
+      className: "col-lg-3 col-md-3 col-sm-6 col-xs-12",
     },
 
     education: {
@@ -1398,14 +1398,14 @@ export const cvData = [
     banner: {
       image: "/images/cvs/employee-images/muzzamil.png",
       name: "Muzamil Ali",
-      post: "fRONT END DEVELOPER",
+      post: "FRONT END DEVELOPER",
       tag: "crafting user-friendly digital experiences",
       hireMe: "Muzamil Ali",
     },
 
     aboutMe: {
       firstParagraph:
-        "Muzamil Ali This side! Completed my Bachelors in Computer System Engineering. Innovative Frontend Developer with two year of building websites, I enjoy working in front end technologies. My core expertise lies in Javascript Reactjs React-native Bootstrap TailwindCSS Sass HTML CSS. I am constantly looking to expand my skillset my intention is to get to peak of MERN STACK Developer.",
+        "Muzamil Ali This side! Completed my Bachelors in Computer System Engineering. Innovative Frontend Developer with two year of building websites, I enjoy working in front end technologies. My core expertise lies in JavaScript Reactjs React-native Bootstrap TailwindCSS Sass HTML CSS. I am constantly looking to expand my skillset my intention is to get to peak of MERN STACK Developer.",
     },
 
     profileDetail: {
@@ -1492,7 +1492,7 @@ export const cvData = [
           percentage: 40,
         },
       ],
-      className: "col-lg-3 col-md-4 col-sm-6 col-xs-12",
+      className: "col-lg-3 col-md-3 col-sm-6 col-xs-12",
     },
 
     tools: {
@@ -1514,7 +1514,7 @@ export const cvData = [
           percentage: 40,
         },
       ],
-      className: "col-lg-3 col-md-4 col-sm-6 col-xs-12",
+      className: "col-lg-3 col-md-3 col-sm-6 col-xs-12",
     },
 
     education: {

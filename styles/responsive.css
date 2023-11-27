@@ -3,42 +3,53 @@
   body {
     font-size: 15px;
   }
+
   p {
     font-size: 15px;
   }
+
   .ptb-100 {
     padding-top: 60px;
     padding-bottom: 60px;
   }
+
   .pt-100 {
     padding-top: 60px;
   }
+
   .pb-100 {
     padding-bottom: 60px;
   }
+
   .ptb-70 {
     padding-top: 30px;
     padding-bottom: 30px;
   }
+
   .pt-70 {
     padding-top: 30px;
   }
+
   .pb-70 {
     padding-bottom: 30px;
   }
+
   .default-btn {
     padding: 11px 25px 11px 55px;
     font-size: 14px;
   }
+
   .default-btn span {
     width: 43px;
     height: 43px;
     font-size: 28px;
     line-height: 43px;
   }
+
   .default-btn::before {
     width: 43px;
   }
+
   /* .default-btn.style-two {
     padding-top: 10px;
     padding-left: 25px;
@@ -54,18 +65,22 @@
     width: 192px;
     font-size: 14px;
   }
+
   .default-btn.style-two span {
     right: 16px;
     font-size: 22px;
   }
+
   .section-title {
     margin-bottom: 35px;
   }
+
   .section-title .sub-title {
     margin-bottom: 12px;
     padding: 3px 15px;
     font-size: 12px;
   }
+
   .section-title h2 {
     font-size: 25px;
   }
@@ -75,17 +90,21 @@
     font-size: 25px;
     line-height: 42px;
   }
+
   .thank-header .thankyou-heading-2 {
     font-size: 22px;
     line-height: 26px;
   }
+
   .thank-header .thankyou-paragraph {
     font-size: 15px;
     line-height: 20px;
   }
+
   .thankyou-features-box h3 {
     font-size: 18px;
   }
+
   .thankyou-features-box ul li {
     font-size: 15px;
   }
@@ -93,81 +112,102 @@
   .section-title h2 br {
     display: none !important;
   }
+
   .section-title.style-two {
     text-align: center;
   }
+
   .section-title.style-two p {
     margin-top: 10px;
   }
+
   .form-control {
     padding: 14px 15px;
     font-size: 14px;
   }
+
   .top-header-area {
     text-align: center;
     padding-bottom: 15px;
     border-bottom: 1px solid #eeeeee;
   }
+
   .top-header-start .logo {
     display: none !important;
   }
+
   .top-header-start .search-box {
     width: 100%;
     max-width: 290px;
     margin-left: auto;
     margin-right: auto;
   }
+
   .top-header-start .search-box .input-search {
     border-color: #f9f9f9;
     background-color: #f9f9f9;
   }
+
   .top-header-end {
     text-align: center;
     margin-top: 15px;
   }
+
   .top-header-end .justify-content-end {
     -webkit-box-pack: center !important;
     -ms-flex-pack: center !important;
     justify-content: center !important;
   }
+
   .top-header-end .number::before {
     margin-top: 1px;
   }
+
   .top-header-end .number a i {
     width: 25px;
     height: 25px;
     font-size: 14px;
     line-height: 23px;
   }
+
   .top-header-end .social-links li a {
     font-size: 16px;
   }
+
   .main-banner-area {
     padding-top: 60px;
   }
+
   .main-banner-content {
     text-align: center;
   }
+
   .main-banner-content .sub-title {
     font-size: 13px;
   }
+
   .main-banner-content h1 {
     font-size: 30px;
   }
+
   .main-banner-content .default-btn {
     margin-top: 5px;
   }
+
   .main-banner-image {
     margin-top: 30px;
     padding-top: 0;
     padding-right: 0;
   }
+
   .main-banner-image::before {
     display: none;
   }
+
   .main-banner-image .shape {
     display: none;
   }
+
   .shape1,
   .shape2,
   .shape3,
@@ -178,48 +218,61 @@
   .shape8 {
     display: none;
   }
+
   .single-features-box {
     padding: 20px 15px;
   }
+
   .single-features-box .icon {
     margin-bottom: 25px;
   }
+
   .single-features-box .icon img {
     width: 50px;
   }
+
   .single-features-box h3 {
     margin-bottom: 12px;
     font-size: 18px;
   }
+
   .about-image {
     padding-right: 0;
   }
+
   .about-content {
     padding-left: 0;
     text-align: center;
     margin-top: 30px;
   }
+
   .about-content .sub-title {
     padding: 3px 15px;
     font-size: 12px;
   }
+
   .about-content h2 {
     font-size: 25px;
   }
+
   .about-content p {
     max-width: 100%;
   }
+
   .about-content .features-list {
     margin-left: -10px;
     margin-right: -10px;
   }
+
   .about-content .features-list li {
     padding-left: 10px;
     padding-right: 10px;
   }
+
   .about-content .features-list li .d-flex {
     display: block !important;
   }
+
   .about-content .features-list li .icon {
     width: 80px;
     height: 80px;
@@ -228,106 +281,135 @@
     margin-right: auto;
     margin-bottom: 15px;
   }
+
   .about-content .features-list li .icon img {
     width: 45px;
   }
+
   .about-content .features-list li span {
     margin-left: 0;
     font-size: 16px;
   }
+
   .single-services-box {
     padding: 20px 15px;
     text-align: center;
   }
+
   .single-services-box .d-flex {
     display: block !important;
   }
+
   .single-services-box img {
     width: 50px;
   }
+
   .single-services-box h3 {
     font-size: 18px;
     margin-left: 0;
     margin-top: 18px;
   }
+
   .single-services-box p {
     margin-top: 12px;
   }
+
   .single-services-box .features-list li span {
     text-align: start;
     /* display: inline-block; */
     /* font-size: 9px; */
   }
+
   .single-services-box .default-btn {
     margin-top: 25px;
   }
+
   .single-services-box::after {
     margin: 2px;
   }
+
   .process-inner {
     padding-top: 30px;
     padding-left: 15px;
     padding-right: 15px;
     padding-bottom: 0;
   }
+
   .single-process-box {
     text-align: center;
   }
+
   .single-process-box .icon img {
     width: 70px;
   }
+
   .single-process-box h3 {
     font-size: 18px;
   }
+
   .single-case-studies-box {
     text-align: center;
   }
+
   .single-case-studies-box .content {
     max-width: 100%;
     padding-right: 0;
   }
+
   .single-case-studies-box .content h3 {
     font-size: 18px;
   }
+
   .single-case-studies-box .content .features-list {
     padding-left: 15px;
     padding-right: 15px;
   }
+
   .single-case-studies-box .content .features-list li {
     font-size: 15px;
     margin-left: 8px;
     margin-right: 8px;
   }
+
   .single-case-studies-box .content .features-list li:first-child {
     margin-left: 0;
   }
+
   .single-case-studies-box .content .features-list li span {
     font-size: 13px;
   }
+
   .single-case-studies-box .content .default-btn {
     margin-top: 25px;
   }
+
   .single-case-studies-box .image {
     text-align: center;
     padding-top: 0;
     margin-top: 30px;
   }
+
   .single-case-studies-box .image::before {
     display: none;
   }
+
   .case-studies-area.extra-top-padding {
     padding-top: 60px;
   }
+
   .case-studies-box {
     padding: 20px 15px;
   }
+
   .case-studies-box img {
     margin-bottom: 20px;
   }
+
   .case-studies-box h3 {
     margin-bottom: 12px;
     font-size: 18px;
   }
+
   .case-studies-box .default-btn {
     left: 0;
     bottom: 0;
@@ -338,62 +420,79 @@
     position: relative;
     visibility: visible;
   }
+
   .case-studies-box:hover img {
     -webkit-transform: scale(1) translateY(0);
     transform: scale(1) translateY(0);
   }
+
   .case-studies-box:hover h3 {
     -webkit-transform: translateY(0);
     transform: translateY(0);
   }
+
   .case-studies-box:hover p {
     -webkit-transform: translateY(0);
     transform: translateY(0);
   }
+
   .case-studies-box:hover .default-btn {
     bottom: 0;
   }
+
   .case-studies-list {
     padding-left: 0;
     padding-right: 0;
   }
+
   .case-studies-list .single-case-studies-item {
     margin-left: 0;
     margin-right: 0;
     margin-bottom: 30px;
   }
+
   .case-studies-list .col-lg-5:nth-child(2) {
     margin-top: 0;
   }
+
   .single-case-studies-item {
     text-align: center;
     padding: 15px 15px 25px;
   }
+
   .single-case-studies-item img {
     margin-bottom: 10px;
   }
+
   .single-case-studies-item h3 {
     font-size: 18px;
   }
+
   .single-case-studies-item .default-btn {
     margin-top: 5px;
   }
+
   .shorting-menu {
     margin-bottom: 25px;
   }
+
   .shorting-menu .filter {
     padding: 8px 25px;
     margin-bottom: 15px;
   }
+
   .team-area.bg-gradient-image {
     border-bottom: 1px solid #eeeeee;
   }
+
   .single-team-box .content h3 {
     font-size: 18px;
   }
+
   .single-blog-post .image {
     padding-right: 0;
   }
+
   .single-blog-post .image .date {
     top: 0;
     right: 0;
@@ -406,14 +505,17 @@
     -webkit-transform-origin: 0;
     transform-origin: 0;
   }
+
   .single-blog-post .image .date::before {
     width: 15px;
     margin-top: 1px;
   }
+
   .single-blog-post .content {
     padding-right: 0;
     margin-top: 15px;
   }
+
   /* .single-blog-post .content h3 {
     font-size: 18px;
   } */
@@ -421,268 +523,340 @@
     font-size: 18px;
     height: auto;
   }
+
   .single-blog-post .content p {
     height: auto;
   }
+
   .single-blog-post .content .default-btn {
     margin-top: 0;
   }
+
   .get-started-area .col-lg-6:first-child {
     -webkit-box-ordinal-group: 3;
     -ms-flex-order: 2;
     order: 2;
   }
+
   .get-started-area .col-lg-6:last-child {
     -webkit-box-ordinal-group: 2;
     -ms-flex-order: 1;
     order: 1;
   }
+
   .get-started-content {
     padding-top: 0;
     text-align: center;
   }
+
   .get-started-content .sub-title {
     margin-bottom: 12px;
     padding: 3px 15px;
     font-size: 12px;
   }
+
   .get-started-content h2 {
     font-size: 25px !important;
     margin-bottom: 12px;
   }
+
   .get-started-content .default-btn {
     margin-top: 5px;
   }
+
   .get-started-image {
     margin-top: 30px;
   }
+
   .get-started-image::before {
     display: none;
   }
+
   .page-title-area {
     padding-top: 60px;
     padding-bottom: 60px;
   }
+
   .page-title-content h1 {
     font-size: 25px;
   }
+
   .page-title-content ul {
     margin-top: 10px;
   }
+
   .page-title-content ul li {
     font-size: 14px;
   }
+
   .page-title-content ul li::before {
     top: 0.5px;
   }
+
   .page-title-content .clients-list {
     max-width: 100%;
     margin-top: 20px;
   }
+
   .page-title-content .clients-list .box {
     line-height: 75px;
     height: 80px;
     width: 80px;
   }
+
   .page-title-content .clients-list .box a img {
     width: 35px;
   }
+
   .awards-list {
     margin-top: 60px;
     padding-left: 0;
     padding-right: 0;
   }
+
   .awards-list h4 {
     margin-bottom: 10px;
     padding: 5px 20px;
     font-size: 13px;
   }
+
   .awards-list .awards-box {
     margin-top: 30px;
   }
+
   .single-feedback-box {
     padding: 40px 20px;
   }
+
   .single-feedback-box .client-info {
     margin-top: 20px;
   }
+
   .single-feedback-box .client-info h3 {
     font-size: 16px;
   }
+
   .single-feedback-box .client-info span {
     font-size: 14px;
   }
+
   .single-feedback-box::before {
     right: 20px;
     bottom: 30px;
   }
+
   .single-pricing-box {
     -webkit-box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
     box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
     padding: 20px;
   }
+
   .single-pricing-box .pricing-header h3 {
     font-size: 18px;
   }
+
   .single-pricing-box .pricing-header p {
     font-size: 14px;
   }
+
   .single-pricing-box .price {
     margin-top: 20px;
   }
+
   .single-pricing-box .price h4 {
     font-size: 30px;
   }
+
   .single-pricing-box .price p {
     font-size: 14px;
   }
+
   .single-pricing-box .link-btn {
     margin-top: 20px;
     padding: 12px 30px;
     font-size: 14px;
   }
+
   .single-pricing-box .features-list {
     margin-top: 30px;
   }
+
   .single-pricing-box .features-list h5 {
     font-size: 14px;
   }
+
   .single-pricing-box .features-list ul li {
     font-size: 14px;
   }
+
   .single-pricing-box .ribbon span {
     font-size: 12px;
   }
+
   .faq-accordion .accordion-item .accordion-button {
     font-size: 15px;
     padding-top: 10px;
     padding-right: 40px;
     padding-bottom: 10px;
   }
+
   .faq-accordion .accordion-item .accordion-button::before {
     width: 30px;
     height: 30px;
     font-size: 15px;
     line-height: 30px;
   }
+
   .faq-accordion .accordion-item .accordion-body {
     padding: 15px;
   }
-  .plans-compare-table .table > thead tr th {
+
+  .plans-compare-table .table>thead tr th {
     padding: 10px 20px;
     font-size: 18px;
   }
-  .plans-compare-table .table > tbody tr td {
+
+  .plans-compare-table .table>tbody tr td {
     padding: 10px 20px;
     font-size: 15px;
   }
-  .plans-compare-table .table > tbody tr td i {
+
+  .plans-compare-table .table>tbody tr td i {
     font-size: 17px;
   }
-  .plans-compare-table .table > tfoot tr td {
+
+  .plans-compare-table .table>tfoot tr td {
     white-space: nowrap;
     padding: 10px 20px;
     font-size: 15px;
   }
-  .plans-compare-table .table > tfoot tr td .link-btn {
+
+  .plans-compare-table .table>tfoot tr td .link-btn {
     padding: 10px 20px;
     font-size: 14px;
   }
+
   .services-details-area {
     padding-top: 60px;
   }
+
   .services-details-content .box {
     line-height: 90px;
     height: 90px;
     width: 90px;
   }
+
   .services-details-content .sub-title {
     padding: 4px 20px;
     font-size: 13px;
   }
+
   .services-details-content h1 {
     font-size: 25px;
   }
+
   .services-details-content .contact-form {
     max-width: 100%;
     padding: 20px 15px;
   }
+
   .single-contact-info-box {
     padding: 20px;
   }
+
   .single-contact-info-box .icon {
     width: 75px;
     height: 75px;
     font-size: 35px;
     margin-bottom: 20px;
   }
+
   .single-contact-info-box h3 {
     font-size: 18px;
   }
+
   .contact-form {
     padding: 30px 15px;
   }
+
   .contact-form .form-group {
     padding-top: 10px;
     margin-bottom: 25px;
   }
+
   .contact-form .form-group label {
     font-size: 13px;
   }
+
   .contact-form .form-check {
     margin-top: 0;
   }
+
   .contact-form .default-btn {
     margin-top: 20px;
   }
+
   .pagination-area {
     margin-top: 0;
     padding-top: 25px;
   }
+
   .pagination-area .page-numbers {
     width: 40px;
     height: 40px;
     font-size: 14px;
     line-height: 38px;
   }
+
   .blog-details-area {
     padding-top: 60px;
   }
+
   .blog-details-header {
     text-align: center;
   }
+
   .blog-details-header .content .category {
     padding: 4px 20px;
     font-size: 13px;
   }
+
   .blog-details-header .content h1 {
     font-size: 25px;
     margin-bottom: 12px;
   }
+
   .blog-details-header .content p {
     padding-right: 0;
   }
+
   .blog-details-header .content .post-author-meta {
     margin-top: 20px;
   }
+
   .blog-details-header .content .post-author-meta .d-flex {
     -webkit-box-pack: center;
     -ms-flex-pack: center;
     justify-content: center;
   }
+
   .blog-details-header .content .post-author-meta .title {
     margin-left: 15px;
     text-align: start;
   }
+
   .blog-details-header .content .post-author-meta .title .name {
     font-size: 15px;
   }
+
   .blog-details-header .content .post-author-meta .title .date {
     font-size: 14px;
   }
+
   .blog-details-header .image {
     margin-top: 30px;
   }
+
   /* .blog-details-desc {
     padding-top: 45px;
   } */
@@ -692,83 +866,103 @@
     -webkit-box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
     box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
   }
+
   .blog-details-desc .article-content .social-links {
     display: none;
   }
+
   .blog-details-desc .article-content p {
     margin-bottom: 15px;
     font-size: 14px;
   }
+
   .blog-details-desc .article-content h3 {
     line-height: 1.4;
     font-size: 18px;
     margin-top: 30px;
     margin-bottom: 12px;
   }
+
   .blog-details-desc .article-content ul {
     margin-bottom: 20px;
     font-size: 14px;
   }
+
   .blog-details-desc .article-content .wp-block-gallery.columns-3 {
     margin-bottom: 20px;
     margin-top: 20px;
   }
+
   .blog-details-desc .article-content .article-tags {
     margin-top: 20px;
   }
+
   .blog-details-desc .article-content .article-tags a {
     padding: 4px 15px;
     margin-right: 5px;
     font-size: 12px;
   }
+
   .blog-details-desc .comment-respond {
     margin-top: 30px;
     padding-top: 20px;
   }
+
   .blog-details-desc .comment-respond .comment-form .form-group {
     padding-top: 10px;
     margin-bottom: 25px;
   }
+
   .blog-details-desc .comment-respond .comment-form .form-group label {
     font-size: 13px;
   }
+
   .blog-details-desc .comment-respond .comment-form .form-check {
     margin-top: 20px;
   }
+
   blockquote,
   .blockquote {
     padding: 20px !important;
     margin-top: 20px;
     margin-bottom: 20px;
   }
+
   blockquote p,
   .blockquote p {
     font-size: 15px !important;
   }
+
   .case-studies-details-header .col-lg-6:nth-child(1) {
     -webkit-box-ordinal-group: 3;
     -ms-flex-order: 2;
     order: 2;
   }
+
   .case-studies-details-header .col-lg-6:nth-child(2) {
     -webkit-box-ordinal-group: 2;
     -ms-flex-order: 1;
     order: 1;
   }
+
   .case-studies-details-header .content {
     padding-left: 0;
     text-align: center;
   }
+
   .case-studies-details-header .content img {
     margin-bottom: 20px;
   }
+
   .case-studies-details-header .content h1 {
     margin-bottom: 12px;
     font-size: 24px;
   }
+
   .case-studies-details-header .content p {
     font-size: 14px;
   }
+
   .case-studies-details-header .content .meta {
     background-color: transparent;
     -webkit-box-shadow: unset;
@@ -777,6 +971,7 @@
     padding-left: 0;
     padding-right: 0;
   }
+
   .case-studies-details-header .content .meta li {
     text-align: start;
     border-right: none;
@@ -787,61 +982,76 @@
     margin-right: 20px;
     margin-top: 25px;
   }
+
   .case-studies-details-header .content .meta li i {
     top: 1px;
     font-size: 25px;
   }
+
   .case-studies-details-header .image {
     padding-right: 0;
     margin-top: 35px;
   }
+
   .case-studies-details-desc .article-content {
     padding: 25px 20px;
     -webkit-box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
     box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
   }
+
   .case-studies-details-desc .article-content .mb-40 {
     margin-bottom: 25px;
   }
+
   .case-studies-details-desc .article-content h2 {
     letter-spacing: 1px;
     font-size: 20px;
     margin-right: 0;
     margin-bottom: 15px;
   }
+
   .case-studies-details-desc .article-content h2 span {
     padding-right: 0;
   }
+
   .case-studies-details-desc .article-content h2::before {
     display: none;
   }
+
   .case-studies-details-desc .article-content .wp-block-gallery.columns-3 {
     margin-top: 25px;
     margin-bottom: 25px;
   }
+
   .case-studies-details-desc .article-content h3 {
     font-size: 18px;
     line-height: 1.4;
     margin-bottom: 12px;
   }
+
   .case-studies-details-desc .article-content .article-tags {
     margin-bottom: -10px;
   }
+
   .case-studies-details-desc .article-content .article-tags a {
     font-size: 13px;
     margin-bottom: 10px;
   }
+
   .footer-area {
     padding-top: 60px;
   }
+
   .single-footer-widget .newsletter-form {
     margin-top: 20px;
     padding-right: 0;
   }
+
   .single-footer-widget .newsletter-form form .input-newsletter {
     font-size: 14px;
     height: 48px;
   }
+
   .single-footer-widget .newsletter-form form button {
     height: auto;
     font-size: 14px;
@@ -849,99 +1059,127 @@
     position: relative;
     padding: 11px 42px 11px 20px;
   }
+
   .single-footer-widget .social-links {
     margin-top: 20px;
   }
+
   .single-footer-widget h3 {
     font-size: 18px;
     margin-bottom: 20px;
   }
+
   .single-footer-widget.pl-5 {
     padding-left: 0;
   }
+
   .copyright-area {
     margin-top: 30px;
     text-align: center;
   }
+
   .copyright-area ul {
     text-align: center;
     margin-top: 15px;
   }
+
   .go-top {
     width: 35px;
     height: 35px;
     font-size: 25px;
   }
+
   /*new-css*/
   .banner-area {
     padding-top: 60px;
   }
+
   .banner-content {
     max-width: 100%;
   }
+
   .banner-content .sub-title {
     font-size: 13px;
   }
+
   .banner-content h1 {
     font-size: 30px;
   }
+
   .banner-content .default-btn {
     margin-top: 5px;
   }
+
   .banner-content img {
     margin-top: 25px;
   }
+
   .shape9 {
     display: none;
   }
+
   .home-area {
     padding-top: 60px;
   }
+
   .home-area::before {
     display: none;
   }
+
   .home-content {
     top: 0;
     text-align: center;
   }
+
   .home-content .sub-title {
     font-size: 13px;
   }
+
   .home-content h1,
   .subscribe2-inner h1 {
     font-size: 30px;
   }
+
   .home-content .default-btn {
     margin-top: 5px;
   }
+
   .home-image {
     margin-top: 30px;
   }
+
   .single-services-item {
     padding: 20px 15px;
     text-align: center;
   }
+
   .single-services-item .d-flex {
     display: block !important;
   }
+
   .single-services-item img {
     width: 50px;
   }
+
   .single-services-item h3 {
     font-size: 18px;
     margin-left: 0;
     margin-top: 18px;
   }
+
   .single-services-item p {
     margin-top: 12px;
   }
+
   .single-services-item .features-list li span {
     text-align: start;
     display: inline-block;
   }
+
   .single-services-item .default-btn {
     margin-top: 25px;
   }
+
   .single-services-item.with-boxshadow {
     -webkit-box-shadow: unset !important;
     box-shadow: unset !important;
@@ -951,6 +1189,7 @@
   .single-services-item.with-boxshadow .default-btn {
     margin-top: 0;
   }
+
   .services-slides-two {
     margin-top: 0;
     margin-left: 0;
@@ -959,54 +1198,69 @@
     padding-left: 0;
     padding-right: 0;
   }
+
   .about-img {
     padding-right: 0;
   }
+
   .single-feedback-item {
     padding: 30px 20px;
   }
+
   .single-feedback-item .client-info {
     margin-top: 20px;
   }
+
   .single-feedback-item .client-info h3 {
     font-size: 16px;
   }
+
   .single-feedback-item .client-info span {
     font-size: 14px;
   }
+
   .single-feedback-item::before {
     right: 20px;
     bottom: 30px;
   }
+
   .team-section-title {
     padding-left: 0;
     margin-top: 30px;
     text-align: left;
   }
+
   .team-section-title .sub-title {
     margin-bottom: 12px;
     padding: 3px 15px;
     font-size: 12px;
   }
+
   .team-section-title h2 {
     font-size: 25px;
   }
+
   .team-section-title h2 br {
     display: none !important;
   }
+
   .team-section-title .default-btn {
     margin-top: 3px;
   }
+
   .team-member-list {
     padding-right: 0;
   }
+
   .single-team-member .content {
     border-radius: 0 15px 0 0;
     padding: 10px 15px;
   }
+
   .single-team-member .content h3 {
     font-size: 18px;
   }
+
   .single-funfacts-box {
     padding: 0;
     margin-top: 0;
@@ -1015,6 +1269,7 @@
     text-align: center;
     background-color: transparent;
   }
+
   .single-funfacts-box .icon {
     position: relative;
     font-size: 35px;
@@ -1026,41 +1281,52 @@
     margin-right: auto;
     margin-bottom: 20px;
   }
+
   .quote-area {
     padding-top: 60px;
     padding-bottom: 60px;
   }
+
   .quote-area::before {
     display: none;
   }
+
   .quote-content .sub-title {
     margin-bottom: 12px;
     padding: 3px 15px;
     font-size: 12px;
   }
+
   .quote-content h2 {
     font-size: 25px;
   }
+
   .quote-content h2 br {
     display: none !important;
   }
+
   .quote-content form {
     max-width: 100%;
     margin-top: 20px;
   }
+
   .quote-content form .pr-0 {
     padding-right: calc(var(--bs-gutter-x) / 2);
   }
+
   .quote-content form .pl-0 {
     padding-left: calc(var(--bs-gutter-x) / 2);
   }
+
   .quote-content form .form-group {
     margin-bottom: 15px;
   }
+
   .quote-content form .form-group .form-control {
     height: 45px;
     font-size: 14px;
   }
+
   .quote-content form button {
     height: auto;
     font-size: 14px;
@@ -1069,35 +1335,43 @@
     padding-right: 52px;
     padding-bottom: 10px;
   }
+
   .shape10,
   .shape11,
   .shape12 {
     display: none;
   }
+
   .subscribe-inner {
     padding: 60px 15px;
     border-radius: 10px;
   }
+
   .subscribe-inner .sub-title {
     margin-bottom: 12px;
     padding: 3px 15px;
     font-size: 12px;
   }
+
   .subscribe-inner h2 {
     font-size: 25px;
   }
+
   .subscribe-inner p {
     max-width: 100%;
   }
+
   .subscribe-inner .newsletter-form {
     max-width: 100%;
     margin-top: 20px;
     padding-right: 0;
   }
+
   .subscribe-inner .newsletter-form .input-newsletter {
     height: 45px;
     font-size: 14px;
   }
+
   .subscribe-inner .newsletter-form button {
     position: relative;
     height: auto;
@@ -1108,544 +1382,681 @@
     padding-right: 42px;
     padding-bottom: 10px;
   }
+
   .subscribe-inner .newsletter-form button i {
     font-size: 22px;
     right: 20px;
   }
+
   /* Start "Cybersecurity Demo Responsive, Cryptocurrency Demo Responsive & ICO Landing Demo Responsive" */
   .top-header-black-info {
     text-align: center;
   }
+
   .top-header-black-info li {
     margin-bottom: 5px;
   }
+
   .top-header-black-info li:last-child {
     margin-bottom: 0;
   }
+
   .top-header-black-social-links {
     text-align: center;
     margin-top: 10px;
   }
+
   .navbar-area-with-position-relative {
     padding-top: 28px;
     padding-bottom: 28px;
   }
+
   .navbar-area-with-position-relative.with-black-color.is-sticky {
     background-color: var(--whiteColor) !important;
   }
+
   .navbar-area-with-position-relative.with-black-color.is-sticky .navbar {
     background-color: var(--whiteColor) !important;
   }
+
   .cybersecurity-banner-area {
     padding-top: 50px;
     border-bottom: 1px solid #eee;
   }
+
   .cybersecurity-banner-area .container-fluid {
     padding-right: var(--bs-gutter-x, 0.75rem);
     padding-left: var(--bs-gutter-x, 0.75rem);
     max-width: 540px;
   }
+
   .cybersecurity-banner-content {
     position: relative;
     top: 0;
   }
+
   .cybersecurity-banner-content .sub-title {
     font-size: 15px;
   }
+
   .cybersecurity-banner-content h1 {
     font-size: 30px;
     margin-bottom: 15px;
   }
+
   .cybersecurity-banner-content .default-btn {
     margin-top: 5px;
   }
+
   .cybersecurity-banner-image {
     text-align: center;
     margin-top: 30px;
   }
+
   .single-features-card {
     padding: 20px;
   }
+
   .single-features-card h3 {
     font-size: 20px;
     margin-bottom: 12px;
   }
+
   .what-we-work-image {
     text-align: center;
     margin-bottom: 30px;
   }
+
   .what-we-work-content {
     padding-left: 0;
   }
+
   .what-we-work-content .sub-title {
     font-size: 15px;
   }
+
   .what-we-work-content h2 {
     font-size: 25px !important;
   }
+
   .what-we-work-content .we-work-inner-box {
     padding: 20px;
   }
+
   .what-we-work-content .we-work-inner-box .image {
     position: relative;
     left: 0;
     top: 0;
     margin-bottom: 18px;
   }
+
   .what-we-work-content .we-work-inner-box h3 {
     font-size: 18px;
   }
+
   .what-we-work-content .we-work-inner-box.with-some-left {
     margin-left: 0;
   }
+
   .what-we-work-shape {
     display: none;
   }
+
   .single-funfact-card h3 {
     font-size: 30px;
   }
+
   .single-funfact-card h3 .small-text {
     font-size: 30px;
     top: 4px;
   }
+
   .single-funfact-card h3 .small-icon {
     font-size: 30px;
     top: 0;
   }
+
   .single-funfact-card p {
     font-size: 14px;
   }
+
   .cyber-security-services-card {
     padding: 20px;
   }
+
   .cyber-security-services-card .services-image {
     margin-bottom: 25px;
   }
+
   .cyber-security-services-card .services-content h3 {
     font-size: 20px;
   }
+
   .cyber-security-services-shape {
     display: none;
   }
+
   .video-view-content .video-btn {
     width: 65px;
     height: 65px;
     line-height: 65px;
     font-size: 45px;
   }
+
   .why-choose-us-content {
     padding-right: 0;
   }
+
   .why-choose-us-content .sub-title {
     font-size: 15px;
   }
+
   .why-choose-us-content h2 {
     font-size: 25px;
   }
+
   .why-choose-us-image {
     margin-top: 30px;
   }
+
   .why-choose-us-shape {
     display: none;
   }
+
   .industry-partner-inner-box {
     padding-left: 20px;
     padding-right: 20px;
   }
+
   .single-pricing-card {
     padding: 20px;
   }
+
   .single-pricing-card .pricing-header h3 {
     font-size: 20px;
   }
+
   .single-pricing-card .price h4 {
     font-size: 30px;
   }
+
   .get-in-touch-inner-box {
     padding-left: 20px;
     padding-right: 20px;
   }
+
   .team-member-card .team-content h3 {
     font-size: 20px;
   }
+
   .team-member-shape {
     display: none;
   }
+
   .cyber-safety-image {
     text-align: center;
     margin-bottom: 30px;
   }
+
   .cyber-safety-content {
     padding-left: 0;
   }
+
   .cyber-safety-content .sub-title {
     font-size: 15px;
   }
+
   .cyber-safety-content h2 {
     font-size: 25px;
   }
+
   .cyber-safety-content p {
     margin-bottom: 0;
   }
+
   .cyber-safety-content .safety-list {
     margin-top: 20px;
   }
+
   .blog-style-card .blog-content h3 {
     font-size: 20px;
   }
+
   .blog-style-shape {
     display: none;
   }
+
   .footer-style-area .single-footer-widget .info h4 {
     font-size: 17.5px;
   }
+
   .footer-style-area .single-footer-widget .footer-contact-info li i {
     top: 1px;
   }
+
   .value-trade-area .container-fluid {
     padding-right: var(--bs-gutter-x, 0.75rem);
     padding-left: var(--bs-gutter-x, 0.75rem);
     max-width: 540px;
   }
+
   .cryptocurrency-banner-area .container-fluid {
     padding-right: var(--bs-gutter-x, 0.75rem);
     padding-left: var(--bs-gutter-x, 0.75rem);
     max-width: 540px;
   }
+
   .cryptocurrency-banner-content {
     position: relative;
     top: 0;
   }
+
   .cryptocurrency-banner-content h1 {
     margin-bottom: 18px;
     font-size: 30px;
   }
+
   .cryptocurrency-banner-content .banner-btn-list {
     margin-top: 20px;
   }
+
   .cryptocurrency-banner-content .banner-btn-list li {
     margin-right: 10px;
   }
+
   .cryptocurrency-banner-content .banner-btn-list li .white-paper-btn {
     padding: 7.8px 30px;
   }
+
   .cryptocurrency-banner-content .banner-community span {
     font-size: 15px;
   }
+
   .cryptocurrency-banner-image {
     text-align: center;
     margin-top: 30px;
   }
+
   .cryptocurrency-about-image {
     text-align: center;
     margin-bottom: 30px;
   }
+
   .cryptocurrency-about-content {
     padding-left: 0;
   }
+
   .cryptocurrency-about-content .sub-title {
     font-size: 15px;
   }
+
   .cryptocurrency-about-content h2 {
     font-size: 25px;
   }
+
   .pre-token-sale-ends-content {
     padding: 30px 20px;
   }
+
   .pre-token-sale-ends-content h3 {
     font-size: 22px;
     margin-bottom: 18px;
   }
+
   .pre-token-sale-ends-content #timer {
     padding: 12px;
   }
+
   .pre-token-sale-ends-content #timer div {
     font-size: 20px;
     margin-right: 15px;
   }
+
   .pre-token-sale-ends-content #timer div span {
     font-size: 14.5px;
   }
+
   .pre-token-sale-ends-content .pre-token-sale-ends-btn li {
     margin-bottom: 5px;
   }
+
   .pre-token-sale-ends-content .pre-token-sale-ends-btn li:last-child {
     margin-bottom: 0;
   }
+
   .pre-token-sale-ends-content .pre-token-sale-ends-shape {
     display: none;
   }
+
   .pre-token-sale-ends-image {
     text-align: center;
     margin-top: 30px;
   }
+
   .platforms-item .arrow-image {
     display: none;
   }
+
   .platforms-item h3 {
     font-size: 18px;
   }
+
   .cryptocurrency-choose-image {
     text-align: center;
     margin-bottom: 30px;
   }
+
   .cryptocurrency-choose-content {
     padding-left: 0;
   }
+
   .cryptocurrency-choose-content .sub-title {
     font-size: 15px;
   }
+
   .cryptocurrency-choose-content h2 {
     font-size: 25px;
   }
+
   .cryptocurrency-choose-content .choose-inner-box {
     padding: 20px;
   }
+
   .cryptocurrency-choose-content .choose-inner-box .image {
     position: relative;
     left: 0;
     top: 0;
     margin-bottom: 18px;
   }
+
   .cryptocurrency-choose-content .choose-inner-box h3 {
     font-size: 18px;
   }
+
   .cryptocurrency-choose-content .choose-inner-box.with-some-left {
     margin-left: 0;
   }
+
   .token-distribution-card .distribution-list {
     padding: 20px;
   }
+
   .token-distribution-card .distribution-list li {
     font-size: 16.5px;
   }
+
   .token-distribution-card .token-distribution-details {
     margin-left: 0;
   }
+
   .token-distribution-card .token-distribution-details .header h3 {
     font-size: 20px;
   }
+
   .token-distribution-card .token-distribution-details .info-list {
     padding: 15px 20px 20px;
   }
+
   .token-distribution-card .token-distribution-details .info-list li {
     font-size: 16.5px;
   }
+
   .invest-content h2 {
     font-size: 25px;
   }
+
   .invest-content .invest-inner-box {
     padding: 20px;
   }
+
   .invest-content .invest-inner-box .image {
     position: relative;
     left: 0;
     top: 0;
     margin-bottom: 18px;
   }
+
   .invest-content .invest-inner-box h3 {
     font-size: 18px;
   }
+
   .invest-content .invest-inner-box.with-some-left {
     margin-left: 0;
   }
+
   .invest-image {
     text-align: center;
     margin-top: 30px;
   }
+
   .roadmap-style-list-tab #roadmap-style-item .roadmap-style-card .sub-title {
     padding: 5px;
     font-size: 16.5px;
   }
+
   .roadmap-style-list-tab #roadmap-style-item .roadmap-style-card .content h3 {
     font-size: 20px;
   }
+
   .download-app-inner-box {
     padding: 20px;
   }
+
   .download-app-inner-box .download-app-content .sub-title {
     font-size: 15px;
   }
+
   .download-app-inner-box .download-app-content h3 {
     font-size: 25px;
   }
+
   .download-app-inner-box .download-app-content .app-list li {
     margin-right: 10px;
   }
+
   .download-app-inner-box .download-app-content .app-list li img {
     max-width: 115px;
   }
+
   .download-app-inner-box .download-app-image {
     text-align: center;
     margin-top: 30px;
   }
+
   .industry-partner-inner-box-wrap {
     padding-left: 20px;
     padding-right: 20px;
   }
+
   .contact-us-inner-box {
     padding: 35px 20px;
   }
+
   .contact-us-inner-box .contact-form-wrap h2 {
     font-size: 25px;
     margin-bottom: 15px;
   }
+
   .contact-us-inner-box .get-in-touch-information {
     padding: 20px;
     margin-top: 30px;
   }
+
   .contact-us-inner-box .get-in-touch-information h4 {
     font-size: 22px;
     margin-bottom: 18px;
   }
+
   .contact-us-inner-box .get-in-touch-information .get-in-touch-shape {
     display: none;
   }
+
   .ico-landing-banner-area {
     padding-top: 80px;
     padding-bottom: 50px;
   }
+
   .ico-landing-banner-area .container-fluid {
     padding-right: var(--bs-gutter-x, 0.75rem);
     padding-left: var(--bs-gutter-x, 0.75rem);
     max-width: 540px;
   }
+
   .ico-landing-banner-content h1 {
     font-size: 30px;
   }
+
   .ico-landing-banner-content .banner-pre-token-sale-ends {
     margin-top: 30px;
   }
+
   .ico-landing-banner-content .banner-pre-token-sale-ends h3 {
     font-size: 22px;
   }
+
   .ico-landing-banner-content .banner-pre-token-sale-ends #timer {
     padding: 12px;
   }
+
   .ico-landing-banner-content .banner-pre-token-sale-ends #timer div {
     font-size: 20px;
     margin-right: 15px;
   }
+
   .ico-landing-banner-content .banner-pre-token-sale-ends #timer div span {
     font-size: 14.5px;
   }
-  .ico-landing-banner-content
-    .banner-pre-token-sale-ends
-    .pre-token-sale-ends-btn
-    li {
+
+  .ico-landing-banner-content .banner-pre-token-sale-ends .pre-token-sale-ends-btn li {
     margin-bottom: 5px;
   }
-  .ico-landing-banner-content
-    .banner-pre-token-sale-ends
-    .pre-token-sale-ends-btn
-    li:last-child {
+
+  .ico-landing-banner-content .banner-pre-token-sale-ends .pre-token-sale-ends-btn li:last-child {
     margin-bottom: 0;
   }
+
   .ico-landing-banner-image {
     margin-top: 30px;
   }
+
   .ico-about-content {
     padding-left: 0;
     margin-top: 30px;
   }
+
   .ico-about-content .sub-title {
     font-size: 15px;
   }
+
   .ico-about-content h2 {
     font-size: 25px;
   }
+
   .ico-choose-content {
     padding-right: 0;
   }
+
   .ico-choose-content .sub-title {
     font-size: 15px;
   }
+
   .ico-choose-content h2 {
     font-size: 25px;
   }
+
   .ico-choose-content .choose-inner-box {
     padding: 20px;
   }
+
   .ico-choose-content .choose-inner-box .image {
     position: relative;
     left: 0;
     top: 0;
     margin-bottom: 18px;
   }
+
   .ico-choose-content .choose-inner-box h3 {
     font-size: 18px;
   }
+
   .ico-choose-image {
     text-align: center;
     margin-top: 30px;
   }
+
   .token-distribution-card .distribution-list.without-wrap {
     margin-left: 0;
   }
-  .roadmap-style-list-tab
-    #roadmap-style-item
-    .roadmap-style-card.with-black-color
-    .title {
+
+  .roadmap-style-list-tab #roadmap-style-item .roadmap-style-card.with-black-color .title {
     font-size: 18px;
     margin-bottom: 18px;
   }
-  .roadmap-style-list-tab
-    #roadmap-style-item
-    .roadmap-style-card.with-black-color
-    .content {
+
+  .roadmap-style-list-tab #roadmap-style-item .roadmap-style-card.with-black-color .content {
     padding: 20px;
   }
-  .roadmap-style-list-tab
-    #roadmap-style-item
-    .roadmap-style-card.with-black-color
-    .content
-    h3 {
+
+  .roadmap-style-list-tab #roadmap-style-item .roadmap-style-card.with-black-color .content h3 {
     font-size: 20px;
   }
+
   .ico-faq-image {
     text-align: center;
     margin-bottom: 30px;
   }
+
   .ico-faq-content h2 {
     font-size: 25px;
   }
+
   /* End "Cybersecurity Demo Responsive, Cryptocurrency Demo Responsive & ICO Landing Demo Responsive" */
   .navbar-area {
     padding-top: 0;
     padding-bottom: 0;
   }
+
   .navbar-area .navbar {
     padding-top: 10px;
     padding-bottom: 10px;
   }
+
   .navbar-area .navbar .navbar-nav {
     margin-top: 5px;
     overflow-y: auto;
     max-height: 70vh;
     padding-right: 15px;
   }
+
   .navbar-area .navbar .navbar-nav::-webkit-scrollbar {
     width: 10px;
   }
+
   .navbar-area .navbar .navbar-nav::-webkit-scrollbar-track {
     background: #eee;
   }
+
   .navbar-area .navbar .navbar-nav::-webkit-scrollbar-thumb {
     background: #a19c9c;
   }
+
   .navbar-area .navbar .navbar-nav::-webkit-scrollbar-thumb:hover {
     background: #a19c9c;
   }
+
   .navbar-area .navbar .navbar-nav .nav-item {
     margin: 0;
   }
+
   .navbar-area .navbar .navbar-nav .nav-item a {
     padding-top: 8px;
     padding-bottom: 8px;
   }
+
   .navbar-area .navbar .navbar-nav .nav-item a::before {
     display: none;
   }
+
   .navbar-area .navbar .navbar-nav .nav-item .dropdown-menu {
     opacity: 1;
     width: 100%;
@@ -1656,10 +2067,12 @@
     visibility: visible;
     border: 1px solid #eee;
   }
+
   .navbar-area .navbar .navbar-nav .nav-item .dropdown-menu li a {
     padding: 8px 15px;
     font-size: 15px;
   }
+
   .navbar-area .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu {
     opacity: 1;
     width: 90%;
@@ -1671,6 +2084,7 @@
     margin-left: 15px;
     border: 1px solid #eee;
   }
+
   .navbar-area .navbar .others-option {
     position: absolute;
     right: 60px;
@@ -1684,19 +2098,23 @@
     padding-bottom: 6px;
     font-size: 12px;
   }
+
   .navbar-area .navbar .default-btn {
     width: 100%;
     padding-top: 10px;
     padding-bottom: 10px;
     font-size: 15px;
   }
+
   .navbar-area .navbar .others-option .default-btn span {
     display: none;
   }
+
   .navbar-area-with-position-relative .navbar .container-fluid {
     padding-left: 15px;
     padding-right: 15px;
   }
+
   .navbar-area-with-position-relative .navbar .others-option {
     top: 17px;
   }
@@ -1716,29 +2134,33 @@
     padding-top: 150px;
     padding-bottom: 150px;
   }
+
   .section-title.with-max-width {
     margin: 0 auto 30px;
   }
-  .navbar-area-with-position-relative.with-black-color
-    .navbar
-    .navbar-toggler
-    .icon-bar {
+
+  .navbar-area-with-position-relative.with-black-color .navbar .navbar-toggler .icon-bar {
     background: #fff;
   }
+
   .navbar-area-with-position-relative.with-black-color.is-sticky .navbar {
     background-color: #081327 !important;
   }
+
   .service-sidebar {
     padding-left: 0;
     margin-top: 30px;
   }
+
   .case-studies-card-box .single-case-studies-box {
     border: 1px solid #eee !important;
     padding: 20px;
   }
+
   .copyright-area p {
     text-align: center;
   }
+
   .subscribe2-inner {
     padding: 50px;
     text-align: center;
@@ -1748,6 +2170,7 @@
     background-repeat: no-repeat;
     background-size: cover;
   }
+
   .subscribe2-inner h2 {
     margin-bottom: 10px px;
     color: var(--whiteColor);
@@ -1755,6 +2178,7 @@
     font-weight: bolder;
     font-family: var(--fontFamily2);
   }
+
   .faq-accordion .accordion .accordion__item .accordion__button {
     font-size: 16px;
     justify-content: center;
@@ -1762,11 +2186,13 @@
     padding-left: 10px;
     padding-right: 10px;
   }
+
   .faq-accordion .accordion .accordion__item .accordion__button img {
     /* display: none; */
     width: 30px;
     height: 30px;
   }
+
   .single-team-member .content1,
   .single-team-member .content2 {
     position: absolute;
@@ -1779,6 +2205,7 @@
     border-radius: 0;
     justify-content: space-between;
   }
+
   .single-team-member .content3,
   .single-team-member .content4 {
     position: absolute;
@@ -1792,6 +2219,7 @@
     justify-content: space-between;
     bottom: 0;
   }
+
   .single-team-member .content div,
   .single-team-member .content1 div,
   .single-team-member .content2 div,
@@ -1804,6 +2232,7 @@
     align-items: center;
     flex-direction: row;
   }
+
   .single-team-member .content div h3,
   .single-team-member .content1 div h3,
   .single-team-member .content2 div h3,
@@ -1811,50 +2240,63 @@
   .single-team-member .content4 div h3 {
     font-size: 24px;
   }
+
   .single-team-member {
     display: flex;
     justify-content: center;
   }
+
   .single-team-member img {
     width: 80%;
   }
+
   .blogs-content p,
   .blogs-content ul li {
     font-size: 15px !important;
   }
+
   .blogs-content h2 {
     font-size: 22px !important;
   }
+
   .blogs-content h3 {
     font-size: 18px !important;
   }
+
   .thankyou-features-box {
     padding: 11px 12px;
   }
+
   .process-inner h2 {
     font-size: 25px !important;
   }
+
   .discovery-call-header {
     padding-top: 65;
     padding-bottom: 65;
   }
+
   .discovery-call-header .discovery-call-heading-1 {
     font-size: 25px;
     line-height: 42px;
   }
+
   .discovery-call-header .discovery-call-heading-2 {
     line-height: 34px;
     font-size: 22px;
   }
+
   .discovery-call-button .free-strategy {
     font-size: 26px;
   }
+
   .discovery-call-features {
     padding-top: 0;
     padding-bottom: 25px;
     padding-right: 0;
     padding-left: 0;
   }
+
   .discovery-call-button {
     width: 412px;
     padding-top: 10px;
@@ -1862,16 +2304,20 @@
     padding-left: 10px;
     padding-right: 10px;
   }
+
   .discovery-call-img img {
     width: 540.567px;
     height: 366.569px;
   }
+
   .discovery-call-features h3 {
     font-size: 20px;
   }
+
   .discovery-call-features ul li {
     font-size: 15px;
   }
+
   .subscribe2-inner {
     padding: 50px;
     text-align: center;
@@ -2008,19 +2454,41 @@
 
   .expertise {
     margin-top: 0px;
-    flex-basis: 45%;
+    flex-basis: 48%;
+    margin-bottom: 5px;
   }
 
   .english-level {
-    flex-basis: 45%;
+    flex-basis: 48%;
+    margin-left: 10px;
   }
 
   .experience {
     flex-basis: 50%;
   }
 
+  .with-icon .col-sm-10 {
+    flex: 0 0 auto;
+    width: 85%
+  }
+
+  .with-icon .col-sm-2 {
+    flex: 0 0 auto;
+    width: 15%
+  }
+
+  .with-icon .col-sm-7 {
+    flex: 0 0 auto;
+    width: 40%
+  }
+
+  .with-icon .col-sm-5 {
+    flex: 0 0 auto;
+    width: 30%
+  }
+
   .profile-detail-heading {
-    font-size: 11px;
+    font-size: 13px;
     line-height: 14px;
     margin-bottom: 2px;
   }
@@ -2028,7 +2496,7 @@
   .profile-info {
     margin-bottom: 0px;
     font-weight: 400;
-    font-size: 10px;
+    font-size: 11px;
   }
 
   .tag-list {
@@ -2036,7 +2504,7 @@
   }
 
   .image-badge {
-    padding-left: 5px;
+    padding-left: 0px;
   }
 
   .tags {
@@ -2207,52 +2675,66 @@
   .about-content .features-list li {
     width: 25%;
   }
+
   .page-title-content .clients-list {
     padding-left: 30px;
     padding-right: 30px;
   }
+
   .blog-details-desc .article-content {
     padding: 25px;
   }
+
   .copyright-area {
     text-align: start;
   }
+
   .copyright-area ul {
     text-align: end;
     margin-top: 0;
   }
+
   /*new-css*/
   .subscribe-inner {
     padding: 60px 30px;
   }
+
   /* Start "Cybersecurity Demo Responsive, Cryptocurrency Demo Responsive & ICO Landing Demo Responsive" */
   .top-header-black-info {
     text-align: start;
   }
+
   .top-header-black-info li {
     margin-bottom: 0;
   }
+
   .top-header-black-info li:last-child {
     margin-bottom: 0;
   }
+
   .top-header-black-social-links {
     text-align: end;
     margin-top: 0;
   }
+
   .pre-token-sale-ends-content #timer div {
     font-size: 38px;
     margin-right: 45px;
   }
+
   .contact-us-inner-box .get-in-touch-information .information-list li span {
     display: block;
   }
+
   .token-distribution-card .distribution-list.without-wrap {
     margin-left: 20px;
   }
+
   .ico-landing-banner-content .banner-pre-token-sale-ends #timer div {
     font-size: 38px;
     margin-right: 45px;
   }
+
   .faq-accordion .accordion .accordion__item .accordion__button {
     font-size: 18px;
     justify-content: center;
@@ -2269,9 +2751,11 @@
   .thankyou-features-box {
     padding: 11px 12px;
   }
+
   .career-section {
     padding: 30px;
   }
+
   .career-card {
     border: none;
     border-radius: 20px;
@@ -2279,9 +2763,11 @@
     padding-top: 40px !important;
     padding: 20px;
   }
+
   .career-card-title {
     padding-bottom: 15px;
   }
+
   .career-card-button {
     justify-content: flex-end;
     width: 100%;
@@ -2290,27 +2776,33 @@
     padding-top: 15px;
     padding-bottom: 15px;
   }
+
   .career-card-button .default-btn {
     padding-top: 10px;
     padding-bottom: 10px;
   }
+
   .career-card-button .default-btn {
     font-size: 18px;
   }
+
   .discovery-call-img video {
     width: 450px;
     height: auto;
     border-radius: 21px;
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
   }
+
   .discovery-call-header {
     padding-top: 45px;
     padding-bottom: 45px;
   }
+
   .we-adapt-to-your-need-aera {
     padding-top: 30px;
     padding-bottom: 60px;
   }
+
   .background {
     width: 100%;
     height: 800px;
@@ -2322,29 +2814,36 @@
     position: absolute;
     margin-top: 400px;
   }
+
   .we-adapt-to-your-need-content {
     padding-left: auto;
     padding-right: 0;
   }
+
   .reliable-and-secure-content {
     padding: 10px;
     position: relative;
     top: 0;
   }
+
   .reliable-and-secure-content h2 {
     line-height: 1.1;
     margin-bottom: 15px;
     font-size: 32px;
   }
+
   .reliable-and-secure-area {
     padding-bottom: 30px;
   }
+
   .our-process-content h1 {
     line-height: 35px;
   }
+
   .our-process-content h1 .dot {
     font-size: 48px;
   }
+
   .our-process-content h2 {
     text-align: left;
     font-size: 32px;
@@ -2352,21 +2851,27 @@
     margin-bottom: 5px;
     line-height: 1.1px;
   }
+
   .our-process-content p {
     text-align: left;
   }
+
   .our-process-box {
     padding: 11px 0;
   }
+
   .hiring-box-header {
     height: 50px;
   }
+
   .HiringTab {
     margin-bottom: 15px;
   }
+
   .HiringTab-para {
     margin: auto;
   }
+
   .Hiring-box {
     width: auto;
     height: 320.949px;
@@ -2376,6 +2881,7 @@
     padding-top: 40px;
     align-items: start;
   }
+
   .Hiring-box p {
     width: 12.9rem;
     height: 125px;
@@ -2383,56 +2889,69 @@
     line-height: 25px;
     /* font-weight: 400; */
   }
+
   .Hiring-number h1 {
     font-size: 50.465px;
   }
+
   .Hiring-text h1 {
     width: auto;
     font-size: 18px;
     height: 40px;
   }
+
   .feedback-title h2 {
     font-size: 31px;
     font-weight: 700;
   }
+
   .feedback-content h1 {
     font-size: 25px !important;
   }
+
   .feedback-content h2 {
     font-size: 19px !important;
   }
+
   .feedback-content p {
     line-height: 140%;
     padding-right: 0;
   }
+
   .client-feedback {
     height: 880px !important;
   }
+
   .client-feedback-card {
     height: 800px !important;
     box-shadow: none;
     /* box-shadow: 0px 45px 65px 0px rgba(0, 0, 0, 0.1); */
   }
+
   .client-feedback .swiper-button-prev {
     left: auto;
     right: 600px !important;
   }
+
   .client-feedback .swiper-button-next {
     left: 600px !important;
     right: auto;
   }
+
   .client-feedback .swiper-button-prev {
     /* left: auto;
     right: 515px !important;
     background-size: 40px 40px; */
     display: none;
   }
+
   .client-feedback .swiper-button-next {
     /* left: 515px !important;
     right: auto;
     background-size: 40px 40px; */
     display: none;
   }
+
   .swiper-pagination-bullets,
   .swiper-pagination-bullets.swiper-pagination-horizontal,
   .swiper-pagination-custom,
@@ -2440,14 +2959,17 @@
     bottom: 33px !important;
     width: 20% !important;
   }
+
   .client-feedback .swiper-pagination-bullet {
     width: 18px;
     height: 18px;
     background: #c7c7c7;
   }
+
   .client-feedback .swiper-pagination-bullet-active {
     background: #00718a;
   }
+
   .we-adapt-to-your-need-content h2 {
     font-size: 32px;
   }
@@ -2458,45 +2980,57 @@
   body {
     font-size: 15px;
   }
+
   p {
     font-size: 15px;
   }
+
   .ptb-100 {
     padding-top: 80px;
     padding-bottom: 80px;
   }
+
   .pt-100 {
     padding-top: 80px;
   }
+
   .pb-100 {
     padding-bottom: 80px;
   }
+
   .ptb-70 {
     padding-top: 50px;
     padding-bottom: 50px;
   }
+
   .pt-70 {
     padding-top: 50px;
   }
+
   .pb-70 {
     padding-bottom: 50px;
   }
+
   .default-btn {
     font-size: 15px;
     padding: 12px 35px 12px 60px;
   }
+
   .default-btn::before {
     width: 45px;
   }
+
   .default-btn span {
     width: 46px;
     height: 46px;
     line-height: 46px;
   }
+
   .section-title .sub-title {
     padding: 4px 20px;
     font-size: 13px;
   }
+
   .section-title h2 {
     font-size: 32px;
   }
@@ -2505,17 +3039,21 @@
     font-size: 32px;
     line-height: 44px;
   }
+
   .thank-header .thankyou-heading-2 {
     line-height: 28px;
     font-size: 28px;
   }
+
   .thank-header .thankyou-paragraph {
     line-height: 22px;
     font-size: 15px;
   }
+
   .thankyou-features-box h3 {
     font-size: 22px;
   }
+
   .thankyou-features-box ul li {
     font-size: 15px;
   }
@@ -2523,59 +3061,75 @@
   .section-title h2 br {
     display: none !important;
   }
+
   .section-title p {
     max-width: 540px;
     margin-left: auto;
     margin-right: auto;
   }
+
   .section-title.style-two {
     text-align: center;
   }
+
   .section-title.style-two p {
     margin-top: 12px;
   }
+
   .form-control {
     font-size: 15px;
   }
+
   .top-header-area {
     padding-bottom: 15px;
     border-bottom: 1px solid #eeeeee;
   }
+
   .top-header-start .logo {
     display: none !important;
   }
+
   .top-header-start .search-box {
     width: 100%;
     margin-left: 0;
   }
+
   .top-header-start .search-box .input-search {
     border-color: #f9f9f9;
     background-color: #f9f9f9;
   }
+
   .main-banner-area {
     padding-top: 80px;
   }
+
   .main-banner-content {
     text-align: center;
   }
+
   .main-banner-content .sub-title {
     font-size: 14px;
     margin-bottom: 15px;
   }
+
   .main-banner-content h1 {
     font-size: 40px;
   }
+
   .main-banner-content .default-btn {
     margin-top: 5px;
   }
+
   .main-banner-image {
     padding-right: 0;
     margin-top: 30px;
   }
+
   .main-banner-image::before {
     width: 695px;
     height: 695px;
   }
+
   .shape1,
   .shape2,
   .shape3,
@@ -2586,231 +3140,294 @@
   .shape8 {
     display: none;
   }
+
   .single-features-box {
     padding: 30px 20px;
   }
+
   .single-features-box h3 {
     font-size: 20px;
   }
+
   .single-team-box .content h3 {
     font-size: 20px;
   }
+
   .about-image {
     padding-right: 0;
     margin-bottom: 30px;
   }
+
   .about-content {
     padding-left: 0;
     text-align: center;
   }
+
   .about-content .sub-title {
     padding: 4px 20px;
     font-size: 13px;
   }
+
   .about-content h2 {
     font-size: 32px;
   }
+
   .about-content p {
     max-width: 540px;
     margin-left: auto;
     margin-right: auto;
   }
+
   .about-content .features-list li {
     width: 25%;
   }
+
   .about-content .features-list li .d-flex {
     display: block !important;
   }
+
   .about-content .features-list li .d-flex .icon {
     border-radius: 50%;
     margin-left: auto;
     margin-right: auto;
   }
+
   .about-content .features-list li .d-flex span {
     font-size: 20px;
     margin-left: 0;
     margin-top: 15px;
   }
+
   .single-services-box {
     padding: 30px 20px;
   }
+
   .single-services-box img {
     width: 60px;
   }
+
   .single-services-box h3 {
     font-size: 20px;
   }
+
   .single-services-box .default-btn {
     margin-top: 25px;
   }
+
   .single-services-box::after {
     margin: 5px;
   }
+
   .process-inner {
     padding-left: 25px;
     padding-right: 25px;
   }
+
   .single-process-box {
     text-align: center;
   }
+
   .single-process-box h3 {
     font-size: 20px;
   }
+
   .single-case-studies-box .content {
     padding-right: 0;
     text-align: center;
     max-width: 100%;
   }
+
   .single-case-studies-box .content h3 {
     font-size: 22px;
   }
+
   .single-case-studies-box .content p {
     max-width: 600px;
     margin-left: auto;
     margin-right: auto;
   }
+
   .single-case-studies-box .content .features-list {
     padding-left: 15px;
     padding-right: 15px;
   }
+
   .single-case-studies-box .content .features-list li {
     font-size: 16px;
     margin-left: 15px;
     margin-right: 15px;
   }
+
   .single-case-studies-box .content .features-list li span {
     letter-spacing: 1px;
     font-size: 13px;
   }
+
   .single-case-studies-box .content .features-list li:first-child {
     margin-left: 0;
   }
+
   .single-case-studies-box .content .default-btn {
     margin-top: 25px;
   }
+
   .single-case-studies-box .image {
     margin-top: 30px;
     text-align: center;
   }
+
   .single-blog-post .image .date {
     right: -39%;
   }
+
   .single-blog-post .content h3 {
     font-size: 20px;
   }
+
   .get-started-area .col-lg-6:first-child {
     -webkit-box-ordinal-group: 3;
     -ms-flex-order: 2;
     order: 2;
   }
+
   .get-started-area .col-lg-6:last-child {
     -webkit-box-ordinal-group: 2;
     -ms-flex-order: 1;
     order: 1;
   }
+
   .get-started-content {
     padding-top: 0;
     text-align: center;
   }
+
   .get-started-content .sub-title {
     padding: 4px 20px;
     font-size: 13px;
   }
+
   .get-started-content h2 {
     font-size: 32px !important;
   }
+
   .get-started-content h2 br {
     display: none !important;
   }
+
   .get-started-content p {
     max-width: 540px;
     margin-left: auto;
     margin-right: auto;
   }
+
   .get-started-content .default-btn {
     margin-top: 5px;
   }
+
   .get-started-image {
     margin-top: 30px;
   }
+
   .get-started-image::before {
     margin: 0 auto;
   }
+
   .page-title-area {
     padding-top: 70px;
     padding-bottom: 70px;
   }
+
   .page-title-area .shape1,
   .page-title-area .shape3 {
     display: block;
   }
+
   .page-title-content h1 {
     font-size: 32px;
   }
+
   .page-title-content .clients-list .box {
     line-height: 85px;
     height: 95px;
     width: 95px;
   }
+
   .awards-list {
     margin-top: 80px;
     padding-left: 50px;
     padding-right: 50px;
   }
+
   .awards-list h4 {
     margin-bottom: 20px;
   }
+
   .awards-list .awards-box {
     margin-top: 30px;
   }
+
   .single-feedback-box {
     padding: 40px 20px;
   }
+
   .single-feedback-box .client-info h3 {
     font-size: 16px;
   }
+
   .services-details-area {
     padding-top: 80px;
   }
+
   .services-details-content h1 {
     font-size: 32px;
   }
+
   .services-details-content .contact-form {
     max-width: 100%;
     padding: 30px;
   }
+
   .case-studies-area.extra-top-padding {
     padding-top: 80px;
   }
+
   .case-studies-list {
     padding-left: 0;
     padding-right: 0;
   }
+
   .case-studies-list .single-case-studies-item {
     margin-left: 0;
     margin-right: 0;
     margin-bottom: 30px;
   }
+
   .case-studies-list .col-lg-5:nth-child(2) {
     margin-top: 80px;
   }
+
   .single-case-studies-item {
     text-align: center;
     padding: 30px 20px 40px;
   }
+
   .single-case-studies-item h3 {
     font-size: 20px;
   }
+
   .case-studies-box {
     padding: 20px;
   }
+
   .case-studies-box img {
     margin-bottom: 20px;
   }
+
   .case-studies-box h3 {
     margin-bottom: 12px;
     font-size: 20px;
   }
+
   .case-studies-box .default-btn {
     left: 0;
     bottom: 0;
@@ -2821,239 +3438,304 @@
     position: relative;
     visibility: visible;
   }
+
   .case-studies-box:hover img {
     -webkit-transform: scale(1) translateY(0);
     transform: scale(1) translateY(0);
   }
+
   .case-studies-box:hover h3 {
     -webkit-transform: translateY(0);
     transform: translateY(0);
   }
+
   .case-studies-box:hover p {
     -webkit-transform: translateY(0);
     transform: translateY(0);
   }
+
   .case-studies-box:hover .default-btn {
     bottom: 0;
   }
+
   .single-contact-info-box {
     padding: 25px;
   }
+
   .single-contact-info-box h3 {
     font-size: 20px;
   }
+
   .single-contact-info-box .icon {
     width: 85px;
     height: 85px;
   }
+
   .contact-form {
     padding: 40px;
   }
+
   .blog-details-area {
     padding-top: 80px;
   }
+
   .blog-details-header {
     text-align: center;
   }
+
   .blog-details-header .content h1 {
     font-size: 32px;
   }
+
   .blog-details-header .content p {
     padding-right: 0;
     max-width: 540px;
     margin-left: auto;
     margin-right: auto;
   }
+
   .blog-details-header .content .post-author-meta {
     margin-top: 20px;
   }
+
   .blog-details-header .content .post-author-meta .d-flex {
     -webkit-box-pack: center;
     -ms-flex-pack: center;
     justify-content: center;
   }
+
   .blog-details-header .image {
     margin-top: 30px;
   }
+
   .blog-details-desc .article-content {
     max-width: 630px;
     padding: 30px;
     margin-left: 0;
     margin-right: 0;
   }
+
   .blog-details-desc .article-content h3 {
     font-size: 21px;
     margin-top: 30px;
     margin-bottom: 15px;
   }
+
   .blog-details-desc .article-content p {
     font-size: 15px;
   }
+
   .blog-details-desc .article-content ul {
     font-size: 15px;
   }
+
   .blog-details-desc .article-content .social-links {
     right: -30px;
   }
+
   blockquote,
   .blockquote {
     padding: 40px !important;
   }
+
   blockquote p,
   .blockquote p {
     font-size: 18px !important;
   }
+
   .single-pricing-box {
     padding: 30px;
   }
+
   .single-pricing-box .pricing-header h3 {
     font-size: 20px;
   }
+
   .single-pricing-box .price h4 {
     font-size: 35px;
   }
+
   .faq-accordion .accordion-item .accordion-button {
     font-size: 18px;
     padding-top: 17px;
     padding-bottom: 17px;
   }
+
   .faq-accordion .accordion-item .accordion-button::before {
     width: 35px;
     height: 35px;
     font-size: 18px;
     line-height: 35px;
   }
-  .plans-compare-table .table > thead tr th {
+
+  .plans-compare-table .table>thead tr th {
     font-size: 20px;
   }
-  .plans-compare-table .table > tbody tr td {
+
+  .plans-compare-table .table>tbody tr td {
     font-size: 16px;
   }
-  .plans-compare-table .table > tfoot tr td {
+
+  .plans-compare-table .table>tfoot tr td {
     font-size: 16px;
     white-space: nowrap;
   }
+
   .case-studies-details-header .col-lg-6:nth-child(1) {
     -webkit-box-ordinal-group: 3;
     -ms-flex-order: 2;
     order: 2;
   }
+
   .case-studies-details-header .col-lg-6:nth-child(2) {
     -webkit-box-ordinal-group: 2;
     -ms-flex-order: 1;
     order: 1;
   }
+
   .case-studies-details-header .content {
     padding-left: 0;
     text-align: center;
   }
+
   .case-studies-details-header .content h1 {
     font-size: 32px;
   }
+
   .case-studies-details-header .content p {
     font-size: 15px;
     max-width: 540px;
     margin-left: auto;
     margin-right: auto;
   }
+
   .case-studies-details-header .content .meta li {
     text-align: start;
   }
+
   .case-studies-details-header .image {
     padding-right: 0;
     margin-top: 35px;
   }
+
   .case-studies-details-desc .article-content {
     padding: 25px;
   }
+
   .case-studies-details-desc .article-content .mb-40 {
     margin-bottom: 30px;
   }
+
   .case-studies-details-desc .article-content h2 {
     font-size: 24px;
     margin-right: 0;
     margin-bottom: 25px;
   }
+
   .case-studies-details-desc .article-content h3 {
     font-size: 20px;
     margin-bottom: 13px;
   }
+
   .footer-area {
     padding-top: 80px;
   }
+
   .single-footer-widget.pl-5 {
     padding-left: 0;
   }
+
   .single-footer-widget .newsletter-form {
     padding-right: 0;
   }
+
   .single-footer-widget .newsletter-form form button {
     padding: 0 40px 0 18px;
     font-size: 15px;
   }
+
   .copyright-area {
     margin-top: 50px;
   }
+
   /*new-css*/
   .banner-area {
     padding-top: 80px;
   }
+
   .banner-content {
     max-width: 100%;
   }
+
   .banner-content .sub-title {
     font-size: 14px;
     margin-bottom: 15px;
   }
+
   .banner-content h1 {
     font-size: 40px;
   }
+
   .banner-content .default-btn {
     margin-top: 5px;
   }
+
   .banner-content img {
     margin-top: 30px;
   }
+
   .shape9 {
     display: none;
   }
+
   .home-area {
     padding-top: 80px;
   }
+
   .home-area::before {
     height: 50px !important;
     bottom: -1px !important;
   }
+
   .home-content {
     top: 0;
     text-align: center;
   }
+
   .home-content .sub-title {
     font-size: 14px;
     margin-bottom: 15px;
   }
+
   .home-content h1,
   .subscribe2-inner h1 {
     font-size: 40px;
   }
+
   .home-content .default-btn {
     margin-top: 5px;
   }
+
   .home-image {
     margin-top: 30px;
   }
+
   .single-services-item {
     padding: 30px 20px;
   }
+
   .single-services-item img {
     width: 60px;
   }
+
   .single-services-item h3 {
     font-size: 20px;
   }
+
   .single-services-item .default-btn {
     margin-top: 25px;
   }
+
   .single-services-item.with-boxshadow {
     -webkit-box-shadow: unset !important;
     box-shadow: unset !important;
@@ -3063,6 +3745,7 @@
   .single-services-item.with-boxshadow .default-btn {
     margin-top: 0;
   }
+
   .services-slides-two {
     margin-top: 0;
     margin-left: 0;
@@ -3071,446 +3754,555 @@
     padding-left: 0;
     padding-right: 0;
   }
+
   .about-img {
     padding-right: 0;
     margin-bottom: 30px;
   }
+
   .single-feedback-item {
     padding: 30px 20px;
   }
+
   .single-feedback-item .client-info h3 {
     font-size: 16px;
   }
+
   .team-area.bg-gradient-image {
     border-bottom: 1px solid #eeeeee;
   }
+
   .team-member-list {
     padding-right: 0;
   }
+
   .single-team-member .content h3 {
     font-size: 20px;
   }
+
   .team-section-title {
     text-align: left;
     margin-top: 30px;
     padding-left: 0;
   }
+
   .team-section-title .sub-title {
     padding: 4px 20px;
     font-size: 13px;
   }
+
   .team-section-title h2 {
     font-size: 32px;
   }
+
   .team-section-title h2 br {
     display: none !important;
   }
+
   .team-section-title .default-btn {
     margin-top: 5px;
   }
+
   .quote-area {
     padding-top: 80px;
     padding-bottom: 80px;
   }
+
   .quote-area::before {
     display: none;
   }
+
   .quote-content .sub-title {
     padding: 4px 20px;
     font-size: 13px;
   }
+
   .quote-content h2 {
     font-size: 32px;
   }
+
   .quote-content h2 br {
     display: none !important;
   }
+
   .quote-content p {
     max-width: 540px;
     margin-left: auto;
     margin-right: auto;
   }
+
   .quote-content form {
     max-width: 100%;
     margin-top: 25px;
   }
+
   .quote-content form .form-group .form-control {
     font-size: 14px;
     height: 45px;
   }
+
   .quote-content form button {
     height: 45px;
     font-size: 15px;
     padding-left: 30px;
     padding-right: 50px;
   }
+
   .shape10,
   .shape11,
   .shape12 {
     display: none;
   }
+
   .subscribe-inner {
     padding: 80px 50px;
   }
+
   .subscribe-inner .sub-title {
     padding: 4px 20px;
     font-size: 13px;
   }
+
   .subscribe-inner h2 {
     font-size: 32px;
   }
+
   .subscribe-inner h2 br {
     display: none !important;
   }
+
   .subscribe-inner p {
     max-width: 540px;
     margin-left: auto;
     margin-right: auto;
   }
+
   .subscribe-inner .newsletter-form {
     padding-right: 195px;
     max-width: 100%;
   }
+
   .subscribe-inner .newsletter-form button {
     font-size: 15px;
   }
+
   /* Start "Cybersecurity Demo Responsive, Cryptocurrency Demo Responsive & ICO Landing Demo Responsive" */
   .navbar-area-with-position-relative {
     padding-top: 28px;
     padding-bottom: 28px;
   }
+
   .navbar-area-with-position-relative .welch-responsive-nav .others-option {
     right: 50px;
     top: -2px;
   }
-  .navbar-area-with-position-relative
-    .welch-responsive-nav
-    .mean-container
-    a.meanmenu-reveal {
+
+  .navbar-area-with-position-relative .welch-responsive-nav .mean-container a.meanmenu-reveal {
     padding-top: 2px;
   }
+
   .navbar-area-with-position-relative.with-black-color.is-sticky {
     background-color: var(--whiteColor) !important;
   }
+
   .navbar-area-with-position-relative.with-black-color.is-sticky .navbar {
     background-color: var(--whiteColor) !important;
   }
+
   .cybersecurity-banner-area {
     padding-top: 50px;
     border-bottom: 1px solid #eee;
   }
+
   .cybersecurity-banner-area .container-fluid {
     padding-right: var(--bs-gutter-x, 0.75rem);
     padding-left: var(--bs-gutter-x, 0.75rem);
     max-width: 720px;
   }
+
   .cybersecurity-banner-content {
     position: relative;
     top: 0;
   }
+
   .cybersecurity-banner-content h1 {
     font-size: 50px;
     margin-bottom: 15px;
   }
+
   .cybersecurity-banner-content .default-btn {
     margin-top: 5px;
   }
+
   .cybersecurity-banner-image {
     text-align: center;
     margin-top: 30px;
   }
+
   .single-features-card {
     padding: 20px;
   }
+
   .single-features-card h3 {
     font-size: 20px;
     margin-bottom: 12px;
   }
+
   .what-we-work-image {
     text-align: center;
     margin-bottom: 30px;
   }
+
   .what-we-work-content {
     padding-left: 0;
   }
+
   .what-we-work-content h2 {
     font-size: 30px !important;
   }
+
   .what-we-work-shape {
     display: none;
   }
+
   .single-funfact-card h3 {
     font-size: 50px;
   }
+
   .single-funfact-card h3 .small-text {
     font-size: 50px;
   }
+
   .single-funfact-card h3 .small-icon {
     font-size: 50px;
     top: 0;
   }
+
   .single-funfact-card p {
     font-size: 15px;
   }
+
   .cyber-security-services-card {
     padding: 20px;
   }
+
   .cyber-security-services-card .services-image {
     margin-bottom: 25px;
   }
+
   .cyber-security-services-card .services-content h3 {
     font-size: 20px;
   }
+
   .cyber-security-services-shape {
     display: none;
   }
+
   .video-view-content .video-btn {
     width: 65px;
     height: 65px;
     line-height: 65px;
     font-size: 45px;
   }
+
   .why-choose-us-content {
     padding-right: 0;
   }
+
   .why-choose-us-content h2 {
     font-size: 30px;
   }
+
   .why-choose-us-image {
     margin-top: 30px;
   }
+
   .why-choose-us-shape {
     display: none;
   }
+
   .industry-partner-inner-box {
     padding-left: 30px;
     padding-right: 30px;
   }
+
   .get-in-touch-inner-box {
     padding-left: 30px;
     padding-right: 30px;
   }
+
   .team-member-shape {
     display: none;
   }
+
   .cyber-safety-image {
     text-align: center;
     margin-bottom: 30px;
   }
+
   .cyber-safety-content {
     padding-left: 0;
   }
+
   .cyber-safety-content h2 {
     font-size: 30px;
   }
+
   .blog-style-card .blog-content h3 {
     font-size: 22px;
   }
+
   .blog-style-shape {
     display: none;
   }
+
   .footer-style-area .single-footer-widget .info h4 {
     font-size: 18.5px;
   }
+
   .footer-style-area .single-footer-widget .footer-contact-info li i {
     top: 1px;
   }
+
   .value-trade-area .container-fluid {
     padding-right: var(--bs-gutter-x, 0.75rem);
     padding-left: var(--bs-gutter-x, 0.75rem);
     max-width: 720px;
   }
+
   .cryptocurrency-banner-area .container-fluid {
     padding-right: var(--bs-gutter-x, 0.75rem);
     padding-left: var(--bs-gutter-x, 0.75rem);
     max-width: 720px;
   }
+
   .cryptocurrency-banner-content {
     position: relative;
     top: 0;
   }
+
   .cryptocurrency-banner-content h1 {
     margin-bottom: 18px;
     font-size: 55px;
   }
+
   .cryptocurrency-banner-content .banner-btn-list {
     margin-top: 20px;
   }
+
   .cryptocurrency-banner-content .banner-btn-list li {
     margin-right: 10px;
   }
+
   .cryptocurrency-banner-content .banner-btn-list li .white-paper-btn {
     padding: 7.8px 30px;
   }
+
   .cryptocurrency-banner-content .banner-community span {
     font-size: 15px;
   }
+
   .cryptocurrency-banner-image {
     text-align: center;
     margin-top: 30px;
   }
+
   .cryptocurrency-about-image {
     text-align: center;
     margin-bottom: 30px;
   }
+
   .cryptocurrency-about-content {
     padding-left: 0;
   }
+
   .cryptocurrency-about-content h2 {
     font-size: 30px;
   }
+
   .pre-token-sale-ends-content {
     padding: 40px 20px;
   }
+
   .pre-token-sale-ends-image {
     text-align: center;
     margin-top: 30px;
   }
+
   .platforms-item .arrow-image {
     display: none;
   }
+
   .platforms-item h3 {
     font-size: 22px;
   }
+
   .cryptocurrency-choose-image {
     text-align: center;
     margin-bottom: 30px;
   }
+
   .cryptocurrency-choose-content {
     padding-left: 0;
   }
+
   .cryptocurrency-choose-content h2 {
     font-size: 30px;
   }
+
   .token-distribution-card .token-distribution-details {
     margin-left: 0;
   }
+
   .invest-content h2 {
     font-size: 30px;
   }
+
   .invest-image {
     text-align: center;
     margin-top: 30px;
   }
+
   .roadmap-style-list-tab #roadmap-style-item .roadmap-style-card .sub-title {
     padding: 5px;
     font-size: 16.5px;
   }
+
   .roadmap-style-list-tab #roadmap-style-item .roadmap-style-card .content h3 {
     font-size: 22px;
   }
+
   .download-app-inner-box {
     padding: 50px;
   }
+
   .download-app-inner-box .download-app-content h3 {
     font-size: 30px;
   }
+
   .download-app-inner-box .download-app-image {
     text-align: center;
     margin-top: 30px;
   }
+
   .industry-partner-inner-box-wrap {
     padding-left: 20px;
     padding-right: 20px;
   }
+
   .contact-us-inner-box {
     padding: 35px 20px;
   }
+
   .contact-us-inner-box .contact-form-wrap h2 {
     font-size: 25px;
     margin-bottom: 15px;
   }
+
   .contact-us-inner-box .get-in-touch-information {
     padding: 20px;
     margin-top: 30px;
   }
+
   .contact-us-inner-box .get-in-touch-information h4 {
     font-size: 22px;
     margin-bottom: 18px;
   }
+
   .contact-us-inner-box .get-in-touch-information .get-in-touch-shape {
     display: none;
   }
+
   .ico-landing-banner-content h1 {
     font-size: 50px;
   }
+
   .ico-landing-banner-image {
     margin-top: 30px;
   }
+
   .ico-about-content {
     padding-left: 0;
     margin-top: 30px;
   }
+
   .ico-about-content h2 {
     font-size: 30px;
   }
+
   .ico-choose-content {
     padding-right: 0;
   }
+
   .ico-choose-content h2 {
     font-size: 30px;
   }
+
   .ico-choose-image {
     text-align: center;
     margin-top: 30px;
   }
-  .roadmap-style-list-tab
-    #roadmap-style-item
-    .roadmap-style-card.with-black-color
-    .title {
+
+  .roadmap-style-list-tab #roadmap-style-item .roadmap-style-card.with-black-color .title {
     font-size: 18px;
     margin-bottom: 18px;
   }
-  .roadmap-style-list-tab
-    #roadmap-style-item
-    .roadmap-style-card.with-black-color
-    .content {
+
+  .roadmap-style-list-tab #roadmap-style-item .roadmap-style-card.with-black-color .content {
     padding: 20px;
   }
-  .roadmap-style-list-tab
-    #roadmap-style-item
-    .roadmap-style-card.with-black-color
-    .content
-    h3 {
+
+  .roadmap-style-list-tab #roadmap-style-item .roadmap-style-card.with-black-color .content h3 {
     font-size: 20px;
   }
+
   .ico-faq-image {
     text-align: center;
     margin-bottom: 30px;
   }
+
   .ico-faq-content h2 {
     font-size: 30px;
   }
+
   /* End "Cybersecurity Demo Responsive, Cryptocurrency Demo Responsive & ICO Landing Demo Responsive" */
   .navbar-area {
     padding: 0;
   }
+
   .navbar-area .navbar .navbar-nav .nav-item {
     margin-left: 8px;
     margin-right: 8px;
   }
+
   .navbar-area .navbar .navbar-nav .nav-item a {
     font-size: 14px;
     padding-top: 25px;
     padding-bottom: 25px;
   }
+
   .navbar-area .navbar .navbar-nav .nav-item .dropdown-toggle::before {
     top: 29px;
   }
+
   .navbar-area .navbar .navbar-nav .nav-item .dropdown-menu {
     top: 71px;
   }
+
   .navbar-area .navbar .navbar-nav.me-auto {
     margin-right: 0 !important;
     margin-left: auto !important;
   }
+
   .navbar-area .navbar .navbar-nav.m-auto {
     margin-right: 0 !important;
     margin-left: auto !important;
   }
+
   .navbar-area .navbar .others-option {
     display: flex;
   }
+
   /* .header-area.header-style-two
     .navbar-area
     .navbar
@@ -3523,11 +4315,7 @@
     width: 150px;
   } */
   /* Change To Below Class */
-  .header-area.header-style-two
-    .navbar-area
-    .navbar
-    .others-option
-    .default-btn {
+  .header-area.header-style-two .navbar-area .navbar .others-option .default-btn {
     padding-left: 10px;
     padding-right: 10px;
     font-size: 15px;
@@ -3539,10 +4327,12 @@
     padding-left: 0;
     margin-top: 30px;
   }
+
   .case-studies-card-box .single-case-studies-box {
     border: 1px solid #eee !important;
     padding: 30px;
   }
+
   .subscribe2-inner h2 {
     margin-bottom: 10px px;
     color: var(--whiteColor);
@@ -3550,28 +4340,35 @@
     font-weight: bolder;
     font-family: var(--fontFamily2);
   }
+
   .faq-accordion .accordion .accordion__item .accordion__button {
     font-size: 17px;
     text-align: start;
   }
+
   .faq-accordion .accordion .accordion__item .accordion__button img {
     width: 30px;
     height: 30px;
   }
+
   .blogs-content p,
   .blogs-content ul li {
     font-size: 16px !important;
   }
+
   .blogs-content p,
   .blogs-content ul li {
     font-size: 17px !important;
   }
+
   .blogs-content h2 {
     font-size: 22px !important;
   }
+
   .career-section {
     padding: 50px 30px;
   }
+
   .career-card {
     border: none;
     border-radius: 20px;
@@ -3579,9 +4376,11 @@
     padding-top: 40px !important;
     padding: 20px;
   }
+
   .career-card-title {
     padding-bottom: 15px;
   }
+
   .career-card-button {
     justify-content: flex-end;
     width: 100%;
@@ -3590,57 +4389,71 @@
     padding-top: 15px;
     padding-bottom: 15px;
   }
+
   .career-card-button .default-btn {
     padding-top: 10px;
     padding-bottom: 10px;
   }
+
   .career-card-button .default-btn {
     font-size: 18px;
   }
+
   .process-inner h2 {
     font-size: 32px !important;
   }
+
   .discovery-call-header {
     padding: 60px 12px;
   }
+
   .discovery-call-header .discovery-call-heading-1 {
     font-size: 32px;
     line-height: 44px;
   }
+
   .discovery-call-header .discovery-call-heading-2 {
     line-height: 36px;
     font-size: 28px;
   }
+
   .discovery-call-button .free-strategy {
     font-size: 26px;
   }
+
   .discovery-call-features {
     padding-top: 0px;
     padding-bottom: 25px;
     padding-right: 40px;
     padding-left: 40px;
   }
+
   .discovery-call-button {
     width: 415px;
     padding-top: 10px;
     padding-bottom: 14px;
   }
+
   .discovery-call-img video {
     width: 480px;
     height: auto;
     border-radius: 21px;
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
   }
+
   .discovery-call-features h3 {
     font-size: 22px;
   }
+
   .discovery-call-features ul li {
     font-size: 15px;
   }
+
   .we-adapt-to-your-need-aera {
     padding-top: 30px;
     padding-bottom: 60px;
   }
+
   .background {
     width: 100%;
     height: 750px;
@@ -3652,35 +4465,44 @@
     position: absolute;
     margin-top: 350px;
   }
+
   .reliable-and-secure-content {
     position: relative;
     top: 0;
   }
+
   .reliable-and-secure-content h2 {
     line-height: 1.1;
     margin-bottom: 15px;
     font-size: 32px;
   }
+
   .reliable-and-secure-area {
     padding-bottom: 30px;
   }
+
   .our-process-content h2 {
     font-size: 32px;
     margin-bottom: 5px;
     line-height: 1.1px;
   }
+
   .our-process-content h1 {
     line-height: 45px;
   }
+
   .our-process-content h1 .dot {
     font-size: 40px;
   }
+
   .our-process-box {
     padding: 11px 0;
   }
+
   .HiringTab {
     margin-bottom: 15px;
   }
+
   .Hiring-box {
     width: auto;
     height: 310.949px;
@@ -3689,6 +4511,7 @@
     padding: 40px;
     align-items: start;
   }
+
   .Hiring-box p {
     /* width: 300px; */
     height: 125px;
@@ -3696,72 +4519,90 @@
     line-height: 25px;
     /* font-weight: 400; */
   }
+
   .Hiring-number h1 {
     font-size: 70.465px;
   }
+
   .Hiring-text h1 {
     width: auto;
     font-size: 25px;
   }
+
   .feedback-title h2 {
     font-size: 31px;
     font-weight: 700;
   }
+
   .feedback-content h1 {
     font-size: 25px !important;
   }
+
   .feedback-content h2 {
     font-size: 19px !important;
   }
+
   .feedback-content p {
     line-height: 125%;
   }
+
   .client-feedback {
     height: 520px;
   }
+
   .client-feedback-card {
     height: 400px !important;
   }
+
   .client-feedback .swiper-button-prev {
     left: auto;
     right: 600px !important;
   }
+
   .client-feedback .swiper-button-next {
     left: 600px !important;
     right: auto;
   }
+
   .client-feedback .swiper-button-prev {
     left: auto;
     right: 715px;
     background-size: 40px 40px;
   }
+
   .client-feedback .swiper-button-next {
     left: 715px;
     right: auto;
     background-size: 40px 40px;
   }
+
   .swiper-pagination-bullets,
   .swiper-pagination-bullets.swiper-pagination-horizontal,
   .swiper-pagination-custom,
   .swiper-pagination-fraction {
     bottom: 43px !important;
   }
+
   .client-feedback .swiper-pagination-bullet {
     width: 15px;
     height: 15px;
     background: #c7c7c7;
   }
+
   .client-feedback .swiper-pagination-bullet-active {
     background: #00718a;
   }
+
   .we-adapt-to-your-need-content h2 {
     font-size: 32px;
     text-align: center;
     margin-bottom: 5px;
   }
+
   .reliable-and-secure-content h3 {
     font-size: 25px;
   }
+
   .reliable-and-secure-content h2 {
     font-size: 40px;
   }
@@ -3885,7 +4726,7 @@
   }
 
   .profile-detail-heading {
-    font-size: 11px;
+    font-size: 13px;
     line-height: 14px;
     margin-bottom: 2px;
   }
@@ -3893,7 +4734,7 @@
   .profile-info {
     margin-bottom: 0px;
     font-weight: 400;
-    font-size: 10px;
+    font-size: 11px;
   }
 
   .tag-list {
@@ -3901,11 +4742,7 @@
   }
 
   .image-badge {
-    padding-left: 5px;
-  }
-
-  .profile-info {
-    font-size: 13px;
+    padding-left: 0px;
   }
 
   .tags {
@@ -4061,17 +4898,21 @@
     line-height: 44px;
     font-size: 36px;
   }
+
   .thank-header .thankyou-heading-2 {
     line-height: 30px;
     font-size: 28px;
   }
+
   .thank-header .thankyou-paragraph {
     line-height: 24px;
     font-size: 16px;
   }
+
   .thankyou-features-box h3 {
     font-size: 22px;
   }
+
   .thankyou-features-box ul li {
     font-size: 16px;
   }
@@ -4079,188 +4920,242 @@
   .section-title p {
     margin-top: 8px;
   }
+
   .main-banner-content h1 {
     font-size: 48px;
   }
+
   .main-banner-image::before {
     width: 535px;
     height: 535px;
   }
+
   .main-banner-image .shape {
     width: 120px;
     left: 16%;
     top: 17%;
   }
+
   .shape1 {
     opacity: 0.3;
   }
+
   .shape2 {
     opacity: 0.5;
   }
+
   .shape3 {
     opacity: 0.3;
   }
+
   .shape4 {
     display: none;
   }
+
   .single-features-box {
     padding: 35px 20px;
   }
+
   .about-image {
     padding-right: 0;
   }
+
   .about-content {
     padding-left: 0;
   }
+
   .about-content h2 {
     font-size: 36px;
   }
+
   .about-content p {
     max-width: 100%;
   }
+
   .about-content .features-list li .icon {
     width: 77px;
     height: 77px;
     line-height: 77px;
   }
+
   .about-content .features-list li span {
     margin-left: 15px;
     font-size: 18px;
   }
+
   .shape6 {
     bottom: 8%;
     left: 6%;
   }
+
   .process-inner {
     padding-left: 40px;
     padding-right: 40px;
   }
+
   .case-studies-area {
     overflow: hidden;
   }
+
   .single-case-studies-box .content {
     padding-right: 0;
     max-width: 100%;
   }
+
   .single-case-studies-box .content h3 {
     font-size: 26px;
   }
+
   .single-case-studies-box .content .features-list {
     padding-left: 20px;
     padding-right: 20px;
   }
+
   .single-case-studies-box .content .features-list li {
     font-size: 17px;
   }
+
   .single-case-studies-box .content .features-list li span {
     font-size: 13px;
   }
+
   .single-case-studies-box .image {
     padding-left: 30px;
   }
+
   .single-case-studies-box .image::before {
     width: 465px;
     height: 465px;
   }
+
   .shape8 {
     display: none;
   }
+
   .single-blog-post .image .date {
     right: -48%;
   }
+
   .single-blog-post .content {
     padding-right: 0;
   }
+
   .get-started-image::before {
     width: 450px;
     height: 450px;
   }
+
   .get-started-content h2 {
     font-size: 50px;
   }
+
   .page-title-content h1 {
     font-size: 36px;
   }
+
   .awards-list {
     padding-left: 0;
     padding-right: 0;
   }
+
   .single-feedback-box {
     padding: 40px 25px;
   }
+
   .single-feedback-box::before {
     right: 15px;
     bottom: 85px;
   }
+
   .faq-accordion .accordion-item .accordion-button {
     font-size: 20px;
   }
+
   .services-details-content .contact-form {
     padding: 30px;
     max-width: 100%;
   }
+
   .case-studies-list {
     padding-left: 0;
     padding-right: 0;
   }
+
   .case-studies-box {
     padding: 30px 20px;
   }
-  .plans-compare-table .table > tfoot tr td {
+
+  .plans-compare-table .table>tfoot tr td {
     white-space: nowrap;
   }
+
   .single-contact-info-box {
     padding: 20px 15px;
   }
+
   .single-contact-info-box p {
     font-size: 15px;
   }
+
   .contact-form {
     padding: 50px;
   }
+
   .blog-details-header .content h1 {
     font-size: 35px;
   }
+
   .blog-details-header .content .post-author-meta {
     margin-top: 20px;
   }
+
   .blog-details-desc .article-content {
     max-width: 820px;
     padding: 40px;
     margin-left: 0;
     margin-right: 0;
   }
+
   .blog-details-desc .article-content p {
     font-size: 16px;
   }
+
   .blog-details-desc .article-content h3 {
     font-size: 24px;
   }
+
   .blog-details-desc .article-content ul {
     font-size: 16px;
   }
+
   blockquote p,
   .blockquote p {
     font-size: 19px !important;
   }
+
   .case-studies-details-header .image {
     padding-right: 0;
   }
+
   .case-studies-details-header .content {
     padding-left: 0;
   }
+
   .case-studies-details-header .content h1 {
     font-size: 36px;
     margin-bottom: 12px;
   }
+
   .case-studies-details-header .content p {
     font-size: 16px;
   }
+
   .case-studies-details-header .content .meta {
     margin-top: 20px;
     padding-left: 10px;
     padding-right: 10px;
   }
+
   .case-studies-details-header .content .meta li {
     margin-right: 15px;
     font-size: 14px;
@@ -4269,40 +5164,51 @@
     padding-right: 10px;
     padding-bottom: 10px;
   }
+
   .case-studies-details-header .content .meta li i {
     font-size: 25px;
     top: 20px;
   }
+
   .case-studies-details-desc .article-content {
     padding: 40px;
   }
+
   .case-studies-details-desc .article-content h2 {
     font-size: 25px;
   }
+
   .case-studies-details-desc .article-content h3 {
     font-size: 20px;
   }
+
   .single-footer-widget .newsletter-form {
     padding-right: 0;
   }
+
   .single-footer-widget .newsletter-form form button {
     padding: 0 20px;
     font-size: 15px;
   }
+
   .single-footer-widget .newsletter-form form button i {
     display: none;
   }
+
   /*new-css*/
   .header-area.header-style-two .navbar-area .navbar .navbar-nav {
     margin-left: auto;
   }
+
   .header-area.header-style-two .navbar-area .navbar .navbar-nav .nav-item {
     margin-left: 10px;
     margin-right: 10px;
   }
+
   .header-area.header-style-two .navbar-area .navbar .others-option {
     margin-left: 10px;
   }
+
   /* .header-area.header-style-two
     .navbar-area
     .navbar
@@ -4312,41 +5218,39 @@
     padding-right: 15px;
   } */
   /* Change To Below */
-  .header-area.header-style-two
-    .navbar-area
-    .navbar
-    .others-option
-    .default-btn {
+  .header-area.header-style-two .navbar-area .navbar .others-option .default-btn {
     padding-left: 6px;
     padding-right: 15px;
     width: 206px;
   }
-  .header-area.header-style-two
-    .navbar-area
-    .navbar
-    .others-option
-    .default-btn
-    span {
+
+  .header-area.header-style-two .navbar-area .navbar .others-option .default-btn span {
     left: 15px;
   }
+
   .home-area::before {
     height: 79px !important;
     bottom: -1px;
   }
+
   .home-content h1,
   .subscribe2-inner h1 {
     font-size: 35px;
   }
+
   .about-img {
     padding-right: 0;
   }
+
   .shape9 {
     right: 12%;
     bottom: 48%;
   }
+
   .shape9 img {
     width: 100px;
   }
+
   .single-services-item.with-boxshadow {
     -webkit-box-shadow: unset;
     box-shadow: unset;
@@ -4361,16 +5265,20 @@
     padding-left: 0;
     padding-right: 0;
   }
+
   .single-feedback-item {
     padding: 30px 25px;
   }
+
   .single-feedback-item::before {
     right: 15px;
     bottom: 30px;
   }
+
   .team-section-title {
     padding-left: 0;
   }
+
   .single-team-member .content {
     background-color: transparent;
     position: relative;
@@ -4378,202 +5286,262 @@
     margin-top: 12px;
     padding: 0;
   }
+
   .single-team-member .content .d-flex {
     display: block !important;
   }
+
   .single-team-member .content span {
     margin-top: 5px;
   }
+
   .single-team-member .content h3 {
     font-size: 22px;
   }
+
   .quote-area {
     padding-top: 120px;
   }
+
   .quote-area::before {
     height: 40px;
   }
+
   .shape10,
   .shape11,
   .shape12 {
     display: none;
   }
+
   /* Start "Cybersecurity Demo Responsive, Cryptocurrency Demo Responsive & ICO Landing Demo Responsive" */
   .navbar-area-with-position-relative .navbar .navbar-brand {
     padding-top: 0;
   }
+
   .navbar-area-with-position-relative .navbar .navbar-nav .nav-item {
     margin-left: 10px;
     margin-right: 10px;
   }
+
   .cybersecurity-banner-area {
     border-bottom: 1px solid #eee;
     padding-top: 80px;
     padding-bottom: 80px;
   }
+
   .cybersecurity-banner-content {
     position: relative;
     top: 0;
   }
+
   .cybersecurity-banner-content h1 {
     margin-bottom: 15px;
     font-size: 55px;
   }
+
   .single-features-card {
     padding: 20px;
   }
+
   .what-we-work-content {
     padding-left: 0;
   }
+
   .single-funfact-card h3 {
     font-size: 55px;
   }
+
   .single-funfact-card h3 .small-text {
     font-size: 50px;
   }
+
   .single-funfact-card h3 .small-icon {
     font-size: 50px;
   }
+
   .cyber-security-services-card .services-content h3 {
     font-size: 22px;
   }
+
   .team-member-card .team-image .social-btn {
     right: 5px;
     bottom: -12px;
   }
+
   .cyber-safety-content {
     padding-left: 0;
   }
+
   .cyber-safety-content .safety-list li {
     padding: 15px 15px 15px 40px;
   }
+
   .blog-style-card .blog-content h3 {
     font-size: 20px;
   }
+
   .cryptocurrency-banner-area {
     padding-top: 80px;
     padding-bottom: 80px;
   }
+
   .cryptocurrency-banner-content {
     position: relative;
     top: 0;
   }
+
   .cryptocurrency-banner-content h1 {
     font-size: 55px;
   }
+
   .pre-token-sale-ends-content {
     padding: 30px 20px;
   }
+
   .pre-token-sale-ends-content #timer div {
     margin-right: 30px;
   }
+
   .pre-token-sale-ends-content .pre-token-sale-ends-shape {
     display: none;
   }
+
   .cryptocurrency-choose-content {
     padding-left: 0;
   }
+
   .roadmap-style-list-tab #roadmap-style-item .roadmap-style-card .sub-title {
     font-size: 16.5px;
   }
+
   .roadmap-style-list-tab #roadmap-style-item .roadmap-style-card .content {
     padding-left: 0;
   }
+
   .roadmap-style-list-tab #roadmap-style-item .roadmap-style-card .content h3 {
     font-size: 18px;
   }
+
   .download-app-inner-box {
     padding: 50px;
   }
+
   .download-app-inner-box .app-list li img {
     max-width: 120px;
   }
+
   .contact-us-inner-box .get-in-touch-information {
     padding: 30px 30px 120px;
   }
+
   .token-distribution-card .distribution-list {
     padding: 25px;
   }
+
   .token-distribution-card .distribution-list li {
     font-size: 16.5px;
   }
+
   .token-distribution-card .token-distribution-details {
     margin-left: 40px;
   }
+
   .token-distribution-card .token-distribution-details .header h3 {
     font-size: 22px;
   }
+
   .token-distribution-card .token-distribution-details .info-list li {
     font-size: 16.5px;
   }
+
   .ico-landing-banner-content h1 {
     font-size: 50px;
   }
+
   .ico-about-content {
     padding-left: 0;
   }
+
   .platforms-item.with-white-color .arrow-image {
     right: -40px;
     top: 50px;
     width: 60px;
   }
+
   /* End "Cybersecurity Demo Responsive, Cryptocurrency Demo Responsive & ICO Landing Demo Responsive" */
   .navbar-area-with-position-relative .navbar .others-option .default-btn {
     padding-left: 25px;
     padding-right: 25px;
   }
+
   .navbar-area-with-position-relative .navbar .others-option .default-btn span {
     display: none;
   }
+
   .why-choose-us-shape {
     opacity: 20%;
   }
+
   .team-member-shape {
     opacity: 20%;
   }
+
   .blog-style-shape {
     opacity: 20%;
   }
+
   .team-member-card .team-content h3 {
     font-size: 20px;
   }
+
   .contact-us-inner-box {
     padding: 40px;
   }
+
   .page-title-area2 .shape1,
   .shape3,
   .shape4 {
     display: none;
   }
+
   .faq-accordion .accordion .accordion__item .accordion__button {
     justify-content: center;
   }
+
   .faq-accordion .accordion .accordion__item .accordion__button img {
     height: 50px;
     width: 50px;
   }
+
   .single-blog-post .content h3 {
     height: 90px;
   }
+
   .single-blog-post .content p {
     height: 130px !important;
   }
+
   .blogs-content p,
   .blogs-content ul li {
     font-size: 17px !important;
   }
+
   .process-inner h2 {
     font-size: 32px !important;
   }
+
   .career-section {
     padding: 50px 30px;
   }
+
   .career-card {
     padding: 40px;
   }
+
   .career-card-title {
     padding-bottom: 15px;
   }
+
   .career-card-button {
     justify-content: center;
     /* width: auto; */
@@ -4582,33 +5550,42 @@
     padding-top: 15px;
     padding-bottom: 15px;
   }
+
   .career-card-button .default-btn {
     padding-top: 10px;
     padding-bottom: 10px;
   }
+
   .career-card-button .default-btn {
     font-size: 18px;
   }
+
   .career-section .horizonal-line {
     display: none;
   }
+
   .new-style {
     margin-top: 40px;
   }
+
   .discovery-call-header {
     padding: 60px 12px;
   }
+
   .discovery-call-header .discovery-call-heading-1 {
     line-height: 44px;
     font-size: 36px;
   }
+
   .discovery-call-header .discovery-call-heading-2 {
     line-height: 36px;
     font-size: 28px;
   }
+
   .discovery-call-button .free-strategy {
     font-size: 25px;
   }
+
   .discovery-call-button {
     width: 396px;
     padding-top: 8px;
@@ -4616,31 +5593,39 @@
     padding-right: 0px;
     padding-bottom: 14px;
   }
+
   .discovery-call-img {
     margin-right: auto;
     margin-left: 0;
   }
+
   .discovery-call-img video {
     width: 440px;
     height: auto;
     border-radius: 21px;
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
   }
+
   .discovery-call-features {
     padding-left: 0;
   }
+
   .discovery-call-features h3 {
     font-size: 22px;
   }
+
   .discovery-call-features ul li {
     font-size: 16px;
   }
+
   .we-adapt-to-your-need-content h2 {
     font-size: 32px;
   }
+
   .we-adapt-to-your-need-content h3 {
     font-size: 22px;
   }
+
   .background {
     width: 750px;
     height: 650px;
@@ -4653,27 +5638,33 @@
     right: 4%;
     margin-top: 38px;
   }
+
   .reliable-and-secure-content {
     padding: 10px;
     position: relative;
     top: 0;
   }
+
   .reliable-and-secure-content h2 {
     line-height: 1.1;
     margin-bottom: 15px;
     font-size: 32px;
   }
+
   .reliable-and-secure-area {
     padding-bottom: 27px;
   }
+
   .our-process-content h2 {
     font-size: 32px;
     margin-bottom: 5px;
     line-height: 1.7px;
   }
+
   .HiringTab {
     margin-bottom: 15px;
   }
+
   .Hiring-box {
     width: auto;
     height: 290.949px;
@@ -4681,6 +5672,7 @@
     border-radius: 85.465px;
     padding: 40px;
   }
+
   .Hiring-box p {
     width: auto;
     height: 125px;
@@ -4688,67 +5680,84 @@
     line-height: 25px;
     /* font-weight: 400; */
   }
+
   .Hiring-number h1 {
     font-size: 70.465px;
   }
+
   .Hiring-text h1 {
     width: auto;
     font-size: 25px;
   }
+
   .feedback-title h2 {
     font-size: 31px;
     font-weight: 700;
   }
+
   .feedback-content h1 {
     font-size: 25px !important;
   }
+
   .feedback-content h2 {
     font-size: 19px !important;
   }
+
   .feedback-content p {
     line-height: 125%;
   }
+
   .client-feedback {
     height: 560px;
   }
+
   .client-feedback-card {
     height: 425px !important;
   }
+
   .client-feedback .swiper-button-prev {
     left: auto;
     right: 725px;
   }
+
   .client-feedback .swiper-button-next {
     left: 725px;
     right: auto;
   }
+
   .client-feedback .swiper-button-prev {
     left: auto;
     right: 620px;
     background-size: 40px 40px;
   }
+
   .client-feedback .swiper-button-next {
     left: 620px;
     right: auto;
     background-size: 40px 40px;
   }
+
   .swiper-pagination-bullets,
   .swiper-pagination-bullets.swiper-pagination-horizontal,
   .swiper-pagination-custom,
   .swiper-pagination-fraction {
     bottom: 43px !important;
   }
+
   .client-feedback .swiper-pagination-bullet {
     width: 15px;
     height: 15px;
     background: #c7c7c7;
   }
+
   .client-feedback .swiper-pagination-bullet-active {
     background: #00718a;
   }
+
   .our-process-content h1 {
     line-height: 43px;
   }
+
   .our-process-content h1 .dot {
     font-size: 42px;
   }
@@ -4756,13 +5765,16 @@
   .home-slides {
     margin-top: 50px !important;
   }
+
   .home-content {
     top: 0;
   }
+
   .home-area {
     padding-top: 30px;
     height: 540px;
   }
+
   .home-image img {
     height: 410px;
   }
@@ -4885,8 +5897,10 @@
     padding-left: 5px;
   }
 
-  .profile-info {
-    font-size: 13px;
+  .common-flex {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
   }
 
   .tags {
@@ -5027,17 +6041,21 @@
     line-height: 48px;
     font-size: 40px;
   }
+
   .thank-header .thankyou-heading-2 {
     line-height: 42px;
     font-size: 32px;
   }
+
   .thank-header .thankyou-paragraph {
     line-height: 26px;
     font-size: 16px;
   }
+
   .thankyou-features-box h3 {
     font-size: 22px;
   }
+
   .thankyou-features-box ul li {
     font-size: 16px;
   }
@@ -5045,68 +6063,86 @@
   .main-banner-content h1 {
     font-size: 58px;
   }
+
   .main-banner-image::before {
     width: 640px;
     height: 640px;
   }
+
   .main-banner-image .shape {
     width: 120px;
     left: 16%;
     top: 17%;
   }
+
   .shape1 {
     opacity: 0.3;
   }
+
   .shape2 {
     opacity: 0.5;
   }
+
   .shape3 {
     opacity: 0.3;
   }
+
   .shape4 {
     right: 4%;
     width: 100px;
   }
+
   .single-services-box {
     padding: 30px;
   }
+
   .process-inner {
     padding-left: 60px;
     padding-right: 60px;
   }
+
   .single-case-studies-box .content .features-list {
     padding-left: 25px;
     padding-right: 25px;
   }
+
   .single-case-studies-box .image::before {
     width: 480px;
     height: 480px;
   }
+
   .case-studies-details-header .content {
     padding-left: 0;
   }
+
   .case-studies-details-header .content .meta {
     padding-left: 20px;
     padding-right: 20px;
   }
+
   .case-studies-details-header .content .meta li {
     margin-right: 20px;
     padding-left: 40px;
     padding-right: 20px;
   }
+
   .case-studies-details-header .content .meta li i {
     font-size: 27px;
   }
+
   /*new-css*/
   .home-area::before {
     height: 70px;
   }
+
   .single-services-item {
     padding: 30px;
   }
+
   .single-services-item.with-boxshadow {
     border: 1px solid #eeeeee;
   }
+
   .services-slides-two {
     padding-top: 0;
     padding-left: 0;
@@ -5115,90 +6151,116 @@
     margin-left: 0;
     margin-right: 0;
   }
+
   .single-feedback-item {
     padding: 30px 25px;
   }
+
   .team-member-list {
     padding-right: 0;
   }
+
   .single-team-member .content {
     padding: 15px;
   }
+
   .single-team-member .content h3 {
     font-size: 22px;
   }
+
   .single-funfacts-box {
     padding-left: 100px;
     padding-right: 10px;
   }
+
   .single-funfacts-box .icon {
     left: 10px;
     width: 75px;
   }
+
   .shape11 img {
     width: 170px;
   }
+
   .shape12 img {
     width: 180px;
   }
+
   /* Start "Cybersecurity Demo Responsive, Cryptocurrency Demo Responsive & ICO Landing Demo Responsive" */
   .cybersecurity-banner-area {
     padding-top: 80px;
     padding-bottom: 80px;
   }
+
   .cybersecurity-banner-content {
     top: 0;
   }
+
   .cyber-safety-content {
     padding-left: 0;
   }
+
   .cyber-safety-content .safety-list li {
     font-size: 14px;
   }
+
   .single-features-card.with-black-color {
     padding: 30px 25px;
   }
+
   .single-features-card.with-black-color h3 {
     font-size: 20px;
   }
+
   .platforms-item.with-white-color .arrow-image {
     right: -85px;
   }
+
   /* End "Cybersecurity Demo Responsive, Cryptocurrency Demo Responsive & ICO Landing Demo Responsive" */
   .contact-us-inner-box .contact-form-wrap {
     max-width: 600px;
   }
+
   .page-title-area2 .shape1,
   .shape3,
   .shape4 {
     display: none;
   }
+
   .faq-accordion .accordion .accordion__item .accordion__button {
     font-size: 16px !important;
   }
+
   .single-blog-post .content h3 {
     height: 90px;
   }
+
   .single-blog-post .content p {
     height: 130px !important;
   }
+
   .single-blog-post .image .date {
     right: -38%;
   }
+
   /* hasni edits */
 
   .blog-details-desc .article-content .social-links {
     right: -50px;
   }
+
   .career-section {
     padding: 50px 30px;
   }
+
   .career-card {
     padding: 40px;
   }
+
   .career-card-title {
     padding-bottom: 15px;
   }
+
   .career-card-button {
     justify-content: center;
     /* width: auto; */
@@ -5207,53 +6269,67 @@
     padding-top: 15px;
     padding-bottom: 15px;
   }
+
   .career-card-button .default-btn {
     padding-top: 10px;
     padding-bottom: 10px;
   }
+
   .career-card-button .default-btn {
     font-size: 18px;
   }
+
   .career-section .horizonal-line {
     display: none;
   }
+
   .new-style {
     margin-top: 60px;
   }
+
   .discovery-call-img {
     margin-right: auto;
     margin-left: 0;
   }
+
   .discovery-call-img video {
     width: 470px;
     height: auto;
     border-radius: 21px;
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
   }
+
   .discovery-call-header .discovery-call-heading-1 {
     line-height: 48px;
     font-size: 40px;
   }
+
   .discovery-call-header .discovery-call-heading-2 {
     line-height: 42px;
     font-size: 32px;
   }
+
   .discovery-call-features h3 {
     font-size: 22px;
   }
+
   .discovery-call-features ul li {
     font-size: 16px;
   }
+
   .we-adapt-to-your-need-content h2 {
     font-size: 32px;
   }
+
   .we-adapt-to-your-need-content h3 {
     font-size: 22px;
   }
+
   .we-adapt-to-your-need-aera {
     padding-top: 60px;
     padding-bottom: 60px;
   }
+
   .background {
     width: 800px;
     height: 760px;
@@ -5266,29 +6342,36 @@
     right: 4%;
     margin-top: 62px;
   }
+
   .reliable-and-secure-content {
     top: 0;
   }
+
   .our-process-content h2 {
     width: 400px;
     margin-left: auto;
   }
+
   .our-process-content h1 {
     line-height: 47px;
   }
+
   .our-process-content h1 .dot {
     font-size: 48px;
   }
+
   .our-process-content img {
     margin-right: 0;
     margin-left: auto;
   }
+
   .Hiring-box {
     width: 450px;
     height: 320.949px;
     margin: 20px 0px;
     border-radius: 90.465px;
   }
+
   .Hiring-box p {
     width: 380px;
     height: 125px;
@@ -5296,69 +6379,87 @@
     line-height: 30px;
     /* font-weight: 400; */
   }
+
   .Hiring-number h1 {
     font-size: 80.465px;
   }
+
   .Hiring-text h1 {
     font-size: 30px;
   }
+
   .feedback-title h2 {
     font-size: 31px;
     font-weight: 700;
   }
+
   .feedback-content h1 {
     font-size: 30px !important;
   }
+
   .feedback-content h2 {
     font-size: 20px !important;
   }
+
   .client-feedback {
     height: 560px;
   }
+
   .client-feedback-card {
     height: 430px !important;
   }
+
   .client-feedback .swiper-button-prev {
     left: auto;
     right: 715px;
     background-size: 40px 40px;
   }
+
   .client-feedback .swiper-button-next {
     left: 715px;
     right: auto;
     background-size: 40px 40px;
   }
+
   .swiper-pagination-bullets,
   .swiper-pagination-bullets.swiper-pagination-horizontal,
   .swiper-pagination-custom,
   .swiper-pagination-fraction {
     bottom: 43px !important;
   }
+
   .client-feedback .swiper-pagination-bullet {
     width: 15px;
     height: 15px;
     background: #c7c7c7;
   }
+
   .client-feedback .swiper-pagination-bullet-active {
     background: #00718a;
   }
+
   .reliable-and-secure-content h2 {
     font-size: 57px;
     line-height: 60px;
   }
+
   .home-slides {
     margin-top: 70px !important;
   }
+
   .home-content {
     top: 0;
   }
+
   .home-content h1 {
     font-size: 47px;
   }
+
   .home-area {
     padding-top: 30px;
     height: 620px;
   }
+
   .home-image img {
     /* max-width: 640px; */
     height: 472px;
@@ -5594,13 +6695,16 @@
 
   /* End CV Responsive Css */
 }
+
 @media only screen and (min-width: 1356px) and (max-width: 1399px) {
   .single-blog-post .image .date {
     right: -38%;
   }
+
   .single-blog-post .content h3 {
     height: 90.614px;
   }
+
   .single-blog-post .content p {
     height: 120px;
   }
@@ -5609,29 +6713,37 @@
     font-size: 40px;
     line-height: 50px;
   }
+
   .thank-header .thankyou-heading-2 {
     font-size: 32px;
     line-height: 34px;
   }
+
   .thank-header .thankyou-paragraph {
     font-size: 16px;
     line-height: 28px;
   }
+
   .thankyou-features-box h3 {
     font-size: 22px;
   }
+
   .thankyou-features-box ul li {
     font-size: 16px;
   }
+
   .career-section {
     padding: 50px 30px;
   }
+
   .career-card {
     padding: 40px;
   }
+
   .career-card-title {
     padding-bottom: 15px;
   }
+
   .career-card-button {
     justify-content: center;
     /* width: auto; */
@@ -5640,57 +6752,72 @@
     padding-top: 15px;
     padding-bottom: 15px;
   }
+
   .career-card-button .default-btn {
     padding-top: 10px;
     padding-bottom: 10px;
   }
+
   .career-card-button .default-btn {
     font-size: 18px;
   }
+
   .career-section .horizonal-line {
     display: none;
   }
+
   .new-style {
     margin-top: 65px;
   }
+
   .discovery-call-img {
     margin-right: auto;
     margin-left: 0;
   }
+
   .discovery-call-img video {
     width: 470px;
     height: auto;
     border-radius: 21px;
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
   }
+
   .discovery-call-header .container .row {
     padding-top: 25px;
   }
+
   .discovery-call-header .discovery-call-heading-1 {
     font-size: 40px;
     line-height: 50px;
   }
+
   .discovery-call-header .discovery-call-heading-2 {
     font-size: 32px;
     line-height: 42px;
   }
+
   .discovery-call-features h3 {
     font-size: 22px;
   }
+
   .discovery-call-features ul li {
     font-size: 16px;
   }
+
   .we-adapt-to-your-need-aera {
     padding-top: 80px;
     padding-bottom: 80px;
   }
+
   .we-adapt-to-your-need-content h2 {
     line-height: 47px;
   }
+
   .reliable-and-secure-content h2 {
     font-size: 57px;
     line-height: 60px;
   }
+
   .background {
     width: 900px;
     height: 850px;
@@ -5703,22 +6830,27 @@
     right: 3%;
     margin-top: 48px;
   }
+
   .our-process-content h1 {
     line-height: 47px;
   }
+
   .our-process-content h1 .dot {
     font-size: 48px;
   }
+
   .our-process-content h2 {
     width: 400px;
     margin-left: auto;
   }
+
   .Hiring-box {
     width: 450px;
     height: 320.949px;
     margin: 20px 0px;
     border-radius: 90.465px;
   }
+
   .Hiring-box p {
     width: 380px;
     height: 125px;
@@ -5726,50 +6858,64 @@
     line-height: 30px;
     /* font-weight: 400; */
   }
+
   .Hiring-number h1 {
     font-size: 80.465px;
   }
+
   .Hiring-text h1 {
     font-size: 30px;
   }
+
   .feedback-title h2 {
     font-size: 31px;
     font-weight: 700;
   }
+
   .feedback-content h1 {
     font-size: 30px !important;
   }
+
   .feedback-content h2 {
     font-size: 20px !important;
   }
+
   .client-feedback {
     height: 560px;
   }
+
   .client-feedback-card {
     height: 446px !important;
   }
+
   .client-feedback .swiper-button-prev {
     left: auto;
     right: 725px;
     bottom: 10px;
   }
+
   .client-feedback .swiper-button-next {
     left: 725px;
     right: auto;
   }
+
   .home-slides {
     margin-top: 70px !important;
   }
+
   .home-content {
     top: 0;
   }
+
   .home-content h1 {
     font-size: 47px;
   }
+
   .home-area {
     padding-top: 30px;
     height: 620px;
   }
+
   .home-image img {
     /* max-width: 640px; */
     height: 472px;
@@ -6017,12 +7163,15 @@
   .career-section {
     padding: 50px 30px;
   }
+
   .career-card {
     padding: 40px;
   }
+
   .career-card-title {
     padding-bottom: 15px;
   }
+
   .career-card-button {
     justify-content: center;
     /* width: auto; */
@@ -6031,33 +7180,41 @@
     padding-top: 15px;
     padding-bottom: 15px;
   }
+
   .career-card-button .default-btn {
     padding-top: 10px;
     padding-bottom: 10px;
   }
+
   .career-card-button .default-btn {
     font-size: 18px;
   }
+
   .career-section .horizonal-line {
     display: none;
   }
+
   .new-style {
     margin-top: 65px;
   }
+
   .discovery-call-features {
     padding-right: 0;
     padding-left: auto;
   }
+
   .discovery-call-img video {
     width: 620px;
     height: auto;
     border-radius: 21px;
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
   }
+
   .we-adapt-to-your-need-aera {
     padding-top: 120px;
     padding-bottom: 120px;
   }
+
   .we-adapt-to-your-need-content {
     width: 100%;
     height: 100%;
@@ -6065,6 +7222,7 @@
     position: relative;
     z-index: 1;
   }
+
   .background {
     width: 1052px;
     height: 842px;
@@ -6077,28 +7235,35 @@
     right: 3%;
     margin-top: 62px;
   }
+
   .our-process-content h2 {
     width: 500px;
     /* margin-left: auto; */
   }
+
   .our-process-content h1 {
     line-height: 60px !important;
   }
+
   .our-process-content p {
     width: 500px;
     /* margin-left: auto; */
   }
+
   .our-process-image img {
     margin-right: 0;
   }
+
   .client-feedback-card .row {
     height: 441.057px;
   }
+
   .Hiring-box {
     width: 489.938px;
     height: 323.949px;
     margin: 20px 0px;
   }
+
   .Hiring-box p {
     width: 400px;
     height: 125px;
@@ -6106,29 +7271,36 @@
     line-height: 30px;
     /* font-weight: 400; */
   }
+
   .Hiring-number h1 {
     font-size: 90.465px;
   }
+
   .Hiring-text h1 {
     font-size: 35px;
   }
+
   .client-feedback-card .row {
     height: 441.057px;
   }
+
   .feedback-title h2 {
     font-size: 48px;
     font-weight: 600;
   }
+
   .reliable-and-secure-content h2 {
     font-size: 87px;
     width: 450px;
     line-height: 97.001px;
   }
+
   .reliable-and-secure-content h3 {
     /* font-size: 42px; */
     width: 450px;
     line-height: 32px;
   }
+
   .our-process-content h1 {
     font-size: 56px;
     line-height: 78px;
@@ -6136,26 +7308,32 @@
     text-align: right;
     width: 600px;
   }
+
   .our-process-content p {
     margin-left: auto;
     margin-right: 55px;
   }
+
   .discovery-call-header .discovery-call-heading-1 {
     font-size: 52px;
     line-height: 67.6px;
   }
+
   .discovery-call-header .discovery-call-heading-2 {
     font-size: 43px;
     line-height: 45.5px;
     margin-bottom: 30px;
   }
+
   .discovery-call-features h3 {
     font-size: 34px;
     line-height: 37.327px;
   }
+
   .discovery-call-button .free-strategy {
     font-size: 24px;
   }
+
   .discovery-call-features ul li {
     color: #fff;
     text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2);
@@ -6163,7 +7341,8 @@
     font-size: 18px;
     font-style: normal;
     font-weight: 700;
-    line-height: 43.2px; /* 180% */
+    line-height: 43.2px;
+    /* 180% */
   }
 
   /* Start CV Responsive Css */
@@ -6269,11 +7448,11 @@
   }
 
   .expertise {
-    flex-basis: 31.3%;
+    flex-basis: 36.3%;
   }
 
   .english-level {
-    flex-basis: 31.3%;
+    flex-basis: 26.3%;
     margin-left: 7px;
   }
 
@@ -6368,45 +7547,55 @@
     left: 60px;
     top: 42%;
   }
+
   .shape2 {
     left: 35%;
     top: 24%;
   }
+
   .shape3 {
     bottom: 15%;
     left: 41%;
   }
+
   .shape4 {
     bottom: 16%;
     right: 13%;
   }
+
   .shape6 {
     bottom: 15%;
     left: 20%;
   }
+
   /*new-css*/
   .banner-area .shape1 {
     left: 12%;
     top: 29%;
   }
+
   .banner-area .shape2 {
     left: 58%;
     top: 40%;
   }
+
   .banner-area .shape4 {
     bottom: 18%;
     right: auto;
     left: 11%;
   }
+
   .banner-area .shape3 {
     bottom: auto;
     left: 77%;
     top: 14%;
   }
+
   .shape9 {
     right: 18%;
     bottom: 36%;
   }
+
   .home-area {
     z-index: 1;
     position: relative;
@@ -6417,6 +7606,7 @@
     background-repeat: no-repeat;
     background-size: cover;
   }
+
   .home-area::before {
     left: 0;
     right: 0;
@@ -6430,40 +7620,50 @@
     background-repeat: no-repeat;
     background-size: cover;
   }
+
   /* Start "Cybersecurity Demo Responsive, Cryptocurrency Demo Responsive & ICO Landing Demo Responsive" */
   .top-header-black-area .container-fluid {
     padding-left: 120px;
     padding-right: 120px;
   }
+
   .navbar-area-with-position-relative .navbar .container-fluid {
     padding-left: 120px;
     padding-right: 120px;
   }
+
   .cybersecurity-banner-area .container-fluid {
     padding-left: 120px;
     padding-right: 0;
   }
+
   .value-trade-area .container-fluid {
     padding-left: 120px;
     padding-right: 120px;
   }
+
   .cryptocurrency-banner-area .container-fluid {
     padding-left: 120px;
     padding-right: 120px;
   }
+
   .ico-landing-banner-area .container-fluid {
     padding-left: 120px;
     padding-right: 120px;
   }
+
   .career-section {
     padding: 50px 30px;
   }
+
   .career-card {
     padding: 40px;
   }
+
   .career-card-title {
     padding-bottom: 15px;
   }
+
   .career-card-button {
     justify-content: center;
     /* width: auto; */
@@ -6472,27 +7672,34 @@
     padding-top: 15px;
     padding-bottom: 15px;
   }
+
   .career-card-button .default-btn {
     padding-top: 10px;
     padding-bottom: 10px;
   }
+
   .career-card-button .default-btn {
     font-size: 18px;
   }
+
   .career-section .horizonal-line {
     display: none;
   }
+
   .new-style {
     margin-top: 70px;
   }
+
   .discovery-call-features {
     padding-right: 0;
     padding-left: auto;
   }
+
   .we-adapt-to-your-need-aera {
     padding-top: 120px;
     padding-bottom: 120px;
   }
+
   .we-adapt-to-your-need-content {
     width: 100%;
     height: 100%;
@@ -6500,6 +7707,7 @@
     position: relative;
     z-index: 1;
   }
+
   .background {
     width: 1052px;
     height: 842px;
@@ -6512,6 +7720,7 @@
     right: 8%;
     margin-top: 62px;
   }
+
   .our-process-content h1 {
     font-size: 56px;
     line-height: 60px;
@@ -6519,15 +7728,18 @@
     text-align: right;
     width: 600px;
   }
+
   .our-process-content p {
     margin-left: auto;
     margin-right: 55px;
   }
+
   .Hiring-box {
     width: 489.938px;
     height: 323.949px;
     margin: 20px 0px;
   }
+
   .Hiring-box p {
     width: 400px;
     height: 125px;
@@ -6535,51 +7747,63 @@
     line-height: 30px;
     /* font-weight: 400; */
   }
+
   .Hiring-number h1 {
     font-size: 90.465px;
   }
+
   .Hiring-text h1 {
     font-size: 35px;
   }
+
   .client-feedback-card .row {
     height: 441.057px;
   }
+
   .feedback-title h2 {
     font-size: 48px;
     font-weight: 600;
   }
+
   .reliable-and-secure-content h2 {
     font-size: 87px;
     width: 450px;
     line-height: 97.001px;
   }
+
   .reliable-and-secure-content h3 {
     /* font-size: 42px; */
     width: 450px;
     line-height: 32px;
   }
+
   .discovery-call-img video {
     width: 620px;
     height: auto;
     border-radius: 21px;
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
   }
+
   .discovery-call-header .discovery-call-heading-1 {
     font-size: 52px;
     line-height: 67.6px;
   }
+
   .discovery-call-header .discovery-call-heading-2 {
     font-size: 43px;
     line-height: 45.5px;
     margin-bottom: 30px;
   }
+
   .discovery-call-features h3 {
     font-size: 34px;
     line-height: 37.327px;
   }
+
   .discovery-call-button .free-strategy {
     font-size: 24px;
   }
+
   .discovery-call-features ul li {
     color: #fff;
     text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2);
@@ -6587,8 +7811,10 @@
     font-size: 18px;
     font-style: normal;
     font-weight: 700;
-    line-height: 43.2px; /* 180% */
+    line-height: 43.2px;
+    /* 180% */
   }
+
   /* End "Cybersecurity Demo Responsive, Cryptocurrency Demo Responsive & ICO Landing Demo Responsive" */
 }
 
@@ -6596,24 +7822,31 @@
   .new-style {
     margin-top: 80px;
   }
+
   .cryptocurrency-banner-area .container-fluid {
     max-width: 2070px;
   }
+
   .navbar-area-with-position-relative .navbar .container-fluid {
     max-width: 2070px;
   }
+
   .value-trade-area .container-fluid {
     max-width: 2070px;
   }
+
   .top-header-black-area .container-fluid {
     max-width: 2070px;
   }
+
   .cybersecurity-banner-area .container-fluid {
     max-width: 2070px;
   }
+
   .ico-landing-banner-area .container-fluid {
     max-width: 2070px;
   }
+
   .cta-images {
     display: block;
   }
@@ -6622,32 +7855,40 @@
     font-size: 52px;
     line-height: 67.6px;
   }
+
   .thank-header .thankyou-heading-2 {
     font-size: 35px;
     line-height: 45.5px;
     margin-bottom: 30px;
   }
+
   .thank-header .thankyou-paragraph {
     font-size: 22px;
     line-height: 33px;
   }
+
   .thankyou-features-box h3 {
     font-size: 28.713px;
     line-height: 37.327px;
   }
+
   .thankyou-features-box ul li {
     font-size: 20.509px;
     line-height: 28.713px;
   }
+
   .career-section {
     padding: 50px 30px;
   }
+
   .career-card {
     padding: 40px;
   }
+
   .career-card-title {
     padding-bottom: 15px;
   }
+
   .career-card-button {
     justify-content: center;
     /* width: auto; */
@@ -6656,13 +7897,16 @@
     padding-top: 15px;
     padding-bottom: 15px;
   }
+
   .career-card-button .default-btn {
     padding-top: 10px;
     padding-bottom: 10px;
   }
+
   .career-card-button .default-btn {
     font-size: 18px;
   }
+
   .career-section .horizonal-line {
     display: none;
   }
@@ -6671,18 +7915,22 @@
     font-size: 52px;
     line-height: 67.6px;
   }
+
   .discovery-call-header .discovery-call-heading-2 {
     font-size: 43px;
     line-height: 45.5px;
     margin-bottom: 30px;
   }
+
   .discovery-call-features h3 {
     font-size: 34px;
     line-height: 37.327px;
   }
+
   .discovery-call-button .free-strategy {
     font-size: 24px;
   }
+
   .discovery-call-features ul li {
     color: #fff;
     text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2);
@@ -6690,13 +7938,16 @@
     font-size: 18px;
     font-style: normal;
     font-weight: 700;
-    line-height: 43.2px; /* 180% */
+    line-height: 43.2px;
+    /* 180% */
   }
+
   .we-adapt-to-your-need-aera {
     padding-top: 120px;
     padding-bottom: 120px;
     font-family: Poppins;
   }
+
   .we-adapt-to-your-need-content {
     width: 100%;
     height: 100%;
@@ -6705,6 +7956,7 @@
     font-family: Outfit;
     z-index: 1;
   }
+
   .background {
     width: 1052px;
     height: 842;
@@ -6717,6 +7969,7 @@
     right: 14%;
     margin-top: 62px;
   }
+
   .our-process-content h1 {
     font-size: 56px;
     line-height: 60px;
@@ -6724,15 +7977,18 @@
     text-align: right;
     width: 600px;
   }
+
   .our-process-content p {
     margin-left: auto;
     margin-right: 55px;
   }
+
   .Hiring-box {
     width: 489.938px;
     height: 323.949px;
     margin: 20px 0px;
   }
+
   .Hiring-box p {
     width: 400px;
     height: 125px;
@@ -6744,21 +8000,26 @@
   .Hiring-number h1 {
     font-size: 90.465px;
   }
+
   .Hiring-text h1 {
     font-size: 35px;
   }
+
   .client-feedback-card .row {
     height: 441.057px;
   }
+
   .feedback-title h2 {
     font-size: 48px;
     font-weight: 600;
   }
+
   .reliable-and-secure-content h1 {
     font-size: 55px;
     width: 450px;
     line-height: 1.1;
   }
+
   .reliable-and-secure-content h3 {
     /* font-size: 42px; */
     width: 450px;
@@ -6770,12 +8031,15 @@
   .with-space {
     margin-top: 30px;
   }
+
   .thank-header .container .section-title h2 {
     height: 70px;
   }
+
   .career-section {
     padding: 30px 20px;
   }
+
   .career-card {
     border: none;
     border-radius: 20px;
@@ -6784,30 +8048,37 @@
     padding: 15px;
     margin: 20px 4px;
   }
+
   .career-card-title {
     padding-bottom: 15px;
   }
+
   .career-card-button {
     align-items: start;
     height: auto;
     padding-top: 15px;
     padding-bottom: 15px;
   }
+
   .career-card-button .default-btn {
     width: 100%;
     padding-top: 10px;
     padding-bottom: 10px;
   }
+
   .career-card-button .default-btn {
     font-size: 18px;
   }
+
   .career-section .dropdown {
     margin-bottom: 10px !important;
   }
+
   .pagination-area .nav-links {
     gap: 1px;
     row-gap: 5px;
   }
+
   .pagination-area .page-numbers {
     width: 25px;
     height: 25px;
@@ -6818,33 +8089,41 @@
     justify-content: center;
     display: flex;
   }
+
   .discovery-call-img {
     margin: auto;
     justify-content: center;
     display: flex;
   }
+
   .discovery-call-img video {
     width: 90%;
     height: auto;
     border-radius: 21px;
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
   }
+
   .discovery-call-header {
     padding: 45px 12px;
   }
+
   .discovery-call-button {
     width: 92%;
   }
+
   .discovery-call-button .free-strategy {
     font-size: 18px;
   }
+
   .we-adapt-to-your-need-aera {
     padding-top: 10px;
     padding-bottom: 20px;
   }
+
   .background {
     display: none;
   }
+
   .we-adapt-to-your-need-content {
     padding-left: 10px;
     padding-right: 10px;
@@ -6852,60 +8131,75 @@
     background-color: #f0f9f9;
     border-radius: 32px 32px 32px 32px;
   }
+
   .we-adapt-to-your-need-content .row {
     margin-top: 15px;
     margin-bottom: 15px;
     justify-content: center;
   }
+
   .we-adapt-to-your-need-content h2 {
     font-size: 25px;
     margin-bottom: 15px;
     text-align: center;
   }
+
   .we-adapt-to-your-need-content h2 {
     line-height: 1.1px;
   }
+
   .we-adapt-to-your-need-image {
     padding: 40px;
     padding-bottom: 20px;
   }
+
   .we-adapt-to-your-need-content .style-two {
     padding-right: 25px;
     margin: auto;
     display: block;
   }
+
   .we-adapt-to-your-need-content .logo {
     width: 30px;
     height: 30px;
   }
+
   .reliable-and-secure-content {
     padding: 30px;
     position: relative;
     top: 0;
   }
+
   .reliable-and-secure-content h2 {
     line-height: 1.1;
     margin-bottom: 15px;
     font-size: 32px;
   }
+
   .reliable-and-secure-area {
     padding-bottom: 30px;
   }
+
   .reliable-and-secure-image {
     padding: 30px;
   }
+
   .reliable-and-secure-content h3 {
     font-size: 20px;
   }
+
   .our-process-content h1 {
     line-height: 35px;
   }
+
   .our-process-content h1 {
     font-size: 35px;
   }
+
   .our-process-content h1 .dot {
     font-size: 35px;
   }
+
   .our-process-content h2 {
     text-align: left;
     font-size: 30px;
@@ -6913,60 +8207,75 @@
     margin-bottom: 10px;
     line-height: 1.2;
   }
+
   .our-process-content p {
     text-align: left;
   }
+
   .our-process-area {
     padding: 30px;
   }
+
   .our-process-content h2 .dot {
     display: none;
   }
+
   .our-process-box {
     padding: 11px 0;
   }
+
   .feedback-title h2 {
     font-size: 31px;
     font-weight: 700;
   }
+
   .feedback-content h1 {
     font-size: 25px !important;
   }
+
   .feedback-content h2 {
     font-size: 19px !important;
   }
+
   .feedback-content p {
     line-height: 145%;
     padding-right: 0;
   }
+
   .client-feedback {
     height: 1000px !important;
   }
+
   .client-feedback-card {
     height: 900px !important;
     box-shadow: none;
     /* box-shadow: 0px 45px 65px 0px rgba(0, 0, 0, 0.1); */
   }
+
   .client-feedback .swiper-button-prev {
     left: auto;
     right: 600px !important;
   }
+
   .client-feedback .swiper-button-next {
     left: 600px !important;
     right: auto;
   }
+
   .client-feedback .swiper-button-prev {
     /* left: auto;
     right: 515px !important;
     background-size: 40px 40px; */
     display: none;
   }
+
   .client-feedback .swiper-button-next {
     /* left: 515px !important;
     right: auto;
     background-size: 40px 40px; */
     display: none;
   }
+
   .swiper-pagination-bullets,
   .swiper-pagination-bullets.swiper-pagination-horizontal,
   .swiper-pagination-custom,
@@ -6974,23 +8283,29 @@
     bottom: 33px !important;
     width: 40% !important;
   }
+
   .client-feedback .swiper-pagination-bullet {
     width: 18px;
     height: 18px;
     background: #c7c7c7;
   }
+
   .client-feedback .swiper-pagination-bullet-active {
     background: #00718a;
   }
+
   .feedback-rating {
     margin-top: 15px;
   }
+
   .HiringTab {
     margin-bottom: 15px;
   }
+
   .HiringTab-para {
     margin: auto;
   }
+
   .Hiring-box {
     width: auto;
     height: 340.949px;
@@ -6999,6 +8314,7 @@
     padding: 40px;
     align-items: start;
   }
+
   .Hiring-box p {
     width: 240px;
     height: 125px;
@@ -7006,9 +8322,11 @@
     line-height: 25px;
     /* font-weight: 400; */
   }
+
   .Hiring-number h1 {
     font-size: 50.465px;
   }
+
   .Hiring-text h1 {
     width: auto;
     font-size: 20px;
@@ -7027,29 +8345,50 @@
     margin-bottom: 5px;
   }
 
-  .expertise {
-    flex-basis: 50%;
-    margin-bottom: 4px;
+  .profile-details-area .col-xs-8 {
+    flex: 0 0 auto;
+    width: 62%;
   }
 
-  .english-level {
-    flex-basis: 50%;
+  .profile-details-area .col-xs-4 {
+    flex: 0 0 auto;
+    width: 38%;
+    margin-left: 0px
   }
 
-  .experience {
-    flex-basis: 50%;
+  .with-icon .col-sm-10 {
+    flex: 0 0 auto;
+    width: 75%;
+  }
+
+  .with-icon .col-sm-2 {
+    flex: 0 0 auto;
+    width: 25%;
+  }
+
+  .with-icon .col-sm-7 {
+    flex: 0 0 auto;
+    width: 50%;
+  }
+
+  .image-badge {
+    padding-left: 8px;
   }
 }
+
 @media screen and (min-width: 375px) and (max-width: 575px) {
   .with-space {
     margin-top: 25px;
   }
+
   .thank-header .container .section-title h2 {
     height: 70px;
   }
+
   .career-section {
     padding: 30px 30px;
   }
+
   .career-card {
     border: none;
     border-radius: 20px;
@@ -7057,30 +8396,37 @@
     padding: 30px 15px;
     margin: 20px 4px;
   }
+
   .career-card-title {
     padding-bottom: 15px;
   }
+
   .career-card-button {
     align-items: start;
     height: auto;
     padding-top: 15px;
     padding-top: 15px;
   }
+
   .career-card-button .default-btn {
     width: 100%;
     padding-top: 10px;
     padding-bottom: 10px;
   }
+
   .career-section .dropdown {
     margin-bottom: 10px !important;
   }
+
   .career-card-button .default-btn {
     font-size: 18px;
   }
+
   .pagination-area .nav-links {
     gap: 1px;
     row-gap: 5px;
   }
+
   .pagination-area .page-numbers {
     width: 30px;
     height: 30px;
@@ -7091,33 +8437,41 @@
     justify-content: center;
     display: flex;
   }
+
   .discovery-call-img {
     margin: auto;
     justify-content: center;
     display: flex;
   }
+
   .discovery-call-img video {
     width: 85%;
     height: auto;
     border-radius: 21px;
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
   }
+
   .discovery-call-header {
     padding: 45px 12px;
   }
+
   .discovery-call-button {
     width: 322px;
   }
+
   .discovery-call-button .free-strategy {
     font-size: 18px;
   }
+
   .we-adapt-to-your-need-aera {
     padding-top: 10px;
     padding-bottom: 30px;
   }
+
   .background {
     display: none;
   }
+
   .we-adapt-to-your-need-content {
     padding-left: 40px;
     padding-right: 40px;
@@ -7125,10 +8479,12 @@
     background-color: #f0f9f9;
     border-radius: 32px 32px 32px 32px;
   }
+
   .we-adapt-to-your-need-content .row {
     margin-top: 15px;
     margin-bottom: 15px;
   }
+
   .we-adapt-to-your-need-content h2 {
     font-size: 28px;
     margin-bottom: 15px;
@@ -7136,39 +8492,49 @@
     text-align: center;
     line-height: 1.1px;
   }
+
   .we-adapt-to-your-need-image {
     padding: 40px;
   }
+
   .we-adapt-to-your-need-content .style-two {
     padding-right: 25px;
     margin: auto;
     display: block;
   }
+
   .reliable-and-secure-content {
     padding: 30px;
     position: relative;
     top: 0;
   }
+
   .reliable-and-secure-content h2 {
     line-height: 1.1;
     margin-bottom: 15px;
     font-size: 32px;
   }
+
   .reliable-and-secure-content h3 {
     font-size: 25px;
   }
+
   .reliable-and-secure-area {
     padding-bottom: 30px;
   }
+
   .reliable-and-secure-image {
     padding: 30px;
   }
+
   .our-process-content h1 {
     line-height: 42px;
   }
+
   .our-process-content h1 .dot {
     font-size: 40px;
   }
+
   .our-process-content h2 {
     text-align: left;
     font-size: 30px;
@@ -7176,57 +8542,71 @@
     margin-bottom: 5px;
     line-height: 1.8px;
   }
+
   .our-process-content p {
     text-align: left;
   }
+
   .our-process-area {
     padding: 20px;
   }
+
   .our-process-box {
     padding: 11px 3px;
   }
+
   .feedback-title h2 {
     font-size: 31px;
     font-weight: 700;
   }
+
   .feedback-content h1 {
     font-size: 25px !important;
   }
+
   .feedback-content h2 {
     font-size: 19px !important;
   }
+
   .feedback-content p {
     line-height: 145%;
     padding-right: 0;
   }
+
   .client-feedback {
     height: 950px !important;
   }
+
   .client-feedback-card {
     height: 800px !important;
     box-shadow: none;
     /* box-shadow: 0px 45px 65px 0px rgba(0, 0, 0, 0.1); */
   }
+
   .client-feedback .swiper-button-prev {
     left: auto;
     right: 600px !important;
   }
+
   .client-feedback .swiper-button-next {
     left: 600px !important;
     right: auto;
   }
+
   .client-feedback .swiper-button-prev {
     /* left: auto;
     right: 515px !important;
     background-size: 40px 40px; */
     display: none;
   }
+
   .client-feedback .swiper-button-next {
     /* left: 515px !important;
     right: auto;
     background-size: 40px 40px; */
     display: none;
   }
+
   .swiper-pagination-bullets,
   .swiper-pagination-bullets.swiper-pagination-horizontal,
   .swiper-pagination-custom,
@@ -7234,23 +8614,29 @@
     bottom: 33px !important;
     width: 30% !important;
   }
+
   .client-feedback .swiper-pagination-bullet {
     width: 18px;
     height: 18px;
     background: #c7c7c7;
   }
+
   .client-feedback .swiper-pagination-bullet-active {
     background: #00718a;
   }
+
   .feedback-rating {
     margin-top: 15px;
   }
+
   .HiringTab {
     margin-bottom: 15px;
   }
+
   .HiringTab-para {
     margin: auto;
   }
+
   .Hiring-box {
     height: 310.949px;
     margin: auto;
@@ -7259,6 +8645,7 @@
     padding: 40px;
     align-items: start;
   }
+
   .Hiring-box p {
     width: 290px;
     /* height: 125px; */
@@ -7266,9 +8653,11 @@
     line-height: 25px;
     /* font-weight: 400; */
   }
+
   .Hiring-number h1 {
     font-size: 70.465px;
   }
+
   .Hiring-text h1 {
     width: auto;
     font-size: 25px;
@@ -7287,6 +8676,7 @@
     margin-bottom: 5px;
   }
 }
+
 /* @media screen and (max-width: 490px){
   .with-space {
     margin-top: 18px;
