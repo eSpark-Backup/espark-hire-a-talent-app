@@ -5,7 +5,7 @@ import CvCard from "./CvCard";
 const TechTools = ({ tools }) => {
   return (
     <CvCard>
-      <h1 className="cv-heading">Tech tools</h1>
+      <h1 className="cv-heading tech-tools">Tech tools</h1>
       <div className="tech-list">
         {tools.map((tool, index) => (
           <ProgressLine
