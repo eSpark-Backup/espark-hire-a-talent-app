@@ -10583,3 +10583,42 @@ client feedback Area CSS
 .AdaptTab {
   font-family: Outfit !important;
 }
+
+/*================================================
+partners-title-area  CSS
+=================================================*/
+
+.partners-title-area {
+  z-index: 1;
+  position: relative;
+  padding-top: 110px;
+  padding-bottom: 72px;
+  background-image: url(/images/partners/partner-bg.svg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.partners-title-area .row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.partners-body-contained h1 {
+  color: #fff;
+  font-family: Titillium Web;
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 71.266px; /* 111.354% */
+}
+
+.partners-body-contained p {
+  color: #fff;
+  font-family: Titillium Web;
+  font-size: 23px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 35.3px; /* 153.478% */
+}
