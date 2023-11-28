@@ -10605,7 +10605,7 @@ partners-title-area  CSS
   justify-content: space-between;
 }
 
-.partners-body-contained h1 {
+.partners-body-content h1 {
   color: #fff;
   font-family: Titillium Web;
   font-size: 64px;
@@ -10614,7 +10614,7 @@ partners-title-area  CSS
   line-height: 71.266px; /* 111.354% */
 }
 
-.partners-body-contained p {
+.partners-body-content p {
   color: #fff;
   font-family: Titillium Web;
   font-size: 23px;
