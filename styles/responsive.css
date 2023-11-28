@@ -2137,15 +2137,15 @@
     padding-bottom: 50px;
   }
 
-  .partners-body-contained h1 {
+  .partners-body-content h1 {
     font-size: 25px;
     font-style: normal;
     line-height: 30.266px; /* 111.354% */
   }
-  .partners-body-contained {
+  .partners-body-content {
     padding-bottom: 30px;
   }
-  .partners-body-contained p {
+  .partners-body-content p {
     font-size: 15px;
     line-height: 20.3px; /* 153.478% */
   }
@@ -3468,13 +3468,13 @@
     padding-top: 70px;
     padding-bottom: 60px;
   }
-  .partners-body-contained h1 {
+  .partners-body-content h1 {
     font-size: 37px;
     font-style: normal;
     line-height: 43.266px; /* 111.354% */
   }
 
-  .partners-body-contained p {
+  .partners-body-content p {
     font-size: 16px;
     line-height: 26.3px; /* 153.478% */
   }
@@ -4195,13 +4195,13 @@
   .home-image img {
     height: 410px;
   }
-  .partners-body-contained h1 {
+  .partners-body-content h1 {
     font-size: 45px;
     font-style: normal;
     line-height: 55.266px; /* 111.354% */
   }
 
-  .partners-body-contained p {
+  .partners-body-content p {
     font-size: 18px;
     line-height: 26.3px; /* 153.478% */
   }
@@ -4549,7 +4549,7 @@
     /* max-width: 640px; */
     height: 472px;
   }
-  .partners-body-contained h1 {
+  .partners-body-content h1 {
     color: #fff;
     font-family: Titillium Web;
     font-size: 55px;
@@ -4558,7 +4558,7 @@
     line-height: 71.266px; /* 111.354% */
   }
 
-  .partners-body-contained p {
+  .partners-body-content p {
     color: #fff;
     font-family: Titillium Web;
     font-size: 20px;
@@ -4747,7 +4747,7 @@
     /* max-width: 640px; */
     height: 472px;
   }
-  .partners-body-contained h1 {
+  .partners-body-content h1 {
     color: #fff;
     font-family: Titillium Web;
     font-size: 55px;
@@ -4756,7 +4756,7 @@
     line-height: 71.266px; /* 111.354% */
   }
 
-  .partners-body-contained p {
+  .partners-body-content p {
     color: #fff;
     font-family: Titillium Web;
     font-size: 20px;
@@ -5577,17 +5577,17 @@
     padding-bottom: 50px;
   }
 
-  .partners-body-contained h1 {
+  .partners-body-content h1 {
     font-size: 35px;
     font-style: normal;
     line-height: 43.266px; /* 111.354% */
   }
-  .partners-body-contained {
+  .partners-body-content {
     padding-bottom: 30px;
     width: 95%;
     margin: auto;
   }
-  .partners-body-contained p {
+  .partners-body-content p {
     font-size: 16px;
     line-height: 26.3px; /* 153.478% */
   }
@@ -5834,17 +5834,17 @@
     padding-bottom: 50px;
   }
 
-  .partners-body-contained h1 {
+  .partners-body-content h1 {
     font-size: 35px;
     font-style: normal;
     line-height: 43.266px; /* 111.354% */
   }
-  .partners-body-contained {
+  .partners-body-content {
     padding-bottom: 30px;
     width: 90%;
     margin: auto;
   }
-  .partners-body-contained p {
+  .partners-body-content p {
     font-size: 16px;
     line-height: 26.3px; /* 153.478% */
   }
