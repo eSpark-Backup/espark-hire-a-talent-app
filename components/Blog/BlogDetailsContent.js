@@ -17,7 +17,7 @@ function urlFor(source) {
   return builder.image(source);
 }
 
-const BlogDetailsContent = ({ data, blogPost }) => {
+const BlogDetailsContent = ({ blogPost }) => {
   return (
     <>
       <div className="blog-details-area ptb-100">
