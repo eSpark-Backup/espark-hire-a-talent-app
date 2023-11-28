@@ -2132,6 +2132,23 @@
   .we-adapt-to-your-need-content h2 {
     font-size: 32px;
   }
+  .partners-title-area {
+    padding-top: 70px;
+    padding-bottom: 50px;
+  }
+
+  .partners-body-contained h1 {
+    font-size: 25px;
+    font-style: normal;
+    line-height: 30.266px; /* 111.354% */
+  }
+  .partners-body-contained {
+    padding-bottom: 30px;
+  }
+  .partners-body-contained p {
+    font-size: 15px;
+    line-height: 20.3px; /* 153.478% */
+  }
 }
 
 /* Min width 768px to Max width 991px */
@@ -3446,6 +3463,21 @@
   .reliable-and-secure-content h2 {
     font-size: 40px;
   }
+
+  .partners-title-area {
+    padding-top: 70px;
+    padding-bottom: 60px;
+  }
+  .partners-body-contained h1 {
+    font-size: 37px;
+    font-style: normal;
+    line-height: 43.266px; /* 111.354% */
+  }
+
+  .partners-body-contained p {
+    font-size: 16px;
+    line-height: 26.3px; /* 153.478% */
+  }
 }
 
 /* Min width 992px to Max width 1199px */
@@ -4163,6 +4195,16 @@
   .home-image img {
     height: 410px;
   }
+  .partners-body-contained h1 {
+    font-size: 45px;
+    font-style: normal;
+    line-height: 55.266px; /* 111.354% */
+  }
+
+  .partners-body-contained p {
+    font-size: 18px;
+    line-height: 26.3px; /* 153.478% */
+  }
 }
 
 /* Min width 1200px to Max width 1355px */
@@ -4507,6 +4549,23 @@
     /* max-width: 640px; */
     height: 472px;
   }
+  .partners-body-contained h1 {
+    color: #fff;
+    font-family: Titillium Web;
+    font-size: 55px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 71.266px; /* 111.354% */
+  }
+
+  .partners-body-contained p {
+    color: #fff;
+    font-family: Titillium Web;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 35.3px; /* 153.478% */
+  }
 }
 @media only screen and (min-width: 1356px) and (max-width: 1399px) {
   .single-blog-post .image .date {
@@ -4687,6 +4746,23 @@
   .home-image img {
     /* max-width: 640px; */
     height: 472px;
+  }
+  .partners-body-contained h1 {
+    color: #fff;
+    font-family: Titillium Web;
+    font-size: 55px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 71.266px; /* 111.354% */
+  }
+
+  .partners-body-contained p {
+    color: #fff;
+    font-family: Titillium Web;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 35.3px; /* 153.478% */
   }
 }
 
@@ -5496,6 +5572,29 @@
     width: auto;
     font-size: 20px;
   }
+  .partners-title-area {
+    padding-top: 70px;
+    padding-bottom: 50px;
+  }
+
+  .partners-body-contained h1 {
+    font-size: 35px;
+    font-style: normal;
+    line-height: 43.266px; /* 111.354% */
+  }
+  .partners-body-contained {
+    padding-bottom: 30px;
+    width: 95%;
+    margin: auto;
+  }
+  .partners-body-contained p {
+    font-size: 16px;
+    line-height: 26.3px; /* 153.478% */
+  }
+  .partners-body-image {
+    width: 70%;
+    margin: auto;
+  }
 }
 @media screen and (min-width: 375px) and (max-width: 575px) {
   .with-space {
@@ -5729,6 +5828,29 @@
   .Hiring-text h1 {
     width: auto;
     font-size: 25px;
+  }
+  .partners-title-area {
+    padding-top: 70px;
+    padding-bottom: 50px;
+  }
+
+  .partners-body-contained h1 {
+    font-size: 35px;
+    font-style: normal;
+    line-height: 43.266px; /* 111.354% */
+  }
+  .partners-body-contained {
+    padding-bottom: 30px;
+    width: 90%;
+    margin: auto;
+  }
+  .partners-body-contained p {
+    font-size: 16px;
+    line-height: 26.3px; /* 153.478% */
+  }
+  .partners-body-image {
+    width: 70%;
+    margin: auto;
   }
 }
 /* @media screen and (max-width: 490px){
