@@ -71,6 +71,9 @@ export const getStaticProps = async ({ params }) => {
       props: {
         blogPost: sanityData || null,
       },
+
+      // Revalidate the data at most once every 10 minutes
+      revalidate: 60 * 10,
     };
   } catch (error) {
     console.error("Error fetching data from Sanity:", error);
