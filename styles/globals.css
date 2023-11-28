@@ -10622,3 +10622,51 @@ partners-title-area  CSS
   font-weight: 600;
   line-height: 35.3px; /* 153.478% */
 }
+
+/*================================================
+Partner-main CSS
+=================================================*/
+.partner-main {
+  padding-top: 70px;
+  padding-bottom: 70px;
+}
+
+/*================================================
+partners-content CSS
+=================================================*/
+
+.partner-content {
+  padding-bottom: 32px;
+}
+
+.partner-content h1 {
+  color: #001c63;
+  font-family: Titillium Web;
+  font-size: 39px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 56.266px; /* 144.273% */
+  margin-bottom: 10px;
+}
+
+.partner-content p {
+  color: #029894;
+  text-align: justify;
+  font-family: Titillium Web;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 45.766px; /* 183.065% */
+}
+.partner-content ul {
+  list-style: square;
+}
+.partner-content ul li {
+  color: #029894;
+  text-align: justify;
+  font-family: Titillium Web;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 45.766px; /* 183.065% */
+}
