@@ -81,6 +81,7 @@ a {
   transition: var(--transition);
   color: var(--blackColor);
   text-decoration: none;
+  cursor: pointer !important;
   outline: 0 !important;
 }
 
