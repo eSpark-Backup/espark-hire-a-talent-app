@@ -26,10 +26,10 @@ const HeroSlider = (props) => {
                         <h1>{slide.title}</h1>
                         <h5>{slide.para}</h5>
                         <Link legacyBehavior href="https://calendly.com/esparktalents/60min?month=2023-09">
-                          <span className="default-btn style-two" target="_blank">
+                          <a className="default-btn style-two" target="_blank">
                             <span className="ri-arrow-right-s-line"></span>
                             {slide.buttonText}
-                          </span>
+                          </a>
                         </Link>
                       </div>
                     </div>
