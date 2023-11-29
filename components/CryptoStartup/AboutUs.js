@@ -46,7 +46,7 @@ const AboutUs = ({ title, paragraph, data, image }) => {
                   </li>
                 </ul> */}
                 {/* <div className="about-btn">
-                  <Link href="/contact">
+                  <Link legacyBehavior href="/contact">
                     <a className="default-btn style-two">
                       <span className="ri-arrow-right-s-line"></span>Learn More
                     </a>

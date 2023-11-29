@@ -105,7 +105,7 @@ const CareerCards = ({ data }) => {
               <p>{eachCard?.description}</p>
             </div>
             <div className="col-lg-3 col-sm-12 career-card-button">
-              <Link href={eachCard?.link}>
+              <Link legacyBehavior href={eachCard?.link}>
                 <a className="default-btn style-two" target="_blank">
                   <span className="ri-arrow-right-s-line"></span>
                   Apply Now

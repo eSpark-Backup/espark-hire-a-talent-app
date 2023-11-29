@@ -8,15 +8,15 @@ const HeroBanner = () => {
         <div className="container">
           <div className="row align-items-center">
             <div className="col-lg-5 col-md-12">
-              <div 
-                className="main-banner-content" 
+              <div
+                className="main-banner-content"
                 data-aos="fade-left"
                 data-aos-duration="1200"
                 data-aos-once="true"
               >
                 <span className="sub-title">AWARD WINNING COMPANY</span>
                 <h1>Let&apos;s Make Wave Amazing Together</h1>
-                <Link href="/contact">
+                <Link legacyBehavior href="/contact">
                   <a className="default-btn style-two">
                     <span className="ri-arrow-right-s-line"></span>Get Started
                     Now
@@ -26,14 +26,14 @@ const HeroBanner = () => {
             </div>
             <div className="col-lg-7 col-md-12">
               <div className="main-banner-image">
-                <div 
+                <div
                   data-aos="fade-up"
                   data-aos-duration="1200"
                   data-aos-once="true"
                 >
-                  <img 
-                    src="/images/woman.png" 
-                    alt="image" 
+                  <img
+                    src="/images/woman.png"
+                    alt="image"
                   />
                 </div>
                 <div className="shape">
