@@ -79,7 +79,7 @@ const BlogCard = ({ item }) => {
               <div key={index} className="col-lg-4 col-md-6 col-sm-6">
                 <div className="single-blog-post">
                   <div className="image">
-                    <Link href={`/blogs/${eachCard.slug}`}>
+                    <Link legacyBehavior href={`/blogs/${eachCard.slug}`}>
                       <a className="d-block">
                         <img src={eachCard.imageLink} alt={eachCard.altTag} />
                       </a>
@@ -89,14 +89,14 @@ const BlogCard = ({ item }) => {
 
                   <div className="content">
                     <h3>
-                      <Link href={`/blogs/${eachCard.slug}`}>
+                      <Link legacyBehavior href={`/blogs/${eachCard.slug}`}>
                         <a>{eachCard?.title}</a>
                       </Link>
                     </h3>
                     <p>{eachCard?.mainParagraph}</p>
 
-                    {/* <Link href="/blog-details"> */}
-                    <Link href={`/blogs/${eachCard.slug}`}>
+                    {/* <Link legacyBehavior href="/blog-details"> */}
+                    <Link legacyBehavior href={`/blogs/${eachCard.slug}`}>
                       <a className="default-btn">
                         <span className="ri-arrow-right-s-line"></span>
                         Read More

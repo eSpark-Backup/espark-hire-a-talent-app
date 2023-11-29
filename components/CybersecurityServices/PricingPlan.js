@@ -15,8 +15,8 @@ const PricingPlan = () => {
           </div>
 
           <div className="row justify-content-center">
-            <div 
-              className="col-xl-4 col-lg-6 col-md-6 col-sm-6" 
+            <div
+              className="col-xl-4 col-lg-6 col-md-6 col-sm-6"
               data-aos="fade-up"
               data-aos-delay="300"
               data-aos-duration="1200"
@@ -62,7 +62,7 @@ const PricingPlan = () => {
                   </ul>
                 </div>
 
-                <Link href="/contact">
+                <Link legacyBehavior href="/contact">
                   <a className="link-btn">Get Started</a>
                 </Link>
 
@@ -75,8 +75,8 @@ const PricingPlan = () => {
               </div>
             </div>
 
-            <div 
-              className="col-xl-4 col-lg-6 col-md-6 col-sm-6" 
+            <div
+              className="col-xl-4 col-lg-6 col-md-6 col-sm-6"
               data-aos="fade-up"
               data-aos-delay="500"
               data-aos-duration="1200"
@@ -122,7 +122,7 @@ const PricingPlan = () => {
                   </ul>
                 </div>
 
-                <Link href="/contact">
+                <Link legacyBehavior href="/contact">
                   <a className="link-btn">Get Started</a>
                 </Link>
 
@@ -135,7 +135,7 @@ const PricingPlan = () => {
               </div>
             </div>
 
-            <div 
+            <div
               className="col-xl-4 col-lg-6 col-md-6 col-sm-6"
               data-aos="fade-up"
               data-aos-delay="700"
@@ -182,7 +182,7 @@ const PricingPlan = () => {
                   </ul>
                 </div>
 
-                <Link href="/contact">
+                <Link legacyBehavior href="/contact">
                   <a className="link-btn">Get Started</a>
                 </Link>
 

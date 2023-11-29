@@ -42,7 +42,7 @@ const ServicesItem = ({ title, Paragraph, data, id }) => {
                     </ul>
                   ) : null}
                   {items.buttonText ? (
-                    <Link href="/service-details">
+                    <Link legacyBehavior href="/service-details">
                       <a className="default-btn">
                         <span className="ri-arrow-right-s-line"></span>
                         {items.buttonText}
@@ -94,7 +94,7 @@ const ServicesItem = ({ title, Paragraph, data, id }) => {
                     </span>
                   </li>
                 </ul>
-                <Link href="/service-details">
+                <Link legacyBehavior href="/service-details">
                   <a className="default-btn">
                     <span className="ri-arrow-right-s-line"></span>Learn More
                   </a>
@@ -143,7 +143,7 @@ const ServicesItem = ({ title, Paragraph, data, id }) => {
                     </span>
                   </li>
                 </ul>
-                <Link href="/service-details">
+                <Link legacyBehavior href="/service-details">
                   <a className="default-btn">
                     <span className="ri-arrow-right-s-line"></span>Learn More
                   </a>
@@ -192,7 +192,7 @@ const ServicesItem = ({ title, Paragraph, data, id }) => {
                     </span>
                   </li>
                 </ul>
-                <Link href="/service-details">
+                <Link legacyBehavior href="/service-details">
                   <a className="default-btn">
                     <span className="ri-arrow-right-s-line"></span>Learn More
                   </a>
@@ -242,7 +242,7 @@ const ServicesItem = ({ title, Paragraph, data, id }) => {
                     </span>
                   </li>
                 </ul>
-                <Link href="/service-details">
+                <Link legacyBehavior href="/service-details">
                   <a className="default-btn">
                     <span className="ri-arrow-right-s-line"></span>Learn More
                   </a>
@@ -294,7 +294,7 @@ const ServicesItem = ({ title, Paragraph, data, id }) => {
                     </span>
                   </li>
                 </ul>
-                <Link href="/service-details">
+                <Link legacyBehavior href="/service-details">
                   <a className="default-btn">
                     <span className="ri-arrow-right-s-line"></span>Learn More
                   </a>
@@ -344,7 +344,7 @@ const ServicesItem = ({ title, Paragraph, data, id }) => {
                     </span>
                   </li>
                 </ul>
-                <Link href="/service-details">
+                <Link legacyBehavior href="/service-details">
                   <a className="default-btn">
                     <span className="ri-arrow-right-s-line"></span>Learn More
                   </a>
