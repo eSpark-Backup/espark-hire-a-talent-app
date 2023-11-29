@@ -711,27 +711,27 @@
     padding: 15px;
   }
 
-  .plans-compare-table .table>thead tr th {
+  .plans-compare-table .table > thead tr th {
     padding: 10px 20px;
     font-size: 18px;
   }
 
-  .plans-compare-table .table>tbody tr td {
+  .plans-compare-table .table > tbody tr td {
     padding: 10px 20px;
     font-size: 15px;
   }
 
-  .plans-compare-table .table>tbody tr td i {
+  .plans-compare-table .table > tbody tr td i {
     font-size: 17px;
   }
 
-  .plans-compare-table .table>tfoot tr td {
+  .plans-compare-table .table > tfoot tr td {
     white-space: nowrap;
     padding: 10px 20px;
     font-size: 15px;
   }
 
-  .plans-compare-table .table>tfoot tr td .link-btn {
+  .plans-compare-table .table > tfoot tr td .link-btn {
     padding: 10px 20px;
     font-size: 14px;
   }
@@ -1927,11 +1927,17 @@
     font-size: 14.5px;
   }
 
-  .ico-landing-banner-content .banner-pre-token-sale-ends .pre-token-sale-ends-btn li {
+  .ico-landing-banner-content
+    .banner-pre-token-sale-ends
+    .pre-token-sale-ends-btn
+    li {
     margin-bottom: 5px;
   }
 
-  .ico-landing-banner-content .banner-pre-token-sale-ends .pre-token-sale-ends-btn li:last-child {
+  .ico-landing-banner-content
+    .banner-pre-token-sale-ends
+    .pre-token-sale-ends-btn
+    li:last-child {
     margin-bottom: 0;
   }
 
@@ -1988,16 +1994,26 @@
     margin-left: 0;
   }
 
-  .roadmap-style-list-tab #roadmap-style-item .roadmap-style-card.with-black-color .title {
+  .roadmap-style-list-tab
+    #roadmap-style-item
+    .roadmap-style-card.with-black-color
+    .title {
     font-size: 18px;
     margin-bottom: 18px;
   }
 
-  .roadmap-style-list-tab #roadmap-style-item .roadmap-style-card.with-black-color .content {
+  .roadmap-style-list-tab
+    #roadmap-style-item
+    .roadmap-style-card.with-black-color
+    .content {
     padding: 20px;
   }
 
-  .roadmap-style-list-tab #roadmap-style-item .roadmap-style-card.with-black-color .content h3 {
+  .roadmap-style-list-tab
+    #roadmap-style-item
+    .roadmap-style-card.with-black-color
+    .content
+    h3 {
     font-size: 20px;
   }
 
@@ -2139,7 +2155,10 @@
     margin: 0 auto 30px;
   }
 
-  .navbar-area-with-position-relative.with-black-color .navbar .navbar-toggler .icon-bar {
+  .navbar-area-with-position-relative.with-black-color
+    .navbar
+    .navbar-toggler
+    .icon-bar {
     background: #fff;
   }
 
@@ -2469,22 +2488,22 @@
 
   .with-icon .col-sm-10 {
     flex: 0 0 auto;
-    width: 85%
+    width: 85%;
   }
 
   .with-icon .col-sm-2 {
     flex: 0 0 auto;
-    width: 15%
+    width: 15%;
   }
 
   .with-icon .col-sm-7 {
     flex: 0 0 auto;
-    width: 40%
+    width: 40%;
   }
 
   .with-icon .col-sm-5 {
     flex: 0 0 auto;
-    width: 30%
+    width: 30%;
   }
 
   .profile-detail-heading {
@@ -2668,6 +2687,502 @@
   }
 
   /* End CV Responsive Css */
+
+  /* Start Of Book A Meetin Responsive Css */
+
+  .landing-banner {
+    padding: 30px 0px 25px;
+  }
+
+  .meeting-banner-content {
+    padding-top: 0px;
+    text-align: center;
+  }
+
+  .landing-section-title h2 {
+    font-size: 22px;
+    line-height: 27px;
+  }
+
+  .content-heading {
+    font-size: 24px;
+    line-height: 30px;
+  }
+
+  .content-detail {
+    font-size: 14px;
+    line-height: 22px;
+    max-width: 95%;
+    margin: 0px auto 10px;
+  }
+
+  .ratings-in {
+    margin-bottom: 15px;
+  }
+
+  .ratings-in .feedback-rating-ul {
+    margin-bottom: 4px;
+    gap: 7px;
+    justify-content: center;
+  }
+
+  .our-ratings .ratings-by {
+    padding: 0px 26px;
+  }
+
+  .our-ratings .trustpilot {
+    padding: 0px 22px;
+  }
+
+  .ratings-in p {
+    font-size: 14px;
+    line-height: 21px;
+  }
+
+  .landing-form {
+    padding: 12px;
+    max-width: 95%;
+    margin: 5px auto 0px;
+  }
+
+  .landing-form-heading {
+    font-size: 20px;
+    line-height: 20px;
+    margin-bottom: 10px;
+  }
+
+  .landing-form .form-group {
+    margin-bottom: 12px;
+  }
+
+  .landing-form input {
+    padding: 9px 8px !important;
+    line-height: 14px;
+  }
+
+  .landing-form-label {
+    line-height: 16px;
+    margin-bottom: 7px;
+  }
+
+  .dropdown-header {
+    padding: 9px 8px !important;
+    line-height: 14px;
+  }
+
+  .custom-arrow img {
+    width: 14px;
+  }
+
+  .book-demo {
+    margin-top: 24px;
+    padding: 11px 0px;
+    line-height: 17px;
+  }
+
+  .landing-partners .partner-area {
+    padding-top: 30px !important;
+    padding-bottom: 30px;
+  }
+
+  .landing-partners .section-title h2 {
+    font-size: 18px;
+    line-height: 22px;
+  }
+
+  .landing-partners .section-title {
+    margin-bottom: 28px;
+  }
+
+  .top-heading,
+  .bottom-heading {
+    font-size: 21px;
+    line-height: 26px;
+    max-width: 100%;
+    text-align: center;
+  }
+
+  .points-div {
+    margin-top: 9px;
+  }
+
+  .points-div p:first-child {
+    text-align: center;
+  }
+
+  .points-div p {
+    font-size: 13px;
+    line-height: 20px;
+    max-width: 100%;
+  }
+
+  .checked-icon {
+    width: 20px;
+    height: 20px;
+    margin-right: 9px;
+  }
+
+  .points-div h6 {
+    font-size: 15px;
+    line-height: 24px;
+  }
+
+  .bottom-section {
+    margin-top: 6px;
+  }
+
+  .book-demo-second {
+    font-size: 16px;
+    line-height: 20px;
+    padding: 10px 0px;
+    margin: 10px auto;
+    width: 165px;
+  }
+
+  .image-section {
+    margin-top: 15px;
+  }
+
+  .demo-image {
+    width: 100%;
+    margin: auto;
+    margin-left: auto;
+    display: flex;
+  }
+
+  .image-subparts {
+    display: block;
+    justify-content: space-between;
+  }
+
+  .top-floated {
+    padding: 8px 12px;
+    top: -20px;
+    left: 40px;
+    width: 190px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px,
+      rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+    position: inherit;
+    margin: 0px auto 15px;
+  }
+
+  .left-0 {
+    left: 40px !important;
+    width: 190px !important;
+  }
+
+  .top-floated-heading {
+    font-size: 14px;
+    line-height: 18px;
+    margin-bottom: 6px;
+  }
+
+  .top-floated-list-item {
+    margin-bottom: 10px;
+    padding-left: 5px;
+    padding-right: 0px;
+  }
+
+  .left-icon {
+    width: 18px;
+    height: 18px;
+    margin-right: 6px;
+  }
+
+  .top-floated-list-item h6 {
+    font-size: 13px;
+    line-height: 25px;
+  }
+
+  .bottom-floated {
+    width: 190px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px,
+      rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+    position: inherit;
+    top: -12px;
+    margin: auto;
+  }
+
+  .bottom-floated-heading {
+    font-size: 12px;
+    line-height: 20px;
+    margin-bottom: 3px;
+    padding-left: 6px;
+  }
+
+  .bottom-floated-list-item {
+    margin-bottom: 6px;
+    padding-left: 7px;
+    padding-right: 7px;
+  }
+
+  .add-shadow .bottom-floated-list-item {
+    margin-bottom: 7px !important;
+  }
+
+  .add-shadow .left-member {
+    width: 31px;
+    height: 31px;
+    margin-right: 5.6px;
+  }
+
+  .bottom-floated-list-item h6 {
+    font-size: 10px;
+    line-height: 20px;
+  }
+
+  .left-member {
+    width: 35px;
+    height: 35px;
+    margin-right: 5.6px;
+  }
+
+  .bottom-image {
+    width: 100%;
+    margin: auto;
+  }
+
+  .add-shadow {
+    bottom: 12px !important;
+    width: 200px;
+    left: 40px !important;
+  }
+
+  .bottom-content-area {
+    padding-left: 0px;
+    margin-top: 25px;
+  }
+
+  .why-us-area {
+    margin-top: 15px;
+    padding: 25px 0px;
+  }
+
+  .our-counts {
+    font-size: 32.5px;
+    line-height: 48px;
+  }
+
+  .book-meeting-heading {
+    font-size: 21px;
+    line-height: 22px;
+    margin-bottom: 6px;
+  }
+
+  .why-us-area .col-xs-6 {
+    flex: 0 0 auto;
+    width: 50%;
+  }
+
+  .by-content {
+    font-size: 14px;
+    line-height: 18px;
+  }
+
+  .less-margin {
+    margin-bottom: 10px;
+  }
+
+  .how-it-works-area {
+    margin-top: 25px;
+  }
+
+  .how-it-works-p {
+    font-size: 15px;
+    line-height: 22px;
+    width: 95%;
+  }
+
+  .meeting-round-box {
+    width: 280px;
+    border-radius: 38px;
+    padding: 8px 14px 8px 18px;
+    margin: 22px auto 18px;
+    height: 75%;
+  }
+
+  .to-center {
+    width: 100%;
+  }
+
+  .left-ids {
+    font-size: 45px;
+    line-height: 30px;
+    margin: 0px 8px 0px 0px;
+  }
+
+  .right-p {
+    font-size: 14px;
+    line-height: 18px;
+    width: 100%;
+  }
+
+  .meeting-common-quest-area {
+    margin: 36px 0px 0px;
+  }
+
+  .question-accordion .down-arrow {
+    width: 24px;
+    justify-content: center;
+    display: flex;
+  }
+
+  .comm-question-heading {
+    font-size: 26px;
+    line-height: 25px;
+  }
+
+  .accordion-button-child {
+    align-items: center;
+  }
+
+  .question-accordion {
+    margin-top: 20px;
+  }
+
+  .question-accordion .accordion__button {
+    font-size: 14px;
+    line-height: 24px;
+  }
+
+  .question-accordion .accord-item {
+    margin-bottom: 25px !important;
+    padding-left: 0px;
+  }
+
+  .question-accordion .accordion__panel p {
+    font-size: 17px;
+    line-height: 30px;
+  }
+
+  .even-button {
+    padding-left: 0px;
+  }
+
+  .last-two {
+    margin-bottom: 25px;
+  }
+
+  .mix-reviews-area {
+    margin-bottom: -90px;
+    margin-top: 16px;
+  }
+
+  .reviews-swiper {
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px,
+      rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
+  }
+
+  .reviews-heading {
+    font-size: 25px;
+    line-height: 24px;
+    margin-bottom: 26px;
+  }
+
+  .reviews-swiper .swiper-slide {
+    height: 520px;
+  }
+
+  .reviews-swiper .swiper-slide-active {
+    width: auto;
+  }
+
+  .reviews-area {
+    text-align: center;
+  }
+
+  .reviews-area .row {
+    height: max-content !important;
+    margin: 0px;
+  }
+
+  .colored-div {
+    width: 100%;
+  }
+
+  .reviews-image {
+    width: 175px;
+    margin: auto;
+  }
+
+  .reviews-content {
+    width: 95%;
+    margin: auto;
+    padding: 10px 0px 0px;
+  }
+
+  .feedback-rating-ul {
+    justify-content: center;
+  }
+
+  .reviews-content img {
+    width: 18px;
+  }
+
+  .review-title {
+    font-size: 20px;
+    line-height: 22px;
+  }
+
+  .review-subtitle {
+    font-size: 16px;
+    line-height: 18px;
+  }
+
+  .review-description {
+    width: 100%;
+    margin-bottom: 0px !important;
+    font-size: 11px;
+    line-height: 138%;
+    margin: auto;
+    text-align: center;
+  }
+
+  .reviews-swiper .swiper-pagination-horizontal {
+    bottom: 35px !important;
+  }
+
+  .reviews-swiper .swiper-button-next {
+    left: auto;
+    right: 25%;
+  }
+
+  .reviews-swiper .swiper-button-prev {
+    left: 29%;
+  }
+
+  .reviews-swiper .swiper-button-next,
+  .reviews-swiper .swiper-button-prev {
+    background-size: 10px;
+    top: 91.4%;
+  }
+
+  .reviews-swiper .swiper-pagination-bullet {
+    width: 9px;
+    height: 9px;
+  }
+
+  .last-section-area {
+    padding-top: 145px;
+    padding-bottom: 25px;
+  }
+
+  .last-section-heading {
+    font-size: 22px;
+    line-height: 28px;
+    margin: 0px auto 12px;
+    width: 95%;
+  }
+
+  .meeting-button {
+    padding: 7px 0px;
+    font-size: 15px;
+    line-height: 20px;
+    width: 130px;
+    border-radius: 12px;
+  }
+
+  /* End Of Book A Meeting Responsive Css */
 }
 
 /* Min width 576px to Max width 767px */
@@ -3568,15 +4083,15 @@
     line-height: 35px;
   }
 
-  .plans-compare-table .table>thead tr th {
+  .plans-compare-table .table > thead tr th {
     font-size: 20px;
   }
 
-  .plans-compare-table .table>tbody tr td {
+  .plans-compare-table .table > tbody tr td {
     font-size: 16px;
   }
 
-  .plans-compare-table .table>tfoot tr td {
+  .plans-compare-table .table > tfoot tr td {
     font-size: 16px;
     white-space: nowrap;
   }
@@ -3897,7 +4412,10 @@
     top: -2px;
   }
 
-  .navbar-area-with-position-relative .welch-responsive-nav .mean-container a.meanmenu-reveal {
+  .navbar-area-with-position-relative
+    .welch-responsive-nav
+    .mean-container
+    a.meanmenu-reveal {
     padding-top: 2px;
   }
 
@@ -4243,16 +4761,26 @@
     margin-top: 30px;
   }
 
-  .roadmap-style-list-tab #roadmap-style-item .roadmap-style-card.with-black-color .title {
+  .roadmap-style-list-tab
+    #roadmap-style-item
+    .roadmap-style-card.with-black-color
+    .title {
     font-size: 18px;
     margin-bottom: 18px;
   }
 
-  .roadmap-style-list-tab #roadmap-style-item .roadmap-style-card.with-black-color .content {
+  .roadmap-style-list-tab
+    #roadmap-style-item
+    .roadmap-style-card.with-black-color
+    .content {
     padding: 20px;
   }
 
-  .roadmap-style-list-tab #roadmap-style-item .roadmap-style-card.with-black-color .content h3 {
+  .roadmap-style-list-tab
+    #roadmap-style-item
+    .roadmap-style-card.with-black-color
+    .content
+    h3 {
     font-size: 20px;
   }
 
@@ -4315,7 +4843,11 @@
     width: 150px;
   } */
   /* Change To Below Class */
-  .header-area.header-style-two .navbar-area .navbar .others-option .default-btn {
+  .header-area.header-style-two
+    .navbar-area
+    .navbar
+    .others-option
+    .default-btn {
     padding-left: 10px;
     padding-right: 10px;
     font-size: 15px;
@@ -4886,6 +5418,446 @@
   }
 
   /* End CV Responsive Css */
+
+  /* Start Of Book A Meetin Responsive Css */
+
+  .landing-banner {
+    padding: 44px 0px 30px;
+  }
+
+  .meeting-banner-content {
+    padding-top: 0px;
+    text-align: center;
+  }
+
+  .landing-section-title h2 {
+    font-size: 22px;
+    line-height: 27px;
+  }
+
+  .content-heading {
+    font-size: 30px;
+    line-height: 34px;
+  }
+
+  .content-detail {
+    font-size: 15px;
+    line-height: 25px;
+    max-width: 85%;
+    margin: 0px auto 10px;
+  }
+
+  .ratings-in .feedback-rating-ul {
+    margin-bottom: 4px;
+    gap: 7px;
+    justify-content: center;
+  }
+
+  .our-ratings .ratings-by {
+    padding: 0px 26px;
+  }
+
+  .our-ratings .trustpilot {
+    padding: 0px 22px;
+  }
+
+  .ratings-in p {
+    font-size: 14px;
+    line-height: 21px;
+  }
+
+  .landing-form {
+    padding: 16px 18px 16px;
+    max-width: 75%;
+    margin: 25px auto 0px;
+  }
+
+  .landing-form-heading {
+    font-size: 20px;
+    line-height: 20px;
+    margin-bottom: 10px;
+  }
+
+  .landing-form .form-group {
+    margin-bottom: 12px;
+  }
+
+  .landing-form input {
+    padding: 9px 8px !important;
+    line-height: 14px;
+  }
+
+  .landing-form-label {
+    line-height: 16px;
+    margin-bottom: 7px;
+  }
+
+  .dropdown-header {
+    padding: 9px 8px !important;
+    line-height: 14px;
+  }
+
+  .custom-arrow img {
+    width: 14px;
+  }
+
+  .book-demo {
+    margin-top: 24px;
+    padding: 11px 0px;
+    line-height: 17px;
+  }
+
+  .landing-partners .partner-area {
+    padding-top: 40px !important;
+    padding-bottom: 55px;
+  }
+
+  .landing-partners .section-title h2 {
+    font-size: 21px;
+    line-height: 22px;
+  }
+
+  .landing-partners .section-title {
+    margin-bottom: 28px;
+  }
+
+  .top-heading,
+  .bottom-heading {
+    font-size: 28px;
+    line-height: 34px;
+    max-width: 100%;
+    text-align: center;
+  }
+
+  .points-div {
+    margin-top: 11px;
+  }
+
+  .points-div p:first-child {
+    text-align: center;
+  }
+
+  .points-div p {
+    font-size: 14px;
+    line-height: 20px;
+    max-width: 100%;
+  }
+
+  .checked-icon {
+    width: 20px;
+    height: 20px;
+    margin-right: 9px;
+  }
+
+  .points-div h6 {
+    font-size: 16px;
+    line-height: 24px;
+  }
+
+  .bottom-section {
+    margin-top: 15px;
+  }
+
+  .book-demo-second {
+    font-size: 17px;
+    line-height: 22px;
+    padding: 12px 0px;
+    margin: 20px auto;
+    width: 175px;
+  }
+
+  .image-section {
+    margin-top: 15px;
+  }
+
+  .demo-image {
+    width: 550px;
+    margin: auto;
+    margin-left: auto;
+    display: flex;
+  }
+
+  .image-subparts {
+    display: flex;
+    justify-content: center;
+  }
+
+  .top-floated {
+    padding: 8px 12px;
+    margin-bottom: 0px;
+    top: -20px;
+    left: -20px;
+    width: 210px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px,
+      rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+    position: relative;
+  }
+
+  .left-0 {
+    left: -20px !important;
+    width: 210px !important;
+  }
+
+  .top-floated-heading {
+    font-size: 15px;
+    line-height: 22px;
+    margin-bottom: 8px;
+  }
+
+  .top-floated-list-item {
+    margin-bottom: 17px;
+    padding-left: 7px;
+    padding-right: 7px;
+  }
+
+  .left-icon {
+    width: 18px;
+    height: 18px;
+    margin-right: 6px;
+  }
+
+  .top-floated-list-item h6 {
+    font-size: 14px;
+    line-height: 26px;
+  }
+
+  .bottom-floated {
+    width: 210px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px,
+      rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+    position: relative;
+    top: -20px;
+    left: 40px;
+  }
+
+  .bottom-floated-list-item {
+    margin-bottom: 10px;
+  }
+
+  .add-shadow .bottom-floated-list-item {
+    margin-bottom: 7px !important;
+  }
+
+  .add-shadow .left-member {
+    width: 31px;
+    height: 31px;
+    margin-right: 5.6px;
+  }
+
+  .bottom-floated-list-item h6 {
+    font-size: 10px;
+    line-height: 20px;
+  }
+
+  .left-member {
+    width: 35px;
+    height: 35px;
+    margin-right: 5.6px;
+  }
+
+  .bottom-image {
+    width: 608px;
+    margin: auto;
+  }
+
+  .add-shadow {
+    bottom: 12px !important;
+    width: 200px;
+    left: 40px !important;
+  }
+
+  .bottom-content-area {
+    padding-left: 18px;
+    margin-top: 20px;
+  }
+
+  .why-us-area {
+    margin-top: 30px;
+    padding: 35px 0px;
+  }
+
+  .our-counts {
+    font-size: 36.5px;
+    line-height: 55px;
+  }
+
+  .book-meeting-heading {
+    font-size: 27px;
+    line-height: 26px;
+    margin-bottom: 16px;
+  }
+
+  .by-content {
+    font-size: 15px;
+    line-height: 20px;
+  }
+
+  .less-margin {
+    margin-bottom: 10px;
+  }
+
+  .how-it-works-area {
+    margin-top: 40px;
+  }
+
+  .how-it-works-p {
+    font-size: 17px;
+    line-height: 24px;
+    width: 95%;
+  }
+
+  .meeting-round-box {
+    width: 300px;
+    border-radius: 48px;
+    padding: 10px 10px 10px 20px;
+    margin: 32px 0px 18px;
+    height: 80%;
+  }
+
+  .to-center {
+    width: 100%;
+  }
+
+  .left-ids {
+    font-size: 55px;
+    line-height: 35px;
+    margin: 0px 8px 0px 0px;
+  }
+
+  .right-p {
+    font-size: 15px;
+    line-height: 19px;
+  }
+
+  .meeting-common-quest-area {
+    margin: 46px 0px 0px;
+  }
+
+  .comm-question-heading {
+    font-size: 32px;
+    line-height: 28px;
+  }
+
+  .question-accordion {
+    margin-top: 38px;
+  }
+
+  .question-accordion .accordion__button {
+    font-size: 14px;
+    line-height: 24px;
+  }
+
+  .question-accordion .accord-item {
+    margin-bottom: 25px !important;
+    padding-left: 0px;
+  }
+
+  .question-accordion .accordion__panel p {
+    font-size: 17px;
+    line-height: 30px;
+  }
+
+  .even-button {
+    padding-left: 0px;
+  }
+
+  .last-two {
+    margin-bottom: 25px;
+  }
+
+  .mix-reviews-area {
+    margin-bottom: -107px;
+    margin-top: 26px;
+  }
+
+  .reviews-heading {
+    font-size: 28px;
+    line-height: 28px;
+    margin-bottom: 30px;
+  }
+
+  .reviews-swiper .swiper-slide {
+    height: 270px;
+  }
+
+  .reviews-swiper .swiper-slide-active {
+    width: 690px;
+  }
+
+  .colored-div {
+    width: 108px;
+  }
+
+  .reviews-image {
+    width: 205px;
+  }
+
+  .reviews-content {
+    padding-left: 95px;
+    padding-top: 8px;
+  }
+
+  .reviews-content img {
+    width: 18px;
+  }
+
+  .review-title {
+    font-size: 20px;
+    line-height: 22px;
+  }
+
+  .review-subtitle {
+    font-size: 16px;
+    line-height: 18px;
+  }
+
+  .reviews-swiper {
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px,
+      rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
+  }
+
+  .review-description {
+    width: 100%;
+    margin-bottom: 0px !important;
+    font-size: 11px;
+    line-height: 138%;
+  }
+
+  .reviews-swiper .swiper-pagination-horizontal {
+    bottom: 15px !important;
+  }
+
+  .reviews-swiper .swiper-button-next,
+  .reviews-swiper .swiper-button-prev {
+    background-size: 10px;
+    top: 90%;
+  }
+
+  .reviews-swiper .swiper-pagination-bullet {
+    width: 9px;
+    height: 9px;
+  }
+
+  .last-section-area {
+    padding-top: 155px;
+    padding-bottom: 25px;
+  }
+
+  .last-section-heading {
+    font-size: 28px;
+    line-height: 32px;
+    margin: 0px auto 15px;
+    width: 85%;
+  }
+
+  .meeting-button {
+    padding: 8px 0px;
+    font-size: 17px;
+    line-height: 22px;
+    width: 155px;
+  }
+
+  /* End Of Book A Meeting Responsive Css */
 }
 
 /* Min width 992px to Max width 1199px */
@@ -5085,7 +6057,7 @@
     padding: 30px 20px;
   }
 
-  .plans-compare-table .table>tfoot tr td {
+  .plans-compare-table .table > tfoot tr td {
     white-space: nowrap;
   }
 
@@ -5218,13 +6190,22 @@
     padding-right: 15px;
   } */
   /* Change To Below */
-  .header-area.header-style-two .navbar-area .navbar .others-option .default-btn {
+  .header-area.header-style-two
+    .navbar-area
+    .navbar
+    .others-option
+    .default-btn {
     padding-left: 6px;
     padding-right: 15px;
     width: 206px;
   }
 
-  .header-area.header-style-two .navbar-area .navbar .others-option .default-btn span {
+  .header-area.header-style-two
+    .navbar-area
+    .navbar
+    .others-option
+    .default-btn
+    span {
     left: 15px;
   }
 
@@ -6033,6 +7014,405 @@
   }
 
   /* End CV Responsive Css */
+
+  /* Start Of Book A Meetin Responsive Css */
+
+  .landing-banner {
+    padding: 94px 0px 50px;
+  }
+
+  .meeting-banner-content {
+    padding-top: 40px;
+  }
+
+  .landing-section-title h2 {
+    font-size: 22px;
+    line-height: 27px;
+  }
+
+  .content-heading {
+    font-size: 32px;
+    line-height: 40px;
+  }
+
+  .content-detail {
+    font-size: 16px;
+    line-height: 28px;
+    margin-bottom: 6px;
+    max-width: 90%;
+  }
+
+  .ratings-in .feedback-rating-ul {
+    margin-bottom: 4px;
+    gap: 7px;
+  }
+
+  .our-ratings .ratings-by {
+    padding: 0px 26px;
+  }
+
+  .our-ratings .trustpilot {
+    padding: 0px 22px;
+  }
+
+  .ratings-in p {
+    font-size: 14px;
+    line-height: 21px;
+  }
+
+  .landing-form {
+    padding: 16px 20px 16px;
+  }
+
+  .landing-form-heading {
+    font-size: 20px;
+    line-height: 20px;
+    margin-bottom: 10px;
+  }
+
+  .landing-form .form-group {
+    margin-bottom: 12px;
+  }
+
+  .landing-form input {
+    padding: 9px 8px !important;
+    line-height: 14px;
+  }
+
+  .landing-form-label {
+    line-height: 16px;
+    margin-bottom: 7px;
+  }
+
+  .dropdown-header {
+    padding: 9px 8px !important;
+    line-height: 14px;
+  }
+
+  .custom-arrow img {
+    width: 14px;
+  }
+
+  .book-demo {
+    margin-top: 24px;
+    padding: 11px 0px;
+    line-height: 17px;
+  }
+
+  .landing-partners .partner-area {
+    padding-top: 40px !important;
+    padding-bottom: 65px;
+  }
+
+  .landing-partners .section-title h2 {
+    font-size: 21px;
+    line-height: 22px;
+  }
+
+  .landing-partners .section-title {
+    margin-bottom: 28px;
+  }
+
+  .top-heading,
+  .bottom-heading {
+    font-size: 28px;
+    line-height: 34px;
+    max-width: 95%;
+  }
+
+  .points-div {
+    margin-top: 11px;
+  }
+
+  .points-div p {
+    font-size: 14px;
+    line-height: 20px;
+    max-width: 95%;
+  }
+
+  .checked-icon {
+    width: 20px;
+    height: 20px;
+    margin-right: 9px;
+  }
+
+  .points-div h6 {
+    font-size: 16px;
+    line-height: 24px;
+  }
+
+  .bottom-section {
+    margin-top: 120px;
+  }
+
+  .book-demo-second {
+    font-size: 17px;
+    line-height: 22px;
+    padding: 12px 0px;
+    margin: 20px 0px 0px 22px;
+  }
+
+  .demo-image {
+    width: 378px;
+  }
+
+  .top-floated {
+    padding: 8px 12px;
+    margin-bottom: 0px;
+    top: 24px;
+    left: -14px;
+    width: 210px;
+  }
+
+  .left-0 {
+    left: 0px !important;
+    width: 192px !important;
+  }
+
+  .top-floated-heading {
+    font-size: 15px;
+    line-height: 22px;
+    margin-bottom: 8px;
+  }
+
+  .top-floated-list-item {
+    margin-bottom: 17px;
+    padding-left: 7px;
+    padding-right: 7px;
+  }
+
+  .left-icon {
+    width: 18px;
+    height: 18px;
+    margin-right: 6px;
+  }
+
+  .top-floated-list-item h6 {
+    font-size: 14px;
+    line-height: 26px;
+  }
+
+  .bottom-floated {
+    width: 195px;
+    bottom: 30px;
+    left: -15px;
+  }
+
+  .bottom-floated-list-item {
+    margin-bottom: 10px;
+  }
+
+  .add-shadow .bottom-floated-list-item {
+    margin-bottom: 7px !important;
+  }
+
+  .add-shadow .left-member {
+    width: 31px;
+    height: 31px;
+    margin-right: 5.6px;
+  }
+
+  .bottom-floated-list-item h6 {
+    font-size: 10px;
+    line-height: 20px;
+  }
+
+  .left-member {
+    width: 35px;
+    height: 35px;
+    margin-right: 5.6px;
+  }
+
+  .bottom-image {
+    width: 418px;
+  }
+
+  .add-shadow {
+    bottom: 21px !important;
+    width: 200px;
+  }
+
+  .bottom-content-area {
+    padding-left: 18px;
+  }
+
+  .why-us-area {
+    margin-top: 50px;
+    padding: 40px 0px;
+  }
+
+  .our-counts {
+    font-size: 45.5px;
+    line-height: 65px;
+  }
+
+  .book-meeting-heading {
+    font-size: 28px;
+    line-height: 28px;
+    margin-bottom: 20px;
+  }
+
+  .by-content {
+    font-size: 16px;
+    line-height: 20px;
+  }
+
+  .less-margin {
+    margin-bottom: 10px;
+  }
+
+  .how-it-works-area {
+    margin-top: 56px;
+  }
+
+  .how-it-works-p {
+    font-size: 17px;
+    line-height: 26px;
+    width: 75%;
+  }
+
+  .meeting-round-box {
+    width: 380px;
+    border-radius: 52px;
+    padding: 34px 8px 34px 22px;
+    margin: 35px 0px 16px;
+  }
+
+  .to-center {
+    width: 90%;
+  }
+
+  .left-ids {
+    font-size: 65px;
+    line-height: 40px;
+    margin: 0px 8px 0px 0px;
+  }
+
+  .right-p {
+    font-size: 17px;
+    line-height: 22px;
+  }
+
+  .meeting-common-quest-area {
+    margin: 46px 0px 0px;
+  }
+
+  .comm-question-heading {
+    font-size: 32px;
+    line-height: 28px;
+  }
+
+  .question-accordion {
+    margin-top: 38px;
+  }
+
+  .question-accordion .accordion__button {
+    font-size: 14px;
+    line-height: 24px;
+  }
+
+  .question-accordion .accord-item {
+    margin-bottom: 25px;
+  }
+
+  .question-accordion .accordion__panel p {
+    font-size: 17px;
+    line-height: 30px;
+  }
+
+  .mix-reviews-area {
+    margin-bottom: -127px;
+    margin-top: 66px;
+  }
+
+  .reviews-heading {
+    font-size: 30px;
+    line-height: 30px;
+    margin-bottom: 30px;
+  }
+
+  .reviews-swiper .swiper-slide {
+    height: 240px;
+  }
+
+  .reviews-swiper .swiper-slide-active {
+    width: 690px;
+  }
+
+  .colored-div {
+    width: 118px;
+  }
+
+  .reviews-image {
+    width: 225px;
+  }
+
+  .reviews-content {
+    padding-left: 80px;
+    padding-top: 8px;
+  }
+
+  .reviews-content img {
+    width: 18px;
+  }
+
+  .review-title {
+    font-size: 20px;
+    line-height: 22px;
+  }
+
+  .review-subtitle {
+    font-size: 16px;
+    line-height: 18px;
+  }
+
+  .reviews-swiper {
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px,
+      rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
+  }
+
+  .review-description {
+    width: 100%;
+    margin-bottom: 0px !important;
+    font-size: 11px;
+    line-height: 138%;
+  }
+
+  .reviews-swiper .swiper-pagination-horizontal {
+    bottom: 15px !important;
+  }
+
+  .reviews-swiper .swiper-button-next,
+  .reviews-swiper .swiper-button-prev {
+    background-size: 10px;
+    top: 89%;
+  }
+
+  .reviews-swiper .swiper-pagination-bullet {
+    width: 9px;
+    height: 9px;
+  }
+
+  .last-section-area {
+    padding-top: 195px;
+    padding-bottom: 30px;
+  }
+
+  .last-section-heading {
+    font-size: 30px;
+    line-height: 34px;
+    margin: 0px auto 20px;
+    width: 70%;
+  }
+
+  .meeting-button {
+    padding: 8px 0px;
+    font-size: 17px;
+    line-height: 24px;
+    width: 175px;
+  }
+
+  /* End Of Book A Meeting Responsive Css */
 }
 
 /* Min width 1200px to Max width 1355px */
@@ -6694,6 +8074,366 @@
   }
 
   /* End CV Responsive Css */
+
+  /* Start Of Book A Meetin Responsive Css */
+
+  .landing-banner {
+    padding: 102px 0px 60px;
+  }
+
+  .meeting-banner-content {
+    padding-top: 44px;
+  }
+
+  .landing-section-title h2 {
+    font-size: 22px;
+    line-height: 27px;
+  }
+
+  .content-heading {
+    font-size: 36px;
+    line-height: 45px;
+  }
+
+  .content-detail {
+    font-size: 18px;
+    line-height: 34px;
+    margin-bottom: 10px;
+  }
+
+  .ratings-in .feedback-rating-ul {
+    margin-bottom: 6px;
+    gap: 9px;
+  }
+
+  .our-ratings .ratings-by {
+    padding: 0px 28px;
+  }
+
+  .our-ratings .trustpilot {
+    padding: 0px 22px;
+  }
+
+  .ratings-in p {
+    font-size: 15px;
+    line-height: 23px;
+  }
+
+  .landing-form {
+    padding: 21px 24px 18px;
+  }
+
+  .landing-form-heading {
+    font-size: 22px;
+    line-height: 25px;
+    margin-bottom: 14px;
+  }
+
+  .landing-form .form-group {
+    margin-bottom: 12px;
+  }
+
+  .landing-form input {
+    padding: 11px 10px !important;
+    line-height: 15px;
+  }
+
+  .landing-form-label {
+    line-height: 18px;
+    margin-bottom: 7px;
+  }
+
+  .dropdown-header {
+    line-height: 15px;
+    padding: 10px 10px;
+  }
+
+  .custom-arrow img {
+    width: 16px;
+  }
+
+  .book-demo {
+    margin-top: 30px;
+    padding: 13px 0px;
+  }
+
+  .landing-partners .partner-area {
+    padding-top: 45px !important;
+    padding-bottom: 80px;
+  }
+
+  .landing-partners .section-title h2 {
+    font-size: 22px;
+    line-height: 24px;
+  }
+
+  .top-heading,
+  .bottom-heading {
+    font-size: 32px;
+    line-height: 38px;
+  }
+
+  .points-div {
+    margin-top: 12px;
+  }
+
+  .points-div p {
+    font-size: 15px;
+    line-height: 24px;
+    max-width: 480px;
+  }
+
+  .checked-icon {
+    width: 21px;
+    height: 24px;
+    margin-right: 9px;
+  }
+
+  .points-div h6 {
+    font-size: 17px;
+    line-height: 26px;
+  }
+
+  .bottom-section {
+    margin-top: 120px;
+  }
+
+  .book-demo-second {
+    font-size: 18px;
+    line-height: 28px;
+    padding: 12px 0px;
+  }
+
+  .demo-image {
+    width: 408px;
+  }
+
+  .top-floated {
+    padding: 8px 18px;
+    margin-bottom: 0px;
+    top: 26px;
+    left: -15px;
+    width: 224px;
+  }
+
+  .top-floated-heading {
+    font-size: 17px;
+    line-height: 24px;
+    margin-bottom: 10px;
+  }
+
+  .top-floated-list-item {
+    margin-bottom: 20px;
+  }
+
+  .left-icon {
+    width: 19px;
+    height: 19px;
+    margin-right: 7px;
+    display: flex;
+    align-items: center;
+  }
+
+  .top-floated-list-item h6 {
+    font-size: 14px;
+    line-height: 26px;
+  }
+
+  .bottom-floated {
+    width: 228px;
+    bottom: 30px;
+    left: -15px;
+  }
+
+  .bottom-floated-list-item {
+    margin-bottom: 12px;
+  }
+
+  .left-member {
+    width: 37px;
+    height: 37px;
+    margin-right: 7.6px;
+  }
+
+  .bottom-image {
+    width: 478px;
+  }
+
+  .add-shadow {
+    bottom: 24px !important;
+    width: 224px;
+  }
+
+  .bottom-content-area {
+    padding-left: 25px;
+  }
+
+  .why-us-area {
+    margin-top: 70px;
+    padding: 50px 0px;
+  }
+
+  .our-counts {
+    font-size: 55.5px;
+    line-height: 75px;
+  }
+
+  .book-meeting-heading {
+    font-size: 30px;
+    line-height: 30px;
+    margin-bottom: 24px;
+  }
+
+  .by-content {
+    font-size: 17px;
+    line-height: 23px;
+  }
+
+  .less-margin {
+    margin-bottom: 12px;
+  }
+
+  .how-it-works-area {
+    margin-top: 61px;
+  }
+
+  .how-it-works-p {
+    font-size: 19px;
+    line-height: 30px;
+    width: 80%;
+  }
+
+  .meeting-round-box {
+    width: 440px;
+    border-radius: 64px;
+    padding: 45px 10px 45px 26px;
+    margin: 46px 0px 26px;
+  }
+
+  .to-center {
+    width: 90%;
+  }
+
+  .left-ids {
+    font-size: 78px;
+    line-height: 50px;
+    margin: 0px 10px 0px 0px;
+  }
+
+  .right-p {
+    font-size: 19px;
+    line-height: 26px;
+  }
+
+  .meeting-common-quest-area {
+    margin: 46px 0px 0px;
+  }
+
+  .comm-question-heading {
+    font-size: 34px;
+    line-height: 33px;
+  }
+
+  .question-accordion {
+    margin-top: 48px;
+  }
+
+  .question-accordion .accordion__button {
+    font-size: 17.5px;
+    line-height: 36px;
+  }
+
+  .question-accordion .accord-item {
+    margin-bottom: 35px;
+  }
+
+  .question-accordion .accordion__panel p {
+    font-size: 17px;
+    line-height: 30px;
+  }
+
+  .mix-reviews-area {
+    margin-bottom: -147px;
+    margin-top: 72px;
+  }
+
+  .reviews-heading {
+    font-size: 33px;
+    line-height: 32px;
+    margin-bottom: 36px;
+  }
+
+  .reviews-swiper .swiper-slide {
+    height: 290px;
+  }
+
+  .reviews-swiper .swiper-slide-active {
+    width: 730px;
+  }
+
+  .colored-div {
+    width: 125px;
+  }
+
+  .reviews-image {
+    width: 245px;
+  }
+
+  .reviews-content {
+    padding-left: 140px;
+    padding-top: 12px;
+  }
+
+  .reviews-content img {
+    width: 20px;
+  }
+
+  .review-title {
+    font-size: 22.6px;
+    line-height: 26px;
+  }
+
+  .review-subtitle {
+    font-size: 17.4px;
+    line-height: 20px;
+  }
+
+  .review-description {
+    width: 444px;
+    margin-bottom: 0px !important;
+    font-size: 11px;
+    line-height: 140%;
+  }
+
+  .reviews-swiper .swiper-pagination-horizontal {
+    bottom: 15px !important;
+  }
+
+  .reviews-swiper .swiper-button-next,
+  .reviews-swiper .swiper-button-prev {
+    background-size: 12px;
+    top: 90%;
+  }
+
+  .last-section-area {
+    padding-top: 205px;
+    padding-bottom: 40px;
+  }
+
+  .last-section-heading {
+    font-size: 34px;
+    line-height: 38px;
+    margin: 0px auto 25px;
+    width: 75%;
+  }
+
+  .meeting-button {
+    padding: 9px 0px;
+    font-size: 18px;
+    line-height: 28px;
+  }
+
+  /* End Of Book A Meeting Responsive Css */
 }
 
 @media only screen and (min-width: 1356px) and (max-width: 1399px) {
@@ -7157,6 +8897,258 @@
   }
 
   /* End CV Responsive Css */
+
+  /* Start Of Book A Meetin Responsive Css */
+
+  .landing-banner {
+    padding: 102px 0px 80px;
+  }
+
+  .meeting-banner-content {
+    padding-top: 54px;
+  }
+
+  .landing-section-title h2 {
+    font-size: 22px;
+    line-height: 27px;
+  }
+
+  .content-heading {
+    font-size: 38px;
+    line-height: 50px;
+  }
+
+  .content-detail {
+    font-size: 18px;
+    line-height: 36px;
+    margin-bottom: 10px;
+  }
+
+  .our-ratings .ratings-by {
+    padding: 0px 28px;
+  }
+
+  .our-ratings .trustpilot {
+    padding: 0px 24px;
+  }
+
+  .landing-form {
+    padding: 23px 28px 18px;
+  }
+
+  .landing-form-heading {
+    font-size: 23px;
+    line-height: 30px;
+    margin-bottom: 18px;
+  }
+
+  .book-demo {
+    margin-top: 36px;
+    padding: 13px 0px;
+  }
+
+  .landing-partners .partner-area {
+    padding-top: 50px !important;
+    padding-bottom: 90px;
+  }
+
+  .top-heading,
+  .bottom-heading {
+    font-size: 34px;
+    line-height: 40px;
+  }
+
+  .points-div p {
+    font-size: 15px;
+    line-height: 24px;
+    max-width: 500px;
+  }
+
+  .points-div h6 {
+    font-size: 17px;
+    line-height: 26px;
+  }
+
+  .book-demo-second {
+    font-size: 18px;
+    line-height: 28px;
+    padding: 12px 0px;
+  }
+
+  .demo-image {
+    width: 438px;
+  }
+
+  .top-floated {
+    padding: 8px 20px;
+    margin-bottom: 16px;
+    top: 40px;
+    left: -15px;
+    width: 234px;
+  }
+
+  .bottom-floated {
+    width: 228px;
+    bottom: 30px;
+    left: -15px;
+  }
+
+  .bottom-image {
+    width: 518px;
+  }
+
+  .add-shadow {
+    bottom: 24px !important;
+    width: 234px;
+  }
+
+  .bottom-content-area {
+    padding-left: 30px;
+  }
+
+  .why-us-area {
+    margin-top: 90px;
+    padding: 65px 0px;
+  }
+
+  .our-counts {
+    font-size: 58.5px;
+    line-height: 85px;
+  }
+
+  .book-meeting-heading {
+    font-size: 34.375px;
+    line-height: 36px;
+    margin-bottom: 28px;
+  }
+
+  .less-margin {
+    margin-bottom: 12px;
+  }
+
+  .how-it-works-area {
+    margin-top: 81px;
+  }
+
+  .how-it-works-p {
+    font-size: 21px;
+    line-height: 35px;
+  }
+
+  .meeting-round-box {
+    width: 475.94px;
+    border-radius: 68px;
+    padding: 50px 14px 50px 29px;
+    margin: 52px 0px 38px;
+  }
+
+  .left-ids {
+    font-size: 88px;
+    line-height: 60px;
+  }
+
+  .right-p {
+    font-size: 20.1919px;
+    line-height: 28px;
+  }
+
+  .meeting-common-quest-area {
+    margin: 52px 0px 0px;
+  }
+
+  .comm-question-heading {
+    font-size: 36px;
+    line-height: 40px;
+  }
+
+  .question-accordion {
+    margin-top: 58px;
+  }
+
+  .question-accordion .accordion__button {
+    font-size: 19px;
+    line-height: 42px;
+  }
+
+  .question-accordion .accord-item {
+    margin-bottom: 46px;
+  }
+
+  .question-accordion .accordion__panel p {
+    font-size: 18px;
+    line-height: 32px;
+  }
+
+  .mix-reviews-area {
+    margin-bottom: -147px;
+    margin-top: 87px;
+  }
+
+  .reviews-heading {
+    font-size: 35px;
+    line-height: 40px;
+    margin-bottom: 40px;
+  }
+
+  .reviews-swiper .swiper-slide {
+    height: 305px;
+  }
+
+  .reviews-swiper .swiper-slide-active {
+    width: 730px;
+  }
+
+  .colored-div {
+    width: 125px;
+  }
+
+  .reviews-image {
+    width: 258px;
+  }
+
+  .reviews-content {
+    padding-left: 140px;
+    padding-top: 12px;
+  }
+
+  .reviews-content img {
+    width: 20px;
+  }
+
+  .review-title {
+    font-size: 23.6px;
+    line-height: 26px;
+  }
+
+  .review-subtitle {
+    font-size: 18.4px;
+    line-height: 20px;
+  }
+
+  .review-description {
+    width: 444px;
+    margin-bottom: 16px !important;
+  }
+
+  .last-section-area {
+    padding-top: 219px;
+    padding-bottom: 40px;
+  }
+
+  .last-section-heading {
+    font-size: 36px;
+    line-height: 40px;
+    margin: 0px auto 30px;
+    width: 75%;
+  }
+
+  .meeting-button {
+    padding: 9px 0px;
+    font-size: 18px;
+    line-height: 30px;
+  }
+
+  /* End Of Book A Meeting Responsive Css */
 }
 
 @media only screen and (min-width: 1400px) and (max-width: 1549px) {
@@ -7538,6 +9530,156 @@
   }
 
   /* End CV Responsive Css */
+
+  /* Start Of Book A Meetin Responsive Css */
+
+  .landing-banner {
+    padding: 102px 0px 80px;
+  }
+
+  .meeting-banner-content {
+    padding-top: 64px;
+  }
+
+  .landing-section-title h2 {
+    font-size: 22px;
+    line-height: 27px;
+  }
+
+  .content-heading {
+    font-size: 42px;
+    line-height: 60px;
+  }
+
+  .content-detail {
+    font-size: 18px;
+    line-height: 39px;
+    margin-bottom: 10px;
+  }
+
+  .our-ratings .ratings-by {
+    padding: 0px 28px;
+  }
+
+  .our-ratings .trustpilot {
+    padding: 0px 24px;
+  }
+
+  .landing-form {
+    padding: 27px 32px 18px;
+  }
+
+  .our-counts {
+    font-size: 60.5px;
+    line-height: 90px;
+  }
+
+  .top-heading,
+  .bottom-heading {
+    font-size: 37px;
+    line-height: 45px;
+  }
+
+  .book-demo-second {
+    font-size: 18px;
+    line-height: 32px;
+    padding: 13px 0px;
+  }
+
+  .book-meeting-heading {
+    font-size: 37.375px;
+    line-height: 45px;
+    margin-bottom: 32px;
+  }
+
+  .less-margin {
+    margin-bottom: 12px;
+  }
+
+  .why-us-area {
+    margin-top: 110px;
+    padding: 76px 0px;
+  }
+
+  .how-it-works-area {
+    margin-top: 101px;
+  }
+
+  .how-it-works-p {
+    font-size: 22px;
+    line-height: 38px;
+  }
+
+  .left-ids {
+    font-size: 100.465px;
+    line-height: 65px;
+  }
+
+  .meeting-common-quest-area {
+    margin: 60px 0px 107px;
+  }
+
+  .comm-question-heading {
+    font-size: 38px;
+    line-height: 46px;
+  }
+
+  .meeting-button {
+    padding: 10px 0px;
+    font-size: 18px;
+    line-height: 33px;
+  }
+
+  .mix-reviews-area {
+    margin-bottom: -147px;
+    margin-top: 107px;
+  }
+
+  .reviews-heading {
+    font-size: 37px;
+    line-height: 45px;
+    margin-bottom: 44px;
+  }
+
+  .reviews-swiper .swiper-slide {
+    height: 310px;
+  }
+
+  .reviews-image {
+    width: 271px;
+  }
+
+  .reviews-content {
+    padding-left: 153px;
+    padding-top: 15px;
+  }
+
+  .review-title {
+    font-size: 24.6px;
+    line-height: 28px;
+  }
+
+  .review-subtitle {
+    font-size: 19.4px;
+    line-height: 22px;
+  }
+
+  .review-description {
+    width: 444px;
+    margin-bottom: 22px !important;
+  }
+
+  .last-section-area {
+    padding-top: 239px;
+    padding-bottom: 52px;
+  }
+
+  .last-section-heading {
+    font-size: 38px;
+    line-height: 40px;
+  }
+
+  /* End Of Book A Meetin Responsive Css */
 }
 
 /* Min width 1550px */
@@ -8353,7 +10495,7 @@
   .profile-details-area .col-xs-4 {
     flex: 0 0 auto;
     width: 38%;
-    margin-left: 0px
+    margin-left: 0px;
   }
 
   .with-icon .col-sm-10 {
@@ -8373,6 +10515,30 @@
 
   .image-badge {
     padding-left: 8px;
+  }
+
+  .why-us-area .col-xs-6 {
+    flex: 0 0 auto;
+    width: 100%;
+  }
+
+  .reviews-swiper .swiper-slide {
+    height: 550px;
+  }
+
+  .reviews-swiper .swiper-button-next,
+  .reviews-swiper .swiper-button-prev {
+    background-size: 10px;
+    top: 91.8%;
+  }
+
+  .reviews-swiper .swiper-button-next {
+    left: auto;
+    right: 18%;
+  }
+
+  .reviews-swiper .swiper-button-prev {
+    left: 24%;
   }
 }
 
