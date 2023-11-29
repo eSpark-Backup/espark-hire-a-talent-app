@@ -1,6 +1,10 @@
 import HeroSection from '@/components/Partners/HeroSection';
 import PartnerMain from '@/components/Partners/PartnerMain';
-import { PartnersTitleData } from 'constants/partnersConstants';
+import {
+  PartnersContentData,
+  PartnersFormData,
+  PartnersTitleData,
+} from 'constants/partnersConstants';
 import React from 'react';
 
 const Partners = () => {
@@ -13,7 +17,10 @@ const Partners = () => {
         description={description}
         image={image}
       />
-      <PartnerMain />
+      <PartnerMain
+        PartnersContentData={PartnersContentData}
+        PartnersFormData={PartnersFormData}
+      />
     </div>
   );
 };
