@@ -33,6 +33,10 @@ export default function LandingPage() {
     } else {
       toggleHeader(logo, navbar);
     }
+
+    return () => {
+      toggleHeader(logo, navbar);
+    };
   }, [pathname, scrollY, windowWidth]);
 
   const toggleHeader = (logo, navbar) => {
