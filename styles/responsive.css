@@ -2164,6 +2164,17 @@
     font-size: 18px;
     line-height: 25px;
   }
+  .partner-form {
+    width: 492px;
+  }
+  .partner-main-form {
+    display: flex;
+    padding-top: 40px;
+    justify-content: center;
+  }
+  .partner-main {
+    padding-bottom: 50px;
+  }
 }
 
 /* Min width 768px to Max width 991px */
@@ -3508,6 +3519,17 @@
     font-size: 20px;
     line-height: 28px;
   }
+  .partner-form {
+    width: 492px;
+  }
+  .partner-main {
+    padding-bottom: 60px;
+  }
+  .partner-main-form {
+    display: flex;
+    padding-top: 40px;
+    justify-content: center;
+  }
 }
 
 /* Min width 992px to Max width 1199px */
@@ -4249,6 +4271,19 @@
   .partner-content ul li {
     font-size: 20px;
     line-height: 30px;
+  }
+  .partner-form {
+    height: auto;
+    padding-bottom: 35px;
+  }
+  .partner-form-full-name {
+    flex-direction: column;
+    gap: 7px !important;
+  }
+  .partner-form .partner-form-firstname,
+  .partner-form-lastname,
+  .input {
+    width: 100% !important;
   }
 }
 
@@ -4993,6 +5028,12 @@
     font-weight: 700;
     line-height: 43.2px; /* 180% */
   }
+  .partner-content {
+    padding-right: 35px;
+  }
+  .partner-form {
+    width: 492px;
+  }
 }
 
 /* Min width 1550px */
@@ -5223,6 +5264,12 @@
     font-weight: 700;
     line-height: 43.2px; /* 180% */
   }
+  .partner-content {
+    padding-right: 35px;
+  }
+  .partner-form {
+    width: 492px;
+  }
   /* End "Cybersecurity Demo Responsive, Cryptocurrency Demo Responsive & ICO Landing Demo Responsive" */
 }
 
@@ -5397,6 +5444,12 @@
     /* font-size: 42px; */
     width: 450px;
     line-height: 32px;
+  }
+  .partner-content {
+    padding-right: 32px;
+  }
+  .partner-form {
+    width: 492px;
   }
 }
 
@@ -5690,6 +5743,28 @@
     padding-top: 50px;
     padding-bottom: 50px;
   }
+  .partner-form {
+    width: auto;
+    padding: 30px 15px !important;
+    height: auto;
+  }
+
+  .partner-form-full-name {
+    flex-direction: column !important;
+  }
+  .partner-form .partner-form-firstname,
+  .partner-form-lastname,
+  .input {
+    width: 100% !important;
+  }
+  .partner-main-form {
+    display: flex;
+    padding-top: 15px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    justify-content: center;
+  }
 }
 @media screen and (min-width: 375px) and (max-width: 575px) {
   .with-space {
@@ -5966,6 +6041,26 @@
   .partner-main {
     padding-top: 50px;
     padding-bottom: 50px;
+  }
+  .partner-form {
+    width: auto;
+    height: auto;
+  }
+  .partner-form-full-name {
+    flex-direction: column !important;
+  }
+  .partner-form .partner-form-firstname,
+  .partner-form-lastname,
+  .input {
+    width: 100% !important;
+  }
+  .partner-main-form {
+    display: flex;
+    padding-top: 15px;
+    padding-bottom: 0px;
+    padding-left: 15px;
+    padding-right: 15px;
+    justify-content: center;
   }
 }
 /* @media screen and (max-width: 490px){
