@@ -1,5 +1,7 @@
 import React, { useState, useEffect, useRef, useCallback } from "react";
 
+import emailjs from "@emailjs/browser";
+
 import Link from "next/link";
 
 import { Inter } from "next/font/google";
@@ -52,13 +54,17 @@ const Form = ({ companySize }) => {
         country: state.country === "Please Select" ? true : false,
       });
     } else {
+      emailjs.init("i97Hmgobdw1yJilSn");
       emailjs
-        .send(
-          "service_h5qpxbn",
-          "template_tpktgz5",
-          state,
-          "sales@esparktalent.com"
-        )
+        .send("service_h5qpxbn", "template_tpktgz5", {
+          first_name: state.first_name,
+          last_name: state.last_name,
+          company_size: state.company_size,
+          company_email: state.company_email,
+          phone_number: state.phone_number,
+          country: state.country,
+          company_name: "eSpark",
+        })
         .then(
           ({ status }) => {
             if (status === 200) {
@@ -68,9 +74,8 @@ const Form = ({ companySize }) => {
               );
             }
           },
-          (err) => {
-            // eslint-disable-next-line no-console
-            console.log(err);
+          (error) => {
+            console.log(error);
           }
         );
     }
@@ -285,13 +290,13 @@ const CustomDropdown = ({
         <span className="country-span">
           {country && flag ? (
             <div className="country-flag" style={{ marginRight: "10px" }}>
-              <img src={flag} />
+              <img src={flag} alt="flag" />
             </div>
           ) : null}
           {value}
         </span>
         <div className="custom-arrow">
-          <img src="/images/book-a-meeting/icons/down-arrow.png" />
+          <img src="/images/book-a-meeting/icons/down-arrow.png" alt="icon" />
         </div>
       </div>
 
@@ -320,7 +325,7 @@ const CustomDropdown = ({
                 >
                   <div className="country-name">{opt.option}</div>
                   <div className="country-flag">
-                    <img src={opt.flag} />
+                    <img src={opt.flag} alt="flag" />
                   </div>
                 </div>
               ) : (
