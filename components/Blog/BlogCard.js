@@ -80,9 +80,9 @@ const BlogCard = ({ item }) => {
                 <div className="single-blog-post">
                   <div className="image">
                     <Link legacyBehavior href={`/blogs/${eachCard.slug}`}>
-                      <span className="d-block">
+                      <a className="d-block">
                         <img src={eachCard.imageLink} alt={eachCard.altTag} />
-                      </span>
+                      </a>
                     </Link>
                     <span className="date">{eachCard?.postedBy?.date}</span>
                   </div>
@@ -90,7 +90,7 @@ const BlogCard = ({ item }) => {
                   <div className="content">
                     <h3>
                       <Link legacyBehavior href={`/blogs/${eachCard.slug}`}>
-                        <span>{eachCard?.title}</span>
+                        <a>{eachCard?.title}</a>
                       </Link>
                     </h3>
                     <p>{eachCard?.mainParagraph}</p>
