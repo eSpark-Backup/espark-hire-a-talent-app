@@ -21,7 +21,7 @@ const CaseStudiesCard3 = () => {
               <div className="case-studies-box">
                 <img src="/images/case-studies/case-studies4.png" alt="image" />
                 <h3>
-                  <Link href="case-studies-details">
+                  <Link legacyBehavior href="case-studies-details">
                     <a>eLan Education</a>
                   </Link>
                 </h3>
@@ -30,7 +30,7 @@ const CaseStudiesCard3 = () => {
                   do eiusmod tempor incididunt ut labore et dolore rts magna rtt
                   aliqua.
                 </p>
-                <Link href="case-studies-details">
+                <Link legacyBehavior href="case-studies-details">
                   <a className="default-btn">
                     <span className="ri-arrow-right-s-line"></span>Read More
                   </a>
@@ -42,7 +42,7 @@ const CaseStudiesCard3 = () => {
               <div className="case-studies-box">
                 <img src="/images/case-studies/case-studies5.png" alt="image" />
                 <h3>
-                  <Link href="case-studies-details">
+                  <Link legacyBehavior href="case-studies-details">
                     <a>StartP Startup</a>
                   </Link>
                 </h3>
@@ -51,19 +51,19 @@ const CaseStudiesCard3 = () => {
                   do eiusmod tempor incididunt ut labore et dolore rts magna rtt
                   aliqua.
                 </p>
-                <Link href="case-studies-details">
+                <Link legacyBehavior href="case-studies-details">
                   <a className="default-btn">
                     <span className="ri-arrow-right-s-line"></span>Read More
                   </a>
                 </Link>
               </div>
             </div>
-            
+
             <div className="col-lg-4 col-sm-6 col-md-6">
               <div className="case-studies-box">
                 <img src="/images/case-studies/case-studies6.png" alt="image" />
                 <h3>
-                  <Link href="case-studies-details">
+                  <Link legacyBehavior href="case-studies-details">
                     <a>Edmo Marketing</a>
                   </Link>
                 </h3>
@@ -72,7 +72,7 @@ const CaseStudiesCard3 = () => {
                   do eiusmod tempor incididunt ut labore et dolore rts magna rtt
                   aliqua.
                 </p>
-                <Link href="case-studies-details">
+                <Link legacyBehavior href="case-studies-details">
                   <a className="default-btn">
                     <span className="ri-arrow-right-s-line"></span>Read More
                   </a>
@@ -84,7 +84,7 @@ const CaseStudiesCard3 = () => {
               <div className="case-studies-box">
                 <img src="/images/case-studies/case-studies7.png" alt="image" />
                 <h3>
-                  <Link href="case-studies-details">
+                  <Link legacyBehavior href="case-studies-details">
                     <a>StartNext IT</a>
                   </Link>
                 </h3>
@@ -93,7 +93,7 @@ const CaseStudiesCard3 = () => {
                   do eiusmod tempor incididunt ut labore et dolore rts magna rtt
                   aliqua.
                 </p>
-                <Link href="case-studies-details">
+                <Link legacyBehavior href="case-studies-details">
                   <a className="default-btn">
                     <span className="ri-arrow-right-s-line"></span>Read More
                   </a>
@@ -105,7 +105,7 @@ const CaseStudiesCard3 = () => {
               <div className="case-studies-box">
                 <img src="/images/case-studies/case-studies8.png" alt="image" />
                 <h3>
-                  <Link href="case-studies-details">
+                  <Link legacyBehavior href="case-studies-details">
                     <a>Naxai Security</a>
                   </Link>
                 </h3>
@@ -114,7 +114,7 @@ const CaseStudiesCard3 = () => {
                   do eiusmod tempor incididunt ut labore et dolore rts magna rtt
                   aliqua.
                 </p>
-                <Link href="case-studies-details">
+                <Link legacyBehavior href="case-studies-details">
                   <a className="default-btn">
                     <span className="ri-arrow-right-s-line"></span>Read More
                   </a>
@@ -126,7 +126,7 @@ const CaseStudiesCard3 = () => {
               <div className="case-studies-box">
                 <img src="/images/case-studies/case-studies9.png" alt="image" />
                 <h3>
-                  <Link href="case-studies-details">
+                  <Link legacyBehavior href="case-studies-details">
                     <a>Noke Creative</a>
                   </Link>
                 </h3>
@@ -135,7 +135,7 @@ const CaseStudiesCard3 = () => {
                   do eiusmod tempor incididunt ut labore et dolore rts magna rtt
                   aliqua.
                 </p>
-                <Link href="case-studies-details">
+                <Link legacyBehavior href="case-studies-details">
                   <a className="default-btn">
                     <span className="ri-arrow-right-s-line"></span>Read More
                   </a>

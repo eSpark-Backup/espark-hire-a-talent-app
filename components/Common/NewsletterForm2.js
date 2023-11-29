@@ -13,14 +13,14 @@ const NewsletterForm2 = () => {
             <div className="subscribe2-inner">
               {/* <span className="sub-title">READY TO GET STARTED</span> */}
               <h1>
-              Connect With eSpark Talent & Uplift The Professional<br /> Performance of Your Business Now! 
+                Connect With eSpark Talent & Uplift The Professional<br /> Performance of Your Business Now!
               </h1>
               <p>
-              Get in touch with skilled interviewers who will help  <br /> you find the right people for your company's growth
+                Get in touch with skilled interviewers who will help  <br /> you find the right people for your company's growth
               </p>
               {gettingPath === "/thankyou" ? null : (
                 <div className="newsletter-form">
-                  <Link href="https://calendly.com/esparktalents/60min?month=2023-09">
+                  <Link legacyBehavior href="https://calendly.com/esparktalents/60min?month=2023-09">
                     <a target="_blank">
                       <button type="submit">Schedule a Meeting</button>
                     </a>

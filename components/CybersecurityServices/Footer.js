@@ -9,7 +9,7 @@ const Footer = () => {
           <div className="row justify-content-center">
             <div className="col-lg-4 col-sm-6 col-md-6">
               <div className="single-footer-widget">
-                <Link href="/">
+                <Link legacyBehavior href="/">
                   <a className="d-inline-block logo">
                     <img src="/images/white-logo.png" alt="logo" />
                   </a>
@@ -34,32 +34,32 @@ const Footer = () => {
                 <h3>Solution</h3>
                 <ul className="services-links">
                   <li>
-                    <Link href="/service-details">
+                    <Link legacyBehavior href="/service-details">
                       <a>Cyber Security</a>
                     </Link>
                   </li>
                   <li>
-                    <Link href="/service-details">
+                    <Link legacyBehavior href="/service-details">
                       <a>Enterprise Networks</a>
                     </Link>
                   </li>
                   <li>
-                    <Link href="/service-details">
+                    <Link legacyBehavior href="/service-details">
                       <a>Collaboration</a>
                     </Link>
                   </li>
                   <li>
-                    <Link href="/service-details">
+                    <Link legacyBehavior href="/service-details">
                       <a>Website Security</a>
                     </Link>
                   </li>
                   <li>
-                    <Link href="/service-details">
+                    <Link legacyBehavior href="/service-details">
                       <a>Malware Attack</a>
                     </Link>
                   </li>
                   <li>
-                    <Link href="/service-details">
+                    <Link legacyBehavior href="/service-details">
                       <a>Phishing Attack</a>
                     </Link>
                   </li>
@@ -72,32 +72,32 @@ const Footer = () => {
                 <h3>Company</h3>
                 <ul className="quick-links">
                   <li>
-                    <Link href="/">
+                    <Link legacyBehavior href="/">
                       <a href="index.html">Home</a>
                     </Link>
                   </li>
                   <li>
-                    <Link href="/about-us">
+                    <Link legacyBehavior href="/about-us">
                       <a>About Us</a>
                     </Link>
                   </li>
                   <li>
-                    <Link href="/case-studies">
+                    <Link legacyBehavior href="/case-studies">
                       <a>Case Studies</a>
                     </Link>
                   </li>
                   <li>
-                    <Link href="/blog">
+                    <Link legacyBehavior href="/blog">
                       <a>Our News</a>
                     </Link>
                   </li>
                   <li>
-                    <Link href="/contact">
+                    <Link legacyBehavior href="/contact">
                       <a>Contact Us</a>
                     </Link>
                   </li>
                   <li>
-                    <Link href="/pricing">
+                    <Link legacyBehavior href="/pricing">
                       <a>Pricing</a>
                     </Link>
                   </li>
