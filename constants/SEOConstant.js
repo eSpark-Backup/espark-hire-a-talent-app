@@ -10,7 +10,7 @@ export const seoContent = [
     twitterDescription:
       "Discover top talent for your business. Outsource hiring processes with eSparkTalent and find the best fit for your team.",
     twitterTitle: "Global Recruitment and Onboarding Solutions | eSparkTalent",
-    canonical: "https://esparktalent.com/",
+    canonical: "https://www.esparktalent.com/",
     ogLocal: "en_US",
     ogType: "website",
     ogUrl: "https://esparktalent.com/",
@@ -34,7 +34,7 @@ export const seoContent = [
       "Learn about eSparkTalent, offering outsourced employees and efficient management solutions. We handle talent sourcing and management, reducing employer cost.",
     twitterTitle:
       "What We Do - Outsourced Employees & Management | eSparkTalent",
-    canonical: "https://esparktalent.com/what-we-do/",
+    canonical: "https://www.esparktalent.com/what-we-do/",
     ogLocal: "en_US",
     ogType: "website",
     ogUrl: "https://esparktalent.com/what-we-do/",
@@ -57,7 +57,7 @@ export const seoContent = [
     twitterDescription:
       "eSparkTalent offers professional talent and developer hiring services. Find the best human resource solutions to supercharge your team building.",
     twitterTitle: "Expert Developer Hiring and HR Services | eSparkTalent",
-    canonical: "https://esparktalent.com/how-it-works/",
+    canonical: "https://www.esparktalent.com/how-it-works/",
     ogLocal: "en_US",
     ogType: "website",
     ogUrl: "https://esparktalent.com/how-it-works/",
@@ -80,7 +80,7 @@ export const seoContent = [
     twitterDescription:
       "Stay updated with the latest trends and insights on developer hiring and talent acquisition. Explore eSparkTalent blogs for expert advice and knowledge.",
     twitterTitle: "Insights and Trends on Talent Hiring | eSparkTalent Blogs",
-    canonical: "https://esparktalent.com/blogs/",
+    canonical: "https://www.esparktalent.com/blogs/",
     ogLocal: "en_US",
     ogType: "website",
     ogUrl: "https://esparktalent.com/blogs/",
@@ -104,7 +104,7 @@ export const seoContent = [
       "Companies must embrace the change and follow what is best for them. Here are the eight working tips to showcase your workplace with productivity.",
     twitterTitle:
       "Guide for Bringing Positive Work Culture | eSparkTalent Blogs",
-    canonical: "https://esparktalent.com/blogs/positive-work-culture/",
+    canonical: "https://www.esparktalent.com/blogs/positive-work-culture/",
     ogLocal: "en_US",
     ogType: "website",
     ogUrl: "https://esparktalent.com/blogs/positive-work-culture/",
@@ -127,7 +127,7 @@ export const seoContent = [
     twitterDescription:
       "What is Employee Outsourcing? And how does it bring flexibility and productivity at the workplace? Grab the needful insights here.",
     twitterTitle: "Benefits of Employee Outsourcing | eSparkTalent Blogs",
-    canonical: "https://esparktalent.com/blogs/benefits-employee-outsourcing/",
+    canonical: "https://www.esparktalent.com/blogs/benefits-employee-outsourcing/",
     ogLocal: "en_US",
     ogType: "website",
     ogUrl: "https://esparktalent.com/blogs/benefits-employee-outsourcing/",
@@ -175,7 +175,7 @@ export const seoContent = [
     twitterDescription:
       "Want to know everything about human resource management and other HR functions? Here is our informative and well-experienced blog about HRM.",
     twitterTitle: "Defining Human Resource Management | eSparkTalent Blogs",
-    canonical: "https://esparktalent.com/blogs/human-resource-management/",
+    canonical: "https://www.esparktalent.com/blogs/human-resource-management/",
     ogLocal: "en_US",
     ogType: "website",
     ogUrl: "https://esparktalent.com/blogs/human-resource-management/",
@@ -198,7 +198,7 @@ export const seoContent = [
     twitterDescription:
       "Who are hiring managers? and what skills are required to be a professional hiring manager? Find out all here.",
     twitterTitle: "Getting to Know Your Hiring Manager | eSparkTalent Blogs",
-    canonical: "https://esparktalent.com/blogs/hiring-manager/",
+    canonical: "https://www.esparktalent.com/blogs/hiring-manager/",
     ogLocal: "en_US",
     ogType: "website",
     ogUrl: "https://esparktalent.com/blogs/hiring-manager/",
@@ -224,7 +224,7 @@ export const seoContent = [
       "Need assistance in handling employee benefits. Here is our comprehensive guide of all the finest steps and working tips.",
     twitterTitle:
       "Premier Steps & Tips For Handling Employee Benefits | eSparkTalent Blogs",
-    canonical: "https://esparktalent.com/blogs/handling-employee-benefits/",
+    canonical: "https://www.esparktalent.com/blogs/handling-employee-benefits/",
     ogLocal: "en_US",
     ogType: "website",
     ogUrl: "https://esparktalent.com/blogs/handling-employee-benefits/",
@@ -251,7 +251,7 @@ export const seoContent = [
       "Got stuck in the complicated payment cycle? Relax and note down these contemporary tips to streamline payroll processing of your workplace.",
     twitterTitle:
       "How to Streamline Payroll Processing - Step-by-Step Guide | eSparkTalent Blogs",
-    canonical: "https://esparktalent.com/blogs/streamline-payroll-processing/",
+    canonical: "https://www.esparktalent.com/blogs/streamline-payroll-processing/",
     ogLocal: "en_US",
     ogType: "website",
     ogUrl: "https://esparktalent.com/blogs/streamline-payroll-processing/",
@@ -277,7 +277,7 @@ export const seoContent = [
       "Is remote work not good for employees? Learn about the reasons and altering solutions for isolation due to remote jobs here.",
     twitterTitle:
       "How to Overcome the Isolation of Remote Work | eSparkTalent Blogs",
-    canonical: "https://esparktalent.com/blogs/remote-work/",
+    canonical: "https://www.esparktalent.com/blogs/remote-work/",
     ogLocal: "en_US",
     ogType: "website",
     ogUrl: "https://esparktalent.com/blogs/remote-work/",
@@ -301,7 +301,7 @@ export const seoContent = [
       "Got skills & qualifications related to HR consulting? Start offering services independently with our well-explained guide here.",
     twitterTitle:
       "How to Start Independently HR Consulting | eSparkTalent Blogs",
-    canonical: "https://esparktalent.com/blogs/hr-consultant/",
+    canonical: "https://www.esparktalent.com/blogs/hr-consultant/",
     ogLocal: "en_US",
     ogType: "website",
     ogUrl: "https://esparktalent.com/blogs/hr-consultant/",
@@ -324,7 +324,7 @@ export const seoContent = [
     twitterDescription:
       "Explore exciting career opportunities at eSparkTalent. We're hiring expert talent to supercharge our team. Join us and grow your career!",
     twitterTitle: "Join Our Team | Career Opportunities at eSparkTalent",
-    canonical: "https://esparktalent.com/careers/",
+    canonical: "https://www.esparktalent.com/careers/",
     ogLocal: "en_US",
     ogType: "website",
     ogUrl: "https://esparktalent.com/careers/",
@@ -347,7 +347,7 @@ export const seoContent = [
     twitterDescription:
       "Reach out to eSparkTalent for expert developer hiring and talent acquisition solutions. Let us help you build an exceptional team for your business.",
     twitterTitle: "Contact Us | Get in Touch with eSparkTalent",
-    canonical: "https://esparktalent.com/contact/",
+    canonical: "https://www.esparktalent.com/contact/",
     ogLocal: "en_US",
     ogType: "website",
     ogUrl: "https://esparktalent.com/contact/",
@@ -373,7 +373,7 @@ export const seoContent = [
       "Looking to hire a mobile app developer? eSparkTalent offers expert mobile app development services. Find the perfect developer for your project today!",
     twitterTitle:
       "Hire a Mobile App Developer | Expert Mobile App Development | eSparkTalent",
-    canonical: "https://esparktalent.com/hire/mobile-app-developer/",
+    canonical: "https://www.esparktalent.com/hire/mobile-app-developer/",
     ogLocal: "en_US",
     ogType: "website",
     ogUrl: "https://esparktalent.com/hire/mobile-app-developer/",
@@ -397,7 +397,7 @@ export const seoContent = [
       "Looking to hire a web developer? eSparkTalent offers expert web development services. Find the perfect developer for your project today!",
     twitterTitle:
       "Hire a Web Developer | Expert Web Development | eSparkTalent",
-    canonical: "https://esparktalent.com/hire/web-developer/",
+    canonical: "https://www.esparktalent.com/hire/web-developer/",
     ogLocal: "en_US",
     ogType: "website",
     ogUrl: "https://esparktalent.com/hire/web-developer/",
@@ -422,7 +422,7 @@ export const seoContent = [
       "Looking to hire a digital marketer? eSparkTalent offers expert digital marketing services. Find the perfect digital marketer for your project today!",
     twitterTitle:
       "Hire a Digital Marketer | Expert Digital Marketing | eSparkTalent",
-    canonical: "https://esparktalent.com/hire/digital-marketer/",
+    canonical: "https://www.esparktalent.com/hire/digital-marketer/",
     ogLocal: "en_US",
     ogType: "website",
     ogUrl: "https://esparktalent.com/hire/digital-marketer/",
@@ -448,7 +448,7 @@ export const seoContent = [
       "Looking to hire a embedded developer? eSparkTalent offers expert embedded development services. Find the perfect embedded developer for your project today!",
     twitterTitle:
       "Hire an Embedded Developer | Expert Embedded Development | eSparkTalent",
-    canonical: "https://esparktalent.com/hire/embedded-developer/",
+    canonical: "https://www.esparktalent.com/hire/embedded-developer/",
     ogLocal: "en_US",
     ogType: "website",
     ogUrl: "https://esparktalent.com/hire/embedded-developer/",
@@ -474,7 +474,7 @@ export const seoContent = [
       "Looking to hire a database developer? eSparkTalent offers expert database development services. Find the perfect database developer for your project today!",
     twitterTitle:
       "Hire an Database Developer | Expert Database Development | eSparkTalent",
-    canonical: "https://esparktalent.com/hire/database-developer/",
+    canonical: "https://www.esparktalent.com/hire/database-developer/",
     ogLocal: "en_US",
     ogType: "website",
     ogUrl: "https://esparktalent.com/hire/database-developer/",
@@ -497,7 +497,7 @@ export const seoContent = [
     twitterDescription:
       "Looking to hire a QA developer? eSparkTalent offers expert QA services. Find the perfect QA developer for your project today!",
     twitterTitle: "Hire an QA Developer | Expert QA Developer | eSparkTalent",
-    canonical: "https://esparktalent.com/hire/qa-developer/",
+    canonical: "https://www.esparktalent.com/hire/qa-developer/",
     ogLocal: "en_US",
     ogType: "website",
     ogUrl: "https://esparktalent.com/hire/qa-developer/",
@@ -520,7 +520,7 @@ export const seoContent = [
     twitterDescription:
       "Discover top talent for your business. Outsource hiring processes with eSparkTalent and find the best fit for your team.",
     twitterTitle: "Global Recruitment and Onboarding Solutions | eSparkTalent",
-    canonical: "https://esparktalent.com/",
+    canonical: "https://www.esparktalent.com/",
     ogLocal: "en_US",
     ogType: "website",
     ogUrl: "https://esparktalent.com/",
@@ -543,7 +543,7 @@ export const seoContent = [
     twitterDescription:
       "Discover top talent for your business. Outsource hiring processes with eSparkTalent and find the best fit for your team.",
     twitterTitle: "Global Recruitment and Onboarding Solutions | eSparkTalent",
-    canonical: "https://esparktalent.com/",
+    canonical: "https://www.esparktalent.com/",
     ogLocal: "en_US",
     ogType: "website",
     ogUrl: "https://esparktalent.com/",

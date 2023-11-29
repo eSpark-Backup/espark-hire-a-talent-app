@@ -24,7 +24,7 @@ const CaseStudiesCard = () => {
                       <img src="/images/case-studies/elan.png" alt="image" />
                     </div>
                     <h3>
-                      <Link href="/case-studies-details">
+                      <Link legacyBehavior href="/case-studies-details">
                         <a>eLan Education</a>
                       </Link>
                     </h3>
@@ -50,7 +50,7 @@ const CaseStudiesCard = () => {
                         </a>
                       </li>
                     </ul>
-                    <Link href="/case-studies-details">
+                    <Link legacyBehavior href="/case-studies-details">
                       <a className="default-btn">
                         <span className="ri-arrow-right-s-line"></span>View More
                       </a>
@@ -76,7 +76,7 @@ const CaseStudiesCard = () => {
                       <img src="/images/case-studies/startp.png" alt="image" />
                     </div>
                     <h3>
-                      <Link href="/case-studies-details">
+                      <Link legacyBehavior href="/case-studies-details">
                         <a>StartP Startup</a>
                       </Link>
                     </h3>
@@ -102,7 +102,7 @@ const CaseStudiesCard = () => {
                         </a>
                       </li>
                     </ul>
-                    <Link href="/case-studies-details">
+                    <Link legacyBehavior href="/case-studies-details">
                       <a className="default-btn">
                         <span className="ri-arrow-right-s-line"></span>View More
                       </a>
@@ -128,7 +128,7 @@ const CaseStudiesCard = () => {
                       <img src="/images/case-studies/edmo.png" alt="image" />
                     </div>
                     <h3>
-                      <Link href="/case-studies-details">
+                      <Link legacyBehavior href="/case-studies-details">
                         <a>Edmo Marketing</a>
                       </Link>
                     </h3>
@@ -154,7 +154,7 @@ const CaseStudiesCard = () => {
                         </a>
                       </li>
                     </ul>
-                    <Link href="/case-studies-details">
+                    <Link legacyBehavior href="/case-studies-details">
                       <a className="default-btn">
                         <span className="ri-arrow-right-s-line"></span>View More
                       </a>
