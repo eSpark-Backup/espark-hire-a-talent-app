@@ -95,8 +95,9 @@ const BlogDetailsContent = ({ blogPost }) => {
                   </li>
                 ))}
               </ul>
-
-              <PortableText value={blogPost.body} />
+              <div className="blogs-content">
+                <PortableText value={blogPost.body} />
+              </div>
             </div>
           </div>
         </div>
