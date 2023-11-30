@@ -3,26 +3,54 @@ import PartnerSelect from './PartnerSelect';
 import { countries } from 'constants/partnersConstants';
 import { useFormik } from 'formik';
 import { profileValidationSchema } from './Schema/partnerFormSchema';
+import { useRouter } from 'next/navigation';
+import emailjs from '@emailjs/browser';
 
 const PartnerForm = () => {
+  const [data, setData] = React.useState();
+  const router = useRouter();
+  emailjs.init('i97Hmgobdw1yJilSn');
+
   const PartnerFormData = {
-    firstName: '',
-    lastName: '',
+    first_name: '',
+    last_name: '',
     email: '',
-    phoneNumber: '',
+    phone_number: '',
     country: '',
-    socialLink: '',
+    linkedin_profile_link: '',
   };
 
   const { values, errors, touched, handleChange, handleSubmit } = useFormik({
     initialValues: PartnerFormData,
     validationSchema: profileValidationSchema,
     onSubmit: (values, action) => {
-      console.log(values, 'values');
-      console.log(errors, 'errors');
-      action.resetForm();
+      try {
+        emailjs;
+        emailjs
+          .send('service_6qzxeqp', 'template_6y49v0k', {
+            first_name: values.first_name,
+            last_name: values.last_name,
+            email: values.email,
+            phone_number: values.phone_number,
+            country: values.country,
+            linkedin_profile_link: values.linkedin_profile_link,
+          })
+          .then(({ status }) => {
+            console.log(status, 'status');
+            if (status == 200) {
+              action.resetForm();
+              router.push('https://calendly.com/esparktalents/');
+            }
+          }),
+          (error) => {
+            console.log(error);
+          };
+      } catch (error) {
+        console.error('Error submitting the form:', error);
+      }
     },
   });
+
   return (
     <div>
       <div className="partner-form">
@@ -38,12 +66,12 @@ const PartnerForm = () => {
               <input
                 type="text"
                 className="input"
-                name="firstName"
-                value={values?.firstName}
+                name="first_name"
+                value={values?.first_name}
                 onChange={handleChange}
               />
-              {touched?.firstName && errors?.firstName && (
-                <span className="error-message">{errors?.firstName}</span>
+              {touched?.first_name && errors?.first_name && (
+                <span className="error-message">{errors?.first_name}</span>
               )}
             </div>
             <div className="partner-form-lastname">
@@ -53,12 +81,12 @@ const PartnerForm = () => {
               <input
                 type="text"
                 className="input"
-                name="lastName"
-                value={values?.lastName}
+                name="last_name"
+                value={values?.last_name}
                 onChange={handleChange}
               />
-              {touched?.lastName && errors?.lastName && (
-                <span className="error-message">{errors?.lastName}</span>
+              {touched?.last_name && errors?.last_name && (
+                <span className="error-message">{errors?.last_name}</span>
               )}
             </div>
           </div>
@@ -84,13 +112,13 @@ const PartnerForm = () => {
             <input
               type="number"
               className="input"
-              name="phoneNumber"
-              value={values?.phoneNumber}
+              name="phone_number"
+              value={values?.phone_number}
               placeholder="+00 00000000"
               onChange={handleChange}
             />
-            {touched?.phoneNumber && errors?.phoneNumber && (
-              <span className="error-message">{errors?.phoneNumber}</span>
+            {touched?.phone_number && errors?.phone_number && (
+              <span className="error-message">{errors?.phone_number}</span>
             )}
           </div>
           <div className="partner-form-Country">
@@ -114,14 +142,17 @@ const PartnerForm = () => {
             <input
               type="text"
               className="input"
-              name="socialLink"
-              value={values?.socialLink}
+              name="linkedin_profile_link"
+              value={values?.linkedin_profile_link}
               placeholder="necessary"
               onChange={handleChange}
             />
-            {touched?.socialLink && errors?.socialLink && (
-              <span className="error-message">{errors?.socialLink}</span>
-            )}
+            {touched?.linkedin_profile_link &&
+              errors?.linkedin_profile_link && (
+                <span className="error-message">
+                  {errors?.linkedin_profile_link}
+                </span>
+              )}
           </div>
           <div className="partner-form-button">
             <button onClick={handleSubmit} className="">
