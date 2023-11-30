@@ -10723,6 +10723,9 @@ partners-form CSS
   height: 41.539px;
   width: 100% !important;
 }
+.partner-form .input::placeholder {
+  color: #abb2d9;
+}
 .partner-form input::-webkit-outer-spin-button,
 input::-webkit-inner-spin-button {
   -webkit-appearance: none;
@@ -10740,6 +10743,10 @@ input::-webkit-inner-spin-button {
   background-size: 15px;
   height: 41.539px;
   width: 100% !important;
+  color: #abb2d9;
+}
+.partner-form .dropdown .options {
+  color: var(--blackColor);
 }
 
 .partner-form .partner-form-full-name {
@@ -10801,40 +10808,38 @@ input::-webkit-inner-spin-button {
 partners-header class CSS
 =================================================*/
 
-
-.partners-header-text{
+.partners-header-text {
   color: var(--blackColor) !important;
-  }
-  .partners-header-text:hover{
+}
+.partners-header-text:hover {
   color: var(--mainColor) !important;
-  }
-  .partners-header-button{
-    color:var(--mainColor) !important;
-    -webkit-transition: var(--transition);
-    transition: var(--transition);
-    padding: 9px 30px 9px 30px;
-    border-radius: 5px;
-    border: 1px solid var(--mainColor) !important;
-    
-  } 
-  .partners-header-button:hover{
-    color: #fff !important;
-    background-color: var(--mainColor);
-    transition: var(--transition);
-    border-color: var(--mainColor);
-  }
+}
+.partners-header-button {
+  color: var(--mainColor) !important;
+  -webkit-transition: var(--transition);
+  transition: var(--transition);
+  padding: 9px 30px 9px 30px;
+  border-radius: 5px;
+  border: 1px solid var(--mainColor) !important;
+}
+.partners-header-button:hover {
+  color: #fff !important;
+  background-color: var(--mainColor);
+  transition: var(--transition);
+  border-color: var(--mainColor);
+}
 
-.is-sticky  .partners-header-text {
-  color:var(--blackColor) !important;
+.is-sticky .partners-header-text {
+  color: var(--blackColor) !important;
 }
-.is-sticky  .partners-header-text:hover{
+.is-sticky .partners-header-text:hover {
   color: var(--mainColor) !important;
 }
-.is-sticky .partners-header-button{
+.is-sticky .partners-header-button {
   color: var(--buttonColor) !important;
   border-color: var(--buttonColor) !important ;
 }
-.is-sticky .partners-header-button:hover{
+.is-sticky .partners-header-button:hover {
   color: #fff !important;
- background-color: var(--buttonColor);
+  background-color: var(--buttonColor);
 }
