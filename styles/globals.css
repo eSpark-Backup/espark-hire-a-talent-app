@@ -10796,3 +10796,45 @@ input::-webkit-inner-spin-button {
   font-family: Titillium Web;
   font-size: 13.448px;
 }
+
+/*================================================
+partners-header class CSS
+=================================================*/
+
+
+.partners-header-text{
+  color: var(--blackColor) !important;
+  }
+  .partners-header-text:hover{
+  color: var(--mainColor) !important;
+  }
+  .partners-header-button{
+    color:var(--mainColor) !important;
+    -webkit-transition: var(--transition);
+    transition: var(--transition);
+    padding: 9px 30px 9px 30px;
+    border-radius: 5px;
+    border: 1px solid var(--mainColor) !important;
+    
+  } 
+  .partners-header-button:hover{
+    color: #fff !important;
+    background-color: var(--mainColor);
+    transition: var(--transition);
+    border-color: var(--mainColor);
+  }
+
+.is-sticky  .partners-header-text {
+  color:var(--blackColor) !important;
+}
+.is-sticky  .partners-header-text:hover{
+  color: var(--mainColor) !important;
+}
+.is-sticky .partners-header-button{
+  color: var(--buttonColor) !important;
+  border-color: var(--buttonColor) !important ;
+}
+.is-sticky .partners-header-button:hover{
+  color: #fff !important;
+ background-color: var(--buttonColor);
+}
