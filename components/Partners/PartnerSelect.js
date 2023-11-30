@@ -10,9 +10,11 @@ const PartnerSelect = ({ option, name, value, onChange }) => {
         aria-label="Default select example"
         className="dropdown form-select"
       >
-        <option selected>Please Select</option>
+        <option selected className="options">
+          Please Select
+        </option>
         {option?.map((item, i) => (
-          <option key={i} value={item}>
+          <option key={i} value={item} className="options">
             {item}
           </option>
         ))}
