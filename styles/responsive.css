@@ -2472,18 +2472,17 @@
   }
 
   .expertise {
-    margin-top: 0px;
     flex-basis: 48%;
-    margin-bottom: 5px;
   }
 
   .english-level {
     flex-basis: 48%;
-    margin-left: 10px;
+    padding-left: 15px !important;
   }
 
   .experience {
-    flex-basis: 50%;
+    flex-basis: 100%;
+    margin-top: 5px;
   }
 
   .with-icon .col-sm-10 {
@@ -2504,6 +2503,7 @@
   .with-icon .col-sm-5 {
     flex: 0 0 auto;
     width: 30%;
+    text-align: center;
   }
 
   .profile-detail-heading {
@@ -2607,8 +2607,8 @@
   }
 
   .progress-info {
-    flex-basis: 50%;
-    margin-bottom: 15px;
+    /* flex-basis: 50%; */
+    margin-bottom: 10px;
   }
 
   .names {
@@ -2734,6 +2734,11 @@
     padding: 0px 22px;
   }
 
+  .our-ratings .col-sm-6 {
+    flex: 0 0 auto;
+    width: 50%;
+  }
+
   .ratings-in p {
     font-size: 14px;
     line-height: 21px;
@@ -2840,7 +2845,7 @@
   }
 
   .image-section {
-    margin-top: 15px;
+    margin-top: 5px;
   }
 
   .demo-image {
@@ -2848,6 +2853,9 @@
     margin: auto;
     margin-left: auto;
     display: flex;
+    position: relative;
+    bottom: -15px;
+    z-index: -1;
   }
 
   .image-subparts {
@@ -2886,7 +2894,7 @@
   .left-icon {
     width: 18px;
     height: 18px;
-    margin-right: 6px;
+    margin-right: 9px;
   }
 
   .top-floated-list-item h6 {
@@ -2923,7 +2931,7 @@
   .add-shadow .left-member {
     width: 31px;
     height: 31px;
-    margin-right: 5.6px;
+    margin-right: 9px;
   }
 
   .bottom-floated-list-item h6 {
@@ -2940,6 +2948,9 @@
   .bottom-image {
     width: 100%;
     margin: auto;
+    position: relative;
+    bottom: -15px;
+    z-index: -1;
   }
 
   .add-shadow {
@@ -5235,7 +5246,7 @@
   }
 
   .profile-area {
-    margin-left: 0px;
+    margin-left: 15px;
   }
 
   .profile-details-area {
@@ -5243,18 +5254,18 @@
   }
 
   .expertise {
-    flex-basis: 50%;
+    /* flex-basis: 50%; */
     /* margin-right: 20px; */
-    margin-bottom: 4px;
   }
 
   .english-level {
-    flex-basis: 45%;
-    margin-left: 10px;
+    /* flex-basis: 45%; */
+    padding-left: 10px !important;
   }
 
   .experience {
-    flex-basis: 50%;
+    /* flex-basis: 50%; */
+    margin-top: 5px;
   }
 
   .profile-detail-heading {
@@ -6892,6 +6903,10 @@
     width: 80px;
   }
 
+  .english-level {
+    padding-left: 7px !important;
+  }
+
   .tech-names {
     font-size: 17px;
     line-height: 18px;
@@ -7115,18 +7130,18 @@
 
   .top-heading,
   .bottom-heading {
-    font-size: 28px;
-    line-height: 34px;
+    font-size: 26px;
+    line-height: 32px;
     max-width: 95%;
   }
 
   .points-div {
-    margin-top: 11px;
+    margin-top: 9px;
   }
 
   .points-div p {
-    font-size: 14px;
-    line-height: 20px;
+    font-size: 13px;
+    line-height: 18px;
     max-width: 95%;
   }
 
@@ -7147,9 +7162,10 @@
 
   .book-demo-second {
     font-size: 17px;
-    line-height: 22px;
-    padding: 12px 0px;
-    margin: 20px 0px 0px 22px;
+    line-height: 20px;
+    padding: 11px 0px;
+    margin: 18px 0px 0px 22px;
+    width: 175px;
   }
 
   .demo-image {
@@ -7233,7 +7249,7 @@
   }
 
   .bottom-content-area {
-    padding-left: 18px;
+    padding-left: 12px;
   }
 
   .why-us-area {
@@ -7954,17 +7970,17 @@
   }
 
   .expertise {
-    flex-basis: 32.3%;
+    /* flex-basis: 32.3%; */
   }
 
   .english-level {
-    flex-basis: 32.3%;
-    margin-left: 7px;
+    /* flex-basis: 32.3%; */
+    padding-left: 7px !important;
   }
 
   .experience {
-    flex-basis: 37.3%;
-    margin-left: 7px;
+    /* flex-basis: 37.3%; */
+    /* margin-left: 7px; */
   }
 
   .tech-icon {
@@ -8784,17 +8800,21 @@
   }
 
   .expertise {
-    flex-basis: 30.3%;
+    /* flex-basis: 30.3%; */
   }
 
   .english-level {
-    flex-basis: 30.3%;
-    margin-left: 7px;
+    /* flex-basis: 30.3%; */
+    /* margin-left: 7px; */
   }
 
   .experience {
-    flex-basis: 39.3%;
-    margin-left: 7px;
+    /* flex-basis: 39.3%; */
+    /* margin-left: 7px; */
+  }
+
+  .first-badge {
+    text-align: justify;
   }
 
   .tech-icon {
@@ -8934,6 +8954,7 @@
 
   .landing-form {
     padding: 23px 28px 18px;
+    margin: auto;
   }
 
   .landing-form-heading {
@@ -8959,13 +8980,13 @@
   }
 
   .points-div p {
-    font-size: 15px;
+    font-size: 14px;
     line-height: 24px;
-    max-width: 500px;
+    max-width: 470px;
   }
 
   .points-div h6 {
-    font-size: 17px;
+    font-size: 16px;
     line-height: 26px;
   }
 
@@ -8988,9 +9009,14 @@
   }
 
   .bottom-floated {
-    width: 228px;
+    width: 222px;
     bottom: 30px;
     left: -15px;
+  }
+
+  .bottom-floated-list-item {
+    padding-left: 7px;
+    padding-right: 7px;
   }
 
   .bottom-image {
@@ -8998,7 +9024,7 @@
   }
 
   .add-shadow {
-    bottom: 24px !important;
+    bottom: 22px !important;
     width: 234px;
   }
 
@@ -9066,7 +9092,7 @@
   }
 
   .question-accordion .accordion__button {
-    font-size: 19px;
+    font-size: 17px;
     line-height: 42px;
   }
 
@@ -9440,16 +9466,16 @@
   }
 
   .expertise {
-    flex-basis: 36.3%;
+    /* flex-basis: 36.3%; */
   }
 
   .english-level {
-    flex-basis: 26.3%;
-    margin-left: 7px;
+    padding-left: 7px !important;
+    /* flex-basis: 26.3%; */
   }
 
   .experience {
-    flex-basis: 37.3%;
+    /* flex-basis: 37.3%; */
   }
 
   .tech-icon {
@@ -9567,6 +9593,7 @@
 
   .landing-form {
     padding: 27px 32px 18px;
+    margin-left: auto;
   }
 
   .our-counts {
@@ -10508,6 +10535,10 @@
     width: 25%;
   }
 
+  .tick-icon img {
+    width: 15px;
+  }
+
   .with-icon .col-sm-7 {
     flex: 0 0 auto;
     width: 50%;
@@ -10539,6 +10570,11 @@
 
   .reviews-swiper .swiper-button-prev {
     left: 24%;
+  }
+
+  .our-ratings .col-sm-6 {
+    flex: 0 0 auto;
+    width: 100%;
   }
 }
 
