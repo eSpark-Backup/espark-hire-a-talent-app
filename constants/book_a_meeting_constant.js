@@ -18,6 +18,182 @@ export const bookAMeeting = {
     },
   ],
 
+  globalTeam: {
+    points: [
+      {
+        id: 1,
+        heading: "Legally Sound Contracts",
+        content:
+          "Our contracts are tailored to meet local compliance standards.",
+        icon: "/images/book-a-meeting/icons/checked.png",
+      },
+      {
+        id: 2,
+        heading: "Payroll Compliance Simplified",
+        content:
+          "Experience the freedom, accuracy, and efficiency that we deliver when it comes to running payroll.",
+        icon: "/images/book-a-meeting/icons/checked.png",
+      },
+      {
+        id: 3,
+        heading: "Best-in-Class Benefits",
+        content:
+          "Ensure the well-being of your employees and attract best talents by offering curated & customized benefits that’s best in class.",
+        icon: "/images/book-a-meeting/icons/checked.png",
+      },
+    ],
+    mainHeading: "Grow global teams in minutes, with eSpark talent",
+    description:
+      "Employ, onboard, pay and manage the best global talent - without leaving your zip code.",
+  },
+
+  scaleBusiness: {
+    points: [
+      {
+        id: 1,
+        heading: "Lightning-Fast Onboarding",
+        content:
+          "eSpark Talent streamlined onboarding process gets your new hires up and running in record time, ensuring they hit the ground running on day one!",
+        icon: "/images/book-a-meeting/icons/checked.png",
+      },
+      {
+        id: 2,
+        heading: "Global Service, Local Touch",
+        content:
+          "We are not just another faceless service provider. eSpark talent combines a global service approach with local expertise,",
+        icon: "/images/book-a-meeting/icons/checked.png",
+      },
+      {
+        id: 3,
+        heading: "Unbeatable Cost Efficiency",
+        content:
+          "Forget about hidden fees and surprise expenses. eSpark offers transparent pricing and unbeatable value for your money.",
+        icon: "/images/book-a-meeting/icons/checked.png",
+      },
+    ],
+    mainHeading: "Scale your Business Seamlessly",
+    description:
+      "Manage your whole workforce with eSpark Talent, tailored to every country and employee.",
+  },
+
+  solutions: [
+    {
+      id: 1,
+      icon: "/images/book-a-meeting/icons/hours.png",
+      type: "Hourly Based",
+    },
+    {
+      id: 2,
+      icon: "/images/book-a-meeting/icons/salary.png",
+      type: "Salary Based",
+    },
+    {
+      id: 3,
+      icon: "/images/book-a-meeting/icons/project.png",
+      type: "Project Based",
+    },
+  ],
+
+  teams: [
+    {
+      id: 1,
+      member: "/images/book-a-meeting/teams/member-1.png",
+      post: "Digital Marketer",
+    },
+    {
+      id: 2,
+      member: "/images/book-a-meeting/teams/member-2.png",
+      post: "React Native Developer",
+    },
+    {
+      id: 3,
+      member: "/images/book-a-meeting/teams/member-3.png",
+      post: "Node js Developer",
+    },
+  ],
+
+  benefits: [
+    {
+      id: 1,
+      icon: "/images/book-a-meeting/icons/fuel.png",
+      type: "Fuel Card",
+    },
+    {
+      id: 2,
+      icon: "/images/book-a-meeting/icons/health.png",
+      type: "Health Insurance",
+    },
+    {
+      id: 3,
+      icon: "/images/book-a-meeting/icons/life-insurance.png",
+      type: "Life Insurance",
+    },
+  ],
+
+  countries: [
+    {
+      id: 1,
+      flag: "/images/book-a-meeting/us.png",
+      country: "US",
+    },
+    {
+      id: 2,
+      flag: "/images/book-a-meeting/germany.png",
+      country: "Germany",
+    },
+    {
+      id: 3,
+      flag: "/images/book-a-meeting/uae.png",
+      country: "UAE",
+    },
+  ],
+
+  whyUs: [
+    {
+      id: 1,
+      count: "1,000+",
+      content: "Project completed",
+    },
+    {
+      id: 2,
+      count: "100+",
+      content: "Team member",
+    },
+    {
+      id: 3,
+      count: "500+",
+      content: "Happy clients",
+    },
+    {
+      id: 4,
+      count: "100%",
+      content: "Customer Satisfaction",
+    },
+  ],
+
+  howItWorks: [
+    {
+      id: 1,
+      point:
+        "Find and Recruit your candidate from pakistan with setting up and entity.",
+    },
+    {
+      id: 2,
+      point:
+        "We manage employment contracts and onboarding of your candidates.",
+    },
+    {
+      id: 3,
+      point:
+        "We handle payroll, benefits and tex compliance of your workforce.",
+    },
+    {
+      id: 4,
+      point:
+        "We manage employment contracts and onboarding of your candidates.",
+    },
+  ],
+
   commonQuestions: [
     {
       id: 1,
