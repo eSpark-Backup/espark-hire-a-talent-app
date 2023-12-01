@@ -15,7 +15,7 @@ const Content = () => {
       </p>
 
       <div className="our-ratings row">
-        <div className="col-lg-4 col-md-4 col-sm-4">
+        <div className="col-lg-4 col-md-4 col-sm-6">
           <div className="ratings-in">
             <StarRating stars={4.5} />
             <p className="ratings-by">Google</p>
@@ -23,7 +23,7 @@ const Content = () => {
           </div>
         </div>
 
-        <div className="col-lg-4 col-md-4 col-sm-4">
+        <div className="col-lg-4 col-md-4 col-sm-6">
           <div className="ratings-in">
             <StarRating stars={4.7} />
             <p className="ratings-by trustpilot">Trustpilot</p>
@@ -31,7 +31,7 @@ const Content = () => {
           </div>
         </div>
 
-        <div className="col-lg-4 col-md-4 col-sm-4">
+        <div className="col-lg-4 col-md-4 col-sm-6">
           <div className="ratings-in">
             <StarRating stars={4.7} />
             <p className="ratings-by">Clutch</p>

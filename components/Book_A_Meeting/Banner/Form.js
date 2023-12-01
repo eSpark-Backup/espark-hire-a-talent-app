@@ -22,6 +22,7 @@ const Form = ({ companySize }) => {
     phone_number: "",
     country: "Please Select",
   });
+  const [flag, setFlag] = useState("");
 
   const [errorState, setErrorState] = useState({
     first_name: false,
@@ -55,29 +56,54 @@ const Form = ({ companySize }) => {
       });
     } else {
       emailjs.init("i97Hmgobdw1yJilSn");
-      emailjs
-        .send("service_h5qpxbn", "template_tpktgz5", {
-          first_name: state.first_name,
-          last_name: state.last_name,
-          company_size: state.company_size,
-          company_email: state.company_email,
-          phone_number: state.phone_number,
-          country: state.country,
-          company_name: "eSpark",
-        })
-        .then(
-          ({ status }) => {
-            if (status === 200) {
-              window.open(
-                "https://calendly.com/esparktalents/60min?month=2023-09",
-                "_blank"
-              );
+
+      try {
+        emailjs
+          .send("service_h5qpxbn", "template_tpktgz5", {
+            first_name: state.first_name,
+            last_name: state.last_name,
+            company_size: state.company_size,
+            company_email: state.company_email,
+            phone_number: state.phone_number,
+            country: state.country,
+            company_name: "eSpark",
+          })
+          .then(
+            ({ status }) => {
+              if (status === 200) {
+                setState({
+                  first_name: "",
+                  last_name: "",
+                  company_email: "",
+                  company_size: "Please Select",
+                  phone_number: "",
+                  country: "Please Select",
+                });
+
+                setErrorState({
+                  first_name: false,
+                  last_name: false,
+                  company_email: false,
+                  company_size: false,
+                  phone_number: false,
+                  country: false,
+                });
+
+                setFlag("");
+
+                window.open(
+                  "https://calendly.com/esparktalents/60min",
+                  "_blank"
+                );
+              }
+            },
+            (error) => {
+              console.error(error);
             }
-          },
-          (error) => {
-            console.log(error);
-          }
-        );
+          );
+      } catch (error) {
+        console.error(error);
+      }
     }
   };
 
@@ -210,6 +236,8 @@ const Form = ({ companySize }) => {
                 country
                 error={errorState.country ? "error" : ""}
                 errorState={errorState}
+                flag={flag}
+                setFlag={setFlag}
               />
             </div>
           </div>
@@ -218,8 +246,15 @@ const Form = ({ companySize }) => {
             <p className="terms-tag">
               We respect your data. By submitting this form, you agree that we
               will contact you in relation to our products and services, in
-              accordance with our <Link href="/">Privacy Policy</Link> and{" "}
-              <Link href="/">Terms of Service</Link>.
+              accordance with our{" "}
+              <Link legacyBehavior href="/privacy-policy">
+                Privacy Policy
+              </Link>{" "}
+              and{" "}
+              <Link legacyBehavior href="/terms-conditions">
+                Terms of Service
+              </Link>
+              .
             </p>
           </div>
 
@@ -246,9 +281,10 @@ const CustomDropdown = ({
   country,
   error,
   errorState,
+  flag,
+  setFlag,
 }) => {
   const [isOpen, setIsOpen] = useState(false);
-  const [flag, setFlag] = useState("");
 
   const dropdownRef = useRef(null);
 
