@@ -1,6 +1,6 @@
 import React from "react";
 
-const ImageSection = () => {
+const ImageSection = ({ benefits, countries }) => {
   return (
     <div className="image-section">
       <div className="bottom-image">
@@ -13,32 +13,15 @@ const ImageSection = () => {
 
           <div className="top-floated-lists-div">
             <ul className="top-floated-lists">
-              <li className="top-floated-list-item">
-                <div className="left-icon">
-                  <img alt="" src="/images/book-a-meeting/icons/fuel.png" />
-                </div>
+              {benefits?.map((benefit) => (
+                <li className="top-floated-list-item" key={benefit.id}>
+                  <div className="left-icon">
+                    <img alt="" src={benefit.icon} />
+                  </div>
 
-                <h6>Fuel Card</h6>
-              </li>
-
-              <li className="top-floated-list-item">
-                <div className="left-icon">
-                  <img alt="" src="/images/book-a-meeting/icons/health.png" />
-                </div>
-
-                <h6>Health Insurance</h6>
-              </li>
-
-              <li className="top-floated-list-item">
-                <div className="left-icon">
-                  <img
-                    alt=""
-                    src="/images/book-a-meeting/icons/life-insurance.png"
-                  />
-                </div>
-
-                <h6>Life Insurance</h6>
-              </li>
+                  <h6>{benefit.type}</h6>
+                </li>
+              ))}
             </ul>
           </div>
         </div>
@@ -48,29 +31,15 @@ const ImageSection = () => {
 
           <div className="bottom-floated-lists-div">
             <ul className="bottom-floated-lists">
-              <li className="bottom-floated-list-item">
-                <div className="left-member">
-                  <img alt="" src="/images/book-a-meeting/us.png" />
-                </div>
+              {countries?.map((country) => (
+                <li className="bottom-floated-list-item" key={country.id}>
+                  <div className="left-member">
+                    <img alt="" src={country.flag} />
+                  </div>
 
-                <h6>UAS</h6>
-              </li>
-
-              <li className="bottom-floated-list-item">
-                <div className="left-member">
-                  <img alt="" src="/images/book-a-meeting/germany.png" />
-                </div>
-
-                <h6>UK</h6>
-              </li>
-
-              <li className="bottom-floated-list-item">
-                <div className="left-member">
-                  <img alt="" src="/images/book-a-meeting/uae.png" />
-                </div>
-
-                <h6>UAE</h6>
-              </li>
+                  <h6>{country.country}</h6>
+                </li>
+              ))}
             </ul>
           </div>
         </div>
