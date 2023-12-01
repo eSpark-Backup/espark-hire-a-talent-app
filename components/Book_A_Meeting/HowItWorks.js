@@ -1,6 +1,6 @@
 import React from "react";
 
-const HowItWorks = () => {
+const HowItWorks = ({ howItWorks }) => {
   return (
     <div className="container">
       <div className="how-it-works-area">
@@ -11,35 +11,11 @@ const HowItWorks = () => {
         </p>
 
         <div className="row to-center">
-          <div className="col-lg-6 col-md-6 col-sm-6">
-            <CommonBox
-              id="1"
-              text="Find and Recruit your candidate from pakistan with setting up and entity."
-            />
-          </div>
-
-          <div className="col-lg-6 col-md-6 col-sm-6">
-            <CommonBox
-              id="2"
-              text="We manage employment contracts and onboarding of your candidates."
-              className="add-left-margin"
-            />
-          </div>
-
-          <div className="col-lg-6 col-md-6 col-sm-6">
-            <CommonBox
-              id="3"
-              text="We handle payroll, benefits and tex compliance of your workforce."
-            />
-          </div>
-
-          <div className="col-lg-6 col-md-6 col-sm-6">
-            <CommonBox
-              id="4"
-              text="We manage employment contracts and onboarding of your candidates."
-              className="add-left-margin"
-            />
-          </div>
+          {howItWorks?.map((point) => (
+            <div className="col-lg-6 col-md-6 col-sm-6" key={point.id}>
+              <CommonBox id={point.id} text={point.point} />
+            </div>
+          ))}
         </div>
       </div>
     </div>
