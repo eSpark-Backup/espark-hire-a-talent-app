@@ -71,11 +71,18 @@ export default function LandingPage() {
 
       <LandingPartners />
 
-      <BookDemo />
+      <BookDemo
+        globalTeams={bookAMeeting?.globalTeam}
+        scaleBusiness={bookAMeeting?.scaleBusiness}
+        solutions={bookAMeeting?.solutions}
+        teams={bookAMeeting?.teams}
+        benefits={bookAMeeting.benefits}
+        countries={bookAMeeting?.countries}
+      />
 
-      <WhyUs />
+      <WhyUs whyUs={bookAMeeting?.whyUs} />
 
-      <HowItWorks />
+      <HowItWorks howItWorks={bookAMeeting.howItWorks} />
 
       <CommonQuestions commonQuestions={bookAMeeting.commonQuestions} />
 
