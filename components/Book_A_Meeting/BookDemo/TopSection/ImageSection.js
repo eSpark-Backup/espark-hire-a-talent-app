@@ -1,6 +1,6 @@
 import React from "react";
 
-const ImageSection = () => {
+const ImageSection = ({ solutions, teams }) => {
   return (
     <div className="image-section">
       <div className="demo-image">
@@ -13,29 +13,15 @@ const ImageSection = () => {
 
           <div className="top-floated-lists-div">
             <ul className="top-floated-lists">
-              <li className="top-floated-list-item">
-                <div className="left-icon">
-                  <img alt="" src="/images/book-a-meeting/icons/hours.png" />
-                </div>
+              {solutions?.map((solution) => (
+                <li className="top-floated-list-item" key={solution.id}>
+                  <div className="left-icon">
+                    <img alt="" src={solution.icon} />
+                  </div>
 
-                <h6>Hourly Based</h6>
-              </li>
-
-              <li className="top-floated-list-item">
-                <div className="left-icon">
-                  <img alt="" src="/images/book-a-meeting/icons/salary.png" />
-                </div>
-
-                <h6>Salary Based</h6>
-              </li>
-
-              <li className="top-floated-list-item">
-                <div className="left-icon">
-                  <img alt="" src="/images/book-a-meeting/icons/project.png" />
-                </div>
-
-                <h6>Project Based</h6>
-              </li>
+                  <h6>{solution.type}</h6>
+                </li>
+              ))}
             </ul>
           </div>
         </div>
@@ -45,29 +31,15 @@ const ImageSection = () => {
 
           <div className="bottom-floated-lists-div">
             <ul className="bottom-floated-lists">
-              <li className="bottom-floated-list-item">
-                <div className="left-member">
-                  <img alt="" src="/images/book-a-meeting/teams/member-1.png" />
-                </div>
+              {teams?.map((team) => (
+                <li className="bottom-floated-list-item" key={team.id}>
+                  <div className="left-member">
+                    <img alt="" src={team.member} />
+                  </div>
 
-                <h6>Digital Marketer</h6>
-              </li>
-
-              <li className="bottom-floated-list-item">
-                <div className="left-member">
-                  <img alt="" src="/images/book-a-meeting/teams/member-2.png" />
-                </div>
-
-                <h6>React Native Developer</h6>
-              </li>
-
-              <li className="bottom-floated-list-item">
-                <div className="left-member">
-                  <img alt="" src="/images/book-a-meeting/teams/member-3.png" />
-                </div>
-
-                <h6>Node js Developer</h6>
-              </li>
+                  <h6>{team.post}</h6>
+                </li>
+              ))}
             </ul>
           </div>
         </div>
