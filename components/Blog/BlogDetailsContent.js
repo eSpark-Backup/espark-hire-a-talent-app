@@ -25,7 +25,7 @@ const BlogDetailsContent = ({ blogPost }) => {
           <div className="blog-details-header row align-items-top justify-content-top">
             <div className="col-lg-6 col-md-12">
               <div className="content">
-                <h1>{blogPost.title}</h1>
+                <h1>{blogPost.bannerTitle}</h1>
                 <p>{blogPost.subtitle}</p>
                 <div className="post-author-meta">
                   <div className="d-flex align-items-center">
@@ -63,8 +63,8 @@ const BlogDetailsContent = ({ blogPost }) => {
             <div className="col-lg-6 col-md-12">
               <div className="image">
                 <Image
-                  src={urlFor(blogPost.featureImage).url()}
-                  alt={blogPost.title}
+                  src={urlFor(blogPost.bannerImage).url()}
+                  alt={blogPost.bannerTitle}
                   width={500}
                   height={500}
                 />
