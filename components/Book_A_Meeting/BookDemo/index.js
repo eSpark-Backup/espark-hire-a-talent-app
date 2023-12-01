@@ -3,12 +3,27 @@ import React from "react";
 import TopSection from "./TopSection";
 import BottomSection from "./BottomSection";
 
-const BookDemo = () => {
+const BookDemo = ({
+  globalTeams,
+  scaleBusiness,
+  solutions,
+  teams,
+  benefits,
+  countries,
+}) => {
   return (
     <div>
-      <TopSection />
+      <TopSection
+        globalTeams={globalTeams}
+        solutions={solutions}
+        teams={teams}
+      />
 
-      <BottomSection />
+      <BottomSection
+        scaleBusiness={scaleBusiness}
+        benefits={benefits}
+        countries={countries}
+      />
     </div>
   );
 };
