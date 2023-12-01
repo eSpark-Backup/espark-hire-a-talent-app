@@ -29,36 +29,37 @@ const Detail = (props) => {
                 windowWidth < 375 ? "justify-content-start" : ""
               }`}
             >
-              <div className="expertise common-flex col-xs-8">
+              <div className="expertise common-flex col-lg-4 col-md-6 col-sm-6 p-0">
                 <h4 className="profile-detail-heading">Expertise</h4>
                 <div className="with-icon row marg-0">
-                  <div className="col-lg-10 col-md-10 col-sm-10 col-xs-10 pad-0">
+                  <div className="col-lg-9 col-md-9 col-sm-10 col-xs-10 p-0">
                     <p className="profile-info">{expertise}</p>
                   </div>
-                  <div className="col-lg-2 col-md-2 col-sm-2 col-xs-2 pad-0">
-                    <div className="image-badge first-badge">
+
+                  <div className="col-lg-3 col-md-3 col-sm-2 col-xs-2 p-0 text-center">
+                    <div className="first-badge tick-icon">
                       <img src={icon} alt="" />
                     </div>
                   </div>
                 </div>
               </div>
 
-              <div className="english-level common-flex col-xs-4">
+              <div className="english-level common-flex col-lg-4 col-md-6 col-sm-6 p-0 d-flex flex-column justify-content-between">
                 <h4 className="profile-detail-heading">English Level</h4>
                 <div className="with-icon row marg-0">
-                  <div className="col-lg-8 col-md-6 col-sm-7 col-xs-6 pad-0">
+                  <div className="col-lg-7 col-md-7 col-sm-7 col-xs-7 p-0">
                     <p className="profile-info">{englishLevel}</p>
                   </div>
 
-                  <div className="col-lg-4 col-md-6 col-sm-5 col-xs-6 pad-0">
-                    <div className="image-badge">
+                  <div className="col-lg-5 col-md-5 col-sm-5 col-xs-5 p-0">
+                    <div className="tick-icon">
                       <img src={icon} />
                     </div>
                   </div>
                 </div>
               </div>
 
-              <div className="experience common-flex">
+              <div className="experience common-flex col-lg-4 col-md-12 col-sm-6 p-0">
                 <h4 className="profile-detail-heading">Years of Experience</h4>
                 <p className="profile-info">{experienceYear}</p>
               </div>
