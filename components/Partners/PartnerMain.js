@@ -9,8 +9,9 @@ const PartnerMain = ({ PartnersContentData, PartnersFormData }) => {
         <div className="row justify-content-around">
           <div className="col-sm-11 col-md-11 col-lg-7">
             <div className="partner-main-content">
-              {PartnersContentData?.map((item) => (
+              {PartnersContentData?.map((item, index) => (
                 <PartnerContent
+                  key={index}
                   title={item?.title}
                   description={item?.description}
                   listItem={item?.listItem}

@@ -10826,7 +10826,7 @@ partners-header class CSS
   color: #fff !important;
   background-color: var(--mainColor);
   transition: var(--transition);
-  border-color: var(--mainColor);
+  border-color: var(--blackColor) !important;
 }
 
 .is-sticky .partners-header-text {

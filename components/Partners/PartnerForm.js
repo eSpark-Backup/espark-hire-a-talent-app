@@ -7,7 +7,8 @@ import { useRouter } from 'next/navigation';
 import emailjs from '@emailjs/browser';
 
 const PartnerForm = () => {
-  const [data, setData] = React.useState();
+  const options = countries?.map((opt) => opt?.option )
+  
   const router = useRouter();
   emailjs.init('i97Hmgobdw1yJilSn');
 
@@ -25,7 +26,6 @@ const PartnerForm = () => {
     validationSchema: profileValidationSchema,
     onSubmit: (values, action) => {
       try {
-        emailjs;
         emailjs
           .send('service_6qzxeqp', 'template_6y49v0k', {
             first_name: values.first_name,
@@ -36,7 +36,6 @@ const PartnerForm = () => {
             linkedin_profile_link: values.linkedin_profile_link,
           })
           .then(({ status }) => {
-            console.log(status, 'status');
             if (status == 200) {
               action.resetForm();
               router.push('https://calendly.com/esparktalents/');
@@ -45,16 +44,16 @@ const PartnerForm = () => {
           (error) => {
             console.log(error);
           };
-      } catch (error) {
-        console.error('Error submitting the form:', error);
-      }
+        } catch (error) {
+          console.error('Error submitting the form:', error);
+        }
     },
   });
 
   return (
     <div>
       <div className="partner-form">
-        <form className="">
+        <form>
           <div className="partner-form-title">
             <h1>Join Our Program Today</h1>
           </div>
@@ -126,7 +125,7 @@ const PartnerForm = () => {
               Which Country are you Located in?
             </label>
             <PartnerSelect
-              option={countries}
+              option={options}
               name={'country'}
               value={values?.country}
               onChange={handleChange}
@@ -155,7 +154,7 @@ const PartnerForm = () => {
               )}
           </div>
           <div className="partner-form-button">
-            <button onClick={handleSubmit} className="">
+            <button onClick={handleSubmit} type='button' >
               Schedule a Meeting
             </button>
           </div>
