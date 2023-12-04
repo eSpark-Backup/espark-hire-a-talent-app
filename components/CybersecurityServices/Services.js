@@ -17,14 +17,17 @@ const Services = ({ ServicesPara, ServicesTitle, cardsItems }) => {
                   <div className="row align-items-center">
                     <div className="col-lg-6 col-md-6">
                       <div className="services-image">
-                        <img src={eachCard.imageLink} alt="HR consultant - human resource planning - HR service - HR solutions - HR recruitment - HR outsourcing – eSpark talent" />
+                        <img
+                          src={eachCard.imageLink}
+                          alt="HR consultant - human resource planning - HR service - HR solutions - HR recruitment - HR outsourcing – eSpark talent"
+                        />
                       </div>
                     </div>
                     <div className="col-lg-6 col-md-6">
                       <div className="services-content">
                         <h3>
-                          <Link legacyBehavior href="/service-details">
-                            <a>{eachCard.heading}</a>
+                          <Link href="/service-details">
+                            {eachCard.heading}
                           </Link>
                         </h3>
                         <p>{eachCard.content}</p>
@@ -51,8 +54,8 @@ const Services = ({ ServicesPara, ServicesTitle, cardsItems }) => {
                   <div className="col-lg-6 col-md-6">
                     <div className="services-content">
                       <h3>
-                        <Link legacyBehavior href="/service-details">
-                          <a>Phishing Attack</a>
+                        <Link href="/service-details">
+                          Phishing Attack
                         </Link>
                       </h3>
                       <p>
@@ -60,10 +63,9 @@ const Services = ({ ServicesPara, ServicesTitle, cardsItems }) => {
                         magna justo lacinia eget consectetur sed convallis at
                         tellus.
                       </p>
-                      <Link legacyBehavior href="/service-details">
-                        <a className="services-btn">
+                      <Link href="/service-details" className="services-btn">
                           Read More
-                        </a>
+                       
                       </Link>
                     </div>
                   </div>
@@ -85,8 +87,8 @@ const Services = ({ ServicesPara, ServicesTitle, cardsItems }) => {
                   <div className="col-lg-6 col-md-6">
                     <div className="services-content">
                       <h3>
-                        <Link legacyBehavior href="/service-details">
-                          <a>Data Protection</a>
+                        <Link  href="/service-details">
+                          Data Protection
                         </Link>
                       </h3>
                       <p>
@@ -94,10 +96,8 @@ const Services = ({ ServicesPara, ServicesTitle, cardsItems }) => {
                         magna justo lacinia eget consectetur sed convallis at
                         tellus.
                       </p>
-                      <Link legacyBehavior href="/service-details">
-                        <a className="services-btn">
+                      <Link  href="/service-details" className="services-btn">
                           Read More
-                        </a>
                       </Link>
                     </div>
                   </div>
@@ -119,8 +119,8 @@ const Services = ({ ServicesPara, ServicesTitle, cardsItems }) => {
                   <div className="col-lg-6 col-md-6">
                     <div className="services-content">
                       <h3>
-                        <Link legacyBehavior href="/service-details">
-                          <a>Quality Assurance</a>
+                        <Link  href="/service-details">
+                         Quality Assurance
                         </Link>
                       </h3>
                       <p>
@@ -128,10 +128,8 @@ const Services = ({ ServicesPara, ServicesTitle, cardsItems }) => {
                         magna justo lacinia eget consectetur sed convallis at
                         tellus.
                       </p>
-                      <Link legacyBehavior href="/service-details">
-                        <a className="services-btn">
+                      <Link  href="/service-details" className="services-btn">
                           Read More
-                        </a>
                       </Link>
                     </div>
                   </div>
@@ -153,8 +151,8 @@ const Services = ({ ServicesPara, ServicesTitle, cardsItems }) => {
                   <div className="col-lg-6 col-md-6">
                     <div className="services-content">
                       <h3>
-                        <Link legacyBehavior href="/service-details">
-                          <a>Smart Contraxt</a>
+                        <Link  href="/service-details">
+                          Smart Contraxt
                         </Link>
                       </h3>
                       <p>
@@ -162,10 +160,8 @@ const Services = ({ ServicesPara, ServicesTitle, cardsItems }) => {
                         magna justo lacinia eget consectetur sed convallis at
                         tellus.
                       </p>
-                      <Link legacyBehavior href="/service-details">
-                        <a className="services-btn">
+                      <Link  href="/service-details"className="services-btn">
                           Read More
-                        </a>
                       </Link>
                     </div>
                   </div>
@@ -175,11 +171,9 @@ const Services = ({ ServicesPara, ServicesTitle, cardsItems }) => {
 
             <div className="col-lg-12 col-md-12">
               <div className="view-all-services-btn">
-                <Link legacyBehavior href="/services">
-                  <a className="default-btn style-two">
+                <Link  href="/services"className="default-btn style-two">
                     <span className="ri-arrow-right-s-line"></span>View All
                     Services
-                  </a>
                 </Link>
               </div>
             </div>

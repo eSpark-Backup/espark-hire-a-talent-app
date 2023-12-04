@@ -1,8 +1,8 @@
 import React, { useState } from "react";
-import Link from "@/utils/ActiveLink";
 import Head from "next/head";
 import { seoContent } from "constants/SEOConstant";
 import { useRouter } from "next/router";
+import Link from "next/link";
 
 const NavbarStyle2 = () => {
   const [menu, setMenu] = React.useState(true);
@@ -37,7 +37,11 @@ const NavbarStyle2 = () => {
     item.link.includes(gettingPath)
   );
 
-  const gettingActiveLink = router?.pathname;
+  const isLinkActive = (href) => {
+    return router.pathname === href;
+  };
+
+  // const gettingActiveLink = router?.pathname;
   return (
     <>
       <Head>
@@ -101,19 +105,18 @@ const NavbarStyle2 = () => {
         <div id="navbar" className="navbar-area">
           <nav className="navbar navbar-expand-md navbar-light">
             <div className="container-lg">
-              <Link legacyBehavior href="/">
-                <a
-                  className={`navbar-brand ${
-                    selectedNavItem === "Home" ? "active" : ""
-                  }`}
-                  onClick={() => handleNavItemClick("Home")}
-                >
-                  <img
-                    src="/images/logo.png"
-                    alt="Global Recruitment - global recruitment agency - worldwide recruiting agency - global recruitment services - global recruitment solutions - eSpark Talent"
-                    className="talent-logo"
-                  />
-                </a>
+              <Link
+                href="/"
+                className={`navbar-brand ${
+                  selectedNavItem === "Home" ? "active" : ""
+                }`}
+                onClick={() => handleNavItemClick("Home")}
+              >
+                <img
+                  src="/images/logo.png"
+                  alt="Global Recruitment - global recruitment agency - worldwide recruiting agency - global recruitment services - global recruitment solutions - eSpark Talent"
+                  className="talent-logo"
+                />
               </Link>
 
               <button
@@ -231,57 +234,54 @@ const NavbarStyle2 = () => {
                   </li> */}
 
                   <li className="nav-item">
-                    <Link legacyBehavior href="/what-we-do" activeClassName="active">
-                      <a
-                        className={`nav-link ${
-                          gettingActiveLink === "/about-us" ? "active" : ""
-                        }`}
-                        onClick={() => handleNavItemClick("what we do")}
-                      >
-                        What we do
-                      </a>
+                    <Link
+                      href="/what-we-do"
+                      activeClassName="active"
+                      className={`nav-link ${
+                        isLinkActive("/what-we-do") ? "active" : ""
+                      }`}
+                      onClick={() => handleNavItemClick("what we do")}
+                    >
+                      What we do
                     </Link>
                   </li>
 
                   <li className="nav-item">
-                    <Link legacyBehavior href="/how-it-works" activeClassName="active">
-                      <a
-                        className={`nav-link ${
-                          gettingActiveLink === "services" ? "active" : ""
-                        }`}
-                        onClick={() => handleNavItemClick("How it works")}
-                      >
-                        How it works
-                      </a>
+                    <Link
+                      href="/how-it-works"
+                      activeClassName="active"
+                      className={`nav-link ${
+                        isLinkActive("/how-it-works") ? "active" : ""
+                      }`}
+                      onClick={() => handleNavItemClick("How it works")}
+                    >
+                      How it works
                     </Link>
                   </li>
 
                   <li className="nav-item">
-                    <Link legacyBehavior href="/blogs" activeClassName="active">
-                      <a
-                        className={`nav-link ${
-                          gettingActiveLink === "/blogs" ||
-                          gettingActiveLink === "/blogs/[eachId]"
-                            ? "active"
-                            : ""
-                        }`}
-                        onClick={() => handleNavItemClick("Blog")}
-                      >
-                        Blogs
-                      </a>
+                    <Link
+                      href="/blogs"
+                      activeClassName="active"
+                      className={`nav-link ${
+                        isLinkActive("/blogs") ? "active" : ""
+                      }`}
+                      onClick={() => handleNavItemClick("Blog")}
+                    >
+                      Blogs
                     </Link>
                   </li>
 
                   <li className="nav-item">
-                    <Link legacyBehavior href="/careers" activeClassName="active">
-                      <a
-                        className={`nav-link ${
-                          gettingActiveLink === "/careers" ? "active" : ""
-                        }`}
-                        onClick={() => handleNavItemClick("Career")}
-                      >
-                        Careers
-                      </a>
+                    <Link
+                      href="/careers"
+                      activeClassName="active"
+                      className={`nav-link ${
+                        isLinkActive("/careers") ? "active" : ""
+                      }`}
+                      onClick={() => handleNavItemClick("Career")}
+                    >
+                      Careers
                     </Link>
                   </li>
                   {/* <li className="nav-item">
@@ -297,19 +297,15 @@ const NavbarStyle2 = () => {
                     </Link>
                   </li> */}
                   <li className="nav-item">
-                    <Link legacyBehavior
+                    <Link
                       href="https://form.jotform.com/232503890925459"
                       // activeClassName="active"
+
+                      target="_blank"
+                      className={`nav-link`}
+                      onClick={() => handleNavItemClick("Apply as a Developer")}
                     >
-                      <a
-                        target="_blank"
-                        className={`nav-link`}
-                        onClick={() =>
-                          handleNavItemClick("Apply as a Developer")
-                        }
-                      >
-                        Apply as a Developer
-                      </a>
+                      Apply as a Developer
                     </Link>
                   </li>
 
@@ -330,19 +326,16 @@ const NavbarStyle2 = () => {
                     </Link>
                   </li> */}
                   <li className="nabar-buttons">
-                    <Link legacyBehavior
+                    <Link
                       href="https://calendly.com/esparktalents/60min?month=2023-09"
                       activeClassName="active"
+                      target="_blank"
+                      className={`default-btn style-two ${
+                        selectedNavItem === "Hire a Talent" ? "active" : ""
+                      }`}
+                      onClick={() => handleNavItemClick("Hire a Talent")}
                     >
-                      <a
-                        target="_blank"
-                        className={`default-btn style-two ${
-                          selectedNavItem === "Hire a Talent" ? "active" : ""
-                        }`}
-                        onClick={() => handleNavItemClick("Hire a Talent")}
-                      >
-                        Hire a Talent
-                      </a>
+                      Hire a Talent
                     </Link>
                   </li>
                 </ul>
@@ -354,10 +347,12 @@ const NavbarStyle2 = () => {
                 {/* <Link legacyBehavior href="https://form.jotform.com/232274579439468 ">
                   <a className="default-btn style-two">Apply as a Developer</a>
                 </Link> */}
-                <Link legacyBehavior href="https://calendly.com/esparktalents/60min?month=2023-09">
-                  <a className="default-btn style-two" target="_blank">
-                    Hire a Talent
-                  </a>
+                <Link
+                  href="https://calendly.com/esparktalents/60min?month=2023-09"
+                  className="default-btn style-two"
+                  target="_blank"
+                >
+                  Hire a Talent
                 </Link>
               </div>
             </div>

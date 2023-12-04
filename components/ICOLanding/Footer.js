@@ -1,5 +1,5 @@
-import React from 'react'
-import Link from 'next/link'
+import React from "react";
+import Link from "next/link";
 
 const Footer = () => {
   return (
@@ -7,42 +7,28 @@ const Footer = () => {
       <footer className="footer-style-wrap-area pt-100">
         <div className="container">
           <div className="footer-widget-style-wrap with-white-color">
-            <Link legacyBehavior href="/">
-              <a className="d-inline-block logo">
-                <img src="/images/white-logo.png" alt="logo" />
-              </a>
+            <Link href="/" className="d-inline-block logo">
+              <img src="/images/white-logo.png" alt="logo" />
             </Link>
 
             <ul className="quick-links">
               <li>
-                <Link legacyBehavior href="/">
-                  <a>Home</a>
-                </Link>
+                <Link href="/">Home</Link>
               </li>
               <li>
-                <Link legacyBehavior href="/about-us">
-                  <a>About Us</a>
-                </Link>
+                <Link href="/about-us">About Us</Link>
               </li>
               <li>
-                <Link legacyBehavior href="/case-studies">
-                  <a>Case Studies</a>
-                </Link>
+                <Link href="/case-studies">Case Studies</Link>
               </li>
               <li>
-                <Link legacyBehavior href="/blog">
-                  <a href="blog.html">Our News</a>
-                </Link>
+                <Link href="/blog">Our News</Link>
               </li>
               <li>
-                <Link legacyBehavior href="/contact">
-                  <a>Contact Us</a>
-                </Link>
+                <Link href="/contact">Contact Us</Link>
               </li>
               <li>
-                <Link legacyBehavior href="/pricing">
-                  <a>Pricing</a>
-                </Link>
+                <Link href="/pricing">Pricing</Link>
               </li>
             </ul>
 
@@ -135,7 +121,7 @@ const Footer = () => {
         <div className="copyright-area with-white-color">
           <div className="container">
             <p>
-              &copy; <strong>Lofi</strong> is Proudly Owned by{' '}
+              &copy; <strong>Lofi</strong> is Proudly Owned by{" "}
               <a href="https://envytheme.com/" target="_blank" rel="noreferrer">
                 EnvyTheme
               </a>
@@ -148,7 +134,7 @@ const Footer = () => {
         </div>
       </footer>
     </>
-  )
-}
+  );
+};
 
-export default Footer
+export default Footer;
