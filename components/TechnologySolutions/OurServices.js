@@ -1,5 +1,5 @@
-import React from 'react'
-import Link from 'next/link'
+import React from "react";
+import Link from "next/link";
 
 const OurServices = () => {
   return (
@@ -15,14 +15,19 @@ const OurServices = () => {
             </p>
           </div>
           <div className="row justify-content-center">
-            <div 
-              className="col-xl-4 col-lg-6 col-md-6 col-sm-12" 
+            <div
+              className="col-xl-4 col-lg-6 col-md-6 col-sm-12"
               data-aos="fade-up"
               data-aos-delay="100"
               data-aos-duration="1200"
               data-aos-once="true"
             >
-              <div className="single-services-box" style={{ backgroundImage: `url(/images/services/services1.jpg)` }}>
+              <div
+                className="single-services-box"
+                style={{
+                  backgroundImage: `url(/images/services/services1.jpg)`,
+                }}
+              >
                 <div className="d-flex align-items-center">
                   <img src="/images/icon/icon8.png" alt="image" />
                   <h3>
@@ -57,22 +62,25 @@ const OurServices = () => {
                     </span>
                   </li>
                 </ul>
-                <Link legacyBehavior href="/service-details">
-                  <a className="default-btn">
-                    <span className="ri-arrow-right-s-line"></span>Learn More
-                  </a>
+                <Link href="/service-details" className="default-btn">
+                  <span className="ri-arrow-right-s-line"></span>Learn More
                 </Link>
               </div>
             </div>
 
-            <div 
-              className="col-xl-4 col-lg-6 col-md-6 col-sm-12" 
+            <div
+              className="col-xl-4 col-lg-6 col-md-6 col-sm-12"
               data-aos="fade-up"
               data-aos-delay="200"
               data-aos-duration="1200"
               data-aos-once="true"
             >
-              <div className="single-services-box" style={{ backgroundImage: `url(/images/services/services2.jpg)` }}>
+              <div
+                className="single-services-box"
+                style={{
+                  backgroundImage: `url(/images/services/services2.jpg)`,
+                }}
+              >
                 <div className="d-flex align-items-center">
                   <img src="/images/icon/icon9.png" alt="image" />
                   <h3>
@@ -106,22 +114,25 @@ const OurServices = () => {
                     </span>
                   </li>
                 </ul>
-                <Link legacyBehavior href="/service-details">
-                  <a className="default-btn">
-                    <span className="ri-arrow-right-s-line"></span>Learn More
-                  </a>
+                <Link href="/service-details" className="default-btn">
+                  <span className="ri-arrow-right-s-line"></span>Learn More
                 </Link>
               </div>
             </div>
 
-            <div 
-              className="col-xl-4 col-lg-6 col-md-6 col-sm-12" 
+            <div
+              className="col-xl-4 col-lg-6 col-md-6 col-sm-12"
               data-aos="fade-up"
               data-aos-delay="300"
               data-aos-duration="1200"
               data-aos-once="true"
             >
-              <div className="single-services-box" style={{ backgroundImage: `url(/images/services/services3.jpg)` }}>
+              <div
+                className="single-services-box"
+                style={{
+                  backgroundImage: `url(/images/services/services3.jpg)`,
+                }}
+              >
                 <div className="d-flex align-items-center">
                   <img src="/images/icon/icon10.png" alt="image" />
                   <h3>
@@ -155,22 +166,25 @@ const OurServices = () => {
                     </span>
                   </li>
                 </ul>
-                <Link legacyBehavior href="/service-details">
-                  <a className="default-btn">
-                    <span className="ri-arrow-right-s-line"></span>Learn More
-                  </a>
+                <Link href="/service-details" className="default-btn">
+                  <span className="ri-arrow-right-s-line"></span>Learn More
                 </Link>
               </div>
             </div>
 
-            <div 
-              className="col-xl-4 col-lg-6 col-md-6 col-sm-12" 
+            <div
+              className="col-xl-4 col-lg-6 col-md-6 col-sm-12"
               data-aos="fade-up"
               data-aos-delay="400"
               data-aos-duration="1200"
               data-aos-once="true"
             >
-              <div className="single-services-box" style={{ backgroundImage: `url(/images/services/services4.jpg)` }}>
+              <div
+                className="single-services-box"
+                style={{
+                  backgroundImage: `url(/images/services/services4.jpg)`,
+                }}
+              >
                 <div className="d-flex align-items-center">
                   <img src="/images/icon/icon11.png" alt="image" />
                   <h3>
@@ -205,22 +219,25 @@ const OurServices = () => {
                     </span>
                   </li>
                 </ul>
-                <Link legacyBehavior href="/service-details">
-                  <a className="default-btn">
-                    <span className="ri-arrow-right-s-line"></span>Learn More
-                  </a>
+                <Link href="/service-details" className="default-btn">
+                  <span className="ri-arrow-right-s-line"></span>Learn More
                 </Link>
               </div>
             </div>
 
-            <div 
-              className="col-xl-4 col-lg-6 col-md-6 col-sm-12" 
+            <div
+              className="col-xl-4 col-lg-6 col-md-6 col-sm-12"
               data-aos="fade-up"
               data-aos-delay="500"
               data-aos-duration="1200"
               data-aos-once="true"
             >
-              <div className="single-services-box" style={{ backgroundImage: `url(/images/services/services5.jpg)` }}>
+              <div
+                className="single-services-box"
+                style={{
+                  backgroundImage: `url(/images/services/services5.jpg)`,
+                }}
+              >
                 <div className="d-flex align-items-center">
                   <img src="/images/icon/icon12.png" alt="image" />
                   <h3>
@@ -257,22 +274,25 @@ const OurServices = () => {
                     </span>
                   </li>
                 </ul>
-                <Link legacyBehavior href="/service-details">
-                  <a className="default-btn">
-                    <span className="ri-arrow-right-s-line"></span>Learn More
-                  </a>
+                <Link href="/service-details" className="default-btn">
+                  <span className="ri-arrow-right-s-line"></span>Learn More
                 </Link>
               </div>
             </div>
 
-            <div 
-              className="col-xl-4 col-lg-6 col-md-6 col-sm-12" 
+            <div
+              className="col-xl-4 col-lg-6 col-md-6 col-sm-12"
               data-aos="fade-up"
               data-aos-delay="600"
               data-aos-duration="1200"
               data-aos-once="true"
             >
-              <div className="single-services-box" style={{ backgroundImage: `url(/images/services/services6.jpg)` }}>
+              <div
+                className="single-services-box"
+                style={{
+                  backgroundImage: `url(/images/services/services6.jpg)`,
+                }}
+              >
                 <div className="d-flex align-items-center">
                   <img src="/images/icon/icon13.png" alt="image" />
                   <h3>
@@ -307,10 +327,8 @@ const OurServices = () => {
                     </span>
                   </li>
                 </ul>
-                <Link legacyBehavior href="/service-details">
-                  <a className="default-btn">
-                    <span className="ri-arrow-right-s-line"></span>Learn More
-                  </a>
+                <Link href="/service-details" className="default-btn">
+                  <span className="ri-arrow-right-s-line"></span>Learn More
                 </Link>
               </div>
             </div>
@@ -318,7 +336,7 @@ const OurServices = () => {
         </div>
       </div>
     </>
-  )
-}
+  );
+};
 
-export default OurServices
+export default OurServices;

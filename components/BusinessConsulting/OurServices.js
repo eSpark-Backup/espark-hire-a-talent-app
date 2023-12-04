@@ -51,23 +51,20 @@ const OurServices = ({ title, para, items }) => {
                   }
                 >
                   <div className="d-flex align-items-center">
-                    <img src={eachCard.imageLink} alt="Global Recruitment - global recruitment agency - worldwide recruiting agency - global recruitment services - global recruitment solutions - eSpark Talent" />
+                    <img
+                      src={eachCard.imageLink}
+                      alt="Global Recruitment - global recruitment agency - worldwide recruiting agency - global recruitment services - global recruitment solutions - eSpark Talent"
+                    />
                     {/* <h3>
-                      <Link legacyBehavior href={slide.link}>
-                        <a>{slide.title}</a>
+                      <Link  href={slide.link}>
+                        {slide.title}
                       </Link>
                     </h3> */}
                     <h3>{eachCard.title}</h3>
                   </div>
                   <p>{eachCard.content}</p>
                   {eachCard.homeComponent ? (
-                    <Link legacyBehavior
-                      href={
-                        "hire" +
-                        "/" +
-                        eachCard.slug
-                      }
-                    >
+                    <Link href={"hire" + "/" + eachCard.slug}>
                       <span className="default-btn align-self-end">
                         <span className="ri-arrow-right-s-line"></span>
                         {eachCard.buttonText}

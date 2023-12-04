@@ -1,8 +1,8 @@
-import React from 'react'
-import { Swiper, SwiperSlide } from 'swiper/react'
+import React from "react";
+import { Swiper, SwiperSlide } from "swiper/react";
 import { Pagination } from "swiper";
-import { Autoplay } from 'swiper'
-import Link from 'next/link'
+import { Autoplay } from "swiper";
+import Link from "next/link";
 
 const OurServices = () => {
   return (
@@ -44,9 +44,7 @@ const OurServices = () => {
                 <div className="d-flex align-items-center">
                   <img src="/images/icon/icon8.png" alt="image" />
                   <h3>
-                    <Link legacyBehavior href="/service-details">
-                      <a>Branding</a>
-                    </Link>
+                    <Link href="/service-details">Branding</Link>
                   </h3>
                 </div>
                 <p>
@@ -78,10 +76,8 @@ const OurServices = () => {
                   </li>
                 </ul>
 
-                <Link legacyBehavior href="/service-details">
-                  <a className="default-btn">
-                    <span className="ri-arrow-right-s-line"></span>Learn More
-                  </a>
+                <Link href="/service-details" className="default-btn">
+                  <span className="ri-arrow-right-s-line"></span>Learn More
                 </Link>
               </div>
             </SwiperSlide>
@@ -91,9 +87,7 @@ const OurServices = () => {
                 <div className="d-flex align-items-center">
                   <img src="/images/icon/icon9.png" alt="image" />
                   <h3>
-                    <Link legacyBehavior href="/service-details">
-                      <a>Design</a>
-                    </Link>
+                    <Link href="/service-details">Design</Link>
                   </h3>
                 </div>
                 <p>
@@ -124,10 +118,8 @@ const OurServices = () => {
                   </li>
                 </ul>
 
-                <Link legacyBehavior href="/service-details">
-                  <a className="default-btn">
-                    <span className="ri-arrow-right-s-line"></span>Learn More
-                  </a>
+                <Link href="/service-details" className="default-btn">
+                  <span className="ri-arrow-right-s-line"></span>Learn More
                 </Link>
               </div>
             </SwiperSlide>
@@ -137,9 +129,7 @@ const OurServices = () => {
                 <div className="d-flex align-items-center">
                   <img src="/images/icon/icon10.png" alt="image" />
                   <h3>
-                    <Link legacyBehavior href="/service-details">
-                      <a>Content</a>
-                    </Link>
+                    <Link href="/service-details">Content</Link>
                   </h3>
                 </div>
                 <p>
@@ -170,10 +160,8 @@ const OurServices = () => {
                   </li>
                 </ul>
 
-                <Link legacyBehavior href="/service-details">
-                  <a className="default-btn">
-                    <span className="ri-arrow-right-s-line"></span>Learn More
-                  </a>
+                <Link href="/service-details" className="default-btn">
+                  <span className="ri-arrow-right-s-line"></span>Learn More
                 </Link>
               </div>
             </SwiperSlide>
@@ -183,9 +171,7 @@ const OurServices = () => {
                 <div className="d-flex align-items-center">
                   <img src="/images/icon/icon11.png" alt="image" />
                   <h3>
-                    <Link legacyBehavior href="/service-details">
-                      <a>Strategy</a>
-                    </Link>
+                    <Link href="/service-details">Strategy</Link>
                   </h3>
                 </div>
                 <p>
@@ -217,10 +203,8 @@ const OurServices = () => {
                   </li>
                 </ul>
 
-                <Link legacyBehavior href="/service-details">
-                  <a className="default-btn">
-                    <span className="ri-arrow-right-s-line"></span>Learn More
-                  </a>
+                <Link href="/service-details" className="default-btn">
+                  <span className="ri-arrow-right-s-line"></span>Learn More
                 </Link>
               </div>
             </SwiperSlide>
@@ -230,9 +214,7 @@ const OurServices = () => {
                 <div className="d-flex align-items-center">
                   <img src="/images/icon/icon12.png" alt="image" />
                   <h3>
-                    <Link legacyBehavior href="/service-details">
-                      <a>Marketing</a>
-                    </Link>
+                    <Link href="/service-details">Marketing</Link>
                   </h3>
                 </div>
                 <p>
@@ -266,10 +248,8 @@ const OurServices = () => {
                   </li>
                 </ul>
 
-                <Link legacyBehavior href="/service-details">
-                  <a className="default-btn">
-                    <span className="ri-arrow-right-s-line"></span>Learn More
-                  </a>
+                <Link href="/service-details" className="default-btn">
+                  <span className="ri-arrow-right-s-line"></span>Learn More
                 </Link>
               </div>
             </SwiperSlide>
@@ -279,9 +259,7 @@ const OurServices = () => {
                 <div className="d-flex align-items-center">
                   <img src="/images/icon/icon13.png" alt="image" />
                   <h3>
-                    <Link legacyBehavior href="/service-details">
-                      <a>Technology</a>
-                    </Link>
+                    <Link href="/service-details">Technology</Link>
                   </h3>
                 </div>
                 <p>
@@ -313,10 +291,8 @@ const OurServices = () => {
                   </li>
                 </ul>
 
-                <Link legacyBehavior href="/service-details">
-                  <a className="default-btn">
-                    <span className="ri-arrow-right-s-line"></span>Learn More
-                  </a>
+                <Link href="/service-details" className="default-btn">
+                  <span className="ri-arrow-right-s-line"></span>Learn More
                 </Link>
               </div>
             </SwiperSlide>
@@ -324,7 +300,7 @@ const OurServices = () => {
         </div>
       </div>
     </>
-  )
-}
+  );
+};
 
-export default OurServices
+export default OurServices;
