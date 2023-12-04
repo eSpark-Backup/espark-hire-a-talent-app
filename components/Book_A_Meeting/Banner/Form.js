@@ -7,6 +7,7 @@ import Link from "next/link";
 import { Inter } from "next/font/google";
 
 import countries from "/constants/countries.json";
+import { useRouter } from "next/router";
 
 const inter = Inter({
   weight: ["100", "200", "300", "400", "500", "600", "700", "800", "900"],
@@ -34,7 +35,12 @@ const Form = ({ companySize }) => {
   });
 
   const handleInputchange = (key, value) => {
+    redirectToCalendly();
     setState((state) => ({ ...state, [key]: value }));
+  };
+
+  const redirectToCalendly = () => {
+    window.open("https://calendly.com/esparktalents/60min", "_blank");
   };
 
   const onSubmit = () => {
@@ -68,41 +74,39 @@ const Form = ({ companySize }) => {
             country: state.country,
             company_name: "eSpark",
           })
-          .then(
-            ({ status }) => {
-              if (status === 200) {
-                setState({
-                  first_name: "",
-                  last_name: "",
-                  company_email: "",
-                  company_size: "Please Select",
-                  phone_number: "",
-                  country: "Please Select",
-                });
+          .then(({ status }) => {
+            if (status === 200) {
+              setState({
+                first_name: "",
+                last_name: "",
+                company_email: "",
+                company_size: "Please Select",
+                phone_number: "",
+                country: "Please Select",
+              });
 
-                setErrorState({
-                  first_name: false,
-                  last_name: false,
-                  company_email: false,
-                  company_size: false,
-                  phone_number: false,
-                  country: false,
-                });
+              setErrorState({
+                first_name: false,
+                last_name: false,
+                company_email: false,
+                company_size: false,
+                phone_number: false,
+                country: false,
+              });
 
-                setFlag("");
-
-                window.open(
-                  "https://calendly.com/esparktalents/60min",
-                  "_blank"
-                );
-              }
-            },
-            (error) => {
-              console.error(error);
+              setFlag("");
+              redirectToCalendly();
+            } else {
+              redirectToCalendly();
             }
-          );
+          })
+          .catch((err) => {
+            console.log(err);
+            redirectToCalendly();
+          });
       } catch (error) {
-        console.error(error);
+        console.error("Error submitting the form:", error);
+        redirectToCalendly();
       }
     }
   };
