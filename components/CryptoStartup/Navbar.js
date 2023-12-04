@@ -1,38 +1,43 @@
-import React, { useState } from 'react'
-import Link from '@/utils/ActiveLink'
+import React, { useState } from "react";
+import Link from "@/utils/ActiveLink";
 
 const Navbar = () => {
-  const [menu, setMenu] = React.useState(true)
+  const [menu, setMenu] = React.useState(true);
   const toggleNavbar = () => {
-    setMenu(!menu)
-  }
+    setMenu(!menu);
+  };
   React.useEffect(() => {
-    let elementId = document.getElementById('navbar')
-    document.addEventListener('scroll', () => {
+    let elementId = document.getElementById("navbar");
+    document.addEventListener("scroll", () => {
       if (window.scrollY > 170) {
-        elementId.classList.add('is-sticky')
+        elementId.classList.add("is-sticky");
       } else {
-        elementId.classList.remove('is-sticky')
+        elementId.classList.remove("is-sticky");
       }
-    })
-  })
+    });
+  });
 
   const classOne = menu
-    ? 'collapse navbar-collapse mean-menu'
-    : 'collapse navbar-collapse show'
+    ? "collapse navbar-collapse mean-menu"
+    : "collapse navbar-collapse show";
   const classTwo = menu
-    ? 'navbar-toggler navbar-toggler-right collapsed'
-    : 'navbar-toggler navbar-toggler-right'
+    ? "navbar-toggler navbar-toggler-right collapsed"
+    : "navbar-toggler navbar-toggler-right";
 
   return (
     <>
-      <div id="navbar" className="navbar-area navbar-area-with-position-relative with-white-color">
+      <div
+        id="navbar"
+        className="navbar-area navbar-area-with-position-relative with-white-color"
+      >
         <nav className="navbar navbar-expand-md navbar-light">
           <div className="container-fluid">
-            <Link legacyBehavior href="/">
-              <a className="navbar-brand">
-                <img src="/images/black-logo.png" className="talent-logo" alt="Site logo" />
-              </a>
+            <Link href="/" className="navbar-brand">
+              <img
+                src="/images/black-logo.png"
+                className="talent-logo"
+                alt="Site logo"
+              />
             </Link>
 
             <button
@@ -53,53 +58,80 @@ const Navbar = () => {
             <div className={classOne} id="navbarSupportedContent">
               <ul className="navbar-nav m-auto">
                 <li className="nav-item">
-                  <Link legacyBehavior href="#">
-                    <a className="dropdown-toggle nav-link">
-                      Home
-                    </a>
+                  <Link href="#" className="dropdown-toggle nav-link">
+                    Home
                   </Link>
                   <ul className="dropdown-menu">
                     <li className="nav-item">
-                      <Link legacyBehavior href="/" activeClassName="active">
-                        <a className="nav-link">Technology Solutions</a>
+                      <Link
+                        href="/"
+                        activeClassName="active"
+                        className="nav-link"
+                      >
+                        Technology Solutions
                       </Link>
                     </li>
 
                     <li className="nav-item">
-                      <Link legacyBehavior href="/index-2" activeClassName="active">
-                        <a className="nav-link">Digital Marketing</a>
+                      <Link
+                        legacyBehavior
+                        href="/index-2"
+                        activeClassName="active"
+                        className="nav-link"
+                      >
+                        Digital Marketing
                       </Link>
                     </li>
 
                     <li className="nav-item">
-                      <Link legacyBehavior href="/index-3" activeClassName="active">
-                        <a className="nav-link">Business Consulting</a>
+                      <Link
+                        href="/index-3"
+                        activeClassName="active"
+                        className="nav-link"
+                      >
+                        Business Consulting
                       </Link>
                     </li>
 
                     <li className="nav-item">
-                      <Link legacyBehavior href="/index-4" activeClassName="active">
-                        <a className="nav-link">Cybersecurity Services</a>
+                      <Link
+                        href="/index-4"
+                        activeClassName="active"
+                        className="nav-link"
+                      >
+                        Cybersecurity Services
                       </Link>
                     </li>
 
                     <li className="nav-item">
-                      <Link legacyBehavior href="/index-5" activeClassName="active">
-                        <a className="nav-link">Crypto Startup</a>
+                      <Link
+                        href="/index-5"
+                        activeClassName="active"
+                        className="nav-link"
+                      >
+                        Crypto Startup
                       </Link>
                     </li>
 
                     <li className="nav-item">
-                      <Link legacyBehavior href="/index-6" activeClassName="active">
-                        <a className="nav-link">ICO Landing</a>
+                      <Link
+                        href="/index-6"
+                        activeClassName="active"
+                        className="nav-link"
+                      >
+                        ICO Landing
                       </Link>
                     </li>
                   </ul>
                 </li>
 
                 <li className="nav-item">
-                  <Link legacyBehavior href="/about-us" activeClassName="active">
-                    <a className="nav-link">About Us</a>
+                  <Link
+                    href="/about-us"
+                    activeClassName="active"
+                    className="nav-link"
+                  >
+                    About Us
                   </Link>
                 </li>
 
@@ -109,17 +141,25 @@ const Navbar = () => {
                   </a>
                   <ul className="dropdown-menu">
                     <li className="nav-item">
-                      <Link legacyBehavior href="/services" activeClassName="active">
-                        <a className="nav-link">Services</a>
+                      <Link
+                        href="/services"
+                        activeClassName="active"
+                        className="nav-link"
+                      >
+                        Services
                       </Link>
                     </li>
                     <li className="nav-item">
-                      <Link legacyBehavior href="/service-details" activeClassName="active">
-                        <a className="nav-link">Services Details</a>
+                      <Link
+                        href="/service-details"
+                        activeClassName="active"
+                        className="nav-link"
+                      >
+                        Services Details
                       </Link>
                     </li>
                   </ul>
-                  </li>
+                </li>
 
                 <li className="nav-item">
                   <a href="#" className="dropdown-toggle nav-link">
@@ -127,66 +167,96 @@ const Navbar = () => {
                   </a>
                   <ul className="dropdown-menu">
                     <li className="nav-item">
-                      <Link legacyBehavior href="/case-studies" activeClassName="active">
-                        <a className="nav-link">Case Studies</a>
+                      <Link
+                        href="/case-studies"
+                        activeClassName="active"
+                        className="nav-link"
+                      >
+                        Case Studies
                       </Link>
                     </li>
                     <li className="nav-item">
-                      <Link legacyBehavior href="/case-studies-2" activeClassName="active">
-                        <a className="nav-link">Case Studies #2</a>
+                      <Link
+                        href="/case-studies-2"
+                        activeClassName="active"
+                        className="nav-link"
+                      >
+                        Case Studies #2
                       </Link>
                     </li>
                     <li className="nav-item">
-                      <Link legacyBehavior href="/case-studies-3" activeClassName="active">
-                        <a className="nav-link">Case Studies #3</a>
+                      <Link
+                        href="/case-studies-3"
+                        activeClassName="active"
+                        className="nav-link"
+                      >
+                        Case Studies #3
                       </Link>
                     </li>
                     <li className="nav-item">
-                      <Link legacyBehavior href="/case-studies-details" activeClassName="active">
-                        <a className="nav-link">Case Studies Details</a>
+                      <Link
+                        href="/case-studies-details"
+                        activeClassName="active"
+                        className="nav-link"
+                      >
+                        Case Studies Details
                       </Link>
                     </li>
                   </ul>
                 </li>
 
                 <li className="nav-item">
-                  <Link legacyBehavior href="/team" activeClassName="active">
-                    <a className="nav-link">Team</a>
+                  <Link
+                    href="/team"
+                    activeClassName="active"
+                    className="nav-link"
+                  >
+                    Team
                   </Link>
                 </li>
 
                 <li className="nav-item">
-                  <Link legacyBehavior href="/pricing" activeClassName="active">
-                    <a className="nav-link">Pricing</a>
+                  <Link
+                    href="/pricing"
+                    activeClassName="active"
+                    className="nav-link"
+                  >
+                    Pricing
                   </Link>
                 </li>
 
                 <li className="nav-item">
-                  <Link legacyBehavior href="/blog" activeClassName="active">
-                    <a className="nav-link">Blog</a>
+                  <Link
+                    href="/blog"
+                    activeClassName="active"
+                    className="nav-link"
+                  >
+                    Blog
                   </Link>
                 </li>
 
                 <li className="nav-item">
-                  <Link legacyBehavior href="/contact" activeClassName="active">
-                    <a className="nav-link">Contact</a>
+                  <Link
+                    href="/contact"
+                    activeClassName="active"
+                    className="nav-link"
+                  >
+                    Contact
                   </Link>
                 </li>
               </ul>
             </div>
 
             <div className="others-option">
-              <Link legacyBehavior href="/contact">
-                <a className="default-btn style-two">
-                  <span className="ri-edit-2-line"></span>Get A Free Quote
-                </a>
+              <Link href="/contact" className="default-btn style-two">
+                <span className="ri-edit-2-line"></span>Get A Free Quote
               </Link>
             </div>
           </div>
         </nav>
       </div>
     </>
-  )
-}
+  );
+};
 
-export default Navbar
+export default Navbar;

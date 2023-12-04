@@ -1,10 +1,10 @@
-import React from 'react';
-import Link from 'next/link';
+import React from "react";
+import Link from "next/link";
 import {
   sliderData,
   footerContact,
   socialLinks,
-} from '../../constants/constants';
+} from "../../constants/constants";
 
 const Footer = () => {
   return (
@@ -37,7 +37,7 @@ const Footer = () => {
             <img
               height="1"
               width="1"
-              style={{ display: 'none' }}
+              style={{ display: "none" }}
               src="https://px.ads.linkedin.com/collect/?pid=6113401&fmt=gif"
             />
           </noscript>
@@ -46,14 +46,12 @@ const Footer = () => {
           <div className="row justify-content-center">
             <div className="col-xl-6 col-lg-3 col-sm-6 ">
               <div className="single-footer-widget">
-                <Link legacyBehavior href="/">
-                  <a className="d-inline-block logo">
-                    <img
-                      src="/images/logo.png"
-                      className="talent-logo"
-                      alt="Global Recruitment - global recruitment agency - worldwide recruiting agency - global recruitment services - global recruitment solutions - eSpark Talent"
-                    />
-                  </a>
+                <Link href="/" className="d-inline-block logo">
+                  <img
+                    src="/images/logo.png"
+                    className="talent-logo"
+                    alt="Global Recruitment - global recruitment agency - worldwide recruiting agency - global recruitment services - global recruitment solutions - eSpark Talent"
+                  />
                 </Link>
                 <br />
                 <br />
@@ -76,8 +74,8 @@ const Footer = () => {
                         <img
                           src={item?.src}
                           className={item?.className}
-                          width={'90%'}
-                          height={'90%'}
+                          width={"90%"}
+                          height={"90%"}
                           alt="social-icons"
                         />
                       </a>
@@ -93,9 +91,7 @@ const Footer = () => {
                   {sliderData?.map((item) => {
                     return (
                       <li key={item.id}>
-                        <Link legacyBehavior href={`/hire/${item.slug}`}>
-                          <a>{item.title}</a>
-                        </Link>
+                        <Link href={`/hire/${item.slug}`}>{item.title}</Link>
                       </li>
                     );
                   })}
@@ -107,29 +103,19 @@ const Footer = () => {
                 <h3>Company</h3>
                 <ul className="quick-links mt-5">
                   <li>
-                    <Link legacyBehavior href="/what-we-do">
-                      <a>What we do</a>
-                    </Link>
+                    <Link href="/what-we-do">What we do</Link>
                   </li>
                   <li>
-                    <Link legacyBehavior href="/how-it-works">
-                      <a>How it works</a>
-                    </Link>
+                    <Link href="/how-it-works">How it works</Link>
                   </li>
                   <li>
-                    <Link legacyBehavior href="/contact">
-                      <a>Contact Us</a>
-                    </Link>
+                    <Link href="/contact">Contact Us</Link>
                   </li>
                   <li>
-                    <Link legacyBehavior href="/blogs">
-                      <a>Blogs</a>
-                    </Link>
+                    <Link href="/blogs">Blogs</Link>
                   </li>
                   <li>
-                    <Link legacyBehavior href="/careers">
-                      <a>Careers</a>
-                    </Link>
+                    <Link href="/careers">Careers</Link>
                   </li>
                 </ul>
               </div>
@@ -156,14 +142,10 @@ const Footer = () => {
               <div className="col-lg-6 col-sm-6 col-md-6">
                 <ul>
                   <li>
-                    <Link legacyBehavior href="/privacy-policy">
-                      <a>Privacy Policy</a>
-                    </Link>
+                    <Link href="/privacy-policy">Privacy Policy</Link>
                   </li>
                   <li>
-                    <Link legacyBehavior href="/terms-conditions">
-                      <a>Terms & Conditions</a>
-                    </Link>
+                    <Link href="/terms-conditions">Terms & Conditions</Link>
                   </li>
                 </ul>
               </div>

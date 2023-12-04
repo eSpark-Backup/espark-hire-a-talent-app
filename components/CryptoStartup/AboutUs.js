@@ -14,7 +14,12 @@ const AboutUs = ({ title, paragraph, data, image }) => {
                 data-aos-duration="1200"
                 data-aos-once="true"
               >
-                <img src={image} alt="Hire app developer - Freelance mobile app developer - Hire dedicated mobile app developers - Hire cross platform app developer - Hire a mobile app developer – eSpark Talent" width={"600px"} height={"600px"} />
+                <img
+                  src={image}
+                  alt="Hire app developer - Freelance mobile app developer - Hire dedicated mobile app developers - Hire cross platform app developer - Hire a mobile app developer – eSpark Talent"
+                  width={"600px"}
+                  height={"600px"}
+                />
               </div>
             </div>
 
@@ -46,10 +51,8 @@ const AboutUs = ({ title, paragraph, data, image }) => {
                   </li>
                 </ul> */}
                 {/* <div className="about-btn">
-                  <Link legacyBehavior href="/contact">
-                    <a className="default-btn style-two">
+                  <Link  href="/contact"className="default-btn style-two">
                       <span className="ri-arrow-right-s-line"></span>Learn More
-                    </a>
                   </Link>
                 </div> */}
               </div>

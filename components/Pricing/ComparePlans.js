@@ -1,5 +1,5 @@
-import React from 'react'
-import Link from 'next/link'
+import React from "react";
+import Link from "next/link";
 
 const ComparePlans = () => {
   return (
@@ -125,7 +125,7 @@ const ComparePlans = () => {
                   <td>-</td>
                   <td>
                     <Link legacyBehavior href="/contact">
-                      <a>Get A Quote</a>
+                      Get A Quote
                     </Link>
                   </td>
                 </tr>
@@ -136,7 +136,7 @@ const ComparePlans = () => {
                   <td>-</td>
                   <td>
                     <Link legacyBehavior href="/contact">
-                      <a>Get A Quote</a>
+                      Get A Quote
                     </Link>
                   </td>
                 </tr>
@@ -147,7 +147,7 @@ const ComparePlans = () => {
                   <td>Unlimited</td>
                   <td>
                     <Link legacyBehavior href="/contact">
-                      <a>Get A Quote</a>
+                      Get A Quote
                     </Link>
                   </td>
                 </tr>
@@ -158,7 +158,7 @@ const ComparePlans = () => {
                   <td>-</td>
                   <td>
                     <Link legacyBehavior href="/contact">
-                      <a>Get A Quote</a>
+                      Get A Quote
                     </Link>
                   </td>
                 </tr>
@@ -169,31 +169,23 @@ const ComparePlans = () => {
                     Need more information? <a href="#">Contact Us</a>
                   </td>
                   <td>
-                    <Link legacyBehavior href="/pricing">
-                      <a className="link-btn">
-                        Get Started
-                      </a>
+                    <Link href="/pricing" className="link-btn">
+                      Get Started
                     </Link>
                   </td>
                   <td>
-                    <Link legacyBehavior href="/pricing">
-                      <a className="link-btn">
-                        Get Started
-                      </a>
+                    <Link href="/pricing" className="link-btn">
+                      Get Started
                     </Link>
                   </td>
                   <td>
-                    <Link legacyBehavior href="/pricing">
-                      <a className="link-btn">
-                        Get Started
-                      </a>
+                    <Link href="/pricing" className="link-btn">
+                      Get Started
                     </Link>
                   </td>
                   <td>
-                    <Link legacyBehavior href="/pricing">
-                      <a className="link-btn">
-                        Get Started
-                      </a>
+                    <Link href="/pricing" className="link-btn">
+                      Get Started
                     </Link>
                   </td>
                 </tr>
@@ -203,7 +195,7 @@ const ComparePlans = () => {
         </div>
       </div>
     </>
-  )
-}
+  );
+};
 
-export default ComparePlans
+export default ComparePlans;

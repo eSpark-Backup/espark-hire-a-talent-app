@@ -108,7 +108,7 @@ const CareerCards = ({ jobs, jobCategories }) => {
               <p>{job.description}</p>
             </div>
             <div className="col-lg-3 col-sm-12 career-card-button">
-              <Link legacyBehavior href={job.applyLink}>
+              <Link href={job.applyLink}>
                 <span className="default-btn style-two" target="_blank">
                   <span className="ri-arrow-right-s-line"></span>
                   Apply Now
