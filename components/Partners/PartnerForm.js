@@ -1,77 +1,54 @@
 import React from 'react';
 import PartnerSelect from './PartnerSelect';
 import { countries } from 'constants/partnersConstants';
-// import { useFormik } from 'formik';
-// import { profileValidationSchema } from './Schema/partnerFormSchema';
+import { useFormik } from 'formik';
+import { profileValidationSchema } from './Schema/partnerFormSchema';
 import { useRouter } from 'next/navigation';
 import emailjs from '@emailjs/browser';
 
 const PartnerForm = () => {
-  const options = countries?.map((opt) => opt?.option);
-
+  const options = countries?.map((opt) => opt?.option )
+  
   const router = useRouter();
   emailjs.init('i97Hmgobdw1yJilSn');
 
-  const [PartnerFormData, setPartnerFormData] = React.useState({
+  const PartnerFormData = {
     first_name: '',
     last_name: '',
     email: '',
     phone_number: '',
     country: '',
     linkedin_profile_link: '',
+  };
+
+  const { values, errors, touched, handleChange, handleSubmit } = useFormik({
+    initialValues: PartnerFormData,
+    validationSchema: profileValidationSchema,
+    onSubmit: (values, action) => {
+      try {
+        emailjs
+          .send('service_6qzxeqp', 'template_6y49v0k', {
+            first_name: values.first_name,
+            last_name: values.last_name,
+            email: values.email,
+            phone_number: values.phone_number,
+            country: values.country,
+            linkedin_profile_link: values.linkedin_profile_link,
+          })
+          .then(({ status }) => {
+            if (status == 200) {
+              action.resetForm();
+              router.push('https://calendly.com/esparktalents/');
+            }
+          }),
+          (error) => {
+            console.log(error);
+          };
+        } catch (error) {
+          console.error('Error submitting the form:', error);
+        }
+    },
   });
-
-  const handleChange = (e) => {
-    const { name, value } = e.target;
-    setPartnerFormData({
-      ...PartnerFormData,
-      [name]: value,
-    });
-  };
-
-  const handleSubmit = () => {
-    try {
-      emailjs.send('service_ac1wtgm', 'template_6y49v0k', {
-        first_name: PartnerFormData.first_name,
-        last_name: PartnerFormData.last_name,
-        email: PartnerFormData.email,
-        phone_number: PartnerFormData.phone_number,
-        country: PartnerFormData.country,
-        linkedin_profile_link: PartnerFormData.linkedin_profile_link,
-      });
-    } catch {
-      console.error('Error submitting the form:', error);
-    }
-    console.log(PartnerFormData, 'PartnerFormData');
-  };
-  // const { values, errors, touched, handleChange, handleSubmit } = useFormik({
-  //   initialValues: PartnerFormData,
-  //   validationSchema: profileValidationSchema,
-  //   onSubmit: (values, action) => {
-  //     try {
-  //       emailjs
-  //         emailjs.send("service_ac1wtgm","template_6y49v0k", {
-  //           first_name: values.first_name,
-  //           last_name: values.last_name,
-  //           email: values.email,
-  //           phone_number: values.phone_number,
-  //           country: values.country,
-  //           linkedin_profile_link: values.linkedin_profile_link,
-  //         })
-  //         .then(({ status }) => {
-  //           if (status == 200) {
-  //             action.resetForm();
-  //             router.push('https://calendly.com/esparktalents/');
-  //           }
-  //         }),
-  //         (error) => {
-  //           console.log(error);
-  //         };
-  //     } catch (error) {
-  //       console.error('Error submitting the form:', error);
-  //     }
-  //   },
-  // });
 
   return (
     <div>
@@ -89,12 +66,12 @@ const PartnerForm = () => {
                 type="text"
                 className="input"
                 name="first_name"
-                value={PartnerFormData?.first_name}
+                value={values?.first_name}
                 onChange={handleChange}
               />
-              {/* {touched?.first_name && errors?.first_name && (
+              {touched?.first_name && errors?.first_name && (
                 <span className="error-message">{errors?.first_name}</span>
-              )} */}
+              )}
             </div>
             <div className="partner-form-lastname">
               <label htmlFor="" className="label">
@@ -104,12 +81,12 @@ const PartnerForm = () => {
                 type="text"
                 className="input"
                 name="last_name"
-                value={PartnerFormData?.last_name}
+                value={values?.last_name}
                 onChange={handleChange}
               />
-              {/* {touched?.last_name && errors?.last_name && (
+              {touched?.last_name && errors?.last_name && (
                 <span className="error-message">{errors?.last_name}</span>
-              )} */}
+              )}
             </div>
           </div>
           <div className="partner-form-your-email-adress">
@@ -120,12 +97,12 @@ const PartnerForm = () => {
               type="email"
               className="input"
               name="email"
-              value={PartnerFormData?.email}
+              value={values?.email}
               onChange={handleChange}
             />
-            {/* {touched?.email && errors?.email && (
+            {touched?.email && errors?.email && (
               <span className="error-message">{errors?.email}</span>
-            )} */}
+            )}
           </div>
           <div className="partner-form-phone-number">
             <label htmlFor="" className="label">
@@ -135,13 +112,13 @@ const PartnerForm = () => {
               type="number"
               className="input"
               name="phone_number"
-              value={PartnerFormData?.phone_number}
+              value={values?.phone_number}
               placeholder="+00 00000000"
               onChange={handleChange}
             />
-            {/* {touched?.phone_number && errors?.phone_number && (
+            {touched?.phone_number && errors?.phone_number && (
               <span className="error-message">{errors?.phone_number}</span>
-            )} */}
+            )}
           </div>
           <div className="partner-form-Country">
             <label htmlFor="" className="label">
@@ -150,12 +127,12 @@ const PartnerForm = () => {
             <PartnerSelect
               option={options}
               name={'country'}
-              value={PartnerFormData?.country}
+              value={values?.country}
               onChange={handleChange}
             />
-            {/* {touched?.country && errors?.country && (
+            {touched?.country && errors?.country && (
               <span className="error-message">{errors?.country}</span>
-            )} */}
+            )}
           </div>
           <div className="partner-form-LinkedIn-Profile">
             <label htmlFor="" className="label">
@@ -165,19 +142,19 @@ const PartnerForm = () => {
               type="text"
               className="input"
               name="linkedin_profile_link"
-              value={PartnerFormData?.linkedin_profile_link}
+              value={values?.linkedin_profile_link}
               placeholder="necessary"
               onChange={handleChange}
             />
-            {/* {touched?.linkedin_profile_link &&
+            {touched?.linkedin_profile_link &&
               errors?.linkedin_profile_link && (
                 <span className="error-message">
                   {errors?.linkedin_profile_link}
                 </span>
-              )} */}
+              )}
           </div>
           <div className="partner-form-button">
-            <button onClick={handleSubmit} type="button">
+            <button onClick={handleSubmit} type='button' >
               Schedule a Meeting
             </button>
           </div>
