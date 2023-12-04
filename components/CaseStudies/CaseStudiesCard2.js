@@ -1,5 +1,5 @@
-import React from 'react'
-import Link from 'next/link'
+import React from "react";
+import Link from "next/link";
 
 const CaseStudiesCard2 = () => {
   return (
@@ -24,19 +24,15 @@ const CaseStudiesCard2 = () => {
                     alt="image"
                   />
                   <h3>
-                    <Link legacyBehavior href="case-studies-details">
-                      <a>eLan Education</a>
-                    </Link>
+                    <Link href="case-studies-details">eLan Education</Link>
                   </h3>
                   <p>
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
                     do eiusmod tempor incididunt ut labore et dolore rts magna
                     rtt aliqua. Ut enim ad minim veniam, quis norud.
                   </p>
-                  <Link legacyBehavior href="case-studies-details">
-                    <a className="default-btn">
-                      <span className="ri-arrow-right-s-line"></span>Read More
-                    </a>
+                  <Link href="case-studies-details" className="default-btn">
+                    <span className="ri-arrow-right-s-line"></span>Read More
                   </Link>
                 </div>
               </div>
@@ -48,19 +44,15 @@ const CaseStudiesCard2 = () => {
                     alt="image"
                   />
                   <h3>
-                    <Link legacyBehavior href="case-studies-details">
-                      <a>StartP Startup</a>
-                    </Link>
+                    <Link href="case-studies-details">StartP Startup</Link>
                   </h3>
                   <p>
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
                     do eiusmod tempor incididunt ut labore et dolore rts magna
                     rtt aliqua. Ut enim ad minim veniam, quis norud.
                   </p>
-                  <Link legacyBehavior href="case-studies-details">
-                    <a className="default-btn">
-                      <span className="ri-arrow-right-s-line"></span>Read More
-                    </a>
+                  <Link href="case-studies-details" className="default-btn">
+                    <span className="ri-arrow-right-s-line"></span>Read More
                   </Link>
                 </div>
               </div>
@@ -72,19 +64,15 @@ const CaseStudiesCard2 = () => {
                     alt="image"
                   />
                   <h3>
-                    <Link legacyBehavior href="case-studies-details">
-                      <a>Edmo Marketing</a>
-                    </Link>
+                    <Link href="case-studies-details">Edmo Marketing</Link>
                   </h3>
                   <p>
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
                     do eiusmod tempor incididunt ut labore et dolore rts magna
                     rtt aliqua. Ut enim ad minim veniam, quis norud.
                   </p>
-                  <Link legacyBehavior href="case-studies-details">
-                    <a className="default-btn">
-                      <span className="ri-arrow-right-s-line"></span>Read More
-                    </a>
+                  <Link href="case-studies-details" className="default-btn">
+                    <span className="ri-arrow-right-s-line"></span>Read More
                   </Link>
                 </div>
               </div>
@@ -96,19 +84,15 @@ const CaseStudiesCard2 = () => {
                     alt="image"
                   />
                   <h3>
-                    <Link legacyBehavior href="case-studies-details">
-                      <a>WideCademy Remote</a>
-                    </Link>
+                    <Link href="case-studies-details">WideCademy Remote</Link>
                   </h3>
                   <p>
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
                     do eiusmod tempor incididunt ut labore et dolore rts magna
                     rtt aliqua. Ut enim ad minim veniam, quis norud.
                   </p>
-                  <Link legacyBehavior href="case-studies-details">
-                    <a className="default-btn">
-                      <span className="ri-arrow-right-s-line"></span>Read More
-                    </a>
+                  <Link href="case-studies-details" className="default-btn">
+                    <span className="ri-arrow-right-s-line"></span>Read More
                   </Link>
                 </div>
               </div>
@@ -120,7 +104,7 @@ const CaseStudiesCard2 = () => {
         </div>
       </div>
     </>
-  )
-}
+  );
+};
 
-export default CaseStudiesCard2
+export default CaseStudiesCard2;
