@@ -22,7 +22,10 @@ const AboutUs = (props) => {
                   height={"100%"}
                 />
                 <div className="shape5">
-                  <img src="/images/shape/shape5.png" alt="Global Recruitment - global recruitment agency - worldwide recruiting agency - global recruitment services - global recruitment solutions - eSpark Talent" />
+                  <img
+                    src="/images/shape/shape5.png"
+                    alt="Global Recruitment - global recruitment agency - worldwide recruiting agency - global recruitment services - global recruitment solutions - eSpark Talent"
+                  />
                 </div>
               </div>
             </div>
@@ -36,7 +39,10 @@ const AboutUs = (props) => {
                     <li key={i}>
                       <div className="d-flex align-items-center">
                         <div className="icon bg-f9f9f9">
-                          <img src={eachItem.imageLink} alt="Global Recruitment - global recruitment agency - worldwide recruiting agency - global recruitment services - global recruitment solutions - eSpark Talent" />
+                          <img
+                            src={eachItem.imageLink}
+                            alt="Global Recruitment - global recruitment agency - worldwide recruiting agency - global recruitment services - global recruitment solutions - eSpark Talent"
+                          />
                         </div>
                         <span>{eachItem.item}</span>
                       </div>
@@ -77,10 +83,8 @@ const AboutUs = (props) => {
                     </div>
                   </li>
                 </ul> */}
-                {/* <Link legacyBehavior href="/about-us">
-                  <a className="default-btn">
+                {/* <Link href="/about-us" className="default-btn">
                     <span className="ri-arrow-right-s-line"></span>More About Us
-                  </a>
                 </Link> */}
               </div>
             </div>

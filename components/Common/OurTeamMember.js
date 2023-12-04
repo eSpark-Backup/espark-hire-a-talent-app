@@ -28,7 +28,10 @@ const OurTeamMember = (props) => {
                             : "single-team-member"
                         }
                       >
-                        <img src={person.img} alt="Global Recruitment - global recruitment agency - worldwide recruiting agency - global recruitment services - global recruitment solutions - eSpark Talent" />
+                        <img
+                          src={person.img}
+                          alt="Global Recruitment - global recruitment agency - worldwide recruiting agency - global recruitment services - global recruitment solutions - eSpark Talent"
+                        />
                         <div
                           className={
                             i === 0
@@ -45,7 +48,7 @@ const OurTeamMember = (props) => {
                             <span>{person.rank}</span>
                           </div> */}
                           <div>
-                            <h3 >{person.name}</h3>
+                            <h3>{person.name}</h3>
                             <span>{person.rank}</span>
                           </div>
                         </div>
@@ -123,11 +126,13 @@ const OurTeamMember = (props) => {
                   The point of using Lorem Ipsum is that it has a more-or-less
                   normal distribution of letters.
                 </p> */}
-                <Link legacyBehavior href="https://calendly.com/esparktalents/60min?month=2023-09">
-                  <a className="default-btn style-two-v2" target="_blank">
-                    {/* <span className="ri-arrow-right-s-line"></span> */}
-                    {teamData?.buttonText}
-                  </a>
+                <Link
+                  href="https://calendly.com/esparktalents/60min?month=2023-09"
+                  className="default-btn style-two-v2"
+                  target="_blank"
+                >
+                  {/* <span className="ri-arrow-right-s-line"></span> */}
+                  {teamData?.buttonText}
                 </Link>
               </div>
             </div>

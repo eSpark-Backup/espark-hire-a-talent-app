@@ -1,5 +1,5 @@
-import React from 'react'
-import Link from 'next/link'
+import React from "react";
+import Link from "next/link";
 
 const CaseStudiesCard = () => {
   return (
@@ -15,7 +15,7 @@ const CaseStudiesCard = () => {
             </p>
           </div>
 
-          <div className='case-studies-card-box'>
+          <div className="case-studies-card-box">
             <div className="single-case-studies-box">
               <div className="row align-items-center m-0">
                 <div className="col-lg-6 col-md-12 p-0">
@@ -24,13 +24,11 @@ const CaseStudiesCard = () => {
                       <img src="/images/case-studies/elan.png" alt="image" />
                     </div>
                     <h3>
-                      <Link legacyBehavior href="/case-studies-details">
-                        <a>eLan Education</a>
-                      </Link>
+                      <Link href="/case-studies-details">eLan Education</Link>
                     </h3>
                     <p>
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                      do eiusmod tempor incididunt ut labore et dolore magna
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                      sed do eiusmod tempor incididunt ut labore et dolore magna
                       aliqua. Ut enim ad minim veniam, quis nostrud exercitation
                       ullamco laboris nisi ut aliquip ex ea commodo.
                     </p>
@@ -50,10 +48,8 @@ const CaseStudiesCard = () => {
                         </a>
                       </li>
                     </ul>
-                    <Link legacyBehavior href="/case-studies-details">
-                      <a className="default-btn">
-                        <span className="ri-arrow-right-s-line"></span>View More
-                      </a>
+                    <Link href="/case-studies-details" className="default-btn">
+                      <span className="ri-arrow-right-s-line"></span>View More
                     </Link>
                   </div>
                 </div>
@@ -76,13 +72,11 @@ const CaseStudiesCard = () => {
                       <img src="/images/case-studies/startp.png" alt="image" />
                     </div>
                     <h3>
-                      <Link legacyBehavior href="/case-studies-details">
-                        <a>StartP Startup</a>
-                      </Link>
+                      <Link href="/case-studies-details">StartP Startup</Link>
                     </h3>
                     <p>
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                      do eiusmod tempor incididunt ut labore et dolore magna
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                      sed do eiusmod tempor incididunt ut labore et dolore magna
                       aliqua. Ut enim ad minim veniam, quis nostrud exercitation
                       ullamco laboris nisi ut aliquip ex ea commodo.
                     </p>
@@ -102,10 +96,8 @@ const CaseStudiesCard = () => {
                         </a>
                       </li>
                     </ul>
-                    <Link legacyBehavior href="/case-studies-details">
-                      <a className="default-btn">
-                        <span className="ri-arrow-right-s-line"></span>View More
-                      </a>
+                    <Link href="/case-studies-details" className="default-btn">
+                      <span className="ri-arrow-right-s-line"></span>View More
                     </Link>
                   </div>
                 </div>
@@ -128,13 +120,11 @@ const CaseStudiesCard = () => {
                       <img src="/images/case-studies/edmo.png" alt="image" />
                     </div>
                     <h3>
-                      <Link legacyBehavior href="/case-studies-details">
-                        <a>Edmo Marketing</a>
-                      </Link>
+                      <Link href="/case-studies-details">Edmo Marketing</Link>
                     </h3>
                     <p>
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                      do eiusmod tempor incididunt ut labore et dolore magna
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                      sed do eiusmod tempor incididunt ut labore et dolore magna
                       aliqua. Ut enim ad minim veniam, quis nostrud exercitation
                       ullamco laboris nisi ut aliquip ex ea commodo.
                     </p>
@@ -154,10 +144,8 @@ const CaseStudiesCard = () => {
                         </a>
                       </li>
                     </ul>
-                    <Link legacyBehavior href="/case-studies-details">
-                      <a className="default-btn">
-                        <span className="ri-arrow-right-s-line"></span>View More
-                      </a>
+                    <Link href="/case-studies-details" className="default-btn">
+                      <span className="ri-arrow-right-s-line"></span>View More
                     </Link>
                   </div>
                 </div>
@@ -175,7 +163,7 @@ const CaseStudiesCard = () => {
         </div>
       </div>
     </>
-  )
-}
+  );
+};
 
-export default CaseStudiesCard
+export default CaseStudiesCard;

@@ -42,11 +42,9 @@ const ServicesItem = ({ title, Paragraph, data, id }) => {
                     </ul>
                   ) : null}
                   {items.buttonText ? (
-                    <Link legacyBehavior href="/service-details">
-                      <a className="default-btn">
-                        <span className="ri-arrow-right-s-line"></span>
-                        {items.buttonText}
-                      </a>
+                    <Link href="/service-details" className="default-btn">
+                      <span className="ri-arrow-right-s-line"></span>
+                      {items.buttonText}
                     </Link>
                   ) : null}
                 </div>
