@@ -1,5 +1,5 @@
-import React from 'react'
-import Link from 'next/link'
+import React from "react";
+import Link from "next/link";
 
 const HeroBanner = () => {
   return (
@@ -8,7 +8,7 @@ const HeroBanner = () => {
         <div className="container-fluid">
           <div className="row align-items-center">
             <div className="col-lg-6 col-md-12">
-              <div 
+              <div
                 className="cryptocurrency-banner-content"
                 data-aos="fade-left"
                 data-aos-duration="1200"
@@ -23,11 +23,8 @@ const HeroBanner = () => {
 
                 <ul className="banner-btn-list">
                   <li>
-                    <Link legacyBehavior href="/contact">
-                      <a className="default-btn style-two">
-                        <span className="ri-arrow-right-s-line"></span>Learn
-                        More
-                      </a>
+                    <Link href="/contact" className="default-btn style-two">
+                      <span className="ri-arrow-right-s-line"></span>Learn More
                     </Link>
                   </li>
                   <li>
@@ -82,7 +79,7 @@ const HeroBanner = () => {
             </div>
 
             <div className="col-lg-6 col-md-12">
-              <div 
+              <div
                 className="cryptocurrency-banner-image"
                 data-aos="fade-up"
                 data-aos-duration="1200"
@@ -98,26 +95,17 @@ const HeroBanner = () => {
         </div>
 
         <div className="cryptocurrency-banner-shape-1">
-          <img
-            src="/images/crypto-startup/banner/shape-1.png"
-            alt="image"
-          />
+          <img src="/images/crypto-startup/banner/shape-1.png" alt="image" />
         </div>
         <div className="cryptocurrency-banner-shape-2">
-          <img
-            src="/images/crypto-startup/banner/shape-2.png"
-            alt="image"
-          />
+          <img src="/images/crypto-startup/banner/shape-2.png" alt="image" />
         </div>
         <div className="cryptocurrency-banner-shape-3">
-          <img
-            src="/images/crypto-startup/banner/shape-3.png"
-            alt="image"
-          />
+          <img src="/images/crypto-startup/banner/shape-3.png" alt="image" />
         </div>
       </div>
     </>
-  )
-}
+  );
+};
 
-export default HeroBanner
+export default HeroBanner;

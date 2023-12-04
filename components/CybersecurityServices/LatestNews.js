@@ -24,13 +24,11 @@ const LatestNews = () => {
             >
               <div className="blog-style-card">
                 <div className="blog-image">
-                  <Link legacyBehavior href="/blogs">
-                    <a>
-                      <img
-                        src="/images/cybersecurity-services/blog/blog-1.jpg"
-                        alt="image"
-                      />
-                    </a>
+                  <Link href="/blogs">
+                    <img
+                      src="/images/cybersecurity-services/blog/blog-1.jpg"
+                      alt="image"
+                    />
                   </Link>
                 </div>
                 <div className="blog-content">
@@ -41,11 +39,8 @@ const LatestNews = () => {
                     <li>March 15, 2022</li>
                   </ul>
                   <h3>
-                    <Link legacyBehavior href="/blogs">
-                      <a>
-                        Proper Guide Line Learning Strategies About Cyber
-                        Security
-                      </a>
+                    <Link href="/blogs">
+                      Proper Guide Line Learning Strategies About Cyber Security
                     </Link>
                   </h3>
                 </div>
@@ -61,13 +56,11 @@ const LatestNews = () => {
             >
               <div className="blog-style-card">
                 <div className="blog-image">
-                  <Link legacyBehavior href="/blogs">
-                    <a>
-                      <img
-                        src="/images/cybersecurity-services/blog/blog-2.jpg"
-                        alt="image"
-                      />
-                    </a>
+                  <Link href="/blogs">
+                    <img
+                      src="/images/cybersecurity-services/blog/blog-2.jpg"
+                      alt="image"
+                    />
                   </Link>
                 </div>
                 <div className="blog-content">
@@ -78,8 +71,8 @@ const LatestNews = () => {
                     <li>March 15, 2022</li>
                   </ul>
                   <h3>
-                    <Link legacyBehavior href="/blogs">
-                      <a>Rules To Protect Your Account From Cyber Attack</a>
+                    <Link href="/blogs">
+                      Rules To Protect Your Account From Cyber Attack
                     </Link>
                   </h3>
                 </div>
@@ -95,13 +88,11 @@ const LatestNews = () => {
             >
               <div className="blog-style-card">
                 <div className="blog-image">
-                  <Link legacyBehavior href="/blogs">
-                    <a>
-                      <img
-                        src="/images/cybersecurity-services/blog/blog-3.jpg"
-                        alt="image"
-                      />
-                    </a>
+                  <Link href="/blogs">
+                    <img
+                      src="/images/cybersecurity-services/blog/blog-3.jpg"
+                      alt="image"
+                    />
                   </Link>
                 </div>
                 <div className="blog-content">
@@ -112,11 +103,8 @@ const LatestNews = () => {
                     <li>March 15, 2022</li>
                   </ul>
                   <h3>
-                    <Link legacyBehavior href="/blogs">
-                      <a>
-                        Rules For Introducing Web Code To Increase Cyber
-                        Security
-                      </a>
+                    <Link href="/blogs">
+                      Rules For Introducing Web Code To Increase Cyber Security
                     </Link>
                   </h3>
                 </div>

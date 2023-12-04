@@ -1,5 +1,5 @@
-import React from 'react'
-import Link from 'next/link'
+import React from "react";
+import Link from "next/link";
 
 const AboutUs = () => {
   return (
@@ -8,8 +8,8 @@ const AboutUs = () => {
         <div className="container">
           <div className="row align-items-center">
             <div className="col-lg-6 col-md-12">
-              <div 
-                className="about-img" 
+              <div
+                className="about-img"
                 data-aos="fade-up"
                 data-aos-duration="1200"
                 data-aos-once="true"
@@ -63,10 +63,8 @@ const AboutUs = () => {
                   </li>
                 </ul>
 
-                <Link legacyBehavior href="/about-us">
-                  <a className="default-btn">
-                    <span className="ri-arrow-right-s-line"></span>More About Us
-                  </a>
+                <Link href="/about-us" className="default-btn">
+                  <span className="ri-arrow-right-s-line"></span>More About Us
                 </Link>
               </div>
             </div>
@@ -77,7 +75,7 @@ const AboutUs = () => {
         </div>
       </div>
     </>
-  )
-}
+  );
+};
 
-export default AboutUs
+export default AboutUs;
