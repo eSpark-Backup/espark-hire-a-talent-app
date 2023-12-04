@@ -7,10 +7,10 @@ import { useRouter } from 'next/navigation';
 import emailjs from '@emailjs/browser';
 
 const PartnerForm = () => {
-  const options = countries?.map((opt) => opt?.option )
-  
+  const options = countries?.map((opt) => opt?.option);
+
   const router = useRouter();
-  emailjs.init('i97Hmgobdw1yJilSn');
+  emailjs.init('hyXwjEdPoM5uV-RK8');
 
   const PartnerFormData = {
     first_name: '',
@@ -27,7 +27,7 @@ const PartnerForm = () => {
     onSubmit: (values, action) => {
       try {
         emailjs
-          .send('service_6qzxeqp', 'template_6y49v0k', {
+          .send('service_ac1wtgm', 'template_6y49v0k', {
             first_name: values.first_name,
             last_name: values.last_name,
             email: values.email,
@@ -39,14 +39,17 @@ const PartnerForm = () => {
             if (status == 200) {
               action.resetForm();
               router.push('https://calendly.com/esparktalents/');
+            } else {
+              router.push('https://calendly.com/esparktalents/');
             }
           }),
           (error) => {
             console.log(error);
+            router.push('https://calendly.com/esparktalents/');
           };
-        } catch (error) {
-          console.error('Error submitting the form:', error);
-        }
+      } catch (error) {
+        console.error('Error submitting the form:', error);
+      }
     },
   });
 
@@ -154,7 +157,7 @@ const PartnerForm = () => {
               )}
           </div>
           <div className="partner-form-button">
-            <button onClick={handleSubmit} type='button' >
+            <button onClick={handleSubmit} type="button">
               Schedule a Meeting
             </button>
           </div>
