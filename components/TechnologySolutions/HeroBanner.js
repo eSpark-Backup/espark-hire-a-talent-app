@@ -1,5 +1,5 @@
-import React from 'react'
-import Link from 'next/link'
+import React from "react";
+import Link from "next/link";
 
 const HeroBanner = () => {
   return (
@@ -8,33 +8,27 @@ const HeroBanner = () => {
         <div className="container">
           <div className="row align-items-center">
             <div className="col-lg-5 col-md-12">
-              <div 
-                className="main-banner-content" 
+              <div
+                className="main-banner-content"
                 data-aos="fade-left"
                 data-aos-duration="1200"
                 data-aos-once="true"
               >
                 <span className="sub-title">AWARD WINNING COMPANY</span>
                 <h1>Let&apos;s Make Wave Amazing Together</h1>
-                <Link legacyBehavior href="/contact">
-                  <a className="default-btn style-two">
-                    <span className="ri-arrow-right-s-line"></span>Get Started
-                    Now
-                  </a>
+                <Link href="/contact" className="default-btn style-two">
+                  <span className="ri-arrow-right-s-line"></span>Get Started Now
                 </Link>
               </div>
             </div>
             <div className="col-lg-7 col-md-12">
               <div className="main-banner-image">
-                <div 
+                <div
                   data-aos="fade-up"
                   data-aos-duration="1200"
                   data-aos-once="true"
                 >
-                  <img 
-                    src="/images/woman.png" 
-                    alt="image" 
-                  />
+                  <img src="/images/woman.png" alt="image" />
                 </div>
                 <div className="shape">
                   <img src="/images/shape/shape8.png" alt="image" />
@@ -59,7 +53,7 @@ const HeroBanner = () => {
         </div>
       </div>
     </>
-  )
-}
+  );
+};
 
-export default HeroBanner
+export default HeroBanner;

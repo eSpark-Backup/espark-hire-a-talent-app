@@ -1,5 +1,5 @@
-import Link from 'next/link';
-import React from 'react';
+import Link from "next/link";
+import React from "react";
 
 const GetTalent = ({ data }) => {
   return (
@@ -11,10 +11,11 @@ const GetTalent = ({ data }) => {
             <h3>Let’s assemble your team.</h3>
 
             <div className="newsletter-form">
-              <Link legacyBehavior href="https://calendly.com/esparktalents/60min?month=2023-09">
-                <a target="_blank">
-                  <button type="submit">Get Talent Now</button>
-                </a>
+              <Link
+                href="https://calendly.com/esparktalents/60min?month=2023-09"
+                target="_blank"
+              >
+                <button type="submit">Get Talent Now</button>
               </Link>
             </div>
           </div>

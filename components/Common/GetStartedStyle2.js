@@ -1,5 +1,5 @@
-import React from 'react'
-import Link from 'next/link'
+import React from "react";
+import Link from "next/link";
 
 const GetStartedStyle2 = () => {
   return (
@@ -8,8 +8,8 @@ const GetStartedStyle2 = () => {
         <div className="container">
           <div className="row">
             <div className="col-lg-6 col-md-12">
-              <div 
-                className="get-started-image" 
+              <div
+                className="get-started-image"
                 data-aos="fade-up"
                 data-aos-duration="1200"
                 data-aos-once="true"
@@ -29,11 +29,8 @@ const GetStartedStyle2 = () => {
                   do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                   Ut enim ad minim veniam.
                 </p>
-                <Link legacyBehavior href="/contact">
-                  <a className="default-btn style-two">
-                    <span className="ri-arrow-right-s-line"></span>Get Started
-                    Now
-                  </a>
+                <Link href="/contact" className="default-btn style-two">
+                  <span className="ri-arrow-right-s-line"></span>Get Started Now
                 </Link>
               </div>
             </div>
@@ -41,7 +38,7 @@ const GetStartedStyle2 = () => {
         </div>
       </div>
     </>
-  )
-}
+  );
+};
 
-export default GetStartedStyle2
+export default GetStartedStyle2;

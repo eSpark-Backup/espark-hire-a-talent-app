@@ -56,7 +56,8 @@ const BlogCard = ({ item }) => {
         Math.abs(page - currentPage) <= 1
       ) {
         buttons.push(
-          <a href="#"
+          <a
+            href="#"
             key={page}
             className={isSelected ? "current page-numbers" : "page-numbers"}
             onClick={() => handlePageClick(page)}
@@ -79,24 +80,22 @@ const BlogCard = ({ item }) => {
               <div key={index} className="col-lg-4 col-md-6 col-sm-6">
                 <div className="single-blog-post">
                   <div className="image">
-                    <Link legacyBehavior href={`/blogs/${eachCard.slug}`}>
-                      <a className="d-block">
-                        <img src={eachCard.imageLink} alt={eachCard.altTag} />
-                      </a>
+                    <Link href={`/blogs/${eachCard.slug}`} className="d-block">
+                      <img src={eachCard.imageLink} alt={eachCard.altTag} />
                     </Link>
                     <span className="date">{eachCard?.postedBy?.date}</span>
                   </div>
 
                   <div className="content">
                     <h3>
-                      <Link legacyBehavior href={`/blogs/${eachCard.slug}`}>
-                        <a>{eachCard?.title}</a>
+                      <Link href={`/blogs/${eachCard.slug}`}>
+                        {eachCard?.title}
                       </Link>
                     </h3>
                     <p>{eachCard?.mainParagraph}</p>
 
-                    {/* <Link legacyBehavior href="/blog-details"> */}
-                    <Link legacyBehavior href={`/blogs/${eachCard.slug}`}>
+                    {/* <Link href="/blog-details"> */}
+                    <Link href={`/blogs/${eachCard.slug}`}>
                       <span className="default-btn">
                         <span className="ri-arrow-right-s-line"></span>
                         Read More
@@ -112,7 +111,8 @@ const BlogCard = ({ item }) => {
           <nav className="pagination-area">
             <ul className="nav-links">
               <li>
-                <a href="#"
+                <a
+                  href="#"
                   onClick={handlePreviousClick}
                   className={
                     currentPage === 1 ? "page-numbers disabled" : "page-numbers"
@@ -126,7 +126,8 @@ const BlogCard = ({ item }) => {
               </li>
               {renderPaginationButtons()}
               <li>
-                <a href="#"
+                <a
+                  href="#"
                   className={
                     currentPage === totalPages
                       ? "page-numbers disabled"

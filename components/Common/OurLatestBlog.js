@@ -25,18 +25,14 @@ const OurLatestBlog = () => {
             >
               <div className="single-blog-post">
                 <div className="image">
-                  <Link legacyBehavior href="/blogs">
-                    <a className="d-block">
-                      <img src="/images/blog/blog1.jpg" alt="image" />
-                    </a>
+                  <Link href="/blogs" className="d-block">
+                    <img src="/images/blog/blog1.jpg" alt="image" />
                   </Link>
                   <span className="date">March 20, 2022</span>
                 </div>
                 <div className="content">
                   <h3>
-                    <Link legacyBehavior href="/blogs">
-                      <a>Resources for Teachers</a>
-                    </Link>
+                    <Link href="/blogs">Resources for Teachers</Link>
                   </h3>
                   <p>
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
@@ -44,10 +40,8 @@ const OurLatestBlog = () => {
                     aliqua. Ut enim ad minim veniam.
                   </p>
 
-                  <Link legacyBehavior href="/blogs">
-                    <a className="default-btn">
-                      <span className="ri-arrow-right-s-line"></span>Read More
-                    </a>
+                  <Link href="/blogs" className="default-btn">
+                    <span className="ri-arrow-right-s-line"></span>Read More
                   </Link>
                 </div>
               </div>
@@ -62,28 +56,22 @@ const OurLatestBlog = () => {
             >
               <div className="single-blog-post">
                 <div className="image">
-                  <Link legacyBehavior href="/blogs">
-                    <a className="d-block">
-                      <img src="/images/blog/blog2.jpg" alt="image" />
-                    </a>
+                  <Link href="/blogs" className="d-block">
+                    <img src="/images/blog/blog2.jpg" alt="image" />
                   </Link>
                   <span className="date">March 19, 2022</span>
                 </div>
                 <div className="content">
                   <h3>
-                    <Link legacyBehavior href="/blogs">
-                      <a>Instructional Strategies</a>
-                    </Link>
+                    <Link href="/blogs">Instructional Strategies</Link>
                   </h3>
                   <p>
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
                     do eiusmod tempor incididunt ut labore et dolore magna
                     aliqua. Ut enim ad minim veniam.
                   </p>
-                  <Link legacyBehavior href="/blogs">
-                    <a className="default-btn">
-                      <span className="ri-arrow-right-s-line"></span>Read More
-                    </a>
+                  <Link href="/blogs" className="default-btn">
+                    <span className="ri-arrow-right-s-line"></span>Read More
                   </Link>
                 </div>
               </div>
@@ -98,28 +86,22 @@ const OurLatestBlog = () => {
             >
               <div className="single-blog-post">
                 <div className="image">
-                  <Link legacyBehavior href="/blogs">
-                    <a className="d-block">
-                      <img src="/images/blog/blog3.jpg" alt="image" />
-                    </a>
+                  <Link href="/blogs" className="d-block">
+                    <img src="/images/blog/blog3.jpg" alt="image" />
                   </Link>
                   <span className="date">March 18, 2022</span>
                 </div>
                 <div className="content">
                   <h3>
-                    <Link legacyBehavior href="/blogs">
-                      <a>Fitness Guideline Program</a>
-                    </Link>
+                    <Link href="/blogs">Fitness Guideline Program</Link>
                   </h3>
                   <p>
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
                     do eiusmod tempor incididunt ut labore et dolore magna
                     aliqua. Ut enim ad minim veniam.
                   </p>
-                  <Link legacyBehavior href="/blogs">
-                    <a className="default-btn">
-                      <span className="ri-arrow-right-s-line"></span>Read More
-                    </a>
+                  <Link href="/blogs" className="default-btn">
+                    <span className="ri-arrow-right-s-line"></span>Read More
                   </Link>
                 </div>
               </div>
