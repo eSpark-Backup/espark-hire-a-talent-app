@@ -41,7 +41,6 @@ const NavbarStyle2 = () => {
     return router.pathname === href;
   };
 
-  // const gettingActiveLink = router?.pathname;
   return (
     <>
       <Head>
@@ -139,7 +138,6 @@ const NavbarStyle2 = () => {
                   <li className="nav-item">
                     <Link
                       href="/what-we-do"
-                      activeClassName="active"
                       className={`nav-link ${
                         isLinkActive("/what-we-do") ? "active" : ""
                       }`}
@@ -152,7 +150,6 @@ const NavbarStyle2 = () => {
                   <li className="nav-item">
                     <Link
                       href="/how-it-works"
-                      activeClassName="active"
                       className={`nav-link ${
                         isLinkActive("/how-it-works") ? "active" : ""
                       }`}
@@ -165,7 +162,6 @@ const NavbarStyle2 = () => {
                   <li className="nav-item">
                     <Link
                       href="/blogs"
-                      activeClassName="active"
                       className={`nav-link ${
                         isLinkActive("/blogs") ? "active" : ""
                       }`}
@@ -178,7 +174,6 @@ const NavbarStyle2 = () => {
                   <li className="nav-item">
                     <Link
                       href="/careers"
-                      activeClassName="active"
                       className={`nav-link ${
                         isLinkActive("/careers") ? "active" : ""
                       }`}
@@ -188,7 +183,7 @@ const NavbarStyle2 = () => {
                     </Link>
                   </li>
                   {/* <li className="nav-item">
-                    <Link legacyBehavior href="/contact" activeClassName="active">
+                    <Link legacyBehavior href="/contact" >
                       <a
                         className={`nav-link ${
                           selectedNavItem === "Contact" ? "active" : ""
@@ -202,7 +197,7 @@ const NavbarStyle2 = () => {
                   <li className="nav-item">
                     <Link
                       href="https://form.jotform.com/232503890925459"
-                      // activeClassName="active"
+                      //
 
                       target="_blank"
                       className={`nav-link`}
@@ -213,7 +208,7 @@ const NavbarStyle2 = () => {
                   </li>
 
                   {/* <li className="nabar-buttons">
-                    <Link legacyBehavior href="/contact" activeClassName="active">
+                    <Link legacyBehavior href="/contact" >
                       <a
                         className={`default-btn style-two ${
                           selectedNavItem === "Apply as a Developer"
@@ -231,7 +226,6 @@ const NavbarStyle2 = () => {
                   <li className="nabar-buttons">
                     <Link
                       href="https://calendly.com/esparktalents/60min?month=2023-09"
-                      activeClassName="active"
                       target="_blank"
                       className={`default-btn style-two ${
                         selectedNavItem === "Hire a Talent" ? "active" : ""
