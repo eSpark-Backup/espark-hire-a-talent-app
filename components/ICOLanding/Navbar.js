@@ -1,5 +1,5 @@
+import Link from "next/link";
 import React, { useState } from "react";
-import Link from "@/utils/ActiveLink";
 
 const Navbar = () => {
   const [menu, setMenu] = React.useState(true);
@@ -59,61 +59,37 @@ const Navbar = () => {
                   </Link>
                   <ul className="dropdown-menu">
                     <li className="nav-item">
-                      <Link
-                        href="/"
-                        activeClassName="active"
-                        lassName="nav-link"
-                      >
+                      <Link href="/" lassName="nav-link">
                         Technology Solutions
                       </Link>
                     </li>
 
                     <li className="nav-item">
-                      <Link
-                        href="/index-2"
-                        activeClassName="active"
-                        className="nav-link"
-                      >
+                      <Link href="/index-2" className="nav-link">
                         Digital Marketing
                       </Link>
                     </li>
 
                     <li className="nav-item">
-                      <Link
-                        href="/index-3"
-                        activeClassName="active"
-                        className="nav-link"
-                      >
+                      <Link href="/index-3" className="nav-link">
                         Business Consulting
                       </Link>
                     </li>
 
                     <li className="nav-item">
-                      <Link
-                        href="/index-4"
-                        activeClassName="active"
-                        className="nav-link"
-                      >
+                      <Link href="/index-4" className="nav-link">
                         Cybersecurity Services
                       </Link>
                     </li>
 
                     <li className="nav-item">
-                      <Link
-                        href="/index-5"
-                        activeClassName="active"
-                        className="nav-link"
-                      >
+                      <Link href="/index-5" className="nav-link">
                         Crypto Startup
                       </Link>
                     </li>
 
                     <li className="nav-item">
-                      <Link
-                        href="/index-6"
-                        activeClassName="active"
-                        className="nav-link"
-                      >
+                      <Link href="/index-6" className="nav-link">
                         ICO Landing
                       </Link>
                     </li>
@@ -121,11 +97,7 @@ const Navbar = () => {
                 </li>
 
                 <li className="nav-item">
-                  <Link
-                    href="/about-us"
-                    activeClassName="active"
-                    className="nav-link"
-                  >
+                  <Link href="/about-us" className="nav-link">
                     About Us
                   </Link>
                 </li>
@@ -136,20 +108,12 @@ const Navbar = () => {
                   </a>
                   <ul className="dropdown-menu">
                     <li className="nav-item">
-                      <Link
-                        href="/services"
-                        activeClassName="active"
-                        className="nav-link"
-                      >
+                      <Link href="/services" className="nav-link">
                         Services
                       </Link>
                     </li>
                     <li className="nav-item">
-                      <Link
-                        href="/service-details"
-                        activeClassName="active"
-                        className="nav-link"
-                      >
+                      <Link href="/service-details" className="nav-link">
                         Services Details
                       </Link>
                     </li>
@@ -162,38 +126,22 @@ const Navbar = () => {
                   </a>
                   <ul className="dropdown-menu">
                     <li className="nav-item">
-                      <Link
-                        href="/case-studies"
-                        activeClassName="active"
-                        className="nav-link"
-                      >
+                      <Link href="/case-studies" className="nav-link">
                         Case Studies
                       </Link>
                     </li>
                     <li className="nav-item">
-                      <Link
-                        href="/case-studies-2"
-                        activeClassName="active"
-                        className="nav-link"
-                      >
+                      <Link href="/case-studies-2" className="nav-link">
                         Case Studies #2
                       </Link>
                     </li>
                     <li className="nav-item">
-                      <Link
-                        href="/case-studies-3"
-                        activeClassName="active"
-                        className="nav-link"
-                      >
+                      <Link href="/case-studies-3" className="nav-link">
                         Case Studies #3
                       </Link>
                     </li>
                     <li className="nav-item">
-                      <Link
-                        href="/case-studies-details"
-                        activeClassName="active"
-                        className="nav-link"
-                      >
+                      <Link href="/case-studies-details" className="nav-link">
                         Case Studies Details
                       </Link>
                     </li>
@@ -201,41 +149,25 @@ const Navbar = () => {
                 </li>
 
                 <li className="nav-item">
-                  <Link
-                    href="/team"
-                    activeClassName="active"
-                    className="nav-link"
-                  >
+                  <Link href="/team" className="nav-link">
                     Team
                   </Link>
                 </li>
 
                 <li className="nav-item">
-                  <Link
-                    href="/pricing"
-                    activeClassName="active"
-                    className="nav-link"
-                  >
+                  <Link href="/pricing" className="nav-link">
                     Pricing
                   </Link>
                 </li>
 
                 <li className="nav-item">
-                  <Link
-                    href="/blog"
-                    activeClassName="active"
-                    className="nav-link"
-                  >
+                  <Link href="/blog" className="nav-link">
                     Blog
                   </Link>
                 </li>
 
                 <li className="nav-item">
-                  <Link
-                    href="/contact"
-                    activeClassName="active"
-                    className="nav-link"
-                  >
+                  <Link href="/contact" className="nav-link">
                     Contact
                   </Link>
                 </li>
