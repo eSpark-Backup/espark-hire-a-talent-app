@@ -16,14 +16,14 @@ jobs:
           username: ${{ secrets.SERVER_USERNAME }}
           key: ${{ secrets.SERVER_PRIVATE_KEY }}
           script: |
-            sudo su
-            cd
+            #sudo su
+            #cd
             cd /var/www/eSpark-Hire-A-Talent-App/
             ls
             #git branch
             #git pull origin dev
-            npm install --legacy-peer-deps
-            npm run build
+            /root/.nvm/versions/node/v18.13.0/bin/npm install --legacy-peer-deps
+            /root/.nvm/versions/node/v18.13.0/bin/npm run build
             pm2 ls
             cd
             pm2 restart 0
