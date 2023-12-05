@@ -17,6 +17,7 @@ jobs:
           key: ${{ secrets.SERVER_PRIVATE_KEY }}
           script: |
             sudo su
+            whoami
             cd /var/www/eSpark-Hire-A-Talent-App/
             ls
             #git branch
