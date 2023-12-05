@@ -11006,6 +11006,7 @@ CV CSS
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  padding-left: 10px !important;
 }
 
 .profile-detail-heading {
