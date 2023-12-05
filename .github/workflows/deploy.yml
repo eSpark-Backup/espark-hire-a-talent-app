@@ -2,13 +2,13 @@ name: eSpark Environment
 on:
   push:
     branches:
-      - main
+      - dev
 
 jobs: 
   deploy: 
     runs-on: ubuntu-latest
     steps:
-      - if: github.ref == 'refs/heads/main'
+      - if: github.ref == 'refs/heads/dev'
         name: espark-talent
         uses: appleboy/ssh-action@master
         with:
