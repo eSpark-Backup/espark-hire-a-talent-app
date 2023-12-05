@@ -20,8 +20,9 @@ jobs:
             cd /var/www/eSpark-Hire-A-Talent-App/
             ls
             #git branch
-            git pull origin dev
-            #npm install --legacy-peer-deps
-            #npm run build
+            #git pull origin dev
+            npm install --legacy-peer-deps
+            npm run build
+            pm2 ls
             #cd
             #pm2 restart 0
