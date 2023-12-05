@@ -10,8 +10,9 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
+    - if: github.ref == 'refs/heads/dev'
     - name: Checkout code
-      uses: actions/checkout@v2
+      uses: actions/checkout@v3
 
     - name: Setup Node.js
       uses: actions/setup-node@v4
@@ -20,8 +21,8 @@ jobs:
 
     - name: Install dependencies
       run: cd /var/www/eSpark-Hire-A-Talent-App/ 
-    - name: Run tests
-      run: pm2 ls
+    #- name: Run tests
+    #  run: pm2 ls
 
 
 #name: eSpark Environment
