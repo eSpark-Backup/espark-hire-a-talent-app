@@ -1,29 +1,55 @@
-name: eSpark Environment
+name: Node.js CI/CD
+
 on:
   push:
     branches:
       - dev
 
-jobs: 
-  deploy: 
+jobs:
+  build:
     runs-on: ubuntu-latest
+
     steps:
-      - if: github.ref == 'refs/heads/dev'
-        name: espark-talent
-        uses: appleboy/ssh-action@master
-        with:
-          host: ${{ secrets.SERVER_IP }}
-          username: ${{ secrets.SERVER_USERNAME }}
-          key: ${{ secrets.SERVER_PRIVATE_KEY }}
-          script: |
-            #sudo su
-            #cd
-            cd /var/www/eSpark-Hire-A-Talent-App/
-            ls
-            #git branch
-            #git pull origin dev
-            /root/.nvm/versions/node/v18.13.0/bin/npm install --legacy-peer-deps
-            /root/.nvm/versions/node/v18.13.0/bin/npm run build
-            /usr/local/bin/pm2 ls
-            cd
-            /usr/local/bin/pm2 restart 0
+    - name: Checkout code
+      uses: actions/checkout@v2
+
+    - name: Setup Node.js
+      uses: actions/setup-node@v4
+      with:
+        node-version: '18'
+
+    - name: Install dependencies
+      run: cd /var/www/eSpark-Hire-A-Talent-App/ 
+    - name: Run tests
+      run: pm2 ls
+
+
+#name: eSpark Environment
+#on:
+#  push:
+#    branches:
+#      - dev
+
+#jobs: 
+#  deploy: 
+#    runs-on: ubuntu-latest
+#    steps:
+#      - if: github.ref == 'refs/heads/dev'
+#        name: espark-talent
+#        uses: appleboy/ssh-action@master
+#        with:
+#          host: ${{ secrets.SERVER_IP }}
+#          username: ${{ secrets.SERVER_USERNAME }}
+#          key: ${{ secrets.SERVER_PRIVATE_KEY }}
+#          script: |
+#            #sudo su
+#            #cd
+#            cd /var/www/eSpark-Hire-A-Talent-App/
+#            ls
+#            #git branch
+#            #git pull origin dev
+#            /root/.nvm/versions/node/v18.13.0/bin/npm install --legacy-peer-deps
+#            /root/.nvm/versions/node/v18.13.0/bin/npm run build
+#            /usr/local/bin/pm2 ls
+#            cd
+#            /usr/local/bin/pm2 restart 0
