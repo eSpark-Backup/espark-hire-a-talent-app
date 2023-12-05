@@ -10,14 +10,13 @@ jobs:
     steps:
       - if: github.ref == 'refs/heads/dev'
         name: espark-talent
-        uses: actions/checkout@v2
-        #uses: appleboy/ssh-action@master
+        uses: appleboy/ssh-action@master
         with:
           #host: ${{ secrets.SERVER_IP }}
           #username: ${{ secrets.SERVER_USERNAME }}
           #key: ${{ secrets.SERVER_PRIVATE_KEY }}
           script: |
-            #sudo su
+            sudo su
             cd
             cd /var/www/eSpark-Hire-A-Talent-App/
             ls
