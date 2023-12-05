@@ -19,7 +19,7 @@ jobs:
             #sudo su
             #cd
             cd /var/www/eSpark-Hire-A-Talent-App/
-            ls
+            #ls
             #git branch
             #git pull origin dev
             npm install --legacy-peer-deps
