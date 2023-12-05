@@ -20,7 +20,7 @@ jobs:
             ls
             git branch
             #git pull origin dev
-            #npm install --legacy-peer-deps
-            #npm run build
-            #cd
-            #pm2 restart server
+            npm install --legacy-peer-deps
+            npm run build
+            cd
+            pm2 restart server
