@@ -1,8 +1,8 @@
-import React, { useState, useEffect } from "react";
-import Link from "next/link";
+import React, { useState, useEffect } from 'react';
+import Link from 'next/link';
 
 const BlogCard = ({ item }) => {
-  const [selectedCategory, setSelectedCategory] = useState("All");
+  const [selectedCategory, setSelectedCategory] = useState('All');
   const [currentPage, setCurrentPage] = useState(1);
   const [postsPerPage] = useState(6);
   const allCategories = [
@@ -10,7 +10,7 @@ const BlogCard = ({ item }) => {
   ];
 
   const filtereditem =
-    selectedCategory === "All"
+    selectedCategory === 'All'
       ? item
       : item.filter((eachCard) => eachCard.title.includes(selectedCategory));
 
@@ -39,13 +39,13 @@ const BlogCard = ({ item }) => {
   }, [selectedCategory]);
 
   useEffect(() => {
-    setSelectedCategory("All");
+    setSelectedCategory('All');
     setCurrentPage(1);
   }, [item]);
 
   const renderPaginationButtons = () => {
     const buttons = [];
-    let ellipsis = "...";
+    let ellipsis = '...';
 
     for (let page = 1; page <= totalPages; page++) {
       const isSelected = page === currentPage;
@@ -56,14 +56,14 @@ const BlogCard = ({ item }) => {
         Math.abs(page - currentPage) <= 1
       ) {
         buttons.push(
-          <a
+          <Link
             href="#"
             key={page}
-            className={isSelected ? "current page-numbers" : "page-numbers"}
+            className={isSelected ? 'current page-numbers' : 'page-numbers'}
             onClick={() => handlePageClick(page)}
           >
             {page}
-          </a>
+          </Link>
         );
       } else if (buttons[buttons.length - 1] !== ellipsis) {
         buttons.push(ellipsis);
@@ -93,8 +93,6 @@ const BlogCard = ({ item }) => {
                       </Link>
                     </h3>
                     <p>{eachCard?.mainParagraph}</p>
-
-                    {/* <Link href="/blog-details"> */}
                     <Link href={`/blogs/${eachCard.slug}`}>
                       <span className="default-btn">
                         <span className="ri-arrow-right-s-line"></span>
@@ -111,35 +109,35 @@ const BlogCard = ({ item }) => {
           <nav className="pagination-area">
             <ul className="nav-links">
               <li>
-                <a
+                <Link
                   href="#"
                   onClick={handlePreviousClick}
                   className={
-                    currentPage === 1 ? "page-numbers disabled" : "page-numbers"
+                    currentPage === 1 ? 'page-numbers disabled' : 'page-numbers'
                   }
                   style={{
-                    cursor: currentPage === 1 ? "default" : "pointer",
+                    cursor: currentPage === 1 ? 'default' : 'pointer',
                   }}
                 >
                   <i className="ri-arrow-left-line"></i>
-                </a>
+                </Link>
               </li>
               {renderPaginationButtons()}
               <li>
-                <a
+                <Link
                   href="#"
                   className={
                     currentPage === totalPages
-                      ? "page-numbers disabled"
-                      : "page-numbers"
+                      ? 'page-numbers disabled'
+                      : 'page-numbers'
                   }
                   style={{
-                    cursor: currentPage === totalPages ? "default" : "pointer",
+                    cursor: currentPage === totalPages ? 'default' : 'pointer',
                   }}
                   onClick={handleNextClick}
                 >
                   <i className="ri-arrow-right-line"></i>
-                </a>
+                </Link>
               </li>
             </ul>
           </nav>
