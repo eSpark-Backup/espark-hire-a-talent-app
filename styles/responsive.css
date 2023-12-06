@@ -2414,7 +2414,9 @@
 
   .emoployee-tag {
     font-size: 12px;
-    line-height: 30px;
+    line-height: 25px;
+    width: 90%;
+    margin: 5px auto 0px;
   }
 
   .grid-emoployee-tag {
@@ -2477,12 +2479,13 @@
 
   .english-level {
     flex-basis: 48%;
-    padding-left: 15px !important;
+    padding-left: 10px !important;
   }
 
   .experience {
     flex-basis: 100%;
     margin-top: 5px;
+    padding-left: 0px !important;
   }
 
   .with-icon .col-sm-10 {
@@ -5202,7 +5205,8 @@
 
   .emoployee-tag {
     font-size: 15px;
-    line-height: 30px;
+    line-height: 25px;
+    width: 350px;
   }
 
   .grid-emoployee-tag {
@@ -5266,6 +5270,7 @@
   .experience {
     /* flex-basis: 50%; */
     margin-top: 5px;
+    padding-left: 0px !important;
   }
 
   .profile-detail-heading {
@@ -10576,6 +10581,8 @@
     flex: 0 0 auto;
     width: 100%;
   }
+
+ 
 }
 
 @media screen and (min-width: 375px) and (max-width: 575px) {
