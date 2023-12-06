@@ -1,14 +1,7 @@
-import React from "react";
-// import Navbar from "@/components/Layout/Navbar";
-import PageTitle from "@/components/Common/PageTitle";
-import ServicesItem from "../components/Services/ServicesItem";
-import OurCaseStudies from "@/components/Common/OurCaseStudies";
-import WorkProcess from "@/components/Common/WorkProcess";
-import PartnerSlider from "@/components/Common/PartnerSlider";
-import PricingTable from "@/components/Pricing/PricingTable";
-import Faq from "@/components/Common/Faq";
-import GetStarted from "@/components/Common/GetStarted";
-import Services2 from "@/components/CybersecurityServices/Services";
+import React from 'react';
+import PageTitle from '@/components/Common/PageTitle';
+import PartnerSlider from '@/components/Common/PartnerSlider';
+import Services2 from '@/components/CybersecurityServices/Services';
 import {
   BudgetPara,
   BudgetTitle,
@@ -25,20 +18,16 @@ import {
   whyChooseUsListItems,
   whyChooseUsPara,
   whyChooseUsTitle,
-} from "constants/constants";
-// import Features from "@/components/TechnologySolutions/Features";
-import Features from "@/components/CybersecurityServices/Features";
-import WhyChooseUs from "@/components/CybersecurityServices/WhyChooseUs";
-import CyberSafety from "@/components/CybersecurityServices/CyberSafety";
-import NewsletterForm from "@/components/Common/NewsletterForm";
-import OurServices from "@/components/BusinessConsulting/OurServices";
-import NewsletterForm2 from "@/components/Common/NewsletterForm2";
-// import Footer from "@/components/Layout/Footer";
+} from 'constants/constants';
+import Features from '@/components/CybersecurityServices/Features';
+import WhyChooseUs from '@/components/CybersecurityServices/WhyChooseUs';
+import CyberSafety from '@/components/CybersecurityServices/CyberSafety';
+import OurServices from '@/components/BusinessConsulting/OurServices';
+import NewsletterForm2 from '@/components/Common/NewsletterForm2';
 
 export default function Services() {
   return (
     <>
-      {/* Changing Starts */}
       <PageTitle
         homeText="Home"
         pageTitle="How It Works"
@@ -72,23 +61,8 @@ export default function Services() {
       <CyberSafety title={cyberSafetyTitle} para={cyberSafetyPara} />
 
       <PartnerSlider />
+
       <NewsletterForm2 />
-      {/* <NewsletterForm /> */}
-      {/* Changes Finish Here*/}
-
-      {/* <ServicesItem />
-
-      <GetStarted />
-
-      <OurCaseStudies />
-
-      <WorkProcess /> */}
-
-      {/* <div className="bg-f9f9f9 border-bottom">
-        <PricingTable />
-      </div>
-
-      <Faq /> */}
     </>
   );
 }
