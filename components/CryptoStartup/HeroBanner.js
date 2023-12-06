@@ -1,5 +1,5 @@
-import React from "react";
-import Link from "next/link";
+import React from 'react';
+import Link from 'next/link';
 
 const HeroBanner = () => {
   return (
@@ -28,9 +28,9 @@ const HeroBanner = () => {
                     </Link>
                   </li>
                   <li>
-                    <a href="#" className="white-paper-btn">
+                    <Link href="#" className="white-paper-btn">
                       White Paper
-                    </a>
+                    </Link>
                   </li>
                 </ul>
 
@@ -38,40 +38,40 @@ const HeroBanner = () => {
                   <span>Join Our Community</span>
                   <ul>
                     <li>
-                      <a
+                      <Link
                         href="https://www.facebook.com/"
                         target="_blank"
                         rel="noreferrer"
                       >
                         <i className="ri-facebook-fill"></i>
-                      </a>
+                      </Link>
                     </li>
                     <li>
-                      <a
+                      <Link
                         href="https://www.twitter.com/"
                         target="_blank"
                         rel="noreferrer"
                       >
                         <i className="ri-twitter-fill"></i>
-                      </a>
+                      </Link>
                     </li>
                     <li>
-                      <a
+                      <Link
                         href="https://www.linkedin.com/"
                         target="_blank"
                         rel="noreferrer"
                       >
                         <i className="ri-linkedin-fill"></i>
-                      </a>
+                      </Link>
                     </li>
                     <li>
-                      <a
+                      <Link
                         href="https://www.instagram.com/"
                         target="_blank"
                         rel="noreferrer"
                       >
                         <i className="ri-instagram-line"></i>
-                      </a>
+                      </Link>
                     </li>
                   </ul>
                 </div>

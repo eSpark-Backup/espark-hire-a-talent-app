@@ -1,5 +1,5 @@
-import React from "react";
-import Link from "next/link";
+import React from 'react';
+import Link from 'next/link';
 
 const HeroBanner = () => {
   return (
@@ -37,8 +37,6 @@ const HeroBanner = () => {
             </div>
           </div>
         </div>
-
-        {/* Shape images */}
         <div className="shape1">
           <img src="/images/shape/shape1.png" alt="image" />
         </div>

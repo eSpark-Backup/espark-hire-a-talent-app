@@ -1,5 +1,5 @@
-import Link from "next/link";
-import React, { useState } from "react";
+import React from 'react';
+import Link from 'next/link';
 
 const Navbar = () => {
   const [menu, setMenu] = React.useState(true);
@@ -7,22 +7,22 @@ const Navbar = () => {
     setMenu(!menu);
   };
   React.useEffect(() => {
-    let elementId = document.getElementById("navbar");
-    document.addEventListener("scroll", () => {
+    let elementId = document.getElementById('navbar');
+    document.addEventListener('scroll', () => {
       if (window.scrollY > 170) {
-        elementId.classList.add("is-sticky");
+        elementId.classList.add('is-sticky');
       } else {
-        elementId.classList.remove("is-sticky");
+        elementId.classList.remove('is-sticky');
       }
     });
   });
 
   const classOne = menu
-    ? "collapse navbar-collapse mean-menu"
-    : "collapse navbar-collapse show";
+    ? 'collapse navbar-collapse mean-menu'
+    : 'collapse navbar-collapse show';
   const classTwo = menu
-    ? "navbar-toggler navbar-toggler-right collapsed"
-    : "navbar-toggler navbar-toggler-right";
+    ? 'navbar-toggler navbar-toggler-right collapsed'
+    : 'navbar-toggler navbar-toggler-right';
 
   return (
     <>
@@ -55,49 +55,49 @@ const Navbar = () => {
                 <div className="top-header-end">
                   <div className="d-flex align-items-center justify-content-end">
                     <div className="number">
-                      <a
+                      <Link
                         href="tel:+1-485-456-0102"
                         className="d-flex align-items-center"
                       >
                         <i className="ri-phone-line"></i> +1-485-456-0102
-                      </a>
+                      </Link>
                     </div>
                     <ul className="social-links">
                       <li>
-                        <a
+                        <Link
                           href="https://www.facebook.com/"
                           target="_blank"
                           rel="noreferrer"
                         >
                           <i className="ri-facebook-box-fill"></i>
-                        </a>
+                        </Link>
                       </li>
                       <li>
-                        <a
+                        <Link
                           href="https://twitter.com/"
                           target="_blank"
                           rel="noreferrer"
                         >
                           <i className="ri-twitter-fill"></i>
-                        </a>
+                        </Link>
                       </li>
                       <li>
-                        <a
+                        <Link
                           href="https://www.linkedin.com/"
                           target="_blank"
                           rel="noreferrer"
                         >
                           <i className="ri-linkedin-box-fill"></i>
-                        </a>
+                        </Link>
                       </li>
                       <li>
-                        <a
+                        <Link
                           href="https://www.instagram.com/"
                           target="_blank"
                           rel="noreferrer"
                         >
                           <i className="ri-instagram-fill"></i>
-                        </a>
+                        </Link>
                       </li>
                     </ul>
                   </div>
@@ -185,9 +185,9 @@ const Navbar = () => {
                   </li>
 
                   <li className="nav-item">
-                    <a href="#" className="dropdown-toggle nav-link">
+                    <Link href="#" className="dropdown-toggle nav-link">
                       Services
-                    </a>
+                    </Link>
                     <ul className="dropdown-menu">
                       <li className="nav-item">
                         <Link href="/services" className="nav-link">
@@ -203,9 +203,9 @@ const Navbar = () => {
                   </li>
 
                   <li className="nav-item">
-                    <a href="#" className="dropdown-toggle nav-link">
+                    <Link href="#" className="dropdown-toggle nav-link">
                       Case Studies
-                    </a>
+                    </Link>
                     <ul className="dropdown-menu">
                       <li className="nav-item">
                         <Link href="/case-studies" className="nav-link">
