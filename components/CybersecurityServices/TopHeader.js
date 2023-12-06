@@ -1,4 +1,5 @@
-import React from 'react'
+import React from 'react';
+import Link from 'next/link';
 
 const TopHeader = () => {
   return (
@@ -10,11 +11,11 @@ const TopHeader = () => {
               <ul className="top-header-black-info">
                 <li>
                   <i className="ri-phone-line"></i>
-                  <a href="tel:15143125678">+1 (514) 312-5678</a>
+                  <Link href="tel:15143125678">+1 (514) 312-5678</Link>
                 </li>
                 <li>
                   <i className="ri-mail-line"></i>
-                  <a href="mailto:hello@lofi.com">hello@lofi.com</a>
+                  <Link href="mailto:hello@lofi.com">hello@lofi.com</Link>
                 </li>
               </ul>
             </div>
@@ -22,24 +23,40 @@ const TopHeader = () => {
             <div className="col-lg-5 col-sm-5">
               <ul className="top-header-black-social-links">
                 <li>
-                  <a href="https://www.facebook.com/" target="_blank" rel="noreferrer">
+                  <Link
+                    href="https://www.facebook.com/"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
                     <i className="ri-facebook-fill"></i>
-                  </a>
+                  </Link>
                 </li>
                 <li>
-                  <a href="https://www.twitter.com/" target="_blank" rel="noreferrer">
+                  <Link
+                    href="https://www.twitter.com/"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
                     <i className="ri-twitter-fill"></i>
-                  </a>
+                  </Link>
                 </li>
                 <li>
-                  <a href="https://www.linkedin.com/" target="_blank" rel="noreferrer">
+                  <Link
+                    href="https://www.linkedin.com/"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
                     <i className="ri-linkedin-fill"></i>
-                  </a>
+                  </Link>
                 </li>
                 <li>
-                  <a href="https://www.instagram.com/" target="_blank" rel="noreferrer">
+                  <Link
+                    href="https://www.instagram.com/"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
                     <i className="ri-instagram-line"></i>
-                  </a>
+                  </Link>
                 </li>
               </ul>
             </div>
@@ -47,7 +64,7 @@ const TopHeader = () => {
         </div>
       </div>
     </>
-  )
-}
+  );
+};
 
-export default TopHeader
+export default TopHeader;
