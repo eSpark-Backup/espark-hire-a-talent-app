@@ -2,9 +2,13 @@ import React from 'react';
 import PageTitle from '@/components/Common/PageTitle';
 import PartnerSlider from '@/components/Common/PartnerSlider';
 import Services2 from '@/components/CybersecurityServices/Services';
+import Features from '@/components/CybersecurityServices/Features';
+import WhyChooseUs from '@/components/CybersecurityServices/WhyChooseUs';
+import CyberSafety from '@/components/CybersecurityServices/CyberSafety';
+import OurServices from '@/components/BusinessConsulting/OurServices';
+import NewsletterForm2 from '@/components/Common/NewsletterForm2';
+
 import {
-  BudgetPara,
-  BudgetTitle,
   FeaturesCard,
   FeaturesPara,
   FeaturesTitle,
@@ -14,16 +18,10 @@ import {
   cyberSafetyPara,
   cyberSafetyTitle,
   processOfHowItWorks,
-  sliderData,
   whyChooseUsListItems,
   whyChooseUsPara,
   whyChooseUsTitle,
 } from 'constants/constants';
-import Features from '@/components/CybersecurityServices/Features';
-import WhyChooseUs from '@/components/CybersecurityServices/WhyChooseUs';
-import CyberSafety from '@/components/CybersecurityServices/CyberSafety';
-import OurServices from '@/components/BusinessConsulting/OurServices';
-import NewsletterForm2 from '@/components/Common/NewsletterForm2';
 
 export default function Services() {
   return (

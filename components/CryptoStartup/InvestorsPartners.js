@@ -1,4 +1,5 @@
-import React from 'react'
+import React from 'react';
+import Link from 'next/link';
 
 const InvestorsPartners = () => {
   return (
@@ -66,7 +67,7 @@ const InvestorsPartners = () => {
         </div>
       </div>
     </>
-  )
-}
+  );
+};
 
-export default InvestorsPartners
+export default InvestorsPartners;

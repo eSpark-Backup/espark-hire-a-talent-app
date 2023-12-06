@@ -1,8 +1,9 @@
 import React, { useState } from 'react';
-import Head from 'next/head';
-import { seoContent } from 'constants/SEOConstant';
-import { useRouter } from 'next/router';
 import Link from 'next/link';
+import { useRouter } from 'next/router';
+import Head from 'next/head';
+
+import { seoContent } from 'constants/SEOConstant';
 
 const NavbarStyle2 = () => {
   const [menu, setMenu] = React.useState(true);
