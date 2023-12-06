@@ -1,5 +1,4 @@
 import React from 'react';
-import Link from 'next/link';
 
 const ReliableAndSecure = ({ data }) => {
   const { title, subHeading, description, image } = data;

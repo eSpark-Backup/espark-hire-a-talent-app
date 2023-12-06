@@ -1,4 +1,4 @@
-import React from "react";
+import React from 'react';
 
 const CyberSafety = ({ title, para }) => {
   return (
@@ -16,15 +16,14 @@ const CyberSafety = ({ title, para }) => {
                 <img
                   src="/images/cybersecurity-services/10.png"
                   alt="HR consultant - human resource planning - HR service - HR solutions - HR recruitment - HR outsourcing – eSpark talent"
-                  width={"90%"}
-                  height={"90%"}
+                  width={'90%'}
+                  height={'90%'}
                 />
               </div>
             </div>
 
             <div className="col-lg-6 col-md-12">
               <div className="cyber-safety-content">
-                {/* <span className="sub-title">Cyber Safety</span> */}
                 <h2 className="fw-semibold">{title}</h2>
                 <p>{para}</p>
 
@@ -50,7 +49,7 @@ const CyberSafety = ({ title, para }) => {
                     <ul className="safety-list">
                       <li>
                         <i className="ri-checkbox-circle-line"></i>
-                        Cost-Efficient Hiring Services.{" "}
+                        Cost-Efficient Hiring Services.{' '}
                       </li>
                       <li>
                         <i className="ri-checkbox-circle-line"></i>Full-Time

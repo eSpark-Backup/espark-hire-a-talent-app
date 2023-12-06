@@ -1,13 +1,18 @@
-import Document, { Html, Head, Main, NextScript } from "next/document";
-import Script from "next/script";
+import Document, { Html, Head, Main, NextScript } from 'next/document';
+import Script from 'next/script';
 class MyDocument extends Document {
   render() {
     return (
       <Html lang="zxx">
         <Head>
-          <link rel='dns-prefetch' href='//t.visitorqueue.com' style={{ display: 'none' }} />
-          <script dangerouslySetInnerHTML={{
-            __html: `
+          <link
+            rel="dns-prefetch"
+            href="//t.visitorqueue.com"
+            style={{ display: 'none' }}
+          />
+          <script
+            dangerouslySetInnerHTML={{
+              __html: `
               function vqTrackId(){return '50055173-4b1d-4458-b3ca-e5bc55743460';}
               (function(d, e) {
                 var el = d.createElement(e);
@@ -16,15 +21,24 @@ class MyDocument extends Document {
                 d.getElementsByTagName(e)[0].parentNode.appendChild(el);
               })(document, 'script');
             `,
-          }}></script>
-          <link rel='stylesheet' type='text/css' href="https://p.visitorqueue.com/styles/50055173-4b1d-4458-b3ca-e5bc55743460.css" id='vq_flick_styles' />
-          <script dangerouslySetInnerHTML={{
-            __html: `
+            }}
+          ></script>
+          <link
+            rel="stylesheet"
+            type="text/css"
+            href="https://p.visitorqueue.com/styles/50055173-4b1d-4458-b3ca-e5bc55743460.css"
+            id="vq_flick_styles"
+          />
+          <script
+            dangerouslySetInnerHTML={{
+              __html: `
               function vqTrackPc(){return 1;}
             `,
-          }}></script>
-          <script dangerouslySetInnerHTML={{
-            __html: `
+            }}
+          ></script>
+          <script
+            dangerouslySetInnerHTML={{
+              __html: `
               (function(d, e) {
                 var el = d.createElement(e);
                 el.sa = function(an, av){this.setAttribute(an, av); return this;};
@@ -32,8 +46,8 @@ class MyDocument extends Document {
                 d.getElementsByTagName(e)[0].parentNode.appendChild(el);
               })(document, 'script');
             `,
-          }}></script>
-          {/* Google tag (gtag.js) */}
+            }}
+          ></script>
           <script
             dangerouslySetInnerHTML={{
               __html: `!function(f,b,e,v,n,t,s)
@@ -117,7 +131,7 @@ class MyDocument extends Document {
             <img
               height="1"
               width="1"
-              style={{ display: "none" }}
+              style={{ display: 'none' }}
               src="https://www.facebook.com/tr?id=826312182531681&ev=PageView&noscript=1"
             />
           </noscript>
@@ -132,7 +146,7 @@ class MyDocument extends Document {
               src="https://www.googletagmanager.com/ns.html?id=GTM-5JWLG8J2"
               height="0"
               width="0"
-              style={{ display: "none", visibility: "hidden" }}
+              style={{ display: 'none', visibility: 'hidden' }}
             ></iframe>
           </noscript>
           <Main />
