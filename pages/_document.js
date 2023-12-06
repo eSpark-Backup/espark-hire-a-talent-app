@@ -1,5 +1,5 @@
-import Document, { Html, Head, Main, NextScript } from 'next/document';
-import Script from 'next/script';
+import Document, { Html, Head, Main, NextScript } from "next/document";
+import Script from "next/script";
 class MyDocument extends Document {
   render() {
     return (
@@ -28,7 +28,7 @@ class MyDocument extends Document {
               s1.async=true;
               s1.src='https://embed.tawk.to/652e6141f2439e1631e53883/1hcuinq3o';
               s1.charset='UTF-8';
-              s1.setAttribute('crossorigin','*');
+              s1.setAttribute('crossrigin','*');
               s0.parentNode.insertBefore(s1,s0);
               })();`,
             }}
@@ -72,8 +72,15 @@ class MyDocument extends Document {
             rel="stylesheet"
           />
           <link rel="preconnect" href="https://fonts.googleapis.com" />
-          <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-          <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet" />
+          <link
+            rel="preconnect"
+            href="https://fonts.gstatic.com"
+            crossOrigin="true"
+          />
+          <link
+            href="https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;300;400;500;600;700;800;900&display=swap"
+            rel="stylesheet"
+          />
           <script
             async
             src="https://www.googletagmanager.com/gtag/js?id=G-N43EVHZHXM"
@@ -82,7 +89,7 @@ class MyDocument extends Document {
             <img
               height="1"
               width="1"
-              style={{ display: 'none' }}
+              style={{ display: "none" }}
               src="https://www.facebook.com/tr?id=826312182531681&ev=PageView&noscript=1"
             />
           </noscript>
@@ -97,7 +104,7 @@ class MyDocument extends Document {
               src="https://www.googletagmanager.com/ns.html?id=GTM-5JWLG8J2"
               height="0"
               width="0"
-              style={{ display: 'none', visibility: 'hidden' }}
+              style={{ display: "none", visibility: "hidden" }}
             ></iframe>
           </noscript>
           <Main />

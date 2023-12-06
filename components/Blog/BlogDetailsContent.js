@@ -1,6 +1,23 @@
-import { socialLinks } from 'constants/constants';
-import React from 'react';
-const BlogDetailsContent = ({ data }) => {
+import React from "react";
+import Image from "next/image";
+import { createClient } from "next-sanity";
+import imageUrlBuilder from "@sanity/image-url";
+import { socialLinks } from "constants/constants";
+import { PortableText } from "@portabletext/react";
+
+const builder = imageUrlBuilder(
+  createClient({
+    projectId: "93d1bm1e",
+    dataset: "production",
+    useCdn: true,
+  })
+);
+
+function urlFor(source) {
+  return builder.image(source);
+}
+
+const BlogDetailsContent = ({ blogPost }) => {
   return (
     <>
       <div className="blog-details-area ptb-100">
@@ -8,19 +25,36 @@ const BlogDetailsContent = ({ data }) => {
           <div className="blog-details-header row align-items-top justify-content-top">
             <div className="col-lg-6 col-md-12">
               <div className="content">
-                <h1>{data[0]?.mainHeading}</h1>
-                <p>{data[0]?.mainParagraph}</p>
+                <h1>{blogPost.bannerTitle}</h1>
+                <p>{blogPost.subtitle}</p>
                 <div className="post-author-meta">
                   <div className="d-flex align-items-center">
-                    <img
-                      src={data[0]?.postedBy?.image}
-                      alt={data[0]?.postedBy?.alt}
+                    <Image
+                      src={urlFor(blogPost.author.avatar).url()}
+                      alt={
+                        blogPost.author.firstName +
+                        " " +
+                        blogPost.author.lastName
+                      }
+                      width={80}
+                      height={80}
                     />
                     <div className="title">
                       <span className="name">
-                        By <a href="#">{data[0]?.postedBy?.name}</a>
+                        By{" "}
+                        <a href="#">
+                          {blogPost.author.firstName +
+                            " " +
+                            blogPost.author.lastName}
+                        </a>
                       </span>
-                      <span className="date">{data[0]?.postedBy?.date}</span>
+                      <span className="date">
+                        {Intl.DateTimeFormat("en-US", {
+                          year: "numeric",
+                          month: "long",
+                          day: "2-digit",
+                        }).format(new Date(blogPost.publishedAt))}
+                      </span>
                     </div>
                   </div>
                 </div>
@@ -28,7 +62,12 @@ const BlogDetailsContent = ({ data }) => {
             </div>
             <div className="col-lg-6 col-md-12">
               <div className="image">
-                <img src={data[0]?.bigImageLink} alt={data[0]?.altTag} />
+                <Image
+                  src={urlFor(blogPost.bannerImage).url()}
+                  alt={blogPost.bannerTitle}
+                  width={500}
+                  height={500}
+                />
               </div>
             </div>
           </div>
@@ -36,302 +75,33 @@ const BlogDetailsContent = ({ data }) => {
           <div className="blog-details-desc">
             <div className="article-content">
               <ul className="social-links">
-                <ul className="social-links">
-                  {socialLinks.map((item, index) => (
-                    <li key={index}>
-                      <a
-                        href={item.link}
-                        target="_blank"
-                        className={item.className}
-                      >
-                        <img
+                {socialLinks.map((item, index) => (
+                  <li key={index} className="my-1">
+                    <a
+                      href={item.link}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className={item.className}
+                    >
+                      <div className={item?.className}>
+                        <Image
                           src={item?.src}
-                          className={item?.className}
-                          width={'90%'}
-                          height={'90%'}
+                          width={40}
+                          height={40}
                           alt="social-icons"
                         />
-                      </a>
-                    </li>
-                  ))}
-                </ul>
-                {/* <li>
-                  <a
-                    href="https://www.facebook.com/people/eSpark-Talent/61550048738610/"
-                    target="_blank"
-                    className="facebook"
-                  >
-                    <i className="ri-facebook-fill"></i>
-                  </a>
-                </li>
-                <li>
-                  <a
-                    href="https://twitter.com/eSparkTalent"
-                    target="_blank"
-                    className="twitter"
-                  >
-                    <i className="ri-twitter-fill"></i>
-                  </a>
-                </li>
-                <li>
-                  <a
-                    href="https://www.linkedin.com/company/espark-talent/"
-                    target="_blank"
-                    className="linkedin"
-                  >
-                    <i className="ri-linkedin-fill"></i>
-                  </a>
-                </li>
-                <li>
-                  <a
-                    href="https://www.instagram.com/esparktalent/"
-                    target="_blank"
-                    className="instagram"
-                  >
-                    <i className="ri-instagram-fill"></i>
-                  </a>
-                </li> */}
+                      </div>
+                    </a>
+                  </li>
+                ))}
               </ul>
-              <div dangerouslySetInnerHTML={{ __html: data[0]?.content }} />
+              <div className="blogs-content">
+                <PortableText value={blogPost.body} />
+              </div>
             </div>
           </div>
         </div>
       </div>
-      {/* <div className="blog-details-area ptb-100">
-        <div className="container">
-          <div className="blog-details-header row align-items-center justify-content-center">
-            <div className="col-lg-6 col-md-12">
-              <div className="content">
-                <h1>5 Technical SEO Marketing Trends to Watch in 2022</h1>
-                <p>
-                  It is a long established fact that a reader will be distracted
-                  by the readable content of a page when looking at its layout.
-                </p>
-                <div className="post-author-meta">
-                  <div className="d-flex align-items-center">
-                    <img src="/images/user/user1.jpg" alt="image" />
-                    <div className="title">
-                      <span className="name">
-                        By <a href="#">EnvyTheme</a>
-                      </span>
-                      <span className="date">March 17, 2022</span>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div className="col-lg-6 col-md-12">
-              <div className="image">
-                <img src="/images/blog/blog9.jpg" alt="image" />
-              </div>
-            </div>
-          </div>
-          <div className="blog-details-desc">
-            <div className="article-content">
-              <ul className="social-links">
-                <li>
-                  <a href="#" target="_blank" className="facebook">
-                    <i className="ri-facebook-fill"></i>
-                  </a>
-                </li>
-                <li>
-                  <a href="#" target="_blank" className="twitter">
-                    <i className="ri-twitter-fill"></i>
-                  </a>
-                </li>
-                <li>
-                  <a href="#" target="_blank" className="linkedin">
-                    <i className="ri-linkedin-fill"></i>
-                  </a>
-                </li>
-                <li>
-                  <a href="#" target="_blank" className="instagram">
-                    <i className="ri-instagram-line"></i>
-                  </a>
-                </li>
-              </ul>
-              <p>
-                Quuntur magni dolores eos qui ratione voluptatem sequi nesciunt.
-                Neque porro quia non jgstaa numquam eius modi tempora incidunt
-                ut labore et dolore magnam dolor sit amet, consectetur
-                adipisicing voluptatem sequi nesciunt.
-              </p>
-              <p>
-                Lorem ipsum dolor sit amet, consectetur{' '}
-                <strong>adipisicing</strong> elit, sed do eiusmod tempor
-                incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-                veniam, quis nostrud exercitation ullamco laboris nisi ut
-                aliquip ex ea <a href="#">commodo</a> consequat. Duis aute irure
-                dolor in reprehenderit in sed quia non numquam eius modi tempora
-                incidunt ut labore et dolore magnam aliquam quaerat voluptatem.
-              </p>
-              <h3>So, What Exactly is Positioning and Why Does It Matter?</h3>
-              <p>
-                Quuntur magni dolores eos qui ratione voluptatem sequi nesciunt.
-                Neque porro quia non numquam eius modi tempora incidunt ut
-                labore et dolore magnam dolor sit amet, consectetur adipisicing.
-              </p>
-              <ul>
-                <li>a console</li>
-                <li>Two Joy-Con controllers that are detachable</li>
-                <li>
-                  A grip that enables you to combine them into a single{' '}
-                  <a href="#">gamepad</a> for play on the
-                </li>
-                <li>
-                  Two straps for turning the Joy-Cons into individual
-                  controllers
-                </li>
-                <li>
-                  A dock which you can use to connect your console to the{' '}
-                  <strong>television</strong> for traditional gameplay
-                </li>
-              </ul>
-              <p>
-                Quuntur magni dolores eos qui ratione voluptatem sequi nesciunt.
-                Neque porro quia non jgstaa numquam eius modi tempora incidunt
-                ut labore et dolore magnam dolor sit amet, consectetur
-                adipisicing voluptatem sequi nesciunt.
-              </p>
-              <h3>How We Defined Our Positioning: a Step-by-Step Overview</h3>
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-                enim ad minim veniam, quis nostrud exercitation ullamco laboris
-                nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
-                in reprehenderit in sed quia non numquam eius modi tempora
-                incidunt ut labore et dolore magnam aliquam quaerat voluptatem.
-              </p>
-              <blockquote className="wp-block-quote">
-                <p>
-                  It is a long established fact that a reader will be distracted
-                  by the readable when content of a page when looking at its
-                  layout.
-                </p>
-                <cite>Tom Cruise</cite>
-              </blockquote>
-              <p>
-                Lorem Ipsum has been the industry standard dummy text ever since
-                the 1500s, when an unknown printer took a galley of type and
-                scrambled it to make a type specimen.
-              </p>
-              <ul className="wp-block-gallery columns-3">
-                <li className="blocks-gallery-item">
-                  <figure>
-                    <img src="/images/blog/blog4.jpg" alt="image" />
-                  </figure>
-                </li>
-                <li className="blocks-gallery-item">
-                  <figure>
-                    <img src="/images/blog/blog5.jpg" alt="image" />
-                  </figure>
-                </li>
-                <li className="blocks-gallery-item">
-                  <figure>
-                    <img src="/images/blog/blog6.jpg" alt="image" />
-                  </figure>
-                </li>
-              </ul>
-              <p>
-                Lorem Ipsum has been the industry standard dummy text ever since
-                the 1500s, when an unknown printer took a galley of type and
-                scrambled it to make a type specimen.
-              </p>
-              <ul>
-                <li>Scientific skills for getting a better result</li>
-                <li>Communication skills to getting in touch</li>
-                <li>A career overview opportunity available</li>
-                <li>A good work environment for work</li>
-              </ul>
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-                enim ad minim veniam, quis nostrud.
-              </p>
-              <div className="article-tags">
-                <a href="blog.html">#Business</a>
-                <a href="blog.html">#Startup</a>
-                <a href="blog.html">#Agency</a>
-              </div>
-              <div className="comment-respond">
-                <h3 className="comment-reply-title">Leave A Reply</h3>
-                <form className="comment-form">
-                  <p className="comment-notes">
-                    Your email address will not be published. Required fields
-                    are marked <span className="required">*</span>
-                  </p>
-                  <div className="row">
-                    <div className="col-lg-6 col-md-6 col-sm-6">
-                      <div className="form-group">
-                        <label>Name *</label>
-                        <input
-                          type="text"
-                          name="name"
-                          className="form-control"
-                          placeholder="Eg: Sarah Taylor"
-                        />
-                      </div>
-                    </div>
-                    <div className="col-lg-6 col-md-6 col-sm-6">
-                      <div className="form-group">
-                        <label>Email *</label>
-                        <input
-                          type="email"
-                          name="email"
-                          className="form-control"
-                          placeholder="hello@sarah.com"
-                        />
-                      </div>
-                    </div>
-                    <div className="col-lg-12 col-md-12 col-sm-12">
-                      <div className="form-group">
-                        <label>Website</label>
-                        <input
-                          type="text"
-                          name="website"
-                          className="form-control"
-                          placeholder="Website"
-                        />
-                      </div>
-                    </div>
-                    <div className="col-lg-12 col-md-12 col-sm-12">
-                      <div className="form-group">
-                        <label>Comment</label>
-                        <textarea
-                          name="message"
-                          className="form-control"
-                          cols="30"
-                          rows="5"
-                          placeholder="Comment..."
-                        ></textarea>
-                      </div>
-                    </div>
-                    <div className="col-lg-4 col-md-5 col-sm-12">
-                      <button type="submit" className="default-btn">
-                        <span className="ri-arrow-right-s-line"></span>Post A
-                        Comment
-                      </button>
-                    </div>
-                    <div className="col-lg-8 col-md-7 col-sm-12">
-                      <div className="form-check">
-                        <input
-                          type="checkbox"
-                          className="form-check-input"
-                          id="checkme"
-                        />
-                        <label className="form-check-label" htmlFor="checkme">
-                          Save my name, email, and website in this browser for
-                          the next time I comment.
-                        </label>
-                      </div>
-                    </div>
-                  </div>
-                </form>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div> */}
     </>
   );
 };
