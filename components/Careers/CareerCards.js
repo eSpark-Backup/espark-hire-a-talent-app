@@ -30,9 +30,12 @@ const CareerCards = ({ jobs, jobCategories }) => {
   }, [selectedCategory]);
 
   useEffect(() => {
-    setSelectedCategory("All");
+    const categoryById = jobCategories.find(
+      (category) => category._id === router.query.jobCategory
+    );
+    setSelectedCategory(categoryById ? categoryById._id : "all");
     setCurrentPage(1);
-  }, [jobs]);
+  }, [jobs, jobCategories, router]);
 
   const renderPaginationButtons = () => {
     const buttons = [];
@@ -76,7 +79,11 @@ const CareerCards = ({ jobs, jobCategories }) => {
   return (
     <>
       <div>
-        <select className="dropdown" onChange={handleJobCategoryChange}>
+        <select
+          className="dropdown"
+          value={selectedCategory}
+          onChange={handleJobCategoryChange}
+        >
           <option className="option" value="all" key="all">
             All
           </option>

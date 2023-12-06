@@ -1,15 +1,15 @@
-import React, { useState } from 'react'
-import FsLightbox from 'fslightbox-react'
+import React, { useState } from 'react';
+import FsLightbox from 'fslightbox-react';
 
 const IntroVideo = () => {
-  // if toggler is updated when lightbox is closed it will open it
-  // if toggler is updated when lightbox is opened it will close it
-  const [toggler, setToggler] = useState(false)
+  const [toggler, setToggler] = useState(false);
   return (
     <>
       <FsLightbox
         toggler={toggler}
-        sources={['https://www.youtube.com/watch?v=rn6R4ncd2OU&ab_channel=BBCEarth']}
+        sources={[
+          'https://www.youtube.com/watch?v=rn6R4ncd2OU&ab_channel=BBCEarth',
+        ]}
       />
 
       <div className="video-style-area">
@@ -22,7 +22,7 @@ const IntroVideo = () => {
         </div>
       </div>
     </>
-  )
-}
+  );
+};
 
-export default IntroVideo
+export default IntroVideo;
