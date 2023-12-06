@@ -105,9 +105,9 @@ const PreTokenSale = () => {
 
                 <ul className="pre-token-sale-ends-btn">
                   <li>
-                    <a href="#" className="buy-token-btn">
+                    <Link href="#" className="buy-token-btn">
                       Buy Tokens
-                    </a>
+                    </Link>
                   </li>
                   <li>Minimum Purchase: 10 ICO Token</li>
                 </ul>

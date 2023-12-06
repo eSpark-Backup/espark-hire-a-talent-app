@@ -62,7 +62,7 @@ const Footer = () => {
                   <h3>Follow Us</h3>
                   {socialLinks?.map((item, index) => (
                     <li key={index}>
-                      <a
+                      <Link
                         href={item?.link}
                         target="_blank"
                         className={item?.className}
@@ -74,7 +74,7 @@ const Footer = () => {
                           height={'90%'}
                           alt="social-icons"
                         />
-                      </a>
+                      </Link>
                     </li>
                   ))}
                 </ul>
@@ -123,7 +123,7 @@ const Footer = () => {
                   {footerContact?.map((i) => {
                     return (
                       <li key={i.id}>
-                        <a href={`mailto:${i.item}`}>{i.item}</a>
+                        <Link href={`mailto:${i.item}`}>{i.item}</Link>
                       </li>
                     );
                   })}

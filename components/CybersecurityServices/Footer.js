@@ -89,15 +89,15 @@ const Footer = () => {
                   </li>
                   <li>
                     <i className="ri-mail-line"></i> Email:{' '}
-                    <a href="mailto:hello@lofi.com">hello@lofi.com</a>
+                    <Link href="mailto:hello@lofi.com">hello@lofi.com</Link>
                   </li>
                   <li>
                     <i className="ri-phone-line"></i> Phone:{' '}
-                    <a href="tel:+44587154756">+44 587 154756</a>
+                    <Link href="tel:+44587154756">+44 587 154756</Link>
                   </li>
                   <li>
                     <i className="ri-headphone-line"></i> Fax:{' '}
-                    <a href="tel:+44587154756">+55 58715 4756</a>
+                    <Link href="tel:+44587154756">+55 58715 4756</Link>
                   </li>
                 </ul>
               </div>
