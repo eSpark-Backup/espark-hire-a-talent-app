@@ -1,12 +1,13 @@
 import React from 'react';
-import PartnerSelect from './PartnerSelect';
 import { countries } from 'constants/partnersConstants';
 import { useFormik } from 'formik';
 import { profileValidationSchema } from './Schema/partnerFormSchema';
 import { useRouter } from 'next/navigation';
 import emailjs from '@emailjs/browser';
+import PartnerCustomDropdown from './PartnerCustomDropdown';
 
 const PartnerForm = () => {
+  const [selectedOption, setSelectedOption] = React.useState('Please Select');
   const options = countries?.map((opt) => opt?.option);
 
   const router = useRouter();
@@ -25,6 +26,7 @@ const PartnerForm = () => {
     initialValues: PartnerFormData,
     validationSchema: profileValidationSchema,
     onSubmit: (values, action) => {
+      values.country = selectedOption;
       try {
         emailjs
           .send('service_ac1wtgm', 'template_6y49v0k', {
@@ -94,7 +96,7 @@ const PartnerForm = () => {
           </div>
           <div className="partner-form-your-email-adress">
             <label htmlFor="" className="label">
-              Your Email adress<span className="starick">*</span>
+              Your Email Address<span className="starick">*</span>
             </label>
             <input
               type="email"
@@ -116,7 +118,7 @@ const PartnerForm = () => {
               className="input"
               name="phone_number"
               value={values?.phone_number}
-              placeholder="+00 00000000"
+              placeholder="+0000000000"
               onChange={handleChange}
             />
             {touched?.phone_number && errors?.phone_number && (
@@ -127,15 +129,11 @@ const PartnerForm = () => {
             <label htmlFor="" className="label">
               Which Country are you Located in?
             </label>
-            <PartnerSelect
+            <PartnerCustomDropdown
               option={options}
-              name={'country'}
-              value={values?.country}
-              onChange={handleChange}
+              selectedOption={selectedOption}
+              setSelectedOption={setSelectedOption}
             />
-            {touched?.country && errors?.country && (
-              <span className="error-message">{errors?.country}</span>
-            )}
           </div>
           <div className="partner-form-LinkedIn-Profile">
             <label htmlFor="" className="label">

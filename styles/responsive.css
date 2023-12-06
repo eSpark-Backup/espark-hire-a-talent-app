@@ -6238,6 +6238,10 @@ color: var(--blackColor) !important;
     padding-right: 15px;
     justify-content: center;
   }
+  .partner-form .dropdown-header-title{
+    width: 214px;
+  }
+ 
 }
 /* @media screen and (max-width: 490px){
   .with-space {
