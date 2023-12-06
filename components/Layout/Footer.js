@@ -1,16 +1,12 @@
-import React from "react";
-import Link from "next/link";
-import {
-  sliderData,
-  footerContact,
-  socialLinks,
-} from "../../constants/constants";
+import React from 'react';
+import Link from 'next/link';
+
+import { footerContact, sliderData, socialLinks } from 'constants/constants';
 
 const Footer = () => {
   return (
-    <React.Fragment>
+    <>
       <footer className="footer-area">
-        {/* Linkedin Insight Tag */}
         <script
           type="text/javascript"
           dangerouslySetInnerHTML={{
@@ -37,7 +33,7 @@ const Footer = () => {
             <img
               height="1"
               width="1"
-              style={{ display: "none" }}
+              style={{ display: 'none' }}
               src="https://px.ads.linkedin.com/collect/?pid=6113401&fmt=gif"
             />
           </noscript>
@@ -66,7 +62,7 @@ const Footer = () => {
                   <h3>Follow Us</h3>
                   {socialLinks?.map((item, index) => (
                     <li key={index}>
-                      <a
+                      <Link
                         href={item?.link}
                         target="_blank"
                         className={item?.className}
@@ -74,11 +70,11 @@ const Footer = () => {
                         <img
                           src={item?.src}
                           className={item?.className}
-                          width={"90%"}
-                          height={"90%"}
+                          width={'90%'}
+                          height={'90%'}
                           alt="social-icons"
                         />
-                      </a>
+                      </Link>
                     </li>
                   ))}
                 </ul>
@@ -127,7 +123,7 @@ const Footer = () => {
                   {footerContact?.map((i) => {
                     return (
                       <li key={i.id}>
-                        <a href={`mailto:${i.item}`}>{i.item}</a>
+                        <Link href={`mailto:${i.item}`}>{i.item}</Link>
                       </li>
                     );
                   })}
@@ -156,7 +152,7 @@ const Footer = () => {
           </div>
         </div>
       </footer>
-    </React.Fragment>
+    </>
   );
 };
 
