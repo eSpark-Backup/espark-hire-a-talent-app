@@ -1,5 +1,5 @@
-import Link from "next/link";
-import React, { useState } from "react";
+import React from 'react';
+import Link from 'next/link';
 
 const Navbar = () => {
   const [menu, setMenu] = React.useState(true);
@@ -7,22 +7,22 @@ const Navbar = () => {
     setMenu(!menu);
   };
   React.useEffect(() => {
-    let elementId = document.getElementById("navbar");
-    document.addEventListener("scroll", () => {
+    let elementId = document.getElementById('navbar');
+    document.addEventListener('scroll', () => {
       if (window.scrollY > 170) {
-        elementId.classList.add("is-sticky");
+        elementId.classList.add('is-sticky');
       } else {
-        elementId.classList.remove("is-sticky");
+        elementId.classList.remove('is-sticky');
       }
     });
   });
 
   const classOne = menu
-    ? "collapse navbar-collapse mean-menu"
-    : "collapse navbar-collapse show";
+    ? 'collapse navbar-collapse mean-menu'
+    : 'collapse navbar-collapse show';
   const classTwo = menu
-    ? "navbar-toggler navbar-toggler-right collapsed"
-    : "navbar-toggler navbar-toggler-right";
+    ? 'navbar-toggler navbar-toggler-right collapsed'
+    : 'navbar-toggler navbar-toggler-right';
 
   return (
     <>

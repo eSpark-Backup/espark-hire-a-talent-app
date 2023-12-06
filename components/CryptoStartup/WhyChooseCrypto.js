@@ -10,7 +10,7 @@ const WhyChooseCrypto = ({
   shape,
 }) => {
   return (
-    <React.Fragment>
+    <>
       <div
         className={
           backGround
@@ -92,7 +92,7 @@ const WhyChooseCrypto = ({
           </div>
         </div>
       </div>
-    </React.Fragment>
+    </>
   );
 };
 

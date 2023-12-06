@@ -1,4 +1,5 @@
-import React from 'react'
+import React from 'react';
+import Link from 'next/link';
 
 const TopHeader = () => {
   return (
@@ -22,22 +23,38 @@ const TopHeader = () => {
             <div className="col-lg-5 col-sm-5">
               <ul className="top-header-black-social-links">
                 <li>
-                  <a href="https://www.facebook.com/" target="_blank" rel="noreferrer">
+                  <a
+                    href="https://www.facebook.com/"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
                     <i className="ri-facebook-fill"></i>
                   </a>
                 </li>
                 <li>
-                  <a href="https://www.twitter.com/" target="_blank" rel="noreferrer">
+                  <a
+                    href="https://www.twitter.com/"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
                     <i className="ri-twitter-fill"></i>
                   </a>
                 </li>
                 <li>
-                  <a href="https://www.linkedin.com/" target="_blank" rel="noreferrer">
+                  <a
+                    href="https://www.linkedin.com/"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
                     <i className="ri-linkedin-fill"></i>
                   </a>
                 </li>
                 <li>
-                  <a href="https://www.instagram.com/" target="_blank" rel="noreferrer">
+                  <a
+                    href="https://www.instagram.com/"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
                     <i className="ri-instagram-line"></i>
                   </a>
                 </li>
@@ -47,7 +64,7 @@ const TopHeader = () => {
         </div>
       </div>
     </>
-  )
-}
+  );
+};
 
-export default TopHeader
+export default TopHeader;

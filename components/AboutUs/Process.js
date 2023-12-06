@@ -2,7 +2,7 @@ import React from 'react';
 
 const Process = ({ title, processData }) => {
   return (
-    <React.Fragment>
+    <>
       <div className="process-area ptb-100">
         <div className="container-xl">
           <div className="process-inner">
@@ -33,7 +33,7 @@ const Process = ({ title, processData }) => {
           </div>
         </div>
       </div>
-    </React.Fragment>
+    </>
   );
 };
 

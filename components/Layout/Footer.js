@@ -1,14 +1,11 @@
 import React from 'react';
 import Link from 'next/link';
-import {
-  sliderData,
-  footerContact,
-  socialLinks,
-} from '../../constants/constants';
+
+import { footerContact, sliderData, socialLinks } from 'constants/constants';
 
 const Footer = () => {
   return (
-    <React.Fragment>
+    <>
       <footer className="footer-area">
         <script
           type="text/javascript"
@@ -155,7 +152,7 @@ const Footer = () => {
           </div>
         </div>
       </footer>
-    </React.Fragment>
+    </>
   );
 };
 

@@ -2,6 +2,11 @@ import React from 'react';
 import PageTitle from '@/components/Common/PageTitle';
 import Process from '@/components/AboutUs/Process';
 import GetStarted from '@/components/Common/GetStarted';
+import WhatWeWork from '@/components/CybersecurityServices/WhatWeWork';
+import IndustryPartners from '@/components/CryptoStartup/IndustryPartners';
+import WhyChooseCrypto from '@/components/CryptoStartup/WhyChooseCrypto';
+import Faq from '@/components/Common/Faq';
+import NewsletterForm2 from '@/components/Common/NewsletterForm2';
 
 import {
   FaqData,
@@ -23,11 +28,6 @@ import {
   WhatWeWorkTitle,
   processTitle,
 } from 'constants/constants';
-import WhatWeWork from '@/components/CybersecurityServices/WhatWeWork';
-import IndustryPartners from '@/components/CryptoStartup/IndustryPartners';
-import WhyChooseCrypto from '@/components/CryptoStartup/WhyChooseCrypto';
-import Faq from '@/components/Common/Faq';
-import NewsletterForm2 from '@/components/Common/NewsletterForm2';
 
 export default function AboutUs() {
   return (
