@@ -1,30 +1,30 @@
 const postedItems = (name, date, img, alt) => {
-    return {
-        name: name,
-        date: date,
-        image: img,
-        alt: alt,
-    };
+  return {
+    name: name,
+    date: date,
+    image: img,
+    alt: alt,
+  };
 };
 
 export const blogData = [
-    {
-        id: 1,
-        slug: "handling-employee-benefits",
-        title: "Premier Steps & Tips For Handling Employee Benefits",
-        imageLink: "/images/blog/Handling Employee Benefits-vertical.png",
-        altTag:
-            "Employee Benefits - Employee Benefits in HRM - Employee Benefits importance - eSpark Talent",
-        bigImageLink: "/images/blog/Handling Employee Benefits.jpg",
-        mainHeading: `Handling Employee Benefits - The Ultimate Guide`,
-        mainParagraph: `Need assistance in handling employee benefits. Here is our comprehensive guide of all the finest steps and working tips.`,
-        postedBy: postedItems(
-            "Mehdi Raza",
-            "Oct 27, 2023",
-            "/images/user/mehdi-raza.png",
-            "Employee Benefits - Employee Benefits in HRM - Employee Benefits importance - eSpark Talent"
-        ),
-        content: `<div class="blogs-content">
+  {
+    id: 1,
+    slug: 'handling-employee-benefits',
+    title: 'Premier Steps & Tips For Handling Employee Benefits',
+    imageLink: '/images/blog/Handling Employee Benefits-vertical.png',
+    altTag:
+      'Employee Benefits - Employee Benefits in HRM - Employee Benefits importance - eSpark Talent',
+    bigImageLink: '/images/blog/Handling Employee Benefits.jpg',
+    mainHeading: `Handling Employee Benefits - The Ultimate Guide`,
+    mainParagraph: `Need assistance in handling employee benefits. Here is our comprehensive guide of all the finest steps and working tips.`,
+    postedBy: postedItems(
+      'Mehdi Raza',
+      'Oct 27, 2023',
+      '/images/user/mehdi-raza.png',
+      'Employee Benefits - Employee Benefits in HRM - Employee Benefits importance - eSpark Talent'
+    ),
+    content: `<div class="blogs-content">
                 <p>Handling employee benefits means taking full responsibility of workforce needs. Likewise, many human resource professionals feel that the process of employee benefits is quite costly. Therefore, strong observation, an active mindset, and brilliant payroll management skills are required.</p>
                 <p>However, many are aware that with smart steps and top-rated techniques, a benefits administrator can ease the HR department and management. Moreover, insights about the sustainable employee benefits process help HR to support the workforce and retain them.</p>
                 <p>Chill Out because today’s blog is all about managing employee benefits and how you can implement new benefits by following the shared steps and tips below. So, scroll down and find them all!</p>
@@ -116,24 +116,24 @@ export const blogData = [
                 <p>That's all for now, as we will see you soon! Feel free to visit <a href="https://esparktalent.com/">eSpark Talent's</a> official website to hire the best-outsourced talent in the town. Follow our Instagram, <a href="https://www.facebook.com/people/eSpark-Talent/61550048738610/" target="_blank">Facebook</a>, and <a href="https://www.linkedin.com/company/espark-talent/" target="_blank">LinkedIn</a> pages to get updated about our furnished outsourcing services.</p>
                 </div>
                 `,
-    },
-    {
-        id: 2,
-        slug: "streamline-payroll-processing",
-        title: "How to Streamline Payroll Processing - Step-by-Step Guide",
-        imageLink: "/images/blog/streamline-payroll-processing-vertical.png",
-        altTag:
-            "Streamline Payroll Processing - Payroll Processing Salary - Payroll Processing HRM - eSpark Talent",
-        bigImageLink: "/images/blog/streamline-payroll-processing.jpg",
-        mainHeading: `Easy Tips to Streamline Payroll Processing`,
-        mainParagraph: `Got stuck in the complicated payment cycle? Relax and note down these contemporary tips to streamline payroll processing of your workplace.`,
-        postedBy: postedItems(
-            "Mehdi Raza",
-            "Oct 26, 2023",
-            "/images/user/mehdi-raza.png",
-            "Streamline Payroll Processing - Payroll Processing Salary - Payroll Processing HRM - eSpark Talent"
-        ),
-        content: `<div class="blogs-content">
+  },
+  {
+    id: 2,
+    slug: 'streamline-payroll-processing',
+    title: 'How to Streamline Payroll Processing - Step-by-Step Guide',
+    imageLink: '/images/blog/streamline-payroll-processing-vertical.png',
+    altTag:
+      'Streamline Payroll Processing - Payroll Processing Salary - Payroll Processing HRM - eSpark Talent',
+    bigImageLink: '/images/blog/streamline-payroll-processing.jpg',
+    mainHeading: `Easy Tips to Streamline Payroll Processing`,
+    mainParagraph: `Got stuck in the complicated payment cycle? Relax and note down these contemporary tips to streamline payroll processing of your workplace.`,
+    postedBy: postedItems(
+      'Mehdi Raza',
+      'Oct 26, 2023',
+      '/images/user/mehdi-raza.png',
+      'Streamline Payroll Processing - Payroll Processing Salary - Payroll Processing HRM - eSpark Talent'
+    ),
+    content: `<div class="blogs-content">
             <p>What are the signs of a perfect office place according to you? We can have a never-ending discussion here. But we all can agree on one thing, that a company with streamline payroll processing always wins the game. In fact, a firm that pays employees on time and regulates the administrative financial payroll cycle professionally earns reliable support from the working employees.</p>
             <p>Challenges in the payroll process are expected when the workplace system is not updated. As disorganized records of expenses and not tracking employees' business hours come as the primest financial management hurdles in business organizations. That’s why today we have come up with exceptional tips for smoother payroll processing.</p>
             <h3>Key Takeaway</h3>
@@ -191,24 +191,24 @@ export const blogData = [
             <p>That’s all for now, as we will be right back with another interesting and informative blog. For the urgent hiring of professional outsourced talent feel free to visit <a href="https://esparktalent.com/">eSpark Talent</a>. Hence, you can follow us on Instagram, <a href="https://www.facebook.com/people/eSpark-Talent/61550048738610/" target="_blank">Facebook</a>, and <a href="https://www.linkedin.com/company/espark-talent/" target="_blank">LinkedIn</a> to learn more about our demanding services. Take Care!</p>
             </div>
             `,
-    },
-    {
-        id: 3,
-        slug: "remote-work",
-        title: "Empower Yourself: How to Overcome the Isolation of Remote Work",
-        imageLink: "/images/blog/remote-work-vertical.png",
-        altTag:
-            "Remote Work - Remote Work Part Time - Remote Job Worldwide - eSpark Talent",
-        bigImageLink: "/images/blog/remote-work.png",
-        mainHeading: `How to Get Rid of Feeling Isolated During Remote Work?`,
-        mainParagraph: `Is remote work not good for employees? Learn about the reasons and altering solutions for isolation due to remote jobs here.`,
-        postedBy: postedItems(
-            "Mehdi Raza",
-            "Oct 25, 2023",
-            "/images/user/mehdi-raza.png",
-            "Remote Work - Remote Work Part Time - Remote Job Worldwide - eSpark Talent"
-        ),
-        content: `<div class="blogs-content">
+  },
+  {
+    id: 3,
+    slug: 'remote-work',
+    title: 'Empower Yourself: How to Overcome the Isolation of Remote Work',
+    imageLink: '/images/blog/remote-work-vertical.png',
+    altTag:
+      'Remote Work - Remote Work Part Time - Remote Job Worldwide - eSpark Talent',
+    bigImageLink: '/images/blog/remote-work.png',
+    mainHeading: `How to Get Rid of Feeling Isolated During Remote Work?`,
+    mainParagraph: `Is remote work not good for employees? Learn about the reasons and altering solutions for isolation due to remote jobs here.`,
+    postedBy: postedItems(
+      'Mehdi Raza',
+      'Oct 25, 2023',
+      '/images/user/mehdi-raza.png',
+      'Remote Work - Remote Work Part Time - Remote Job Worldwide - eSpark Talent'
+    ),
+    content: `<div class="blogs-content">
                     <p>Hybrid office working models during COVID-19 may grab applause for the current demand of remote work employment around the masses. But we can’t run from the fact that it was a common thing for countries, like the Netherlands, Ireland, and Swedes where most of the remote-based employees are found. These points reveal that the work-from-home practice of professional employment was always on the cards to change the future of corporate companies.</p>
                 <p>However, in recent years, things have not completely worked for this way of professional employment. Likewise, according to the research during and after the pandemic, it was found that around 56% to 67% of employees have faced isolated situations due to working from home.</p>
                 <p>Let’s dive into the prime reasons why employees feel lonely even though they are working in one of the most comfortable places they can ever want. And then move into the top tips to overcome the isolation effects while working from home.</p>
@@ -290,23 +290,23 @@ export const blogData = [
                 <p>The shared list can extend to thirty to fifty suggestions and ideas, as it is always the play of our minds. Instead of thinking that a remote job pulls down individuals we should utilize this allocation and promote it with fast and creative results. Productive results come when all the participants are active and ready to serve with their all-in instincts. This is the end of today’s blog. Visit the official website of <a href="https://esparktalent.com/">eSpark Talent</a> to learn more about employee outsourcing services that are supporting worldwide businesses to grow. Follow us on Instagram, <a href="https://www.facebook.com/people/eSpark-Talent/61550048738610/" target="_blank">Facebook</a>, and <a href="https://www.linkedin.com/company/espark-talent/" target="_blank">LinkedIn</a> to get updates regarding the helpful experts we offer to our clients.</p>
                 </div>
                 `,
-    },
-    {
-        id: 4,
-        slug: "hr-consultant",
-        title: "How to Start Independently HR Consulting",
-        imageLink: "/images/blog/hr-consultant.png",
-        altTag: "HR Consultant - Consultant HR - HR Consulting - eSpark Talent",
-        bigImageLink: "/images/blog/comprehensive-guide.jpg",
-        mainHeading: `Guide to Become A Successful Independent HR Consultant`,
-        mainParagraph: `Got skills & qualifications related to HR consulting? Start offering services independently with our well-explained guide here. `,
-        postedBy: postedItems(
-            "Mehdi Raza",
-            "Oct 06, 2023",
-            "/images/user/mehdi-raza.png",
-            "HR Consultant - Consultant HR - HR Consulting - eSpark Talent"
-        ),
-        content: `<div class="blogs-content">
+  },
+  {
+    id: 4,
+    slug: 'hr-consultant',
+    title: 'How to Start Independently HR Consulting',
+    imageLink: '/images/blog/hr-consultant.png',
+    altTag: 'HR Consultant - Consultant HR - HR Consulting - eSpark Talent',
+    bigImageLink: '/images/blog/comprehensive-guide.jpg',
+    mainHeading: `Guide to Become A Successful Independent HR Consultant`,
+    mainParagraph: `Got skills & qualifications related to HR consulting? Start offering services independently with our well-explained guide here. `,
+    postedBy: postedItems(
+      'Mehdi Raza',
+      'Oct 06, 2023',
+      '/images/user/mehdi-raza.png',
+      'HR Consultant - Consultant HR - HR Consulting - eSpark Talent'
+    ),
+    content: `<div class="blogs-content">
                 <p>Digitalization and online earning platforms have eased professionals to utilize their acquired skills and valuable money. As every demanding professional job can be done online, then why not HR consulting?</p>
             <p>Doesn’t it feel relaxing to be the boss of your own? As the comfort of the home offers a positive work mood. The world has adopted the online earning approach, and now this is the time for HR consultants to join the club. </p>
             <p>Offering human resource services independently saves professionals from the hurdle of the regular corporate work cycle. On the other hand, it seems like a more hectic task to launch an in-house HR services business. That's why let’s learn how individuals can offer their expertise of HR without working under any in-house firm.</p>
@@ -364,24 +364,24 @@ export const blogData = [
             <p>That’s all for today dear readers. We will be right back with another worth-reading blog. Till then, take care, and visit the official website of eSpark Talent to learn more about employee outsourcing services. Follow us on LinkedIn, Facebook, and Instagram to discover everything about our future offered onboarding opportunities.</p>
             </div>
             `,
-    },
-    {
-        id: 5,
-        slug: "human-resource-management",
-        title: "Defining Human Resource Management: A Dive into HRM.",
-        imageLink: "/images/blog/human-resource-management.png",
-        altTag:
-            "Human Resource Management - Role of human resource management - Scope of Human Resource Management - Human Resource Management jobs - eSpark Talent",
-        bigImageLink: "/images/blog/blog10.jpg",
-        mainHeading: `Human Resource Management - The Demanding Approach for Business Success`,
-        mainParagraph: `Want to know everything about human resource management and other HR functions? Here is our informative and well-experienced blog about HRM.`,
-        postedBy: postedItems(
-            "Mehdi Raza",
-            "Oct 05, 2023",
-            "/images/user/mehdi-raza.png",
-            "Human Resource Management - Role of human resource management - Scope of Human Resource Management - Human Resource Management jobs - eSpark Talent"
-        ),
-        content: `<div class="blogs-content">
+  },
+  {
+    id: 5,
+    slug: 'human-resource-management',
+    title: 'Defining Human Resource Management: A Dive into HRM.',
+    imageLink: '/images/blog/human-resource-management.png',
+    altTag:
+      'Human Resource Management - Role of human resource management - Scope of Human Resource Management - Human Resource Management jobs - eSpark Talent',
+    bigImageLink: '/images/blog/blog10.jpg',
+    mainHeading: `Human Resource Management - The Demanding Approach for Business Success`,
+    mainParagraph: `Want to know everything about human resource management and other HR functions? Here is our informative and well-experienced blog about HRM.`,
+    postedBy: postedItems(
+      'Mehdi Raza',
+      'Oct 05, 2023',
+      '/images/user/mehdi-raza.png',
+      'Human Resource Management - Role of human resource management - Scope of Human Resource Management - Human Resource Management jobs - eSpark Talent'
+    ),
+    content: `<div class="blogs-content">
             <p>Corporate professionals and job-hunting individuals will be very much familiar with human resource management. The reason for the popularity of the HR department in the business world links with the involvement in different companies' endeavors.</p>
         <p>Business biggies and small privately-owned companies do have their own way of running things around. In the same way, HR executives develop management strategies to honor the adopted approaches and guide the workforce to follow them actively.</p>
         <p>Even though the HR department is quite open to all, there are still a few things that aren’t clear to most of the people. Likewise, what is HRM, what is involved in the HR department, and how does it function within the organization? So, let’s suit up and dive into the world of HRM and get the information insights here.</p>
@@ -441,24 +441,24 @@ export const blogData = [
         <p>Lastly, thanks all for reading our today’s blog. We will be right back with another informative blog soon. Visit the official website of eSpark Talent to learn more about our online human resource and employee outsourcing services. Follow us on Instagram, Facebook, and LinkedIn for day-to-day updates of our business endeavors.</p>
         </div>
         `,
-    },
-    {
-        id: 6,
-        slug: "hiring-manager",
-        title: "Getting to Know Your Hiring Manager: A Step-by-Step Guide",
-        imageLink: "/images/blog/hiring-manager.png",
-        altTag:
-            "Hiring Manager - Hiring manager vs recruiter - Hiring manager vs HR - eSpark Talent",
-        bigImageLink: "/images/blog/blog4.jpg",
-        mainHeading: `Everything to Know About Hiring Manager - Skills & Responsibilities.`,
-        mainParagraph: `Who are hiring managers? and what skills are required to be a professional hiring manager? Find out all here.`,
-        postedBy: postedItems(
-            "Mehdi Raza",
-            "Oct 04, 2023",
-            "/images/user/mehdi-raza.png",
-            "Hiring Manager - Hiring manager vs recruiter - Hiring manager vs HR - eSpark Talent"
-        ),
-        content: `<div class="blogs-content">
+  },
+  {
+    id: 6,
+    slug: 'hiring-manager',
+    title: 'Getting to Know Your Hiring Manager: A Step-by-Step Guide',
+    imageLink: '/images/blog/hiring-manager.png',
+    altTag:
+      'Hiring Manager - Hiring manager vs recruiter - Hiring manager vs HR - eSpark Talent',
+    bigImageLink: '/images/blog/blog4.jpg',
+    mainHeading: `Everything to Know About Hiring Manager - Skills & Responsibilities.`,
+    mainParagraph: `Who are hiring managers? and what skills are required to be a professional hiring manager? Find out all here.`,
+    postedBy: postedItems(
+      'Mehdi Raza',
+      'Oct 04, 2023',
+      '/images/user/mehdi-raza.png',
+      'Hiring Manager - Hiring manager vs recruiter - Hiring manager vs HR - eSpark Talent'
+    ),
+    content: `<div class="blogs-content">
         <p>In today’s time almost every professional knows that the HR department owns the responsibility of hiring employees. So, where does a hiring manager come for the service? Yes! We know that you also have some questions regarding the work of hiring managers to clear your mind. That's why today’s interesting blog is all about those creative and smart managers.</p>
     <p>The hiring process can be hectic sometimes as every company wants the best of the best workforce to extend their business. The thinking process is acceptable as no one wants to be left out in this competitive world. Hence, during these urgencies and requirements of hunting the best talent, the services of hiring specialists are acquired.</p>
     <p>Well, that’s not enough as there is much to know about this professional field of quick and energetic minds. Scroll down to learn more!</p>
@@ -508,27 +508,27 @@ export const blogData = [
     <p>Recruitment or onboarding managers can be famously known as the final decision-makers for hiring employees. Thus, there is more that should be learned about the responsibilities and involvements of this position, just like the shared points above. Well, this is the end of today’s blog, and we will see you soon! eSpark Talent is a renowned employee outsourcing services provider. Feel free to visit our official website and follow us on Facebook, Instagram, and LinkedIn to grab more about our professional endeavors.</p>
     </div>
     `,
-    },
-    {
-        id: 7,
-        slug: "positive-work-culture",
-        title: "8 Tips Guide for Bringing Positive Work Culture",
-        imageLink: "/images/blog/8-Tips-Guide.png",
-        altTag:
-            "Positive Work Culture - Positive culture examples - Positive workplace culture examples - espark Talent",
-        bigImageLink: "/images/blog/blog3.png",
-        mainHeading: `Secret of Bringing Positive Work Culture - A Compressive Guide For 
+  },
+  {
+    id: 7,
+    slug: 'positive-work-culture',
+    title: '8 Tips Guide for Bringing Positive Work Culture',
+    imageLink: '/images/blog/8-Tips-Guide.png',
+    altTag:
+      'Positive Work Culture - Positive culture examples - Positive workplace culture examples - espark Talent',
+    bigImageLink: '/images/blog/blog3.png',
+    mainHeading: `Secret of Bringing Positive Work Culture - A Compressive Guide For 
 Office Workplaces.`,
-        mainParagraph: `Companies must embrace the change and follow what
+    mainParagraph: `Companies must embrace the change and follow what
 is best for them. Here are the eight working tips to 
 showcase your workplace with productivity.`,
-        postedBy: postedItems(
-            "Mehdi Raza",
-            "Sept 26, 2023",
-            "/images/user/mehdi-raza.png",
-            "Positive Work Culture - Positive culture examples - Positive workplace culture examples - espark Talent"
-        ),
-        content: `<div class="blogs-content">
+    postedBy: postedItems(
+      'Mehdi Raza',
+      'Sept 26, 2023',
+      '/images/user/mehdi-raza.png',
+      'Positive Work Culture - Positive culture examples - Positive workplace culture examples - espark Talent'
+    ),
+    content: `<div class="blogs-content">
         <p>After the inventions of recent technologies, experienced professionals can undoubtedly predict the future of
             office employment. Hence, there won’t be any denying that the social revolution of the business and corporate
             companies has freed the employees from the unfavorable chains of reliability. Likewise, talented and skillful
@@ -630,27 +630,27 @@ showcase your workplace with productivity.`,
                     workforce and continue a flexible workflow.</p>
     </div>
         `,
-    },
-    {
-        id: 8,
-        slug: "employee-recruitment-strategies",
-        title: "Primest Employee Recruitment Strategies for Success",
-        bigImageLink: "/images/blog/blog2.png",
-        imageLink: "/images/blog/primest-Employee.png",
-        altTag:
-            "Employee Recruitment - Employee recruitment in hrm - Recruitment process - Sources of recruitment - Sources of employee recruitment - espark Talent",
-        mainHeading: `Primest Employee Recruitment
+  },
+  {
+    id: 8,
+    slug: 'employee-recruitment-strategies',
+    title: 'Primest Employee Recruitment Strategies for Success',
+    bigImageLink: '/images/blog/blog2.png',
+    imageLink: '/images/blog/primest-Employee.png',
+    altTag:
+      'Employee Recruitment - Employee recruitment in hrm - Recruitment process - Sources of recruitment - Sources of employee recruitment - espark Talent',
+    mainHeading: `Primest Employee Recruitment
 Strategies for Success.`,
-        mainParagraph: `Want to update your recruitment process? Here are the 
+    mainParagraph: `Want to update your recruitment process? Here are the 
 must-follow practices to hire the best talent for your
 company.`,
-        postedBy: postedItems(
-            "Mehdi Raza",
-            "Sept 25, 2023",
-            "/images/user/mehdi-raza.png",
-            "Employee Recruitment - Employee recruitment in hrm - Recruitment process - Sources of recruitment - Sources of employee recruitment - espark Talent"
-        ),
-        content: `<div class="blogs-content">
+    postedBy: postedItems(
+      'Mehdi Raza',
+      'Sept 25, 2023',
+      '/images/user/mehdi-raza.png',
+      'Employee Recruitment - Employee recruitment in hrm - Recruitment process - Sources of recruitment - Sources of employee recruitment - espark Talent'
+    ),
+    content: `<div class="blogs-content">
     <p>The professional world is surrounded by various office exercises. However, the recruitment process appears to be a
         much-needed implementation. The hiring and dismissal of employees seem like regular practices of corporate
         companies. Hence, for a couple of years, the management of business workplaces has been facing some alarming
@@ -770,27 +770,27 @@ company.`,
         selected professionals within 24 hours. Hence, follow us on our LinkedIn, Facebook and Instagram for day-to-day
         updates.</p>
     </div>`,
-    },
-    {
-        id: 9,
-        slug: "benefits-employee-outsourcing",
-        title: "Benefits of Employee Outsourcing",
-        imageLink: "/images/blog/benefits.png",
-        altTag:
-            "Employee Outsourcing - Employee outsourcing jobs - Employee outsourcing companies - Staff outsourcing services - Importance of outsourcing - espark Talent",
-        bigImageLink: "/images/blog/blog1.png",
-        mainHeading: `Employee Outsourcing - The Future 
+  },
+  {
+    id: 9,
+    slug: 'benefits-employee-outsourcing',
+    title: 'Benefits of Employee Outsourcing',
+    imageLink: '/images/blog/benefits.png',
+    altTag:
+      'Employee Outsourcing - Employee outsourcing jobs - Employee outsourcing companies - Staff outsourcing services - Importance of outsourcing - espark Talent',
+    bigImageLink: '/images/blog/blog1.png',
+    mainHeading: `Employee Outsourcing - The Future 
       of Hiring Professional Workforce.`,
-        mainParagraph: `What is Employee Outsourcing? And how does it bring 
+    mainParagraph: `What is Employee Outsourcing? And how does it bring 
 flexibility and productivity at the workplace? Grab the
        needful insights here.`,
-        postedBy: postedItems(
-            "Mehdi Raza",
-            "Sept 24, 2023",
-            "/images/user/mehdi-raza.png",
-            "Employee Outsourcing - Employee outsourcing jobs - Employee outsourcing companies - Staff outsourcing services - Importance of outsourcing - espark Talent"
-        ),
-        content: `<div class="blogs-content">
+    postedBy: postedItems(
+      'Mehdi Raza',
+      'Sept 24, 2023',
+      '/images/user/mehdi-raza.png',
+      'Employee Outsourcing - Employee outsourcing jobs - Employee outsourcing companies - Staff outsourcing services - Importance of outsourcing - espark Talent'
+    ),
+    content: `<div class="blogs-content">
         <p>This is the era of social revolution, and every diligent professional is all set to offer their acquired skills to
         native or foreign corporate companies. It doesn’t matter if you are living in any well-established or developing
         country, there will always be a need for prolific individuals who could lower the workload of corporate offices.
@@ -866,5 +866,5 @@ flexibility and productivity at the workplace? Grab the
         could offer instant assistance. Then, feel free to contact eSpark Talent and avail convenient and on-time human
         resource services.</p>
         </div> `,
-    },
+  },
 ];

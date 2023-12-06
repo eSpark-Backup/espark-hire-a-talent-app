@@ -160,15 +160,19 @@ export default function PrivacyPolicy() {
             <h6>Email Address:</h6>
             <ul>
               <li>
-                <a href="mailto:info@esparktalent.com">info@esparktalent.com</a>
+                <Link href="mailto:info@esparktalent.com">
+                  info@esparktalent.com
+                </Link>
               </li>
               <li>
-                <a href="mailto:info@esparktalent.com">hr@esparktalent.com</a>
+                <Link href="mailto:info@esparktalent.com">
+                  hr@esparktalent.com
+                </Link>
               </li>
               <li>
-                <a href="mailto:info@esparktalent.com">
+                <Link href="mailto:info@esparktalent.com">
                   support@esparktalent.com
-                </a>
+                </Link>
               </li>
             </ul>
             <h6>Address:</h6>

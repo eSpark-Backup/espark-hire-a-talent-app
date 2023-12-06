@@ -1,4 +1,5 @@
 import React from 'react';
+import Link from 'next/link';
 import NewsletterForm2 from '@/components/Common/NewsletterForm2';
 import PartnerArea from '@/components/TechnologySolutions/PartnerArea';
 
@@ -13,13 +14,13 @@ function ThankYou() {
     <>
       <div className="thank-you-main">
         <div className="container-fluid thank-header">
-          <a href="/">
+          <Link href="/">
             <img
               src="/images/ThankyouPageLogo.png"
               width={'157.983px'}
               height={'74.775px'}
             />
-          </a>
+          </Link>
           <div>
             <h1 className="thankyou-heading-1">{thankYouHeadings[0]}</h1>
             <h1 className="thankyou-heading-1">{thankYouHeadings[1]}</h1>

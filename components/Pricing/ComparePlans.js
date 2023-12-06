@@ -1,5 +1,5 @@
-import React from "react";
-import Link from "next/link";
+import React from 'react';
+import Link from 'next/link';
 
 const ComparePlans = () => {
   return (
@@ -166,7 +166,7 @@ const ComparePlans = () => {
               <tfoot>
                 <tr>
                   <td>
-                    Need more information? <a href="#">Contact Us</a>
+                    Need more information? <Link href="#">Contact Us</Link>
                   </td>
                   <td>
                     <Link href="/pricing" className="link-btn">

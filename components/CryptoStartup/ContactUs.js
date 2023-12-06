@@ -147,13 +147,13 @@ const ContactUs = () => {
                     </li>
                     <li>
                       <i className="ri-phone-line"></i>
-                      <a href="tel:+44587154756">+44 587 154756</a>
-                      <a href="tel:+55587154756">+55 58715 4756</a>
+                      <Link href="tel:+44587154756">+44 587 154756</Link>
+                      <Link href="tel:+55587154756">+55 58715 4756</Link>
                     </li>
                     <li>
                       <i className="ri-mail-line"></i>
-                      <a href="mailto:hello@lofi.com">hello@lofi.com</a>
-                      <a href="mailto:lofi@info.com">lofi@info.com</a>
+                      <Link href="mailto:hello@lofi.com">hello@lofi.com</Link>
+                      <Link href="mailto:lofi@info.com">lofi@info.com</Link>
                     </li>
                     <li>
                       <i className="ri-time-line"></i>
