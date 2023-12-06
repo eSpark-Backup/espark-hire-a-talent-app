@@ -1510,3 +1510,473 @@ export const thankyouCards = [
     icon: '/images/icon/Employee.png',
   },
 ];
+
+// Privacy Policy
+export const privacyPolicy = {
+  homeText: 'Home',
+  pageTitle: 'Privacy Policy',
+  pageSubTitle: 'Privacy Policy',
+  content: `<h4>Privacy Policy</h4>
+            <p>
+              The intended shared policy represents the services, active
+              workforce, and management of eSpark Talent company. In this
+              document, we lay out all the essentials of your personal data
+              collection, usage, and sharing. The policy displays various areas
+              where your offered data is utilized and shared in order to offer
+              the foremost services. Moreover, we cordially inform you about the
+              usage and share of the provided information.
+            </p>
+            <p>
+              eSpark Talent is a renowned hiring firm that utilizes the offered
+              expertise by professionals through online outsourcing services.
+              The team of diligent employees serves international business
+              clients by offering the demanding skills of outsourced
+              professionals. During the process of collaboration and onboarding,
+              we protect the rights of the users and address you about the legal
+              consent and authorized usage of the personal data.{' '}
+            </p>
+            <h4>Collection of Information</h4>
+            <p>
+              Users visiting the website are welcome to explore the services.
+              Hence, we gather the required information regarding the joining
+              through IP addresses, browsing history, or operating systems..
+            </p>
+            <p>
+              Furthermore, we promote the offered services of the human resource
+              firm. Therefore, assembling the relevant legal data goes well with
+              our process of data collection. Individuals who aim to get hired
+              by companies are required to offer information that is used to
+              find the match for the earned skills. On the other hand, we
+              collect the data of the employer companies to provide authentic
+              information to outsourced professionals. Your shared information
+              is gathered through online logins on the website, collaboration
+              meetings, and the application sign-in process.
+            </p>
+            <h4>Data Usage</h4>
+            <p>
+              Apart from underlining data inclusion fundamentals for our clients
+              who entail our services, we strictly follow the law and respect
+              the rights of the users. The company utilizes the available info
+              of the visitors only to offer a better experience. Moreover, those
+              who intend to avail the assistance may require certain permissions
+              from the company management to access the services. We request to
+              get the needed data of the user by informing through
+              notifications.
+            </p>
+            <p>
+              Employees applying for the career opportunity are directly
+              communicated with our team, and the entailed information is shared
+              under the consent and acknowledgment of the applicants. Similarly,
+              we care for our users who visit the websites. Therefore, we gather
+              only the required information and use the data to offer on-hand
+              assistance.
+            </p>
+            <h4>Third-Party Involvement</h4>
+            <p>
+              eSpark Talent believes in serving both parties, employees, and
+              employers. This directly highlights the share of the information
+              of both participants. Hence, the specific information of
+              outsourced professional and business companies is shared with
+              third-party individuals. Thus, our company doesn’t share separate
+              information that is not provided to our team. Secondly, eSpark
+              Talent is not responsible for the leak or vial of the personal
+              data of the participants or regular visitors on the websites
+            </p>
+            <p>
+              We implement the legalized process of acquiring the information by
+              confirming the authorities about the collection of information
+              through cookies and approval notifications.
+            </p>
+
+            <h4>Protection of the Data</h4>
+            <p>
+              We restrict any third-party involvement and participation to use
+              your shared data. Hence, data exchange is conducted with the
+              agreeable approval of the employees, employers, and other visitors
+              on the website. We only gather and protect data that is listed
+              after the permission of the users. With various software services,
+              we shield the information of users thus, your data can’t be
+              protected 100%, as users must be responsible for share of their
+              own contributed data.
+            </p>
+            <p>
+              The sign-in and login entries are also registered in our secured
+              database. We take care of every entry and offer guarding services
+              through various protective tools. We may share the information
+              through internal links and list the data of career opportunistic
+              employees for their onboarding.
+            </p>
+            <h4>Cookies & Tracking Tools</h4>
+            <p>
+              We gather cookies to offer the utmost service by saving the entry
+              data of the users. It is not an essential or the foremost
+              requirement to be agreed on allowing the cookies notification.
+              Hence, the implementation allows users to get access to all pages
+              of the websites. Secondly, users won’t need to provide the same
+              shared info while signing in or visiting the website.
+            </p>
+            <p>
+              Cookies are for the easy access of the users and tracking tools
+              are employed to enhance the performance of the website. Likewise,
+              we collect data regarding user entries, click rates, and visiting
+              patterns.
+            </p>
+            <h4>Delete of Personal Data</h4>
+            <p>
+              We publicly highlight the required sign-in process that includes
+              the share of information provided by the user. Visitors can delete
+              their cookie entries and mail the management of eSpark Talent to
+              run the deletion process. We welcome users to associate with our
+              team to learn more about the services and acquire the needed
+              information.
+            </p>
+            <p>
+              The company holds all the rights to publish the content of its
+              official websites. However, it doesn’t become responsible for the
+              misuse of the information that is agreeably provided by the users.
+              We gather the information after the approval of employees,
+              employers, and other visitors on the website. The process of
+              deletion can occur by mailing us on our official email address
+              mentioned in the website contact section.{' '}
+            </p>
+            <h4>Children’s Privacy</h4>
+            <p>
+              There is a restriction and caution exhibit on the website that
+              doesn’t contain any relevant information that is not affirmatively
+              shared with us. Our privacy policy only addresses 18+
+              professionals and displays information related to corporate world
+              dynamics. eSpark Talent strictly proscribes children under 13
+              years old to participate in highlighting sections of the website.{' '}
+            </p>
+            <h4>Change in Privacy Policy</h4>
+            <p>
+              Any change that may be included in our privacy policy only depends
+              on the company’s management decisions. eSpark Talent holds the
+              right to change or update the current published policy. Moreover,
+              it is not conditional to follow the advice of users, and changes
+              in the policy won’t be implemented as per the requests of users.
+              Visitors are advised to review the document of the updated policy
+              and get updated on current changes in the user experience process.
+            </p>
+            <h4>Contact Us</h4>
+            <h6>Email Address:</h6>
+            <ul>
+              <li>
+                <Link href="mailto:info@esparktalent.com">
+                  info@esparktalent.com
+                </Link>
+              </li>
+              <li>
+                <Link href="mailto:info@esparktalent.com">
+                  hr@esparktalent.com
+                </Link>
+              </li>
+              <li>
+                <Link href="mailto:info@esparktalent.com">
+                  support@esparktalent.com
+                </Link>
+              </li>
+            </ul>
+            <h6>Address:</h6>
+            <ul>
+              <li>
+                <strong>
+                  301/B 3rd Floor & 401/A 4th Floor, Blossom Trade Centre, Block
+                  1 Gulistan-e-Johar, Karachi, 74300
+                </strong>
+              </li>
+            </ul>`,
+};
+
+// Terms & Conditions
+export const termsConditions = {
+  homeText: 'Home',
+  pageTitle: 'Terms Conditions',
+  pageSubTitle: 'Terms Conditions',
+  content: `    <h4>Introduction</h4>
+            <p>
+              eSpark Talent welcomes users to proceed with their visit to the
+              website. The standard terms and conditions are attributed and
+              officially allocated for the use of this website and the extensive
+              presented services of our business. In the intended shared herein
+              users are advised to follow up with the issued terms and
+              conditions by the management of the business for the official
+              website.
+            </p>
+
+            <p>
+              The documental section includes all the essentials concerning the
+              rights of eSpark Talent’s offered services, management team, and
+              official website or application. Following the update regarding
+              services the document includes a detailed reference of all
+              allocations that legally protect the rights of the business.
+            </p>
+
+            <p>
+              Users are advised to review the herein to acquire the needed
+              insights about user agreement, restrictions, copyright claims,
+              limitation of liability, and security manners of the website.
+            </p>
+
+            <h4>Overview About eSpark Talent</h4>
+            <p>
+              Functioning and operating under the family tree of eSpark
+              Consultancy Group, the association has progressed from the
+              emerging grouping. eSpark Talent is a certified talent-furnishing
+              platform that works for the update and advancement of corporate
+              and IT companies. By listing the finest talent, the company offers
+              outsourcing services.
+            </p>
+
+            <p>
+              eSpark Talent is a futuristic step in this digital world to
+              promote outsourcing services and make the globalized village more
+              connected and convenient for all. The official website represents
+              professionals who are shortlisted after an adept shortlisting and
+              onboarding process. The company has converted itself into a
+              platform of opportunities for outsourced professionals and
+              employers to establish trusted connections by exploiting
+              businesses and profit-earning endeavors.
+            </p>
+
+            <h4>Services</h4>
+            <p>
+              The exceptional platform is building connections with credible
+              clients and has served numerous employers by offering the best
+              outsourced professionals. The hub of instant hiring is renowned
+              for severalover-the-top services that follow the primary purpose
+              of furnishing expert talent. Hence, the team of professionals
+              includes experienced embedded and database developers. Moreover,
+              the proven hands of webs and application developers also join the
+              club. Similarly, specialist services of QA engineers and digital
+              marketers are also offered to the client companies.
+            </p>
+
+            <p>
+              The process of hiring a talent goes through a legalized and
+              authorized procedure that is conducted between both parties. The
+              employers are advised to select their professionals and have
+              meetings with the eSpark team to onboard talent instantly. The
+              document prohibits every intentional activity that harms the image
+              of the company or its workforce during the service-proving
+              process. Hence, we don’t support and encourage disputable
+              practices that could harm the involved parties.
+            </p>
+
+            <h4>User Agreement</h4>
+            <p>
+              The website contains agreeable document that reveals the privacy
+              policy for user rights. The herein lays out the righteous and
+              legal aspects that own the rights of the property, security, and
+              subscription manners. Users visiting the website, acquiring
+              services, and continuing to associate with the team lordly accept
+              and permit the shared privacy policy and terms of service.
+            </p>
+
+            <p>
+              The agreement herein also expresses the evidence that this website
+              holds the rights to every available material and may use the
+              required data as per the needs of the company. The entries on the
+              website allied with company services approve the sharing of their
+              provided data after the notice of the use of the data through
+              concerning notification.
+            </p>
+
+            <p>
+              The terms of service address that the company manages and uses
+              data related to service offerings and other marketing purposes.
+              Hence, it is unconditional to address the refusal regarding the
+              utilization of shared data by users on the website. Moreover, the
+              company doesn’t become the responding authority to answer if any
+              situation of data leak is faced by users.
+            </p>
+
+            <h4>Data Collection</h4>
+            <p>
+              We gather user data to proffer the foremost services. Hence, users
+              are acknowledged through notifications for the approval of the
+              provided information. We may assemble information to share the
+              needed data with our client companies. In the same way, the
+              company reserves the right to use specific information for
+              marketing purposes.
+            </p>
+
+            <p>
+              The offered services of eSpark Talent may require data to bring
+              better results for the users. Thus, every information that is
+              gathered from the website relies on the authority of the company.
+              Moreover, the collected data from the users can also be
+              implemented to lay out future professional opportunities of
+              outsourced employment for the applicants. Therefore, the
+              management owns the authority to utilize every practice including
+              the collection of data to lead the way for future collaboration
+              opportunities.
+            </p>
+
+            <h4>Intellectual Property Rights</h4>
+            <p>
+              The attachment of images and graphics on the website is reserved
+              by the company. Users are advised to not misuse any information
+              that is shared on the website. The agreement is the evidence for
+              the legal copyright authority of the company on its images,
+              features, design, and content. eSpark Talent is a professional
+              firm that acquires every required intellectual property right to
+              offer secure services to users.
+            </p>
+
+            <h4>Images & Graphics</h4>
+            <p>
+              Visual elements and images on the website are reserved and are
+              attached as per the requirement of the website’s design.
+              Intellectual property rights represent the reserve of the used
+              material on the website. Hence, the visuals and graphics on the
+              website don’t promote any unwanted or vague goals and clearly
+              manifest the perfect representation of offered outsourcing
+              services.
+            </p>
+
+            <h4>Content</h4>
+            <p>
+              We may share content on the website through various styles of
+              writing and several mediums. Likewise, in the form of an audio
+              clip or videographic footage. The material and content shared in
+              audio and video won't include any inappropriate exhibits. Hence,
+              the company and management are not answerable to any query from
+              the users about the display of content, audio, and videography on
+              the website.
+            </p>
+
+            <h4>Restrictions</h4>
+            <p>
+              We strictly follow the essentials in the document of privacy
+              policy (employed to protect user rights). The company does have
+              several restrictions that should be understood by the users. The
+              platform doesn’t include any private information of the users that
+              is not shared in any process, as every information of users is
+              stored in the database after approval. Similarly, we govern every
+              detail and visualization displayed on the website. Users are
+              humbly advised to acknowledge restrictions that are allocated
+              under the consideration of the company website’s legal rights.
+              Likewise, users are decisively restricted from the following:
+            </p>
+            <ul>
+              <li>Violating the shared terms and conditions of the website.</li>
+              <li>Stealing a website’s content for personal benefit.</li>
+              <li>
+                Publishing website material on social media platforms without
+                permission.
+              </li>
+              <li>
+                Performing practices that may damage the image of the company.
+              </li>
+              <li>Misusing the subscription or membership advantage.</li>
+            </ul>
+
+            <h4>Security</h4>
+            <p>
+              We include security allocation with the help of updated
+              technological software. The system may use the data that is
+              gathered after your approval. The website is protected from any
+              upcoming bugs or errors. Therefore, we store the information in
+              our database to offer a user-friendly experience and troubleshoot
+              the technical issues occurring on the website.
+            </p>
+            <p>
+              The intended data of the users is secured in the database and
+              terminated after the request for deletion by the users. Thus, the
+              website acquires the right to protect the data of its own shared
+              information and also serve the visitors with the best data storage
+              software. The shared data of users may not be protected entirely,
+              as visitors are advised to share information at their full
+              accountability.
+            </p>
+
+            <h4>Subscription, Association & Hiring</h4>
+            <p>
+              The website involves the participation of three members (employee,
+              employer, and common visitor). Every process that includes the
+              association of clients with our team and the hiring of talent from
+              our platform is conducted professionally. There is an onboarding
+              process that is identified by both parties. On the other hand, we
+              may ask for specific information from the employees and employers
+              to offer them our services and assist them with better results.
+            </p>
+            <p>
+              Furthermore, the website doesn’t implement any practice that
+              reveals the personal information of our clients or available
+              professional talent that is not shared with us. However, every
+              data shared through the website’s customer support is reserved and
+              those who are signed in on our website are also not allowed to
+              share or publicize the content of the website for personal use.
+              Therefore, you are advised not to use your subscription for any
+              unwanted and improper activity that may damage the website.
+            </p>
+
+            <h4>Limitation Of Liability</h4>
+            <p>
+              The whole team of eSpark Talent (management, directors, leads, and
+              employees) follows the motive of serving clients and offering
+              professional opportunities to individuals. Hence, our support is
+              only limited to professional assistance. Our office workforce
+              including the management directors, leads, and employees won’t be
+              involved in unprofessional liability or during any event that
+              doesn’t include proper paperwork.
+            </p>
+
+            <h4>Personal Information & Your Content</h4>
+            <p>
+              We only share information of users that have been given by them.
+              We may require further information during the utilization of the
+              services. Including, content, audio or video file material
+              produced by you. After the sharing and public of your content on
+              the website, the company reserves the right to use it for its
+              promotional purposes. On that account, users are guided to share
+              information showing full accountability of the public and share of
+              the specific content.
+            </p>
+
+            <h4>Your Rights</h4>
+            <p>
+              Our website contains a separate document that addresses user
+              rights. In the privacy policy shared by the website every user
+              security essential is mentioned along with supportive information.
+              We care for your privacy; therefore, we notify you and ask
+              permission to contact the specific information from your side.
+            </p>
+
+            <h4>Third-Party Sharing</h4>
+            <p>
+              After the public of the content and information on the website, we
+              store the data in our updated and advanced data storage system.
+              Our platform is free to share the specific data provided to our
+              clients to regulate the service-providing cycle. However, users
+              acquiring a membership on our website will require the permission
+              of the management to use and share the available content.
+            </p>
+
+            <h4>Termination of Account Profile</h4>
+            <p>
+              In the privacy policy, it is clearly addressed that users can
+              request the deletion of their shared data when they are no longer
+              associated with the company. However, in the following cases, your
+              account profile can be terminated from the website.
+            </p>
+            <ul>
+              <li>Violation of the agreement.</li>
+              <li>Conduct of illegal activities.</li>
+              <li>Third-party involvement from your profile.</li>
+              <li>Occurrence of security issues.</li>
+              <li>Payment issues.</li>
+            </ul>
+
+            <h4>Entire Agreement</h4>
+            <p>
+              The entire document represents the team involved in offering
+              professional services. The agreement is evidential proof of all
+              the terms and conditions that are discussed in this document. We
+              desire to offer the finest services to our clients and aim to
+              continue the flow of offering the foremost outsourcing services.
+              Users are gently advised to read out the agreement and respect our
+              terms of service updated on the website
+            </p>`,
+};
