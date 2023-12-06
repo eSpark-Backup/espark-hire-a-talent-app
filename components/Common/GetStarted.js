@@ -1,5 +1,5 @@
-import React from "react";
-import Link from "next/link";
+import React from 'react';
+import Link from 'next/link';
 
 const GetStarted = (props) => {
   const { title, paragraph, text } = props;
@@ -24,7 +24,6 @@ const GetStarted = (props) => {
             </div>
             <div className="col-lg-6 col-md-12 new-style">
               <div className="get-started-content pt-0">
-                {/* <span className="sub-title">READY TO STARTED?</span> */}
                 <h2 className="fw-semibold">{title}</h2>
                 <p>{paragraph}</p>
                 {text ? (

@@ -1,8 +1,8 @@
-import React from "react";
-import { Swiper, SwiperSlide } from "swiper/react";
-import { Pagination } from "swiper";
-import { Autoplay } from "swiper";
-import Link from "next/link";
+import React from 'react';
+import Link from 'next/link';
+import { Swiper, SwiperSlide } from 'swiper/react';
+import { Pagination } from 'swiper';
+import { Autoplay } from 'swiper';
 
 const OurServices = ({ title, para, items }) => {
   return (
@@ -10,7 +10,6 @@ const OurServices = ({ title, para, items }) => {
       <div className="services-area ptb-100">
         <div className="container">
           <div className="section-title">
-            {/* <span className="sub-title">OUR SERVICES</span> */}
             <h2 className="fw-semibold">{title}</h2>
             <p>{para}</p>
           </div>
@@ -46,8 +45,8 @@ const OurServices = ({ title, para, items }) => {
                 <div
                   className={
                     eachCard.homeComponent
-                      ? "single-services-item with-boxshadow size-change"
-                      : "single-services-item with-boxshadow"
+                      ? 'single-services-item with-boxshadow size-change'
+                      : 'single-services-item with-boxshadow'
                   }
                 >
                   <div className="d-flex align-items-center">
@@ -55,16 +54,11 @@ const OurServices = ({ title, para, items }) => {
                       src={eachCard.imageLink}
                       alt="Global Recruitment - global recruitment agency - worldwide recruiting agency - global recruitment services - global recruitment solutions - eSpark Talent"
                     />
-                    {/* <h3>
-                      <Link  href={slide.link}>
-                        {slide.title}
-                      </Link>
-                    </h3> */}
                     <h3>{eachCard.title}</h3>
                   </div>
                   <p>{eachCard.content}</p>
                   {eachCard.homeComponent ? (
-                    <Link href={"hire" + "/" + eachCard.slug}>
+                    <Link href={'hire' + '/' + eachCard.slug}>
                       <span className="default-btn align-self-end">
                         <span className="ri-arrow-right-s-line"></span>
                         {eachCard.buttonText}
