@@ -2,7 +2,7 @@ import React from 'react';
 
 const WhatWeWork = ({ paragraph, Items, title, image, shape }) => {
   return (
-    <React.Fragment>
+    <>
       <div className={'what-we-work-area ptb-100'}>
         <div className="container">
           <div className="row align-items-center">
@@ -48,7 +48,7 @@ const WhatWeWork = ({ paragraph, Items, title, image, shape }) => {
           />
         </div>
       </div>
-    </React.Fragment>
+    </>
   );
 };
 

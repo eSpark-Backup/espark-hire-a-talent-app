@@ -4,6 +4,10 @@ import OurServices from '@/components/BusinessConsulting/OurServices';
 import AboutUs from '@/components/BusinessConsulting/AboutUs';
 import FunFacts from '@/components/Common/FunFacts';
 import OurTeamMember from '@/components/Common/OurTeamMember';
+import OurPlatforms from '@/components/ICOLanding/OurPlatforms';
+import PartnerArea from '@/components/TechnologySolutions/PartnerArea';
+import NewsletterForm2 from '@/components/Common/NewsletterForm2';
+
 import {
   BudgetPara,
   BudgetTitle,
@@ -19,9 +23,6 @@ import {
   teamData,
   title,
 } from 'constants/constants';
-import OurPlatforms from '@/components/ICOLanding/OurPlatforms';
-import PartnerArea from '@/components/TechnologySolutions/PartnerArea';
-import NewsletterForm2 from '@/components/Common/NewsletterForm2';
 
 export default function Home3() {
   return (
