@@ -1,5 +1,4 @@
 import React from 'react';
-import Link from 'next/link';
 
 const AboutUs = (props) => {
   const { title, content, items } = props;
