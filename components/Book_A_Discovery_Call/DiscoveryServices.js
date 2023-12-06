@@ -1,4 +1,5 @@
 import React from 'react';
+
 const DiscoveryServices = ({ title, para, items }) => {
   return (
     <>

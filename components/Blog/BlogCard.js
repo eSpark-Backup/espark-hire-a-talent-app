@@ -56,14 +56,14 @@ const BlogCard = ({ item }) => {
         Math.abs(page - currentPage) <= 1
       ) {
         buttons.push(
-          <a
+          <Link
             href="#"
             key={page}
             className={isSelected ? 'current page-numbers' : 'page-numbers'}
             onClick={() => handlePageClick(page)}
           >
             {page}
-          </a>
+          </Link>
         );
       } else if (buttons[buttons.length - 1] !== ellipsis) {
         buttons.push(ellipsis);
@@ -109,7 +109,7 @@ const BlogCard = ({ item }) => {
           <nav className="pagination-area">
             <ul className="nav-links">
               <li>
-                <a
+                <Link
                   href="#"
                   onClick={handlePreviousClick}
                   className={
@@ -120,11 +120,11 @@ const BlogCard = ({ item }) => {
                   }}
                 >
                   <i className="ri-arrow-left-line"></i>
-                </a>
+                </Link>
               </li>
               {renderPaginationButtons()}
               <li>
-                <a
+                <Link
                   href="#"
                   className={
                     currentPage === totalPages
@@ -137,7 +137,7 @@ const BlogCard = ({ item }) => {
                   onClick={handleNextClick}
                 >
                   <i className="ri-arrow-right-line"></i>
-                </a>
+                </Link>
               </li>
             </ul>
           </nav>

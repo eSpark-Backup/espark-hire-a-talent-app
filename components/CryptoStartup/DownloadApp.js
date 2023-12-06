@@ -17,7 +17,7 @@ const DownloadApp = () => {
 
                   <ul className="app-list">
                     <li>
-                      <a
+                      <Link
                         href="https://play.google.com/store/apps"
                         target="_blank"
                         rel="noreferrer"
@@ -26,10 +26,10 @@ const DownloadApp = () => {
                           src="/images/crypto-startup/download-app/app-1.png"
                           alt="image"
                         />
-                      </a>
+                      </Link>
                     </li>
                     <li>
-                      <a
+                      <Link
                         href="https://www.apple.com/app-store/"
                         target="_blank"
                         rel="noreferrer"
@@ -38,7 +38,7 @@ const DownloadApp = () => {
                           src="/images/crypto-startup/download-app/app-2.png"
                           alt="image"
                         />
-                      </a>
+                      </Link>
                     </li>
                   </ul>
                 </div>
