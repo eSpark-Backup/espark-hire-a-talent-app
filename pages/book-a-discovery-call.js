@@ -27,13 +27,13 @@ function DiscoveryCall() {
     <>
       <div className="DiscoveryCall discovery-call">
         <div className="container-fluid discovery-call-header">
-          <a href="/">
+          <Link href="/">
             <img
               src="/images/ThankyouPageLogo.png"
               width={'157.983px'}
               height={'74.775px'}
             />
-          </a>
+          </Link>
           <div>
             <h1 className="discovery-call-heading-1">{heading}</h1>
             <h2
@@ -65,10 +65,10 @@ function DiscoveryCall() {
               </div>
             </div>
           </div>
-          <a href={link} target="blank" className="discovery-call-button">
+          <Link href={link} target="blank" className="discovery-call-button">
             <span className="free-strategy">{text}</span>
             <span className="limited-free">{subText}</span>
-          </a>
+          </Link>
         </div>
       </div>
       <AdaptTab data={We_Adapt_To_Your_Need} />
