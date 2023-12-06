@@ -3,8 +3,6 @@ import Link from 'next/link';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Navigation } from 'swiper';
 
-// import SimpleContent from './content'
-
 const HeroSlider = (props) => {
   const { data, setData } = props;
   return (

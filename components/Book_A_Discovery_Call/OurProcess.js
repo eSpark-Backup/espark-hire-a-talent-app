@@ -1,4 +1,5 @@
 import React from 'react';
+
 const OurProcess = ({ data }) => {
   const { subHeading, description, image, Item } = data;
   return (
