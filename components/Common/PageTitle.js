@@ -1,5 +1,5 @@
-import React from "react";
-import Link from "next/link";
+import React from 'react';
+import Link from 'next/link';
 
 const PageTitle = ({ pageTitle, homeText, pageSubTitle }) => {
   return (
@@ -15,13 +15,6 @@ const PageTitle = ({ pageTitle, homeText, pageSubTitle }) => {
           </ul>
         </div>
       </div>
-      {/* Animation Remove */}
-      {/* <div className="shape1">
-        <img src="/images/shape/shape1.png" alt="image" />
-      </div>
-      <div className="shape3">
-        <img src="/images/shape/shape2.png" alt="image" />
-      </div> */}
     </div>
   );
 };
