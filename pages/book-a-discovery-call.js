@@ -1,5 +1,14 @@
 import React from 'react';
-import NewsletterForm2 from '@/components/Common/NewsletterForm2';
+import Link from 'next/link';
+import AdaptTab from '@/components/Book_A_Discovery_Call/Adapt';
+import ReliableAndSecure from '@/components/Book_A_Discovery_Call/ReliableAndSecure';
+import OurProcess from '@/components/Book_A_Discovery_Call/OurProcess';
+import DiscoveryServices from '@/components/Book_A_Discovery_Call/DiscoveryServices';
+import MeetTheTeam from '@/components/Book_A_Discovery_Call/MeetTheTeam';
+import HiringTab from '@/components/Book_A_Discovery_Call/Hiring';
+import GetTalent from '@/components/Book_A_Discovery_Call/GetTalent';
+import ClientFeedback from '@/components/Book_A_Discovery_Call/ClientFeedback';
+
 import {
   ClientFeedbackData,
   Hiring_data,
@@ -7,18 +16,9 @@ import {
   Our_Process,
   Reliable_And_Secure,
   We_Adapt_To_Your_Need,
-  clientFeedbackData,
   data,
 } from 'constants/discovery_call_constant';
-import AdaptTab from '@/components/Book_A_Discovery_Call/Adapt';
-import ReliableAndSecure from '@/components/Book_A_Discovery_Call/ReliableAndSecure';
-import OurProcess from '@/components/Book_A_Discovery_Call/OurProcess';
 import { sliderData } from 'constants/constants';
-import DiscoveryServices from '@/components/Book_A_Discovery_Call/DiscoveryServices';
-import MeetTheTeam from '@/components/Book_A_Discovery_Call/MeetTheTeam';
-import HiringTab from '@/components/Book_A_Discovery_Call/Hiring';
-import GetTalent from '@/components/Book_A_Discovery_Call/GetTalent';
-import ClientFeedback from '@/components/Book_A_Discovery_Call/ClientFeedback';
 
 function DiscoveryCall() {
   const { heading, subHeading, list, text, subText, link } = data;

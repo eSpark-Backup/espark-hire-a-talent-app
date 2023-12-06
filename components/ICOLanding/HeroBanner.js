@@ -1,44 +1,45 @@
-import React from 'react'
+import React from 'react';
+import Link from 'next/link';
 
 const HeroBanner = () => {
-  const [days, setDays] = React.useState('')
-  const [hours, setHours] = React.useState('')
-  const [minutes, setMinutes] = React.useState('')
-  const [seconds, setSeconds] = React.useState('')
+  const [days, setDays] = React.useState('');
+  const [hours, setHours] = React.useState('');
+  const [minutes, setMinutes] = React.useState('');
+  const [seconds, setSeconds] = React.useState('');
 
   React.useEffect(() => {
     const interval = setInterval(() => {
-      commingSoonTime()
-    }, 1000)
-    return () => clearInterval(interval)
-  }, [])
+      commingSoonTime();
+    }, 1000);
+    return () => clearInterval(interval);
+  }, []);
 
   const commingSoonTime = () => {
-    let endTime = new Date('August 23, 2023 17:00:00 PDT')
-    let endTimeParse = Date.parse(endTime) / 1000
-    let now = new Date()
-    let nowParse = Date.parse(now) / 1000
-    let timeLeft = endTimeParse - nowParse
-    let days = Math.floor(timeLeft / 86400)
-    let hours = Math.floor((timeLeft - days * 86400) / 3600)
-    let minutes = Math.floor((timeLeft - days * 86400 - hours * 3600) / 60)
+    let endTime = new Date('August 23, 2023 17:00:00 PDT');
+    let endTimeParse = Date.parse(endTime) / 1000;
+    let now = new Date();
+    let nowParse = Date.parse(now) / 1000;
+    let timeLeft = endTimeParse - nowParse;
+    let days = Math.floor(timeLeft / 86400);
+    let hours = Math.floor((timeLeft - days * 86400) / 3600);
+    let minutes = Math.floor((timeLeft - days * 86400 - hours * 3600) / 60);
     let seconds = Math.floor(
-      timeLeft - days * 86400 - hours * 3600 - minutes * 60,
-    )
+      timeLeft - days * 86400 - hours * 3600 - minutes * 60
+    );
     if (hours < '10') {
-      hours = '0' + hours
+      hours = '0' + hours;
     }
     if (minutes < '10') {
-      minutes = '0' + minutes
+      minutes = '0' + minutes;
     }
     if (seconds < '10') {
-      seconds = '0' + seconds
+      seconds = '0' + seconds;
     }
-    setDays(days)
-    setHours(hours)
-    setMinutes(minutes)
-    setSeconds(seconds)
-  }
+    setDays(days);
+    setHours(hours);
+    setMinutes(minutes);
+    setSeconds(seconds);
+  };
 
   return (
     <>
@@ -118,8 +119,8 @@ const HeroBanner = () => {
             </div>
 
             <div className="col-lg-5 col-md-12">
-              <div 
-                className="ico-landing-banner-image" 
+              <div
+                className="ico-landing-banner-image"
                 data-aos="fade-up"
                 data-aos-duration="1200"
                 data-aos-once="true"
@@ -134,7 +135,7 @@ const HeroBanner = () => {
         </div>
       </div>
     </>
-  )
-}
+  );
+};
 
-export default HeroBanner
+export default HeroBanner;

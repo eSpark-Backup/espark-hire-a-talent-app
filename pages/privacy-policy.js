@@ -1,4 +1,5 @@
 import React from 'react';
+import Link from 'next/link';
 import PageTitle from '@/components/Common/PageTitle';
 import NewsletterForm2 from '@/components/Common/NewsletterForm2';
 

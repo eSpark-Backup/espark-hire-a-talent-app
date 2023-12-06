@@ -1,15 +1,16 @@
 import React from 'react';
+import { ThreeDots } from 'react-loader-spinner';
+import { useRouter } from 'next/router';
 import PageTitle from '@/components/Common/PageTitle';
-import { sliderData } from 'constants/constants';
 import WhatWeWork from '@/components/CybersecurityServices/WhatWeWork';
 import ReasonsToInvestInCryptocurrency from '@/components/CryptoStartup/ReasonsToInvestInCryptocurrency';
 import AboutUs from '@/components/CryptoStartup/AboutUs';
 import IndustryPartners from '@/components/CryptoStartup/IndustryPartners';
 import ServicesItem from '@/components/Services/ServicesItem';
-import { useRouter } from 'next/router';
 import Platforms from '@/components/CryptoStartup/Platforms';
-import { ThreeDots } from 'react-loader-spinner';
 import NewsletterForm2 from '@/components/Common/NewsletterForm2';
+
+import { sliderData } from 'constants/constants';
 
 const BlogDetails = () => {
   const router = useRouter();

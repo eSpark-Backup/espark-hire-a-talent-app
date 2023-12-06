@@ -1,5 +1,8 @@
-import { socialLinks } from 'constants/constants';
 import React from 'react';
+import Link from 'next/link';
+
+import { socialLinks } from 'constants/constants';
+
 const BlogDetailsContent = ({ data }) => {
   return (
     <>
