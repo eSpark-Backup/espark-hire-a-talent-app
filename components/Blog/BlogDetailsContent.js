@@ -21,7 +21,7 @@ const BlogDetailsContent = ({ data }) => {
                     />
                     <div className="title">
                       <span className="name">
-                        By <a href="#">{data[0]?.postedBy?.name}</a>
+                        By <Link href="#">{data[0]?.postedBy?.name}</Link>
                       </span>
                       <span className="date">{data[0]?.postedBy?.date}</span>
                     </div>
@@ -42,7 +42,7 @@ const BlogDetailsContent = ({ data }) => {
                 <ul className="social-links">
                   {socialLinks.map((item, index) => (
                     <li key={index}>
-                      <a
+                      <Link
                         href={item.link}
                         target="_blank"
                         rel="noopener noreferrer"
@@ -55,7 +55,7 @@ const BlogDetailsContent = ({ data }) => {
                           height={'90%'}
                           alt="social-icons"
                         />
-                      </a>
+                      </Link>
                     </li>
                   ))}
                 </ul>
