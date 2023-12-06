@@ -1,5 +1,5 @@
-import React from "react";
-import Link from "next/link";
+import React from 'react';
+import Link from 'next/link';
 
 const AboutUs = (props) => {
   const { title, content, items } = props;
@@ -18,8 +18,8 @@ const AboutUs = (props) => {
                 <img
                   src="/images/Mask group.png"
                   alt="Global Recruitment - global recruitment agency - worldwide recruiting agency - global recruitment services - global recruitment solutions - eSpark Talent"
-                  width={"75%"}
-                  height={"100%"}
+                  width={'75%'}
+                  height={'100%'}
                 />
                 <div className="shape5">
                   <img
@@ -31,7 +31,6 @@ const AboutUs = (props) => {
             </div>
             <div className="col-lg-6 col-md-12">
               <div className="about-content">
-                {/* <span className="sub-title">ABOUT US</span> */}
                 <h2 className="fw-semibold">{title}</h2>
                 <p>{content}</p>
                 <ul className="features-list">
@@ -49,43 +48,6 @@ const AboutUs = (props) => {
                     </li>
                   ))}
                 </ul>
-                {/* <ul className="features-list">
-                  <li>
-                    <div className="d-flex align-items-center">
-                      <div className="icon bg-f9f9f9">
-                        <img src="/images/icon/icon4.png" alt="image" />
-                      </div>
-                      <span>Brand Strategy</span>
-                    </div>
-                  </li>
-                  <li>
-                    <div className="d-flex align-items-center">
-                      <div className="icon bg-f9f9f9">
-                        <img src="/images/icon/icon5.png" alt="image" />
-                      </div>
-                      <span>Expert Team</span>
-                    </div>
-                  </li>
-                  <li>
-                    <div className="d-flex align-items-center">
-                      <div className="icon bg-f9f9f9">
-                        <img src="/images/icon/icon6.png" alt="image" />
-                      </div>
-                      <span>Fast Delivery</span>
-                    </div>
-                  </li>
-                  <li>
-                    <div className="d-flex align-items-center">
-                      <div className="icon bg-f9f9f9">
-                        <img src="/images/icon/icon7.png" alt="image" />
-                      </div>
-                      <span>Ongoing Report</span>
-                    </div>
-                  </li>
-                </ul> */}
-                {/* <Link href="/about-us" className="default-btn">
-                    <span className="ri-arrow-right-s-line"></span>More About Us
-                </Link> */}
               </div>
             </div>
           </div>

@@ -1,8 +1,8 @@
-import React from "react";
-import Link from "next/link";
-import { Swiper, SwiperSlide } from "swiper/react";
-import { Autoplay } from "swiper";
-import { Navigation } from "swiper";
+import React from 'react';
+import Link from 'next/link';
+import { Swiper, SwiperSlide } from 'swiper/react';
+import { Autoplay } from 'swiper';
+import { Navigation } from 'swiper';
 
 const OurCaseStudies = () => {
   return (
@@ -196,7 +196,6 @@ const OurCaseStudies = () => {
           </Swiper>
         </div>
 
-        {/* Shape Image */}
         <div className="shape7">
           <img src="/images/shape/shape5.png" alt="image" />
         </div>

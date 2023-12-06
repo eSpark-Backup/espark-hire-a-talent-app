@@ -58,11 +58,9 @@ function DiscoveryCall() {
                   <video controls autoPlay muted loop>
                     <source
                       src={'/images/discovery_call/video.mp4'}
-                      // src={'https://youtu.be/wHRmeesEPaI'}
                       type="video/mp4"
                     />
                   </video>
-                  {/* <img src="/images/discovery_call/video.mp4" /> */}
                 </div>
               </div>
             </div>

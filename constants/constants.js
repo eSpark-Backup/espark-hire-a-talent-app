@@ -1126,35 +1126,7 @@ export const platFormItems = [
       'Global Recruitment - global recruitment agency - worldwide recruiting agency - global recruitment services - global recruitment solutions - eSpark Talent',
   },
 ];
-// export const platFormItems = [
-//   {
-//     title: "Strategy Session",
-//     content:
-//       "Our screening process is automatically started from gathering your applications and providing you a job description that is tailored according to your needs.",
-//     imageLink: "/images/crypto-startup/platforms/platforms-1.png",
-//     arrowLink: "/images/crypto-startup/platforms/arrow-1.png",
-//   },
-//   {
-//     title: "Interview",
-//     content:
-//       "After being shortlisted by our management, you will be called for an interview.​",
-//     imageLink: "/images/crypto-startup/platforms/Conversation.png",
-//     arrowLink: "/images/crypto-startup/platforms/arrow-2.png",
-//   },
-//   {
-//     title: "On-Boarding",
-//     content:
-//       "Our world-class onboarding procedure includes meeting your very own customer support specialist.",
-//     imageLink: "/images/crypto-startup/platforms/platforms-2.png",
-//     arrowLink: "/images/crypto-startup/platforms/arrow-1.png",
-//   },
-//   {
-//     title: "Step Back & Grow",
-//     content:
-//       "Your future begins to meet the expectations you've set for yourself.​",
-//     imageLink: "/images/crypto-startup/platforms/Meeting.png",
-//   },
-// ];
+
 export const title =
   'How To Avail eSpark Talent’s Employee Outsourcing Services?  ';
 export const content =
@@ -1201,16 +1173,6 @@ export const HiringServicesItems = [
     paragraph:
       'Now you will be able to manage your team from every part of the world or leave it to our active team. In order to handle all management errors your team need some extra experienced hands of a profound group of people like ours!',
   },
-  // {
-  //   heading: "Build Highly Ambitious Team",
-  //   image: "/images/crypto-startup/choose/image-3.png",
-  //   paragraph: "Individual performances may help you win the game. But teamwork will lead you to win championships. Let us be your lucky charm and grow together. It is all up to you to pick your favorite professionals and hire them in minutes. "
-  // },
-  // {
-  //   heading: "Increase Employee Engagement",
-  //   image: "/images/crypto-startup/choose/image-1.png",
-  //   paragraph: "Every team relies on the trustful connection between team players. You will need to allow all the players to buckle up and show the magic of their creativity. With our assistance, you will be able to create a positive atmosphere at your workplace."
-  // },
 ];
 
 // Get started component data
