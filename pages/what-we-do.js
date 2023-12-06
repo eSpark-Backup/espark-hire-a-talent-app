@@ -1,7 +1,7 @@
-import React from "react";
-import PageTitle from "@/components/Common/PageTitle";
-import Process from "@/components/AboutUs/Process";
-import GetStarted from "@/components/Common/GetStarted";
+import React from 'react';
+import PageTitle from '@/components/Common/PageTitle';
+import Process from '@/components/AboutUs/Process';
+import GetStarted from '@/components/Common/GetStarted';
 
 import {
   FaqData,
@@ -22,12 +22,12 @@ import {
   WhatWeWorkShape,
   WhatWeWorkTitle,
   processTitle,
-} from "constants/constants";
-import WhatWeWork from "@/components/CybersecurityServices/WhatWeWork";
-import IndustryPartners from "@/components/CryptoStartup/IndustryPartners";
-import WhyChooseCrypto from "@/components/CryptoStartup/WhyChooseCrypto";
-import Faq from "@/components/Common/Faq";
-import NewsletterForm2 from "@/components/Common/NewsletterForm2";
+} from 'constants/constants';
+import WhatWeWork from '@/components/CybersecurityServices/WhatWeWork';
+import IndustryPartners from '@/components/CryptoStartup/IndustryPartners';
+import WhyChooseCrypto from '@/components/CryptoStartup/WhyChooseCrypto';
+import Faq from '@/components/Common/Faq';
+import NewsletterForm2 from '@/components/Common/NewsletterForm2';
 
 export default function AboutUs() {
   return (
@@ -38,8 +38,6 @@ export default function AboutUs() {
         pageSubTitle="What We Do"
       />
 
-      {/* <AboutContent /> */}
-
       <WhyChooseCrypto
         image={HiringServicesImg}
         title={HiringServicesTitle}
@@ -49,13 +47,7 @@ export default function AboutUs() {
         shape={HiringServicesShape}
       />
 
-      {/* <PartnerArea /> */}
-
       <Process processData={ProcessData} title={processTitle} />
-
-      {/* <ClientsFeedbackStyle2 /> */}
-
-      {/* <TeamSlider /> */}
 
       <GetStarted
         title={GetStartedTitle}

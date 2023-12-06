@@ -1,16 +1,15 @@
-import React from "react";
-import Link from "next/link";
+import React from 'react';
+import Link from 'next/link';
 import {
   sliderData,
   footerContact,
   socialLinks,
-} from "../../constants/constants";
+} from '../../constants/constants';
 
 const Footer = () => {
   return (
     <React.Fragment>
       <footer className="footer-area">
-        {/* Linkedin Insight Tag */}
         <script
           type="text/javascript"
           dangerouslySetInnerHTML={{
@@ -37,7 +36,7 @@ const Footer = () => {
             <img
               height="1"
               width="1"
-              style={{ display: "none" }}
+              style={{ display: 'none' }}
               src="https://px.ads.linkedin.com/collect/?pid=6113401&fmt=gif"
             />
           </noscript>
@@ -74,8 +73,8 @@ const Footer = () => {
                         <img
                           src={item?.src}
                           className={item?.className}
-                          width={"90%"}
-                          height={"90%"}
+                          width={'90%'}
+                          height={'90%'}
                           alt="social-icons"
                         />
                       </a>
