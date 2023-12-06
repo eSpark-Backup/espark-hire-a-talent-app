@@ -68,10 +68,10 @@ const OurServices = ({ title, para, items }) => {
                         eachCard.slug
                       }
                     >
-                      <a className="default-btn align-self-end">
+                      <span className="default-btn align-self-end">
                         <span className="ri-arrow-right-s-line"></span>
                         {eachCard.buttonText}
-                      </a>
+                      </span>
                     </Link>
                   ) : null}
                 </div>
