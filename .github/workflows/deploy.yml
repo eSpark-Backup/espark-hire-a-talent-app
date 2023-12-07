@@ -1,0 +1,25 @@
+name: eSpark Main Environment
+on:
+  push:
+    branches:
+      - main
+
+jobs: 
+  deploy: 
+    runs-on: ubuntu-latest
+    steps:
+      - if: github.ref == 'refs/heads/main'
+        name: espark-talent main 
+        uses: appleboy/ssh-action@master
+        with:
+          host: ${{ secrets.SERVER_IP }}
+          username: ${{ secrets.SERVER_USERNAME }}
+          key: ${{ secrets.SERVER_PRIVATE_KEY }}
+          script: |
+            cd /var/www/eSpark-Hire-A-Talent-App/
+            #git pull origin main
+            npm install --legacy-peer-deps
+            npm run build
+            sudo pm2 ls
+            cd
+            sudo pm2 restart server
