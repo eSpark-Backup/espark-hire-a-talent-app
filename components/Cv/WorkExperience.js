@@ -14,21 +14,12 @@ const WorkExperience = ({ experience, inter }) => {
               <div className="list-marker">
                 <span className="list-marker-inner" />
               </div>
-              <h2 className="work-position cv-pl">{exp.position}</h2>
+              <h2 className="work-position cv-pl">{exp.role}</h2>
             </div>
 
             <h5 className="work-company cv-pl">{exp.company}</h5>
 
-            <ul className="experience-list">
-              {exp.workDescription.map((desc, index) => (
-                <li
-                  key={index}
-                  className={`work-experience-info ${inter.className}`}
-                >
-                  {desc}.
-                </li>
-              ))}
-            </ul>
+            <ul className="experience-list">{exp.description}</ul>
           </div>
         ))}
       </div>
