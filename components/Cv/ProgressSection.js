@@ -12,18 +12,17 @@ const ProgressSection = (props) => {
 
       <div
         className={[
-          "row",
           "progress-info-area",
           feedback ? "cv-feedback-area" : "",
           windowWidth <= 375 ? "progress-info-area-small" : "",
         ].join(" ")}
       >
-        {data?.content?.map((elem, index) => (
+        {data?.map((elem, index) => (
           <div key={index} className={`progress-info ${data?.className}`}>
             <h6 className={feedback ? "feedback-name" : "names"}>
               {elem.name}
             </h6>
-            <ProgressBar endValue={elem.percentage} />
+            <ProgressBar endValue={elem.level} />
           </div>
         ))}
       </div>

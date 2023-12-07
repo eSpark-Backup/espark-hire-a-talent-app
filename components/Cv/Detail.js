@@ -2,9 +2,11 @@ import React from "react";
 
 import CvCard from "./CvCard";
 
+const icon = "/images/cvs/badge.png";
+
 const Detail = (props) => {
-  const { para, profileDetail, windowWidth } = props;
-  const { expertise, englishLevel, experienceYear, tags, icon } = profileDetail;
+  const { about, yearsOfExperience, expertise, englishLevel, windowWidth } =
+    props;
 
   return (
     <CvCard>
@@ -13,8 +15,7 @@ const Detail = (props) => {
         <div className="cv-aboutme-area">
           <h1 className="cv-heading aboutme">About me</h1>
           <div>
-            <p className="aboutme-description">{para?.firstParagraph}</p>
-            <p className="aboutme-description">{para?.secondParagraph}</p>
+            <p className="aboutme-description">{about}</p>
           </div>
         </div>
 
@@ -31,44 +32,34 @@ const Detail = (props) => {
             >
               <div className="expertise common-flex d-flex flex-column justify-content-between col-lg-4 col-md-6 col-sm-6 p-0">
                 <h4 className="profile-detail-heading">Expertise</h4>
-                <div className="with-icon row marg-0">
-                  <div className="col-lg-9 col-md-9 col-sm-10 col-xs-10 p-0">
-                    <p className="profile-info">{expertise}</p>
-                  </div>
-
-                  <div className="col-lg-3 col-md-3 col-sm-2 col-xs-2 p-0 text-center">
-                    <div className="first-badge tick-icon">
-                      <img src={icon} alt="" />
-                    </div>
-                  </div>
+                <div className="col-12 d-flex align-items-center justify-content-start">
+                  <span className="first-badge tick-icon">
+                    <img className="mx-2" src={icon} alt="" />
+                  </span>
+                  <p className="profile-info mt-1">{expertise[0].name}</p>
                 </div>
               </div>
 
               <div className="english-level common-flex col-lg-3 col-md-6 col-sm-6 p-0 d-flex flex-column justify-content-between">
                 <h4 className="profile-detail-heading">English Level</h4>
-                <div className="with-icon row marg-0">
-                  <div className="col-lg-7 col-md-7 col-sm-7 col-xs-7 p-0 ">
-                    <p className="profile-info">{englishLevel}</p>
-                  </div>
-
-                  <div className="col-lg-5 col-md-5 col-sm-5 col-xs-5 p-0 text-center">
-                    <div className="tick-icon">
-                      <img src={icon} />
-                    </div>
-                  </div>
+                <div className="col-12  d-flex align-items-center justify-content-start p-0">
+                  <span className="tick-icon">
+                    <img className="mx-2" src={icon} />
+                  </span>
+                  <p className="profile-info mt-1">{englishLevel}</p>
                 </div>
               </div>
 
               <div className="experience common-flex col-lg-5 col-md-12 col-sm-6 p-0">
                 <h4 className="profile-detail-heading">Years of Experience</h4>
-                <p className="profile-info">{experienceYear}</p>
+                <p className="profile-info">{yearsOfExperience}+ Years</p>
               </div>
             </div>
 
             <div className="tag-list">
-              {tags?.map((tag) => (
-                <span key={tag} className="tags">
-                  {tag}
+              {expertise.slice(1, expertise.length).map((tag) => (
+                <span key={tag.name} className="tags">
+                  {tag.name}
                 </span>
               ))}
             </div>
