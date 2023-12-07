@@ -21,7 +21,7 @@ jobs:
             cd /var/www/eSpark-dev/
             #ls
             #git branch
-            #git pull origin dev
+            git pull origin dev
             npm install --legacy-peer-deps
             npm run build
             sudo pm2 ls
