@@ -1,9 +1,5 @@
 import React, { useEffect, useState } from "react";
-
-import { useRouter } from "next/router";
-import { Inter } from "next/font/google";
-
-import Link from "next/link";
+import { createClient } from "next-sanity";
 
 import Banner from "@/components/Cv/Banner";
 import Detail from "@/components/Cv/Detail";
@@ -14,18 +10,13 @@ import Tools from "@/components/Cv/Tool";
 import EducationCertificate from "@/components/Cv/EducationCertificate";
 import Feedback from "@/components/Cv/Feedback";
 
-import { cvData } from "constants/cvsConstants";
-
-const inter = Inter({
-  weight: ["100", "200", "300", "400", "500", "600", "700", "800", "900"],
-  subsets: ["latin"],
+const client = createClient({
+  projectId: "93d1bm1e",
+  dataset: "production",
+  useCdn: true,
 });
 
-const IndividualCV = () => {
-  const router = useRouter();
-  const getId = router.query.eachId;
-  const cv = cvData?.find((item) => item?.id === parseInt(getId));
-
+const IndividualCV = ({ cv }) => {
   const [windowWidth, setWindowWidth] = useState(null);
 
   useEffect(() => {
@@ -55,28 +46,44 @@ const IndividualCV = () => {
     };
   }, []);
 
+  if (!cv) {
+    // Handle the case where the CV is not found
+    return <div>CV not found</div>;
+  }
+
+  console.log(cv);
+
   return (
     <div className="cv-area">
-      <Banner banner={cv.banner} windowWidth={windowWidth} />
-
-      <Detail
-        para={cv.aboutMe}
-        profileDetail={cv.profileDetail}
+      <Banner
+        firstName={cv.firstName}
+        lastName={cv.lastName}
+        objective={cv.objective}
+        profileImage={cv.profileImage}
+        role={cv.role}
         windowWidth={windowWidth}
       />
 
-      <TechTools tools={cv.techTools} />
+      <Detail
+        about={cv.about}
+        profileDetail={cv.profileDetail}
+        windowWidth={windowWidth}
+        englishLevel={cv.englishLevel}
+        yearsOfExperience={cv.yearsOfExperience}
+        expertise={cv.skills}
+      />
 
-      <WorkExperience experience={cv.workExperience} inter={inter} />
+      <TechTools tools={cv.skills} />
 
-      <Expertise expertise={cv.expertise} windowWidth={windowWidth} />
+      <WorkExperience experience={cv.experience} />
+
+      <Expertise expertise={cv.skills} windowWidth={windowWidth} />
 
       <Tools tools={cv.tools} windowWidth={windowWidth} />
 
       <EducationCertificate
         education={cv.education}
-        certification={cv.certification}
-        inter={inter}
+        certifications={cv.certifications}
       />
 
       <Feedback feedbacks={cv.feedback} windowWidth={windowWidth} />
@@ -84,26 +91,31 @@ const IndividualCV = () => {
   );
 };
 
+export default IndividualCV;
+
 export const getStaticPaths = async () => {
-  const paths = cvData.map((cv) => ({
-    params: { eachId: cv.id.toString() },
-  }));
+  const paths = await client.fetch('*[_type == "candidate"]._id');
 
   return {
-    paths,
+    paths: paths.map((eachId) => ({
+      params: { eachId: eachId.toString() },
+    })),
     fallback: false,
   };
 };
 
 export const getStaticProps = async ({ params }) => {
   const { eachId } = params;
-  const filterData = cvData.filter((item) => item.id === parseInt(eachId));
+  const cv = await client.fetch(
+    '*[_type == "candidate" && _id == $eachId][0]',
+    {
+      eachId,
+    }
+  );
 
   return {
     props: {
-      cv: filterData[0] || null,
+      cv: cv || null,
     },
   };
 };
-
-export default IndividualCV;
