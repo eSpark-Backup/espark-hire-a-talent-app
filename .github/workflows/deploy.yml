@@ -16,11 +16,7 @@ jobs:
           username: ${{ secrets.SERVER_USERNAME }}
           key: ${{ secrets.SERVER_PRIVATE_KEY }}
           script: |
-            #sudo su
-            #cd
             cd /var/www/eSpark-dev/
-            #ls
-            #git branch
             git pull origin dev
             npm install --legacy-peer-deps
             npm run build
