@@ -11,11 +11,11 @@ const TechTools = ({ tools }) => {
           <ProgressLine
             key={index}
             icon={tool?.icon}
-            name={tool?.techName}
+            name={tool?.name}
             techName={tool?.name}
             visualParts={[
               {
-                percentage: `${tool.percentage}%`,
+                percentage: `${tool.level}%`,
                 color: "#049583",
               },
             ]}
