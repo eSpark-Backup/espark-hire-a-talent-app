@@ -1,8 +1,14 @@
 import * as Yup from 'yup';
 
 export const profileValidationSchema = Yup.object({
-  first_name: Yup.string().min(3).max(25).required('First Name is required'),
-  last_name: Yup.string().min(3).max(25).required('Last Name is required'),
+  first_name: Yup.string()
+    .min(3, 'First name must be at least 3 characters')
+    .max(25, 'First name must be at most 25 characters')
+    .required('First Name is required'),
+  last_name: Yup.string()
+    .min(3, 'Last name must be at least 3 characters')
+    .max(25, 'Last name must be at most 25 characters')
+    .required('Last Name is required'),
   email: Yup.string()
     .email('Invalid email')
     .matches(
@@ -12,11 +18,14 @@ export const profileValidationSchema = Yup.object({
     .required('Email is required'),
   phone_number: Yup.string()
     .required('Phone Number is required')
-    .matches(/^(\+)?0?\d{11}$/, 'Phone number must be at least 11 characters'),
+    .matches(
+      /^\+?[0-9\s()/.]{8,}$/,
+      'Phone number must be at least characters'
+    ),
   linkedin_profile_link: Yup.string()
     .required('LinkedIn Profile is required')
     .matches(
-      /^(https?|ftp):\/\/[^\s/$.?#].[^\s]*$/,
+      /^([a-zA-Z]+:\/\/|www\.)[^\s/$.?#].[^\s]*$/,
       'Invalid LinkedIn Profile URL'
     ),
 });
