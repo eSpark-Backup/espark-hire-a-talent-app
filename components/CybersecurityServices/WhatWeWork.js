@@ -16,8 +16,8 @@ const WhatWeWork = ({ paragraph, Items, title, image, shape }) => {
               >
                 <Image
                   src={image}
-                  width={'500px'}
-                  height={'500px'}
+                  width={500}
+                  height={500}
                   alt="Outsourced Employee - Staff Outsourcing Solutions - Outsourced Staff - Global Employment Outsourcing - Employment Outsourcing Services – eSpark Talent"
                 />
               </div>

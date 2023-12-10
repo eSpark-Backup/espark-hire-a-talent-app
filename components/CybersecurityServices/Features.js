@@ -24,6 +24,8 @@ const Features = ({ title, para, items }) => {
                   <div className="image">
                     <Image
                       src={eachCard.imageLink}
+                      width={70}
+                      height={70}
                       alt="HR consultant - human resource planning - HR service - HR solutions - HR recruitment - HR outsourcing – eSpark talent"
                     />
                   </div>

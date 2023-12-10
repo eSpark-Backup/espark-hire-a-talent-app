@@ -115,6 +115,8 @@ const NavbarStyle2 = () => {
               >
                 <Image
                   src="/images/logo.png"
+                  width={120}
+                  height={57}
                   alt="Global Recruitment - global recruitment agency - worldwide recruiting agency - global recruitment services - global recruitment solutions - eSpark Talent"
                   className="talent-logo"
                 />
