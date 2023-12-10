@@ -1,6 +1,7 @@
-import React from 'react'
-import { Swiper, SwiperSlide } from 'swiper/react'
-import { Autoplay } from 'swiper'
+import React from 'react';
+import { Swiper, SwiperSlide } from 'swiper/react';
+import { Autoplay } from 'swiper';
+import Image from 'next/image';
 
 const ValueTradeArea = () => {
   return (
@@ -36,7 +37,7 @@ const ValueTradeArea = () => {
           >
             <SwiperSlide>
               <div className="value-trade-card">
-                <img
+                <Image
                   src="/images/crypto-startup/value-trade/trade-1.png"
                   alt="image"
                 />
@@ -48,7 +49,7 @@ const ValueTradeArea = () => {
 
             <SwiperSlide>
               <div className="value-trade-card">
-                <img
+                <Image
                   src="/images/crypto-startup/value-trade/trade-2.png"
                   alt="image"
                 />
@@ -60,7 +61,7 @@ const ValueTradeArea = () => {
 
             <SwiperSlide>
               <div className="value-trade-card">
-                <img
+                <Image
                   src="/images/crypto-startup/value-trade/trade-3.png"
                   alt="image"
                 />
@@ -72,7 +73,7 @@ const ValueTradeArea = () => {
 
             <SwiperSlide>
               <div className="value-trade-card">
-                <img
+                <Image
                   src="/images/crypto-startup/value-trade/trade-4.png"
                   alt="image"
                 />
@@ -84,7 +85,7 @@ const ValueTradeArea = () => {
 
             <SwiperSlide>
               <div className="value-trade-card">
-                <img
+                <Image
                   src="/images/crypto-startup/value-trade/trade-5.png"
                   alt="image"
                 />
@@ -96,7 +97,7 @@ const ValueTradeArea = () => {
 
             <SwiperSlide>
               <div className="value-trade-card">
-                <img
+                <Image
                   src="/images/crypto-startup/value-trade/trade-6.png"
                   alt="image"
                 />
@@ -108,7 +109,7 @@ const ValueTradeArea = () => {
 
             <SwiperSlide>
               <div className="value-trade-card">
-                <img
+                <Image
                   src="/images/crypto-startup/value-trade/trade-7.png"
                   alt="image"
                 />
@@ -120,7 +121,7 @@ const ValueTradeArea = () => {
 
             <SwiperSlide>
               <div className="value-trade-card">
-                <img
+                <Image
                   src="/images/crypto-startup/value-trade/trade-8.png"
                   alt="image"
                 />
@@ -132,7 +133,7 @@ const ValueTradeArea = () => {
 
             <SwiperSlide>
               <div className="value-trade-card">
-                <img
+                <Image
                   src="/images/crypto-startup/value-trade/trade-9.png"
                   alt="image"
                 />
@@ -144,7 +145,7 @@ const ValueTradeArea = () => {
 
             <SwiperSlide>
               <div className="value-trade-card">
-                <img
+                <Image
                   src="/images/crypto-startup/value-trade/trade-10.png"
                   alt="image"
                 />
@@ -156,7 +157,7 @@ const ValueTradeArea = () => {
 
             <SwiperSlide>
               <div className="value-trade-card">
-                <img
+                <Image
                   src="/images/crypto-startup/value-trade/trade-11.png"
                   alt="image"
                 />
@@ -169,7 +170,7 @@ const ValueTradeArea = () => {
         </div>
       </div>
     </>
-  )
-}
+  );
+};
 
-export default ValueTradeArea
+export default ValueTradeArea;

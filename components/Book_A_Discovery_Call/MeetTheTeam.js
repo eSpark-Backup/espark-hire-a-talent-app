@@ -1,4 +1,5 @@
 import React from 'react';
+import Image from 'next/image';
 
 const MeetTheTeam = ({ data }) => {
   const { heading, items } = data;
@@ -23,7 +24,7 @@ const MeetTheTeam = ({ data }) => {
                     data-aos-duration="1200"
                     data-aos-once="true"
                   >
-                    <img src={item.image} alt="image" />
+                    <Image src={item.image} alt="image" />
                   </div>
                   <div
                     className="content"

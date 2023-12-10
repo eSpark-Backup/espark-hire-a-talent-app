@@ -1,11 +1,12 @@
-import React from 'react'
+import React from 'react';
+import Image from 'next/image';
 import {
   Accordion,
   AccordionItem,
   AccordionItemHeading,
   AccordionItemButton,
   AccordionItemPanel,
-} from 'react-accessible-accordion'
+} from 'react-accessible-accordion';
 
 const FrequentlyAskedQuestions = () => {
   return (
@@ -15,7 +16,7 @@ const FrequentlyAskedQuestions = () => {
           <div className="row align-items-center">
             <div className="col-lg-6 col-md-12">
               <div className="ico-faq-image">
-                <img src="/images/ico-landing-home/faq.png" alt="image" />
+                <Image src="/images/ico-landing-home/faq.png" alt="image" />
               </div>
             </div>
 
@@ -111,7 +112,7 @@ const FrequentlyAskedQuestions = () => {
         </div>
       </div>
     </>
-  )
-}
+  );
+};
 
-export default FrequentlyAskedQuestions
+export default FrequentlyAskedQuestions;

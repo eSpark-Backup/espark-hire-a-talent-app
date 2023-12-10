@@ -1,4 +1,5 @@
 import React from 'react';
+import Image from 'next/image';
 import Link from 'next/link';
 
 import { socialLinks } from 'constants/constants';
@@ -15,7 +16,7 @@ const BlogDetailsContent = ({ data }) => {
                 <p>{data[0]?.mainParagraph}</p>
                 <div className="post-author-meta">
                   <div className="d-flex align-items-center">
-                    <img
+                    <Image
                       src={data[0]?.postedBy?.image}
                       alt={data[0]?.postedBy?.alt}
                     />
@@ -31,7 +32,7 @@ const BlogDetailsContent = ({ data }) => {
             </div>
             <div className="col-lg-6 col-md-12">
               <div className="image">
-                <img src={data[0]?.bigImageLink} alt={data[0]?.altTag} />
+                <Image src={data[0]?.bigImageLink} alt={data[0]?.altTag} />
               </div>
             </div>
           </div>
@@ -48,7 +49,7 @@ const BlogDetailsContent = ({ data }) => {
                         rel="noopener noreferrer"
                         className={item.className}
                       >
-                        <img
+                        <Image
                           src={item?.src}
                           className={item?.className}
                           width={'90%'}

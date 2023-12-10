@@ -1,5 +1,6 @@
 import React from 'react';
 import Link from 'next/link';
+import Image from 'next/image';
 
 const Footer = () => {
   return (
@@ -10,7 +11,7 @@ const Footer = () => {
             <div className="col-lg-4 col-sm-6 col-md-6">
               <div className="single-footer-widget">
                 <Link href="/" className="d-inline-block logo">
-                  <img src="/images/white-logo.png" alt="logo" />
+                  <Image src="/images/white-logo.png" alt="logo" />
                 </Link>
                 <p>
                   Donec sollicitudin molestie malesuada vivamus magna justo

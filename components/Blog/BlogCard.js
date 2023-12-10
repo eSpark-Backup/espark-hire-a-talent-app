@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import Image from 'next/image';
 import Link from 'next/link';
 
 const BlogCard = ({ item }) => {
@@ -81,7 +82,7 @@ const BlogCard = ({ item }) => {
                 <div className="single-blog-post">
                   <div className="image">
                     <Link href={`/blogs/${eachCard.slug}`} className="d-block">
-                      <img src={eachCard.imageLink} alt={eachCard.altTag} />
+                      <Image src={eachCard.imageLink} alt={eachCard.altTag} />
                     </Link>
                     <span className="date">{eachCard?.postedBy?.date}</span>
                   </div>

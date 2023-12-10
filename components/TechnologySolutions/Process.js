@@ -1,4 +1,5 @@
-import React from 'react'
+import React from 'react';
+import Image from 'next/image';
 
 const Process = () => {
   return (
@@ -7,8 +8,8 @@ const Process = () => {
         <div className="container">
           <div className="process-inner">
             <div className="row justify-content-center">
-              <div 
-                className="col-lg-4 col-md-6 col-sm-6" 
+              <div
+                className="col-lg-4 col-md-6 col-sm-6"
                 data-aos="fade-up"
                 data-aos-delay="400"
                 data-aos-duration="1200"
@@ -16,7 +17,7 @@ const Process = () => {
               >
                 <div className="single-process-box">
                   <div className="icon">
-                    <img src="/images/icon/icon14.png" alt="image" />
+                    <Image src="/images/icon/icon14.png" alt="image" />
                   </div>
                   <h3>Select Your Service</h3>
                   <p>
@@ -26,8 +27,8 @@ const Process = () => {
                 </div>
               </div>
 
-              <div 
-                className="col-lg-4 col-md-6 col-sm-6" 
+              <div
+                className="col-lg-4 col-md-6 col-sm-6"
                 data-aos="fade-up"
                 data-aos-delay="600"
                 data-aos-duration="1200"
@@ -35,7 +36,7 @@ const Process = () => {
               >
                 <div className="single-process-box">
                   <div className="icon">
-                    <img src="/images/icon/icon15.png" alt="image" />
+                    <Image src="/images/icon/icon15.png" alt="image" />
                   </div>
                   <h3>Work Smart Not Hard</h3>
                   <p>
@@ -45,8 +46,8 @@ const Process = () => {
                 </div>
               </div>
 
-              <div 
-                className="col-lg-4 col-md-6 col-sm-6" 
+              <div
+                className="col-lg-4 col-md-6 col-sm-6"
                 data-aos="fade-up"
                 data-aos-delay="800"
                 data-aos-duration="1200"
@@ -54,7 +55,7 @@ const Process = () => {
               >
                 <div className="single-process-box">
                   <div className="icon">
-                    <img src="/images/icon/icon16.png" alt="image" />
+                    <Image src="/images/icon/icon16.png" alt="image" />
                   </div>
                   <h3>We&apos;ve Got Your Back</h3>
                   <p>
@@ -68,7 +69,7 @@ const Process = () => {
         </div>
       </div>
     </>
-  )
-}
+  );
+};
 
-export default Process
+export default Process;

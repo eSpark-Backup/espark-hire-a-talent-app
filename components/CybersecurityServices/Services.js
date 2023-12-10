@@ -1,5 +1,6 @@
 import React from 'react';
 import Link from 'next/link';
+import Image from 'next/image';
 
 const Services = ({ ServicesPara, ServicesTitle, cardsItems }) => {
   return (
@@ -17,7 +18,7 @@ const Services = ({ ServicesPara, ServicesTitle, cardsItems }) => {
                   <div className="row align-items-center">
                     <div className="col-lg-6 col-md-6">
                       <div className="services-image">
-                        <img
+                        <Image
                           src={eachCard.imageLink}
                           alt="HR consultant - human resource planning - HR service - HR solutions - HR recruitment - HR outsourcing – eSpark talent"
                         />
@@ -40,7 +41,7 @@ const Services = ({ ServicesPara, ServicesTitle, cardsItems }) => {
           </div>
         </div>
         <div className="cyber-security-services-shape">
-          <img
+          <Image
             src="/images/cybersecurity-services/services/shape.png"
             alt="HR consultant - human resource planning - HR service - HR solutions - HR recruitment - HR outsourcing – eSpark talent"
           />

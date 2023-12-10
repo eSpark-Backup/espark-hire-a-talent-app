@@ -1,5 +1,6 @@
 import React from 'react';
 import Link from 'next/link';
+import Image from 'next/image';
 
 const Navbar = () => {
   const [menu, setMenu] = React.useState(true);
@@ -33,11 +34,7 @@ const Navbar = () => {
               <div className="col-lg-7 col-md-6">
                 <div className="top-header-start d-flex align-items-center">
                   <Link href="/" className="logo d-inline-block">
-                    <img
-                      src="/images/logo.png"
-                      alt="image"
-                      className="talent-logo"
-                    />
+                    <Image src={logo} alt="image" className="talent-logo" />
                   </Link>
                   <form className="search-box">
                     <label>
@@ -111,7 +108,7 @@ const Navbar = () => {
           <nav className="navbar navbar-expand-md navbar-light">
             <div className="container">
               <Link href="/" className="navbar-brand d-lg-none">
-                <img
+                <Image
                   src="/images/logo.png"
                   alt="Site logo"
                   className="talent-logo"

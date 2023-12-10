@@ -1,4 +1,5 @@
 import React from 'react';
+import Image from 'next/image';
 // AiOutlineCheck
 import { AiOutlineCheck } from 'react-icons/ai';
 
@@ -31,7 +32,7 @@ const WhyChooseUs = ({ title, para, items }) => {
                 data-aos-duration="1000"
                 data-aos-once="true"
               >
-                <img
+                <Image
                   src="/images/cybersecurity-services/choose/09.png"
                   alt="HR consultant - human resource planning - HR service - HR solutions - HR recruitment - HR outsourcing – eSpark talent"
                   width={'100%'}
@@ -43,7 +44,7 @@ const WhyChooseUs = ({ title, para, items }) => {
         </div>
 
         <div className="why-choose-us-shape">
-          <img
+          <Image
             src="/images/cybersecurity-services/choose/shape.png"
             alt="HR consultant - human resource planning - HR service - HR solutions - HR recruitment - HR outsourcing – eSpark talent"
           />
