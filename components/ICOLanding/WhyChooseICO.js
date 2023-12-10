@@ -1,4 +1,5 @@
-import React from 'react'
+import React from 'react';
+import Image from 'next/image';
 
 const WhyChooseICO = () => {
   return (
@@ -13,7 +14,7 @@ const WhyChooseICO = () => {
 
                 <div className="choose-inner-box">
                   <div className="image">
-                    <img
+                    <Image
                       src="/images/ico-landing-home/choose/icon-1.png"
                       alt="icon"
                     />
@@ -26,7 +27,7 @@ const WhyChooseICO = () => {
                 </div>
                 <div className="choose-inner-box">
                   <div className="image">
-                    <img
+                    <Image
                       src="/images/ico-landing-home/choose/icon-2.png"
                       alt="icon"
                     />
@@ -39,7 +40,7 @@ const WhyChooseICO = () => {
                 </div>
                 <div className="choose-inner-box">
                   <div className="image">
-                    <img
+                    <Image
                       src="/images/ico-landing-home/choose/icon-3.png"
                       alt="icon"
                     />
@@ -54,13 +55,13 @@ const WhyChooseICO = () => {
             </div>
 
             <div className="col-lg-6 col-md-12">
-              <div 
-                className="ico-choose-image" 
+              <div
+                className="ico-choose-image"
                 data-aos="fade-up"
                 data-aos-duration="1200"
                 data-aos-once="true"
               >
-                <img
+                <Image
                   src="/images/ico-landing-home/choose/choose.png"
                   alt="image"
                 />
@@ -70,7 +71,7 @@ const WhyChooseICO = () => {
         </div>
       </div>
     </>
-  )
-}
+  );
+};
 
-export default WhyChooseICO
+export default WhyChooseICO;

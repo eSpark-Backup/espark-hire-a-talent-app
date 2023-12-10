@@ -1,4 +1,5 @@
 import React from 'react';
+import Image from 'next/image';
 
 const Process = ({ title, processData }) => {
   return (
@@ -19,7 +20,7 @@ const Process = ({ title, processData }) => {
                 >
                   <div className="single-process-box justify-content-center">
                     <div className="icon">
-                      <img
+                      <Image
                         src={processItems.image}
                         alt="Outsourced Employee - Staff Outsourcing Solutions - Outsourced Staff - Global Employment Outsourcing - Employment Outsourcing Services – eSpark Talent"
                       />

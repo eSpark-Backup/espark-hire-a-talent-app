@@ -1,4 +1,5 @@
-import React from 'react'
+import React from 'react';
+import Image from 'next/image';
 
 const Features = () => {
   return (
@@ -6,8 +7,8 @@ const Features = () => {
       <div className="features-style-area pb-70">
         <div className="container">
           <div className="row justify-content-center">
-            <div 
-              className="col-lg-3 col-sm-6 col-md-6" 
+            <div
+              className="col-lg-3 col-sm-6 col-md-6"
               data-aos="fade-up"
               data-aos-delay="200"
               data-aos-duration="1200"
@@ -15,7 +16,7 @@ const Features = () => {
             >
               <div className="single-features-card with-black-color">
                 <div className="image">
-                  <img
+                  <Image
                     src="/images/ico-landing-home/features/icon-1.png"
                     alt="icon"
                   />
@@ -28,8 +29,8 @@ const Features = () => {
               </div>
             </div>
 
-            <div 
-              className="col-lg-3 col-sm-6 col-md-6" 
+            <div
+              className="col-lg-3 col-sm-6 col-md-6"
               data-aos="fade-up"
               data-aos-delay="400"
               data-aos-duration="1200"
@@ -37,7 +38,7 @@ const Features = () => {
             >
               <div className="single-features-card with-black-color">
                 <div className="image">
-                  <img
+                  <Image
                     src="/images/ico-landing-home/features/icon-2.png"
                     alt="icon"
                   />
@@ -50,8 +51,8 @@ const Features = () => {
               </div>
             </div>
 
-            <div 
-              className="col-lg-3 col-sm-6 col-md-6" 
+            <div
+              className="col-lg-3 col-sm-6 col-md-6"
               data-aos="fade-up"
               data-aos-delay="600"
               data-aos-duration="1200"
@@ -59,7 +60,7 @@ const Features = () => {
             >
               <div className="single-features-card with-black-color">
                 <div className="image">
-                  <img
+                  <Image
                     src="/images/ico-landing-home/features/icon-3.png"
                     alt="icon"
                   />
@@ -72,8 +73,8 @@ const Features = () => {
               </div>
             </div>
 
-            <div 
-              className="col-lg-3 col-sm-6 col-md-6" 
+            <div
+              className="col-lg-3 col-sm-6 col-md-6"
               data-aos="fade-up"
               data-aos-delay="800"
               data-aos-duration="1200"
@@ -81,7 +82,7 @@ const Features = () => {
             >
               <div className="single-features-card with-black-color">
                 <div className="image">
-                  <img
+                  <Image
                     src="/images/ico-landing-home/features/icon-4.png"
                     alt="icon"
                   />
@@ -97,7 +98,7 @@ const Features = () => {
         </div>
       </div>
     </>
-  )
-}
+  );
+};
 
-export default Features
+export default Features;

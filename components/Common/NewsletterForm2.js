@@ -1,5 +1,6 @@
 import React from 'react';
 import Link from 'next/link';
+import Image from 'next/image';
 import { useRouter } from 'next/router';
 
 const NewsletterForm2 = () => {
@@ -31,19 +32,19 @@ const NewsletterForm2 = () => {
               )}
             </div>
             <div className="shape1">
-              <img
+              <Image
                 src="/images/cta/ctaImage1.png"
                 alt="Global Recruitment - global recruitment agency - worldwide recruiting agency - global recruitment services - global recruitment solutions - eSpark Talent"
               />
             </div>
             <div className="shape3">
-              <img
+              <Image
                 src="/images/cta/ctaImage2.png"
                 alt="Global Recruitment - global recruitment agency - worldwide recruiting agency - global recruitment services - global recruitment solutions - eSpark Talent"
               />
             </div>
             <div className="shape4">
-              <img
+              <Image
                 src="/images/cta/ctaImage3.png"
                 alt="Global Recruitment - global recruitment agency - worldwide recruiting agency - global recruitment services - global recruitment solutions - eSpark Talent"
               />

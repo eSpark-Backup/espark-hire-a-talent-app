@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import Link from 'next/link';
+import Image from 'next/image';
 import axios from 'axios';
 import Swal from 'sweetalert2';
 import withReactContent from 'sweetalert2-react-content';
@@ -162,7 +163,7 @@ const ContactUs = () => {
                     </li>
                   </ul>
                   <div className="get-in-touch-shape">
-                    <img
+                    <Image
                       src="/images/crypto-startup/get-in-touch-shape.png"
                       alt="image"
                     />

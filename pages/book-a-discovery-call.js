@@ -1,5 +1,6 @@
 import React from 'react';
 import Link from 'next/link';
+import Image from 'next/image';
 import AdaptTab from '@/components/Book_A_Discovery_Call/Adapt';
 import ReliableAndSecure from '@/components/Book_A_Discovery_Call/ReliableAndSecure';
 import OurProcess from '@/components/Book_A_Discovery_Call/OurProcess';
@@ -28,7 +29,7 @@ function DiscoveryCall() {
       <div className="DiscoveryCall discovery-call">
         <div className="container-fluid discovery-call-header">
           <Link href="/">
-            <img
+            <Image
               src="/images/ThankyouPageLogo.png"
               width={'157.983px'}
               height={'74.775px'}

@@ -1,4 +1,5 @@
 import React from 'react';
+import Image from 'next/image';
 
 const WhatWeWork = ({ paragraph, Items, title, image, shape }) => {
   return (
@@ -13,7 +14,7 @@ const WhatWeWork = ({ paragraph, Items, title, image, shape }) => {
                 data-aos-duration="1200"
                 data-aos-once="true"
               >
-                <img
+                <Image
                   src={image}
                   width={'500px'}
                   height={'500px'}
@@ -28,7 +29,7 @@ const WhatWeWork = ({ paragraph, Items, title, image, shape }) => {
                 {Items?.map((eachItems, i) => (
                   <div className="we-work-inner-box" key={i}>
                     <div className="image">
-                      <img
+                      <Image
                         src={eachItems.icon}
                         alt="Outsourced Employee - Staff Outsourcing Solutions - Outsourced Staff - Global Employment Outsourcing - Employment Outsourcing Services – eSpark Talent"
                       />
@@ -42,7 +43,7 @@ const WhatWeWork = ({ paragraph, Items, title, image, shape }) => {
           </div>
         </div>
         <div className="what-we-work-shape">
-          <img
+          <Image
             src={shape}
             alt="Outsourced Employee - Staff Outsourcing Solutions - Outsourced Staff - Global Employment Outsourcing - Employment Outsourcing Services – eSpark Talent"
           />

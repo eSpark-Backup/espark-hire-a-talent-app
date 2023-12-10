@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import Image from 'next/image';
 import {
   Accordion,
   AccordionItem,
@@ -44,7 +45,7 @@ const Faq = ({ title, item }) => {
                           {item.heading}
                         </p>
 
-                        <img
+                        <Image
                           src={
                             item.toggle
                               ? '/images/icon/Group_93.svg'
