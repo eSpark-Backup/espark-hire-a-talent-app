@@ -36,7 +36,12 @@ const HeroSlider = (props) => {
                     </div>
                     <div className="col-xl-6 col-lg-6 col-md-12">
                       <div className="home-image mt-5">
-                        <Image src={slide.imagePath} alt={slide.altTag} />
+                        <Image
+                          src={slide.imagePath}
+                          alt={slide.altTag}
+                          width={820}
+                          height={607}
+                        />
                       </div>
                     </div>
                   </div>
