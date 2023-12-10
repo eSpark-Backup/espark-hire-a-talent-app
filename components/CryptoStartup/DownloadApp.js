@@ -1,5 +1,6 @@
 import React from 'react';
 import Link from 'next/link';
+import Image from 'next/image';
 
 const DownloadApp = () => {
   return (
@@ -22,7 +23,7 @@ const DownloadApp = () => {
                         target="_blank"
                         rel="noreferrer"
                       >
-                        <img
+                        <Image
                           src="/images/crypto-startup/download-app/app-1.png"
                           alt="image"
                         />
@@ -34,7 +35,7 @@ const DownloadApp = () => {
                         target="_blank"
                         rel="noreferrer"
                       >
-                        <img
+                        <Image
                           src="/images/crypto-startup/download-app/app-2.png"
                           alt="image"
                         />
@@ -46,7 +47,7 @@ const DownloadApp = () => {
 
               <div className="col-lg-6 col-md-12">
                 <div className="download-app-image">
-                  <img
+                  <Image
                     src="/images/crypto-startup/download-app/download-app.png"
                     alt="image"
                   />

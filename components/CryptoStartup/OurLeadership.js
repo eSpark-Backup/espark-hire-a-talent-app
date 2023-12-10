@@ -1,4 +1,5 @@
 import React from 'react';
+import Image from 'next/image';
 
 const OurLeadership = () => {
   return (
@@ -13,7 +14,7 @@ const OurLeadership = () => {
             <div className="col-lg-4 col-sm-6">
               <div className="team-member-card">
                 <div className="team-image">
-                  <img
+                  <Image
                     src="/images/cybersecurity-services/team/team-5.jpg"
                     alt="image"
                   />
@@ -64,7 +65,7 @@ const OurLeadership = () => {
             <div className="col-lg-4 col-sm-6">
               <div className="team-member-card">
                 <div className="team-image">
-                  <img
+                  <Image
                     src="/images/cybersecurity-services/team/team-6.jpg"
                     alt="image"
                   />
@@ -115,7 +116,7 @@ const OurLeadership = () => {
             <div className="col-lg-4 col-sm-6">
               <div className="team-member-card">
                 <div className="team-image">
-                  <img
+                  <Image
                     src="/images/cybersecurity-services/team/team-7.jpg"
                     alt="image"
                   />

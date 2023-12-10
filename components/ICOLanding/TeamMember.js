@@ -1,4 +1,5 @@
 import React from 'react';
+import Image from 'next/image';
 
 const TeamMember = () => {
   return (
@@ -19,7 +20,7 @@ const TeamMember = () => {
             >
               <div className="team-member-card with-white-color">
                 <div className="team-image">
-                  <img
+                  <Image
                     src="/images/cybersecurity-services/team/team-1.jpg"
                     alt="image"
                   />
@@ -76,7 +77,7 @@ const TeamMember = () => {
             >
               <div className="team-member-card with-white-color">
                 <div className="team-image">
-                  <img
+                  <Image
                     src="/images/cybersecurity-services/team/team-2.jpg"
                     alt="image"
                   />
@@ -133,7 +134,7 @@ const TeamMember = () => {
             >
               <div className="team-member-card with-white-color">
                 <div className="team-image">
-                  <img
+                  <Image
                     src="/images/cybersecurity-services/team/team-3.jpg"
                     alt="image"
                   />
@@ -190,7 +191,7 @@ const TeamMember = () => {
             >
               <div className="team-member-card with-white-color">
                 <div className="team-image">
-                  <img
+                  <Image
                     src="/images/cybersecurity-services/team/team-4.jpg"
                     alt="image"
                   />

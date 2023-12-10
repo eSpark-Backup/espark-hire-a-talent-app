@@ -1,4 +1,5 @@
 import React from 'react';
+import Image from 'next/image';
 
 const Features = ({ title, para, items }) => {
   return (
@@ -21,7 +22,7 @@ const Features = ({ title, para, items }) => {
               >
                 <div className="single-features-card">
                   <div className="image">
-                    <img
+                    <Image
                       src={eachCard.imageLink}
                       alt="HR consultant - human resource planning - HR service - HR solutions - HR recruitment - HR outsourcing – eSpark talent"
                     />

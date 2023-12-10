@@ -1,4 +1,5 @@
 import React from 'react';
+import Image from 'next/image';
 
 import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
@@ -12,7 +13,7 @@ import {
   EffectFade,
   Autoplay,
 } from 'swiper';
-import StarRating from './StarRating';
+import StarRating from '@/components/Book_A_Discovery_Call/StarRating';
 
 const ClientFeedback = ({ data }) => {
   const { mainheading, items } = data;
@@ -53,7 +54,7 @@ const ClientFeedback = ({ data }) => {
                     <div className="col-xl-5 col-lg-5 col-md-4 col-sm-8 position-relative d-flex justify-content-center align-items-center">
                       <div className="feedback-bg"></div>
                       <div className="feedback-img">
-                        <img src={items?.image} alt="img" />
+                        <Image src={items?.image} alt="img" />
                       </div>
                     </div>
                     <div className="col-xl-7 col-lg-7 col-md-8 col-sm-10 position-relative d-flex align-items-center">

@@ -1,5 +1,6 @@
 import React from 'react';
 import Link from 'next/link';
+import Image from 'next/image';
 
 const Footer = () => {
   return (
@@ -8,7 +9,7 @@ const Footer = () => {
         <div className="container">
           <div className="footer-widget-style-wrap with-white-color">
             <Link href="/" className="d-inline-block logo">
-              <img src="/images/white-logo.png" alt="logo" />
+              <Image src="/images/white-logo.png" alt="logo" />
             </Link>
 
             <ul className="quick-links">
@@ -134,7 +135,7 @@ const Footer = () => {
         </div>
 
         <div className="footer-style-wrap-shape">
-          <img src="/images/ico-landing-home/global-shape.png" alt="image" />
+          <Image src="/images/ico-landing-home/global-shape.png" alt="image" />
         </div>
       </footer>
     </>
