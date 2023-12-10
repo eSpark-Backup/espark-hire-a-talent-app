@@ -31,7 +31,7 @@ const Footer = () => {
         />
         <noscript>
           <noscript>
-            <Image
+            <img
               height="1"
               width="1"
               style={{ display: 'none' }}
@@ -46,6 +46,8 @@ const Footer = () => {
                 <Link href="/" className="d-inline-block logo">
                   <Image
                     src="/images/logo.png"
+                    width={120}
+                    height={57}
                     className="talent-logo"
                     alt="Global Recruitment - global recruitment agency - worldwide recruiting agency - global recruitment services - global recruitment solutions - eSpark Talent"
                   />
@@ -71,8 +73,8 @@ const Footer = () => {
                         <Image
                           src={item?.src}
                           className={item?.className}
-                          width={'90%'}
-                          height={'90%'}
+                          width={36}
+                          height={36}
                           alt="social-icons"
                         />
                       </Link>

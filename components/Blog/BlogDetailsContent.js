@@ -52,8 +52,8 @@ const BlogDetailsContent = ({ data }) => {
                         <Image
                           src={item?.src}
                           className={item?.className}
-                          width={'90%'}
-                          height={'90%'}
+                          width={36}
+                          height={36}
                           alt="social-icons"
                         />
                       </Link>
