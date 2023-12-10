@@ -20,6 +20,8 @@ const Services = ({ ServicesPara, ServicesTitle, cardsItems }) => {
                       <div className="services-image">
                         <Image
                           src={eachCard.imageLink}
+                          width={273}
+                          height={241}
                           alt="HR consultant - human resource planning - HR service - HR solutions - HR recruitment - HR outsourcing – eSpark talent"
                         />
                       </div>

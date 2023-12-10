@@ -31,8 +31,9 @@ function DiscoveryCall() {
           <Link href="/">
             <Image
               src="/images/ThankyouPageLogo.png"
-              width={'157.983px'}
-              height={'74.775px'}
+              width={157}
+              height={74}
+              alt=""
             />
           </Link>
           <div>

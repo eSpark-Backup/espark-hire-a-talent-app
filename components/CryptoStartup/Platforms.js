@@ -18,6 +18,8 @@ const Platforms = ({ heading, paragraph, data }) => {
                   <div className="platforms-item with-white-color">
                     <div className="image">
                       <Image
+                        width={90}
+                        height={90}
                         src={eachItem.icon}
                         alt="Hire app developer - Freelance mobile app developer - Hire dedicated mobile app developers - Hire cross platform app developer - Hire a mobile app developer – eSpark Talent"
                       />
@@ -28,6 +30,8 @@ const Platforms = ({ heading, paragraph, data }) => {
                     <div className="arrow-image">
                       <Image
                         src={eachItem.arrowPath}
+                        width={152}
+                        height={136}
                         alt="Hire app developer - Freelance mobile app developer - Hire dedicated mobile app developers - Hire cross platform app developer - Hire a mobile app developer – eSpark Talent"
                       />
                     </div>
@@ -38,6 +42,8 @@ const Platforms = ({ heading, paragraph, data }) => {
                   <div className="platforms-item with-white-color">
                     <div className="image">
                       <Image
+                        width={90}
+                        height={90}
                         src={eachItem.icon}
                         alt="Hire app developer - Freelance mobile app developer - Hire dedicated mobile app developers - Hire cross platform app developer - Hire a mobile app developer – eSpark Talent"
                       />
