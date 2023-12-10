@@ -1,4 +1,5 @@
 import React from 'react';
+import Image from 'next/image';
 
 const AboutUs = (props) => {
   const { title, content, items } = props;
@@ -14,14 +15,14 @@ const AboutUs = (props) => {
                 data-aos-duration="1000"
                 data-aos-once="true"
               >
-                <img
+                <Image
                   src="/images/Mask group.png"
                   alt="Global Recruitment - global recruitment agency - worldwide recruiting agency - global recruitment services - global recruitment solutions - eSpark Talent"
                   width={'75%'}
                   height={'100%'}
                 />
                 <div className="shape5">
-                  <img
+                  <Image
                     src="/images/shape/shape5.png"
                     alt="Global Recruitment - global recruitment agency - worldwide recruiting agency - global recruitment services - global recruitment solutions - eSpark Talent"
                   />
@@ -37,7 +38,7 @@ const AboutUs = (props) => {
                     <li key={i}>
                       <div className="d-flex align-items-center">
                         <div className="icon bg-f9f9f9">
-                          <img
+                          <Image
                             src={eachItem.imageLink}
                             alt="Global Recruitment - global recruitment agency - worldwide recruiting agency - global recruitment services - global recruitment solutions - eSpark Talent"
                           />
@@ -52,7 +53,7 @@ const AboutUs = (props) => {
           </div>
         </div>
         <div className="shape6">
-          <img src="/images/shape/shape6.png" alt="image" />
+          <Image src="/images/shape/shape6.png" alt="image" />
         </div>
       </div>
     </>

@@ -1,4 +1,5 @@
 import React from 'react';
+import Image from 'next/image';
 
 const OurPlatforms = (props) => {
   const { data, platFormItemsTitle, platFormItemsContent } = props;
@@ -16,13 +17,13 @@ const OurPlatforms = (props) => {
                 <div className="col-lg-3 col-md-6 col-sm-6" key={i}>
                   <div className="platforms-item with-white-color">
                     <div className="image">
-                      <img src={eachItem.imageLink} alt={eachItem.altTag} />
+                      <Image src={eachItem.imageLink} alt={eachItem.altTag} />
                     </div>
                     <h3>{eachItem.title}</h3>
                     <p>{eachItem.content}</p>
 
                     <div className="arrow-image">
-                      <img src={eachItem.arrowLink} alt={eachItem.altTag} />
+                      <Image src={eachItem.arrowLink} alt={eachItem.altTag} />
                     </div>
                   </div>
                 </div>
@@ -30,7 +31,7 @@ const OurPlatforms = (props) => {
                 <div className="col-lg-3 col-md-6 col-sm-6" key={i}>
                   <div className="platforms-item with-white-color">
                     <div className="image">
-                      <img src={eachItem.imageLink} alt={eachItem.altTag} />
+                      <Image src={eachItem.imageLink} alt={eachItem.altTag} />
                     </div>
                     <h3>{eachItem.title}</h3>
                     <p>{eachItem.content}</p>

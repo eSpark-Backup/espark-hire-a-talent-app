@@ -1,4 +1,5 @@
 import React from 'react';
+import Image from 'next/image';
 
 const CyberSafety = ({ title, para }) => {
   return (
@@ -13,7 +14,7 @@ const CyberSafety = ({ title, para }) => {
                 data-aos-duration="1200"
                 data-aos-once="true"
               >
-                <img
+                <Image
                   src="/images/cybersecurity-services/10.png"
                   alt="HR consultant - human resource planning - HR service - HR solutions - HR recruitment - HR outsourcing – eSpark talent"
                   width={'90%'}

@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import { useRouter } from 'next/router';
 import Head from 'next/head';
 import Link from 'next/link';
+import Image from 'next/image';
 
 import { seoContent } from 'constants/SEOConstant';
 
@@ -112,7 +113,7 @@ const NavbarStyle2 = () => {
                 }`}
                 onClick={() => handleNavItemClick('Home')}
               >
-                <img
+                <Image
                   src="/images/logo.png"
                   alt="Global Recruitment - global recruitment agency - worldwide recruiting agency - global recruitment services - global recruitment solutions - eSpark Talent"
                   className="talent-logo"

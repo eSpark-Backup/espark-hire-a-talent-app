@@ -1,4 +1,5 @@
 import React from 'react';
+import Image from 'next/image';
 import Link from 'next/link';
 
 const AdaptTab = ({ data }) => {
@@ -16,7 +17,7 @@ const AdaptTab = ({ data }) => {
                 data-aos-duration="1200"
                 data-aos-once="true"
               >
-                <img src={image} alt="image" />
+                <Image src={image} alt="image" />
               </div>
             </div>
 
@@ -29,7 +30,7 @@ const AdaptTab = ({ data }) => {
                 {listItem?.map((items, i) => (
                   <div key={i} className="row my-xl-4 my-lg-2 my-md-3 my-sm-3">
                     <div className="col-2 col-md-4 w-auto justify-content-center d-flex">
-                      <img src={items.logo} className="logo" />
+                      <Image src={items.logo} className="logo" />
                     </div>
                     <div className="col-9 col-md-8">
                       <h3>{items.heading}</h3>

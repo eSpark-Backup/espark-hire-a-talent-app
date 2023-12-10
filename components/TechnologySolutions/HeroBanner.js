@@ -1,5 +1,6 @@
 import React from 'react';
 import Link from 'next/link';
+import Image from 'next/image';
 
 const HeroBanner = () => {
   return (
@@ -28,26 +29,26 @@ const HeroBanner = () => {
                   data-aos-duration="1200"
                   data-aos-once="true"
                 >
-                  <img src="/images/woman.png" alt="image" />
+                  <Image src="/images/woman.png" alt="image" />
                 </div>
                 <div className="shape">
-                  <img src="/images/shape/shape8.png" alt="image" />
+                  <Image src="/images/shape/shape8.png" alt="image" />
                 </div>
               </div>
             </div>
           </div>
         </div>
         <div className="shape1">
-          <img src="/images/shape/shape1.png" alt="image" />
+          <Image src="/images/shape/shape1.png" alt="image" />
         </div>
         <div className="shape2">
-          <img src="/images/shape/shape2.png" alt="image" />
+          <Image src="/images/shape/shape2.png" alt="image" />
         </div>
         <div className="shape3">
-          <img src="/images/shape/shape3.png" alt="image" />
+          <Image src="/images/shape/shape3.png" alt="image" />
         </div>
         <div className="shape4">
-          <img src="/images/shape/shape4.png" alt="image" />
+          <Image src="/images/shape/shape4.png" alt="image" />
         </div>
       </div>
     </>

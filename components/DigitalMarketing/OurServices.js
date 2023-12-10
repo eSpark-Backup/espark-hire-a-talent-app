@@ -1,5 +1,6 @@
 import React from 'react';
 import Link from 'next/link';
+import Image from 'next/image';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Pagination } from 'swiper';
 import { Autoplay } from 'swiper';
@@ -42,7 +43,7 @@ const OurServices = () => {
             <SwiperSlide>
               <div className="single-services-item">
                 <div className="d-flex align-items-center">
-                  <img src="/images/icon/icon8.png" alt="image" />
+                  <Image src="/images/icon/icon8.png" alt="image" />
                   <h3>
                     <Link href="/service-details">Branding</Link>
                   </h3>
@@ -85,7 +86,7 @@ const OurServices = () => {
             <SwiperSlide>
               <div className="single-services-item">
                 <div className="d-flex align-items-center">
-                  <img src="/images/icon/icon9.png" alt="image" />
+                  <Image src="/images/icon/icon9.png" alt="image" />
                   <h3>
                     <Link href="/service-details">Design</Link>
                   </h3>
@@ -127,7 +128,7 @@ const OurServices = () => {
             <SwiperSlide>
               <div className="single-services-item">
                 <div className="d-flex align-items-center">
-                  <img src="/images/icon/icon10.png" alt="image" />
+                  <Image src="/images/icon/icon10.png" alt="image" />
                   <h3>
                     <Link href="/service-details">Content</Link>
                   </h3>
@@ -169,7 +170,7 @@ const OurServices = () => {
             <SwiperSlide>
               <div className="single-services-item">
                 <div className="d-flex align-items-center">
-                  <img src="/images/icon/icon11.png" alt="image" />
+                  <Image src="/images/icon/icon11.png" alt="image" />
                   <h3>
                     <Link href="/service-details">Strategy</Link>
                   </h3>
@@ -212,7 +213,7 @@ const OurServices = () => {
             <SwiperSlide>
               <div className="single-services-item">
                 <div className="d-flex align-items-center">
-                  <img src="/images/icon/icon12.png" alt="image" />
+                  <Image src="/images/icon/icon12.png" alt="image" />
                   <h3>
                     <Link href="/service-details">Marketing</Link>
                   </h3>
@@ -257,7 +258,7 @@ const OurServices = () => {
             <SwiperSlide>
               <div className="single-services-item">
                 <div className="d-flex align-items-center">
-                  <img src="/images/icon/icon13.png" alt="image" />
+                  <Image src="/images/icon/icon13.png" alt="image" />
                   <h3>
                     <Link href="/service-details">Technology</Link>
                   </h3>

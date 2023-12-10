@@ -1,5 +1,6 @@
 import React from 'react';
 import Link from 'next/link';
+import Image from 'next/image';
 
 const HeroBanner = () => {
   return (
@@ -85,7 +86,7 @@ const HeroBanner = () => {
                 data-aos-duration="1200"
                 data-aos-once="true"
               >
-                <img
+                <Image
                   src="/images/crypto-startup/banner/banner.png"
                   alt="image"
                 />
@@ -95,13 +96,13 @@ const HeroBanner = () => {
         </div>
 
         <div className="cryptocurrency-banner-shape-1">
-          <img src="/images/crypto-startup/banner/shape-1.png" alt="image" />
+          <Image src="/images/crypto-startup/banner/shape-1.png" alt="image" />
         </div>
         <div className="cryptocurrency-banner-shape-2">
-          <img src="/images/crypto-startup/banner/shape-2.png" alt="image" />
+          <Image src="/images/crypto-startup/banner/shape-2.png" alt="image" />
         </div>
         <div className="cryptocurrency-banner-shape-3">
-          <img src="/images/crypto-startup/banner/shape-3.png" alt="image" />
+          <Image src="/images/crypto-startup/banner/shape-3.png" alt="image" />
         </div>
       </div>
     </>

@@ -1,5 +1,5 @@
 import React from 'react';
-import PartnerSlider from './PartnerSlider';
+import PartnerSlider from ''@/components/PartnerSlider';
 
 const PartnerArea = () => {
   return (

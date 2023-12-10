@@ -1,4 +1,5 @@
 import React from 'react';
+import Image from 'next/image';
 import Link from 'next/link';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Navigation } from 'swiper';
@@ -35,7 +36,7 @@ const HeroSlider = (props) => {
                     </div>
                     <div className="col-xl-6 col-lg-6 col-md-12">
                       <div className="home-image mt-5">
-                        <img src={slide.imagePath} alt={slide.altTag} />
+                        <Image src={slide.imagePath} alt={slide.altTag} />
                       </div>
                     </div>
                   </div>

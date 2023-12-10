@@ -1,4 +1,5 @@
 import React from 'react';
+import Image from 'next/image';
 
 const DiscoveryServices = ({ title, para, items }) => {
   return (
@@ -19,7 +20,7 @@ const DiscoveryServices = ({ title, para, items }) => {
                 }
               >
                 <div className="d-flex align-items-center">
-                  <img
+                  <Image
                     src={eachCard.imageLink}
                     alt="Global Recruitment - global recruitment agency - worldwide recruiting agency - global recruitment services - global recruitment solutions - eSpark Talent"
                   />

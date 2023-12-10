@@ -1,5 +1,6 @@
-import React from "react";
-import Link from "next/link";
+import React from 'react';
+import Link from 'next/link';
+import Image from 'next/image';
 
 const HeroBanner = () => {
   return (
@@ -34,7 +35,7 @@ const HeroBanner = () => {
                 data-aos-duration="1200"
                 data-aos-once="true"
               >
-                <img
+                <Image
                   src="/images/cybersecurity-services/banner/banner.png"
                   alt="image"
                 />

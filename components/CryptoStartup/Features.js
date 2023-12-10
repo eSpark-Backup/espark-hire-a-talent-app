@@ -1,4 +1,5 @@
-import React from 'react'
+import React from 'react';
+import Image from 'next/image';
 
 const Features = () => {
   return (
@@ -6,16 +7,16 @@ const Features = () => {
       <div className="features-style-area pb-70">
         <div className="container">
           <div className="row justify-content-center">
-            <div 
-              className="col-lg-4 col-sm-6 col-md-6" 
+            <div
+              className="col-lg-4 col-sm-6 col-md-6"
               data-aos="fade-up"
               data-aos-delay="200"
               data-aos-duration="1200"
               data-aos-once="true"
             >
-              <div  className="single-features-card text-start">
+              <div className="single-features-card text-start">
                 <div className="image">
-                  <img
+                  <Image
                     src="/images/crypto-startup/features/features-1.png"
                     alt="image"
                   />
@@ -29,7 +30,7 @@ const Features = () => {
               </div>
             </div>
 
-            <div 
+            <div
               className="col-lg-4 col-sm-6 col-md-6"
               data-aos="fade-up"
               data-aos-delay="400"
@@ -38,7 +39,7 @@ const Features = () => {
             >
               <div className="single-features-card text-start">
                 <div className="image">
-                  <img
+                  <Image
                     src="/images/crypto-startup/features/features-2.png"
                     alt="image"
                   />
@@ -52,7 +53,7 @@ const Features = () => {
               </div>
             </div>
 
-            <div 
+            <div
               className="col-lg-4 col-sm-6 col-md-6"
               data-aos="fade-up"
               data-aos-delay="600"
@@ -61,7 +62,7 @@ const Features = () => {
             >
               <div className="single-features-card text-start">
                 <div className="image">
-                  <img
+                  <Image
                     src="/images/crypto-startup/features/features-3.png"
                     alt="image"
                   />
@@ -78,7 +79,7 @@ const Features = () => {
         </div>
       </div>
     </>
-  )
-}
+  );
+};
 
-export default Features
+export default Features;
