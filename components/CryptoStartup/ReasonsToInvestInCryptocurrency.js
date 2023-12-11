@@ -15,6 +15,8 @@ const ReasonsToInvestInCryptocurrency = ({ title, data, image }) => {
                     <div className="image">
                       <Image
                         src={items.icon}
+                        width={50}
+                        height={50}
                         alt="Hire app developer - Freelance mobile app developer - Hire dedicated mobile app developers - Hire cross platform app developer - Hire a mobile app developer – eSpark Talent"
                       />
                     </div>

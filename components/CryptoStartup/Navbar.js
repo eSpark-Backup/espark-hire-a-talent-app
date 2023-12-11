@@ -38,6 +38,8 @@ const Navbar = () => {
                 src="/images/black-logo.png"
                 className="talent-logo"
                 alt="Site logo"
+                width={72}
+                height={40}
               />
             </Link>
 

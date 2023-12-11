@@ -31,6 +31,8 @@ const OurTeamMember = (props) => {
                       >
                         <Image
                           src={person.img}
+                          width={345}
+                          height={345}
                           alt="Global Recruitment - global recruitment agency - worldwide recruiting agency - global recruitment services - global recruitment solutions - eSpark Talent"
                         />
                         <div
