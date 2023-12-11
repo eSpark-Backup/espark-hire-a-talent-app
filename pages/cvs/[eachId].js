@@ -3,7 +3,7 @@ import { createClient } from "next-sanity";
 
 import Banner from "@/components/Cv/Banner";
 import Detail from "@/components/Cv/Detail";
-import TechTools from "@/components/Cv/TechTools";
+// import TechTools from "@/components/Cv/TechTools";
 import WorkExperience from "@/components/Cv/WorkExperience";
 import Expertise from "@/components/Cv/Expertise";
 import Tools from "@/components/Cv/Tool";
@@ -73,7 +73,7 @@ const IndividualCV = ({ cv }) => {
         expertise={cv.skills}
       />
 
-      <TechTools tools={cv.skills} />
+      {/* <TechTools tools={cv.skills} /> */}
 
       <WorkExperience experience={cv.experience} />
 
