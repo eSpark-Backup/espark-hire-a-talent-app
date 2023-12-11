@@ -10807,7 +10807,7 @@ input::-webkit-inner-spin-button {
 .partner-form .dropdown-header-Flag {
   cursor: pointer;
   padding: 10px;
-  width: 100%;
+  width: auto;
   height: 41.539px;
   border: 0.903px solid #d0d4ea;
   color: #abb2d9;
@@ -10818,16 +10818,24 @@ input::-webkit-inner-spin-button {
   align-items: center;
 }
 .partner-form .custom-dropdown-flag {
-  width: 28%;
+  width: auto;
   height: 41.53px;
   position: relative;
   display: inline-block;
 }
+
+.partner-form .custom-dropdown-flag .dropdown-options {
+  width: 70px;
+}
+
 .partner-form .custom-dropdown-flag.open .dropdown-options {
   opacity: 1;
   z-index: 2;
 }
 
+.dropdown-header-title{
+  width: 55px;
+}
 .partner-form .custom-dropdown-flag .opt {
   max-height: 160px;
   margin: auto;
@@ -10837,6 +10845,12 @@ input::-webkit-inner-spin-button {
   scrollbar-width: thin;
   scrollbar-color: transparent transparent;
   -ms-overflow-style: none;
+}
+
+.partner-form-country-code{
+ padding-left: 10px;
+ padding-right: 12px;
+ text-wrap: nowrap;
 }
 
 .input-box-phone-number {

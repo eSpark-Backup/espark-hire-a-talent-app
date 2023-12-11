@@ -3,6 +3,9 @@ import React, { useState, useEffect, useRef } from 'react';
 const PartnerFlagDropdown = ({
   option,
   selectedFlag,
+  countryCode,
+  selectedCode,
+  setSelectedCode,
   findCountryName,
   setSelectedFlag,
   setSelectedOption,
@@ -22,6 +25,7 @@ const PartnerFlagDropdown = ({
 
   React.useEffect(() => {
     setSelectedOption(findCountryName);
+    setSelectedCode(countryCode);
   }, [selectedFlag]);
 
   const handleDocumentClick = (e) => {
@@ -49,7 +53,15 @@ const PartnerFlagDropdown = ({
     >
       <div className="dropdown-header-Flag" onClick={toggleDropdown}>
         <div className="dropdown-header-title">
-          <img src={selectedFlag} alt={selectedFlag} width={40} height={40} />
+          <img
+            src={selectedFlag}
+            alt={selectedFlag}
+            width={'40px'}
+            height={'40px'}
+          />
+        </div>
+        <div className="partner-form-country-code">
+          <p>{selectedCode}</p>
         </div>
         <img
           src="/images/partners/arrow.svg"
@@ -57,6 +69,7 @@ const PartnerFlagDropdown = ({
           className="custom-arrow"
         />
       </div>
+
       <div className="dropdown-options">
         {isOpen && (
           <div className="options-container">

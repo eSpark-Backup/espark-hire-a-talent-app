@@ -3549,6 +3549,18 @@
     transition: var(--transition);
     border-color: var(--mainColor);
   }
+  .partner-form .dropdown-header-Flag {
+    width: auto;
+  }
+  .partner-form .custom-dropdown-flag {
+    width: auto;
+  }
+  .partner-form .custom-dropdown-flag .dropdown-options {
+    width: 70px;
+  }
+  .dropdown-header-title {
+    width: 55px;
+  }
 }
 
 /* Min width 992px to Max width 1199px */
@@ -4333,6 +4345,18 @@
   }
   .input-box-phone-number {
     margin-top: 12px;
+  }
+  .partner-form .dropdown-header-Flag {
+    width: auto;
+  }
+  .partner-form .custom-dropdown-flag {
+    width: auto;
+  }
+  .partner-form .custom-dropdown-flag .dropdown-options {
+    width: 70px;
+  }
+  .dropdown-header-title {
+    width: 40px;
   }
 }
 
@@ -5975,6 +5999,18 @@
   .partner-modal-content h2 {
     font-size: 28px;
   }
+  .partner-form .dropdown-header-Flag {
+    width: auto;
+  }
+  .partner-form .custom-dropdown-flag {
+    width: auto;
+  }
+  .partner-form .custom-dropdown-flag .dropdown-options {
+    width: 70px;
+  }
+  .dropdown-header-title {
+    width: 40px;
+  }
 }
 
 @media screen and (min-width: 375px) and (max-width: 575px) {
@@ -6288,6 +6324,18 @@
   }
   .partner-modal-content h2 {
     font-size: 28px;
+  }
+  .partner-form .dropdown-header-Flag {
+    width: auto;
+  }
+  .partner-form .custom-dropdown-flag {
+    width: auto;
+  }
+  .partner-form .custom-dropdown-flag .dropdown-options {
+    width: 70px;
+  }
+  .dropdown-header-title {
+    width: 40px;
   }
 }
 
