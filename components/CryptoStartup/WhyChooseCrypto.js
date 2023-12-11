@@ -30,11 +30,15 @@ const WhyChooseCrypto = ({
               >
                 <Image
                   src={image}
+                  width={490}
+                  height={490}
                   alt="Outsourced Employee - Staff Outsourcing Solutions - Outsourced Staff - Global Employment Outsourcing - Employment Outsourcing Services – eSpark Talent"
                 />
                 <div className="shape5">
                   <Image
                     src={shape}
+                    width={90}
+                    height={74}
                     alt="Outsourced Employee - Staff Outsourcing Solutions - Outsourced Staff - Global Employment Outsourcing - Employment Outsourcing Services – eSpark Talent"
                   />
                 </div>
@@ -79,6 +83,8 @@ const WhyChooseCrypto = ({
                         <div className="image">
                           <Image
                             src={slide.image}
+                            width={70}
+                            height={70}
                             alt="Outsourced Employee - Staff Outsourcing Solutions - Outsourced Staff - Global Employment Outsourcing - Employment Outsourcing Services – eSpark Talent"
                           />
                         </div>

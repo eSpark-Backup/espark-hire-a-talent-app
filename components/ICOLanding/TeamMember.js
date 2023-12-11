@@ -23,6 +23,8 @@ const TeamMember = () => {
                   <Image
                     src="/images/cybersecurity-services/team/team-1.jpg"
                     alt="image"
+                    width={550}
+                    height={650}
                   />
 
                   <div className="social-btn">
@@ -80,6 +82,8 @@ const TeamMember = () => {
                   <Image
                     src="/images/cybersecurity-services/team/team-2.jpg"
                     alt="image"
+                    width={550}
+                    height={650}
                   />
 
                   <div className="social-btn">
@@ -137,6 +141,8 @@ const TeamMember = () => {
                   <Image
                     src="/images/cybersecurity-services/team/team-3.jpg"
                     alt="image"
+                    width={550}
+                    height={650}
                   />
 
                   <div className="social-btn">
@@ -193,6 +199,8 @@ const TeamMember = () => {
                 <div className="team-image">
                   <Image
                     src="/images/cybersecurity-services/team/team-4.jpg"
+                    width={550}
+                    height={650}
                     alt="image"
                   />
 

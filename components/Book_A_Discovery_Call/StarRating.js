@@ -15,6 +15,8 @@ const StarRating = ({ stars }) => {
                 : '/images/discovery_call/dark-star.svg'
             }
             alt="rating_img"
+            height={25}
+            width={25}
           />
         </li>
       ))}

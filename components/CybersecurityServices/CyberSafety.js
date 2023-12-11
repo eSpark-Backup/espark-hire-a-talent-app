@@ -17,8 +17,8 @@ const CyberSafety = ({ title, para }) => {
                 <Image
                   src="/images/cybersecurity-services/10.png"
                   alt="HR consultant - human resource planning - HR service - HR solutions - HR recruitment - HR outsourcing – eSpark talent"
-                  width={36}
-                  height={36}
+                  width={500}
+                  height={425}
                 />
               </div>
             </div>

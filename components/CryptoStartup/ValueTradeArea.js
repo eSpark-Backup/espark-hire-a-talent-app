@@ -40,6 +40,8 @@ const ValueTradeArea = () => {
                 <Image
                   src="/images/crypto-startup/value-trade/trade-1.png"
                   alt="image"
+                  width={25}
+                  height={25}
                 />
                 <h3>
                   <span>Bitcoin</span> $38,320.15
@@ -52,6 +54,8 @@ const ValueTradeArea = () => {
                 <Image
                   src="/images/crypto-startup/value-trade/trade-2.png"
                   alt="image"
+                  width={25}
+                  height={25}
                 />
                 <h3>
                   <span>Ethereum</span> $2,537
@@ -64,6 +68,8 @@ const ValueTradeArea = () => {
                 <Image
                   src="/images/crypto-startup/value-trade/trade-3.png"
                   alt="image"
+                  width={25}
+                  height={25}
                 />
                 <h3>
                   <span>Tether</span> $1.00
@@ -76,6 +82,8 @@ const ValueTradeArea = () => {
                 <Image
                   src="/images/crypto-startup/value-trade/trade-4.png"
                   alt="image"
+                  width={25}
+                  height={25}
                 />
                 <h3>
                   <span>BNB</span> $375.28
@@ -88,6 +96,8 @@ const ValueTradeArea = () => {
                 <Image
                   src="/images/crypto-startup/value-trade/trade-5.png"
                   alt="image"
+                  width={25}
+                  height={25}
                 />
                 <h3>
                   <span>XRP</span> $0.7435
@@ -100,6 +110,8 @@ const ValueTradeArea = () => {
                 <Image
                   src="/images/crypto-startup/value-trade/trade-6.png"
                   alt="image"
+                  width={25}
+                  height={25}
                 />
                 <h3>
                   <span>Terra</span> $81.47
@@ -112,6 +124,8 @@ const ValueTradeArea = () => {
                 <Image
                   src="/images/crypto-startup/value-trade/trade-7.png"
                   alt="image"
+                  width={25}
+                  height={25}
                 />
                 <h3>
                   <span>Cardano</span> $0.8151
@@ -124,6 +138,8 @@ const ValueTradeArea = () => {
                 <Image
                   src="/images/crypto-startup/value-trade/trade-8.png"
                   alt="image"
+                  width={25}
+                  height={25}
                 />
                 <h3>
                   <span>Avalanche</span> $74.02
@@ -136,6 +152,8 @@ const ValueTradeArea = () => {
                 <Image
                   src="/images/crypto-startup/value-trade/trade-9.png"
                   alt="image"
+                  width={25}
+                  height={25}
                 />
                 <h3>
                   <span>Dogecoin</span> $0.1199
@@ -148,6 +166,8 @@ const ValueTradeArea = () => {
                 <Image
                   src="/images/crypto-startup/value-trade/trade-10.png"
                   alt="image"
+                  width={25}
+                  height={25}
                 />
                 <h3>
                   <span>USD Coin</span> $0.9996
@@ -160,6 +180,8 @@ const ValueTradeArea = () => {
                 <Image
                   src="/images/crypto-startup/value-trade/trade-11.png"
                   alt="image"
+                  width={25}
+                  height={25}
                 />
                 <h3>
                   <span>Cosmos</span> $27.82

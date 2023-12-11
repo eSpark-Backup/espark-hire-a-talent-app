@@ -117,6 +117,8 @@ const PreTokenSale = () => {
                   <Image
                     src="/images/crypto-startup/pre-token-sale-ends/shape.png"
                     alt="image"
+                    width={80}
+                    height={118}
                   />
                 </div>
               </div>
@@ -132,6 +134,8 @@ const PreTokenSale = () => {
                 <Image
                   src="/images/crypto-startup/pre-token-sale-ends/pre-token-sale-ends.png"
                   alt="image"
+                  width={709}
+                  height={560}
                 />
               </div>
             </div>

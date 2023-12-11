@@ -82,7 +82,12 @@ const BlogCard = ({ item }) => {
                 <div className="single-blog-post">
                   <div className="image">
                     <Link href={`/blogs/${eachCard.slug}`} className="d-block">
-                      <Image src={eachCard.imageLink} alt={eachCard.altTag} />
+                      <Image
+                        src={eachCard.imageLink}
+                        alt={eachCard.altTag}
+                        width={356}
+                        height={424}
+                      />
                     </Link>
                     <span className="date">{eachCard?.postedBy?.date}</span>
                   </div>

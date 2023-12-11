@@ -54,7 +54,12 @@ const ClientFeedback = ({ data }) => {
                     <div className="col-xl-5 col-lg-5 col-md-4 col-sm-8 position-relative d-flex justify-content-center align-items-center">
                       <div className="feedback-bg"></div>
                       <div className="feedback-img">
-                        <Image src={items?.image} alt="img" />
+                        <Image
+                          src={items?.image}
+                          alt="img"
+                          height={433}
+                          width={433}
+                        />
                       </div>
                     </div>
                     <div className="col-xl-7 col-lg-7 col-md-8 col-sm-10 position-relative d-flex align-items-center">

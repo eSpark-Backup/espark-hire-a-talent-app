@@ -166,6 +166,8 @@ const ContactUs = () => {
                     <Image
                       src="/images/crypto-startup/get-in-touch-shape.png"
                       alt="image"
+                      width={368}
+                      height={104}
                     />
                   </div>
                 </div>

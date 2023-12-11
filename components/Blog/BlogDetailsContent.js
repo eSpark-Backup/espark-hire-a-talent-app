@@ -19,6 +19,8 @@ const BlogDetailsContent = ({ data }) => {
                     <Image
                       src={data[0]?.postedBy?.image}
                       alt={data[0]?.postedBy?.alt}
+                      width={300}
+                      height={300}
                     />
                     <div className="title">
                       <span className="name">
@@ -32,7 +34,12 @@ const BlogDetailsContent = ({ data }) => {
             </div>
             <div className="col-lg-6 col-md-12">
               <div className="image">
-                <Image src={data[0]?.bigImageLink} alt={data[0]?.altTag} />
+                <Image
+                  src={data[0]?.bigImageLink}
+                  alt={data[0]?.altTag}
+                  width={860}
+                  height={570}
+                />
               </div>
             </div>
           </div>
