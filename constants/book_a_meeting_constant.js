@@ -134,7 +134,7 @@ export const bookAMeeting = {
     {
       id: 1,
       flag: "/images/book-a-meeting/us.png",
-      country: "US",
+      country: "USA",
     },
     {
       id: 2,
