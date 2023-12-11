@@ -1,8 +1,6 @@
 'use client';
 import React from 'react';
 import * as Yup from 'yup';
-
-import { countries } from 'constants/partnersConstants';
 import { useFormik } from 'formik';
 import { useRouter } from 'next/navigation';
 import emailjs from '@emailjs/browser';
@@ -10,13 +8,16 @@ import PartnerCustomDropdown from './PartnerCustomDropdown';
 import { CountryCode } from 'constants/CountryCodes';
 import PartnerFlagDropdown from './PartnerFlagDropdown';
 import { validation } from '@/utils/validation';
+import PartnersModal from './PartnersModal';
 
 const PartnerForm = () => {
   const [selectedOption, setSelectedOption] = React.useState('Please Select');
   const [currentLength, setCurrentLength] = React.useState(null);
-  const [selectedFlag, setSelectedFlag] = React.useState(
-    'https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/PK.svg'
-  );
+  const [showModal, setShowModal] = React.useState(false);
+  const [modalTitle, setModalTitle] = React.useState(false);
+  const [selectedFlag, setSelectedFlag] = React.useState(null);
+  const router = useRouter();
+
   const PartnerFormData = {
     first_name: '',
     last_name: '',
@@ -26,28 +27,27 @@ const PartnerForm = () => {
     linkedin_profile_link: '',
   };
 
-  const router = useRouter();
   emailjs.init('hyXwjEdPoM5uV-RK8');
 
-  const options = countries?.map((opt) => opt?.option);
+  React.useEffect(() => {
+    const pakistanFlag = CountryCode?.filter(
+      (item) => item?.name === 'Pakistan'
+    )[0].image;
+    setSelectedFlag(pakistanFlag);
+  }, []);
+
+  const options = CountryCode?.map((opt) => opt?.name);
+
   const flags = CountryCode?.map((flags) => flags?.image);
 
   const GetPhoneNumberLength = CountryCode?.filter(
     (item) => item?.image === selectedFlag
   )[0];
-  const selectedFlag11 = CountryCode.filter((item) => {
-    console.log('iiiii', item?.image, selectedFlag);
-    item?.image === selectedFlag;
-  })[0];
-  console.log(
-    'GetPhoneNumberLength',
-    GetPhoneNumberLength,
-    selectedFlag,
-    selectedFlag11
-  );
 
+  const findCountryName = GetPhoneNumberLength?.name;
   const PhoneNumberCode = GetPhoneNumberLength?.phone[0];
   const PhoneLength = GetPhoneNumberLength?.phoneLength;
+
   const handlePhoneChange = (event) => {
     handleChange(event);
     setCurrentLength(event?.target?.value);
@@ -90,7 +90,6 @@ const PartnerForm = () => {
   };
 
   const isValid = validation(currentLength?.length, PhoneLength);
-  console.log(isValid, 'isValid', PhoneLength);
 
   const { values, errors, touched, handleChange, handleSubmit } = useFormik({
     initialValues: PartnerFormData,
@@ -108,8 +107,6 @@ const PartnerForm = () => {
 
         values.country = selectedOption;
         values.phone_number = `${PhoneNumberCode} ${currentLength}`;
-
-        // Send the email asynchronously
         const emailResult = await emailjs.send(
           'service_ac1wtgm',
           'template_6y49v0k',
@@ -125,62 +122,29 @@ const PartnerForm = () => {
 
         if (emailResult.status === 200) {
           action.resetForm();
-          router.push('https://calendly.com/esparktalents/');
-        } else {
-          router.push('https://calendly.com/esparktalents/');
+          setTimeout(() => {
+            setShowModal(true);
+            setModalTitle('Your data has been successfully submitted');
+            setTimeout(() => {
+              router.push('https://calendly.com/esparktalents/');
+            }, 2000);
+          }, 2000);
         }
       } catch (error) {
+        action.resetForm();
+        setTimeout(() => {
+          setShowModal(true);
+          setModalTitle('Unfortunately, your data could not be submitted');
+          setTimeout(() => {
+            router.push('https://calendly.com/esparktalents/');
+          }, 2000);
+        }, 2000);
+
         console.error('Error submitting the form:', error);
-        router.push('https://calendly.com/esparktalents/');
       } finally {
         setSubmitting(false);
       }
     },
-    // onSubmit: async (values, action) => {
-    //   console.log(values, 'values');
-    //   // const { phone_number } = values;
-    //   const isValidPhoneNumber = validatePhoneNumber(
-    //     currentLength,
-    //     PhoneLength
-    //   );
-    //   console.log('isValidPhoneNumber....', isValidPhoneNumber);
-    //   if (!isValidPhoneNumber) {
-    //     // Handle invalid phone number logic (e.g., show an error message)
-    //     return;
-    //   }
-    //   values.country = selectedOption;
-    //   values.phone_number = `${PhoneNumberCode} ${currentLength}`;
-
-    //   // values.phone_number = `${isValid == true ? PhoneNumberCode : null} ${
-    //   //   isValid == true ? currentLength : null
-    //   // }`;
-    //   setNumberValue(values?.phone_number);
-    //   try {
-    //     emailjs
-    //       .send('service_ac1wtgm', 'template_6y49v0k', {
-    //         first_name: values.first_name,
-    //         last_name: values.last_name,
-    //         email: values.email,
-    //         phone_number: values.phone_number,
-    //         country: values.country,
-    //         linkedin_profile_link: values.linkedin_profile_link,
-    //       })
-    //       .then(({ status }) => {
-    //         if (status == 200) {
-    //           action.resetForm();
-    //           router.push('https://calendly.com/esparktalents/');
-    //         } else {
-    //           router.push('https://calendly.com/esparktalents/');
-    //         }
-    //       }),
-    //       (error) => {
-    //         console.log(error);
-    //         router.push('https://calendly.com/esparktalents/');
-    //       };
-    //   } catch (error) {
-    //     console.error('Error submitting the form:', error);
-    //   }
-    // },
   });
 
   return (
@@ -244,8 +208,10 @@ const PartnerForm = () => {
             <div className="partner-form-phone-number-input-box">
               <PartnerFlagDropdown
                 option={flags}
+                findCountryName={findCountryName}
                 selectedFlag={selectedFlag}
                 setSelectedFlag={setSelectedFlag}
+                setSelectedOption={setSelectedOption}
               />
               <div className="input-box-phone-number">
                 <input
@@ -283,7 +249,7 @@ const PartnerForm = () => {
               className="input"
               name="linkedin_profile_link"
               value={values?.linkedin_profile_link}
-              placeholder="Necessary"
+              placeholder="necessary"
               onChange={handleChange}
             />
             {touched?.linkedin_profile_link &&
@@ -299,6 +265,11 @@ const PartnerForm = () => {
             </button>
           </div>
         </form>
+        <PartnersModal
+          title={modalTitle}
+          showModal={showModal}
+          setShowModal={setShowModal}
+        />
       </div>
     </div>
   );

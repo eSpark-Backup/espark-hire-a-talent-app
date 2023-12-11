@@ -1,5 +1,6 @@
 import HeroSection from '@/components/Partners/HeroSection';
 import PartnerMain from '@/components/Partners/PartnerMain';
+
 import {
   PartnersContentData,
   PartnersFormData,

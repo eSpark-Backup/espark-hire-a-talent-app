@@ -4738,6 +4738,9 @@
     color: #fff !important;
     background-color: var(--buttonColor);
   }
+  .partner-form .custom-dropdown-flag {
+    width: 32%;
+  }
 }
 @media only screen and (min-width: 1356px) and (max-width: 1399px) {
   .single-blog-post .image .date {
@@ -4979,6 +4982,12 @@
     color: #fff !important;
     background-color: var(--buttonColor);
   }
+  .partner-modal-container {
+    width: 358px;
+  }
+  .partner-form .custom-dropdown-flag {
+    width: 32%;
+  }
 }
 
 @media only screen and (min-width: 1400px) and (max-width: 1549px) {
@@ -5166,6 +5175,9 @@
   .is-sticky .partners-header-button:hover {
     color: #fff !important;
     background-color: var(--buttonColor);
+  }
+  .partner-modal-container {
+    width: 358px;
   }
 }
 
@@ -5953,7 +5965,15 @@
     margin-top: 12px;
   }
   .partner-form .custom-dropdown-flag {
-    width: 105px;
+    width: 85px;
+  }
+  .partner-modal-container {
+    width: 300px;
+    left: 0%;
+    right: 0%;
+  }
+  .partner-modal-content h2 {
+    font-size: 28px;
   }
 }
 
@@ -6260,7 +6280,14 @@
     margin-top: 12px;
   }
   .partner-form .custom-dropdown-flag {
-    width: 105px;
+    width: 85px;
+  }
+  .partner-modal-container {
+    width: 320px;
+    left: 7%;
+  }
+  .partner-modal-content h2 {
+    font-size: 28px;
   }
 }
 
