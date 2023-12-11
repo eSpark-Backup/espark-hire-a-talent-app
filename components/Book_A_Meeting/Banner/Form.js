@@ -288,7 +288,7 @@ const Form = ({ companySize }) => {
                   className={`form-control ${inter.className} ${
                     errorState.phone_number || numberError !== "" ? "error" : ""
                   }`}
-                  placeholder={`${numberCode} ${createZeros(
+                  placeholder={`${createZeros(
                     currentPhoneLength
                   )}`}
                   value={state.phone_number}
