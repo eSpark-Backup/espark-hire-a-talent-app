@@ -18,12 +18,14 @@ const AboutUs = (props) => {
                 <Image
                   src="/images/Mask group.png"
                   alt="Global Recruitment - global recruitment agency - worldwide recruiting agency - global recruitment services - global recruitment solutions - eSpark Talent"
-                  width={'75%'}
-                  height={'100%'}
+                  width={461}
+                  height={610}
                 />
                 <div className="shape5">
                   <Image
                     src="/images/shape/shape5.png"
+                    width={40}
+                    height={40}
                     alt="Global Recruitment - global recruitment agency - worldwide recruiting agency - global recruitment services - global recruitment solutions - eSpark Talent"
                   />
                 </div>
@@ -40,6 +42,8 @@ const AboutUs = (props) => {
                         <div className="icon bg-f9f9f9">
                           <Image
                             src={eachItem.imageLink}
+                            width={40}
+                            height={40}
                             alt="Global Recruitment - global recruitment agency - worldwide recruiting agency - global recruitment services - global recruitment solutions - eSpark Talent"
                           />
                         </div>
@@ -53,7 +57,12 @@ const AboutUs = (props) => {
           </div>
         </div>
         <div className="shape6">
-          <Image src="/images/shape/shape6.png" alt="image" />
+          <Image
+            src="/images/shape/shape6.png"
+            alt="image"
+            width={106}
+            height={113}
+          />
         </div>
       </div>
     </>

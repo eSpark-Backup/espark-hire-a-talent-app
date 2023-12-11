@@ -30,6 +30,8 @@ const WhatWeWork = ({ paragraph, Items, title, image, shape }) => {
                   <div className="we-work-inner-box" key={i}>
                     <div className="image">
                       <Image
+                        width={50}
+                        height={50}
                         src={eachItems.icon}
                         alt="Outsourced Employee - Staff Outsourcing Solutions - Outsourced Staff - Global Employment Outsourcing - Employment Outsourcing Services – eSpark Talent"
                       />
@@ -45,6 +47,8 @@ const WhatWeWork = ({ paragraph, Items, title, image, shape }) => {
         <div className="what-we-work-shape">
           <Image
             src={shape}
+            width={90}
+            height={74}
             alt="Outsourced Employee - Staff Outsourcing Solutions - Outsourced Staff - Global Employment Outsourcing - Employment Outsourcing Services – eSpark Talent"
           />
         </div>

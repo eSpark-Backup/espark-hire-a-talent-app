@@ -27,7 +27,7 @@ const ReliableAndSecure = ({ data }) => {
                 data-aos-duration="1200"
                 data-aos-once="true"
               >
-                <Image src={image} alt="image" />
+                <Image src={image} alt="image" width={687} height={786} />
               </div>
             </div>
           </div>

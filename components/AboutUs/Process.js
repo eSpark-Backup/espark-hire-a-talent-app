@@ -21,6 +21,8 @@ const Process = ({ title, processData }) => {
                   <div className="single-process-box justify-content-center">
                     <div className="icon">
                       <Image
+                        width={71}
+                        height={71}
                         src={processItems.image}
                         alt="Outsourced Employee - Staff Outsourcing Solutions - Outsourced Staff - Global Employment Outsourcing - Employment Outsourcing Services – eSpark Talent"
                       />

@@ -20,6 +20,8 @@ const GetStarted = (props) => {
                   src="/images/06.png"
                   alt="Outsourced Employee - Staff Outsourcing Solutions - Outsourced Staff - Global Employment Outsourcing - Employment Outsourcing Services – eSpark Talent"
                   className="pt-5"
+                  width={344}
+                  height={503}
                 />
               </div>
             </div>

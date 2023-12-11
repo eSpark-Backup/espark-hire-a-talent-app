@@ -18,6 +18,8 @@ const InvestorsPartners = () => {
                   <Image
                     src="/images/cybersecurity-services/partner/partner-13.png"
                     alt="image"
+                    height={90}
+                    width={50}
                   />
                 </div>
               </div>
@@ -26,6 +28,8 @@ const InvestorsPartners = () => {
                   <Image
                     src="/images/cybersecurity-services/partner/partner-14.png"
                     alt="image"
+                    height={90}
+                    width={50}
                   />
                 </div>
               </div>
@@ -34,6 +38,8 @@ const InvestorsPartners = () => {
                   <Image
                     src="/images/cybersecurity-services/partner/partner-15.png"
                     alt="image"
+                    height={90}
+                    width={50}
                   />
                 </div>
               </div>
@@ -43,6 +49,8 @@ const InvestorsPartners = () => {
                     <Image
                       src="/images/cybersecurity-services/partner/partner-16.png"
                       alt="image"
+                      height={90}
+                      width={50}
                     />
                   </Link>
                 </div>
@@ -52,6 +60,8 @@ const InvestorsPartners = () => {
                   <Image
                     src="/images/cybersecurity-services/partner/partner-17.png"
                     alt="image"
+                    height={90}
+                    width={50}
                   />
                 </div>
               </div>
@@ -60,6 +70,8 @@ const InvestorsPartners = () => {
                   <Image
                     src="/images/cybersecurity-services/partner/partner-18.png"
                     alt="image"
+                    height={90}
+                    width={50}
                   />
                 </div>
               </div>

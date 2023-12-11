@@ -6,6 +6,8 @@ const AdaptTab = ({ data }) => {
   const { cardHeading, image, listItem, text, link } = data;
   return (
     <>
+      {' '}
+      03417241114
       <div className="AdaptTab background"></div>
       <div className="we-adapt-to-your-need-aera">
         <div className="container">
@@ -17,7 +19,7 @@ const AdaptTab = ({ data }) => {
                 data-aos-duration="1200"
                 data-aos-once="true"
               >
-                <Image src={image} alt="image" />
+                <Image src={image} width={546} height={522} alt="image" />
               </div>
             </div>
 
@@ -30,7 +32,12 @@ const AdaptTab = ({ data }) => {
                 {listItem?.map((items, i) => (
                   <div key={i} className="row my-xl-4 my-lg-2 my-md-3 my-sm-3">
                     <div className="col-2 col-md-4 w-auto justify-content-center d-flex">
-                      <Image src={items.logo} className="logo" />
+                      <Image
+                        src={items.logo}
+                        className="logo"
+                        width={50}
+                        height={50}
+                      />
                     </div>
                     <div className="col-9 col-md-8">
                       <h3>{items.heading}</h3>
