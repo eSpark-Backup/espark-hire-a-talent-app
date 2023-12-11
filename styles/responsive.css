@@ -2367,7 +2367,6 @@
     padding: 6px 0px;
     margin-bottom: 20px;
     background-repeat: no-repeat;
-    /* background-position: center; */
   }
 
   .cv-grid {
@@ -2488,27 +2487,6 @@
     padding-left: 0px !important;
   }
 
-  .with-icon .col-sm-10 {
-    flex: 0 0 auto;
-    width: 85%;
-  }
-
-  .with-icon .col-sm-2 {
-    flex: 0 0 auto;
-    width: 15%;
-  }
-
-  .with-icon .col-sm-7 {
-    flex: 0 0 auto;
-    width: 40%;
-  }
-
-  .with-icon .col-sm-5 {
-    flex: 0 0 auto;
-    width: 30%;
-    text-align: center;
-  }
-
   .profile-detail-heading {
     font-size: 13px;
     line-height: 14px;
@@ -2610,7 +2588,6 @@
   }
 
   .progress-info {
-    /* flex-basis: 50%; */
     margin-bottom: 10px;
   }
 
@@ -2635,10 +2612,6 @@
   .progress-info text {
     font-size: 23px;
   }
-
-  /* .cv-feedback-area {
-    align-items: baseline;
-  } */
 
   .divider {
     display: block;
@@ -2691,7 +2664,7 @@
 
   /* End CV Responsive Css */
 
-  /* Start Of Book A Meetin Responsive Css */
+  /* Start Of Book A Meeting Responsive Css */
 
   .landing-banner {
     padding: 30px 0px 25px;
@@ -2822,6 +2795,12 @@
     font-size: 13px;
     line-height: 20px;
     max-width: 100%;
+  }
+
+  .points-para {
+    font-size: 15px !important;
+    line-height: 20px !important;
+    max-width: 100% !important;
   }
 
   .checked-icon {
@@ -3008,15 +2987,16 @@
   }
 
   .meeting-round-box {
-    width: 280px;
+    width: 270px;
     border-radius: 38px;
-    padding: 8px 14px 8px 18px;
-    margin: 22px auto 18px;
-    height: 75%;
+    padding: 20px 14px 20px 18px;
+    margin: 0px auto 18px;
+    height: 80%;
   }
 
   .to-center {
     width: 100%;
+    margin: 22px auto 0px;
   }
 
   .left-ids {
@@ -3035,7 +3015,8 @@
     margin: 36px 0px 0px;
   }
 
-  .question-accordion .down-arrow {
+  .question-accordion .down-arrow,
+  .question-accordion .rotate-icon {
     width: 24px;
     justify-content: center;
     display: flex;
@@ -3047,7 +3028,11 @@
   }
 
   .accordion-button-child {
-    align-items: center;
+    align-items: baseline;
+  }
+
+  .accordion-button-child span {
+    width: 305px;
   }
 
   .question-accordion {
@@ -3055,8 +3040,8 @@
   }
 
   .question-accordion .accordion__button {
-    font-size: 14px;
-    line-height: 24px;
+    font-size: 15px;
+    line-height: 22px;
   }
 
   .question-accordion .accord-item {
@@ -3065,8 +3050,8 @@
   }
 
   .question-accordion .accordion__panel p {
-    font-size: 17px;
-    line-height: 30px;
+    font-size: 15px;
+    line-height: 26px;
   }
 
   .even-button {
@@ -5257,18 +5242,11 @@
     flex-wrap: wrap;
   }
 
-  .expertise {
-    /* flex-basis: 50%; */
-    /* margin-right: 20px; */
-  }
-
   .english-level {
-    /* flex-basis: 45%; */
     padding-left: 10px !important;
   }
 
   .experience {
-    /* flex-basis: 50%; */
     margin-top: 5px;
     padding-left: 0px !important;
   }
@@ -5435,7 +5413,7 @@
 
   /* End CV Responsive Css */
 
-  /* Start Of Book A Meetin Responsive Css */
+  /* Start Of Book A Meeting Responsive Css */
 
   .landing-banner {
     padding: 44px 0px 30px;
@@ -5554,9 +5532,15 @@
   }
 
   .points-div p {
-    font-size: 14px;
+    font-size: 13px;
     line-height: 20px;
     max-width: 100%;
+  }
+
+  .points-para {
+    font-size: 15px !important;
+    line-height: 20px !important;
+    max-width: 100% !important;
   }
 
   .checked-icon {
@@ -5725,13 +5709,14 @@
   .meeting-round-box {
     width: 300px;
     border-radius: 48px;
-    padding: 10px 10px 10px 20px;
-    margin: 32px 0px 18px;
+    padding: 25px 10px 25px 20px;
+    margin: 0px 0px 22px;
     height: 80%;
   }
 
   .to-center {
     width: 100%;
+    margin: 32px auto 0px;
   }
 
   .left-ids {
@@ -5759,7 +5744,7 @@
   }
 
   .question-accordion .accordion__button {
-    font-size: 14px;
+    font-size: 15px;
     line-height: 24px;
   }
 
@@ -5769,8 +5754,8 @@
   }
 
   .question-accordion .accordion__panel p {
-    font-size: 17px;
-    line-height: 30px;
+    font-size: 15px;
+    line-height: 28px;
   }
 
   .even-button {
@@ -7035,7 +7020,7 @@
 
   /* End CV Responsive Css */
 
-  /* Start Of Book A Meetin Responsive Css */
+  /* Start Of Book A Meeting Responsive Css */
 
   .landing-banner {
     padding: 94px 0px 50px;
@@ -7072,7 +7057,7 @@
   }
 
   .our-ratings .trustpilot {
-    padding: 0px 22px;
+    padding: 0px 18px;
   }
 
   .ratings-in p {
@@ -7145,9 +7130,15 @@
   }
 
   .points-div p {
-    font-size: 13px;
-    line-height: 18px;
-    max-width: 95%;
+    font-size: 14px;
+    line-height: 20px;
+    max-width: 90%;
+  }
+
+  .points-para {
+    font-size: 16px !important;
+    line-height: 23px !important;
+    max-width: 90%;
   }
 
   .checked-icon {
@@ -7295,12 +7286,13 @@
   .meeting-round-box {
     width: 380px;
     border-radius: 52px;
-    padding: 34px 8px 34px 22px;
-    margin: 35px 0px 16px;
+    padding: 35px 8px 35px 22px;
+    margin: 0px 0px 32px;
   }
 
   .to-center {
     width: 90%;
+    margin: 36px auto 0px;
   }
 
   .left-ids {
@@ -7328,7 +7320,7 @@
   }
 
   .question-accordion .accordion__button {
-    font-size: 14px;
+    font-size: 15px;
     line-height: 24px;
   }
 
@@ -7337,8 +7329,8 @@
   }
 
   .question-accordion .accordion__panel p {
-    font-size: 17px;
-    line-height: 30px;
+    font-size: 15px;
+    line-height: 28px;
   }
 
   .mix-reviews-area {
@@ -7964,7 +7956,6 @@
   }
 
   .profile-info {
-    width: 103px;
     font-size: 13px;
   }
 
@@ -7974,18 +7965,8 @@
     justify-content: space-between;
   }
 
-  .expertise {
-    /* flex-basis: 32.3%; */
-  }
-
   .english-level {
-    /* flex-basis: 32.3%; */
-    padding-left: 7px !important;
-  }
-
-  .experience {
-    /* flex-basis: 37.3%; */
-    /* margin-left: 7px; */
+    padding-left: 5px !important;
   }
 
   .tech-icon {
@@ -8096,7 +8077,7 @@
 
   /* End CV Responsive Css */
 
-  /* Start Of Book A Meetin Responsive Css */
+  /* Start Of Book A Meeting Responsive Css */
 
   .landing-banner {
     padding: 102px 0px 60px;
@@ -8199,9 +8180,14 @@
   }
 
   .points-div p {
-    font-size: 15px;
+    font-size: 14px;
     line-height: 24px;
     max-width: 480px;
+  }
+
+  .points-para {
+    font-size: 16px !important;
+    line-height: 26px !important;
   }
 
   .checked-icon {
@@ -8328,11 +8314,12 @@
     width: 440px;
     border-radius: 64px;
     padding: 45px 10px 45px 26px;
-    margin: 46px 0px 26px;
+    margin: 0px 0px 32px;
   }
 
   .to-center {
     width: 90%;
+    margin: 46px auto 0px;
   }
 
   .left-ids {
@@ -8794,32 +8781,14 @@
     margin: 20px 10px 0px 0px;
   }
 
-  .profile-info {
-    width: 103px;
-  }
-
   .common-flex {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
   }
 
-  .expertise {
-    /* flex-basis: 30.3%; */
-  }
-
   .english-level {
-    /* flex-basis: 30.3%; */
-    /* margin-left: 7px; */
-  }
-
-  .experience {
-    /* flex-basis: 39.3%; */
-    /* margin-left: 7px; */
-  }
-
-  .first-badge {
-    text-align: justify;
+    padding-left: 5px !important;
   }
 
   .tech-icon {
@@ -8923,7 +8892,7 @@
 
   /* End CV Responsive Css */
 
-  /* Start Of Book A Meetin Responsive Css */
+  /* Start Of Book A Meeting Responsive Css */
 
   .landing-banner {
     padding: 102px 0px 80px;
@@ -8950,11 +8919,11 @@
   }
 
   .our-ratings .ratings-by {
-    padding: 0px 28px;
+    padding: 0px 30px;
   }
 
   .our-ratings .trustpilot {
-    padding: 0px 24px;
+    padding: 0px 22px;
   }
 
   .landing-form {
@@ -8988,6 +8957,11 @@
     font-size: 14px;
     line-height: 24px;
     max-width: 470px;
+  }
+
+  .points-para {
+    font-size: 16px !important;
+    line-height: 27px !important;
   }
 
   .points-div h6 {
@@ -9070,7 +9044,11 @@
     width: 475.94px;
     border-radius: 68px;
     padding: 50px 14px 50px 29px;
-    margin: 52px 0px 38px;
+    margin: 0px 0px 38px;
+  }
+
+  .to-center {
+    margin: 52px auto 0px;
   }
 
   .left-ids {
@@ -9106,8 +9084,8 @@
   }
 
   .question-accordion .accordion__panel p {
-    font-size: 18px;
-    line-height: 32px;
+    font-size: 17px;
+    line-height: 30px;
   }
 
   .mix-reviews-area {
@@ -9177,6 +9155,10 @@
     padding: 9px 0px;
     font-size: 18px;
     line-height: 30px;
+  }
+
+  .landing-form .code-arrow {
+    width: 15px;
   }
 
   /* End Of Book A Meeting Responsive Css */
@@ -9470,17 +9452,8 @@
     justify-content: space-between;
   }
 
-  .expertise {
-    /* flex-basis: 36.3%; */
-  }
-
   .english-level {
     padding-left: 7px !important;
-    /* flex-basis: 26.3%; */
-  }
-
-  .experience {
-    /* flex-basis: 37.3%; */
   }
 
   .tech-icon {
@@ -9562,7 +9535,7 @@
 
   /* End CV Responsive Css */
 
-  /* Start Of Book A Meetin Responsive Css */
+  /* Start Of Book A Meeting Responsive Css */
 
   .landing-banner {
     padding: 102px 0px 80px;
@@ -9586,10 +9559,6 @@
     font-size: 18px;
     line-height: 39px;
     margin-bottom: 10px;
-  }
-
-  .our-ratings .ratings-by {
-    padding: 0px 28px;
   }
 
   .our-ratings .trustpilot {
@@ -9640,6 +9609,17 @@
   .how-it-works-p {
     font-size: 22px;
     line-height: 38px;
+  }
+
+  .to-center {
+    margin: 52px auto 0px;
+  }
+
+  .meeting-round-box {
+    width: 475.94px;
+    border-radius: 68px;
+    padding: 45px 14px 45px 29px;
+    margin: 0px 0px 48px;
   }
 
   .left-ids {
@@ -9711,7 +9691,7 @@
     line-height: 40px;
   }
 
-  /* End Of Book A Meetin Responsive Css */
+  /* End Of Book A Meeting Responsive Css */
 }
 
 /* Min width 1550px */
@@ -10530,25 +10510,6 @@
     margin-left: 0px;
   }
 
-  .with-icon .col-sm-10 {
-    flex: 0 0 auto;
-    width: 75%;
-  }
-
-  .with-icon .col-sm-2 {
-    flex: 0 0 auto;
-    width: 25%;
-  }
-
-  .tick-icon img {
-    width: 15px;
-  }
-
-  .with-icon .col-sm-7 {
-    flex: 0 0 auto;
-    width: 50%;
-  }
-
   .image-badge {
     padding-left: 8px;
   }
@@ -10582,7 +10543,14 @@
     width: 100%;
   }
 
- 
+  .landing-form-phone-number-input-box {
+    display: block;
+  }
+
+  .landing-form .code-dropdown {
+    width: 100%;
+    margin-bottom: 5px;
+  }
 }
 
 @media screen and (min-width: 375px) and (max-width: 575px) {

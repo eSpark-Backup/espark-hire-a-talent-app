@@ -7,7 +7,8 @@ import Link from "next/link";
 import { Inter } from "next/font/google";
 
 import countries from "/constants/countries.json";
-import { useRouter } from "next/router";
+import CustomDropdown from "./CustomDropdown";
+import PartnerFlagDropdown from "./CountryCode";
 
 const inter = Inter({
   weight: ["100", "200", "300", "400", "500", "600", "700", "800", "900"],
@@ -33,9 +34,31 @@ const Form = ({ companySize }) => {
     phone_number: false,
     country: false,
   });
+  const [emailError, setEmailError] = useState("");
+  const [numberError, setNumberError] = useState("");
+  const [phoneLength, setPhoneLength] = useState();
+  const [numberCode, setNumberCode] = useState();
+  const [selectedFlag, setSelectedFlag] = useState();
+  const [currentPhoneLength, setCurrentPhoneLength] = useState();
+
+  useEffect(() => {
+    const detail = countries?.find((item) => item?.option === "Pakistan");
+
+    setNumberCode(detail.phone[0]);
+    setSelectedFlag(detail.image);
+    setPhoneLength(detail.phoneLength);
+    setCurrentPhoneLength(detail.phoneLength);
+  }, [countries]);
 
   const handleInputchange = (key, value) => {
-    redirectToCalendly();
+    if (key === "phone_number") {
+      if (value.length > phoneLength || value.length < phoneLength) {
+        setNumberError("Invalid number");
+      } else if (value.length === phoneLength) {
+        setNumberError("");
+      }
+    }
+
     setState((state) => ({ ...state, [key]: value }));
   };
 
@@ -44,12 +67,35 @@ const Form = ({ companySize }) => {
   };
 
   const onSubmit = () => {
+    const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+
+    if (!emailRegex.test(state.company_email) && state.company_email !== "") {
+      setEmailError("Invalid email address");
+      setErrorState((errorState) => ({ ...errorState, company_email: true }));
+    } else {
+      setEmailError("");
+      setErrorState((errorState) => ({ ...errorState, company_email: false }));
+    }
+
+    if (
+      currentPhoneLength > +state.phone_number.length ||
+      currentPhoneLength < +state.phone_number.length
+    ) {
+      setNumberError("Invalid number");
+      setErrorState((errorState) => ({ ...errorState, phone_number: true }));
+    } else {
+      setNumberError("");
+      setErrorState((errorState) => ({ ...errorState, phone_number: false }));
+    }
+
     if (
       state.first_name === "" ||
       state.last_name === "" ||
       state.company_email === "" ||
+      emailError !== "" ||
       state.company_size === "Please Select" ||
       state.phone_number === "" ||
+      numberError !== "" ||
       state.country === "Please Select"
     ) {
       setErrorState({
@@ -61,6 +107,7 @@ const Form = ({ companySize }) => {
         country: state.country === "Please Select" ? true : false,
       });
     } else {
+      const combineNumber = `${numberCode}${state.phone_number}`;
       emailjs.init("i97Hmgobdw1yJilSn");
 
       try {
@@ -70,7 +117,7 @@ const Form = ({ companySize }) => {
             last_name: state.last_name,
             company_size: state.company_size,
             company_email: state.company_email,
-            phone_number: state.phone_number,
+            phone_number: combineNumber,
             country: state.country,
             company_name: "eSpark",
           })
@@ -110,6 +157,14 @@ const Form = ({ companySize }) => {
       }
     }
   };
+
+  function createZeros(length) {
+    const zerosArray = Array(length).fill(0);
+
+    const zerosString = zerosArray.join("");
+
+    return zerosString;
+  }
 
   return (
     <div className="landing-form">
@@ -170,7 +225,7 @@ const Form = ({ companySize }) => {
               <input
                 type="email"
                 className={`form-control ${inter.className} ${
-                  errorState.last_name ? "error" : ""
+                  errorState.company_email || emailError !== "" ? "error" : ""
                 }`}
                 placeholder="Company Email"
                 value={state.company_email}
@@ -178,13 +233,17 @@ const Form = ({ companySize }) => {
                   handleInputchange("company_email", e.target.value)
                 }
               />
-              {errorState.company_email ? (
-                <p className="error-para">Please enter Company Email</p>
+              {errorState.company_email || emailError !== "" ? (
+                <p className="error-para">
+                  {emailError !== ""
+                    ? emailError
+                    : "Please enter Company Email"}
+                </p>
               ) : null}
             </div>
           </div>
 
-          <div className="col-lg-6 col-md-6 col-sm-12 pr-0">
+          <div className="col-lg-12 col-md-12 col-sm-12 pr-0">
             <div className="form-group">
               <label className="landing-form-label">
                 Company Size<span>*</span>
@@ -198,29 +257,53 @@ const Form = ({ companySize }) => {
                 }
                 error={errorState.company_size ? "error" : ""}
                 errorState={errorState}
+                inter={inter}
               />
             </div>
           </div>
 
-          <div className="col-lg-6 col-md-6 col-sm-12 pr-0">
+          <div className="col-lg-12 col-md-12 col-sm-12 pr-0">
             <div className="form-group">
               <label className="landing-form-label">
                 Phone Number<span>*</span>
               </label>
 
-              <input
-                type="tel"
-                className={`form-control ${inter.className} ${
-                  errorState.phone_number ? "error" : ""
-                }`}
-                placeholder="+92 00000000"
-                value={state.phone_number}
-                onChange={(e) =>
-                  handleInputchange("phone_number", e.target.value)
-                }
-              />
-              {errorState.phone_number ? (
-                <p className="error-para">Please enter Phone Number</p>
+              <div className="landing-form-phone-number-input-box">
+                <PartnerFlagDropdown
+                  data={countries}
+                  error={
+                    errorState.phone_number || numberError !== "" ? "error" : ""
+                  }
+                  errorState={errorState}
+                  inter={inter}
+                  numberCode={numberCode}
+                  selectedFlag={selectedFlag}
+                  setNumberCode={setNumberCode}
+                  setSelectedFlag={setSelectedFlag}
+                  setCurrentPhoneLength={setCurrentPhoneLength}
+                />
+
+                <input
+                  type="number"
+                  className={`form-control ${inter.className} ${
+                    errorState.phone_number || numberError !== "" ? "error" : ""
+                  }`}
+                  placeholder={`${numberCode} ${createZeros(
+                    currentPhoneLength
+                  )}`}
+                  value={state.phone_number}
+                  onChange={(e) =>
+                    handleInputchange("phone_number", e.target.value)
+                  }
+                />
+              </div>
+
+              {errorState.phone_number || numberError !== "" ? (
+                <p className="error-para">
+                  {numberError !== ""
+                    ? numberError
+                    : "Please enter Phone Number"}
+                </p>
               ) : null}
             </div>
           </div>
@@ -242,6 +325,7 @@ const Form = ({ companySize }) => {
                 errorState={errorState}
                 flag={flag}
                 setFlag={setFlag}
+                inter={inter}
               />
             </div>
           </div>
@@ -273,117 +357,6 @@ const Form = ({ companySize }) => {
           </div>
         </div>
       </form>
-    </div>
-  );
-};
-
-const CustomDropdown = ({
-  data,
-  value,
-  setCompany,
-  setCountry,
-  country,
-  error,
-  errorState,
-  flag,
-  setFlag,
-}) => {
-  const [isOpen, setIsOpen] = useState(false);
-
-  const dropdownRef = useRef(null);
-
-  const toggleDropdown = () => {
-    setIsOpen(!isOpen);
-  };
-
-  const handleDocumentClick = useCallback(
-    (e) => {
-      if (dropdownRef.current && !dropdownRef.current.contains(e.target)) {
-        // Clicked outside the dropdown, close it
-        setIsOpen(false);
-      }
-    },
-    [dropdownRef]
-  );
-
-  useEffect(() => {
-    if (isOpen) {
-      document.addEventListener("click", handleDocumentClick);
-    } else {
-      document.removeEventListener("click", handleDocumentClick);
-    }
-
-    return () => {
-      document.removeEventListener("click", handleDocumentClick);
-    };
-  }, [isOpen, handleDocumentClick]);
-
-  return (
-    <div
-      className={`custom-dropdown ${isOpen ? "open" : ""}`}
-      ref={dropdownRef}
-    >
-      <div
-        className={`dropdown-header ${inter.className} ${error}`}
-        onClick={toggleDropdown}
-      >
-        <span className="country-span">
-          {country && flag ? (
-            <div className="country-flag" style={{ marginRight: "10px" }}>
-              <img src={flag} alt="flag" />
-            </div>
-          ) : null}
-          {value}
-        </span>
-        <div className="custom-arrow">
-          <img src="/images/book-a-meeting/icons/down-arrow.png" alt="icon" />
-        </div>
-      </div>
-
-      {errorState.company_size || errorState.country ? (
-        <p className="error-para">
-          Please select {errorState.company_size ? "Company Size" : "Country"}
-        </p>
-      ) : null}
-
-      <div className="dropdown-options">
-        {isOpen && (
-          <div className="options-container">
-            <div className={`single-option ${inter.className} disabled-opt`}>
-              Please Select
-            </div>
-            {data.map((opt) =>
-              country ? (
-                <div
-                  key={opt.id}
-                  className={`countries-options single-option ${inter.className}`}
-                  onClick={() => {
-                    setCountry(opt.option);
-                    setFlag(opt.flag);
-                    setIsOpen(false);
-                  }}
-                >
-                  <div className="country-name">{opt.option}</div>
-                  <div className="country-flag">
-                    <img src={opt.flag} alt="flag" />
-                  </div>
-                </div>
-              ) : (
-                <div
-                  key={opt.id}
-                  className={`single-option ${inter.className}`}
-                  onClick={() => {
-                    setCompany(opt.option);
-                    setIsOpen(false);
-                  }}
-                >
-                  {opt.option}
-                </div>
-              )
-            )}
-          </div>
-        )}
-      </div>
     </div>
   );
 };

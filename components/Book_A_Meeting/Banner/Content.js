@@ -25,7 +25,7 @@ const Content = () => {
 
         <div className="col-lg-4 col-md-4 col-sm-6">
           <div className="ratings-in">
-            <StarRating stars={4.7} />
+            <StarRating stars={5} />
             <p className="ratings-by trustpilot">Trustpilot</p>
             <p className="our-rank">4.7 Star Rating</p>
           </div>
@@ -33,7 +33,7 @@ const Content = () => {
 
         <div className="col-lg-4 col-md-4 col-sm-6">
           <div className="ratings-in">
-            <StarRating stars={4.7} />
+            <StarRating stars={5} />
             <p className="ratings-by">Clutch</p>
             <p className="our-rank">4.7 Star Rating</p>
           </div>

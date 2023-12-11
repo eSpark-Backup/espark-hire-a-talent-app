@@ -10926,14 +10926,6 @@ CV CSS
 }
 
 .cv-view-more {
-  /* background: linear-gradient(
-    to right,
-    #005677 0%,
-    #005677 50%,
-    #003b4d 50%,
-    #003b4d 100%
-  ); */
-  /* background-size: 200% 100%; */
   transition: background-color 0.5s;
   margin: 20px auto 0px;
   width: 162px;
@@ -10951,11 +10943,6 @@ CV CSS
   box-shadow: 0px 8px 8px rgba(0, 0, 0, 0.4);
   color: #000000;
 }
-
-/* .cv-view-more:hover {
-  background-position: -100% 0;
-  background-color: #065d79;
-} */
 
 .main-box-banner {
   height: 100%;
@@ -11006,6 +10993,7 @@ CV CSS
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  padding-left: 20px !important;
 }
 
 .profile-detail-heading {
@@ -11017,11 +11005,6 @@ CV CSS
   text-transform: capitalize;
   color: #212121;
   margin-bottom: 8px;
-}
-
-.with-icon {
-  display: flex;
-  align-items: flex-end;
 }
 
 .pad-0 {
@@ -11341,6 +11324,10 @@ Booking A Meeting Page CSS
   padding: 0px 33px;
 }
 
+.our-ratings .trustpilot {
+  padding: 0px 20px;
+}
+
 .ratings-in p {
   font-family: Poppins;
   font-weight: 600;
@@ -11397,6 +11384,16 @@ Booking A Meeting Page CSS
 
 .landing-form input::placeholder {
   color: #abb2d9;
+}
+
+.landing-form input[type="number"] {
+  -moz-appearance: textfield;
+}
+
+.landing-form input[type="number"]::-webkit-inner-spin-button,
+.landing-form input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
 }
 
 .terms-tag {
@@ -11482,13 +11479,10 @@ Booking A Meeting Page CSS
 }
 
 .points-para {
-  font-family: Poppins;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 18px;
-  line-height: 29px;
-  color: #001c63;
-  max-width: 444px;
+  font-weight: 500 !important;
+  font-size: 18px !important;
+  line-height: 29px !important;
+  max-width: 444px !important;
 }
 
 .points {
@@ -11758,7 +11752,7 @@ Booking A Meeting Page CSS
 
 .to-center {
   width: 1079px;
-  margin: auto;
+  margin: 64px auto 0px;
 }
 
 .meeting-round-box {
@@ -11769,7 +11763,7 @@ Booking A Meeting Page CSS
   display: flex;
   align-items: center;
   padding: 55px 18px 55px 31px;
-  margin: 64px 0px 52px;
+  margin: 0px 0px 52px;
 }
 
 .left-ids {
@@ -11782,7 +11776,6 @@ Booking A Meeting Page CSS
 }
 
 .right-p {
-  /* width: 363.16px; */
   font-family: Outfit;
   font-weight: 400;
   font-size: 21.1919px;
@@ -11821,7 +11814,19 @@ Booking A Meeting Page CSS
 }
 
 .question-accordion .accord-item {
-  margin-bottom: 61px;
+  max-height: 109px;
+  margin-bottom: 0px;
+  transition: all 0.3s ease-in-out;
+}
+
+.question-accordion .accord-item.m-0 {
+  max-height: 209px;
+  transition: all 0.3s ease-in-out;
+  margin: 0px 0px 20px !important;
+}
+
+.question-accordion .even-button {
+  margin-bottom: 0px;
 }
 
 .question-accordion .accordion {
@@ -11859,7 +11864,17 @@ Booking A Meeting Page CSS
 }
 
 .question-accordion .accordion__panel {
+  display: block !important;
+  opacity: 0;
+  z-index: -1;
+  position: relative;
   padding: 0px;
+  transition: opacity 0.2s ease-in-out;
+}
+
+.question-accordion .accord-item.m-0 .accordion__panel {
+  opacity: 1;
+  transition: opacity 0.4s ease-in-out;
 }
 
 .question-accordion .accordion__panel p {
@@ -12083,6 +12098,7 @@ Booking A Meeting Page CSS
   display: flex;
   justify-content: space-between;
   align-items: center;
+  transition: var(--transition);
 }
 
 .dropdown-header.open {
@@ -12109,20 +12125,24 @@ Booking A Meeting Page CSS
   z-index: 1000;
 }
 
+.error-options {
+  top: 62%;
+}
+
 .custom-dropdown.open .dropdown-options {
   opacity: 1;
 }
 
 .options-container {
-  max-height: 150px; /* Adjust to your preference */
+  max-height: 150px;
   overflow-y: auto;
-  scrollbar-width: thin; /* Firefox */
-  scrollbar-color: transparent transparent; /* Firefox */
-  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: thin;
+  scrollbar-color: transparent transparent;
+  -ms-overflow-style: none;
 }
 
 .options-container::-webkit-scrollbar {
-  width: 0; /* Safari and Chrome */
+  width: 0;
   height: 0;
 }
 
@@ -12183,12 +12203,10 @@ Booking A Meeting Page CSS
 .landing-form input.error,
 .custom-dropdown .error {
   border-color: #ff0000 !important;
-  /* color: #ff0000 !important; */
 }
 
 .landing-form input.error::placeholder {
   border-color: #ff0000 !important;
-  /* color: #ff0000 !important; */
 }
 
 .error-para {
@@ -12196,4 +12214,36 @@ Booking A Meeting Page CSS
   font-size: 14px;
   padding-left: 5px;
   color: #ff0000;
+  margin-bottom: 0px;
+}
+
+.landing-form .code-dropdown {
+  width: 41%;
+}
+
+.landing-form .code-dropdown .country-flag {
+  margin-right: 7px !important;
+}
+
+.code-dropdown .dropdown-header {
+  padding: 10px;
+  align-items: baseline;
+}
+
+.landing-form .code-arrow {
+  margin-left: 4px;
+  width: 16px;
+}
+
+.landing-form-phone-number-input-box {
+  display: flex;
+  gap: 7px;
+}
+
+.landing-form .code-dropdown.error .dropdown-header {
+  border-color: #ff0000 !important;
+}
+
+.landing-form .code-dropdown .single-option {
+  padding: 5px 10px !important;
 }
