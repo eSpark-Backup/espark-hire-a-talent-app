@@ -2,7 +2,7 @@ import React from 'react';
 import PartnerContent from './PartnerContent';
 import PartnerForm from './PartnerForm';
 
-const PartnerMain = ({ PartnersContentData, PartnersFormData }) => {
+const PartnerMain = ({ PartnersContentData }) => {
   return (
     <div className="partner-main">
       <div className="container-lg">
@@ -25,7 +25,7 @@ const PartnerMain = ({ PartnersContentData, PartnersFormData }) => {
                 <PartnerForm />
               </div>
             </div>
-          </div>
+           </div>
         </div>
       </div>
     </div>
