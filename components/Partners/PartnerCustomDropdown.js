@@ -1,4 +1,3 @@
-import Image from 'next/image';
 import React, { useState, useEffect, useRef } from 'react';
 
 const PartnerCustomDropdown = ({
@@ -53,8 +52,12 @@ const PartnerCustomDropdown = ({
       <div className="dropdown-options">
         {isOpen && (
           <div className="options-container">
-            {option?.map((item) => (
-              <div className="opt" onClick={() => handleOptionClick(item)}>
+            {option?.map((item, i) => (
+              <div
+                key={i}
+                className="opt"
+                onClick={() => handleOptionClick(item)}
+              >
                 {item}
               </div>
             ))}

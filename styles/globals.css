@@ -10818,7 +10818,7 @@ input::-webkit-inner-spin-button {
   align-items: center;
 }
 .partner-form .custom-dropdown-flag {
-  width: 35%;
+  width: 28%;
   height: 41.53px;
   position: relative;
   display: inline-block;
@@ -10938,4 +10938,90 @@ partners-header class CSS
 .is-sticky .partners-header-button:hover {
   color: #fff !important;
   background-color: var(--buttonColor);
+}
+
+/*================================================
+partners modal CSS
+=================================================*/
+.partner-modal-wrapper{
+  position: fixed;
+  transition: var(--transition);
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(70, 70, 70, 0.617);
+  z-index: 2;
+  width: 100%;
+  height: 100vh;
+}
+.partner-modal-container{
+  background-color: #fff;
+  border-radius: 8px;
+  position: fixed;
+  margin: auto;
+  z-index: 3;
+  top: 35%;
+  left:10%;
+  right: 10%;
+  width: 358px;
+  height: auto;
+}
+.partner-modal-content{
+  padding: 45px 20px;
+  text-align: center;
+  position: relative;
+  
+}
+.partner-modal-content h2 {
+  color: var(--blackColor);
+  font-family: Titillium Web;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 700;
+  /* line-height: 71.266px;  */
+  padding-top: 7px;
+}
+.partner-modal-logo{
+  position: absolute;
+  top: -40px;
+  left: 0;
+  right: 0;
+  width: 90px;
+  height: 90px;
+  margin: auto;
+  background-color:#fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 100%;
+}
+.partner-modal-logo-box{
+  background-color: var(--buttonColor);
+  border-radius: 50%;
+  padding: 8px;
+  width: 75px;
+  height: 75px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.partner-modal-content  
+a {
+  padding: 10px 80px;
+  border: 0;
+  border-radius: 15.25px;
+  background: #029894;
+  color: #fff;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 20.333px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 36.6px; /* 180% */
+}
+
+.partner-modal-content a:hover {
+  background-color: var(--blackColor);
+  transition: var(--transition);
 }
