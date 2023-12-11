@@ -589,9 +589,6 @@ export const CountryCode = [
     phoneLength: 7,
   },
   {
-    phoneLength: 10,
-  },
-  {
     name: 'Botswana',
     region: 'Africa',
     timezones: {
@@ -1148,9 +1145,6 @@ export const CountryCode = [
     phoneLength: 10,
   },
   {
-    phoneLength: 9,
-  },
-  {
     name: 'Eritrea',
     region: 'Africa',
     timezones: {
@@ -1648,9 +1642,6 @@ export const CountryCode = [
     image:
       'https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/HK.svg',
     phoneLength: 8,
-  },
-  {
-    phoneLength: 10,
   },
   {
     name: 'Honduras',

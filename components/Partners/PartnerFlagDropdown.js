@@ -1,7 +1,12 @@
-import Image from 'next/image';
 import React, { useState, useEffect, useRef } from 'react';
 
-const PartnerFlagDropdown = ({ option, selectedFlag, setSelectedFlag }) => {
+const PartnerFlagDropdown = ({
+  option,
+  selectedFlag,
+  findCountryName,
+  setSelectedFlag,
+  setSelectedOption,
+}) => {
   const [isOpen, setIsOpen] = useState(false);
 
   const dropdownRef = useRef(null);
@@ -14,6 +19,10 @@ const PartnerFlagDropdown = ({ option, selectedFlag, setSelectedFlag }) => {
     setSelectedFlag(option);
     setIsOpen(false);
   };
+
+  React.useEffect(() => {
+    setSelectedOption(findCountryName);
+  }, [selectedFlag]);
 
   const handleDocumentClick = (e) => {
     if (dropdownRef.current && !dropdownRef.current.contains(e.target)) {
@@ -51,8 +60,12 @@ const PartnerFlagDropdown = ({ option, selectedFlag, setSelectedFlag }) => {
       <div className="dropdown-options">
         {isOpen && (
           <div className="options-container">
-            {option?.map((item) => (
-              <div className="opt" onClick={() => handleOptionClick(item)}>
+            {option?.map((item, i) => (
+              <div
+                key={i}
+                className="opt"
+                onClick={() => handleOptionClick(item)}
+              >
                 <img src={item} alt={item} width={40} height={40} />
               </div>
             ))}
