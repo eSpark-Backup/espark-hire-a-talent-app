@@ -16,6 +16,7 @@ const PartnerForm = () => {
   const [showModal, setShowModal] = React.useState(false);
   const [modalTitle, setModalTitle] = React.useState(false);
   const [selectedFlag, setSelectedFlag] = React.useState(null);
+  const [selectedCode, setSelectedCode] = React.useState(null);
   const router = useRouter();
 
   const PartnerFormData = {
@@ -36,6 +37,13 @@ const PartnerForm = () => {
     setSelectedFlag(pakistanFlag);
   }, []);
 
+  React.useEffect(() => {
+    const phoneCode = CountryCode?.filter(
+      (item) => item?.name === 'Pakistan'
+    )[0].phone[0];
+    setSelectedCode(phoneCode);
+  }, []);
+
   const options = CountryCode?.map((opt) => opt?.name);
 
   const flags = CountryCode?.map((flags) => flags?.image);
@@ -47,6 +55,7 @@ const PartnerForm = () => {
   const findCountryName = GetPhoneNumberLength?.name;
   const PhoneNumberCode = GetPhoneNumberLength?.phone[0];
   const PhoneLength = GetPhoneNumberLength?.phoneLength;
+  const countryCode = GetPhoneNumberLength?.phone[0];
 
   const handlePhoneChange = (event) => {
     handleChange(event);
@@ -212,7 +221,11 @@ const PartnerForm = () => {
                 selectedFlag={selectedFlag}
                 setSelectedFlag={setSelectedFlag}
                 setSelectedOption={setSelectedOption}
+                countryCode={countryCode}
+                selectedCode={selectedCode}
+                setSelectedCode={setSelectedCode}
               />
+              {/* <div className="partner-form-country-code">+4566644944</div> */}
               <div className="input-box-phone-number">
                 <input
                   id="phone_number"

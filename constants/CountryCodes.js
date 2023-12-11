@@ -3128,7 +3128,7 @@ export const CountryCode = [
       'alpha-3': 'PRI',
       numeric: '630',
     },
-    phone: ['+1-787', '+1-939'],
+    phone: ['+1-787'],
     emoji: '🇵🇷',
     image:
       'https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/PR.svg',
@@ -4228,9 +4228,6 @@ export const CountryCode = [
     image:
       'https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/WS.svg',
     phoneLength: [5, 6, 7],
-  },
-  {
-    phoneLength: 8,
   },
   {
     name: 'Yemen',
