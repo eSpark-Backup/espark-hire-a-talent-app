@@ -14,7 +14,12 @@ const AboutICO = () => {
                 data-aos-duration="1200"
                 data-aos-once="true"
               >
-                <Image src="/images/ico-landing-home/about.jpg" alt="image" />
+                <Image
+                  src="/images/ico-landing-home/about.jpg"
+                  alt="image"
+                  width={645}
+                  height={645}
+                />
               </div>
             </div>
 

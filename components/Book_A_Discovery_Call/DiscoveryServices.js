@@ -22,6 +22,8 @@ const DiscoveryServices = ({ title, para, items }) => {
                 <div className="d-flex align-items-center">
                   <Image
                     src={eachCard.imageLink}
+                    height={433}
+                    width={433}
                     alt="Global Recruitment - global recruitment agency - worldwide recruiting agency - global recruitment services - global recruitment solutions - eSpark Talent"
                   />
                   <h3>{eachCard.title}</h3>

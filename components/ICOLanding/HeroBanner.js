@@ -129,6 +129,8 @@ const HeroBanner = () => {
                 <Image
                   src="/images/ico-landing-home/banner/banner.png"
                   alt="image"
+                  width={475}
+                  height={800}
                 />
               </div>
             </div>

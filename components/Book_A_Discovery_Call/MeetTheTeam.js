@@ -24,7 +24,12 @@ const MeetTheTeam = ({ data }) => {
                     data-aos-duration="1200"
                     data-aos-once="true"
                   >
-                    <Image src={item.image} alt="image" />
+                    <Image
+                      src={item.image}
+                      alt="image"
+                      height={335}
+                      width={335}
+                    />
                   </div>
                   <div
                     className="content"
