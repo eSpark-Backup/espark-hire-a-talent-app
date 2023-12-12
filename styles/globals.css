@@ -10732,23 +10732,30 @@ input::-webkit-inner-spin-button {
   margin: 0;
 }
 
-.partner-form .custom-dropdown {
-  width: 100%;
-  position: relative;
-  display: inline-block;
-}
-
-.partner-form .dropdown-header {
-  cursor: pointer;
+.partner-country-dropdown {
   padding: 10px;
   width: 100%;
   border: 0.903px solid #d0d4ea;
-  color: #abb2d9;
+  color: var(--blackColor);
   border-radius: 5.418px;
   font-size: 14.448px;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  appearance: none;
+  font-weight: 600;
+  background-image: url(/images/partners/arrow.svg);
+  background-position: right 0.75rem center;
+  background-repeat: no-repeat;
+}
+
+.partner-country-dropdown .default-select{
+ color: #abb2d9;
+}
+
+.partner-country-dropdown option{
+   font-weight: 400;
+   color: var(--blackColor);
 }
 
 .partner-form .custom-arrow {
