@@ -38,8 +38,8 @@ This files table contents are outlined below>>>>>
 Default CSS
 =================================================*/
 :root {
-  --fontFamily: "Titillium Web", sans-serif;
-  --fontFamily2: "Cabin", sans-serif;
+  --fontFamily: 'Titillium Web', sans-serif;
+  --fontFamily2: 'Cabin', sans-serif;
   --mainColor: #029894;
   --optionalColor: #6f76a8;
   --whiteColor: #ffffff;
@@ -249,7 +249,7 @@ textarea.form-control {
   width: 48px;
   border-radius: 5px;
   z-index: -1;
-  content: "";
+  content: '';
   position: absolute;
   height: 100%;
   left: 0;
@@ -485,7 +485,7 @@ Header Area CSS
   top: 50%;
   right: 0;
   width: 1px;
-  content: "";
+  content: '';
   height: 15px;
   position: absolute;
   -webkit-transform: translateY(-50%);
@@ -631,7 +631,7 @@ Header Area CSS
 
 .navbar-area .navbar .navbar-nav .nav-item .dropdown-toggle::before {
   position: absolute;
-  content: "\EA4E";
+  content: '\EA4E';
   line-height: 1;
   right: -2px;
   top: 36px;
@@ -1154,7 +1154,7 @@ Main Banner Area CSS
 .main-banner-image::before {
   width: 745px;
   height: 745px;
-  content: "";
+  content: '';
   position: absolute;
   left: 0;
   z-index: -1;
@@ -1243,7 +1243,7 @@ Features Area CSS
 }
 
 .single-features-box::before {
-  content: "";
+  content: '';
   position: absolute;
   left: 0;
   -webkit-transition: var(--transition);
@@ -1637,9 +1637,9 @@ Services Area CSS
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
-  display: "flex";
-  justify-content: "space-between";
-  flex-direction: "column";
+  display: 'flex';
+  justify-content: 'space-between';
+  flex-direction: 'column';
   height: 420px;
 }
 
@@ -1709,7 +1709,7 @@ Services Area CSS
 }
 
 .single-services-box::before {
-  content: "";
+  content: '';
   position: absolute;
   left: 0;
   -webkit-transition: var(--transition);
@@ -1724,7 +1724,7 @@ Services Area CSS
 }
 
 .single-services-box::after {
-  content: "";
+  content: '';
   position: absolute;
   left: 0;
   -webkit-transition: var(--transition);
@@ -1885,7 +1885,7 @@ Process Area CSS
   left: 0;
   right: 0;
   bottom: 0;
-  content: "";
+  content: '';
   z-index: -1;
   height: 160px;
   position: absolute;
@@ -1930,7 +1930,7 @@ Process Area CSS
 }
 
 .process-inner::before {
-  content: "";
+  content: '';
   position: absolute;
   left: 0;
   right: 0;
@@ -2072,7 +2072,7 @@ Case Studies Area CSS
   top: 0;
   right: 0;
   z-index: -1;
-  content: "";
+  content: '';
   width: 540px;
   height: 540px;
   position: absolute;
@@ -2440,7 +2440,7 @@ Case Studies Details Area CSS
   left: 0;
   right: 0;
   top: 50%;
-  content: "";
+  content: '';
   height: 1px;
   z-index: -1;
   position: absolute;
@@ -3010,7 +3010,7 @@ Feedback Area CSS
 }
 
 .single-feedback-box::before {
-  content: "";
+  content: '';
   right: 50px;
   z-index: -1;
   width: 55px;
@@ -3103,7 +3103,7 @@ Blog Area CSS
   top: 50%;
   width: 50px;
   height: 1px;
-  content: "";
+  content: '';
   position: absolute;
   -webkit-transform: translateY(-50%);
   transform: translateY(-50%);
@@ -3619,7 +3619,7 @@ Blog Details Area CSS
   .comment-respond
   .comment-form
   .form-check
-  .form-check-input[type="checkbox"] {
+  .form-check-input[type='checkbox'] {
   border-radius: 0;
   -webkit-box-shadow: unset !important;
   box-shadow: unset !important;
@@ -3629,7 +3629,7 @@ Blog Details Area CSS
   .comment-respond
   .comment-form
   .form-check
-  .form-check-input[type="checkbox"]:checked {
+  .form-check-input[type='checkbox']:checked {
   background-color: var(--mainColor);
   border-color: var(--mainColor);
 }
@@ -3691,7 +3691,7 @@ blockquote cite::before,
   width: 20px;
   height: 2px;
   background-color: var(--mainColor);
-  content: "";
+  content: '';
   position: absolute;
 }
 
@@ -3701,7 +3701,7 @@ blockquote::after,
   left: 0;
   bottom: 0;
   width: 3px;
-  content: "";
+  content: '';
   position: absolute;
   background-color: var(--mainColor);
   margin-top: 20px;
@@ -3732,7 +3732,7 @@ Get Started Area CSS
 .get-started-image::before {
   left: 0;
   right: 0;
-  content: "";
+  content: '';
   opacity: 0.36;
   width: 590px;
   z-index: -1;
@@ -3829,7 +3829,7 @@ Page Title Area CSS
 
 .page-title-content ul li::before {
   position: absolute;
-  content: "\EA6E";
+  content: '\EA6E';
   right: -18px;
   top: 1.7px;
   font-family: remixicon;
@@ -4394,13 +4394,13 @@ Contact Area CSS
   color: var(--blackColor);
 }
 
-.contact-form .form-check .form-check-input[type="checkbox"] {
+.contact-form .form-check .form-check-input[type='checkbox'] {
   border-radius: 0;
   -webkit-box-shadow: unset !important;
   box-shadow: unset !important;
 }
 
-.contact-form .form-check .form-check-input[type="checkbox"]:checked {
+.contact-form .form-check .form-check-input[type='checkbox']:checked {
   background-color: var(--mainColor);
   border-color: var(--mainColor);
 }
@@ -4456,7 +4456,7 @@ Footer Area CSS
 .single-footer-widget h3::before {
   left: 0;
   bottom: 0;
-  content: "";
+  content: '';
   width: 44px;
   height: 2px;
   position: absolute;
@@ -4740,7 +4740,7 @@ Footer Area CSS
 }
 
 .copyright-area ul li::before {
-  content: "";
+  content: '';
   position: absolute;
   left: -23px;
   top: 50%;
@@ -4910,7 +4910,7 @@ Main Banner Area CSS
   right: 0;
   bottom: -3px;
   z-index: 2;
-  content: "";
+  content: '';
   height: 96px !important;
   position: absolute;
   background-image: url(/images/shape/waves.png);
@@ -5169,7 +5169,7 @@ Feedback Area CSS
   left: 0;
   right: 0;
   bottom: 0;
-  content: "";
+  content: '';
   z-index: -1;
   height: 250px;
   position: absolute;
@@ -5212,7 +5212,7 @@ Feedback Area CSS
 }
 
 .single-feedback-item::before {
-  content: "";
+  content: '';
   right: 50px;
   z-index: -1;
   width: 55px;
@@ -5835,7 +5835,7 @@ Quote Area CSS
   top: 0;
   left: 0;
   right: 0;
-  content: "";
+  content: '';
   z-index: -1;
   height: 74px;
   position: absolute;
@@ -6741,7 +6741,7 @@ Video Area CSS
 }
 
 .video-view-content .video-btn::before {
-  content: "";
+  content: '';
   display: block;
   position: absolute;
   top: 0;
@@ -7426,7 +7426,7 @@ Blog Area CSS
 
 .blog-style-card .blog-content .meta li::before {
   position: absolute;
-  content: "\EA6E";
+  content: '\EA6E';
   right: -23px;
   top: 1.7px;
   font-family: remixicon;
@@ -7830,7 +7830,7 @@ Pre Token Sale Ends Area CSS
 .pre-token-sale-ends-content
   .pre-token-sale-ends-with-progress
   .progress-wrapper::before {
-  content: "";
+  content: '';
   position: absolute;
   top: 0;
   left: 15px;
@@ -7842,7 +7842,7 @@ Pre Token Sale Ends Area CSS
 .pre-token-sale-ends-content
   .pre-token-sale-ends-with-progress
   .progress-wrapper::after {
-  content: "";
+  content: '';
   position: absolute;
   top: 0;
   right: 15px;
@@ -8775,7 +8775,7 @@ ICO Landing Banner Area CSS
   .banner-pre-token-sale-ends
   .pre-token-sale-ends-with-progress
   .progress-wrapper::before {
-  content: "";
+  content: '';
   position: absolute;
   top: 0;
   left: 15px;
@@ -8788,7 +8788,7 @@ ICO Landing Banner Area CSS
   .banner-pre-token-sale-ends
   .pre-token-sale-ends-with-progress
   .progress-wrapper::after {
-  content: "";
+  content: '';
   position: absolute;
   top: 0;
   right: 15px;
@@ -10219,7 +10219,7 @@ We adapt to your needs Area CSS
 .we-adapt-to-your-need-content
   .we-adapt-to-your-need-with-progress
   .progress-wrapper::before {
-  content: "";
+  content: '';
   position: absolute;
   top: 0;
   left: 15px;
@@ -10231,7 +10231,7 @@ We adapt to your needs Area CSS
 .we-adapt-to-your-need-content
   .we-adapt-to-your-need-with-progress
   .progress-wrapper::after {
-  content: "";
+  content: '';
   position: absolute;
   top: 0;
   right: 15px;
@@ -10791,7 +10791,7 @@ CV CSS
 }
 
 .cv-banner {
-  background: url("/images/cvs/background.png");
+  background: url('/images/cvs/background.png');
   background-repeat: round;
   background-size: cover;
   box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.25), 0px 3px 10px rgba(0, 0, 0, 0.2);
@@ -10800,7 +10800,7 @@ CV CSS
 }
 
 .cv-grid {
-  background: url("/images/cvs/background-portrait.png");
+  background: url('/images/cvs/background-portrait.png');
   background-repeat: round;
   background-size: cover;
   margin-bottom: 40px;
@@ -11386,12 +11386,12 @@ Booking A Meeting Page CSS
   color: #abb2d9;
 }
 
-.landing-form input[type="number"] {
+.landing-form input[type='number'] {
   -moz-appearance: textfield;
 }
 
-.landing-form input[type="number"]::-webkit-inner-spin-button,
-.landing-form input[type="number"]::-webkit-outer-spin-button {
+.landing-form input[type='number']::-webkit-inner-spin-button,
+.landing-form input[type='number']::-webkit-outer-spin-button {
   -webkit-appearance: none;
   margin: 0;
 }
@@ -11947,7 +11947,7 @@ Booking A Meeting Page CSS
   left: 40%;
   right: 0px;
   margin-top: 0px;
-  background-image: url("/images/book-a-meeting/icons/pagination-left.png");
+  background-image: url('/images/book-a-meeting/icons/pagination-left.png');
   background-repeat: no-repeat;
 }
 
@@ -11957,13 +11957,13 @@ Booking A Meeting Page CSS
   right: 0%;
   left: 58.6%;
   margin-top: 0px;
-  background-image: url("/images/book-a-meeting/icons/pagination-right.png");
+  background-image: url('/images/book-a-meeting/icons/pagination-right.png');
   background-repeat: no-repeat;
 }
 
 .reviews-swiper .swiper-button-next::after,
 .reviews-swiper .swiper-button-prev::after {
-  content: "";
+  content: '';
 }
 
 .reviews-swiper .swiper-pagination-bullet {
@@ -12246,4 +12246,88 @@ Booking A Meeting Page CSS
 
 .landing-form .code-dropdown .single-option {
   padding: 5px 10px !important;
+}
+
+/*================================================
+partners modal CSS
+=================================================*/
+.partner-modal-wrapper {
+  position: fixed;
+  transition: var(--transition);
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(70, 70, 70, 0.617);
+  z-index: 2;
+  width: 100%;
+  height: 100vh;
+}
+.partner-modal-container {
+  background-color: #fff;
+  border-radius: 8px;
+  position: fixed;
+  margin: auto;
+  z-index: 3;
+  top: 35%;
+  left: 10%;
+  right: 10%;
+  width: 358px;
+  height: auto;
+}
+.partner-modal-content {
+  padding: 45px 20px;
+  text-align: center;
+  position: relative;
+}
+.partner-modal-content h2 {
+  color: var(--blackColor);
+  font-family: Titillium Web;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 700;
+  /* line-height: 71.266px;  */
+  padding-top: 7px;
+}
+.partner-modal-logo {
+  position: absolute;
+  top: -40px;
+  left: 0;
+  right: 0;
+  width: 90px;
+  height: 90px;
+  margin: auto;
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 100%;
+}
+.partner-modal-logo-box {
+  background-color: var(--buttonColor);
+  border-radius: 50%;
+  padding: 8px;
+  width: 75px;
+  height: 75px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.partner-modal-content a {
+  padding: 10px 80px;
+  border: 0;
+  border-radius: 15.25px;
+  background: #029894;
+  color: #fff;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 20.333px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 36.6px; /* 180% */
+}
+
+.partner-modal-content a:hover {
+  background-color: var(--blackColor);
+  transition: var(--transition);
 }

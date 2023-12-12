@@ -2374,7 +2374,7 @@
   }
 
   .potrait-view {
-    background-image: url("/images/cvs/background-portrait.png");
+    background-image: url('/images/cvs/background-portrait.png');
     background-size: 100% 100%;
   }
 
@@ -9160,6 +9160,9 @@
   .landing-form .code-arrow {
     width: 15px;
   }
+  .partner-modal-container {
+    width: 358px;
+  }
 
   /* End Of Book A Meeting Responsive Css */
 }
@@ -9766,7 +9769,7 @@
     right: 0;
     bottom: -1px;
     z-index: 2;
-    content: "";
+    content: '';
     height: 96px;
     position: absolute;
     background-image: url(/images/shape/waves.png);
@@ -10551,6 +10554,14 @@
     width: 100%;
     margin-bottom: 5px;
   }
+  .partner-modal-container {
+    width: 300px;
+    left: 0%;
+    right: 0%;
+  }
+  .partner-modal-content h2 {
+    font-size: 28px;
+  }
 }
 
 @media screen and (min-width: 375px) and (max-width: 575px) {
@@ -10851,6 +10862,13 @@
   .progress-info-area-small .names,
   .progress-info-area-small .feedback-name {
     margin-bottom: 5px;
+  }
+  .partner-modal-container {
+    width: 320px;
+    left: 7%;
+  }
+  .partner-modal-content h2 {
+    font-size: 28px;
   }
 }
 
