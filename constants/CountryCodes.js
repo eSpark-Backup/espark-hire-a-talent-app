@@ -155,7 +155,7 @@ export const CountryCode = [
       'alpha-3': 'ATA',
       numeric: '010',
     },
-    phone: ['+'],
+    phone: ['+672'],
     emoji: '🇦🇶',
     image:
       'https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/AQ.svg',
@@ -1552,7 +1552,7 @@ export const CountryCode = [
       'alpha-3': 'SGS',
       numeric: '239',
     },
-    phone: ['+'],
+    phone: ['+500'],
     emoji: '🇬🇸',
     image:
       'https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/GS.svg',
@@ -3734,7 +3734,7 @@ export const CountryCode = [
       'alpha-3': 'ATF',
       numeric: '260',
     },
-    phone: ['+'],
+    phone: ['+262'],
     emoji: '🇹🇫',
     image:
       'https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/TF.svg',
