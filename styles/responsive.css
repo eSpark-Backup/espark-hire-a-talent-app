@@ -6011,6 +6011,10 @@
   .dropdown-header-title {
     width: 40px;
   }
+  .partner-country-dropdown option {
+    font-size: 12px;
+    font-weight: 500;
+  }
 }
 
 @media screen and (min-width: 375px) and (max-width: 575px) {
@@ -6336,6 +6340,10 @@
   }
   .dropdown-header-title {
     width: 40px;
+  }
+  .partner-country-dropdown option {
+    font-size: 12px;
+    font-weight: 500;
   }
 }
 

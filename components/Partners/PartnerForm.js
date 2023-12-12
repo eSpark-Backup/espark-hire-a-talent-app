@@ -9,9 +9,10 @@ import { CountryCode } from 'constants/CountryCodes';
 import PartnerFlagDropdown from './PartnerFlagDropdown';
 import { validation } from '@/utils/validation';
 import PartnersModal from './PartnersModal';
+import PartnerCountrySelect from './PartnerCountrySelect';
 
 const PartnerForm = () => {
-  const [selectedOption, setSelectedOption] = React.useState('Please Select');
+  const [selectedOption, setSelectedOption] = React.useState('');
   const [currentLength, setCurrentLength] = React.useState(null);
   const [showModal, setShowModal] = React.useState(false);
   const [modalTitle, setModalTitle] = React.useState(false);
@@ -44,6 +45,8 @@ const PartnerForm = () => {
     setSelectedCode(phoneCode);
   }, []);
 
+  console.log(selectedOption, 'selectdObjectkk');
+
   const options = CountryCode?.map((opt) => opt?.name);
 
   const flags = CountryCode?.map((flags) => flags?.image);
@@ -60,7 +63,9 @@ const PartnerForm = () => {
   const handlePhoneChange = (event) => {
     handleChange(event);
     setCurrentLength(event?.target?.value);
+    console.log(event);
   };
+
   const profileValidationSchema = Yup.object().shape({
     first_name: Yup.string()
       .min(3, 'First name must be at least 3 characters')
@@ -216,6 +221,7 @@ const PartnerForm = () => {
             </label>
             <div className="partner-form-phone-number-input-box">
               <PartnerFlagDropdown
+                handlePhoneChange={handlePhoneChange}
                 option={flags}
                 findCountryName={findCountryName}
                 selectedFlag={selectedFlag}
@@ -247,10 +253,11 @@ const PartnerForm = () => {
             <label htmlFor="" className="label">
               Which Country are you Located in?
             </label>
-            <PartnerCustomDropdown
-              option={options}
+            <PartnerCountrySelect
+              options={options}
               selectedOption={selectedOption}
               setSelectedOption={setSelectedOption}
+              setSelectedFlag={setSelectedFlag}
             />
           </div>
           <div className="partner-form-LinkedIn-Profile">
@@ -262,7 +269,7 @@ const PartnerForm = () => {
               className="input"
               name="linkedin_profile_link"
               value={values?.linkedin_profile_link}
-              placeholder="necessary"
+              placeholder="www.linkedin.com"
               onChange={handleChange}
             />
             {touched?.linkedin_profile_link &&

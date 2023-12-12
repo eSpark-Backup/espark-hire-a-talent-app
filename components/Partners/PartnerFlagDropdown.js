@@ -1,6 +1,8 @@
+import { CountryCode } from 'constants/CountryCodes';
 import React, { useState, useEffect, useRef } from 'react';
 
 const PartnerFlagDropdown = ({
+  handlePhoneChange,
   option,
   selectedFlag,
   countryCode,
@@ -18,7 +20,18 @@ const PartnerFlagDropdown = ({
     setIsOpen(!isOpen);
   };
 
+  const handleChange = (e) => {
+    setSelectedCode(e?.target?.value);
+    const selectedCode = CountryCode?.filter(
+      (item) => item?.phone[0] === e?.target?.value
+    )[0]?.image;
+    setSelectedFlag(selectedCode);
+    // handleChange();
+    // handlePhoneChange({ target: { value: ' ' } });
+  };
+
   const handleOptionClick = (option) => {
+    console.log(option, 'optionxx');
     setSelectedFlag(option);
     setIsOpen(false);
   };
@@ -54,19 +67,30 @@ const PartnerFlagDropdown = ({
       <div className="dropdown-header-Flag" onClick={toggleDropdown}>
         <div className="dropdown-header-title">
           <img
-            src={selectedFlag}
-            alt={selectedFlag}
+            src={
+              selectedFlag
+                ? selectedFlag
+                : 'https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/PK.svg'
+            }
+            // alt={selectedFlag}
             width={'40px'}
             height={'40px'}
           />
         </div>
-        <div className="partner-form-country-code">
+
+        {/* <div className="partner-form-country-code">
           <p>{selectedCode}</p>
-        </div>
+        </div> */}
         <img
           src="/images/partners/arrow.svg"
           alt="arrow"
           className="custom-arrow"
+        />
+        <input
+          type="text"
+          value={selectedCode}
+          onChange={handleChange}
+          className="partner-form-country-code"
         />
       </div>
 
