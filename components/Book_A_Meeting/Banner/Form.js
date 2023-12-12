@@ -10,6 +10,7 @@ import countries from '/constants/countries.json';
 import CustomDropdown from './CustomDropdown';
 import PartnerFlagDropdown from './CountryCode';
 import BookAMeetingModal from '../BookAMeetingModal';
+import { router } from 'next/router';
 
 const inter = Inter({
   weight: ['100', '200', '300', '400', '500', '600', '700', '800', '900'],
@@ -69,9 +70,9 @@ const Form = ({ companySize }) => {
     setState((state) => ({ ...state, [key]: value }));
   };
 
-  const redirectToCalendly = () => {
-    window.open('https://calendly.com/esparktalents/60min', '_blank');
-  };
+  // const redirectToCalendly = () => {
+  //   window.open('https://calendly.com/esparktalents/60min', '_blank');
+  // };
 
   const onSubmit = () => {
     const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
@@ -156,7 +157,10 @@ const Form = ({ companySize }) => {
                 setShowModal(true);
                 setModalTitle('Your data has been successfully submitted');
                 setTimeout(() => {
-                  // redirectToCalendly();
+                  window.open(
+                    'https://calendly.com/esparktalents/60min',
+                    '_blank'
+                  );
                 }, 2000);
               }, 2000);
             } else {
@@ -190,7 +194,12 @@ const Form = ({ companySize }) => {
               setShowModal(true);
               setModalTitle('Unfortunately, your data could not be submitted');
               setTimeout(() => {
-                // redirectToCalendly();
+                setTimeout(() => {
+                  window.open(
+                    'https://calendly.com/esparktalents/60min',
+                    '_blank'
+                  );
+                }, 2000);
               }, 2000);
             }, 2000);
           });
