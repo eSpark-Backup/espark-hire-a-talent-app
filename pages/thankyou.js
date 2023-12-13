@@ -1,30 +1,32 @@
-import React from "react";
-import NewsletterForm2 from "@/components/Common/NewsletterForm2";
-import Link from "next/link";
+import React from 'react';
+import Link from 'next/link';
+import NewsletterForm2 from '@/components/Common/NewsletterForm2';
+import PartnerArea from '@/components/TechnologySolutions/PartnerArea';
+
 import {
   thankYouHeadings,
   thankYouParas,
   thankyouCards,
-} from "constants/constants";
-import PartnerArea from "@/components/TechnologySolutions/PartnerArea";
+} from 'constants/constants';
 
 function ThankYou() {
   return (
     <>
       <div className="thank-you-main">
         <div className="container-fluid thank-header">
-          <a href="/">
+          <Link href="/">
             <img
               src="/images/ThankyouPageLogo.png"
-              width={"157.983px"}
-              height={"74.775px"}
+              width={'157.983px'}
+              height={'74.775px'}
             />
-          </a>
+          </Link>
           <div>
             <h1 className="thankyou-heading-1">{thankYouHeadings[0]}</h1>
             <h1 className="thankyou-heading-1">{thankYouHeadings[1]}</h1>
             <h2 className="thankyou-heading-2">
-              Take Your <span style={{fontWeight:"700"}}>Business</span> To The <span style={{fontWeight:"700"}}>Next Level</span>
+              Take Your <span style={{ fontWeight: '700' }}>Business</span> To
+              The <span style={{ fontWeight: '700' }}>Next Level</span>
             </h2>
           </div>
           {thankYouParas.map((item, index) => (

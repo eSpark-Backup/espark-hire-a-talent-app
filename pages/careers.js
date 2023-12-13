@@ -4,7 +4,6 @@ import PageTitle from "@/components/Common/PageTitle";
 import CareerCards from "@/components/Careers/CareerCards";
 
 function Career({ jobsData, jobCategories }) {
-
   return (
     <>
       <PageTitle homeText="Home" pageTitle="Careers" pageSubTitle="Careers" />

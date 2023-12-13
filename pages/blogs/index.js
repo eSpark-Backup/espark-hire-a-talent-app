@@ -1,15 +1,15 @@
 import React from "react";
-import { createClient } from "next-sanity";
 import PageTitle from "@/components/Common/PageTitle";
-import BlogsCards from "@/components/Blog/BlogsCards";
-import { blogData } from "constants/blogConstants";
+import BlogCard from "@/components/Blog/BlogCard";
 import NewsletterForm2 from "@/components/Common/NewsletterForm2";
+
+import { blogData } from "constants/blogConstants";
 
 export default function Blog({ blogsData }) {
   return (
     <>
       <PageTitle homeText="Home" pageTitle="Blogs" pageSubTitle={"Blogs"} />
-      <BlogsCards item={blogData} blogs={blogsData} />
+      <BlogCard item={blogData} />
       <NewsletterForm2 />
     </>
   );

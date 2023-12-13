@@ -1,31 +1,31 @@
-import React from "react";
-import PageTitle from "@/components/Common/PageTitle";
-import { WhatWeWorkImage, sliderData } from "constants/constants";
-import WhatWeWork from "@/components/CybersecurityServices/WhatWeWork";
-import ReasonsToInvestInCryptocurrency from "@/components/CryptoStartup/ReasonsToInvestInCryptocurrency";
-import AboutUs from "@/components/CryptoStartup/AboutUs";
-import IndustryPartners from "@/components/CryptoStartup/IndustryPartners";
-import ServicesItem from "@/components/Services/ServicesItem";
-import { useRouter } from "next/router";
-import Platforms from "@/components/CryptoStartup/Platforms";
-import { ThreeDots } from "react-loader-spinner";
-import NewsletterForm2 from "@/components/Common/NewsletterForm2";
+import React from 'react';
+import { ThreeDots } from 'react-loader-spinner';
+import { useRouter } from 'next/router';
+import PageTitle from '@/components/Common/PageTitle';
+import WhatWeWork from '@/components/CybersecurityServices/WhatWeWork';
+import ReasonsToInvestInCryptocurrency from '@/components/CryptoStartup/ReasonsToInvestInCryptocurrency';
+import AboutUs from '@/components/CryptoStartup/AboutUs';
+import IndustryPartners from '@/components/CryptoStartup/IndustryPartners';
+import ServicesItem from '@/components/Services/ServicesItem';
+import Platforms from '@/components/CryptoStartup/Platforms';
+import NewsletterForm2 from '@/components/Common/NewsletterForm2';
+
+import { sliderData } from 'constants/constants';
 
 const BlogDetails = () => {
   const router = useRouter();
   const getId = router.query.eachId;
-  // const newTitle = getId.replaceAll("-", " ");
   const filterData = sliderData?.filter((item) => item?.slug === getId);
 
   if (!filterData.length) {
     return (
       <div
         style={{
-          height: "100vh",
-          display: "flex",
-          justifyContent: "center",
-          alignItems: "center",
-          zIndex: "1",
+          height: '100vh',
+          display: 'flex',
+          justifyContent: 'center',
+          alignItems: 'center',
+          zIndex: '1',
         }}
       >
         <ThreeDots
@@ -77,11 +77,6 @@ const BlogDetails = () => {
         image={sections[2].image}
       />
 
-      {/* <OurPlatforms
-        data={sections[3].list}
-        heading={sections[3].heading}
-        paragraph={sections[3].paragraph}
-      /> */}
       <Platforms
         data={sections[3].list}
         heading={sections[3].heading}
@@ -93,8 +88,6 @@ const BlogDetails = () => {
         paragraph={sections[4].paragraph}
       />
       <NewsletterForm2 />
-      {/* <ServiceDetailsContent /> */}
-      {/* <GetStarted /> */}
     </>
   );
 };
