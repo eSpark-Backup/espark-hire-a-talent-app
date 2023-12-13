@@ -1,8 +1,8 @@
-import React from 'react';
-import { useRouter } from 'next/router';
-import BlogDetailsContent from '@/components/Blog/BlogDetailsContent';
+import React from "react";
+import { useRouter } from "next/router";
+import BlogDetailsContent from "@/components/Blog/BlogDetailsContent";
 
-import { blogData } from 'constants/blogConstants';
+import { blogData } from "constants/blogConstants";
 
 const BlogDetails = () => {
   const router = useRouter();
@@ -10,8 +10,8 @@ const BlogDetails = () => {
   const filterData = blogData?.filter((item) => item?.slug === getId);
 
   const props = {
-    title: 'set default title',
-    metaDescription: 'set default metaDescription',
+    title: "set default title",
+    metaDescription: "set default metaDescription",
   };
 
   return (

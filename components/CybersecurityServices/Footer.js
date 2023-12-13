@@ -1,5 +1,5 @@
-import React from 'react';
-import Link from 'next/link';
+import React from "react";
+import Link from "next/link";
 
 const Footer = () => {
   return (
@@ -88,15 +88,15 @@ const Footer = () => {
                     Street Victoria, Canada
                   </li>
                   <li>
-                    <i className="ri-mail-line"></i> Email:{' '}
+                    <i className="ri-mail-line"></i> Email:{" "}
                     <Link href="mailto:hello@lofi.com">hello@lofi.com</Link>
                   </li>
                   <li>
-                    <i className="ri-phone-line"></i> Phone:{' '}
+                    <i className="ri-phone-line"></i> Phone:{" "}
                     <Link href="tel:+44587154756">+44 587 154756</Link>
                   </li>
                   <li>
-                    <i className="ri-headphone-line"></i> Fax:{' '}
+                    <i className="ri-headphone-line"></i> Fax:{" "}
                     <Link href="tel:+44587154756">+55 58715 4756</Link>
                   </li>
                 </ul>
@@ -108,7 +108,7 @@ const Footer = () => {
         <div className="copyright-area">
           <div className="container">
             <p>
-              &copy; <strong>Lofi</strong> is Proudly Owned by{' '}
+              &copy; <strong>Lofi</strong> is Proudly Owned by{" "}
               <Link
                 href="https://envytheme.com/"
                 target="_blank"
