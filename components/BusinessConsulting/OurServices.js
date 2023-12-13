@@ -1,8 +1,8 @@
-import React from 'react';
-import Link from 'next/link';
-import { Swiper, SwiperSlide } from 'swiper/react';
-import { Pagination } from 'swiper';
-import { Autoplay } from 'swiper';
+import React from "react";
+import Link from "next/link";
+import { Swiper, SwiperSlide } from "swiper/react";
+import { Pagination } from "swiper";
+import { Autoplay } from "swiper";
 
 const OurServices = ({ title, para, items }) => {
   return (
@@ -45,8 +45,8 @@ const OurServices = ({ title, para, items }) => {
                 <div
                   className={
                     eachCard.homeComponent
-                      ? 'single-services-item with-boxshadow size-change'
-                      : 'single-services-item with-boxshadow'
+                      ? "single-services-item with-boxshadow size-change"
+                      : "single-services-item with-boxshadow"
                   }
                 >
                   <div className="d-flex align-items-center">

@@ -1,13 +1,13 @@
-import React, { useState } from 'react';
-import { useRouter } from 'next/router';
-import Head from 'next/head';
-import Link from 'next/link';
+import React, { useState } from "react";
+import { useRouter } from "next/router";
+import Head from "next/head";
+import Link from "next/link";
 
-import { seoContent } from 'constants/SEOConstant';
+import { seoContent } from "constants/SEOConstant";
 
 const NavbarStyle2 = () => {
   const [menu, setMenu] = React.useState(true);
-  const [selectedNavItem, setSelectedNavItem] = useState('');
+  const [selectedNavItem, setSelectedNavItem] = useState("");
   const handleNavItemClick = (navItem) => {
     setSelectedNavItem(navItem);
   };
@@ -15,22 +15,22 @@ const NavbarStyle2 = () => {
     setMenu(!menu);
   };
   React.useEffect(() => {
-    let elementId = document.getElementById('navbar');
-    document.addEventListener('scroll', () => {
+    let elementId = document.getElementById("navbar");
+    document.addEventListener("scroll", () => {
       if (window.scrollY > 170) {
-        elementId.classList.add('is-sticky');
+        elementId.classList.add("is-sticky");
       } else {
-        elementId.classList.remove('is-sticky');
+        elementId.classList.remove("is-sticky");
       }
     });
   });
 
   const classOne = menu
-    ? 'collapse navbar-collapse mean-menu'
-    : 'collapse navbar-collapse show';
+    ? "collapse navbar-collapse mean-menu"
+    : "collapse navbar-collapse show";
   const classTwo = menu
-    ? 'navbar-toggler navbar-toggler-right collapsed'
-    : 'navbar-toggler navbar-toggler-right';
+    ? "navbar-toggler navbar-toggler-right collapsed"
+    : "navbar-toggler navbar-toggler-right";
 
   const router = useRouter();
   const gettingPath = router?.asPath;
@@ -108,9 +108,9 @@ const NavbarStyle2 = () => {
               <Link
                 href="/"
                 className={`navbar-brand ${
-                  selectedNavItem === 'Home' ? 'active' : ''
+                  selectedNavItem === "Home" ? "active" : ""
                 }`}
-                onClick={() => handleNavItemClick('Home')}
+                onClick={() => handleNavItemClick("Home")}
               >
                 <img
                   src="/images/logo.png"
@@ -140,9 +140,9 @@ const NavbarStyle2 = () => {
                     <Link
                       href="/what-we-do"
                       className={`nav-link ${
-                        isLinkActive('/what-we-do') ? 'active' : ''
+                        isLinkActive("/what-we-do") ? "active" : ""
                       }`}
-                      onClick={() => handleNavItemClick('what we do')}
+                      onClick={() => handleNavItemClick("what we do")}
                     >
                       What we do
                     </Link>
@@ -152,9 +152,9 @@ const NavbarStyle2 = () => {
                     <Link
                       href="/how-it-works"
                       className={`nav-link ${
-                        isLinkActive('/how-it-works') ? 'active' : ''
+                        isLinkActive("/how-it-works") ? "active" : ""
                       }`}
-                      onClick={() => handleNavItemClick('How it works')}
+                      onClick={() => handleNavItemClick("How it works")}
                     >
                       How it works
                     </Link>
@@ -164,9 +164,9 @@ const NavbarStyle2 = () => {
                     <Link
                       href="/blogs"
                       className={`nav-link ${
-                        isLinkActive('/blogs') ? 'active' : ''
+                        isLinkActive("/blogs") ? "active" : ""
                       }`}
-                      onClick={() => handleNavItemClick('Blog')}
+                      onClick={() => handleNavItemClick("Blog")}
                     >
                       Blogs
                     </Link>
@@ -176,9 +176,9 @@ const NavbarStyle2 = () => {
                     <Link
                       href="/careers"
                       className={`nav-link ${
-                        isLinkActive('/careers') ? 'active' : ''
+                        isLinkActive("/careers") ? "active" : ""
                       }`}
-                      onClick={() => handleNavItemClick('Career')}
+                      onClick={() => handleNavItemClick("Career")}
                     >
                       Careers
                     </Link>
@@ -189,19 +189,20 @@ const NavbarStyle2 = () => {
                       href="https://form.jotform.com/232503890925459"
                       target="_blank"
                       className={`nav-link`}
-                      onClick={() => handleNavItemClick('Apply as a Developer')}
+                      onClick={() => handleNavItemClick("Apply as a Developer")}
                     >
                       Apply as a Developer
                     </Link>
                   </li>
                   <li className="nabar-buttons">
                     <Link
+                      legacyBehavior
                       href="https://calendly.com/esparktalents/60min?month=2023-09"
                       target="_blank"
                       className={`default-btn style-two ${
-                        selectedNavItem === 'Hire a Talent' ? 'active' : ''
+                        selectedNavItem === "Hire a Talent" ? "active" : ""
                       }`}
-                      onClick={() => handleNavItemClick('Hire a Talent')}
+                      onClick={() => handleNavItemClick("Hire a Talent")}
                     >
                       Hire a Talent
                     </Link>

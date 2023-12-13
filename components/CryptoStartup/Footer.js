@@ -1,5 +1,5 @@
-import React from 'react';
-import Link from 'next/link';
+import React from "react";
+import Link from "next/link";
 
 const Footer = () => {
   return (
@@ -124,7 +124,7 @@ const Footer = () => {
         <div className="copyright-area">
           <div className="container">
             <p>
-              &copy; <strong>Lofi</strong> is Proudly Owned by{' '}
+              &copy; <strong>Lofi</strong> is Proudly Owned by{" "}
               <Link
                 href="https://envytheme.com/"
                 target="_blank"

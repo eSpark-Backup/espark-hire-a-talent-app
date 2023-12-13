@@ -1,4 +1,4 @@
-import React from 'react';
+import React from "react";
 
 const AboutUs = (props) => {
   const { title, content, items } = props;
@@ -17,8 +17,8 @@ const AboutUs = (props) => {
                 <img
                   src="/images/Mask group.png"
                   alt="Global Recruitment - global recruitment agency - worldwide recruiting agency - global recruitment services - global recruitment solutions - eSpark Talent"
-                  width={'75%'}
-                  height={'100%'}
+                  width={"75%"}
+                  height={"100%"}
                 />
                 <div className="shape5">
                   <img
