@@ -54,8 +54,8 @@ const OurServices = ({ title, para, items }) => {
                     <Image
                       src={eachCard.imageLink}
                       alt="Global Recruitment - global recruitment agency - worldwide recruiting agency - global recruitment services - global recruitment solutions - eSpark Talent"
-                      width={50}
-                      height={50}
+                      width={79}
+                      height={79}
                     />
                     <h3>{eachCard.title}</h3>
                   </div>

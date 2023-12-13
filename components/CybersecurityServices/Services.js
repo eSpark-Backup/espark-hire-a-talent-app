@@ -14,17 +14,14 @@ const Services = ({ ServicesPara, ServicesTitle, cardsItems }) => {
           <div className="row justify-content-center">
             {cardsItems.map((eachCard, i) => (
               <div className="col-lg-6 col-md-12" key={i}>
-                <div
-                  className="cyber-security-services-card"
-                  style={{ height: '330px' }}
-                >
+                <div className="cyber-security-services-card">
                   <div className="row align-items-center">
                     <div className="col-lg-6 col-md-6">
                       <div className="services-image">
                         <Image
                           src={eachCard.imageLink}
-                          width={270}
-                          height={241}
+                          width={217}
+                          height={190}
                           alt="HR consultant - human resource planning - HR service - HR solutions - HR recruitment - HR outsourcing – eSpark talent"
                         />
                       </div>
