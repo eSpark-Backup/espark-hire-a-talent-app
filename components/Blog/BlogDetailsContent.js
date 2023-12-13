@@ -1,23 +1,9 @@
-import React from "react";
-import Image from "next/image";
-import { createClient } from "next-sanity";
-import imageUrlBuilder from "@sanity/image-url";
-import { socialLinks } from "constants/constants";
-import { PortableText } from "@portabletext/react";
+import React from 'react';
+import Link from 'next/link';
 
-const builder = imageUrlBuilder(
-  createClient({
-    projectId: "93d1bm1e",
-    dataset: "production",
-    useCdn: true,
-  })
-);
+import { socialLinks } from 'constants/constants';
 
-function urlFor(source) {
-  return builder.image(source);
-}
-
-const BlogDetailsContent = ({ blogPost }) => {
+const BlogDetailsContent = ({ data }) => {
   return (
     <>
       <div className="blog-details-area ptb-100">
@@ -41,19 +27,7 @@ const BlogDetailsContent = ({ blogPost }) => {
                     />
                     <div className="title">
                       <span className="name">
-                        By{" "}
-                        <a href="#">
-                          {blogPost.author.firstName +
-                            " " +
-                            blogPost.author.lastName}
-                        </a>
-                      </span>
-                      <span className="date">
-                        {Intl.DateTimeFormat("en-US", {
-                          year: "numeric",
-                          month: "long",
-                          day: "2-digit",
-                        }).format(new Date(blogPost.publishedAt))}
+                        By <Link href="#">{data[0]?.postedBy?.name}</Link>
                       </span>
                     </div>
                   </div>
@@ -75,25 +49,25 @@ const BlogDetailsContent = ({ blogPost }) => {
           <div className="blog-details-desc">
             <div className="article-content">
               <ul className="social-links">
-                {socialLinks.map((item, index) => (
-                  <li key={index} className="my-1">
-                    <a
-                      href={item.link}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className={item.className}
-                    >
-                      <div className={item?.className}>
-                        <Image
+                <ul className="social-links">
+                  {socialLinks.map((item, index) => (
+                    <li key={index}>
+                      <Link
+                        href={item.link}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className={item.className}
+                      >
+                        <img
                           src={item?.src}
                           width={40}
                           height={40}
                           alt="social-icons"
                         />
-                      </div>
-                    </a>
-                  </li>
-                ))}
+                      </Link>
+                    </li>
+                  ))}
+                </ul>
               </ul>
               <div className="blogs-content">
                 <PortableText value={blogPost.body} />

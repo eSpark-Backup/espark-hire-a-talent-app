@@ -42,26 +42,6 @@ const HiringTab = ({ data }) => {
           </div>
         </div>
       </div>
-      {/* <div className="Hiring-box">
-        <div className="row my-2 mt-md-3 mb-md-0 justify-content-center align-items-center">
-          <div className="col-xl-2 col-lg-2 col-md-2 col-sm-12 px-0 text-align-left">
-            <div className="Hiring-number">
-              <h1>{i + 1}</h1>
-            </div>
-          </div>
-          <div className="col-xl-10 col-lg-8 col-md-7 col-sm-12 px-0">
-            <div className="Hiring-text">
-              <h1
-                className="ml-auto"
-                dangerouslySetInnerHTML={{ __html: eachCard.title }}
-              />
-            </div>
-          </div>
-        </div>
-        <div className="Hiring-description">
-          <p>{eachCard.description}</p>
-        </div>
-      </div> */}
     </>
   );
 };
