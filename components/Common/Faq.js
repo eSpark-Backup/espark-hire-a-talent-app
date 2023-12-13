@@ -14,6 +14,13 @@ const Faq = ({ title, item }) => {
   const onChangeToggle = (value, index) => {
     let temp = [...data];
     temp[index].toggle = !value;
+    if (!value) {
+      temp.forEach((item, i) => {
+        if (i !== index) {
+          item.toggle = false;
+        }
+      });
+    }
     setData([...temp]);
     setallowZeroExpanded(!allowZeroExpanded);
   };
