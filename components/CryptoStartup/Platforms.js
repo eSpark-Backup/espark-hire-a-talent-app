@@ -18,8 +18,8 @@ const Platforms = ({ heading, paragraph, data }) => {
                   <div className="platforms-item with-white-color">
                     <div className="image">
                       <Image
-                        width={90}
-                        height={90}
+                        width={74}
+                        height={74}
                         src={eachItem.icon}
                         alt="Hire app developer - Freelance mobile app developer - Hire dedicated mobile app developers - Hire cross platform app developer - Hire a mobile app developer – eSpark Talent"
                       />

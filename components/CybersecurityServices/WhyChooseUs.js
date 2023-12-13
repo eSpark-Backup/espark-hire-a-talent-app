@@ -35,8 +35,8 @@ const WhyChooseUs = ({ title, para, items }) => {
                 <Image
                   src="/images/cybersecurity-services/choose/09.png"
                   alt="HR consultant - human resource planning - HR service - HR solutions - HR recruitment - HR outsourcing – eSpark talent"
-                  width={500}
-                  height={430}
+                  width={636}
+                  height={550}
                 />
               </div>
             </div>
