@@ -1,7 +1,7 @@
-import React from 'react';
-import Link from 'next/link';
+import React from "react";
+import Link from "next/link";
 
-import { socialLinks } from 'constants/constants';
+import { socialLinks } from "constants/constants";
 
 const BlogDetailsContent = ({ data }) => {
   return (
@@ -11,24 +11,19 @@ const BlogDetailsContent = ({ data }) => {
           <div className="blog-details-header row align-items-top justify-content-top">
             <div className="col-lg-6 col-md-12">
               <div className="content">
-                <h1>{blogPost.bannerTitle}</h1>
-                <p>{blogPost.subtitle}</p>
+                <h1>{data[0]?.mainHeading}</h1>
+                <p>{data[0]?.mainParagraph}</p>
                 <div className="post-author-meta">
                   <div className="d-flex align-items-center">
-                    <Image
-                      src={urlFor(blogPost.author.avatar).url()}
-                      alt={
-                        blogPost.author.firstName +
-                        " " +
-                        blogPost.author.lastName
-                      }
-                      width={80}
-                      height={80}
+                    <img
+                      src={data[0]?.postedBy?.image}
+                      alt={data[0]?.postedBy?.alt}
                     />
                     <div className="title">
                       <span className="name">
                         By <Link href="#">{data[0]?.postedBy?.name}</Link>
                       </span>
+                      <span className="date">{data[0]?.postedBy?.date}</span>
                     </div>
                   </div>
                 </div>
@@ -36,12 +31,7 @@ const BlogDetailsContent = ({ data }) => {
             </div>
             <div className="col-lg-6 col-md-12">
               <div className="image">
-                <Image
-                  src={urlFor(blogPost.bannerImage).url()}
-                  alt={blogPost.bannerTitle}
-                  width={500}
-                  height={500}
-                />
+                <img src={data[0]?.bigImageLink} alt={data[0]?.altTag} />
               </div>
             </div>
           </div>
@@ -60,8 +50,9 @@ const BlogDetailsContent = ({ data }) => {
                       >
                         <img
                           src={item?.src}
-                          width={40}
-                          height={40}
+                          className={item?.className}
+                          width={"90%"}
+                          height={"90%"}
                           alt="social-icons"
                         />
                       </Link>
@@ -69,9 +60,7 @@ const BlogDetailsContent = ({ data }) => {
                   ))}
                 </ul>
               </ul>
-              <div className="blogs-content">
-                <PortableText value={blogPost.body} />
-              </div>
+              <div dangerouslySetInnerHTML={{ __html: data[0]?.content }} />
             </div>
           </div>
         </div>
