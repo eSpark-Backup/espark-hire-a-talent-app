@@ -2,7 +2,7 @@
 import React from 'react';
 import * as Yup from 'yup';
 import { useFormik } from 'formik';
-import { useRouter } from 'next/navigation';
+
 import emailjs from '@emailjs/browser';
 
 import { CountryCode } from 'constants/CountryCodes';
@@ -11,6 +11,7 @@ import PartnersModal from './PartnersModal';
 import PartnerCountrySelect from './PartnerCountrySelect';
 import {} from 'react-phone-number-input';
 import PhoneInput from 'react-phone-number-input';
+import { isValidPhoneNumber } from 'react-phone-number-input';
 
 const PartnerForm = () => {
   const [selectedOption, setSelectedOption] = React.useState('');
@@ -53,7 +54,11 @@ const PartnerForm = () => {
         /^(https?:\/\/)?(www\.)?(linkedin\.com\/[a-zA-Z0-9-]+\/?|linkedin\.com\/company\/[a-zA-Z0-9-]+\/?)$/,
         'Invalid LinkedIn Profile URL: Must be a valid URL and contain "linkedin.com"'
       ),
-    phone_number: Yup.string().required('required'),
+    phone_number: Yup.string()
+      .test('phone', 'Invalid phone number', (value) =>
+        value ? isValidPhoneNumber(value) : true
+      )
+      .required('Phone number is required'),
   });
 
   const {
@@ -74,7 +79,7 @@ const PartnerForm = () => {
         values.country = selectedOption;
 
         const emailResult = await emailjs.send(
-          'service_ac1wtgm',
+          'service_ac1wtgmmm',
           'template_6y49v0k',
           {
             first_name: values.first_name,
@@ -88,6 +93,7 @@ const PartnerForm = () => {
 
         if (emailResult.status === 200) {
           action.resetForm();
+          values.phone_number = '';
           setTimeout(() => {
             setShowModal(!showModal);
             setModalTitle('Your data has been successfully submitted');
@@ -136,6 +142,7 @@ const PartnerForm = () => {
                 type="text"
                 className="input"
                 name="first_name"
+                placeholder="First Name"
                 value={values?.first_name}
                 onChange={handleChange}
               />
@@ -150,6 +157,7 @@ const PartnerForm = () => {
               <input
                 type="text"
                 className="input"
+                placeholder="Last Name"
                 name="last_name"
                 value={values?.last_name}
                 onChange={handleChange}
@@ -166,6 +174,7 @@ const PartnerForm = () => {
             <input
               type="email"
               className="input"
+              placeholder="Email"
               name="email"
               value={values?.email}
               onChange={handleChange}
@@ -186,19 +195,12 @@ const PartnerForm = () => {
                   id={'phone_number'}
                   defaultCountry={'PK'}
                   onChange={handlePhoneChange}
-                  // error={
-                  //   value
-                  //     ? isValidPhoneNumber(value)
-                  //       ? undefined
-                  //       : 'Invalid phone number'
-                  //     : 'Phone number required'
-                  // }
                 />
-                {values?.phone_number ? (
+                {/* {values?.phone_number ? (
                   isValidPhoneNumber(values?.phone_number) ? undefined : (
                     <span className="error-message">Invalid phone number</span>
                   )
-                ) : null}
+                ) : null} */}
 
                 {touched?.phone_number && errors?.phone_number && (
                   <span className="error-message">{errors?.phone_number}</span>
