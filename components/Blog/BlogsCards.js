@@ -105,7 +105,7 @@ const BlogCard = ({ item }) => {
             ))}
           </div>
         </div>
-        {/* {filtereditem?.length > postsPerPage ? (
+        {filtereditem?.length > postsPerPage ? (
           <nav className="pagination-area">
             <ul className="nav-links">
               <li>
@@ -113,10 +113,10 @@ const BlogCard = ({ item }) => {
                   href="#"
                   onClick={handlePreviousClick}
                   className={
-                    currentPage === 1 ? 'page-numbers disabled' : 'page-numbers'
+                    currentPage === 1 ? "page-numbers disabled" : "page-numbers"
                   }
                   style={{
-                    cursor: currentPage === 1 ? 'default' : 'pointer',
+                    cursor: currentPage === 1 ? "default" : "pointer",
                   }}
                 >
                   <i className="ri-arrow-left-line"></i>
@@ -128,11 +128,11 @@ const BlogCard = ({ item }) => {
                   href="#"
                   className={
                     currentPage === totalPages
-                      ? 'page-numbers disabled'
-                      : 'page-numbers'
+                      ? "page-numbers disabled"
+                      : "page-numbers"
                   }
                   style={{
-                    cursor: currentPage === totalPages ? 'default' : 'pointer',
+                    cursor: currentPage === totalPages ? "default" : "pointer",
                   }}
                   onClick={handleNextClick}
                 >
@@ -141,10 +141,10 @@ const BlogCard = ({ item }) => {
               </li>
             </ul>
           </nav>
-        ) : null} */}
+        ) : null}
       </div>
     </>
   );
 };
 
-export default BlogsCards;
+export default BlogCard;
