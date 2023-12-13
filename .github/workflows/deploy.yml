@@ -1,4 +1,4 @@
-name: eSpark Main Environment
+name: CI
 on:
   push:
     branches:
@@ -17,9 +17,9 @@ jobs:
           key: ${{ secrets.SERVER_PRIVATE_KEY }}
           script: |
             cd /var/www/eSpark-Hire-A-Talent-App/
-            git pull origin main
-            npm install --legacy-peer-deps
-            npm run build
+            sudo git pull origin main
+            sudo npm install --legacy-peer-deps
+            sudo npm run build
             sudo pm2 ls
             cd
             sudo pm2 restart server
