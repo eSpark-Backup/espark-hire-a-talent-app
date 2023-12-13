@@ -12,6 +12,10 @@ import PartnerFlagDropdown from "./CountryCode";
 import BookAMeetingModal from "../BookAMeetingModal";
 import { router } from "next/router";
 
+const userid = process.env.NEXT_PUBLIC_BOOK_A_MEETING_EMAILJS_USER_ID;
+const templeteid = process.env.NEXT_PUBLIC_BOOK_A_MEETING_EMAILJS_TEMPLATE_ID;
+const serviceid = process.env.NEXT_PUBLIC_BOOK_A_MEETING_EMAILJS_SERVICE_ID;
+
 const inter = Inter({
   weight: ["100", "200", "300", "400", "500", "600", "700", "800", "900"],
   subsets: ["latin"],
@@ -68,7 +72,6 @@ const Form = ({ companySize }) => {
 
   const handleInputchange = (key, value) => {
     if (key === "phone_number") {
-      console.log(currentPhoneLength);
       if (
         value.length > currentPhoneLength ||
         value.length < currentPhoneLength
@@ -134,11 +137,11 @@ const Form = ({ companySize }) => {
     } else {
       const combineNumber = `${numberCode}${state.phone_number}`;
 
-      emailjs.init("i97Hmgobdw1yJilSn");
+      emailjs.init(userid);
 
       try {
         emailjs
-          .send("service_h5qpxbn", "template_tpktgz5", {
+          .send(serviceid, templeteid, {
             first_name: state.first_name,
             last_name: state.last_name,
             company_size: state.company_size,
