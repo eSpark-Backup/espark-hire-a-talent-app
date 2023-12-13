@@ -48,7 +48,9 @@ const CustomDropdown = (props) => {
       ref={dropdownRef}
     >
       <div
-        className={`dropdown-header ${inter.className}`}
+        className={`dropdown-header ${inter.className} ${
+          value !== "Please Select" && value !== "" ? "dark-value" : ""
+        }`}
         onClick={toggleDropdown}
       >
         <span className="country-span">

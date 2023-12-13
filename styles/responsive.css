@@ -2374,7 +2374,7 @@
   }
 
   .potrait-view {
-    background-image: url('/images/cvs/background-portrait.png');
+    background-image: url("/images/cvs/background-portrait.png");
     background-size: 100% 100%;
   }
 
@@ -2712,7 +2712,7 @@
 
   .our-ratings .col-sm-6 {
     flex: 0 0 auto;
-    width: 50%;
+    width: 100%;
   }
 
   .ratings-in p {
@@ -2751,9 +2751,9 @@
     line-height: 14px;
   }
 
-  .custom-arrow img {
+  /* .custom-arrow img {
     width: 14px;
-  }
+  } */
 
   .book-demo {
     margin-top: 24px;
@@ -3045,13 +3045,18 @@
   }
 
   .question-accordion .accord-item {
-    margin-bottom: 25px !important;
     padding-left: 0px;
+    max-height: 49px;
+    margin-bottom: 10px !important;
   }
 
   .question-accordion .accordion__panel p {
     font-size: 15px;
     line-height: 26px;
+  }
+
+  .question-accordion .down-arrow {
+    width: 13px;
   }
 
   .even-button {
@@ -5490,10 +5495,10 @@
     padding: 9px 8px !important;
     line-height: 14px;
   }
-
+  /* 
   .custom-arrow img {
     width: 14px;
-  }
+  } */
 
   .book-demo {
     margin-top: 24px;
@@ -5749,13 +5754,17 @@
   }
 
   .question-accordion .accord-item {
-    margin-bottom: 25px !important;
     padding-left: 0px;
+    max-height: 49px;
   }
 
   .question-accordion .accordion__panel p {
     font-size: 15px;
     line-height: 28px;
+  }
+
+  .question-accordion .down-arrow {
+    width: 13px;
   }
 
   .even-button {
@@ -7093,10 +7102,10 @@
     padding: 9px 8px !important;
     line-height: 14px;
   }
-
+  /* 
   .custom-arrow img {
     width: 14px;
-  }
+  } */
 
   .book-demo {
     margin-top: 24px;
@@ -7326,11 +7335,16 @@
 
   .question-accordion .accord-item {
     margin-bottom: 25px;
+    max-height: 59px;
   }
 
   .question-accordion .accordion__panel p {
     font-size: 15px;
     line-height: 28px;
+  }
+
+  .question-accordion .down-arrow {
+    width: 13px;
   }
 
   .mix-reviews-area {
@@ -8150,9 +8164,9 @@
     padding: 10px 10px;
   }
 
-  .custom-arrow img {
+  /* .custom-arrow img {
     width: 16px;
-  }
+  } */
 
   .book-demo {
     margin-top: 30px;
@@ -8353,6 +8367,7 @@
 
   .question-accordion .accord-item {
     margin-bottom: 35px;
+    max-height: 69px;
   }
 
   .question-accordion .accordion__panel p {
@@ -9080,7 +9095,8 @@
   }
 
   .question-accordion .accord-item {
-    margin-bottom: 46px;
+    margin-bottom: 26px;
+    max-height: 69px;
   }
 
   .question-accordion .accordion__panel p {
@@ -9639,6 +9655,10 @@
     line-height: 46px;
   }
 
+  .question-accordion .accord-item {
+    max-height: 89px;
+  }
+
   .meeting-button {
     padding: 10px 0px;
     font-size: 18px;
@@ -9769,7 +9789,7 @@
     right: 0;
     bottom: -1px;
     z-index: 2;
-    content: '';
+    content: "";
     height: 96px;
     position: absolute;
     background-image: url(/images/shape/waves.png);
