@@ -10829,6 +10829,9 @@ input::-webkit-inner-spin-button {
   height: 41.539px;
   width: 100%;
 }
+.PhoneInputInput::placeholder {
+  color: #d0d4ea;
+}
 
 .PhoneInputCountryIconImg {
   width: 40px;
