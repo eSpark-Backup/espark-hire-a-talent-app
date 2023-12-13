@@ -1,4 +1,4 @@
-import React from 'react';
+import React from "react";
 
 const AboutUs = ({ title, paragraph, data, image }) => {
   return (
@@ -16,8 +16,8 @@ const AboutUs = ({ title, paragraph, data, image }) => {
                 <img
                   src={image}
                   alt="Hire app developer - Freelance mobile app developer - Hire dedicated mobile app developers - Hire cross platform app developer - Hire a mobile app developer – eSpark Talent"
-                  width={'600px'}
-                  height={'600px'}
+                  width={"600px"}
+                  height={"600px"}
                 />
               </div>
             </div>
