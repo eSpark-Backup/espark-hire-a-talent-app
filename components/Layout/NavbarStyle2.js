@@ -195,7 +195,7 @@ const NavbarStyle2 = () => {
                     </Link>
                   </li>
                   <li className="nabar-buttons">
-                    <Link
+                    <Link legacyBehavior
                       href="https://calendly.com/esparktalents/60min?month=2023-09"
                       target="_blank"
                       className={`default-btn style-two ${
