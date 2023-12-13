@@ -81,6 +81,7 @@ a {
   transition: var(--transition);
   color: var(--blackColor);
   text-decoration: none;
+  cursor: pointer !important;
   outline: 0 !important;
 }
 
@@ -227,6 +228,7 @@ textarea.form-control {
   font-size: var(--fontSize);
   font-weight: 500;
   margin: 5px 5px;
+  cursor: pointer !important;
 }
 
 .default-btn span {

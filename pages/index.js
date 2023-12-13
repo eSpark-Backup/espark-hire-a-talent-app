@@ -3,12 +3,11 @@ import HeroSlider from '@/components/BusinessConsulting/HeroSlider';
 import OurServices from '@/components/BusinessConsulting/OurServices';
 import AboutUs from '@/components/BusinessConsulting/AboutUs';
 import FunFacts from '@/components/Common/FunFacts';
-// import FreeSEOQuotesForm from '@/components/Common/FreeSEOQuotesForm'
-// import ClientsFeedback from '@/components/Common/ClientsFeedback'
-// import OurCaseStudies from '@/components/Common/OurCaseStudies'
 import OurTeamMember from '@/components/Common/OurTeamMember';
-// import OurLatestBlog from '@/components/Common/OurLatestBlog'
-import NewsletterForm from '@/components/Common/NewsletterForm';
+import OurPlatforms from '@/components/ICOLanding/OurPlatforms';
+import PartnerArea from '@/components/TechnologySolutions/PartnerArea';
+import NewsletterForm2 from '@/components/Common/NewsletterForm2';
+
 import {
   BudgetPara,
   BudgetTitle,
@@ -24,9 +23,6 @@ import {
   teamData,
   title,
 } from 'constants/constants';
-import OurPlatforms from '@/components/ICOLanding/OurPlatforms';
-import PartnerArea from '@/components/TechnologySolutions/PartnerArea';
-import NewsletterForm2 from '@/components/Common/NewsletterForm2';
 
 export default function Home3() {
   return (
@@ -43,19 +39,11 @@ export default function Home3() {
 
       <FunFacts />
 
-      {/* <FreeSEOQuotesForm /> */}
-
-      {/* <ClientsFeedback /> */}
-
-      {/* <OurCaseStudies /> */}
-
       <OurTeamMember data={personsData} items={listItem} teamData={teamData} />
 
       <PartnerArea />
-      <NewsletterForm2 />
-      {/* <OurLatestBlog /> */}
 
-      {/* <NewsletterForm /> */}
+      <NewsletterForm2 />
     </>
   );
 }
