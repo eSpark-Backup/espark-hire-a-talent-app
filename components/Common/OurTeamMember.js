@@ -1,5 +1,5 @@
-import React from 'react';
-import Link from 'next/link';
+import React from "react";
+import Link from "next/link";
 
 const OurTeamMember = (props) => {
   const { data, items, teamData } = props;
@@ -24,8 +24,8 @@ const OurTeamMember = (props) => {
                       <div
                         className={
                           i > 2
-                            ? 'single-team-member with-space'
-                            : 'single-team-member'
+                            ? "single-team-member with-space"
+                            : "single-team-member"
                         }
                       >
                         <img
@@ -35,12 +35,12 @@ const OurTeamMember = (props) => {
                         <div
                           className={
                             i === 0
-                              ? 'content1'
+                              ? "content1"
                               : i === 1
-                              ? 'content2'
+                              ? "content2"
                               : i === 2
-                              ? 'content3'
-                              : 'content4'
+                              ? "content3"
+                              : "content4"
                           }
                         >
                           <div>
