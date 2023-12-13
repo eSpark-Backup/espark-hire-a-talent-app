@@ -58,7 +58,7 @@ const OurServices = ({ title, para, items }) => {
                   </div>
                   <p>{eachCard.content}</p>
                   {eachCard.homeComponent ? (
-                    <Link href={"hire" + "/" + eachCard.slug}>
+                    <Link href={'hire' + '/' + eachCard.slug}>
                       <span className="default-btn align-self-end">
                         <span className="ri-arrow-right-s-line"></span>
                         {eachCard.buttonText}
