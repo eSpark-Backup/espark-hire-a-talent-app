@@ -1,4 +1,5 @@
-import React from 'react'
+import React from 'react';
+import Link from 'next/link';
 
 const InvestorsPartners = () => {
   return (
@@ -37,12 +38,12 @@ const InvestorsPartners = () => {
               </div>
               <div className="col-lg-2 col-6 col-sm-3 col-md-3">
                 <div className="partner-card">
-                  <a href="#" className="d-block">
+                  <Link href="#" className="d-block">
                     <img
                       src="/images/cybersecurity-services/partner/partner-16.png"
                       alt="image"
                     />
-                  </a>
+                  </Link>
                 </div>
               </div>
               <div className="col-lg-2 col-6 col-sm-3 col-md-3">
@@ -66,7 +67,7 @@ const InvestorsPartners = () => {
         </div>
       </div>
     </>
-  )
-}
+  );
+};
 
-export default InvestorsPartners
+export default InvestorsPartners;

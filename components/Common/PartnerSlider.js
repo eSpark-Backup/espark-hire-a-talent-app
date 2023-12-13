@@ -1,6 +1,6 @@
-import React from "react";
-import { Swiper, SwiperSlide } from "swiper/react";
-import { Autoplay } from "swiper";
+import React from 'react';
+import { Swiper, SwiperSlide } from 'swiper/react';
+import { Autoplay } from 'swiper';
 
 const PartnerSlider = ({ heading }) => {
   return (
@@ -12,8 +12,6 @@ const PartnerSlider = ({ heading }) => {
               {heading ? heading : "We Value Our Admirable Clients "}
             </h2>
           </div>
-          {/* <br />
-          <br /> */}
           <Swiper
             slidesPerView={1}
             spaceBetween={30}
@@ -94,18 +92,7 @@ const PartnerSlider = ({ heading }) => {
                 />
               </div>
             </SwiperSlide>
-
-            {/* <SwiperSlide>
-              <div className="partner-item">
-                <img src="/images/partner/partner7.png" alt="image" />
-              </div>
-            </SwiperSlide> */}
           </Swiper>
-          {/* <br />
-          <br />
-          <div className="text-center">
-            <button className="align-center">Schedule a Meeting</button>
-          </div> */}
         </div>
       </div>
     </>

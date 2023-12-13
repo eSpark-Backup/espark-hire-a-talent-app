@@ -9,21 +9,12 @@ const PageTitle = ({ pageTitle, homeText, pageSubTitle }) => {
           <h1>{pageTitle}</h1>
           <ul>
             <li>
-              <Link legacyBehavior href="/">
-                <a>{homeText}</a>
-              </Link>
+              <Link href="/">{homeText}</Link>
             </li>
             <li>{pageSubTitle}</li>
           </ul>
         </div>
       </div>
-      {/* Animation Remove */}
-      {/* <div className="shape1">
-        <img src="/images/shape/shape1.png" alt="image" />
-      </div>
-      <div className="shape3">
-        <img src="/images/shape/shape2.png" alt="image" />
-      </div> */}
     </div>
   );
 };

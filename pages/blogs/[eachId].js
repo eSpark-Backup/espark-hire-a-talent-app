@@ -1,7 +1,7 @@
 import React from "react";
 import { useRouter } from "next/router";
-import { createClient } from "next-sanity";
 import BlogDetailsContent from "@/components/Blog/BlogDetailsContent";
+
 import { blogData } from "constants/blogConstants";
 
 const BlogDetails = ({ blogPost }) => {
@@ -26,7 +26,7 @@ const client = createClient({
   useCdn: true,
 });
 
-export const dynamic = 'force-dynamic';
+export const dynamic = "force-dynamic";
 
 export const getStaticPaths = async () => {
   try {

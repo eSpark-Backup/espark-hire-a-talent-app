@@ -1,22 +1,7 @@
 import React, { useState, useEffect } from "react";
 import Link from "next/link";
-import Image from "next/image";
-import { createClient } from "next-sanity";
-import imageUrlBuilder from "@sanity/image-url";
 
-const builder = imageUrlBuilder(
-  createClient({
-    projectId: "93d1bm1e",
-    dataset: "production",
-    useCdn: true,
-  })
-);
-
-function urlFor(source) {
-  return builder.image(source);
-}
-
-const BlogsCards = ({ item, blogs }) => {
+const BlogCard = ({ item }) => {
   const [selectedCategory, setSelectedCategory] = useState("All");
   const [currentPage, setCurrentPage] = useState(1);
   const [postsPerPage] = useState(6);
@@ -71,14 +56,14 @@ const BlogsCards = ({ item, blogs }) => {
         Math.abs(page - currentPage) <= 1
       ) {
         buttons.push(
-          <a
+          <Link
             href="#"
             key={page}
             className={isSelected ? "current page-numbers" : "page-numbers"}
             onClick={() => handlePageClick(page)}
           >
             {page}
-          </a>
+          </Link>
         );
       } else if (buttons[buttons.length - 1] !== ellipsis) {
         buttons.push(ellipsis);
@@ -91,87 +76,68 @@ const BlogsCards = ({ item, blogs }) => {
       <div className="blog-area ptb-100">
         <div className="container">
           <div className="row justify-content-center">
-            {blogs &&
-              blogs.map((blog, index) => (
-                <div key={index} className="col-lg-4 col-md-6 col-sm-6">
-                  <div className="single-blog-post">
-                    <div className="image">
-                      <Link legacyBehavior href={`/blogs/${blog.slug.current}`}>
-                        <span className="d-block">
-                          <Image
-                            src={urlFor(blog.featureImage).auto('format').url()}
-                            alt={blog.title}
-                            width={900}
-                            height={100}
-                          />
-                        </span>
+            {currentPosts?.map((eachCard, index) => (
+              <div key={index} className="col-lg-4 col-md-6 col-sm-6">
+                <div className="single-blog-post">
+                  <div className="image">
+                    <Link href={`/blogs/${eachCard.slug}`} className="d-block">
+                      <img src={eachCard.imageLink} alt={eachCard.altTag} />
+                    </Link>
+                    <span className="date">{eachCard?.postedBy?.date}</span>
+                  </div>
+
+                  <div className="content">
+                    <h3>
+                      <Link href={`/blogs/${eachCard.slug}`}>
+                        {eachCard?.title}
                       </Link>
-                      <span className="date">
-                        {Intl.DateTimeFormat("en-US", {
-                          year: "numeric",
-                          month: "short",
-                          day: "2-digit",
-                        }).format(new Date(blog.publishedAt))}
+                    </h3>
+                    <p>{eachCard?.mainParagraph}</p>
+                    <Link href={`/blogs/${eachCard.slug}`}>
+                      <span className="default-btn">
+                        <span className="ri-arrow-right-s-line"></span>
+                        Read More
                       </span>
-                    </div>
-
-                    <div className="content">
-                      <h3>
-                        <Link
-                          legacyBehavior
-                          href={`/blogs/${blog.slug.current}`}
-                        >
-                          <span>{blog.title}</span>
-                        </Link>
-                      </h3>
-                      <p>{blog.subtitle}</p>
-
-                      {/* <Link legacyBehavior href="/blog-details"> */}
-                      <Link legacyBehavior href={`/blogs/${blog.slug.current}`}>
-                        <span className="default-btn">
-                          <span className="ri-arrow-right-s-line"></span>
-                          Read More
-                        </span>
-                      </Link>
-                    </div>
+                    </Link>
                   </div>
                 </div>
-              ))}
+              </div>
+            ))}
           </div>
         </div>
         {/* {filtereditem?.length > postsPerPage ? (
           <nav className="pagination-area">
             <ul className="nav-links">
               <li>
-                <a
+                <Link
                   href="#"
                   onClick={handlePreviousClick}
                   className={
-                    currentPage === 1 ? "page-numbers disabled" : "page-numbers"
+                    currentPage === 1 ? 'page-numbers disabled' : 'page-numbers'
                   }
                   style={{
-                    cursor: currentPage === 1 ? "default" : "pointer",
+                    cursor: currentPage === 1 ? 'default' : 'pointer',
                   }}
                 >
                   <i className="ri-arrow-left-line"></i>
-                </a>
+                </Link>
               </li>
               {renderPaginationButtons()}
               <li>
-                <a
+                <Link
                   href="#"
                   className={
                     currentPage === totalPages
-                      ? "page-numbers disabled"
-                      : "page-numbers"
+                      ? 'page-numbers disabled'
+                      : 'page-numbers'
                   }
                   style={{
-                    cursor: currentPage === totalPages ? "default" : "pointer",
+                    cursor: currentPage === totalPages ? 'default' : 'pointer',
                   }}
                   onClick={handleNextClick}
                 >
                   <i className="ri-arrow-right-line"></i>
-                </a>
+                </Link>
               </li>
             </ul>
           </nav>
