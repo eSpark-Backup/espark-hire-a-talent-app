@@ -1,5 +1,5 @@
-import React from 'react'
-import Link from 'next/link'
+import React from 'react';
+import Link from 'next/link';
 
 const Footer = () => {
   return (
@@ -9,10 +9,8 @@ const Footer = () => {
           <div className="row justify-content-center">
             <div className="col-lg-4 col-sm-6 col-md-6">
               <div className="single-footer-widget">
-                <Link legacyBehavior href="/">
-                  <a className="d-inline-block logo">
-                    <img src="/images/white-logo.png" alt="logo" />
-                  </a>
+                <Link href="/" className="d-inline-block logo">
+                  <img src="/images/white-logo.png" alt="logo" />
                 </Link>
                 <p>
                   Donec sollicitudin molestie malesuada vivamus magna justo
@@ -34,34 +32,22 @@ const Footer = () => {
                 <h3>Solution</h3>
                 <ul className="services-links">
                   <li>
-                    <Link legacyBehavior href="/service-details">
-                      <a>Cyber Security</a>
-                    </Link>
+                    <Link href="/service-details">Cyber Security</Link>
                   </li>
                   <li>
-                    <Link legacyBehavior href="/service-details">
-                      <a>Enterprise Networks</a>
-                    </Link>
+                    <Link href="/service-details">Enterprise Networks</Link>
                   </li>
                   <li>
-                    <Link legacyBehavior href="/service-details">
-                      <a>Collaboration</a>
-                    </Link>
+                    <Link href="/service-details">Collaboration</Link>
                   </li>
                   <li>
-                    <Link legacyBehavior href="/service-details">
-                      <a>Website Security</a>
-                    </Link>
+                    <Link href="/service-details">Website Security</Link>
                   </li>
                   <li>
-                    <Link legacyBehavior href="/service-details">
-                      <a>Malware Attack</a>
-                    </Link>
+                    <Link href="/service-details">Malware Attack</Link>
                   </li>
                   <li>
-                    <Link legacyBehavior href="/service-details">
-                      <a>Phishing Attack</a>
-                    </Link>
+                    <Link href="/service-details">Phishing Attack</Link>
                   </li>
                 </ul>
               </div>
@@ -72,34 +58,22 @@ const Footer = () => {
                 <h3>Company</h3>
                 <ul className="quick-links">
                   <li>
-                    <Link legacyBehavior href="/">
-                      <a href="index.html">Home</a>
-                    </Link>
+                    <Link href="/">Home</Link>
                   </li>
                   <li>
-                    <Link legacyBehavior href="/about-us">
-                      <a>About Us</a>
-                    </Link>
+                    <Link href="/about-us">About Us</Link>
                   </li>
                   <li>
-                    <Link legacyBehavior href="/case-studies">
-                      <a>Case Studies</a>
-                    </Link>
+                    <Link href="/case-studies">Case Studies</Link>
                   </li>
                   <li>
-                    <Link legacyBehavior href="/blog">
-                      <a>Our News</a>
-                    </Link>
+                    <Link href="/blog">Our News</Link>
                   </li>
                   <li>
-                    <Link legacyBehavior href="/contact">
-                      <a>Contact Us</a>
-                    </Link>
+                    <Link href="/contact">Contact Us</Link>
                   </li>
                   <li>
-                    <Link legacyBehavior href="/pricing">
-                      <a>Pricing</a>
-                    </Link>
+                    <Link href="/pricing">Pricing</Link>
                   </li>
                 </ul>
               </div>
@@ -115,15 +89,15 @@ const Footer = () => {
                   </li>
                   <li>
                     <i className="ri-mail-line"></i> Email:{' '}
-                    <a href="mailto:hello@lofi.com">hello@lofi.com</a>
+                    <Link href="mailto:hello@lofi.com">hello@lofi.com</Link>
                   </li>
                   <li>
                     <i className="ri-phone-line"></i> Phone:{' '}
-                    <a href="tel:+44587154756">+44 587 154756</a>
+                    <Link href="tel:+44587154756">+44 587 154756</Link>
                   </li>
                   <li>
                     <i className="ri-headphone-line"></i> Fax:{' '}
-                    <a href="tel:+44587154756">+55 58715 4756</a>
+                    <Link href="tel:+44587154756">+55 58715 4756</Link>
                   </li>
                 </ul>
               </div>
@@ -135,15 +109,19 @@ const Footer = () => {
           <div className="container">
             <p>
               &copy; <strong>Lofi</strong> is Proudly Owned by{' '}
-              <a href="https://envytheme.com/" target="_blank" rel="noreferrer">
+              <Link
+                href="https://envytheme.com/"
+                target="_blank"
+                rel="noreferrer"
+              >
                 EnvyTheme
-              </a>
+              </Link>
             </p>
           </div>
         </div>
       </footer>
     </>
-  )
-}
+  );
+};
 
-export default Footer
+export default Footer;

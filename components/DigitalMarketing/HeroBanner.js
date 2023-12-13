@@ -1,5 +1,5 @@
-import React from 'react'
-import Link from 'next/link'
+import React from 'react';
+import Link from 'next/link';
 
 const HeroBanner = () => {
   return (
@@ -9,13 +9,9 @@ const HeroBanner = () => {
           <div className="banner-content">
             <span className="sub-title">AWARD WINNING COMPANY</span>
             <h1>Make Your Business More Money With Team Of Experts</h1>
-
-            <Link legacyBehavior href="/contact">
-              <a className="default-btn style-two">
-                <span className="ri-arrow-right-s-line"></span>Get Started Now
-              </a>
+            <Link href="/contact" className="default-btn style-two">
+              <span className="ri-arrow-right-s-line"></span>Get Started Now
             </Link>
-
             <div
               data-aos="fade-up"
               data-aos-duration="1200"
@@ -25,8 +21,6 @@ const HeroBanner = () => {
             </div>
           </div>
         </div>
-
-        {/* Shape Images */}
         <div className="shape1">
           <img src="/images/shape/shape1.png" alt="image" />
         </div>
@@ -44,7 +38,7 @@ const HeroBanner = () => {
         </div>
       </div>
     </>
-  )
-}
+  );
+};
 
-export default HeroBanner
+export default HeroBanner;

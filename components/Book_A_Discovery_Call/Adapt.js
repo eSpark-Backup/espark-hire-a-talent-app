@@ -1,5 +1,5 @@
-import Link from 'next/link';
 import React from 'react';
+import Link from 'next/link';
 
 const AdaptTab = ({ data }) => {
   const { cardHeading, image, listItem, text, link } = data;
@@ -37,10 +37,10 @@ const AdaptTab = ({ data }) => {
                     </div>
                   </div>
                 ))}
-                <Link legacyBehavior href={link}>
-                  <a className="default-btn style-two" target="_blank">
+                <Link href={link}>
+                  <span className="default-btn style-two" target="_blank">
                     {text}
-                  </a>
+                  </span>
                 </Link>
               </div>
             </div>
