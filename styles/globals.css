@@ -10749,13 +10749,13 @@ input::-webkit-inner-spin-button {
   background-repeat: no-repeat;
 }
 
-.partner-country-dropdown .default-select{
- color: #abb2d9;
+.partner-country-dropdown .default-select {
+  color: #abb2d9;
 }
 
-.partner-country-dropdown option{
-   font-weight: 400;
-   color: var(--blackColor);
+.partner-country-dropdown option {
+  font-weight: 400;
+  color: var(--blackColor);
 }
 
 .partner-form .custom-arrow {
@@ -10778,6 +10778,60 @@ input::-webkit-inner-spin-button {
   background-color: #fff;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   transition: opacity 0.3s ease-in-out;
+}
+
+.PhoneInput {
+  display: flex;
+}
+.PhoneInputCountry {
+  width: 20%;
+  display: flex;
+  gap: 3px;
+  /* padding-bottom: 20px; */
+}
+.PhoneInputCountrySelect {
+  padding: 10px;
+  width: 7%;
+  border: 0;
+  font-size: 0px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  appearance: none;
+  font-weight: 600;
+  background-image: url(/images/partners/arrow.svg);
+  background-position: right 0.2rem center;
+  background-repeat: no-repeat;
+  order: 2;
+  /* display: none; */
+}
+.PhoneInputCountrySelect option {
+  font-size: 14.448px;
+}
+.PhoneInputCountryIcon {
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+}
+.PhoneInputCountryIcon img {
+  width: 40px;
+  height: 40px;
+  /* order: 1 */
+}
+
+.PhoneInputInput {
+  padding-left: 9px;
+  border-radius: 5.418px;
+  padding-left: 10px;
+  border: 0.903px solid #d0d4ea;
+  background: #fff;
+  height: 41.539px;
+  width: 100%;
+}
+
+.PhoneInputCountryIconImg {
+  width: 40px;
 }
 
 .partner-form .custom-dropdown.open .dropdown-options {
@@ -10840,7 +10894,7 @@ input::-webkit-inner-spin-button {
   z-index: 2;
 }
 
-.dropdown-header-title{
+.dropdown-header-title {
   width: 55px;
 }
 .partner-form .custom-dropdown-flag .opt {
@@ -10854,10 +10908,10 @@ input::-webkit-inner-spin-button {
   -ms-overflow-style: none;
 }
 
-.partner-form-country-code{
- padding-left: 10px;
- padding-right: 12px;
- text-wrap: nowrap;
+.partner-form-country-code {
+  padding-left: 10px;
+  padding-right: 12px;
+  text-wrap: nowrap;
 }
 
 .input-box-phone-number {
@@ -10964,7 +11018,7 @@ partners-header class CSS
 /*================================================
 partners modal CSS
 =================================================*/
-.partner-modal-wrapper{
+.partner-modal-wrapper {
   position: fixed;
   transition: var(--transition);
   top: 0;
@@ -10976,23 +11030,22 @@ partners modal CSS
   width: 100%;
   height: 100vh;
 }
-.partner-modal-container{
+.partner-modal-container {
   background-color: #fff;
   border-radius: 8px;
   position: fixed;
   margin: auto;
   z-index: 3;
   top: 35%;
-  left:10%;
+  left: 10%;
   right: 10%;
   width: 358px;
   height: auto;
 }
-.partner-modal-content{
+.partner-modal-content {
   padding: 45px 20px;
   text-align: center;
   position: relative;
-  
 }
 .partner-modal-content h2 {
   color: var(--blackColor);
@@ -11003,7 +11056,7 @@ partners modal CSS
   /* line-height: 71.266px;  */
   padding-top: 7px;
 }
-.partner-modal-logo{
+.partner-modal-logo {
   position: absolute;
   top: -40px;
   left: 0;
@@ -11011,13 +11064,13 @@ partners modal CSS
   width: 90px;
   height: 90px;
   margin: auto;
-  background-color:#fff;
+  background-color: #fff;
   display: flex;
   align-items: center;
   justify-content: center;
   border-radius: 100%;
 }
-.partner-modal-logo-box{
+.partner-modal-logo-box {
   background-color: var(--buttonColor);
   border-radius: 50%;
   padding: 8px;
@@ -11027,8 +11080,7 @@ partners modal CSS
   align-items: center;
   justify-content: center;
 }
-.partner-modal-content  
-a {
+.partner-modal-content a {
   padding: 10px 80px;
   border: 0;
   border-radius: 15.25px;

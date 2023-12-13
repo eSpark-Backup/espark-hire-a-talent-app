@@ -9,10 +9,6 @@ const PartnerCountrySelect = ({
 }) => {
   const handleSelectChange = (event) => {
     setSelectedOption(event.target.value);
-    const pakistanFlag = CountryCode?.filter(
-      (item) => item?.name === event.target.value
-    )[0].image;
-    setSelectedFlag(pakistanFlag);
   };
 
   return (
