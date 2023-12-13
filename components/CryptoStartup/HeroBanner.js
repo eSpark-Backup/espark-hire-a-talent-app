@@ -1,5 +1,5 @@
-import React from 'react'
-import Link from 'next/link'
+import React from "react";
+import Link from "next/link";
 
 const HeroBanner = () => {
   return (
@@ -23,17 +23,14 @@ const HeroBanner = () => {
 
                 <ul className="banner-btn-list">
                   <li>
-                    <Link legacyBehavior href="/contact">
-                      <a className="default-btn style-two">
-                        <span className="ri-arrow-right-s-line"></span>Learn
-                        More
-                      </a>
+                    <Link href="/contact" className="default-btn style-two">
+                      <span className="ri-arrow-right-s-line"></span>Learn More
                     </Link>
                   </li>
                   <li>
-                    <a href="#" className="white-paper-btn">
+                    <Link href="#" className="white-paper-btn">
                       White Paper
-                    </a>
+                    </Link>
                   </li>
                 </ul>
 
@@ -41,40 +38,40 @@ const HeroBanner = () => {
                   <span>Join Our Community</span>
                   <ul>
                     <li>
-                      <a
+                      <Link
                         href="https://www.facebook.com/"
                         target="_blank"
                         rel="noreferrer"
                       >
                         <i className="ri-facebook-fill"></i>
-                      </a>
+                      </Link>
                     </li>
                     <li>
-                      <a
+                      <Link
                         href="https://www.twitter.com/"
                         target="_blank"
                         rel="noreferrer"
                       >
                         <i className="ri-twitter-fill"></i>
-                      </a>
+                      </Link>
                     </li>
                     <li>
-                      <a
+                      <Link
                         href="https://www.linkedin.com/"
                         target="_blank"
                         rel="noreferrer"
                       >
                         <i className="ri-linkedin-fill"></i>
-                      </a>
+                      </Link>
                     </li>
                     <li>
-                      <a
+                      <Link
                         href="https://www.instagram.com/"
                         target="_blank"
                         rel="noreferrer"
                       >
                         <i className="ri-instagram-line"></i>
-                      </a>
+                      </Link>
                     </li>
                   </ul>
                 </div>
@@ -98,26 +95,17 @@ const HeroBanner = () => {
         </div>
 
         <div className="cryptocurrency-banner-shape-1">
-          <img
-            src="/images/crypto-startup/banner/shape-1.png"
-            alt="image"
-          />
+          <img src="/images/crypto-startup/banner/shape-1.png" alt="image" />
         </div>
         <div className="cryptocurrency-banner-shape-2">
-          <img
-            src="/images/crypto-startup/banner/shape-2.png"
-            alt="image"
-          />
+          <img src="/images/crypto-startup/banner/shape-2.png" alt="image" />
         </div>
         <div className="cryptocurrency-banner-shape-3">
-          <img
-            src="/images/crypto-startup/banner/shape-3.png"
-            alt="image"
-          />
+          <img src="/images/crypto-startup/banner/shape-3.png" alt="image" />
         </div>
       </div>
     </>
-  )
-}
+  );
+};
 
-export default HeroBanner
+export default HeroBanner;
