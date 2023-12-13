@@ -1,9 +1,10 @@
-import React, { useState } from 'react'
-import axios from 'axios'
-import Swal from 'sweetalert2'
-import withReactContent from 'sweetalert2-react-content'
-const MySwal = withReactContent(Swal)
-import baseUrl from '@/utils/baseUrl'
+import React, { useState } from 'react';
+import Link from 'next/link';
+import axios from 'axios';
+import Swal from 'sweetalert2';
+import withReactContent from 'sweetalert2-react-content';
+const MySwal = withReactContent(Swal);
+import baseUrl from '@/utils/baseUrl';
 
 const alertContent = () => {
   MySwal.fire({
@@ -13,8 +14,8 @@ const alertContent = () => {
     timer: 2000,
     timerProgressBar: true,
     showConfirmButton: false,
-  })
-}
+  });
+};
 
 // Form initial state
 const INITIAL_STATE = {
@@ -23,30 +24,29 @@ const INITIAL_STATE = {
   number: '',
   subject: '',
   text: '',
-}
+};
 
 const ContactUs = () => {
-  const [contact, setContact] = useState(INITIAL_STATE)
+  const [contact, setContact] = useState(INITIAL_STATE);
   const handleChange = (e) => {
-    const { name, value } = e.target
-    setContact((prevState) => ({ ...prevState, [name]: value }))
-    // console.log(contact)
-  }
+    const { name, value } = e.target;
+    setContact((prevState) => ({ ...prevState, [name]: value }));
+  };
 
   const handleSubmit = async (e) => {
-    e.preventDefault()
+    e.preventDefault();
     try {
-      const url = `${baseUrl}/api/contact`
-      const { name, email, number, subject, text } = contact
-      const payload = { name, email, number, subject, text }
-      const response = await axios.post(url, payload)
-      console.log(response)
-      setContact(INITIAL_STATE)
-      alertContent()
+      const url = `${baseUrl}/api/contact`;
+      const { name, email, number, subject, text } = contact;
+      const payload = { name, email, number, subject, text };
+      const response = await axios.post(url, payload);
+      console.log(response);
+      setContact(INITIAL_STATE);
+      alertContent();
     } catch (error) {
-      console.log(error)
+      console.log(error);
     }
-  }
+  };
 
   return (
     <>
@@ -88,7 +88,7 @@ const ContactUs = () => {
                         </div>
                       </div>
                     </div>
- 
+
                     <div className="form-group">
                       <input
                         type="text"
@@ -125,7 +125,7 @@ const ContactUs = () => {
                         required
                       ></textarea>
                     </div>
-                    
+
                     <div className="contact-us-btn">
                       <button type="submit" className="default-btn style-two">
                         <span className="ri-arrow-right-s-line"></span>Send
@@ -147,13 +147,13 @@ const ContactUs = () => {
                     </li>
                     <li>
                       <i className="ri-phone-line"></i>
-                      <a href="tel:+44587154756">+44 587 154756</a>
-                      <a href="tel:+55587154756">+55 58715 4756</a>
+                      <Link href="tel:+44587154756">+44 587 154756</Link>
+                      <Link href="tel:+55587154756">+55 58715 4756</Link>
                     </li>
                     <li>
                       <i className="ri-mail-line"></i>
-                      <a href="mailto:hello@lofi.com">hello@lofi.com</a>
-                      <a href="mailto:lofi@info.com">lofi@info.com</a>
+                      <Link href="mailto:hello@lofi.com">hello@lofi.com</Link>
+                      <Link href="mailto:lofi@info.com">lofi@info.com</Link>
                     </li>
                     <li>
                       <i className="ri-time-line"></i>
@@ -174,7 +174,7 @@ const ContactUs = () => {
         </div>
       </div>
     </>
-  )
-}
+  );
+};
 
-export default ContactUs
+export default ContactUs;

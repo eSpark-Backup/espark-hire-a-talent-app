@@ -51,7 +51,7 @@ const PartnerForm = () => {
     linkedin_profile_link: Yup.string()
       .required('LinkedIn Profile is required')
       .matches(
-        /^(https?:\/\/)?(www\.)?(linkedin\.com\/[a-zA-Z0-9-]+\/?|linkedin\.com\/company\/[a-zA-Z0-9-]+\/?)$/,
+        /((https?:\/\/)?((www|\w\w)\.)?linkedin\.com\/)((([\w]{2,3})?)|([^\/]+\/(([\w|\d-&#?=])+\/?){1,}))$/,
         'Invalid LinkedIn Profile URL: Must be a valid URL and contain "linkedin.com"'
       ),
     phone_number: Yup.string()
@@ -227,7 +227,7 @@ const PartnerForm = () => {
               className="input"
               name="linkedin_profile_link"
               value={values?.linkedin_profile_link}
-              placeholder="www.linkedin.com"
+              placeholder="linkedin.com"
               onChange={handleChange}
             />
             {touched?.linkedin_profile_link &&
