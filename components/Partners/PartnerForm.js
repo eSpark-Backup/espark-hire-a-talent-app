@@ -13,6 +13,12 @@ import {} from 'react-phone-number-input';
 import PhoneInput from 'react-phone-number-input';
 import { isValidPhoneNumber } from 'react-phone-number-input';
 
+import { configDotenv } from 'dotenv';
+
+const userid = process.env.NEXT_PUBLIC_PARTNERS_EMAILJS_USER_ID;
+const templeteid = process.env.NEXT_PUBLIC_PARTNERS_EMAILJS_TEMPLATE_ID;
+const serviceid = process.env.NEXT_PUBLIC_PARTNERS_EMAILJS_SERVICE_ID;
+
 const PartnerForm = () => {
   const [selectedOption, setSelectedOption] = React.useState('');
   const [showModal, setShowModal] = React.useState(false);
@@ -28,7 +34,7 @@ const PartnerForm = () => {
     linkedin_profile_link: '',
   };
 
-  emailjs.init('hyXwjEdPoM5uV-RK8');
+  emailjs.init(userid);
 
   const options = CountryCode?.map((opt) => opt?.name);
 
@@ -78,18 +84,14 @@ const PartnerForm = () => {
       try {
         values.country = selectedOption;
 
-        const emailResult = await emailjs.send(
-          'service_ac1wtgmmm',
-          'template_6y49v0k',
-          {
-            first_name: values.first_name,
-            last_name: values.last_name,
-            email: values.email,
-            phone_number: values.phone_number,
-            country: values.country,
-            linkedin_profile_link: values.linkedin_profile_link,
-          }
-        );
+        const emailResult = await emailjs.send(serviceid, templeteid, {
+          first_name: values.first_name,
+          last_name: values.last_name,
+          email: values.email,
+          phone_number: values.phone_number,
+          country: values.country,
+          linkedin_profile_link: values.linkedin_profile_link,
+        });
 
         if (emailResult.status === 200) {
           action.resetForm();
