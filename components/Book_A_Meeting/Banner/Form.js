@@ -393,8 +393,9 @@ const Form = ({ companySize }) => {
                 onClick={(e) => updateNumber(e.target.value)}
               >
                 <option className="default-select">Please Select</option>
-                {countries?.map((country) => (
+                {countries?.map((country, index) => (
                   <option
+                    key={index}
                     value={country.option}
                     onClick={(e) => console.log(e)}
                   >
@@ -424,14 +425,8 @@ const Form = ({ companySize }) => {
               We respect your data. By submitting this form, you agree that we
               will contact you in relation to our products and services, in
               accordance with our{" "}
-              <Link legacyBehavior href="/privacy-policy">
-                Privacy Policy
-              </Link>{" "}
-              and{" "}
-              <Link legacyBehavior href="/terms-conditions">
-                Terms of Service
-              </Link>
-              .
+              <Link href="/privacy-policy">Privacy Policy</Link> and{" "}
+              <Link href="/terms-conditions">Terms of Service</Link>.
             </p>
           </div>
 

@@ -197,11 +197,7 @@
         ],
         "emoji": "🇦🇷",
         "image": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/AR.svg",
-        "phoneLength": [
-            6,
-            7,
-            8
-        ]
+        "phoneLength": 8
     },
     {
         "option": "Armenia",
@@ -284,10 +280,7 @@
         ],
         "emoji": "🇦🇹",
         "image": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/AT.svg",
-        "phoneLength": [
-            10,
-            11
-        ]
+        "phoneLength": 10
     },
     {
         "option": "Azerbaijan",
@@ -2066,10 +2059,7 @@
         ],
         "emoji": "🇯🇴",
         "image": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/JO.svg",
-        "phoneLength": [
-            8,
-            9
-        ]
+        "phoneLength": 7
     },
     {
         "option": "Kazakhstan",
@@ -2149,12 +2139,7 @@
         ],
         "emoji": "🇰🇵",
         "image": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/KP.svg",
-        "phoneLength": [
-            4,
-            6,
-            7,
-            13
-        ]
+        "phoneLength": 7
     },
     {
         "option": "Korea, Republic of",
@@ -2172,10 +2157,7 @@
         ],
         "emoji": "🇰🇷",
         "image": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/KR.svg",
-        "phoneLength": [
-            7,
-            8
-        ]
+        "phoneLength": 9
     },
     {
         "option": "Kuwait",
@@ -2229,10 +2211,7 @@
         ],
         "emoji": "🇱🇦",
         "image": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/LA.svg",
-        "phoneLength": [
-            8,
-            9
-        ]
+        "phoneLength": 6
     },
     {
         "option": "Latvia",
@@ -2268,10 +2247,7 @@
         ],
         "emoji": "🇱🇧",
         "image": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/LB.svg",
-        "phoneLength": [
-            7,
-            8
-        ]
+        "phoneLength": 8
     },
     {
         "option": "Lesotho",
@@ -2307,10 +2283,7 @@
         ],
         "emoji": "🇱🇷",
         "image": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/LR.svg",
-        "phoneLength": [
-            8,
-            9
-        ]
+        "phoneLength": 8
     },
     {
         "option": "Libya",
@@ -2454,11 +2427,7 @@
         ],
         "emoji": "🇲🇼",
         "image": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/MW.svg",
-        "phoneLength": [
-            7,
-            8,
-            9
-        ]
+        "phoneLength": 9
     },
     {
         "option": "Malaysia",
@@ -2926,10 +2895,7 @@
         ],
         "emoji": "🇳🇿",
         "image": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/NZ.svg",
-        "phoneLength": [
-            8,
-            9
-        ]
+        "phoneLength": 8
     },
     {
         "option": "Nicaragua",
@@ -3553,11 +3519,7 @@
         ],
         "emoji": "🇼🇸",
         "image": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/WS.svg",
-        "phoneLength": [
-            5,
-            6,
-            7
-        ]
+        "phoneLength": 7
     },
     {
         "option": "San Marino",
@@ -3791,10 +3753,7 @@
         ],
         "emoji": "🇸🇴",
         "image": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/SO.svg",
-        "phoneLength": [
-            8,
-            9
-        ]
+        "phoneLength": 8
     },
     {
         "option": "South Africa",
@@ -3922,10 +3881,7 @@
         ],
         "emoji": "🇸🇷",
         "image": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/SR.svg",
-        "phoneLength": [
-            6,
-            7
-        ]
+        "phoneLength": 7
     },
     {
         "option": "Svalbard and Jan Mayen",
