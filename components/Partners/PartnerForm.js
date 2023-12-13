@@ -229,7 +229,7 @@ const PartnerForm = () => {
               className="input"
               name="linkedin_profile_link"
               value={values?.linkedin_profile_link}
-              placeholder="linkedin.com"
+              placeholder="Enter your LinkedIn profile URL"
               onChange={handleChange}
             />
             {touched?.linkedin_profile_link &&
