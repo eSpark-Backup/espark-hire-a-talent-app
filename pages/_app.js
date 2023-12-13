@@ -43,7 +43,7 @@ function MyApp({ Component, pageProps }) {
           <Footer />
           <ScrollToTop />
         </>
-      ) : pathname === "/partners" ? (
+      ) : pathname === "/partners" || pathname === "/book-a-meeting" ? (
         <React.Fragment>
           <PartnerHeader />
           <Component {...pageProps} />
