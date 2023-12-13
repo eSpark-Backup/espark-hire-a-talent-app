@@ -1,8 +1,8 @@
-import React from 'react';
-import Link from 'next/link';
-import { Swiper, SwiperSlide } from 'swiper/react';
-import { Pagination } from 'swiper';
-import { Autoplay } from 'swiper';
+import React from "react";
+import Link from "next/link";
+import { Swiper, SwiperSlide } from "swiper/react";
+import { Pagination } from "swiper";
+import { Autoplay } from "swiper";
 
 const OurServices = () => {
   return (

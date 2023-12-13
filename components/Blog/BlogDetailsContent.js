@@ -1,7 +1,7 @@
-import React from 'react';
-import Link from 'next/link';
+import React from "react";
+import Link from "next/link";
 
-import { socialLinks } from 'constants/constants';
+import { socialLinks } from "constants/constants";
 
 const BlogDetailsContent = ({ data }) => {
   return (
@@ -51,8 +51,8 @@ const BlogDetailsContent = ({ data }) => {
                         <img
                           src={item?.src}
                           className={item?.className}
-                          width={'90%'}
-                          height={'90%'}
+                          width={"90%"}
+                          height={"90%"}
                           alt="social-icons"
                         />
                       </Link>
