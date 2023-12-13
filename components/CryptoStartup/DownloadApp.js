@@ -1,4 +1,5 @@
-import React from 'react'
+import React from 'react';
+import Link from 'next/link';
 
 const DownloadApp = () => {
   return (
@@ -16,20 +17,28 @@ const DownloadApp = () => {
 
                   <ul className="app-list">
                     <li>
-                      <a href="https://play.google.com/store/apps" target="_blank" rel="noreferrer">
+                      <Link
+                        href="https://play.google.com/store/apps"
+                        target="_blank"
+                        rel="noreferrer"
+                      >
                         <img
                           src="/images/crypto-startup/download-app/app-1.png"
                           alt="image"
                         />
-                      </a>
+                      </Link>
                     </li>
                     <li>
-                      <a href="https://www.apple.com/app-store/" target="_blank" rel="noreferrer"> 
+                      <Link
+                        href="https://www.apple.com/app-store/"
+                        target="_blank"
+                        rel="noreferrer"
+                      >
                         <img
                           src="/images/crypto-startup/download-app/app-2.png"
                           alt="image"
                         />
-                      </a>
+                      </Link>
                     </li>
                   </ul>
                 </div>
@@ -48,7 +57,7 @@ const DownloadApp = () => {
         </div>
       </div>
     </>
-  )
-}
+  );
+};
 
-export default DownloadApp
+export default DownloadApp;

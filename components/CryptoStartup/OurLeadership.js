@@ -1,4 +1,4 @@
-import React from 'react'
+import React from 'react';
 
 const OurLeadership = () => {
   return (
@@ -25,31 +25,31 @@ const OurLeadership = () => {
 
                     <ul>
                       <li>
-                        <a
+                        <Link
                           href="https://www.facebook.com/"
                           target="_blank"
                           rel="noreferrer"
                         >
                           <i className="ri-facebook-line"></i>
-                        </a>
+                        </Link>
                       </li>
                       <li>
-                        <a
+                        <Link
                           href="https://twitter.com/"
                           target="_blank"
                           rel="noreferrer"
                         >
                           <i className="ri-twitter-fill"></i>
-                        </a>
+                        </Link>
                       </li>
                       <li>
-                        <a
+                        <Link
                           href="https://www.instagram.com/"
                           target="_blank"
                           rel="noreferrer"
                         >
                           <i className="ri-instagram-fill"></i>
-                        </a>
+                        </Link>
                       </li>
                     </ul>
                   </div>
@@ -76,31 +76,31 @@ const OurLeadership = () => {
 
                     <ul>
                       <li>
-                        <a
+                        <Link
                           href="https://www.facebook.com/"
                           target="_blank"
                           rel="noreferrer"
                         >
                           <i className="ri-facebook-line"></i>
-                        </a>
+                        </Link>
                       </li>
                       <li>
-                        <a
+                        <Link
                           href="https://twitter.com/"
                           target="_blank"
                           rel="noreferrer"
                         >
                           <i className="ri-twitter-fill"></i>
-                        </a>
+                        </Link>
                       </li>
                       <li>
-                        <a
+                        <Link
                           href="https://www.instagram.com/"
                           target="_blank"
                           rel="noreferrer"
                         >
                           <i className="ri-instagram-fill"></i>
-                        </a>
+                        </Link>
                       </li>
                     </ul>
                   </div>
@@ -127,31 +127,31 @@ const OurLeadership = () => {
 
                     <ul>
                       <li>
-                        <a
+                        <Link
                           href="https://www.facebook.com/"
                           target="_blank"
                           rel="noreferrer"
                         >
                           <i className="ri-facebook-line"></i>
-                        </a>
+                        </Link>
                       </li>
                       <li>
-                        <a
+                        <Link
                           href="https://twitter.com/"
                           target="_blank"
                           rel="noreferrer"
                         >
                           <i className="ri-twitter-fill"></i>
-                        </a>
+                        </Link>
                       </li>
                       <li>
-                        <a
+                        <Link
                           href="https://www.instagram.com/"
                           target="_blank"
                           rel="noreferrer"
                         >
                           <i className="ri-instagram-fill"></i>
-                        </a>
+                        </Link>
                       </li>
                     </ul>
                   </div>
@@ -166,7 +166,7 @@ const OurLeadership = () => {
         </div>
       </div>
     </>
-  )
-}
+  );
+};
 
-export default OurLeadership
+export default OurLeadership;
