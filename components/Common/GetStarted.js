@@ -1,5 +1,6 @@
-import React from "react";
-import Link from "next/link";
+import React from 'react';
+import Link from 'next/link';
+import Image from 'next/image';
 
 const GetStarted = (props) => {
   const { title, paragraph, text } = props;
@@ -15,10 +16,12 @@ const GetStarted = (props) => {
                 data-aos-duration="1200"
                 data-aos-once="true"
               >
-                <img
+                <Image
                   src="/images/06.png"
                   alt="Outsourced Employee - Staff Outsourcing Solutions - Outsourced Staff - Global Employment Outsourcing - Employment Outsourcing Services – eSpark Talent"
                   className="pt-5"
+                  width={344}
+                  height={503}
                 />
               </div>
             </div>

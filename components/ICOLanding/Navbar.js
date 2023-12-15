@@ -1,5 +1,6 @@
-import React from "react";
-import Link from "next/link";
+import React from 'react';
+import Link from 'next/link';
+import Image from 'next/image';
 
 const Navbar = () => {
   const [menu, setMenu] = React.useState(true);
@@ -33,7 +34,12 @@ const Navbar = () => {
         <nav className="navbar navbar-expand-md navbar-light">
           <div className="container-fluid">
             <Link href="/" className="navbar-brand">
-              <img src="/images/white-logo.png" alt="Site logo" />
+              <Image
+                src="/images/white-logo.png"
+                alt="Site logo"
+                width={1056}
+                height={503}
+              />
             </Link>
 
             <button
