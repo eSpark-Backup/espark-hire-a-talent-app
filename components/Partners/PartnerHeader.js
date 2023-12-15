@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import Link from '@/utils/ActiveLink';
+import Link from 'next/link';
 import Head from 'next/head';
 import { seoContent } from 'constants/SEOConstant';
 import { useRouter } from 'next/router';
@@ -175,7 +175,6 @@ const PartnerHeader = () => {
                   <li className="nav-item">
                     <Link
                       href="/what-we-do"
-                      activeClassName="active"
                       className={`nav-link partners-header-text`}
                       onClick={() => handleNavItemClick('what we do')}
                     >
@@ -186,7 +185,6 @@ const PartnerHeader = () => {
                   <li className="nav-item">
                     <Link
                       href="/how-it-works"
-                      activeClassName="active"
                       className={`nav-link partners-header-text`}
                       onClick={() => handleNavItemClick('How it works')}
                     >
@@ -197,7 +195,6 @@ const PartnerHeader = () => {
                   <li className="nav-item">
                     <Link
                       href="/blogs"
-                      activeClassName="active"
                       className={`nav-link partners-header-text`}
                       onClick={() => handleNavItemClick('Blog')}
                     >
@@ -208,7 +205,6 @@ const PartnerHeader = () => {
                   <li className="nav-item">
                     <Link
                       href="/careers"
-                      activeClassName="active"
                       className={`nav-link partners-header-text`}
                       onClick={() => handleNavItemClick('Career')}
                     >
@@ -219,7 +215,7 @@ const PartnerHeader = () => {
                   <li className="nav-item">
                     <Link
                       href="https://form.jotform.com/232503890925459"
-                      // activeClassName="active"
+                      // ClassName="active"
                       target="_blank"
                       className={`nav-link partners-header-text`}
                       onClick={() => handleNavItemClick('Apply as a Developer')}
@@ -231,7 +227,6 @@ const PartnerHeader = () => {
                   <li className="nabar-buttons">
                     <Link
                       href="https://calendly.com/esparktalents/60min?month=2023-09"
-                      activeClassName="active"
                       target="_blank"
                       className={`default-btn style-two ${
                         selectedNavItem === 'Hire a Talent' ? 'active' : ''

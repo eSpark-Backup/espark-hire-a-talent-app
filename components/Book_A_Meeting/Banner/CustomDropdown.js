@@ -23,7 +23,7 @@ const CustomDropdown = (props) => {
 
   const handleDocumentClick = useCallback(
     (e) => {
-      if (dropdownRef.current && !dropdownRef.current.contains(e.target)) {
+      if (dropdownRef?.current && !dropdownRef?.current.contains(e.target)) {
         setIsOpen(false);
       }
     },
@@ -48,7 +48,7 @@ const CustomDropdown = (props) => {
       ref={dropdownRef}
     >
       <div
-        className={`dropdown-header ${inter.className} ${
+        className={`dropdown-header ${inter?.className} ${
           value !== 'Please Select' && value !== '' ? 'dark-value' : ''
         }`}
         onClick={toggleDropdown}
@@ -75,35 +75,35 @@ const CustomDropdown = (props) => {
       <div className={`dropdown-options ${error ? 'error-options' : ''}`}>
         {isOpen && (
           <div className="options-container">
-            <div className={`single-option ${inter.className} disabled-opt`}>
+            <div className={`single-option ${inter?.className} disabled-opt`}>
               Please Select
             </div>
             {data.map((opt) =>
               country ? (
                 <div
-                  key={opt.id}
-                  className={`countries-options single-option ${inter.className}`}
+                  key={opt?.id}
+                  className={`countries-options single-option ${inter?.className}`}
                   onClick={() => {
-                    setCountry(opt.option);
-                    setFlag(opt.image);
+                    setCountry(opt?.option);
+                    setFlag(opt?.image);
                     setIsOpen(false);
                   }}
                 >
-                  <div className="country-name">{opt.option}</div>
+                  <div className="country-name">{opt?.option}</div>
                   <div className="country-flag">
-                    <img src={opt.image} alt="flag" />
+                    <img src={opt?.image} alt="flag" />
                   </div>
                 </div>
               ) : (
                 <div
-                  key={opt.id}
-                  className={`single-option ${inter.className}`}
+                  key={opt?.id}
+                  className={`single-option ${inter?.className}`}
                   onClick={() => {
-                    setCompany(opt.option);
+                    setCompany(opt?.option);
                     setIsOpen(false);
                   }}
                 >
-                  {opt.option}
+                  {opt?.option}
                 </div>
               )
             )}
