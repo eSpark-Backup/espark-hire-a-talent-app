@@ -10664,6 +10664,10 @@ CV CSS
   margin-bottom: 11px;
 }
 
+.cv-feedback-area .progress-info{
+  display: block;
+}
+
 .divider {
   display: flex;
 }
