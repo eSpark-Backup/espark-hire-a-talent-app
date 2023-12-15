@@ -1,4 +1,5 @@
 import React from 'react';
+import Image from 'next/image';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Autoplay } from 'swiper';
 
@@ -41,7 +42,9 @@ const PartnerSlider = ({ heading }) => {
           >
             <SwiperSlide>
               <div className="partner-item">
-                <img
+                <Image
+                  height={35}
+                  width={175}
                   src="/images/partner/new-partner-1.jpg"
                   alt="HR consultant - human resource planning - HR service - HR solutions - HR recruitment - HR outsourcing – eSpark talent"
                 />
@@ -50,7 +53,9 @@ const PartnerSlider = ({ heading }) => {
 
             <SwiperSlide>
               <div className="partner-item">
-                <img
+                <Image
+                  height={35}
+                  width={175}
                   src="/images/partner/new-partner-2.jpg"
                   alt="HR consultant - human resource planning - HR service - HR solutions - HR recruitment - HR outsourcing – eSpark talent"
                 />
@@ -59,7 +64,9 @@ const PartnerSlider = ({ heading }) => {
 
             <SwiperSlide>
               <div className="partner-item">
-                <img
+                <Image
+                  height={35}
+                  width={175}
                   src="/images/partner/new-partner-3.jpg"
                   alt="HR consultant - human resource planning - HR service - HR solutions - HR recruitment - HR outsourcing – eSpark talent"
                 />
@@ -68,7 +75,9 @@ const PartnerSlider = ({ heading }) => {
 
             <SwiperSlide>
               <div className="partner-item">
-                <img
+                <Image
+                  height={35}
+                  width={175}
                   src="/images/partner/new-partner-4.jpg"
                   alt="HR consultant - human resource planning - HR service - HR solutions - HR recruitment - HR outsourcing – eSpark talent"
                 />
@@ -77,7 +86,9 @@ const PartnerSlider = ({ heading }) => {
 
             <SwiperSlide>
               <div className="partner-item">
-                <img
+                <Image
+                  height={35}
+                  width={175}
                   src="/images/partner/new-partner-5.jpg"
                   alt="HR consultant - human resource planning - HR service - HR solutions - HR recruitment - HR outsourcing – eSpark talent"
                 />
@@ -86,7 +97,9 @@ const PartnerSlider = ({ heading }) => {
 
             <SwiperSlide>
               <div className="partner-item">
-                <img
+                <Image
+                  height={35}
+                  width={175}
                   src="/images/partner/new-partner-6.jpg"
                   alt="HR consultant - human resource planning - HR service - HR solutions - HR recruitment - HR outsourcing – eSpark talent"
                 />

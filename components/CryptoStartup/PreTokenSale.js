@@ -1,5 +1,6 @@
 import React from 'react';
 import Link from 'next/link';
+import Image from 'next/image';
 
 const PreTokenSale = () => {
   const [days, setDays] = React.useState('');
@@ -113,9 +114,11 @@ const PreTokenSale = () => {
                 </ul>
 
                 <div className="pre-token-sale-ends-shape">
-                  <img
+                  <Image
                     src="/images/crypto-startup/pre-token-sale-ends/shape.png"
                     alt="image"
+                    width={80}
+                    height={118}
                   />
                 </div>
               </div>
@@ -128,9 +131,11 @@ const PreTokenSale = () => {
                 data-aos-duration="1200"
                 data-aos-once="true"
               >
-                <img
+                <Image
                   src="/images/crypto-startup/pre-token-sale-ends/pre-token-sale-ends.png"
                   alt="image"
+                  width={709}
+                  height={560}
                 />
               </div>
             </div>
