@@ -13,8 +13,6 @@ import {} from 'react-phone-number-input';
 import PhoneInput from 'react-phone-number-input';
 import { isValidPhoneNumber } from 'react-phone-number-input';
 
-import { configDotenv } from 'dotenv';
-
 const userid = process.env.NEXT_PUBLIC_PARTNERS_EMAILJS_USER_ID;
 const templeteid = process.env.NEXT_PUBLIC_PARTNERS_EMAILJS_TEMPLATE_ID;
 const serviceid = process.env.NEXT_PUBLIC_PARTNERS_EMAILJS_SERVICE_ID;
@@ -107,6 +105,7 @@ const PartnerForm = () => {
         }
       } catch (error) {
         action.resetForm();
+        values.phone_number = '';
         setTimeout(() => {
           setShowModal(!showModal);
           setModalTitle('Unfortunately, your data could not be submitted');
@@ -124,7 +123,6 @@ const PartnerForm = () => {
   });
 
   const handlePhoneChange = (event) => {
-    console.log(event, 'eventss');
     setFieldValue((values.phone_number = event));
   };
 

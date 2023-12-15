@@ -19,8 +19,12 @@ function urlFor(source) {
 export default function CV({ candidates }) {
   return (
     <div className="container cv-main-area">
-      <div className="row">
-        {candidates.map((candidate, index) => (
+      <div
+        className={`row ${
+          candidates?.length <= 2 ? 'justify-content-center' : ''
+        }`}
+      >
+        {candidates?.map((candidate, index) => (
           <div className="col-lg-4 col-md-6 col-sm-12 col" key={index}>
             <GridView candidate={candidate} />
           </div>
@@ -58,8 +62,7 @@ const GridView = ({ candidate }) => {
         </div>
 
         <div className="text-center mb-3">
-          {/* Add your functionality here */}
-          <Link href={`/cvs/${candidate._id}`}>
+          <Link href={`/cvs/${candidate._id}`} target="blank">
             <button className="cv-view-more">View More</button>
           </Link>
         </div>
