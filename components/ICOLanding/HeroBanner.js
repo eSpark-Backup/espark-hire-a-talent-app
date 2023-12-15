@@ -1,5 +1,6 @@
 import React from 'react';
 import Link from 'next/link';
+import Image from 'next/image';
 
 const HeroBanner = () => {
   const [days, setDays] = React.useState('');
@@ -125,9 +126,11 @@ const HeroBanner = () => {
                 data-aos-duration="1200"
                 data-aos-once="true"
               >
-                <img
+                <Image
                   src="/images/ico-landing-home/banner/banner.png"
                   alt="image"
+                  width={475}
+                  height={800}
                 />
               </div>
             </div>

@@ -1,5 +1,6 @@
 import React from 'react';
 import Link from 'next/link';
+import Image from 'next/image';
 
 const InvestorsPartners = () => {
   return (
@@ -14,51 +15,63 @@ const InvestorsPartners = () => {
             <div className="row justify-content-center align-items-center">
               <div className="col-lg-2 col-6 col-sm-3 col-md-3">
                 <div className="partner-card">
-                  <img
+                  <Image
                     src="/images/cybersecurity-services/partner/partner-13.png"
                     alt="image"
+                    height={90}
+                    width={50}
                   />
                 </div>
               </div>
               <div className="col-lg-2 col-6 col-sm-3 col-md-3">
                 <div className="partner-card">
-                  <img
+                  <Image
                     src="/images/cybersecurity-services/partner/partner-14.png"
                     alt="image"
+                    height={90}
+                    width={50}
                   />
                 </div>
               </div>
               <div className="col-lg-2 col-6 col-sm-3 col-md-3">
                 <div className="partner-card">
-                  <img
+                  <Image
                     src="/images/cybersecurity-services/partner/partner-15.png"
                     alt="image"
+                    height={90}
+                    width={50}
                   />
                 </div>
               </div>
               <div className="col-lg-2 col-6 col-sm-3 col-md-3">
                 <div className="partner-card">
                   <Link href="#" className="d-block">
-                    <img
+                    <Image
                       src="/images/cybersecurity-services/partner/partner-16.png"
                       alt="image"
+                      height={90}
+                      width={50}
                     />
                   </Link>
                 </div>
               </div>
               <div className="col-lg-2 col-6 col-sm-3 col-md-3">
                 <div className="partner-card">
-                  <img
+                  <Image
                     src="/images/cybersecurity-services/partner/partner-17.png"
                     alt="image"
+                    height={90}
+                    width={50}
                   />
                 </div>
               </div>
               <div className="col-lg-2 col-6 col-sm-3 col-md-3">
                 <div className="partner-card">
-                  <img
+                  <Image
                     src="/images/cybersecurity-services/partner/partner-18.png"
                     alt="image"
+                    height={90}
+                    width={50}
                   />
                 </div>
               </div>
