@@ -1,4 +1,5 @@
-import React from "react";
+import React from 'react';
+import Image from 'next/image';
 
 const AboutUs = ({ title, paragraph, data, image }) => {
   return (
@@ -13,11 +14,11 @@ const AboutUs = ({ title, paragraph, data, image }) => {
                 data-aos-duration="1200"
                 data-aos-once="true"
               >
-                <img
+                <Image
                   src={image}
                   alt="Hire app developer - Freelance mobile app developer - Hire dedicated mobile app developers - Hire cross platform app developer - Hire a mobile app developer – eSpark Talent"
-                  width={"600px"}
-                  height={"600px"}
+                  width={600}
+                  height={600}
                 />
               </div>
             </div>
