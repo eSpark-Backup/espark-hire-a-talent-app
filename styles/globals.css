@@ -4852,7 +4852,7 @@ Main Banner Area CSS
   z-index: 1;
   position: relative;
   padding-top: 120px;
-  background: linear-gradient(
+    background: linear-gradient(
     90deg,
     rgba(188, 247, 253, 1) 0%,
     rgba(188, 247, 253, 1) 22%,
