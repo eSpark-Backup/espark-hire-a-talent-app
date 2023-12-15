@@ -1,4 +1,4 @@
-import React, { useCallback, useEffect, useRef, useState } from "react";
+import React, { useCallback, useEffect, useRef, useState } from 'react';
 
 const CustomDropdown = (props) => {
   const {
@@ -32,30 +32,30 @@ const CustomDropdown = (props) => {
 
   useEffect(() => {
     if (isOpen) {
-      document.addEventListener("click", handleDocumentClick);
+      document.addEventListener('click', handleDocumentClick);
     } else {
-      document.removeEventListener("click", handleDocumentClick);
+      document.removeEventListener('click', handleDocumentClick);
     }
 
     return () => {
-      document.removeEventListener("click", handleDocumentClick);
+      document.removeEventListener('click', handleDocumentClick);
     };
   }, [isOpen, handleDocumentClick]);
 
   return (
     <div
-      className={`custom-dropdown ${isOpen ? "open" : ""}`}
+      className={`custom-dropdown ${isOpen ? 'open' : ''}`}
       ref={dropdownRef}
     >
       <div
         className={`dropdown-header ${inter.className} ${
-          value !== "Please Select" && value !== "" ? "dark-value" : ""
+          value !== 'Please Select' && value !== '' ? 'dark-value' : ''
         }`}
         onClick={toggleDropdown}
       >
         <span className="country-span">
           {country && flag ? (
-            <div className="country-flag" style={{ marginRight: "10px" }}>
+            <div className="country-flag" style={{ marginRight: '10px' }}>
               <img src={flag} alt="flag" />
             </div>
           ) : null}
@@ -68,11 +68,11 @@ const CustomDropdown = (props) => {
 
       {error ? (
         <p className="error-para">
-          Please select {!country ? "Company Size" : "Country"}
+          Please select {!country ? 'Company Size' : 'Country'}
         </p>
       ) : null}
 
-      <div className={`dropdown-options ${error ? "error-options" : ""}`}>
+      <div className={`dropdown-options ${error ? 'error-options' : ''}`}>
         {isOpen && (
           <div className="options-container">
             <div className={`single-option ${inter.className} disabled-opt`}>
