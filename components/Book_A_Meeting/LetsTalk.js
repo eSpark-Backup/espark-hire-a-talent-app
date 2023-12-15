@@ -1,4 +1,4 @@
-import React from "react";
+import React from 'react';
 
 const LetsTalk = () => {
   return (
@@ -12,8 +12,8 @@ const LetsTalk = () => {
           className="meeting-button"
           onClick={() =>
             window.open(
-              "https://calendly.com/esparktalents/60min?month=2023-09",
-              "_blank"
+              'https://calendly.com/esparktalents/60min?month=2023-09',
+              '_blank'
             )
           }
         >

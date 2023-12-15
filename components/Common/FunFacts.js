@@ -1,4 +1,4 @@
-import React from "react";
+import React from 'react';
 
 const FunFacts = () => {
   return (
@@ -7,7 +7,7 @@ const FunFacts = () => {
         <div className="container">
           <div className="section-title">
             <h2 className="fw-semibold text-lg-start text-center my-3">
-            eSpark Talent has completed 100+ Projects Successfully
+              eSpark Talent has completed 100+ Projects Successfully
             </h2>
           </div>
           <div className="row justify-content-center align-items-center my-2">

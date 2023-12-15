@@ -1,14 +1,14 @@
-import React from "react";
+import React from 'react';
 
 const StarRating = ({ stars }) => {
   const renderStar = (rating, index) => {
     // Calculate the class for each star based on the rating
-    let starClass = "outlined-star";
+    let starClass = 'outlined-star';
 
     if (rating <= stars) {
-      starClass = "filled-star";
+      starClass = 'filled-star';
     } else if (stars % 1 !== 0 && rating === Math.ceil(stars)) {
-      starClass = "half-star";
+      starClass = 'half-star';
     }
 
     return (
