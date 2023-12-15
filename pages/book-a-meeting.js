@@ -14,7 +14,7 @@ import { bookAMeeting } from 'constants/book_a_meeting_constant';
 export default function LandingPage() {
   return (
     <>
-      <LandingBanner companySize={bookAMeeting.companySize} />
+      <LandingBanner companySize={bookAMeeting?.companySize} />
 
       <LandingPartners />
 
@@ -23,17 +23,17 @@ export default function LandingPage() {
         scaleBusiness={bookAMeeting?.scaleBusiness}
         solutions={bookAMeeting?.solutions}
         teams={bookAMeeting?.teams}
-        benefits={bookAMeeting.benefits}
+        benefits={bookAMeeting?.benefits}
         countries={bookAMeeting?.countries}
       />
 
       <WhyUs whyUs={bookAMeeting?.whyUs} />
 
-      <HowItWorks howItWorks={bookAMeeting.howItWorks} />
+      <HowItWorks howItWorks={bookAMeeting?.howItWorks} />
 
-      <CommonQuestions commonQuestions={bookAMeeting.commonQuestions} />
+      <CommonQuestions commonQuestions={bookAMeeting?.commonQuestions} />
 
-      <Reviews items={bookAMeeting.reviews} />
+      <Reviews items={bookAMeeting?.reviews} />
 
       <LetsTalk />
     </>

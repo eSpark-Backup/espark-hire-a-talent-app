@@ -123,7 +123,7 @@ const CustomDropdown = (props) => {
   useEffect(() => {
     // Filter the data based on the search term
     const filteredOptions = data.filter((opt) =>
-      opt.phone[0].toLowerCase().includes(`+${searchTerm.toLowerCase()}`)
+      opt?.phone[0].toLowerCase().includes(`+${searchTerm.toLowerCase()}`)
     );
     setFilteredData(filteredOptions);
     setSelectedOptionIndex(null); // Reset selected option index when filtering
@@ -173,7 +173,7 @@ const CustomDropdown = (props) => {
             <div className="options-scroll-container">
               {filteredData.map((opt, index) => (
                 <div
-                  key={opt.id}
+                  key={opt?.id}
                   className={`countries-options single-option ${
                     inter.className
                   } ${index === selectedOptionIndex ? 'selected' : ''} ${
@@ -182,11 +182,11 @@ const CustomDropdown = (props) => {
                       : ''
                   }`}
                   onClick={() => {
-                    setNumberCode(opt.phone);
-                    setSelectedFlag(opt.image);
-                    setCurrentPhoneLength(opt.phoneLength);
+                    setNumberCode(opt?.phone);
+                    setSelectedFlag(opt?.image);
+                    setCurrentPhoneLength(opt?.phoneLength);
                     setIsOpen(false);
-                    updateCountry(opt.option);
+                    updateCountry(opt?.option);
                     setIsOptionSelected(true);
                     inputRef.current && inputRef.current.focus();
                     setSearchTerm(''); // Clear the input text
@@ -198,9 +198,9 @@ const CustomDropdown = (props) => {
                   }}
                 >
                   <div className="country-flag">
-                    <img src={opt.image} alt="flag" />
+                    <img src={opt?.image} alt="flag" />
                   </div>
-                  <div className="country-name">{opt.phone}</div>
+                  <div className="country-name">{opt?.phone}</div>
                 </div>
               ))}
             </div>

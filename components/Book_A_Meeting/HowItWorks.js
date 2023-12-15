@@ -12,8 +12,8 @@ const HowItWorks = ({ howItWorks }) => {
 
         <div className="row to-center">
           {howItWorks?.map((point) => (
-            <div className="col-lg-6 col-md-6 col-sm-6" key={point.id}>
-              <CommonBox id={point.id} text={point.point} />
+            <div className="col-lg-6 col-md-6 col-sm-6" key={point?.id}>
+              <CommonBox id={point?.id} text={point?.point} />
             </div>
           ))}
         </div>
