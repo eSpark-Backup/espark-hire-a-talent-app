@@ -1,4 +1,5 @@
 import React from 'react';
+import Image from 'next/image';
 
 const Platforms = ({ heading, paragraph, data }) => {
   return (
@@ -16,7 +17,9 @@ const Platforms = ({ heading, paragraph, data }) => {
                 <div className="col-lg-3 col-md-3 col-sm-6" key={i}>
                   <div className="platforms-item with-white-color">
                     <div className="image">
-                      <img
+                      <Image
+                        width={74}
+                        height={74}
                         src={eachItem.icon}
                         alt="Hire app developer - Freelance mobile app developer - Hire dedicated mobile app developers - Hire cross platform app developer - Hire a mobile app developer – eSpark Talent"
                       />
@@ -25,8 +28,10 @@ const Platforms = ({ heading, paragraph, data }) => {
                     <p>{eachItem.paragraph}</p>
 
                     <div className="arrow-image">
-                      <img
+                      <Image
                         src={eachItem.arrowPath}
+                        width={152}
+                        height={136}
                         alt="Hire app developer - Freelance mobile app developer - Hire dedicated mobile app developers - Hire cross platform app developer - Hire a mobile app developer – eSpark Talent"
                       />
                     </div>
@@ -36,7 +41,9 @@ const Platforms = ({ heading, paragraph, data }) => {
                 <div className="col-lg-3 col-md-3 col-sm-6" key={i}>
                   <div className="platforms-item with-white-color">
                     <div className="image">
-                      <img
+                      <Image
+                        width={90}
+                        height={90}
                         src={eachItem.icon}
                         alt="Hire app developer - Freelance mobile app developer - Hire dedicated mobile app developers - Hire cross platform app developer - Hire a mobile app developer – eSpark Talent"
                       />

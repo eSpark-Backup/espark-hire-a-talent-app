@@ -1,4 +1,5 @@
 import React from 'react';
+import Image from 'next/image';
 
 const OurProcess = ({ data }) => {
   const { subHeading, description, image, Item } = data;
@@ -13,7 +14,7 @@ const OurProcess = ({ data }) => {
               data-aos-duration="1200"
               data-aos-once="true"
             >
-              <img src={image} alt="image" />
+              <Image src={image} alt="image" width={564} height={370} />
             </div>
           </div>
           <div className="col-xl-6 col-lg-7 col-md-6 col-sm-12 mx-auto mx-lg-0">
@@ -54,7 +55,12 @@ const OurProcess = ({ data }) => {
                   }}
                 />
                 <div className="icon">
-                  <img src={eachCard?.icon} alt="image" />
+                  <Image
+                    src={eachCard?.icon}
+                    alt="image"
+                    width={50}
+                    height={50}
+                  />
                 </div>
                 <h3>{eachCard?.heading}</h3>
                 <p>{eachCard?.description}</p>

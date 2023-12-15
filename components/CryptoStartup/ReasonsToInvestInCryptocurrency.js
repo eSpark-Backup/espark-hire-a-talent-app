@@ -1,4 +1,5 @@
 import React from 'react';
+import Image from 'next/image';
 
 const ReasonsToInvestInCryptocurrency = ({ title, data, image }) => {
   return (
@@ -12,8 +13,10 @@ const ReasonsToInvestInCryptocurrency = ({ title, data, image }) => {
                 {data?.map((items, i) => (
                   <div className="invest-inner-box" key={i}>
                     <div className="image">
-                      <img
+                      <Image
                         src={items.icon}
+                        width={50}
+                        height={50}
                         alt="Hire app developer - Freelance mobile app developer - Hire dedicated mobile app developers - Hire cross platform app developer - Hire a mobile app developer – eSpark Talent"
                       />
                     </div>
@@ -25,11 +28,11 @@ const ReasonsToInvestInCryptocurrency = ({ title, data, image }) => {
             </div>
             <div className="col-lg-6 col-md-12 text-center">
               <div className="invest-image">
-                <img
+                <Image
                   src={image}
                   alt="Hire app developer - Freelance mobile app developer - Hire dedicated mobile app developers - Hire cross platform app developer - Hire a mobile app developer – eSpark Talent"
-                  width={'600px'}
-                  height={'600px'}
+                  width={600}
+                  height={600}
                 />
               </div>
             </div>
