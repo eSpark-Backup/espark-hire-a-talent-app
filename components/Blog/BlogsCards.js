@@ -1,8 +1,9 @@
-import React, { useState, useEffect } from "react";
-import Link from "next/link";
+import React, { useState, useEffect } from 'react';
+import Image from 'next/image';
+import Link from 'next/link';
 
 const BlogCard = ({ item }) => {
-  const [selectedCategory, setSelectedCategory] = useState("All");
+  const [selectedCategory, setSelectedCategory] = useState('All');
   const [currentPage, setCurrentPage] = useState(1);
   const [postsPerPage] = useState(6);
   const allCategories = [
@@ -10,7 +11,7 @@ const BlogCard = ({ item }) => {
   ];
 
   const filtereditem =
-    selectedCategory === "All"
+    selectedCategory === 'All'
       ? item
       : item.filter((eachCard) => eachCard.title.includes(selectedCategory));
 
@@ -39,13 +40,13 @@ const BlogCard = ({ item }) => {
   }, [selectedCategory]);
 
   useEffect(() => {
-    setSelectedCategory("All");
+    setSelectedCategory('All');
     setCurrentPage(1);
   }, [item]);
 
   const renderPaginationButtons = () => {
     const buttons = [];
-    let ellipsis = "...";
+    let ellipsis = '...';
 
     for (let page = 1; page <= totalPages; page++) {
       const isSelected = page === currentPage;
@@ -59,7 +60,7 @@ const BlogCard = ({ item }) => {
           <Link
             href="#"
             key={page}
-            className={isSelected ? "current page-numbers" : "page-numbers"}
+            className={isSelected ? 'current page-numbers' : 'page-numbers'}
             onClick={() => handlePageClick(page)}
           >
             {page}
@@ -81,7 +82,12 @@ const BlogCard = ({ item }) => {
                 <div className="single-blog-post">
                   <div className="image">
                     <Link href={`/blogs/${eachCard.slug}`} className="d-block">
-                      <img src={eachCard.imageLink} alt={eachCard.altTag} />
+                      <Image
+                        src={eachCard.imageLink}
+                        alt={eachCard.altTag}
+                        width={356}
+                        height={424}
+                      />
                     </Link>
                     <span className="date">{eachCard?.postedBy?.date}</span>
                   </div>
@@ -113,10 +119,10 @@ const BlogCard = ({ item }) => {
                   href="#"
                   onClick={handlePreviousClick}
                   className={
-                    currentPage === 1 ? "page-numbers disabled" : "page-numbers"
+                    currentPage === 1 ? 'page-numbers disabled' : 'page-numbers'
                   }
                   style={{
-                    cursor: currentPage === 1 ? "default" : "pointer",
+                    cursor: currentPage === 1 ? 'default' : 'pointer',
                   }}
                 >
                   <i className="ri-arrow-left-line"></i>
@@ -128,11 +134,11 @@ const BlogCard = ({ item }) => {
                   href="#"
                   className={
                     currentPage === totalPages
-                      ? "page-numbers disabled"
-                      : "page-numbers"
+                      ? 'page-numbers disabled'
+                      : 'page-numbers'
                   }
                   style={{
-                    cursor: currentPage === totalPages ? "default" : "pointer",
+                    cursor: currentPage === totalPages ? 'default' : 'pointer',
                   }}
                   onClick={handleNextClick}
                 >
