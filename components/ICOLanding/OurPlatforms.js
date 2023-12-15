@@ -20,8 +20,8 @@ const OurPlatforms = (props) => {
                       <Image
                         src={eachItem.imageLink}
                         alt={eachItem.altTag}
-                        width={90}
-                        height={90}
+                        width={74}
+                        height={74}
                       />
                     </div>
                     <h3>{eachItem.title}</h3>
