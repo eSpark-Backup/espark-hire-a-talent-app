@@ -1,10 +1,10 @@
-import nodemailer from "nodemailer";
-import sgTransport from "nodemailer-sendgrid-transport";
+import nodemailer from 'nodemailer';
+import sgTransport from 'nodemailer-sendgrid-transport';
 
 const transporter = {
   auth: {
     // Update your SendGrid API key here
-    api_key: "...",
+    api_key: '...',
   },
 };
 
@@ -16,9 +16,9 @@ export default async (req, res) => {
 
   const data = {
     // Update your email here
-    to: "exampleyourdomain@gmail.com",
+    to: 'exampleyourdomain@gmail.com',
     from: email,
-    subject: "Hi there",
+    subject: 'Hi there',
     text: text,
     html: `
         <b>From:</b> ${name} <br /> 
@@ -30,9 +30,9 @@ export default async (req, res) => {
   try {
     const response = await mailer.sendMail(data);
     console.log(response);
-    res.status(200).send("Email send successfully");
+    res.status(200).send('Email send successfully');
   } catch (error) {
     console.log(error);
-    res.status(500).send("Error proccessing charge");
+    res.status(500).send('Error proccessing charge');
   }
 };

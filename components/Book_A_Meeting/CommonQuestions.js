@@ -1,11 +1,11 @@
-import React, { useState } from "react";
+import React, { useState } from 'react';
 import {
   Accordion,
   AccordionItem,
   AccordionItemButton,
   AccordionItemHeading,
   AccordionItemPanel,
-} from "react-accessible-accordion";
+} from 'react-accessible-accordion';
 
 const CommonQuestions = ({ commonQuestions }) => {
   const [allowZeroExpanded, setallowZeroExpanded] = useState(true);
@@ -41,7 +41,7 @@ const CommonQuestions = ({ commonQuestions }) => {
                       key={quest.id}
                     >
                       <AccordionItem
-                        className={`accord-item ${quest.toggle ? "m-0" : ""}`}
+                        className={`accord-item ${quest.toggle ? 'm-0' : ''}`}
                       >
                         <AccordionItemHeading>
                           <AccordionItemButton>
@@ -53,7 +53,7 @@ const CommonQuestions = ({ commonQuestions }) => {
 
                               <div
                                 className={`${
-                                  quest.toggle ? "rotate-icon" : "down-arrow"
+                                  quest.toggle ? 'rotate-icon' : 'down-arrow'
                                 }`}
                               >
                                 <img
@@ -81,7 +81,7 @@ const CommonQuestions = ({ commonQuestions }) => {
                       key={quest.id}
                     >
                       <AccordionItem
-                        className={`accord-item ${quest.toggle ? "m-0" : ""}`}
+                        className={`accord-item ${quest.toggle ? 'm-0' : ''}`}
                       >
                         <AccordionItemHeading>
                           <AccordionItemButton>
@@ -93,7 +93,7 @@ const CommonQuestions = ({ commonQuestions }) => {
 
                               <div
                                 className={`${
-                                  quest.toggle ? "rotate-icon" : "down-arrow"
+                                  quest.toggle ? 'rotate-icon' : 'down-arrow'
                                 }`}
                               >
                                 <img

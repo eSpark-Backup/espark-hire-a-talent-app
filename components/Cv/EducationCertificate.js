@@ -1,10 +1,10 @@
-import React from "react";
+import React from 'react';
 
-import CvCard from "./CvCard";
+import CvCard from './CvCard';
 
 function formatDate(date) {
   const d = new Date(date);
-  const month = d.toLocaleString("default", { month: "long" });
+  const month = d.toLocaleString('default', { month: 'long' });
 
   return `${month} ${d.getFullYear()}`;
 }
@@ -22,7 +22,7 @@ const EducationCertificate = (props) => {
               <div className="hat-icon">
                 <img
                   src={`/images/cvs/outlined-hat.png`}
-                  alt={"graduated student icon"}
+                  alt={'graduated student icon'}
                 />
               </div>
 
@@ -45,7 +45,7 @@ const EducationCertificate = (props) => {
               return (
                 <div key={index} className="detail-wrapper">
                   <div className="hat-icon">
-                    <img src={`/images/cvs/star.png`} alt={"star icon"} />
+                    <img src={`/images/cvs/star.png`} alt={'star icon'} />
                   </div>
 
                   <div className="education-detail">

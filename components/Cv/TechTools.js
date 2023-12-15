@@ -1,6 +1,6 @@
-import React, { useState, useEffect } from "react";
+import React, { useState, useEffect } from 'react';
 
-import CvCard from "./CvCard";
+import CvCard from './CvCard';
 
 const TechTools = ({ tools }) => {
   return (
@@ -16,7 +16,7 @@ const TechTools = ({ tools }) => {
             visualParts={[
               {
                 percentage: `${tool.level}%`,
-                color: "#049583",
+                color: '#049583',
               },
             ]}
           />
@@ -32,8 +32,8 @@ const ProgressLine = ({
   techName,
   visualParts = [
     {
-      percentage: "0%",
-      color: "white",
+      percentage: '0%',
+      color: 'white',
     },
   ],
 }) => {
@@ -58,9 +58,9 @@ const ProgressLine = ({
       {icon ? (
         <div
           className={[
-            "tech-icon",
-            name === "google-analytics" ? "google-icon" : "",
-          ].join(" ")}
+            'tech-icon',
+            name === 'google-analytics' ? 'google-icon' : '',
+          ].join(' ')}
         >
           <img src={icon} alt={name} />
         </div>
@@ -71,8 +71,8 @@ const ProgressLine = ({
       <div
         className="progress-visual-full"
         style={{
-          backgroundColor: "#D9D9D9",
-          height: "19.15px",
+          backgroundColor: '#D9D9D9',
+          height: '19.15px',
         }}
       >
         {visualParts.map((item, index) => {
@@ -82,7 +82,7 @@ const ProgressLine = ({
               style={{
                 width: widths[index],
                 backgroundColor: item.color,
-                height: "100%",
+                height: '100%',
               }}
               className="progress-visual-part"
             />

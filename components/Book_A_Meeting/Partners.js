@@ -1,7 +1,7 @@
-import React from "react";
+import React from 'react';
 
-import { Swiper, SwiperSlide } from "swiper/react";
-import { Autoplay } from "swiper";
+import { Swiper, SwiperSlide } from 'swiper/react';
+import { Autoplay } from 'swiper';
 
 const LandingPartners = () => {
   return (

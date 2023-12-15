@@ -1,12 +1,13 @@
-import React from "react";
-import { createClient } from "next-sanity";
-import imageUrlBuilder from "@sanity/image-url";
-import Link from "next/link";
-import Image from "next/image";
+import React from 'react';
+import { createClient } from 'next-sanity';
+import imageUrlBuilder from '@sanity/image-url';
+import Link from 'next/link';
+import Image from 'next/image';
 
 const client = createClient({
-  projectId: "93d1bm1e",
-  dataset: "production",
+  projectId: '93d1bm1e',
+  dataset: 'production',
+  apiVersion: '2021-10-21',
   useCdn: true,
 });
 
@@ -74,14 +75,14 @@ export async function getStaticProps() {
       '*[_type == "candidate"]{profileImage, firstName, lastName, objective, role, _id}'
     );
 
-    console.log("candidates", candidates);
+    console.log('candidates', candidates);
     return {
       props: {
         candidates,
       },
     };
   } catch (error) {
-    console.error("Error fetching data from Sanity:", error);
+    console.error('Error fetching data from Sanity:', error);
     return {
       props: {
         candidates: [],
