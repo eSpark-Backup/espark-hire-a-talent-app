@@ -3,19 +3,21 @@ import Image from 'next/image';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Autoplay } from 'swiper';
 
-const PartnerSlider = () => {
+const PartnerSlider = ({ heading }) => {
   return (
     <>
       <div className="partner-area ptb-100">
         <div className="container">
           <div className="section-title">
-            <h2 className="text-center">We Value Our Admirable Clients </h2>
+            <h2 className="text-center">
+              {heading ? heading : "We Value Our Admirable Clients "}
+            </h2>
           </div>
           <Swiper
             slidesPerView={1}
             spaceBetween={30}
             autoplay={{
-              delay: 6000,
+              delay: 500,
               disableOnInteraction: true,
             }}
             breakpoints={{

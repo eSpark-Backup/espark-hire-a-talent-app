@@ -13,11 +13,10 @@ export default function Custom404Page() {
           height={200}
         />
 
-        <h1 className="mt-4 mb-3">Error 404 : Page Not Found</h1>
+        <h1 className="mt-4 mb-3">Error 404 : Page Not Found!</h1>
 
         <p className="mb-4">
-          The page you are looking for might have been removed had its name
-          changed or is temporarily unavailable.
+        The page you are looking for might have been removed had its name changed or is temporarily unavailable.
         </p>
 
         <Link href="/" className="default-btn style-two">

@@ -25,8 +25,8 @@ const OurTeamMember = (props) => {
                       <div
                         className={
                           i > 2
-                            ? 'single-team-member with-space'
-                            : 'single-team-member'
+                            ? "single-team-member with-space"
+                            : "single-team-member"
                         }
                       >
                         <Image
@@ -38,12 +38,12 @@ const OurTeamMember = (props) => {
                         <div
                           className={
                             i === 0
-                              ? 'content1'
+                              ? "content1"
                               : i === 1
-                              ? 'content2'
+                              ? "content2"
                               : i === 2
-                              ? 'content3'
-                              : 'content4'
+                              ? "content3"
+                              : "content4"
                           }
                         >
                           <div>
