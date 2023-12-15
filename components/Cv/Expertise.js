@@ -1,6 +1,6 @@
-import React from "react";
+import React from 'react';
 
-import ProgressSection from "./ProgressSection";
+import ProgressSection from './ProgressSection';
 
 const Expertise = ({ expertise, windowWidth }) => {
   return (

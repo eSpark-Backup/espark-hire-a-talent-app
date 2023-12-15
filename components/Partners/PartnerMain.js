@@ -25,7 +25,7 @@ const PartnerMain = ({ PartnersContentData }) => {
                 <PartnerForm />
               </div>
             </div>
-           </div>
+          </div>
         </div>
       </div>
     </div>

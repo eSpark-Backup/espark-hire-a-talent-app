@@ -1,7 +1,7 @@
-import React from "react";
+import React from 'react';
 
 function GradientSVG() {
-  const idCSS = "progress";
+  const idCSS = 'progress';
   const gradientTransform = `rotate(70)`;
 
   return (
