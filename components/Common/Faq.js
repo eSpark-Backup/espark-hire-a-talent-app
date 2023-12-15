@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import Image from 'next/image';
 import {
   Accordion,
   AccordionItem,
@@ -13,6 +14,13 @@ const Faq = ({ title, item }) => {
   const onChangeToggle = (value, index) => {
     let temp = [...data];
     temp[index].toggle = !value;
+    if (!value) {
+      temp.forEach((item, i) => {
+        if (i !== index) {
+          item.toggle = false;
+        }
+      });
+    }
     setData([...temp]);
     setallowZeroExpanded(!allowZeroExpanded);
   };
@@ -44,13 +52,15 @@ const Faq = ({ title, item }) => {
                           {item.heading}
                         </p>
 
-                        <img
+                        <Image
                           src={
                             item.toggle
                               ? '/images/icon/Group_93.svg'
                               : '/images/icon/group_92.svg'
                           }
                           alt="Outsourced Employee - Staff Outsourcing Solutions - Outsourced Staff - Global Employment Outsourcing - Employment Outsourcing Services – eSpark Talent"
+                          width={75}
+                          height={75}
                         />
                       </div>
                       <div>

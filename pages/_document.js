@@ -1,5 +1,5 @@
-import Document, { Html, Head, Main, NextScript } from "next/document";
-import Script from "next/script";
+import Document, { Html, Head, Main, NextScript } from 'next/document';
+import Script from 'next/script';
 class MyDocument extends Document {
   render() {
     return (
@@ -131,7 +131,7 @@ class MyDocument extends Document {
             <img
               height="1"
               width="1"
-              style={{ display: "none" }}
+              style={{ display: 'none' }}
               src="https://www.facebook.com/tr?id=826312182531681&ev=PageView&noscript=1"
             />
           </noscript>
@@ -146,7 +146,7 @@ class MyDocument extends Document {
               src="https://www.googletagmanager.com/ns.html?id=GTM-5JWLG8J2"
               height="0"
               width="0"
-              style={{ display: "none", visibility: "hidden" }}
+              style={{ display: 'none', visibility: 'hidden' }}
             ></iframe>
           </noscript>
           <Main />

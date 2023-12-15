@@ -1,2 +1,3 @@
 User-agent: *
-Disallow: /   # Disallow the entire domain
+Disallow: /
+Allow: https://www.esparktalent.com/sitemap.xml
