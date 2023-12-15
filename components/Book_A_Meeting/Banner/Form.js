@@ -397,20 +397,6 @@ const Form = ({ companySize }) => {
                   </option>
                 ))}
               </select>
-
-              {/* <CustomDropdown
-                data={countries}
-                value={state.country}
-                setCountry={(value) =>
-                  setState((state) => ({ ...state, country: value }))
-                }
-                country
-                error={errorState.country ? "error" : ""}
-                errorState={errorState}
-                flag={flag}
-                setFlag={setFlag}
-                inter={inter}
-              /> */}
             </div>
           </div>
 
