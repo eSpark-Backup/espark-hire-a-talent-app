@@ -122,9 +122,15 @@ const CustomDropdown = (props) => {
 
   useEffect(() => {
     // Filter the data based on the search term
-    const filteredOptions = data.filter((opt) =>
-      opt?.phone[0].toLowerCase().includes(`+${searchTerm.toLowerCase()}`)
-    );
+    const filteredOptions = data.filter((opt) => {
+      if (searchTerm.includes('+')) {
+        return opt?.phone[0].toLowerCase().includes(searchTerm.toLowerCase());
+      } else {
+        return opt?.phone[0]
+          .toLowerCase()
+          .includes(`+${searchTerm.toLowerCase()}`);
+      }
+    });
     setFilteredData(filteredOptions);
     setSelectedOptionIndex(null); // Reset selected option index when filtering
   }, [data, searchTerm]);
