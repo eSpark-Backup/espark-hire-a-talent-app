@@ -4656,10 +4656,13 @@ Main Banner Area CSS
   z-index: 1;
   position: relative;
   padding-top: 120px;
-  background: linear-gradient(90deg,
-      rgba(188, 247, 253, 1) 0%,
-      rgba(188, 247, 253, 1) 22%,
-      rgba(255, 255, 255, 1) 96%) !important;
+    background: linear-gradient(
+    90deg,
+    rgba(188, 247, 253, 1) 0%,
+    rgba(188, 247, 253, 1) 22%,
+    rgba(255, 255, 255, 1) 96%
+  ) !important;
+  
   /* background-image: url(/images/bg/banner-bg.png); */
   background-position: center center;
   background-repeat: no-repeat;
