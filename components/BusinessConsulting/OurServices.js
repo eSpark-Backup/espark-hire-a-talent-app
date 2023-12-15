@@ -46,8 +46,8 @@ const OurServices = ({ title, para, items }) => {
                 <div
                   className={
                     eachCard.homeComponent
-                      ? 'single-services-item with-boxshadow size-change'
-                      : 'single-services-item with-boxshadow'
+                      ? "single-services-item with-boxshadow size-change"
+                      : "single-services-item with-boxshadow"
                   }
                 >
                   <div className="d-flex align-items-center">

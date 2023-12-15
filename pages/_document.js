@@ -1,6 +1,5 @@
 import Document, { Html, Head, Main, NextScript } from 'next/document';
 import Script from 'next/script';
-import Image from 'next/image';
 class MyDocument extends Document {
   render() {
     return (
