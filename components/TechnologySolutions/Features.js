@@ -1,4 +1,5 @@
 import React from 'react';
+import Image from 'next/image';
 
 const Features = ({ featuresTitle, featuresPara, cardsItems }) => {
   return (
@@ -21,7 +22,12 @@ const Features = ({ featuresTitle, featuresPara, cardsItems }) => {
               >
                 <div className="single-features-box">
                   <div className="icon">
-                    <img src={eachCard.imageLink} alt="image" />
+                    <Image
+                      src={eachCard.imageLink}
+                      alt="image"
+                      width={50}
+                      height={50}
+                    />
                   </div>
                   <h3>{eachCard.title}</h3>
                   <p>{eachCard.content} </p>

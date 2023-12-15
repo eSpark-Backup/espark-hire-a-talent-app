@@ -1,4 +1,5 @@
 import React from 'react';
+import Image from 'next/image';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Autoplay } from 'swiper';
 const WhyChooseCrypto = ({
@@ -27,13 +28,17 @@ const WhyChooseCrypto = ({
                 data-aos-duration="1200"
                 data-aos-once="true"
               >
-                <img
+                <Image
                   src={image}
+                  width={490}
+                  height={490}
                   alt="Outsourced Employee - Staff Outsourcing Solutions - Outsourced Staff - Global Employment Outsourcing - Employment Outsourcing Services – eSpark Talent"
                 />
                 <div className="shape5">
-                  <img
+                  <Image
                     src={shape}
+                    width={90}
+                    height={74}
                     alt="Outsourced Employee - Staff Outsourcing Solutions - Outsourced Staff - Global Employment Outsourcing - Employment Outsourcing Services – eSpark Talent"
                   />
                 </div>
@@ -76,8 +81,10 @@ const WhyChooseCrypto = ({
                     <SwiperSlide key={i}>
                       <div className="choose-inner-box">
                         <div className="image">
-                          <img
+                          <Image
                             src={slide.image}
+                            width={70}
+                            height={70}
                             alt="Outsourced Employee - Staff Outsourcing Solutions - Outsourced Staff - Global Employment Outsourcing - Employment Outsourcing Services – eSpark Talent"
                           />
                         </div>
