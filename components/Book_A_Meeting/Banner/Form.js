@@ -89,13 +89,8 @@ const Form = ({ companySize }) => {
     setState((state) => ({ ...state, [key]: value }));
   };
 
-  // const redirectToCalendly = () => {
-  //   window.open('https://calendly.com/esparktalents/60min', '_blank');
-  // };
-
   const onSubmit = () => {
-    const emailRegex =
-      /^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/;
+    const emailRegex = /^[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,}$/i;
 
     if (!emailRegex.test(state?.company_email) && state?.company_email !== '') {
       setEmailError('Invalid email address');
@@ -186,7 +181,7 @@ const Form = ({ companySize }) => {
                 }, 2000);
               }, 2000);
             } else {
-              redirectToCalendly();
+              window.open('https://calendly.com/esparktalents/60min', '_blank');
             }
           })
           .catch((err) => {
@@ -226,7 +221,6 @@ const Form = ({ companySize }) => {
           });
       } catch (error) {
         console.error('Error submitting the form:', error);
-        redirectToCalendly();
       }
     }
   };
