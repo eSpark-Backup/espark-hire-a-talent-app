@@ -1,7 +1,7 @@
-import React from "react";
+import React from 'react';
 
-import ContentSection from "./ContentSection";
-import ImageSection from "./ImageSection";
+import ContentSection from './ContentSection';
+import ImageSection from './ImageSection';
 
 const TopSection = ({ globalTeams, solutions, teams }) => {
   return (

@@ -1,18 +1,19 @@
-import React, { useEffect, useState } from "react";
-import { createClient } from "next-sanity";
+import React, { useEffect, useState } from 'react';
+import { createClient } from 'next-sanity';
 
-import Banner from "@/components/Cv/Banner";
-import Detail from "@/components/Cv/Detail";
+import Banner from '@/components/Cv/Banner';
+import Detail from '@/components/Cv/Detail';
 // import TechTools from "@/components/Cv/TechTools";
-import WorkExperience from "@/components/Cv/WorkExperience";
-import Expertise from "@/components/Cv/Expertise";
-import Tools from "@/components/Cv/Tool";
-import EducationCertificate from "@/components/Cv/EducationCertificate";
-import Feedback from "@/components/Cv/Feedback";
+import WorkExperience from '@/components/Cv/WorkExperience';
+import Expertise from '@/components/Cv/Expertise';
+import Tools from '@/components/Cv/Tool';
+import EducationCertificate from '@/components/Cv/EducationCertificate';
+import Feedback from '@/components/Cv/Feedback';
 
 const client = createClient({
-  projectId: "93d1bm1e",
-  dataset: "production",
+  projectId: '93d1bm1e',
+  dataset: 'production',
+  apiVersion: '2021-10-21',
   useCdn: true,
 });
 
@@ -20,15 +21,15 @@ const IndividualCV = ({ cv }) => {
   const [windowWidth, setWindowWidth] = useState(null);
 
   useEffect(() => {
-    let header = document.querySelector("header");
-    let footer = document.querySelector("footer");
+    let header = document.querySelector('header');
+    let footer = document.querySelector('footer');
 
-    header.style.display = "none";
-    footer.style.display = "none";
+    header.style.display = 'none';
+    footer.style.display = 'none';
 
     return () => {
-      header.style.display = "";
-      footer.style.display = "";
+      header.style.display = '';
+      footer.style.display = '';
     };
   }, []);
 
@@ -39,10 +40,10 @@ const IndividualCV = ({ cv }) => {
 
     handleResize();
 
-    window.addEventListener("resize", handleResize);
+    window.addEventListener('resize', handleResize);
 
     return () => {
-      window.removeEventListener("resize", handleResize);
+      window.removeEventListener('resize', handleResize);
     };
   }, []);
 

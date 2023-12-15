@@ -141,19 +141,18 @@ const PartnerHeader = () => {
         <div id="navbar" className="navbar-area">
           <nav className="navbar navbar-expand-md navbar-light">
             <div className="container-lg">
-              <Link legacyBehavior href="/">
-                <a
-                  className={`navbar-brand ${
-                    selectedNavItem === 'Home' ? 'active' : ''
-                  }`}
-                  onClick={() => handleNavItemClick('Home')}
-                >
-                  <img
-                    src="/images/partners/partners-logo.svg"
-                    alt="Global Recruitment - global recruitment agency - worldwide recruiting agency - global recruitment services - global recruitment solutions - eSpark Talent"
-                    className="talent-logo"
-                  />
-                </a>
+              <Link
+                href="/"
+                className={`navbar-brand ${
+                  selectedNavItem === 'Home' ? 'active' : ''
+                }`}
+                onClick={() => handleNavItemClick('Home')}
+              >
+                <img
+                  src="/images/partners/partners-logo.svg"
+                  alt="Global Recruitment - global recruitment agency - worldwide recruiting agency - global recruitment services - global recruitment solutions - eSpark Talent"
+                  className="talent-logo"
+                />
               </Link>
 
               <button
@@ -175,93 +174,71 @@ const PartnerHeader = () => {
                 <ul className="navbar-nav ms-auto">
                   <li className="nav-item">
                     <Link
-                      legacyBehavior
                       href="/what-we-do"
                       activeClassName="active"
+                      className={`nav-link partners-header-text`}
+                      onClick={() => handleNavItemClick('what we do')}
                     >
-                      <a
-                        className={`nav-link partners-header-text`}
-                        onClick={() => handleNavItemClick('what we do')}
-                      >
-                        What we do
-                      </a>
+                      What we do
                     </Link>
                   </li>
 
                   <li className="nav-item">
                     <Link
-                      legacyBehavior
                       href="/how-it-works"
                       activeClassName="active"
+                      className={`nav-link partners-header-text`}
+                      onClick={() => handleNavItemClick('How it works')}
                     >
-                      <a
-                        className={`nav-link partners-header-text`}
-                        onClick={() => handleNavItemClick('How it works')}
-                      >
-                        How it works
-                      </a>
-                    </Link>
-                  </li>
-
-                  <li className="nav-item">
-                    <Link legacyBehavior href="/blogs" activeClassName="active">
-                      <a
-                        className={`nav-link partners-header-text`}
-                        onClick={() => handleNavItemClick('Blog')}
-                      >
-                        Blogs
-                      </a>
+                      How it works
                     </Link>
                   </li>
 
                   <li className="nav-item">
                     <Link
-                      legacyBehavior
+                      href="/blogs"
+                      activeClassName="active"
+                      className={`nav-link partners-header-text`}
+                      onClick={() => handleNavItemClick('Blog')}
+                    >
+                      Blogs
+                    </Link>
+                  </li>
+
+                  <li className="nav-item">
+                    <Link
                       href="/careers"
                       activeClassName="active"
+                      className={`nav-link partners-header-text`}
+                      onClick={() => handleNavItemClick('Career')}
                     >
-                      <a
-                        className={`nav-link partners-header-text`}
-                        onClick={() => handleNavItemClick('Career')}
-                      >
-                        Careers
-                      </a>
+                      Careers
                     </Link>
                   </li>
 
                   <li className="nav-item">
                     <Link
-                      legacyBehavior
                       href="https://form.jotform.com/232503890925459"
                       // activeClassName="active"
+                      target="_blank"
+                      className={`nav-link partners-header-text`}
+                      onClick={() => handleNavItemClick('Apply as a Developer')}
                     >
-                      <a
-                        target="_blank"
-                        className={`nav-link partners-header-text`}
-                        onClick={() =>
-                          handleNavItemClick('Apply as a Developer')
-                        }
-                      >
-                        Apply as a Developer
-                      </a>
+                      Apply as a Developer
                     </Link>
                   </li>
 
                   <li className="nabar-buttons">
                     <Link
-                      legacyBehavior
                       href="https://calendly.com/esparktalents/60min?month=2023-09"
                       activeClassName="active"
+                      target="_blank"
+                      className={`default-btn style-two ${
+                        selectedNavItem === 'Hire a Talent' ? 'active' : ''
+                      }`}
+                      onClick={() => handleNavItemClick('Hire a Talent')}
                     >
-                      <a
-                        target="_blank"
-                        className={`default-btn style-two ${
-                          selectedNavItem === 'Hire a Talent' ? 'active' : ''
-                        }`}
-                        onClick={() => handleNavItemClick('Hire a Talent')}
-                      >
-                        Hire a Talent
-                      </a>
+                      Hire a Talent
                     </Link>
                   </li>
                 </ul>
@@ -269,15 +246,11 @@ const PartnerHeader = () => {
 
               <div className="others-option">
                 <Link
-                  legacyBehavior
                   href="https://calendly.com/esparktalents/60min?month=2023-09"
+                  className="style-two partners-header-button"
+                  target="_blank"
                 >
-                  <a
-                    className="style-two partners-header-button"
-                    target="_blank"
-                  >
-                    Hire a Talent
-                  </a>
+                  Hire a Talent
                 </Link>
               </div>
             </div>

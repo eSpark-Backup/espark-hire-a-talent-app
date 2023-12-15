@@ -1,7 +1,7 @@
-import React from "react";
+import React from 'react';
 
-import Content from "./Content";
-import Form from "./Form";
+import Content from './Content';
+import Form from './Form';
 
 const Banner = ({ companySize }) => {
   return (

@@ -17,11 +17,8 @@ const HeroBanner = () => {
               >
                 <span className="sub-title">AWARD-WINNING COMPANY</span>
                 <h1>Let's Make Wave Amazing Together</h1>
-                <Link href="/contact">
-                  <a className="default-btn style-two">
-                    <span className="ri-arrow-right-s-line"></span>Get Started
-                    Now
-                  </a>
+                <Link href="/contact" className="default-btn style-two">
+                  <span className="ri-arrow-right-s-line"></span>Get Started Now
                 </Link>
               </div>
             </div>

@@ -1,4 +1,4 @@
-import React, { useCallback, useEffect, useRef, useState } from "react";
+import React, { useCallback, useEffect, useRef, useState } from 'react';
 
 const CustomDropdown = (props) => {
   const {
@@ -14,7 +14,7 @@ const CustomDropdown = (props) => {
   } = props;
 
   const [isOpen, setIsOpen] = useState(false);
-  const [searchTerm, setSearchTerm] = useState("");
+  const [searchTerm, setSearchTerm] = useState('');
   const [filteredData, setFilteredData] = useState(data);
   const [selectedOptionIndex, setSelectedOptionIndex] = useState(null);
   const [isOptionSelected, setIsOptionSelected] = useState(false);
@@ -38,23 +38,23 @@ const CustomDropdown = (props) => {
   const handleScroll = useCallback(() => {
     // Close the dropdown on scroll
     setIsOpen(false);
-    setSearchTerm("");
+    setSearchTerm('');
   }, []);
 
   const handleKeyDown = useCallback(
     (e) => {
       // Handle arrow keys
-      if (isOpen && (e.key === "ArrowUp" || e.key === "ArrowDown")) {
+      if (isOpen && (e.key === 'ArrowUp' || e.key === 'ArrowDown')) {
         e.preventDefault();
         const optionsCount = filteredData.length;
 
-        if (e.key === "ArrowUp") {
+        if (e.key === 'ArrowUp') {
           setSelectedOptionIndex(
             selectedOptionIndex === null
               ? optionsCount - 1
               : (selectedOptionIndex - 1 + optionsCount) % optionsCount
           );
-        } else if (e.key === "ArrowDown") {
+        } else if (e.key === 'ArrowDown') {
           setSelectedOptionIndex(
             selectedOptionIndex === null
               ? 0
@@ -82,7 +82,7 @@ const CustomDropdown = (props) => {
       updateCountry(selectedOption.option);
       setIsOptionSelected(true);
       inputRef.current && inputRef.current.focus();
-      setSearchTerm(""); // Clear the input text
+      setSearchTerm(''); // Clear the input text
 
       // Remove the selected class after a short delay
       setTimeout(() => {
@@ -101,22 +101,22 @@ const CustomDropdown = (props) => {
 
   useEffect(() => {
     if (isOpen) {
-      document.addEventListener("click", handleDocumentClick);
-      window.addEventListener("scroll", handleScroll);
-      document.addEventListener("keydown", handleKeyDown);
-      document.addEventListener("keyup", handleKeyUp);
+      document.addEventListener('click', handleDocumentClick);
+      window.addEventListener('scroll', handleScroll);
+      document.addEventListener('keydown', handleKeyDown);
+      document.addEventListener('keyup', handleKeyUp);
     } else {
-      document.removeEventListener("click", handleDocumentClick);
-      window.removeEventListener("scroll", handleScroll);
-      document.removeEventListener("keydown", handleKeyDown);
-      document.removeEventListener("keyup", handleKeyUp);
+      document.removeEventListener('click', handleDocumentClick);
+      window.removeEventListener('scroll', handleScroll);
+      document.removeEventListener('keydown', handleKeyDown);
+      document.removeEventListener('keyup', handleKeyUp);
     }
 
     return () => {
-      document.removeEventListener("click", handleDocumentClick);
-      window.removeEventListener("scroll", handleScroll);
-      document.removeEventListener("keydown", handleKeyDown);
-      document.removeEventListener("keyup", handleKeyUp);
+      document.removeEventListener('click', handleDocumentClick);
+      window.removeEventListener('scroll', handleScroll);
+      document.removeEventListener('keydown', handleKeyDown);
+      document.removeEventListener('keyup', handleKeyUp);
     };
   }, [isOpen, handleDocumentClick, handleScroll, handleKeyDown, handleKeyUp]);
 
@@ -132,19 +132,19 @@ const CustomDropdown = (props) => {
   return (
     <div
       className={`custom-dropdown code-dropdown ${
-        isOpen ? "open" : ""
+        isOpen ? 'open' : ''
       } ${error}`}
       ref={dropdownRef}
     >
       <div
         className={`dropdown-header ${inter.className} ${
-          numberCode !== "" ? "dark-value" : ""
+          numberCode !== '' ? 'dark-value' : ''
         }`}
         onClick={toggleDropdown}
       >
         <span className="country-span">
           {selectedFlag && (
-            <div className="country-flag" style={{ marginRight: "10px" }}>
+            <div className="country-flag" style={{ marginRight: '10px' }}>
               <img src={selectedFlag} alt="flag" />
             </div>
           )}
@@ -155,7 +155,7 @@ const CustomDropdown = (props) => {
         </div>
       </div>
 
-      <div className={`dropdown-options ${isOpen ? "open" : ""}`}>
+      <div className={`dropdown-options ${isOpen ? 'open' : ''}`}>
         {isOpen && (
           <div className="options-container">
             {/* Add search input */}
@@ -176,10 +176,10 @@ const CustomDropdown = (props) => {
                   key={opt.id}
                   className={`countries-options single-option ${
                     inter.className
-                  } ${index === selectedOptionIndex ? "selected" : ""} ${
+                  } ${index === selectedOptionIndex ? 'selected' : ''} ${
                     isOptionSelected && index === selectedOptionIndex
-                      ? "highlight"
-                      : ""
+                      ? 'highlight'
+                      : ''
                   }`}
                   onClick={() => {
                     setNumberCode(opt.phone);
@@ -189,7 +189,7 @@ const CustomDropdown = (props) => {
                     updateCountry(opt.option);
                     setIsOptionSelected(true);
                     inputRef.current && inputRef.current.focus();
-                    setSearchTerm(""); // Clear the input text
+                    setSearchTerm(''); // Clear the input text
 
                     // Remove the selected class after a short delay
                     setTimeout(() => {
