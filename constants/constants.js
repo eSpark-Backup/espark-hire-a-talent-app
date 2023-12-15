@@ -1533,7 +1533,7 @@ export const privacyPolicy = {
               clients by offering the demanding skills of outsourced
               professionals. During the process of collaboration and onboarding,
               we protect the rights of the users and address you about the legal
-              consent and authorized usage of the personal data.{' '}
+              consent and authorized usage of the personal data.
             </p>
             <h4>Collection of Information</h4>
             <p>
@@ -1637,7 +1637,7 @@ export const privacyPolicy = {
               We gather the information after the approval of employees,
               employers, and other visitors on the website. The process of
               deletion can occur by mailing us on our official email address
-              mentioned in the website contact section.{' '}
+              mentioned in the website contact section.
             </p>
             <h4>Children’s Privacy</h4>
             <p>
@@ -1646,7 +1646,7 @@ export const privacyPolicy = {
               shared with us. Our privacy policy only addresses 18+
               professionals and displays information related to corporate world
               dynamics. eSpark Talent strictly proscribes children under 13
-              years old to participate in highlighting sections of the website.{' '}
+              years old to participate in highlighting sections of the website.
             </p>
             <h4>Change in Privacy Policy</h4>
             <p>

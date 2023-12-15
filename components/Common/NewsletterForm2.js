@@ -1,6 +1,7 @@
-import React from "react";
-import Link from "next/link";
-import { useRouter } from "next/router";
+import React from 'react';
+import Link from 'next/link';
+import Image from 'next/image';
+import { useRouter } from 'next/router';
 
 const NewsletterForm2 = () => {
   const router = useRouter();
@@ -31,19 +32,25 @@ const NewsletterForm2 = () => {
               )}
             </div>
             <div className="shape1">
-              <img
+              <Image
+                height={177}
+                width={177}
                 src="/images/cta/ctaImage1.png"
                 alt="Global Recruitment - global recruitment agency - worldwide recruiting agency - global recruitment services - global recruitment solutions - eSpark Talent"
               />
             </div>
             <div className="shape3">
-              <img
+              <Image
+                height={116}
+                width={116}
                 src="/images/cta/ctaImage2.png"
                 alt="Global Recruitment - global recruitment agency - worldwide recruiting agency - global recruitment services - global recruitment solutions - eSpark Talent"
               />
             </div>
             <div className="shape4">
-              <img
+              <Image
+                height={210}
+                width={210}
                 src="/images/cta/ctaImage3.png"
                 alt="Global Recruitment - global recruitment agency - worldwide recruiting agency - global recruitment services - global recruitment solutions - eSpark Talent"
               />

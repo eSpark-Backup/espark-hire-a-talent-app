@@ -1,4 +1,5 @@
 import React from 'react';
+import Image from 'next/image';
 
 const StarRating = ({ stars }) => {
   const ratings = [1, 2, 3, 4, 5];
@@ -7,13 +8,15 @@ const StarRating = ({ stars }) => {
     <ul className="feedback-rating-ul">
       {ratings.map((rating, index) => (
         <li key={index}>
-          <img
+          <Image
             src={
               rating <= stars
                 ? '/images/discovery_call/bright-star.svg'
                 : '/images/discovery_call/dark-star.svg'
             }
             alt="rating_img"
+            height={25}
+            width={25}
           />
         </li>
       ))}

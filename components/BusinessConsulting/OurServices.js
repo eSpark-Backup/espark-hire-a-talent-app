@@ -1,8 +1,9 @@
-import React from "react";
-import Link from "next/link";
-import { Swiper, SwiperSlide } from "swiper/react";
-import { Pagination } from "swiper";
-import { Autoplay } from "swiper";
+import React from 'react';
+import Image from 'next/image';
+import Link from 'next/link';
+import { Swiper, SwiperSlide } from 'swiper/react';
+import { Pagination } from 'swiper';
+import { Autoplay } from 'swiper';
 
 const OurServices = ({ title, para, items }) => {
   return (
@@ -50,9 +51,11 @@ const OurServices = ({ title, para, items }) => {
                   }
                 >
                   <div className="d-flex align-items-center">
-                    <img
+                    <Image
                       src={eachCard.imageLink}
                       alt="Global Recruitment - global recruitment agency - worldwide recruiting agency - global recruitment services - global recruitment solutions - eSpark Talent"
+                      width={79}
+                      height={79}
                     />
                     <h3>{eachCard.title}</h3>
                   </div>
