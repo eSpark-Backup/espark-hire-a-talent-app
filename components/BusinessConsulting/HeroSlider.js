@@ -21,7 +21,7 @@ const HeroSlider = (props) => {
                 <div className="container">
                   <div className="row align-items-center">
                     <div className="col-xl-6 col-lg-6 col-md-12">
-                      <div className="home-content pb-5 pt-2">
+                      <div className="home-content pb-md-5 pt-md-2">
                         <h1>{slide.title}</h1>
                         <h5>{slide.para}</h5>
                         <Link
