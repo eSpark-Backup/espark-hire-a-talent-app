@@ -1,6 +1,6 @@
-import React, { useState, useEffect } from "react";
+import React, { useState, useEffect } from 'react';
 
-import { Animate } from "react-move";
+import { Animate } from 'react-move';
 
 const AnimatedProgressProvider = (props) => {
   const { duration, valueStart, valueEnd, easingFunction, children } = props;

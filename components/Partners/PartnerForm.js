@@ -123,7 +123,6 @@ const PartnerForm = () => {
   });
 
   const handlePhoneChange = (event) => {
-    console.log(event, 'eventss');
     setFieldValue((values.phone_number = event));
   };
 
@@ -144,7 +143,7 @@ const PartnerForm = () => {
                 className="input"
                 name="first_name"
                 placeholder="First Name"
-                value={values?.first_name}
+                value={values.first_name}
                 onChange={handleChange}
               />
               {touched?.first_name && errors?.first_name && (
@@ -160,7 +159,7 @@ const PartnerForm = () => {
                 className="input"
                 placeholder="Last Name"
                 name="last_name"
-                value={values?.last_name}
+                value={values.last_name}
                 onChange={handleChange}
               />
               {touched?.last_name && errors?.last_name && (
@@ -177,7 +176,7 @@ const PartnerForm = () => {
               className="input"
               placeholder="Email"
               name="email"
-              value={values?.email}
+              value={values.email}
               onChange={handleChange}
             />
             {touched?.email && errors?.email && (
@@ -222,7 +221,7 @@ const PartnerForm = () => {
               type="text"
               className="input"
               name="linkedin_profile_link"
-              value={values?.linkedin_profile_link}
+              value={values.linkedin_profile_link}
               placeholder="Enter your LinkedIn profile URL"
               onChange={handleChange}
             />

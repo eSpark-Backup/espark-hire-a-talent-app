@@ -1,10 +1,10 @@
-import React, { useState, useEffect } from "react";
-import Link from "next/link";
-import { useRouter } from "next/router";
+import React, { useState, useEffect } from 'react';
+import Link from 'next/link';
+import { useRouter } from 'next/router';
 
 const CareerCards = ({ jobs, jobCategories }) => {
   const router = useRouter();
-  const [selectedCategory, setSelectedCategory] = useState("All");
+  const [selectedCategory, setSelectedCategory] = useState('All');
   const [currentPage, setCurrentPage] = useState(1);
   const [postsPerPage] = useState(10);
 
@@ -33,13 +33,13 @@ const CareerCards = ({ jobs, jobCategories }) => {
     const categoryById = jobCategories.find(
       (category) => category._id === router.query.jobCategory
     );
-    setSelectedCategory(categoryById ? categoryById._id : "all");
+    setSelectedCategory(categoryById ? categoryById._id : 'all');
     setCurrentPage(1);
   }, [jobs, jobCategories, router]);
 
   const renderPaginationButtons = () => {
     const buttons = [];
-    let ellipsis = "...";
+    let ellipsis = '...';
 
     for (let page = 1; page <= totalPages; page++) {
       const isSelected = page === currentPage;
@@ -52,7 +52,7 @@ const CareerCards = ({ jobs, jobCategories }) => {
         buttons.push(
           <button
             key={page}
-            className={isSelected ? "current page-numbers" : "page-numbers"}
+            className={isSelected ? 'current page-numbers' : 'page-numbers'}
             onClick={() => handlePageClick(page)}
           >
             {page}
@@ -131,10 +131,10 @@ const CareerCards = ({ jobs, jobCategories }) => {
                 <button
                   onClick={handlePreviousClick}
                   className={
-                    currentPage === 1 ? "page-numbers disabled" : "page-numbers"
+                    currentPage === 1 ? 'page-numbers disabled' : 'page-numbers'
                   }
                   style={{
-                    cursor: currentPage === 1 ? "default" : "pointer",
+                    cursor: currentPage === 1 ? 'default' : 'pointer',
                   }}
                 >
                   <i className="ri-arrow-left-line"></i>
@@ -145,11 +145,11 @@ const CareerCards = ({ jobs, jobCategories }) => {
                 <button
                   className={
                     currentPage === totalPages
-                      ? "page-numbers disabled"
-                      : "page-numbers"
+                      ? 'page-numbers disabled'
+                      : 'page-numbers'
                   }
                   style={{
-                    cursor: currentPage === totalPages ? "default" : "pointer",
+                    cursor: currentPage === totalPages ? 'default' : 'pointer',
                   }}
                   onClick={handleNextClick}
                 >

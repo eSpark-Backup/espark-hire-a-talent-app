@@ -10,6 +10,7 @@ import countries from '/constants/countries.json';
 import CustomDropdown from './CustomDropdown';
 import PartnerFlagDropdown from './CountryCode';
 import BookAMeetingModal from '../BookAMeetingModal';
+import { router } from 'next/router';
 
 const userid = process.env.NEXT_PUBLIC_BOOK_A_MEETING_EMAILJS_USER_ID;
 const templeteid = process.env.NEXT_PUBLIC_BOOK_A_MEETING_EMAILJS_TEMPLATE_ID;
@@ -49,24 +50,24 @@ const Form = ({ companySize }) => {
   useEffect(() => {
     const detail = countries?.find((item) => item?.option === 'Pakistan');
 
-    setNumberCode(detail.phone[0]);
-    setSelectedFlag(detail.image);
-    setCurrentPhoneLength(detail.phoneLength);
-    setState((state) => ({ ...state, country: detail.option }));
+    setNumberCode(detail?.phone[0]);
+    setSelectedFlag(detail?.image);
+    setCurrentPhoneLength(detail?.phoneLength);
+    setState((state) => ({ ...state, country: detail?.option }));
   }, [countries]);
 
   const updateNumber = (value) => {
     const detail = countries?.find((item) => item?.option === value);
 
-    setNumberCode(detail.phone[0]);
-    setSelectedFlag(detail.image);
-    setCurrentPhoneLength(detail.phoneLength);
+    setNumberCode(detail?.phone[0]);
+    setSelectedFlag(detail?.image);
+    setCurrentPhoneLength(detail?.phoneLength);
   };
 
   const updateCountry = (value) => {
     const detail = countries?.find((item) => item?.option === value);
 
-    setState((state) => ({ ...state, country: detail.option }));
+    setState((state) => ({ ...state, country: detail?.option }));
   };
 
   const handleInputchange = (key, value) => {
@@ -91,7 +92,7 @@ const Form = ({ companySize }) => {
   const onSubmit = () => {
     const emailRegex = /^[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,}$/i;
 
-    if (!emailRegex.test(state.company_email) && state.company_email !== '') {
+    if (!emailRegex.test(state?.company_email) && state?.company_email !== '') {
       setEmailError('Invalid email address');
       setErrorState((errorState) => ({ ...errorState, company_email: true }));
     } else {
@@ -100,8 +101,8 @@ const Form = ({ companySize }) => {
     }
 
     if (
-      currentPhoneLength > +state.phone_number.length ||
-      currentPhoneLength < +state.phone_number.length
+      currentPhoneLength > +state?.phone_number.length ||
+      currentPhoneLength < +state?.phone_number.length
     ) {
       setNumberError('Invalid number');
       setErrorState((errorState) => ({ ...errorState, phone_number: true }));
@@ -111,37 +112,37 @@ const Form = ({ companySize }) => {
     }
 
     if (
-      state.first_name === '' ||
-      state.last_name === '' ||
-      state.company_email === '' ||
+      state?.first_name === '' ||
+      state?.last_name === '' ||
+      state?.company_email === '' ||
       emailError !== '' ||
-      state.company_size === 'Please Select' ||
-      state.phone_number === '' ||
+      state?.company_size === 'Please Select' ||
+      state?.phone_number === '' ||
       numberError !== '' ||
-      state.country === 'Please Select'
+      state?.country === 'Please Select'
     ) {
       setErrorState({
-        first_name: state.first_name === '' ? true : false,
-        last_name: state.last_name === '' ? true : false,
-        company_email: state.company_email === '' ? true : false,
-        company_size: state.company_size === 'Please Select' ? true : false,
-        phone_number: state.phone_number === '' ? true : false,
-        country: state.country === 'Please Select' ? true : false,
+        first_name: state?.first_name === '' ? true : false,
+        last_name: state?.last_name === '' ? true : false,
+        company_email: state?.company_email === '' ? true : false,
+        company_size: state?.company_size === 'Please Select' ? true : false,
+        phone_number: state?.phone_number === '' ? true : false,
+        country: state?.country === 'Please Select' ? true : false,
       });
     } else {
-      const combineNumber = `${numberCode}${state.phone_number}`;
+      const combineNumber = `${numberCode}${state?.phone_number}`;
 
       emailjs.init(userid);
 
       try {
         emailjs
           .send(serviceid, templeteid, {
-            first_name: state.first_name,
-            last_name: state.last_name,
-            company_size: state.company_size,
-            company_email: state.company_email,
+            first_name: state?.first_name,
+            last_name: state?.last_name,
+            company_size: state?.company_size,
+            company_email: state?.company_email,
             phone_number: combineNumber,
-            country: state.country,
+            country: state?.country,
             company_name: 'eSpark',
           })
           .then(({ status }) => {
@@ -220,7 +221,6 @@ const Form = ({ companySize }) => {
           });
       } catch (error) {
         console.error('Error submitting the form:', error);
-        window.open('https://calendly.com/esparktalents/60min', '_blank');
       }
     }
   };
@@ -248,15 +248,15 @@ const Form = ({ companySize }) => {
               <input
                 type="text"
                 className={`form-control ${inter.className} ${
-                  errorState.first_name ? 'error' : ''
+                  errorState?.first_name ? 'error' : ''
                 }`}
                 placeholder="First Name"
-                value={state.first_name}
+                value={state?.first_name}
                 onChange={(e) =>
                   handleInputchange('first_name', e.target.value)
                 }
               />
-              {errorState.first_name ? (
+              {errorState?.first_name ? (
                 <p className="error-para">Please enter First Name</p>
               ) : null}
             </div>
@@ -271,13 +271,13 @@ const Form = ({ companySize }) => {
               <input
                 type="text"
                 className={`form-control ${inter.className} ${
-                  errorState.last_name ? 'error' : ''
+                  errorState?.last_name ? 'error' : ''
                 }`}
                 placeholder="Last Name"
-                value={state.last_name}
+                value={state?.last_name}
                 onChange={(e) => handleInputchange('last_name', e.target.value)}
               />
-              {errorState.last_name ? (
+              {errorState?.last_name ? (
                 <p className="error-para">Please enter Last Name</p>
               ) : null}
             </div>
@@ -292,15 +292,15 @@ const Form = ({ companySize }) => {
               <input
                 type="email"
                 className={`form-control ${inter.className} ${
-                  errorState.company_email || emailError !== '' ? 'error' : ''
+                  errorState?.company_email || emailError !== '' ? 'error' : ''
                 }`}
                 placeholder="Company Email"
-                value={state.company_email}
+                value={state?.company_email}
                 onChange={(e) =>
                   handleInputchange('company_email', e.target.value)
                 }
               />
-              {errorState.company_email || emailError !== '' ? (
+              {errorState?.company_email || emailError !== '' ? (
                 <p className="error-para">
                   {emailError !== ''
                     ? emailError
@@ -318,11 +318,11 @@ const Form = ({ companySize }) => {
 
               <CustomDropdown
                 data={companySize}
-                value={state.company_size}
+                value={state?.company_size}
                 setCompany={(value) =>
                   setState((state) => ({ ...state, company_size: value }))
                 }
-                error={errorState.company_size ? 'error' : ''}
+                error={errorState?.company_size ? 'error' : ''}
                 errorState={errorState}
                 inter={inter}
               />
@@ -339,7 +339,9 @@ const Form = ({ companySize }) => {
                 <PartnerFlagDropdown
                   data={countries}
                   error={
-                    errorState.phone_number || numberError !== '' ? 'error' : ''
+                    errorState?.phone_number || numberError !== ''
+                      ? 'error'
+                      : ''
                   }
                   errorState={errorState}
                   inter={inter}
@@ -354,17 +356,19 @@ const Form = ({ companySize }) => {
                 <input
                   type="number"
                   className={`form-control ${inter.className} ${
-                    errorState.phone_number || numberError !== '' ? 'error' : ''
+                    errorState?.phone_number || numberError !== ''
+                      ? 'error'
+                      : ''
                   }`}
                   placeholder={`${createZeros(currentPhoneLength)}`}
-                  value={state.phone_number}
+                  value={state?.phone_number}
                   onChange={(e) =>
                     handleInputchange('phone_number', e.target.value)
                   }
                 />
               </div>
 
-              {errorState.phone_number || numberError !== '' ? (
+              {errorState?.phone_number || numberError !== '' ? (
                 <p className="error-para">
                   {numberError !== ''
                     ? numberError
@@ -382,18 +386,14 @@ const Form = ({ companySize }) => {
 
               <select
                 className="partner-country-dropdown"
-                value={state.country}
+                value={state?.country}
                 onChange={(e) => handleInputchange('country', e.target.value)}
                 onClick={(e) => updateNumber(e.target.value)}
               >
                 <option className="default-select">Please Select</option>
                 {countries?.map((country, index) => (
-                  <option
-                    key={index}
-                    value={country.option}
-                    onClick={(e) => console.log(e)}
-                  >
-                    {country.option}
+                  <option key={index} value={country?.option}>
+                    {country?.option}
                   </option>
                 ))}
               </select>

@@ -20,7 +20,7 @@ const NewsletterForm2 = () => {
                 Get in touch with skilled interviewers who will help <br /> you
                 find the right people for your company's growth
               </p>
-              {gettingPath === "/thankyou" ? null : (
+              {gettingPath === '/thankyou' ? null : (
                 <div className="newsletter-form">
                   <Link
                     href="https://calendly.com/esparktalents/60min?month=2023-09"
