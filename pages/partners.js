@@ -3,7 +3,6 @@ import PartnerMain from '@/components/Partners/PartnerMain';
 
 import {
   PartnersContentData,
-  PartnersFormData,
   PartnersTitleData,
 } from 'constants/partnersConstants';
 import React from 'react';
@@ -18,10 +17,7 @@ const Partners = () => {
         description={description}
         image={image}
       />
-      <PartnerMain
-        PartnersContentData={PartnersContentData}
-        PartnersFormData={PartnersFormData}
-      />
+      <PartnerMain PartnersContentData={PartnersContentData} />
     </div>
   );
 };
