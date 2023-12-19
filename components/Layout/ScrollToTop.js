@@ -1,12 +1,12 @@
-import React, { useState, useEffect } from "react";
+import React, { useState, useEffect } from 'react';
 
 const ScrollToTop = () => {
   const [showScroll, setShowScroll] = useState(false);
 
   useEffect(() => {
-    window.addEventListener("scroll", checkScrollTop);
+    window.addEventListener('scroll', checkScrollTop);
     return function cleanup() {
-      window.removeEventListener("scroll", checkScrollTop);
+      window.removeEventListener('scroll', checkScrollTop);
     };
   });
 
@@ -19,7 +19,7 @@ const ScrollToTop = () => {
   };
 
   const scrollTop = () => {
-    window.scrollTo({ top: 0, behavior: "smooth" });
+    window.scrollTo({ top: 0, behavior: 'smooth' });
   };
 
   return (
@@ -28,7 +28,7 @@ const ScrollToTop = () => {
         className="scroll-to-top"
         onClick={scrollTop}
         style={{
-          display: showScroll ? "block" : "none",
+          display: showScroll ? 'block' : 'none',
         }}
       >
         <i className="ri-arrow-up-s-line"></i>

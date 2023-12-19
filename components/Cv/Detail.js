@@ -1,6 +1,6 @@
-import React from "react";
+import React from 'react';
 
-import CvCard from "./CvCard";
+import CvCard from './CvCard';
 
 const Detail = (props) => {
   const { about, yearsOfExperience, expertise, englishLevel, windowWidth } =
@@ -25,7 +25,7 @@ const Detail = (props) => {
           <div className="">
             <div
               className={`profile-details-area ${
-                windowWidth < 375 ? "justify-content-start" : ""
+                windowWidth < 375 ? 'justify-content-start' : ''
               }`}
             >
               <div className="expertise common-flex d-flex flex-column justify-content-between col-lg-4 col-md-6 col-sm-6 p-0">

@@ -1,9 +1,9 @@
-import React, { useState, useEffect } from "react";
+import React, { useState, useEffect } from 'react';
 
-import "react-circular-progressbar/dist/styles.css";
+import 'react-circular-progressbar/dist/styles.css';
 
-import CvCard from "./CvCard";
-import ProgressBar from "./Progressbar";
+import CvCard from './CvCard';
+import ProgressBar from './Progressbar';
 
 const Common = (props) => {
   const { heading, data, feedback } = props;
@@ -17,10 +17,10 @@ const Common = (props) => {
 
     handleResize();
 
-    window.addEventListener("resize", handleResize);
+    window.addEventListener('resize', handleResize);
 
     return () => {
-      window.removeEventListener("resize", handleResize);
+      window.removeEventListener('resize', handleResize);
     };
   }, []);
 
@@ -30,13 +30,13 @@ const Common = (props) => {
 
       <div
         className={[
-          "progress-info-area",
-          windowWidth < 376 ? "progress-info-area-small" : "",
-        ].join(" ")}
+          'progress-info-area',
+          windowWidth < 376 ? 'progress-info-area-small' : '',
+        ].join(' ')}
       >
         {data.map((expert) => (
           <div className="progress-info">
-            <h6 className={feedback ? "feedback-name" : "names"}>
+            <h6 className={feedback ? 'feedback-name' : 'names'}>
               {expert.name}
             </h6>
             <ProgressBar endValue={expert.percentage} />
