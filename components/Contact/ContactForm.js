@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-import axios from 'axios';
 import Swal from 'sweetalert2';
 import withReactContent from 'sweetalert2-react-content';
 import emailjs from '@emailjs/browser';
@@ -12,17 +11,6 @@ const templeteid = process.env.NEXT_PUBLIC_CONTECT_US_EMAILJS_TEMPLATE_ID;
 const serviceid = process.env.NEXT_PUBLIC_CONTECT_US_EMAILJS_SERVICE_ID;
 
 configDotenv();
-const alertContent = () => {
-  MySwal.fire({
-    title: 'Congratulations!',
-    text: 'Your message was successfully sent and will be back to you soon',
-    icon: 'success',
-    timer: 2000,
-    timerProgressBar: true,
-    showConfirmButton: false,
-  });
-};
-// Form initial state
 const INITIAL_STATE = {
   name: '',
   email: '',
@@ -42,7 +30,7 @@ const ContactForm = () => {
       setIsValidPhoneNumber(phonePattern.test(value));
     }
   };
-  const handleSubmit = (e) => {
+  const handleSubmit = async (e) => {
     e.preventDefault();
     const { name, email, number, subject, text } = contact;
     if (isValidPhoneNumber) {
@@ -58,9 +46,24 @@ const ContactForm = () => {
         })
         .then(
           (result) => {
-            alertContent();
+            MySwal.fire({
+              title: 'Thanks!',
+              text: 'Your message was successfully sent and will be back to you soon',
+              icon: 'success',
+              timer: 2000,
+              timerProgressBar: true,
+              showConfirmButton: false,
+            });
           },
           (error) => {
+            MySwal.fire({
+              title: 'Oops!',
+              text: `Your message wasn't successfully sent and please try again`,
+              icon: 'error',
+              timer: 2000,
+              timerProgressBar: true,
+              showConfirmButton: false,
+            });
             console.log(error);
           }
         );
