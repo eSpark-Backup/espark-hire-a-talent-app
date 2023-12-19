@@ -18,25 +18,6 @@ class MyDocument extends Document {
           />
           <script
             dangerouslySetInnerHTML={{
-              __html: `
-              function vqTrackPc(){return 1;}
-            `,
-            }}
-          ></script>
-          <script
-            dangerouslySetInnerHTML={{
-              __html: `
-              (function(d, e) {
-                var el = d.createElement(e);
-                el.sa = function(an, av){this.setAttribute(an, av); return this;};
-                el.sa('id', 'vq_personalisation').sa('src', '//personalisation.visitorqueue.com/p/personalisation.min.js?id='+vqTrackId()).sa('async', 1).sa('data-id', vqTrackId());
-                d.getElementsByTagName(e)[0].parentNode.appendChild(el);
-              })(document, 'script');
-            `,
-            }}
-          ></script>
-          <script
-            dangerouslySetInnerHTML={{
               __html: `!function(f,b,e,v,n,t,s)
               {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
               n.callMethod.apply(n,arguments):n.queue.push(arguments)};
