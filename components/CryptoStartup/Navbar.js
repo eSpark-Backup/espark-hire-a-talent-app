@@ -8,22 +8,22 @@ const Navbar = () => {
     setMenu(!menu);
   };
   React.useEffect(() => {
-    let elementId = document.getElementById("navbar");
-    document.addEventListener("scroll", () => {
+    let elementId = document.getElementById('navbar');
+    document.addEventListener('scroll', () => {
       if (window.scrollY > 170) {
-        elementId.classList.add("is-sticky");
+        elementId.classList.add('is-sticky');
       } else {
-        elementId.classList.remove("is-sticky");
+        elementId.classList.remove('is-sticky');
       }
     });
   });
 
   const classOne = menu
-    ? "collapse navbar-collapse mean-menu"
-    : "collapse navbar-collapse show";
+    ? 'collapse navbar-collapse mean-menu'
+    : 'collapse navbar-collapse show';
   const classTwo = menu
-    ? "navbar-toggler navbar-toggler-right collapsed"
-    : "navbar-toggler navbar-toggler-right";
+    ? 'navbar-toggler navbar-toggler-right collapsed'
+    : 'navbar-toggler navbar-toggler-right';
 
   return (
     <>
@@ -72,7 +72,7 @@ const Navbar = () => {
                     </li>
 
                     <li className="nav-item">
-                      <Link legacyBehavior href="/index-2" className="nav-link">
+                      <Link href="/index-2" className="nav-link">
                         Digital Marketing
                       </Link>
                     </li>
