@@ -5,36 +5,6 @@ class MyDocument extends Document {
     return (
       <Html lang="zxx">
         <Head>
-          <link
-            rel="dns-prefetch"
-            href="//t.visitorqueue.com"
-            style={{ display: 'none' }}
-          />
-          <link
-            rel="stylesheet"
-            type="text/css"
-            href="https://p.visitorqueue.com/styles/50055173-4b1d-4458-b3ca-e5bc55743460.css"
-            id="vq_flick_styles"
-          />
-          <script
-            dangerouslySetInnerHTML={{
-              __html: `
-              function vqTrackPc(){return 1;}
-            `,
-            }}
-          ></script>
-          <script
-            dangerouslySetInnerHTML={{
-              __html: `
-              (function(d, e) {
-                var el = d.createElement(e);
-                el.sa = function(an, av){this.setAttribute(an, av); return this;};
-                el.sa('id', 'vq_personalisation').sa('src', '//personalisation.visitorqueue.com/p/personalisation.min.js?id='+vqTrackId()).sa('async', 1).sa('data-id', vqTrackId());
-                d.getElementsByTagName(e)[0].parentNode.appendChild(el);
-              })(document, 'script');
-            `,
-            }}
-          ></script>
           <script
             dangerouslySetInnerHTML={{
               __html: `!function(f,b,e,v,n,t,s)
@@ -65,14 +35,12 @@ class MyDocument extends Document {
           <script
             dangerouslySetInnerHTML={{
               __html: `
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'G-N43EVHZHXM');`,
+              window.dataLayer = window.dataLayer || [];
+              function gtag(){dataLayer.push(arguments);}
+              gtag('js', new Date());
+              gtag('config', 'G-N43EVHZHXM');`,
             }}
           />
-
           <script
             dangerouslySetInnerHTML={{
               __html: `
