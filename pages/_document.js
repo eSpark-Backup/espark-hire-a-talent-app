@@ -10,19 +10,6 @@ class MyDocument extends Document {
             href="//t.visitorqueue.com"
             style={{ display: 'none' }}
           />
-          <script
-            dangerouslySetInnerHTML={{
-              __html: `
-              function vqTrackId(){return '50055173-4b1d-4458-b3ca-e5bc55743460';}
-              (function(d, e) {
-                var el = d.createElement(e);
-                el.sa = function(an, av){this.setAttribute(an, av); return this;};
-                el.sa('id', 'vq_tracking').sa('src', '//t.visitorqueue.com/p/tracking.min.js?id='+vqTrackId()).sa('async', 1).sa('data-id', vqTrackId());
-                d.getElementsByTagName(e)[0].parentNode.appendChild(el);
-              })(document, 'script');
-            `,
-            }}
-          ></script>
           <link
             rel="stylesheet"
             type="text/css"
