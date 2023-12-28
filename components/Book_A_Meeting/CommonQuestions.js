@@ -1,11 +1,11 @@
-import React, { useState } from "react";
+import React, { useState } from 'react';
 import {
   Accordion,
   AccordionItem,
   AccordionItemButton,
   AccordionItemHeading,
   AccordionItemPanel,
-} from "react-accessible-accordion";
+} from 'react-accessible-accordion';
 
 const CommonQuestions = ({ commonQuestions }) => {
   const [allowZeroExpanded, setallowZeroExpanded] = useState(true);
@@ -20,7 +20,7 @@ const CommonQuestions = ({ commonQuestions }) => {
     });
 
     setData(updatedData);
-    setallowZeroExpanded(!updatedData.some((item) => item.toggle));
+    setallowZeroExpanded(!updatedData.some((item) => item?.toggle));
   };
 
   return (
@@ -38,10 +38,10 @@ const CommonQuestions = ({ commonQuestions }) => {
                   return i % 2 === 0 ? (
                     <div
                       className="col-lg-12 col-md-12 col-sm-12"
-                      key={quest.id}
+                      key={quest?.id}
                     >
                       <AccordionItem
-                        className={`accord-item ${quest.toggle ? "m-0" : ""}`}
+                        className={`accord-item ${quest?.toggle ? 'm-0' : ''}`}
                       >
                         <AccordionItemHeading>
                           <AccordionItemButton>
@@ -49,11 +49,11 @@ const CommonQuestions = ({ commonQuestions }) => {
                               className="accordion-button-child"
                               onClick={() => onChangeToggle(i)}
                             >
-                              <span>{quest.question}</span>
+                              <span>{quest?.question}</span>
 
                               <div
                                 className={`${
-                                  quest.toggle ? "rotate-icon" : "down-arrow"
+                                  quest?.toggle ? 'rotate-icon' : 'down-arrow'
                                 }`}
                               >
                                 <img
@@ -65,7 +65,7 @@ const CommonQuestions = ({ commonQuestions }) => {
                           </AccordionItemButton>
                         </AccordionItemHeading>
                         <AccordionItemPanel>
-                          <p>{quest.answer}</p>
+                          <p>{quest?.answer}</p>
                         </AccordionItemPanel>
                       </AccordionItem>
                     </div>
@@ -78,10 +78,10 @@ const CommonQuestions = ({ commonQuestions }) => {
                   return i % 2 !== 0 ? (
                     <div
                       className="col-lg-12 col-md-12 col-sm-12"
-                      key={quest.id}
+                      key={quest?.id}
                     >
                       <AccordionItem
-                        className={`accord-item ${quest.toggle ? "m-0" : ""}`}
+                        className={`accord-item ${quest?.toggle ? 'm-0' : ''}`}
                       >
                         <AccordionItemHeading>
                           <AccordionItemButton>
@@ -89,11 +89,11 @@ const CommonQuestions = ({ commonQuestions }) => {
                               className="accordion-button-child"
                               onClick={() => onChangeToggle(i)}
                             >
-                              <span>{quest.question}</span>
+                              <span>{quest?.question}</span>
 
                               <div
                                 className={`${
-                                  quest.toggle ? "rotate-icon" : "down-arrow"
+                                  quest?.toggle ? 'rotate-icon' : 'down-arrow'
                                 }`}
                               >
                                 <img
@@ -105,7 +105,7 @@ const CommonQuestions = ({ commonQuestions }) => {
                           </AccordionItemButton>
                         </AccordionItemHeading>
                         <AccordionItemPanel>
-                          <p>{quest.answer}</p>
+                          <p>{quest?.answer}</p>
                         </AccordionItemPanel>
                       </AccordionItem>
                     </div>

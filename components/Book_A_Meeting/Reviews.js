@@ -1,15 +1,15 @@
-import React from "react";
+import React from 'react';
 
-import { Swiper, SwiperSlide } from "swiper/react";
+import { Swiper, SwiperSlide } from 'swiper/react';
 
-import "swiper/css";
-import "swiper/css/effect-coverflow";
-import "swiper/css/pagination";
-import "swiper/css/navigation";
+import 'swiper/css';
+import 'swiper/css/effect-coverflow';
+import 'swiper/css/pagination';
+import 'swiper/css/navigation';
 
-import { EffectCoverflow, Pagination, Navigation, EffectFade } from "swiper";
+import { EffectCoverflow, Pagination, Navigation, EffectFade } from 'swiper';
 
-import StarRating from "../Book_A_Discovery_Call/StarRating";
+import StarRating from '../Book_A_Discovery_Call/StarRating';
 
 const Reviews = ({ items }) => {
   return (
@@ -20,11 +20,11 @@ const Reviews = ({ items }) => {
 
           <div className="reviews-swiper">
             <Swiper
-              effect={"coverflow"}
+              effect={'coverflow'}
               fadeEffect={{ crossFade: true }}
               grabCursor={false}
               centeredSlides={true}
-              slidesPerView={"auto"}
+              slidesPerView={'auto'}
               coverflowEffect={{
                 rotate: 0,
                 stretch: 0,
@@ -47,7 +47,7 @@ const Reviews = ({ items }) => {
                   slidesPerView: 1,
                 },
                 1200: {
-                  slidesPerView: "auto",
+                  slidesPerView: 'auto',
                 },
               }}
             >

@@ -1,12 +1,13 @@
-import React from "react";
-import { createClient } from "next-sanity";
-import imageUrlBuilder from "@sanity/image-url";
-import Link from "next/link";
-import Image from "next/image";
+import React from 'react';
+import { createClient } from 'next-sanity';
+import imageUrlBuilder from '@sanity/image-url';
+import Link from 'next/link';
+import Image from 'next/image';
 
 const client = createClient({
-  projectId: "93d1bm1e",
-  dataset: "production",
+  projectId: '93d1bm1e',
+  dataset: 'production',
+  apiVersion: '2021-10-21',
   useCdn: true,
 });
 
@@ -18,8 +19,12 @@ function urlFor(source) {
 export default function CV({ candidates }) {
   return (
     <div className="container cv-main-area">
-      <div className="row">
-        {candidates.map((candidate, index) => (
+      <div
+        className={`row ${
+          candidates?.length <= 2 ? 'justify-content-center' : ''
+        }`}
+      >
+        {candidates?.map((candidate, index) => (
           <div className="col-lg-4 col-md-6 col-sm-12 col" key={index}>
             <GridView candidate={candidate} />
           </div>
@@ -57,8 +62,7 @@ const GridView = ({ candidate }) => {
         </div>
 
         <div className="text-center mb-3">
-          {/* Add your functionality here */}
-          <Link href={`/cvs/${candidate._id}`}>
+          <Link href={`/cvs/${candidate._id}`} target="blank">
             <button className="cv-view-more">View More</button>
           </Link>
         </div>
@@ -74,14 +78,14 @@ export async function getStaticProps() {
       '*[_type == "candidate"]{profileImage, firstName, lastName, objective, role, _id}'
     );
 
-    console.log("candidates", candidates);
+    console.log('candidates', candidates);
     return {
       props: {
         candidates,
       },
     };
   } catch (error) {
-    console.error("Error fetching data from Sanity:", error);
+    console.error('Error fetching data from Sanity:', error);
     return {
       props: {
         candidates: [],
