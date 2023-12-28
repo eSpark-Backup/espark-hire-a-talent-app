@@ -10,7 +10,7 @@ const PartnerSlider = ({ heading }) => {
         <div className="container">
           <div className="section-title">
             <h2 className="text-center">
-              {heading ? heading : "We Value Our Admirable Clients "}
+              {heading ? heading : 'We Value Our Admirable Clients '}
             </h2>
           </div>
           <Swiper

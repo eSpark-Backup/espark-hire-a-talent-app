@@ -1,10 +1,10 @@
 /** @type {import('next').NextConfig} */
-const path = require("path");
+const path = require('path');
 const nextConfig = {
   reactStrictMode: true,
   trailingSlash: true,
   sassOptions: {
-    includePaths: [path.join(__dirname, "styles")],
+    includePaths: [path.join(__dirname, 'styles')],
   },
   optimizeFonts: false,
   eslint: {
@@ -13,7 +13,7 @@ const nextConfig = {
     ignoreDuringBuilds: true,
   },
   images: {
-    domains: ["cdn.sanity.io"],
+    domains: ['cdn.sanity.io'],
   },
 };
 

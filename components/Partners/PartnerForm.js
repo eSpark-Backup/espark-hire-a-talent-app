@@ -13,8 +13,6 @@ import {} from 'react-phone-number-input';
 import PhoneInput from 'react-phone-number-input';
 import { isValidPhoneNumber } from 'react-phone-number-input';
 
-import { configDotenv } from 'dotenv';
-
 const userid = process.env.NEXT_PUBLIC_PARTNERS_EMAILJS_USER_ID;
 const templeteid = process.env.NEXT_PUBLIC_PARTNERS_EMAILJS_TEMPLATE_ID;
 const serviceid = process.env.NEXT_PUBLIC_PARTNERS_EMAILJS_SERVICE_ID;
@@ -107,6 +105,7 @@ const PartnerForm = () => {
         }
       } catch (error) {
         action.resetForm();
+        values.phone_number = '';
         setTimeout(() => {
           setShowModal(!showModal);
           setModalTitle('Unfortunately, your data could not be submitted');
@@ -124,7 +123,6 @@ const PartnerForm = () => {
   });
 
   const handlePhoneChange = (event) => {
-    console.log(event, 'eventss');
     setFieldValue((values.phone_number = event));
   };
 
@@ -145,7 +143,7 @@ const PartnerForm = () => {
                 className="input"
                 name="first_name"
                 placeholder="First Name"
-                value={values?.first_name}
+                value={values.first_name}
                 onChange={handleChange}
               />
               {touched?.first_name && errors?.first_name && (
@@ -161,7 +159,7 @@ const PartnerForm = () => {
                 className="input"
                 placeholder="Last Name"
                 name="last_name"
-                value={values?.last_name}
+                value={values.last_name}
                 onChange={handleChange}
               />
               {touched?.last_name && errors?.last_name && (
@@ -178,7 +176,7 @@ const PartnerForm = () => {
               className="input"
               placeholder="Email"
               name="email"
-              value={values?.email}
+              value={values.email}
               onChange={handleChange}
             />
             {touched?.email && errors?.email && (
@@ -198,11 +196,6 @@ const PartnerForm = () => {
                   defaultCountry={'PK'}
                   onChange={handlePhoneChange}
                 />
-                {/* {values?.phone_number ? (
-                  isValidPhoneNumber(values?.phone_number) ? undefined : (
-                    <span className="error-message">Invalid phone number</span>
-                  )
-                ) : null} */}
 
                 {touched?.phone_number && errors?.phone_number && (
                   <span className="error-message">{errors?.phone_number}</span>
@@ -228,7 +221,7 @@ const PartnerForm = () => {
               type="text"
               className="input"
               name="linkedin_profile_link"
-              value={values?.linkedin_profile_link}
+              value={values.linkedin_profile_link}
               placeholder="Enter your LinkedIn profile URL"
               onChange={handleChange}
             />

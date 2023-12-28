@@ -1,4 +1,4 @@
-import React from "react";
+import React from 'react';
 
 const ContentSection = ({ globalTeams }) => {
   return (
@@ -28,8 +28,8 @@ const ContentSection = ({ globalTeams }) => {
             className="book-demo-second"
             onClick={() =>
               window.open(
-                "https://calendly.com/esparktalents/60min?month=2023-09",
-                "_blank"
+                'https://calendly.com/esparktalents/60min?month=2023-09',
+                '_blank'
               )
             }
           >
