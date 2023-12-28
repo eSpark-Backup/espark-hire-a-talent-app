@@ -711,27 +711,27 @@
     padding: 15px;
   }
 
-  .plans-compare-table .table>thead tr th {
+  .plans-compare-table .table > thead tr th {
     padding: 10px 20px;
     font-size: 18px;
   }
 
-  .plans-compare-table .table>tbody tr td {
+  .plans-compare-table .table > tbody tr td {
     padding: 10px 20px;
     font-size: 15px;
   }
 
-  .plans-compare-table .table>tbody tr td i {
+  .plans-compare-table .table > tbody tr td i {
     font-size: 17px;
   }
 
-  .plans-compare-table .table>tfoot tr td {
+  .plans-compare-table .table > tfoot tr td {
     white-space: nowrap;
     padding: 10px 20px;
     font-size: 15px;
   }
 
-  .plans-compare-table .table>tfoot tr td .link-btn {
+  .plans-compare-table .table > tfoot tr td .link-btn {
     padding: 10px 20px;
     font-size: 14px;
   }
@@ -1927,11 +1927,17 @@
     font-size: 14.5px;
   }
 
-  .ico-landing-banner-content .banner-pre-token-sale-ends .pre-token-sale-ends-btn li {
+  .ico-landing-banner-content
+    .banner-pre-token-sale-ends
+    .pre-token-sale-ends-btn
+    li {
     margin-bottom: 5px;
   }
 
-  .ico-landing-banner-content .banner-pre-token-sale-ends .pre-token-sale-ends-btn li:last-child {
+  .ico-landing-banner-content
+    .banner-pre-token-sale-ends
+    .pre-token-sale-ends-btn
+    li:last-child {
     margin-bottom: 0;
   }
 
@@ -1988,16 +1994,26 @@
     margin-left: 0;
   }
 
-  .roadmap-style-list-tab #roadmap-style-item .roadmap-style-card.with-black-color .title {
+  .roadmap-style-list-tab
+    #roadmap-style-item
+    .roadmap-style-card.with-black-color
+    .title {
     font-size: 18px;
     margin-bottom: 18px;
   }
 
-  .roadmap-style-list-tab #roadmap-style-item .roadmap-style-card.with-black-color .content {
+  .roadmap-style-list-tab
+    #roadmap-style-item
+    .roadmap-style-card.with-black-color
+    .content {
     padding: 20px;
   }
 
-  .roadmap-style-list-tab #roadmap-style-item .roadmap-style-card.with-black-color .content h3 {
+  .roadmap-style-list-tab
+    #roadmap-style-item
+    .roadmap-style-card.with-black-color
+    .content
+    h3 {
     font-size: 20px;
   }
 
@@ -2139,7 +2155,10 @@
     margin: 0 auto 30px;
   }
 
-  .navbar-area-with-position-relative.with-black-color .navbar .navbar-toggler .icon-bar {
+  .navbar-area-with-position-relative.with-black-color
+    .navbar
+    .navbar-toggler
+    .icon-bar {
     background: #fff;
   }
 
@@ -2355,7 +2374,7 @@
   }
 
   .potrait-view {
-    background-image: url("/images/cvs/background-portrait.png");
+    background-image: url('/images/cvs/background-portrait.png');
     background-size: 100% 100%;
   }
 
@@ -3528,6 +3547,9 @@
   .partner-main {
     padding-bottom: 50px;
   }
+  .cv-feedback-area {
+    gap: 20px;
+  }
 }
 
 /* Min width 768px to Max width 991px */
@@ -4123,15 +4145,15 @@
     line-height: 35px;
   }
 
-  .plans-compare-table .table>thead tr th {
+  .plans-compare-table .table > thead tr th {
     font-size: 20px;
   }
 
-  .plans-compare-table .table>tbody tr td {
+  .plans-compare-table .table > tbody tr td {
     font-size: 16px;
   }
 
-  .plans-compare-table .table>tfoot tr td {
+  .plans-compare-table .table > tfoot tr td {
     font-size: 16px;
     white-space: nowrap;
   }
@@ -4452,7 +4474,10 @@
     top: -2px;
   }
 
-  .navbar-area-with-position-relative .welch-responsive-nav .mean-container a.meanmenu-reveal {
+  .navbar-area-with-position-relative
+    .welch-responsive-nav
+    .mean-container
+    a.meanmenu-reveal {
     padding-top: 2px;
   }
 
@@ -4798,16 +4823,26 @@
     margin-top: 30px;
   }
 
-  .roadmap-style-list-tab #roadmap-style-item .roadmap-style-card.with-black-color .title {
+  .roadmap-style-list-tab
+    #roadmap-style-item
+    .roadmap-style-card.with-black-color
+    .title {
     font-size: 18px;
     margin-bottom: 18px;
   }
 
-  .roadmap-style-list-tab #roadmap-style-item .roadmap-style-card.with-black-color .content {
+  .roadmap-style-list-tab
+    #roadmap-style-item
+    .roadmap-style-card.with-black-color
+    .content {
     padding: 20px;
   }
 
-  .roadmap-style-list-tab #roadmap-style-item .roadmap-style-card.with-black-color .content h3 {
+  .roadmap-style-list-tab
+    #roadmap-style-item
+    .roadmap-style-card.with-black-color
+    .content
+    h3 {
     font-size: 20px;
   }
 
@@ -4870,7 +4905,11 @@
     width: 150px;
   } */
   /* Change To Below Class */
-  .header-area.header-style-two .navbar-area .navbar .others-option .default-btn {
+  .header-area.header-style-two
+    .navbar-area
+    .navbar
+    .others-option
+    .default-btn {
     padding-left: 10px;
     padding-right: 10px;
     font-size: 15px;
@@ -6177,7 +6216,7 @@
     padding: 30px 20px;
   }
 
-  .plans-compare-table .table>tfoot tr td {
+  .plans-compare-table .table > tfoot tr td {
     white-space: nowrap;
   }
 
@@ -6310,13 +6349,22 @@
     padding-right: 15px;
   } */
   /* Change To Below */
-  .header-area.header-style-two .navbar-area .navbar .others-option .default-btn {
+  .header-area.header-style-two
+    .navbar-area
+    .navbar
+    .others-option
+    .default-btn {
     padding-left: 6px;
     padding-right: 15px;
     width: 206px;
   }
 
-  .header-area.header-style-two .navbar-area .navbar .others-option .default-btn span {
+  .header-area.header-style-two
+    .navbar-area
+    .navbar
+    .others-option
+    .default-btn
+    span {
     left: 15px;
   }
 
@@ -6864,7 +6912,7 @@
 
   .home-area {
     padding-top: 30px;
-    height: 540px;
+    height: 570px;
   }
 
   .home-image img {
@@ -8071,9 +8119,9 @@
     margin-top: 70px !important;
   }
 
-  .home-content {
+  /* .home-content {
     top: 0;
-  }
+  } */
 
   .home-content h1 {
     font-size: 47px;
@@ -9558,7 +9606,6 @@
   .PhoneInputCountry {
     gap: 4px;
   }
-
 }
 
 @media only screen and (min-width: 1400px) and (max-width: 1549px) {
@@ -10211,7 +10258,7 @@
     right: 0;
     bottom: -1px;
     z-index: 2;
-    content: "";
+    content: '';
     height: 96px;
     position: absolute;
     background-image: url(/images/shape/waves.png);
@@ -11009,6 +11056,7 @@
 
   .progress-info-area-small .progress-info {
     margin-bottom: 12px;
+    display: block;
   }
 
   .progress-info-area-small .names,
@@ -11206,7 +11254,6 @@
     font-size: 11px;
     background-size: 12px;
   }
-
 }
 
 @media screen and (min-width: 375px) and (max-width: 575px) {
@@ -11502,6 +11549,15 @@
 
   .progress-info-area-small .progress-info {
     margin-bottom: 12px;
+    display: block;
+  }
+
+  .cv-feedback-area .progress-info {
+    width: 100%;
+    display: block !important;
+  }
+  .progress-info-area {
+    gap: 12.5;
   }
 
   .progress-info-area-small .names,
@@ -11644,7 +11700,15 @@
     font-size: 11px;
     background-size: 12px;
   }
+}
 
+@media screen and (min-width: 375px) and (max-width: 430px) {
+  .progress-info-area {
+    justify-content: space-between;
+    margin: 20px auto;
+    gap: 20px;
+    width: 70%;
+  }
 }
 
 /* @media screen and (max-width: 490px){

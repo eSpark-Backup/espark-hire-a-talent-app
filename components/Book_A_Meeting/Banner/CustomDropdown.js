@@ -1,4 +1,4 @@
-import React, { useCallback, useEffect, useRef, useState } from "react";
+import React, { useCallback, useEffect, useRef, useState } from 'react';
 
 const CustomDropdown = (props) => {
   const {
@@ -23,7 +23,7 @@ const CustomDropdown = (props) => {
 
   const handleDocumentClick = useCallback(
     (e) => {
-      if (dropdownRef.current && !dropdownRef.current.contains(e.target)) {
+      if (dropdownRef?.current && !dropdownRef?.current.contains(e.target)) {
         setIsOpen(false);
       }
     },
@@ -32,30 +32,30 @@ const CustomDropdown = (props) => {
 
   useEffect(() => {
     if (isOpen) {
-      document.addEventListener("click", handleDocumentClick);
+      document.addEventListener('click', handleDocumentClick);
     } else {
-      document.removeEventListener("click", handleDocumentClick);
+      document.removeEventListener('click', handleDocumentClick);
     }
 
     return () => {
-      document.removeEventListener("click", handleDocumentClick);
+      document.removeEventListener('click', handleDocumentClick);
     };
   }, [isOpen, handleDocumentClick]);
 
   return (
     <div
-      className={`custom-dropdown ${isOpen ? "open" : ""}`}
+      className={`custom-dropdown ${isOpen ? 'open' : ''}`}
       ref={dropdownRef}
     >
       <div
-        className={`dropdown-header ${inter.className} ${
-          value !== "Please Select" && value !== "" ? "dark-value" : ""
+        className={`dropdown-header ${inter?.className} ${
+          value !== 'Please Select' && value !== '' ? 'dark-value' : ''
         }`}
         onClick={toggleDropdown}
       >
         <span className="country-span">
           {country && flag ? (
-            <div className="country-flag" style={{ marginRight: "10px" }}>
+            <div className="country-flag" style={{ marginRight: '10px' }}>
               <img src={flag} alt="flag" />
             </div>
           ) : null}
@@ -68,42 +68,42 @@ const CustomDropdown = (props) => {
 
       {error ? (
         <p className="error-para">
-          Please select {!country ? "Company Size" : "Country"}
+          Please select {!country ? 'Company Size' : 'Country'}
         </p>
       ) : null}
 
-      <div className={`dropdown-options ${error ? "error-options" : ""}`}>
+      <div className={`dropdown-options ${error ? 'error-options' : ''}`}>
         {isOpen && (
           <div className="options-container">
-            <div className={`single-option ${inter.className} disabled-opt`}>
+            <div className={`single-option ${inter?.className} disabled-opt`}>
               Please Select
             </div>
             {data.map((opt) =>
               country ? (
                 <div
-                  key={opt.id}
-                  className={`countries-options single-option ${inter.className}`}
+                  key={opt?.id}
+                  className={`countries-options single-option ${inter?.className}`}
                   onClick={() => {
-                    setCountry(opt.option);
-                    setFlag(opt.image);
+                    setCountry(opt?.option);
+                    setFlag(opt?.image);
                     setIsOpen(false);
                   }}
                 >
-                  <div className="country-name">{opt.option}</div>
+                  <div className="country-name">{opt?.option}</div>
                   <div className="country-flag">
-                    <img src={opt.image} alt="flag" />
+                    <img src={opt?.image} alt="flag" />
                   </div>
                 </div>
               ) : (
                 <div
-                  key={opt.id}
-                  className={`single-option ${inter.className}`}
+                  key={opt?.id}
+                  className={`single-option ${inter?.className}`}
                   onClick={() => {
-                    setCompany(opt.option);
+                    setCompany(opt?.option);
                     setIsOpen(false);
                   }}
                 >
-                  {opt.option}
+                  {opt?.option}
                 </div>
               )
             )}

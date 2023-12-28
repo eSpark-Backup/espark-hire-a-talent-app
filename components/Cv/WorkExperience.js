@@ -1,6 +1,6 @@
-import React from "react";
+import React from 'react';
 
-import CvCard from "./CvCard";
+import CvCard from './CvCard';
 
 const WorkExperience = ({ experience, inter }) => {
   return (
