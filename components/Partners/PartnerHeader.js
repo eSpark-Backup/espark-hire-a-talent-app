@@ -82,7 +82,7 @@ const PartnerHeader = () => {
     <>
       <Head>
         <meta
-          http-equiv="Content-Type"
+          httpEquiv="Content-Type"
           content="text/html; charset=utf-8"
         ></meta>
         <meta name="robots" content="follow, index"></meta>
@@ -146,7 +146,6 @@ const PartnerHeader = () => {
                 className={`navbar-brand ${
                   selectedNavItem === 'Home' ? 'active' : ''
                 }`}
-                onClick={() => handleNavItemClick('Home')}
               >
                 <img
                   src="/images/partners/partners-logo.svg"
@@ -176,7 +175,6 @@ const PartnerHeader = () => {
                     <Link
                       href="/what-we-do"
                       className={`nav-link partners-header-text`}
-                      onClick={() => handleNavItemClick('what we do')}
                     >
                       What we do
                     </Link>
@@ -186,7 +184,6 @@ const PartnerHeader = () => {
                     <Link
                       href="/how-it-works"
                       className={`nav-link partners-header-text`}
-                      onClick={() => handleNavItemClick('How it works')}
                     >
                       How it works
                     </Link>
@@ -196,7 +193,6 @@ const PartnerHeader = () => {
                     <Link
                       href="/blogs"
                       className={`nav-link partners-header-text`}
-                      onClick={() => handleNavItemClick('Blog')}
                     >
                       Blogs
                     </Link>
@@ -206,7 +202,6 @@ const PartnerHeader = () => {
                     <Link
                       href="/careers"
                       className={`nav-link partners-header-text`}
-                      onClick={() => handleNavItemClick('Career')}
                     >
                       Careers
                     </Link>
@@ -215,10 +210,8 @@ const PartnerHeader = () => {
                   <li className="nav-item">
                     <Link
                       href="https://form.jotform.com/232503890925459"
-                      // ClassName="active"
                       target="_blank"
                       className={`nav-link partners-header-text`}
-                      onClick={() => handleNavItemClick('Apply as a Developer')}
                     >
                       Apply as a Developer
                     </Link>
@@ -231,7 +224,6 @@ const PartnerHeader = () => {
                       className={`default-btn style-two ${
                         selectedNavItem === 'Hire a Talent' ? 'active' : ''
                       }`}
-                      onClick={() => handleNavItemClick('Hire a Talent')}
                     >
                       Hire a Talent
                     </Link>
