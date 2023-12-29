@@ -24,6 +24,11 @@ jobs:
       with:
         node-version: ${{ matrix.node-version }}
         cache: 'npm'
-    - run: npm ci --legacy-peer-deps
-    - run: npm run build --if-present
-    - run: pm2 restart talent-dev
+    - run: |
+        remote_repo="https://${GITHUB_ACTOR}:${GITHUB_TOKEN}@github.com/${GITHUB_REPOSITORY}.git"
+        git pull "$remote_repo" dev
+        npm ci --legacy-peer-deps
+        npm run build
+        pm2 restart talent-dev
+      working-directory: /var/www/espark-talent-dev
+      
