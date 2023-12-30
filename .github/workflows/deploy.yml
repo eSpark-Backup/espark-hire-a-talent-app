@@ -24,10 +24,6 @@ jobs:
       with:
         node-version: ${{ matrix.node-version }}
         cache: 'npm'
-    - run: |
-        npm ci --legacy-peer-deps
-        npm run build
-        pm2 restart talent-dev
     - uses: actions/cache@v3
       with:
         # See here for caching with `yarn` https://github.com/actions/cache/blob/main/examples.md#node---yarn or you can leverage caching with actions/setup-node https://github.com/actions/setup-node
@@ -39,3 +35,7 @@ jobs:
         # If source files changed but packages didn't, rebuild from a prior cache.
         restore-keys: |
           ${{ runner.os }}-nextjs-${{ hashFiles('**/package-lock.json') }}-
+    - run: |
+        npm ci --legacy-peer-deps
+        npm run build
+        pm2 restart talent-dev
