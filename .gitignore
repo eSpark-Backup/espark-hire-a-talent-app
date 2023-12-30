@@ -34,4 +34,4 @@ yarn-error.log*
 package-lock.json
 
 # deployment file
-.github/workflows
+.github/workflows/*
