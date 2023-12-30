@@ -8,9 +8,8 @@ on:
     branches: [ "main" ]
 
 jobs:
-  build:
-
-    runs-on: self-hosted
+  build-deploy:
+    runs-on: talent-runner
 
     strategy:
       matrix:
