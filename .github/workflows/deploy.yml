@@ -25,13 +25,6 @@ jobs:
         node-version: ${{ matrix.node-version }}
         cache: 'npm'
     - run: |
-        echo "GITHUB_ACTOR: ${GITHUB_ACTOR}"
-        echo "GITHUB_TOKEN: ${GITHUB_TOKEN}"
-        echo "GITHUB_REPOSITORY: ${GITHUB_REPOSITORY}"
-        remote_repo="https://${GITHUB_ACTOR}:${GITHUB_TOKEN}@github.com/${GITHUB_REPOSITORY}.git"
-        git pull "$remote_repo" dev
         npm ci --legacy-peer-deps
         npm run build
         pm2 restart talent-dev
-      working-directory: /var/www/espark-talent-dev
-      
