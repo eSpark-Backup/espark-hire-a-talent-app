@@ -66,6 +66,7 @@ const CareerCards = ({ jobs, jobCategories }) => {
   };
 
   const handleJobCategoryChange = (e) => {
+    // set query param to selected category
 
     router.push({
       pathname: router.pathname,
