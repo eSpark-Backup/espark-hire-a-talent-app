@@ -16,6 +16,7 @@ import ScrollToTop from '@/components/Layout/ScrollToTop';
 import NavbarStyle2 from '@/components/Layout/NavbarStyle2';
 import Footer from '@/components/Layout/Footer';
 import { useRouter } from 'next/router';
+import PartnerHeader from '@/components/Partners/PartnerHeader';
 
 function MyApp({ Component, pageProps }) {
   React.useEffect(() => {
@@ -42,6 +43,13 @@ function MyApp({ Component, pageProps }) {
           <Footer />
           <ScrollToTop />
         </>
+      ) : pathname === '/partners' || pathname === '/book-a-meeting' ? (
+        <React.Fragment>
+          <PartnerHeader />
+          <Component {...pageProps} />
+          <Footer />
+          <ScrollToTop />
+        </React.Fragment>
       ) : (
         <>
           <NavbarStyle2 />

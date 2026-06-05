@@ -1,5 +1,6 @@
 import React from 'react';
 import Link from 'next/link';
+import Image from 'next/image';
 
 const ServicesItem = ({ title, Paragraph, data, id }) => {
   return (
@@ -22,7 +23,12 @@ const ServicesItem = ({ title, Paragraph, data, id }) => {
               >
                 <div className="single-services-box border">
                   <div className="d-flex align-items-center ">
-                    <img src={items?.icons} alt={items?.alt} width={50} />
+                    <Image
+                      src={items?.icons}
+                      alt={items?.alt}
+                      width={50}
+                      height={50}
+                    />
                     <h3>{items?.name}</h3>
                   </div>
                   <p>{items?.description}</p>

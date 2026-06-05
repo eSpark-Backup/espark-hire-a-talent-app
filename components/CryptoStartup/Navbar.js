@@ -1,5 +1,6 @@
 import React from 'react';
 import Link from 'next/link';
+import Image from 'next/image';
 
 const Navbar = () => {
   const [menu, setMenu] = React.useState(true);
@@ -33,10 +34,12 @@ const Navbar = () => {
         <nav className="navbar navbar-expand-md navbar-light">
           <div className="container-fluid">
             <Link href="/" className="navbar-brand">
-              <img
+              <Image
                 src="/images/black-logo.png"
                 className="talent-logo"
                 alt="Site logo"
+                width={72}
+                height={40}
               />
             </Link>
 
@@ -69,7 +72,7 @@ const Navbar = () => {
                     </li>
 
                     <li className="nav-item">
-                      <Link legacyBehavior href="/index-2" className="nav-link">
+                      <Link href="/index-2" className="nav-link">
                         Digital Marketing
                       </Link>
                     </li>

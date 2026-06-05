@@ -124,9 +124,7 @@ const ComparePlans = () => {
                   <td>-</td>
                   <td>-</td>
                   <td>
-                    <Link legacyBehavior href="/contact">
-                      Get A Quote
-                    </Link>
+                    <Link href="/contact">Get A Quote</Link>
                   </td>
                 </tr>
                 <tr>
@@ -135,9 +133,7 @@ const ComparePlans = () => {
                   <td>-</td>
                   <td>-</td>
                   <td>
-                    <Link legacyBehavior href="/contact">
-                      Get A Quote
-                    </Link>
+                    <Link href="/contact">Get A Quote</Link>
                   </td>
                 </tr>
                 <tr>
@@ -146,9 +142,7 @@ const ComparePlans = () => {
                   <td>Unlimited</td>
                   <td>Unlimited</td>
                   <td>
-                    <Link legacyBehavior href="/contact">
-                      Get A Quote
-                    </Link>
+                    <Link href="/contact">Get A Quote</Link>
                   </td>
                 </tr>
                 <tr>
@@ -157,9 +151,7 @@ const ComparePlans = () => {
                   <td>-</td>
                   <td>-</td>
                   <td>
-                    <Link legacyBehavior href="/contact">
-                      Get A Quote
-                    </Link>
+                    <Link href="/contact">Get A Quote</Link>
                   </td>
                 </tr>
               </tbody>

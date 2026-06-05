@@ -19,6 +19,7 @@ const fetchJobs = async (jobCategory) => {
   const client = createClient({
     projectId: '93d1bm1e',
     dataset: 'production',
+    apiVersion: '2021-10-21',
     useCdn: true,
   });
 
@@ -38,6 +39,7 @@ const fetchJobCategories = async () => {
   const client = createClient({
     projectId: '93d1bm1e',
     dataset: 'production',
+    apiVersion: '2021-10-21',
     useCdn: true,
   });
 
