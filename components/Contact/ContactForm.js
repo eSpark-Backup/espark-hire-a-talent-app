@@ -1,26 +1,22 @@
-import React, { useState } from "react";
-import axios from "axios";
-import Swal from "sweetalert2";
-import withReactContent from "sweetalert2-react-content";
-import emailjs from "@emailjs/browser";
+import React, { useState } from 'react';
+import Swal from 'sweetalert2';
+import withReactContent from 'sweetalert2-react-content';
+import emailjs from '@emailjs/browser';
 const MySwal = withReactContent(Swal);
-const alertContent = () => {
-  MySwal.fire({
-    title: "Congratulations!",
-    text: "Your message was successfully sent and will be back to you soon",
-    icon: "success",
-    timer: 2000,
-    timerProgressBar: true,
-    showConfirmButton: false,
-  });
-};
-// Form initial state
+
+import { configDotenv } from 'dotenv';
+
+const userid = process.env.NEXT_PUBLIC_CONTECT_US_EMAILJS_USER_ID;
+const templeteid = process.env.NEXT_PUBLIC_CONTECT_US_EMAILJS_TEMPLATE_ID;
+const serviceid = process.env.NEXT_PUBLIC_CONTECT_US_EMAILJS_SERVICE_ID;
+
+configDotenv();
 const INITIAL_STATE = {
-  name: "",
-  email: "",
-  number: "",
-  subject: "",
-  text: "",
+  name: '',
+  email: '',
+  number: '',
+  subject: '',
+  text: '',
 };
 const ContactForm = () => {
   const [contact, setContact] = useState(INITIAL_STATE);
@@ -28,7 +24,7 @@ const ContactForm = () => {
   const handleChange = (e) => {
     const { name, value } = e.target;
     setContact((prevState) => ({ ...prevState, [name]: value }));
-    if (name === "number") {
+    if (name === 'number') {
       // Phone number validation
       const phonePattern = /^[0-9]{11}$/; // Adjust this pattern as needed
       setIsValidPhoneNumber(phonePattern.test(value));
@@ -38,26 +34,42 @@ const ContactForm = () => {
     e.preventDefault();
     const { name, email, number, subject, text } = contact;
     if (isValidPhoneNumber) {
-      emailjs.init("hyXwjEdPoM5uV-RK8");
+      emailjs.init(userid);
       emailjs
-        .send("service_6qzxeqp", "template_6y49v0k", {
+        .send(serviceid, templeteid, {
           client_name: name,
           client_email: email,
           client_subject: subject,
           client_message: text,
           client_number: number,
-          to_name: "eSpark Talent",
+          to_name: 'eSpark Talent',
         })
         .then(
           (result) => {
-            alertContent();
+            MySwal.fire({
+              title: 'Thanks!',
+              text: 'Your message was successfully sent and will be back to you soon',
+              icon: 'success',
+              timer: 2000,
+              timerProgressBar: true,
+              showConfirmButton: false,
+            });
           },
           (error) => {
+            MySwal.fire({
+              title: 'Oops!',
+              text: `Your message wasn't successfully sent and please try again`,
+              icon: 'error',
+              timer: 2000,
+              timerProgressBar: true,
+              showConfirmButton: false,
+            });
             console.log(error);
           }
         );
     }
   };
+
   return (
     <>
       <div className="contact-area ptb-100 bg-f9f9f9">
@@ -118,7 +130,7 @@ const ContactForm = () => {
                       type="text"
                       name="number"
                       className={`form-control ${
-                        !isValidPhoneNumber ? "is-invalid" : ""
+                        !isValidPhoneNumber ? 'is-invalid' : ''
                       }`}
                       value={contact.number}
                       onChange={handleChange}

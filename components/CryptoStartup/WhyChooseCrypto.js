@@ -1,7 +1,7 @@
-import React from "react";
-import { Swiper, SwiperSlide } from "swiper/react";
-// import { Pagination } from 'swiper'
-import { Autoplay } from "swiper";
+import React from 'react';
+import Image from 'next/image';
+import { Swiper, SwiperSlide } from 'swiper/react';
+import { Autoplay } from 'swiper';
 const WhyChooseCrypto = ({
   image,
   title,
@@ -11,12 +11,12 @@ const WhyChooseCrypto = ({
   shape,
 }) => {
   return (
-    <React.Fragment>
+    <>
       <div
         className={
           backGround
-            ? "about-area bg-gradient-image ptb-100"
-            : "cryptocurrency-choose-area ptb-100 overflow-hidden "
+            ? 'about-area bg-gradient-image ptb-100'
+            : 'cryptocurrency-choose-area ptb-100 overflow-hidden '
         }
       >
         <div className="container">
@@ -28,13 +28,17 @@ const WhyChooseCrypto = ({
                 data-aos-duration="1200"
                 data-aos-once="true"
               >
-                <img
+                <Image
                   src={image}
+                  width={490}
+                  height={490}
                   alt="Outsourced Employee - Staff Outsourcing Solutions - Outsourced Staff - Global Employment Outsourcing - Employment Outsourcing Services – eSpark Talent"
                 />
                 <div className="shape5">
-                  <img
+                  <Image
                     src={shape}
+                    width={90}
+                    height={74}
                     alt="Outsourced Employee - Staff Outsourcing Solutions - Outsourced Staff - Global Employment Outsourcing - Employment Outsourcing Services – eSpark Talent"
                   />
                 </div>
@@ -47,7 +51,6 @@ const WhyChooseCrypto = ({
                 data-aos-duration="1200"
                 data-aos-once="true"
               >
-                {/* <span className="sub-title">Why Choose Crypto</span> */}
                 <h2>{title}</h2>
                 <p className="my-4">{paragraph}</p>
                 <Swiper
@@ -78,8 +81,11 @@ const WhyChooseCrypto = ({
                     <SwiperSlide key={i}>
                       <div className="choose-inner-box">
                         <div className="image">
-                          <img src={slide.image} 
-                          alt="Outsourced Employee - Staff Outsourcing Solutions - Outsourced Staff - Global Employment Outsourcing - Employment Outsourcing Services – eSpark Talent"
+                          <Image
+                            src={slide.image}
+                            width={70}
+                            height={70}
+                            alt="Outsourced Employee - Staff Outsourcing Solutions - Outsourced Staff - Global Employment Outsourcing - Employment Outsourcing Services – eSpark Talent"
                           />
                         </div>
                         <h3>{slide.heading}</h3>
@@ -88,51 +94,12 @@ const WhyChooseCrypto = ({
                     </SwiperSlide>
                   ))}
                 </Swiper>
-                {/* <div className="choose-inner-box">
-                  <div className="image">
-                    <img
-                      src="/images/crypto-startup/choose/image-1.png"
-                      alt="image"
-                    />
-                  </div>
-                  <h3>Full Interoperability</h3>
-                  <p>
-                    Nulla quis lorem ut libero malesuada feugiat. Vivamus magna
-                    justo lacinia eget consectetur sed convallis at tellus.
-                  </p>
-                </div>
-                <div className="choose-inner-box with-some-left">
-                  <div className="image">
-                    <img
-                      src="/images/crypto-startup/choose/image-2.png"
-                      alt="image"
-                    />
-                  </div>
-                  <h3>Contract Level Security</h3>
-                  <p>
-                    Nulla quis lorem ut libero malesuada feugiat. Vivamus magna
-                    justo lacinia eget consectetur sed convallis at tellus.
-                  </p>
-                </div>
-                <div className="choose-inner-box">
-                  <div className="image">
-                    <img
-                      src="/images/crypto-startup/choose/image-3.png"
-                      alt="image"
-                    />
-                  </div>
-                  <h3>Live Human Support</h3>
-                  <p>
-                    Nulla quis lorem ut libero malesuada feugiat. Vivamus magna
-                    justo lacinia eget consectetur sed convallis at tellus.
-                  </p>
-                </div> */}
               </div>
             </div>
           </div>
         </div>
       </div>
-    </React.Fragment>
+    </>
   );
 };
 

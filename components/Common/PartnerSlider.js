@@ -1,22 +1,23 @@
-import React from "react";
-import { Swiper, SwiperSlide } from "swiper/react";
-import { Autoplay } from "swiper";
+import React from 'react';
+import Image from 'next/image';
+import { Swiper, SwiperSlide } from 'swiper/react';
+import { Autoplay } from 'swiper';
 
-const PartnerSlider = () => {
+const PartnerSlider = ({ heading }) => {
   return (
     <>
       <div className="partner-area ptb-100">
         <div className="container">
           <div className="section-title">
-            <h2 className="text-center">We Value Our Admirable Clients </h2>
+            <h2 className="text-center">
+              {heading ? heading : 'We Value Our Admirable Clients '}
+            </h2>
           </div>
-          {/* <br />
-          <br /> */}
           <Swiper
             slidesPerView={1}
             spaceBetween={30}
             autoplay={{
-              delay: 6000,
+              delay: 500,
               disableOnInteraction: true,
             }}
             breakpoints={{
@@ -41,51 +42,70 @@ const PartnerSlider = () => {
           >
             <SwiperSlide>
               <div className="partner-item">
-                <img src="/images/partner/new-partner-1.jpg" alt="HR consultant - human resource planning - HR service - HR solutions - HR recruitment - HR outsourcing – eSpark talent" />
+                <Image
+                  height={35}
+                  width={175}
+                  src="/images/partner/new-partner-1.jpg"
+                  alt="HR consultant - human resource planning - HR service - HR solutions - HR recruitment - HR outsourcing – eSpark talent"
+                />
               </div>
             </SwiperSlide>
 
             <SwiperSlide>
               <div className="partner-item">
-                <img src="/images/partner/new-partner-2.jpg" alt="HR consultant - human resource planning - HR service - HR solutions - HR recruitment - HR outsourcing – eSpark talent" />
+                <Image
+                  height={35}
+                  width={175}
+                  src="/images/partner/new-partner-2.jpg"
+                  alt="HR consultant - human resource planning - HR service - HR solutions - HR recruitment - HR outsourcing – eSpark talent"
+                />
               </div>
             </SwiperSlide>
 
             <SwiperSlide>
               <div className="partner-item">
-                <img src="/images/partner/new-partner-3.jpg" alt="HR consultant - human resource planning - HR service - HR solutions - HR recruitment - HR outsourcing – eSpark talent" />
+                <Image
+                  height={35}
+                  width={175}
+                  src="/images/partner/new-partner-3.jpg"
+                  alt="HR consultant - human resource planning - HR service - HR solutions - HR recruitment - HR outsourcing – eSpark talent"
+                />
               </div>
             </SwiperSlide>
 
             <SwiperSlide>
               <div className="partner-item">
-                <img src="/images/partner/new-partner-4.jpg" alt="HR consultant - human resource planning - HR service - HR solutions - HR recruitment - HR outsourcing – eSpark talent" />
+                <Image
+                  height={35}
+                  width={175}
+                  src="/images/partner/new-partner-4.jpg"
+                  alt="HR consultant - human resource planning - HR service - HR solutions - HR recruitment - HR outsourcing – eSpark talent"
+                />
               </div>
             </SwiperSlide>
 
             <SwiperSlide>
               <div className="partner-item">
-                <img src="/images/partner/new-partner-5.jpg" alt="HR consultant - human resource planning - HR service - HR solutions - HR recruitment - HR outsourcing – eSpark talent" />
+                <Image
+                  height={35}
+                  width={175}
+                  src="/images/partner/new-partner-5.jpg"
+                  alt="HR consultant - human resource planning - HR service - HR solutions - HR recruitment - HR outsourcing – eSpark talent"
+                />
               </div>
             </SwiperSlide>
 
             <SwiperSlide>
               <div className="partner-item">
-                <img src="/images/partner/new-partner-6.jpg" alt="HR consultant - human resource planning - HR service - HR solutions - HR recruitment - HR outsourcing – eSpark talent" />
+                <Image
+                  height={35}
+                  width={175}
+                  src="/images/partner/new-partner-6.jpg"
+                  alt="HR consultant - human resource planning - HR service - HR solutions - HR recruitment - HR outsourcing – eSpark talent"
+                />
               </div>
             </SwiperSlide>
-
-            {/* <SwiperSlide>
-              <div className="partner-item">
-                <img src="/images/partner/partner7.png" alt="image" />
-              </div>
-            </SwiperSlide> */}
           </Swiper>
-          {/* <br />
-          <br />
-          <div className="text-center">
-            <button className="align-center">Schedule a Meeting</button>
-          </div> */}
         </div>
       </div>
     </>

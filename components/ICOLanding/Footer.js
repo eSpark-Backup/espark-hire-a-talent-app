@@ -1,5 +1,6 @@
-import React from 'react'
-import Link from 'next/link'
+import React from 'react';
+import Link from 'next/link';
+import Image from 'next/image';
 
 const Footer = () => {
   return (
@@ -7,126 +8,117 @@ const Footer = () => {
       <footer className="footer-style-wrap-area pt-100">
         <div className="container">
           <div className="footer-widget-style-wrap with-white-color">
-            <Link href="/">
-              <a className="d-inline-block logo">
-                <img src="/images/white-logo.png" alt="logo" />
-              </a>
+            <Link href="/" className="d-inline-block logo">
+              <Image
+                src="/images/white-logo.png"
+                alt="logo"
+                width={1056}
+                height={503}
+              />
             </Link>
 
             <ul className="quick-links">
               <li>
-                <Link href="/">
-                  <a>Home</a>
-                </Link>
+                <Link href="/">Home</Link>
               </li>
               <li>
-                <Link href="/about-us">
-                  <a>About Us</a>
-                </Link>
+                <Link href="/about-us">About Us</Link>
               </li>
               <li>
-                <Link href="/case-studies">
-                  <a>Case Studies</a>
-                </Link>
+                <Link href="/case-studies">Case Studies</Link>
               </li>
               <li>
-                <Link href="/blog">
-                  <a href="blog.html">Our News</a>
-                </Link>
+                <Link href="/blog">Our News</Link>
               </li>
               <li>
-                <Link href="/contact">
-                  <a>Contact Us</a>
-                </Link>
+                <Link href="/contact">Contact Us</Link>
               </li>
               <li>
-                <Link href="/pricing">
-                  <a>Pricing</a>
-                </Link>
+                <Link href="/pricing">Pricing</Link>
               </li>
             </ul>
 
             <ul className="social-links">
               <li>
-                <a
+                <Link
                   href="https://www.facebook.com/"
                   target="_blank"
                   rel="noreferrer"
                 >
                   <i className="ri-facebook-fill"></i>
-                </a>
+                </Link>
               </li>
               <li>
-                <a
+                <Link
                   href="https://www.twitter.com/"
                   target="_blank"
                   rel="noreferrer"
                 >
                   <i className="ri-twitter-fill"></i>
-                </a>
+                </Link>
               </li>
               <li>
-                <a
+                <Link
                   href="https://www.linkedin.com/"
                   target="_blank"
                   rel="noreferrer"
                 >
                   <i className="ri-linkedin-fill"></i>
-                </a>
+                </Link>
               </li>
               <li>
-                <a
+                <Link
                   href="https://www.instagram.com/"
                   target="_blank"
                   rel="noreferrer"
                 >
                   <i className="ri-instagram-line"></i>
-                </a>
+                </Link>
               </li>
               <li>
-                <a
+                <Link
                   href="https://www.pinterest.com/"
                   target="_blank"
                   rel="noreferrer"
                 >
                   <i className="ri-pinterest-line"></i>
-                </a>
+                </Link>
               </li>
               <li>
-                <a
+                <Link
                   href="https://www.skype.com/"
                   target="_blank"
                   rel="noreferrer"
                 >
                   <i className="ri-skype-line"></i>
-                </a>
+                </Link>
               </li>
               <li>
-                <a
+                <Link
                   href="https://www.youtube.com/"
                   target="_blank"
                   rel="noreferrer"
                 >
                   <i className="ri-youtube-line"></i>
-                </a>
+                </Link>
               </li>
               <li>
-                <a
+                <Link
                   href="https://www.github.com/"
                   target="_blank"
                   rel="noreferrer"
                 >
                   <i className="ri-github-fill"></i>
-                </a>
+                </Link>
               </li>
               <li>
-                <a
+                <Link
                   href="https://www.gitlab.com/"
                   target="_blank"
                   rel="noreferrer"
                 >
                   <i className="ri-gitlab-fill"></i>
-                </a>
+                </Link>
               </li>
             </ul>
           </div>
@@ -136,19 +128,28 @@ const Footer = () => {
           <div className="container">
             <p>
               &copy; <strong>Lofi</strong> is Proudly Owned by{' '}
-              <a href="https://envytheme.com/" target="_blank" rel="noreferrer">
+              <Link
+                href="https://envytheme.com/"
+                target="_blank"
+                rel="noreferrer"
+              >
                 EnvyTheme
-              </a>
+              </Link>
             </p>
           </div>
         </div>
 
         <div className="footer-style-wrap-shape">
-          <img src="/images/ico-landing-home/global-shape.png" alt="image" />
+          <Image
+            src="/images/ico-landing-home/global-shape.png"
+            alt="image"
+            width={1321}
+            height={564}
+          />
         </div>
       </footer>
     </>
-  )
-}
+  );
+};
 
-export default Footer
+export default Footer;

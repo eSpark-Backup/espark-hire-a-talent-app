@@ -5,7 +5,6 @@ class MyDocument extends Document {
     return (
       <Html lang="zxx">
         <Head>
-          {/* Google tag (gtag.js) */}
           <script
             dangerouslySetInnerHTML={{
               __html: `!function(f,b,e,v,n,t,s)
@@ -28,7 +27,7 @@ class MyDocument extends Document {
               s1.async=true;
               s1.src='https://embed.tawk.to/652e6141f2439e1631e53883/1hcuinq3o';
               s1.charset='UTF-8';
-              s1.setAttribute('crossorigin','*');
+              s1.setAttribute('crossrigin','*');
               s0.parentNode.insertBefore(s1,s0);
               })();`,
             }}
@@ -36,14 +35,12 @@ class MyDocument extends Document {
           <script
             dangerouslySetInnerHTML={{
               __html: `
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'G-N43EVHZHXM');`,
+              window.dataLayer = window.dataLayer || [];
+              function gtag(){dataLayer.push(arguments);}
+              gtag('js', new Date());
+              gtag('config', 'G-N43EVHZHXM');`,
             }}
           />
-
           <script
             dangerouslySetInnerHTML={{
               __html: `
@@ -72,8 +69,15 @@ class MyDocument extends Document {
             rel="stylesheet"
           />
           <link rel="preconnect" href="https://fonts.googleapis.com" />
-          <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-          <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet" />
+          <link
+            rel="preconnect"
+            href="https://fonts.gstatic.com"
+            crossOrigin="true"
+          />
+          <link
+            href="https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;300;400;500;600;700;800;900&display=swap"
+            rel="stylesheet"
+          />
           <script
             async
             src="https://www.googletagmanager.com/gtag/js?id=G-N43EVHZHXM"

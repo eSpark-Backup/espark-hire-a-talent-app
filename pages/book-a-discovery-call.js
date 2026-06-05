@@ -1,5 +1,15 @@
 import React from 'react';
-import NewsletterForm2 from '@/components/Common/NewsletterForm2';
+import Link from 'next/link';
+import Image from 'next/image';
+import AdaptTab from '@/components/Book_A_Discovery_Call/Adapt';
+import ReliableAndSecure from '@/components/Book_A_Discovery_Call/ReliableAndSecure';
+import OurProcess from '@/components/Book_A_Discovery_Call/OurProcess';
+import DiscoveryServices from '@/components/Book_A_Discovery_Call/DiscoveryServices';
+import MeetTheTeam from '@/components/Book_A_Discovery_Call/MeetTheTeam';
+import HiringTab from '@/components/Book_A_Discovery_Call/Hiring';
+import GetTalent from '@/components/Book_A_Discovery_Call/GetTalent';
+import ClientFeedback from '@/components/Book_A_Discovery_Call/ClientFeedback';
+
 import {
   ClientFeedbackData,
   Hiring_data,
@@ -7,18 +17,9 @@ import {
   Our_Process,
   Reliable_And_Secure,
   We_Adapt_To_Your_Need,
-  clientFeedbackData,
   data,
 } from 'constants/discovery_call_constant';
-import AdaptTab from '@/components/Book_A_Discovery_Call/Adapt';
-import ReliableAndSecure from '@/components/Book_A_Discovery_Call/ReliableAndSecure';
-import OurProcess from '@/components/Book_A_Discovery_Call/OurProcess';
 import { sliderData } from 'constants/constants';
-import DiscoveryServices from '@/components/Book_A_Discovery_Call/DiscoveryServices';
-import MeetTheTeam from '@/components/Book_A_Discovery_Call/MeetTheTeam';
-import HiringTab from '@/components/Book_A_Discovery_Call/Hiring';
-import GetTalent from '@/components/Book_A_Discovery_Call/GetTalent';
-import ClientFeedback from '@/components/Book_A_Discovery_Call/ClientFeedback';
 
 function DiscoveryCall() {
   const { heading, subHeading, list, text, subText, link } = data;
@@ -27,13 +28,14 @@ function DiscoveryCall() {
     <>
       <div className="DiscoveryCall discovery-call">
         <div className="container-fluid discovery-call-header">
-          <a href="/">
-            <img
+          <Link href="/">
+            <Image
               src="/images/ThankyouPageLogo.png"
-              width={'157.983px'}
-              height={'74.775px'}
+              width={157}
+              height={74}
+              alt=""
             />
-          </a>
+          </Link>
           <div>
             <h1 className="discovery-call-heading-1">{heading}</h1>
             <h2
@@ -58,19 +60,17 @@ function DiscoveryCall() {
                   <video controls autoPlay muted loop>
                     <source
                       src={'/images/discovery_call/video.mp4'}
-                      // src={'https://youtu.be/wHRmeesEPaI'}
                       type="video/mp4"
                     />
                   </video>
-                  {/* <img src="/images/discovery_call/video.mp4" /> */}
                 </div>
               </div>
             </div>
           </div>
-          <a href={link} target="blank" className="discovery-call-button">
+          <Link href={link} target="blank" className="discovery-call-button">
             <span className="free-strategy">{text}</span>
             <span className="limited-free">{subText}</span>
-          </a>
+          </Link>
         </div>
       </div>
       <AdaptTab data={We_Adapt_To_Your_Need} />

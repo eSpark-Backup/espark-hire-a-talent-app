@@ -1,5 +1,5 @@
 import React from 'react';
-import Link from 'next/link';
+import Image from 'next/image';
 
 const ReliableAndSecure = ({ data }) => {
   const { title, subHeading, description, image } = data;
@@ -27,7 +27,7 @@ const ReliableAndSecure = ({ data }) => {
                 data-aos-duration="1200"
                 data-aos-once="true"
               >
-                <img src={image} alt="image" />
+                <Image src={image} alt="image" width={687} height={786} />
               </div>
             </div>
           </div>

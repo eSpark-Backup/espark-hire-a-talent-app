@@ -1,16 +1,13 @@
 import React from 'react';
 import Link from 'next/link';
-import {
-  sliderData,
-  footerContact,
-  socialLinks,
-} from '../../constants/constants';
+import Image from 'next/image';
+
+import { footerContact, sliderData, socialLinks } from 'constants/constants';
 
 const Footer = () => {
   return (
-    <React.Fragment>
+    <>
       <footer className="footer-area">
-        {/* Linkedin Insight Tag */}
         <script
           type="text/javascript"
           dangerouslySetInnerHTML={{
@@ -46,14 +43,14 @@ const Footer = () => {
           <div className="row justify-content-center">
             <div className="col-xl-6 col-lg-3 col-sm-6 ">
               <div className="single-footer-widget">
-                <Link href="/">
-                  <a className="d-inline-block logo">
-                    <img
-                      src="/images/logo.png"
-                      className="talent-logo"
-                      alt="Global Recruitment - global recruitment agency - worldwide recruiting agency - global recruitment services - global recruitment solutions - eSpark Talent"
-                    />
-                  </a>
+                <Link href="/" className="d-inline-block logo">
+                  <Image
+                    src="/images/logo.png"
+                    width={120}
+                    height={57}
+                    className="talent-logo"
+                    alt="Global Recruitment - global recruitment agency - worldwide recruiting agency - global recruitment services - global recruitment solutions - eSpark Talent"
+                  />
                 </Link>
                 <br />
                 <br />
@@ -68,19 +65,19 @@ const Footer = () => {
                   <h3>Follow Us</h3>
                   {socialLinks?.map((item, index) => (
                     <li key={index}>
-                      <a
+                      <Link
                         href={item?.link}
                         target="_blank"
                         className={item?.className}
                       >
-                        <img
+                        <Image
                           src={item?.src}
                           className={item?.className}
-                          width={'90%'}
-                          height={'90%'}
+                          width={36}
+                          height={36}
                           alt="social-icons"
                         />
-                      </a>
+                      </Link>
                     </li>
                   ))}
                 </ul>
@@ -93,9 +90,7 @@ const Footer = () => {
                   {sliderData?.map((item) => {
                     return (
                       <li key={item.id}>
-                        <Link href={`/hire/${item.slug}`}>
-                          <a>{item.title}</a>
-                        </Link>
+                        <Link href={`/hire/${item.slug}`}>{item.title}</Link>
                       </li>
                     );
                   })}
@@ -107,29 +102,19 @@ const Footer = () => {
                 <h3>Company</h3>
                 <ul className="quick-links mt-5">
                   <li>
-                    <Link href="/what-we-do">
-                      <a>What we do</a>
-                    </Link>
+                    <Link href="/what-we-do">What we do</Link>
                   </li>
                   <li>
-                    <Link href="/how-it-works">
-                      <a>How it works</a>
-                    </Link>
+                    <Link href="/how-it-works">How it works</Link>
                   </li>
                   <li>
-                    <Link href="/contact">
-                      <a>Contact Us</a>
-                    </Link>
+                    <Link href="/contact">Contact Us</Link>
                   </li>
                   <li>
-                    <Link href="/blogs">
-                      <a>Blogs</a>
-                    </Link>
+                    <Link href="/blogs">Blogs</Link>
                   </li>
                   <li>
-                    <Link href="/careers">
-                      <a>Careers</a>
-                    </Link>
+                    <Link href="/careers">Careers</Link>
                   </li>
                 </ul>
               </div>
@@ -141,7 +126,7 @@ const Footer = () => {
                   {footerContact?.map((i) => {
                     return (
                       <li key={i.id}>
-                        <a href={`mailto:${i.item}`}>{i.item}</a>
+                        <Link href={`mailto:${i.item}`}>{i.item}</Link>
                       </li>
                     );
                   })}
@@ -156,14 +141,10 @@ const Footer = () => {
               <div className="col-lg-6 col-sm-6 col-md-6">
                 <ul>
                   <li>
-                    <Link href="/privacy-policy">
-                      <a>Privacy Policy</a>
-                    </Link>
+                    <Link href="/privacy-policy">Privacy Policy</Link>
                   </li>
                   <li>
-                    <Link href="/terms-conditions">
-                      <a>Terms & Conditions</a>
-                    </Link>
+                    <Link href="/terms-conditions">Terms & Conditions</Link>
                   </li>
                 </ul>
               </div>
@@ -174,7 +155,7 @@ const Footer = () => {
           </div>
         </div>
       </footer>
-    </React.Fragment>
+    </>
   );
 };
 

@@ -1,4 +1,5 @@
-import React from "react";
+import React from 'react';
+import Image from 'next/image';
 
 const Features = ({ title, para, items }) => {
   return (
@@ -21,81 +22,18 @@ const Features = ({ title, para, items }) => {
               >
                 <div className="single-features-card">
                   <div className="image">
-                    <img src={eachCard.imageLink} alt="HR consultant - human resource planning - HR service - HR solutions - HR recruitment - HR outsourcing – eSpark talent" />
+                    <Image
+                      src={eachCard.imageLink}
+                      width={70}
+                      height={70}
+                      alt="HR consultant - human resource planning - HR service - HR solutions - HR recruitment - HR outsourcing – eSpark talent"
+                    />
                   </div>
                   <h3 className="fw-semibold">{eachCard.title}</h3>
                   <p>{eachCard.content}</p>
                 </div>
               </div>
             ))}
-            {/* <div 
-              className="col-lg-4 col-sm-6 col-md-6" 
-              data-aos="fade-up"
-              data-aos-delay="200"
-              data-aos-duration="1200"
-              data-aos-once="true"
-            >
-              <div className="single-features-card">
-                <div className="image">
-                  <img
-                    src="/images/cybersecurity-services/features/features-1.png"
-                    alt="image"
-                  />
-                </div>
-                <h3>Network Security</h3>
-                <p>
-                  Vivamus magna justo lacinia eget consectetur sed convallis at
-                  tellus. Donec rutrum congue leo eget malesuada. Quisque velit
-                  nisi pretium ut lacinia in elementum id enim.
-                </p>
-              </div>
-            </div>
-
-            <div 
-              className="col-lg-4 col-sm-6 col-md-6"
-              data-aos="fade-up"
-              data-aos-delay="400"
-              data-aos-duration="1200"
-              data-aos-once="true"
-            >
-              <div className="single-features-card">
-                <div className="image">
-                  <img
-                    src="/images/cybersecurity-services/features/features-2.png"
-                    alt="image"
-                  />
-                </div>
-                <h3>Cloud Security</h3>
-                <p>
-                  Vivamus magna justo lacinia eget consectetur sed convallis at
-                  tellus. Donec rutrum congue leo eget malesuada. Quisque velit
-                  nisi pretium ut lacinia in elementum id enim.
-                </p>
-              </div>
-            </div>
-
-            <div 
-              className="col-lg-4 col-sm-6 col-md-6" 
-              data-aos="fade-up"
-              data-aos-delay="600"
-              data-aos-duration="1200"
-              data-aos-once="true"
-            >
-              <div className="single-features-card">
-                <div className="image">
-                  <img
-                    src="/images/cybersecurity-services/features/features-3.png"
-                    alt="image"
-                  />
-                </div>
-                <h3>Application Security</h3>
-                <p>
-                  Vivamus magna justo lacinia eget consectetur sed convallis at
-                  tellus. Donec rutrum congue leo eget malesuada. Quisque velit
-                  nisi pretium ut lacinia in elementum id enim.
-                </p>
-              </div>
-            </div> */}
           </div>
         </div>
       </div>
