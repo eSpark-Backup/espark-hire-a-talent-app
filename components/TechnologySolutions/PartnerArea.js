@@ -1,5 +1,5 @@
-import React from "react";
-import PartnerSlider from "./PartnerSlider";
+import React from 'react';
+import PartnerSlider from '@/components/TechnologySolutions/PartnerSlider';
 
 const PartnerArea = () => {
   return (
@@ -9,7 +9,6 @@ const PartnerArea = () => {
           <div className="section-title style-two">
             <div className="row align-items-center">
               <div className="col-lg-5 col-md-12">
-                {/* <span className="sub-title">OUR PARTNERS</span> */}
                 <h2 className="fw-semibold">
                   We Have Worked With <br /> Notable Brands Worldwide​
                 </h2>

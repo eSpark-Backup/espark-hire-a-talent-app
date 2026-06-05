@@ -1,5 +1,5 @@
 /** @type {import('next').NextConfig} */
-const path = require('path')
+const path = require('path');
 const nextConfig = {
   reactStrictMode: true,
   trailingSlash: true,
@@ -11,7 +11,19 @@ const nextConfig = {
     // Warning: This allows production builds to successfully complete even if
     // your project has ESLint errors.
     ignoreDuringBuilds: true,
-  }
-}
+  },
+  // images: {
+  //   domains: ['cdn.sanity.io'],
+  // },
+  images: {
+    remotePatterns: [
+      {
+        protocol: 'https',
+        hostname: 'cdn.sanity.io',
+        pathname: '**',
+      },
+    ],
+  },
+};
 
-module.exports = nextConfig
+module.exports = nextConfig;

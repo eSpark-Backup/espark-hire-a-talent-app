@@ -1,6 +1,7 @@
-import React from "react";
+import React from 'react';
+import Image from 'next/image';
 // AiOutlineCheck
-import { AiOutlineCheck } from "react-icons/ai";
+import { AiOutlineCheck } from 'react-icons/ai';
 
 const WhyChooseUs = ({ title, para, items }) => {
   return (
@@ -10,7 +11,6 @@ const WhyChooseUs = ({ title, para, items }) => {
           <div className="row align-items-center">
             <div className="col-lg-6 col-md-12">
               <div className="why-choose-us-content">
-                {/* <span className="sub-title">Why Choose Us</span> */}
                 <h2 className="fw-semibold">{title}</h2>
                 <p>{para}</p>
 
@@ -21,23 +21,6 @@ const WhyChooseUs = ({ title, para, items }) => {
                       &nbsp; {eachItem}
                     </li>
                   ))}
-                  {/* <li>
-                    <i className="ri-check-fill"></i> Network and system
-                    administration
-                  </li>
-                  <li>
-                    <i className="ri-check-fill"></i> Operating system and
-                    virtual machine
-                  </li>
-                  <li>
-                    <i className="ri-check-fill"></i> Network security control
-                  </li>
-                  <li>
-                    <i className="ri-check-fill"></i> Coding languages
-                  </li>
-                  <li>
-                    <i className="ri-check-fill"></i> Cloud security
-                  </li> */}
                 </ul>
               </div>
             </div>
@@ -49,11 +32,11 @@ const WhyChooseUs = ({ title, para, items }) => {
                 data-aos-duration="1000"
                 data-aos-once="true"
               >
-                <img
+                <Image
                   src="/images/cybersecurity-services/choose/09.png"
-                  alt="image"
-                  width={"100%"}
-                  height={"90%"}
+                  alt="HR consultant - human resource planning - HR service - HR solutions - HR recruitment - HR outsourcing – eSpark talent"
+                  width={636}
+                  height={550}
                 />
               </div>
             </div>
@@ -61,9 +44,11 @@ const WhyChooseUs = ({ title, para, items }) => {
         </div>
 
         <div className="why-choose-us-shape">
-          <img
+          <Image
             src="/images/cybersecurity-services/choose/shape.png"
-            alt="image"
+            width={495}
+            height={839}
+            alt="HR consultant - human resource planning - HR service - HR solutions - HR recruitment - HR outsourcing – eSpark talent"
           />
         </div>
       </div>

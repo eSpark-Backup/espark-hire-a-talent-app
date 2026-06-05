@@ -1,5 +1,5 @@
-import React from "react";
-import Link from "next/link";
+import React from 'react';
+import Image from 'next/image';
 
 const AboutUs = ({ title, paragraph, data, image }) => {
   return (
@@ -14,7 +14,12 @@ const AboutUs = ({ title, paragraph, data, image }) => {
                 data-aos-duration="1200"
                 data-aos-once="true"
               >
-                <img src={image} alt="image" width={"600px"} height={"600px"} />
+                <Image
+                  src={image}
+                  alt="Hire app developer - Freelance mobile app developer - Hire dedicated mobile app developers - Hire cross platform app developer - Hire a mobile app developer – eSpark Talent"
+                  width={600}
+                  height={600}
+                />
               </div>
             </div>
 
@@ -25,7 +30,6 @@ const AboutUs = ({ title, paragraph, data, image }) => {
                 data-aos-duration="1200"
                 data-aos-once="true"
               >
-                {/* <span className="sub-title">About Crypto</span> */}
                 <h2>{title}</h2>
                 <p>{paragraph}</p>
                 {data?.map((items, i) => (
@@ -35,23 +39,6 @@ const AboutUs = ({ title, paragraph, data, image }) => {
                     </li>
                   </ul>
                 ))}
-                {/* <ul className="about-list">
-                  <li>
-                    <i className="ri-check-fill"></i> Vivamus magna justo,
-                    lacinia eget consectetur sed, convallis at tellus.
-                  </li>
-                  <li>
-                    <i className="ri-check-fill"></i> Quisque velit nisi,
-                    pretium ut lacinia in, elementum id enim.{' '}
-                  </li>
-                </ul> */}
-                {/* <div className="about-btn">
-                  <Link href="/contact">
-                    <a className="default-btn style-two">
-                      <span className="ri-arrow-right-s-line"></span>Learn More
-                    </a>
-                  </Link>
-                </div> */}
               </div>
             </div>
           </div>

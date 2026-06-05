@@ -27,6 +27,11 @@ yarn-error.log*
 
 # local env files
 .env*.local
+.env
 
 # vercel
 .vercel
+package-lock.json
+
+# deployment file
+*.github/workflows/

@@ -1,11 +1,24 @@
-import React from 'react'
-import { Swiper, SwiperSlide } from 'swiper/react'
-// import { Pagination } from 'swiper'
-import { Autoplay } from 'swiper'
-const WhyChooseCrypto = ({ image, title, paragraph, Items, backGround, shape }) => {
+import React from 'react';
+import Image from 'next/image';
+import { Swiper, SwiperSlide } from 'swiper/react';
+import { Autoplay } from 'swiper';
+const WhyChooseCrypto = ({
+  image,
+  title,
+  paragraph,
+  Items,
+  backGround,
+  shape,
+}) => {
   return (
-    <React.Fragment>
-      <div className={backGround ? "about-area bg-gradient-image ptb-100" : "cryptocurrency-choose-area ptb-100 overflow-hidden "}>
+    <>
+      <div
+        className={
+          backGround
+            ? 'about-area bg-gradient-image ptb-100'
+            : 'cryptocurrency-choose-area ptb-100 overflow-hidden '
+        }
+      >
         <div className="container">
           <div className="row align-items-center">
             <div className="col-lg-6 col-md-12">
@@ -15,11 +28,19 @@ const WhyChooseCrypto = ({ image, title, paragraph, Items, backGround, shape }) 
                 data-aos-duration="1200"
                 data-aos-once="true"
               >
-                <img
+                <Image
                   src={image}
+                  width={490}
+                  height={490}
+                  alt="Outsourced Employee - Staff Outsourcing Solutions - Outsourced Staff - Global Employment Outsourcing - Employment Outsourcing Services – eSpark Talent"
                 />
                 <div className="shape5">
-                  <img src={shape} />
+                  <Image
+                    src={shape}
+                    width={90}
+                    height={74}
+                    alt="Outsourced Employee - Staff Outsourcing Solutions - Outsourced Staff - Global Employment Outsourcing - Employment Outsourcing Services – eSpark Talent"
+                  />
                 </div>
               </div>
             </div>
@@ -30,9 +51,8 @@ const WhyChooseCrypto = ({ image, title, paragraph, Items, backGround, shape }) 
                 data-aos-duration="1200"
                 data-aos-once="true"
               >
-                {/* <span className="sub-title">Why Choose Crypto</span> */}
                 <h2>{title}</h2>
-                <p className='my-4'>{paragraph}</p>
+                <p className="my-4">{paragraph}</p>
                 <Swiper
                   spaceBetween={30}
                   loop={true}
@@ -61,64 +81,26 @@ const WhyChooseCrypto = ({ image, title, paragraph, Items, backGround, shape }) 
                     <SwiperSlide key={i}>
                       <div className="choose-inner-box">
                         <div className="image">
-                          <img
+                          <Image
                             src={slide.image}
+                            width={70}
+                            height={70}
+                            alt="Outsourced Employee - Staff Outsourcing Solutions - Outsourced Staff - Global Employment Outsourcing - Employment Outsourcing Services – eSpark Talent"
                           />
                         </div>
                         <h3>{slide.heading}</h3>
-                        <p>
-                          {slide.paragraph}
-                        </p>
+                        <p>{slide.paragraph}</p>
                       </div>
                     </SwiperSlide>
                   ))}
                 </Swiper>
-                {/* <div className="choose-inner-box">
-                  <div className="image">
-                    <img
-                      src="/images/crypto-startup/choose/image-1.png"
-                      alt="image"
-                    />
-                  </div>
-                  <h3>Full Interoperability</h3>
-                  <p>
-                    Nulla quis lorem ut libero malesuada feugiat. Vivamus magna
-                    justo lacinia eget consectetur sed convallis at tellus.
-                  </p>
-                </div>
-                <div className="choose-inner-box with-some-left">
-                  <div className="image">
-                    <img
-                      src="/images/crypto-startup/choose/image-2.png"
-                      alt="image"
-                    />
-                  </div>
-                  <h3>Contract Level Security</h3>
-                  <p>
-                    Nulla quis lorem ut libero malesuada feugiat. Vivamus magna
-                    justo lacinia eget consectetur sed convallis at tellus.
-                  </p>
-                </div>
-                <div className="choose-inner-box">
-                  <div className="image">
-                    <img
-                      src="/images/crypto-startup/choose/image-3.png"
-                      alt="image"
-                    />
-                  </div>
-                  <h3>Live Human Support</h3>
-                  <p>
-                    Nulla quis lorem ut libero malesuada feugiat. Vivamus magna
-                    justo lacinia eget consectetur sed convallis at tellus.
-                  </p>
-                </div> */}
               </div>
             </div>
           </div>
         </div>
       </div>
-    </React.Fragment>
-  )
-}
+    </>
+  );
+};
 
-export default WhyChooseCrypto
+export default WhyChooseCrypto;

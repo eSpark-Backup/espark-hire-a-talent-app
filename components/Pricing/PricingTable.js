@@ -1,5 +1,5 @@
-import React from 'react'
-import Link from 'next/link'
+import React from 'react';
+import Link from 'next/link';
 
 const PricingTable = () => {
   return (
@@ -26,10 +26,8 @@ const PricingTable = () => {
                   <p>Pricing includes coverage for users</p>
                 </div>
 
-                <Link href="/contact">
-                  <a className="link-btn">
-                    Get Started
-                  </a>
+                <Link href="/contact" className="link-btn">
+                  Get Started
                 </Link>
 
                 <div className="features-list">
@@ -72,10 +70,8 @@ const PricingTable = () => {
                   <p>Pricing includes coverage for users</p>
                 </div>
 
-                <Link href="/contact">
-                  <a className="link-btn">
-                    Get Started
-                  </a>
+                <Link href="/contact" className="link-btn">
+                  Get Started
                 </Link>
 
                 <div className="features-list">
@@ -118,10 +114,8 @@ const PricingTable = () => {
                   <p>Pricing includes coverage for users</p>
                 </div>
 
-                <Link href="/contact">
-                  <a className="link-btn">
-                    Get Started
-                  </a>
+                <Link href="/contact" className="link-btn">
+                  Get Started
                 </Link>
 
                 <div className="features-list">
@@ -165,12 +159,10 @@ const PricingTable = () => {
                   <p>Annual billing only</p>
                 </div>
 
-                <Link href="/contact">
-                  <a className="link-btn">
-                    Contact Us
-                  </a>
+                <Link href="/contact" className="link-btn">
+                  Contact Us
                 </Link>
-                
+
                 <div className="features-list">
                   <h5>ALL FEATURES:</h5>
                   <ul>
@@ -200,7 +192,7 @@ const PricingTable = () => {
         </div>
       </div>
     </>
-  )
-}
+  );
+};
 
-export default PricingTable
+export default PricingTable;

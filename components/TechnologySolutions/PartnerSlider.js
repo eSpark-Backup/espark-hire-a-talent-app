@@ -1,6 +1,7 @@
-import React from 'react'
-import { Swiper, SwiperSlide } from 'swiper/react'
-import { Autoplay } from 'swiper'
+import React from 'react';
+import { Swiper, SwiperSlide } from 'swiper/react';
+import { Autoplay } from 'swiper';
+import Image from 'next/image';
 
 const PartnerSlider = () => {
   return (
@@ -34,53 +35,71 @@ const PartnerSlider = () => {
       >
         <SwiperSlide>
           <div className="partner-item">
-            <img src="/images/partner/new-partner-1.jpg" alt="image" />
+            <Image
+              height={35}
+              width={175}
+              src="/images/partner/new-partner-1.jpg"
+              alt="Global Recruitment - global recruitment agency - worldwide recruiting agency - global recruitment services - global recruitment solutions - eSpark Talent"
+            />
           </div>
         </SwiperSlide>
 
         <SwiperSlide>
           <div className="partner-item">
-            <img src="/images/partner/new-partner-2.jpg" alt="image" />
+            <Image
+              height={35}
+              width={175}
+              src="/images/partner/new-partner-2.jpg"
+              alt="Global Recruitment - global recruitment agency - worldwide recruiting agency - global recruitment services - global recruitment solutions - eSpark Talent"
+            />
           </div>
         </SwiperSlide>
 
         <SwiperSlide>
           <div className="partner-item">
-            <img src="/images/partner/new-partner-3.jpg" alt="image" />
+            <Image
+              height={35}
+              width={175}
+              src="/images/partner/new-partner-3.jpg"
+              alt="Global Recruitment - global recruitment agency - worldwide recruiting agency - global recruitment services - global recruitment solutions - eSpark Talent"
+            />
           </div>
         </SwiperSlide>
 
         <SwiperSlide>
           <div className="partner-item">
-            <img src="/images/partner/new-partner-4.jpg" alt="image" />
+            <Image
+              height={35}
+              width={175}
+              src="/images/partner/new-partner-4.jpg"
+              alt="Global Recruitment - global recruitment agency - worldwide recruiting agency - global recruitment services - global recruitment solutions - eSpark Talent"
+            />
           </div>
         </SwiperSlide>
 
         <SwiperSlide>
           <div className="partner-item">
-            <img src="/images/partner/new-partner-5.jpg" alt="image" />
+            <Image
+              height={35}
+              width={175}
+              src="/images/partner/new-partner-5.jpg"
+              alt="Global Recruitment - global recruitment agency - worldwide recruiting agency - global recruitment services - global recruitment solutions - eSpark Talent"
+            />
           </div>
         </SwiperSlide>
         <SwiperSlide>
           <div className="partner-item">
-            <img src="/images/partner/new-partner-6.jpg" alt="image" />
+            <Image
+              height={35}
+              width={175}
+              src="/images/partner/new-partner-6.jpg"
+              alt="Global Recruitment - global recruitment agency - worldwide recruiting agency - global recruitment services - global recruitment solutions - eSpark Talent"
+            />
           </div>
         </SwiperSlide>
-
-        {/* <SwiperSlide>
-          <div className="partner-item">
-            <img src="/images/partner/partner6.png" alt="image" />
-          </div>
-        </SwiperSlide>
-
-        <SwiperSlide>
-          <div className="partner-item">
-            <img src="/images/partner/partner7.png" alt="image" />
-          </div>
-        </SwiperSlide> */}
       </Swiper>
     </>
-  )
-}
+  );
+};
 
-export default PartnerSlider
+export default PartnerSlider;

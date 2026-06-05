@@ -1,4 +1,5 @@
-import React from 'react'
+import React from 'react';
+import Image from 'next/image';
 
 const TeamMember = () => {
   return (
@@ -10,8 +11,8 @@ const TeamMember = () => {
           </div>
 
           <div className="row justify-content-center">
-            <div 
-              className="col-lg-3 col-sm-6" 
+            <div
+              className="col-lg-3 col-sm-6"
               data-aos="fade-up"
               data-aos-delay="200"
               data-aos-duration="1200"
@@ -19,9 +20,11 @@ const TeamMember = () => {
             >
               <div className="team-member-card with-white-color">
                 <div className="team-image">
-                  <img
+                  <Image
                     src="/images/cybersecurity-services/team/team-1.jpg"
                     alt="image"
+                    width={550}
+                    height={650}
                   />
 
                   <div className="social-btn">
@@ -31,31 +34,31 @@ const TeamMember = () => {
 
                     <ul>
                       <li>
-                        <a
+                        <Link
                           href="https://www.facebook.com/"
                           target="_blank"
                           rel="noreferrer"
                         >
                           <i className="ri-facebook-line"></i>
-                        </a>
+                        </Link>
                       </li>
                       <li>
-                        <a
+                        <Link
                           href="https://twitter.com/"
                           target="_blank"
                           rel="noreferrer"
                         >
                           <i className="ri-twitter-fill"></i>
-                        </a>
+                        </Link>
                       </li>
                       <li>
-                        <a
+                        <Link
                           href="https://www.instagram.com/"
                           target="_blank"
                           rel="noreferrer"
                         >
                           <i className="ri-instagram-fill"></i>
-                        </a>
+                        </Link>
                       </li>
                     </ul>
                   </div>
@@ -67,8 +70,8 @@ const TeamMember = () => {
               </div>
             </div>
 
-            <div 
-              className="col-lg-3 col-sm-6" 
+            <div
+              className="col-lg-3 col-sm-6"
               data-aos="fade-up"
               data-aos-delay="300"
               data-aos-duration="1200"
@@ -76,9 +79,11 @@ const TeamMember = () => {
             >
               <div className="team-member-card with-white-color">
                 <div className="team-image">
-                  <img
+                  <Image
                     src="/images/cybersecurity-services/team/team-2.jpg"
                     alt="image"
+                    width={550}
+                    height={650}
                   />
 
                   <div className="social-btn">
@@ -88,31 +93,31 @@ const TeamMember = () => {
 
                     <ul>
                       <li>
-                        <a
+                        <Link
                           href="https://www.facebook.com/"
                           target="_blank"
                           rel="noreferrer"
                         >
                           <i className="ri-facebook-line"></i>
-                        </a>
+                        </Link>
                       </li>
                       <li>
-                        <a
+                        <Link
                           href="https://twitter.com/"
                           target="_blank"
                           rel="noreferrer"
                         >
                           <i className="ri-twitter-fill"></i>
-                        </a>
+                        </Link>
                       </li>
                       <li>
-                        <a
+                        <Link
                           href="https://www.instagram.com/"
                           target="_blank"
                           rel="noreferrer"
                         >
                           <i className="ri-instagram-fill"></i>
-                        </a>
+                        </Link>
                       </li>
                     </ul>
                   </div>
@@ -124,8 +129,8 @@ const TeamMember = () => {
               </div>
             </div>
 
-            <div 
-              className="col-lg-3 col-sm-6" 
+            <div
+              className="col-lg-3 col-sm-6"
               data-aos="fade-up"
               data-aos-delay="400"
               data-aos-duration="1200"
@@ -133,9 +138,11 @@ const TeamMember = () => {
             >
               <div className="team-member-card with-white-color">
                 <div className="team-image">
-                  <img
+                  <Image
                     src="/images/cybersecurity-services/team/team-3.jpg"
                     alt="image"
+                    width={550}
+                    height={650}
                   />
 
                   <div className="social-btn">
@@ -145,31 +152,31 @@ const TeamMember = () => {
 
                     <ul>
                       <li>
-                        <a
+                        <Link
                           href="https://www.facebook.com/"
                           target="_blank"
                           rel="noreferrer"
                         >
                           <i className="ri-facebook-line"></i>
-                        </a>
+                        </Link>
                       </li>
                       <li>
-                        <a
+                        <Link
                           href="https://twitter.com/"
                           target="_blank"
                           rel="noreferrer"
                         >
                           <i className="ri-twitter-fill"></i>
-                        </a>
+                        </Link>
                       </li>
                       <li>
-                        <a
+                        <Link
                           href="https://www.instagram.com/"
                           target="_blank"
                           rel="noreferrer"
                         >
                           <i className="ri-instagram-fill"></i>
-                        </a>
+                        </Link>
                       </li>
                     </ul>
                   </div>
@@ -181,8 +188,8 @@ const TeamMember = () => {
               </div>
             </div>
 
-            <div 
-              className="col-lg-3 col-sm-6" 
+            <div
+              className="col-lg-3 col-sm-6"
               data-aos="fade-up"
               data-aos-delay="500"
               data-aos-duration="1200"
@@ -190,8 +197,10 @@ const TeamMember = () => {
             >
               <div className="team-member-card with-white-color">
                 <div className="team-image">
-                  <img
+                  <Image
                     src="/images/cybersecurity-services/team/team-4.jpg"
+                    width={550}
+                    height={650}
                     alt="image"
                   />
 
@@ -202,31 +211,31 @@ const TeamMember = () => {
 
                     <ul>
                       <li>
-                        <a
+                        <Link
                           href="https://www.facebook.com/"
                           target="_blank"
                           rel="noreferrer"
                         >
                           <i className="ri-facebook-line"></i>
-                        </a>
+                        </Link>
                       </li>
                       <li>
-                        <a
+                        <Link
                           href="https://twitter.com/"
                           target="_blank"
                           rel="noreferrer"
                         >
                           <i className="ri-twitter-fill"></i>
-                        </a>
+                        </Link>
                       </li>
                       <li>
-                        <a
+                        <Link
                           href="https://www.instagram.com/"
                           target="_blank"
                           rel="noreferrer"
                         >
                           <i className="ri-instagram-fill"></i>
-                        </a>
+                        </Link>
                       </li>
                     </ul>
                   </div>
@@ -241,7 +250,7 @@ const TeamMember = () => {
         </div>
       </div>
     </>
-  )
-}
+  );
+};
 
-export default TeamMember
+export default TeamMember;
