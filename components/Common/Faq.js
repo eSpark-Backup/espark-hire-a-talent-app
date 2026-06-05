@@ -1,184 +1,90 @@
-import React from 'react'
+import React, { useState } from 'react';
+import Image from 'next/image';
 import {
   Accordion,
   AccordionItem,
   AccordionItemHeading,
   AccordionItemButton,
   AccordionItemPanel,
-} from 'react-accessible-accordion'
+} from 'react-accessible-accordion';
 
-const Faq = () => {
+const Faq = ({ title, item }) => {
+  const [allowZeroExpanded, setallowZeroExpanded] = useState(true);
+  const [data, setData] = useState([...item]);
+  const onChangeToggle = (value, index) => {
+    let temp = [...data];
+    temp[index].toggle = !value;
+    if (!value) {
+      temp.forEach((item, i) => {
+        if (i !== index) {
+          item.toggle = false;
+        }
+      });
+    }
+    setData([...temp]);
+    setallowZeroExpanded(!allowZeroExpanded);
+  };
+
   return (
     <>
-      <div className="faq-area bg-gradient-image ptb-100">
+      <div className="faq-area ptb-100">
         <div className="container">
           <div className="section-title">
-            <span className="sub-title">FAQ</span>
-            <h2>Frequently Asked Questions</h2>
+            <h2 className="fw-semibold">{title}</h2>
           </div>
           <div className="faq-accordion">
-            <Accordion preExpanded={['a']}>
-              <AccordionItem uuid="a">
-                <AccordionItemHeading>
-                  <AccordionItemButton>
-                    What are my payment options?
-                  </AccordionItemButton>
-                </AccordionItemHeading>
-                <AccordionItemPanel>
-                  <p>
-                    <strong>Lofi</strong> is always looking for talented{' '}
-                    <a href="#">information</a> security and IT risk management
-                    professionals who are dedicated, hard working and looking
-                    for a challenge. If you are interested in employment with{' '}
-                    <strong>Lofi</strong>, a company who values you and your
-                    family, visit our careers page.
-                  </p>
-                </AccordionItemPanel>
-              </AccordionItem>
+            <Accordion allowZeroExpanded={allowZeroExpanded}>
+              {item?.map((item, i) => (
+                <AccordionItem uuid={i} key={i}>
+                  <AccordionItemHeading>
+                    <AccordionItemButton>
+                      <div
+                        onClick={() => onChangeToggle(item.toggle, i)}
+                        className="button-header"
+                      >
+                        <p
+                          style={{
+                            fontSize: '22px',
+                            fontWeight: '600',
+                            color: '#09114A',
+                          }}
+                        >
+                          {item.heading}
+                        </p>
 
-              <AccordionItem uuid="b">
-                <AccordionItemHeading>
-                  <AccordionItemButton>
-                    Can you send me an invoice?
-                  </AccordionItemButton>
-                </AccordionItemHeading>
-                <AccordionItemPanel>
-                  <p>
-                    Anim pariatur cliche reprehenderit, enim eiusmod high life
-                    accusamus terry richardson ad squid. 3 wolf moon officia
-                    aute, non cupidatat skateboard dolor brunch. Food truck
-                    quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor.
-                  </p>
-                  <p>
-                    Sunt aliqua put a bird on it squid single-origin coffee
-                    nulla assumenda shoreditch et. Nihil anim keffiyeh
-                    helvetica, craft beer labore wes anderson cred nesciunt
-                    sapiente ea proident. Ad vegan excepteur butcher vice lomo.
-                  </p>
-                  <ul>
-                    <li>a console</li>
-                    <li>Two Joy-Con controllers that are detachable</li>
-                    <li>
-                      A grip that enables you to combine them into a single{' '}
-                      <strong>gamepad</strong> for play on the
-                    </li>
-                    <li>
-                      Two straps for turning the Joy-Cons into individual
-                      controllers
-                    </li>
-                    <li>
-                      A dock which you can use to connect your console to the
-                      television for traditional gameplay
-                    </li>
-                  </ul>
-                </AccordionItemPanel>
-              </AccordionItem>
-
-              <AccordionItem uuid="c">
-                <AccordionItemHeading>
-                  <AccordionItemButton>
-                    Do you offer a discount for universities and students?
-                  </AccordionItemButton>
-                </AccordionItemHeading>
-                <AccordionItemPanel>
-                  <p>
-                    Anim pariatur cliche reprehenderit, enim eiusmod high life
-                    accusamus terry richardson ad squid. 3 wolf moon officia
-                    aute, non cupidatat skateboard dolor brunch. Food truck
-                    quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor.
-                  </p>
-                  <p>
-                    Sunt aliqua put a bird on it squid single-origin coffee
-                    nulla assumenda shoreditch et. Nihil anim keffiyeh
-                    helvetica, craft beer labore wes anderson cred nesciunt
-                    sapiente ea proident. Ad vegan excepteur butcher vice lomo.
-                  </p>
-                </AccordionItemPanel>
-              </AccordionItem>
-
-              <AccordionItem uuid="d">
-                <AccordionItemHeading>
-                  <AccordionItemButton>
-                    Can I transfer projects from my personal account to my team?
-                  </AccordionItemButton>
-                </AccordionItemHeading>
-                <AccordionItemPanel>
-                  <p>
-                    <strong>Lofi</strong> is always looking for talented{' '}
-                    <a href="#">information</a> security and IT risk management
-                    professionals who are dedicated, hard working and looking
-                    for a challenge. If you are interested in employment with{' '}
-                    <strong>Lofi</strong>, a company who values you and your
-                    family, visit our careers page.
-                  </p>
-                </AccordionItemPanel>
-              </AccordionItem>
-
-              <AccordionItem uuid="e">
-                <AccordionItemHeading>
-                  <AccordionItemButton>
-                    Can I cancel my plan at any time?
-                  </AccordionItemButton>
-                </AccordionItemHeading>
-                <AccordionItemPanel>
-                  <p>
-                    Anim pariatur cliche reprehenderit, enim eiusmod high life
-                    accusamus terry richardson ad squid. 3 wolf moon officia
-                    aute, non cupidatat skateboard dolor brunch. Food truck
-                    quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor.
-                  </p>
-                  <p>
-                    Sunt aliqua put a bird on it squid single-origin coffee
-                    nulla assumenda shoreditch et. Nihil anim keffiyeh
-                    helvetica, craft beer labore wes anderson cred nesciunt
-                    sapiente ea proident. Ad vegan excepteur butcher vice lomo.
-                  </p>
-                  <ul>
-                    <li>a console</li>
-                    <li>Two Joy-Con controllers that are detachable</li>
-                    <li>
-                      A grip that enables you to combine them into a single{' '}
-                      <strong>gamepad</strong> for play on the
-                    </li>
-                    <li>
-                      Two straps for turning the Joy-Cons into individual
-                      controllers
-                    </li>
-                    <li>
-                      A dock which you can use to connect your console to the
-                      television for traditional gameplay
-                    </li>
-                  </ul>
-                </AccordionItemPanel>
-              </AccordionItem>
-
-              <AccordionItem uuid="f">
-                <AccordionItemHeading>
-                  <AccordionItemButton>
-                    Can I cancel my plan at any time?
-                  </AccordionItemButton>
-                </AccordionItemHeading>
-                <AccordionItemPanel>
-                  <p>
-                    Anim pariatur cliche reprehenderit, enim eiusmod high life
-                    accusamus terry richardson ad squid. 3 wolf moon officia
-                    aute, non cupidatat skateboard dolor brunch. Food truck
-                    quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor.
-                  </p>
-                  <p>
-                    Sunt aliqua put a bird on it squid single-origin coffee
-                    nulla assumenda shoreditch et. Nihil anim keffiyeh
-                    helvetica, craft beer labore wes anderson cred nesciunt
-                    sapiente ea proident. Ad vegan excepteur butcher vice lomo.
-                  </p>
-                </AccordionItemPanel>
-              </AccordionItem>
+                        <Image
+                          src={
+                            item.toggle
+                              ? '/images/icon/Group_93.svg'
+                              : '/images/icon/group_92.svg'
+                          }
+                          alt="Outsourced Employee - Staff Outsourcing Solutions - Outsourced Staff - Global Employment Outsourcing - Employment Outsourcing Services – eSpark Talent"
+                          width={75}
+                          height={75}
+                        />
+                      </div>
+                      <div>
+                        <AccordionItemPanel>
+                          <p
+                            style={{
+                              fontSize: '16px',
+                              fontWeight: '400',
+                              color: '#6F76A8',
+                            }}
+                          >
+                            {item.paragraph}
+                          </p>
+                        </AccordionItemPanel>
+                      </div>
+                    </AccordionItemButton>
+                  </AccordionItemHeading>
+                </AccordionItem>
+              ))}
             </Accordion>
           </div>
         </div>
       </div>
     </>
-  )
-}
-
-export default Faq
+  );
+};
+export default Faq;

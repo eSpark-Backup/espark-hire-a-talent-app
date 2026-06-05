@@ -1,99 +1,60 @@
-import React from 'react'
+import React from 'react';
+import Image from 'next/image';
 
 const WhatWeWork = ({ paragraph, Items, title, image, shape }) => {
-
-
   return (
-    <React.Fragment>
-      <div className={"what-we-work-area ptb-100"}>
+    <>
+      <div className={'what-we-work-area ptb-100'}>
         <div className="container">
           <div className="row align-items-center">
-            <div className="col-lg-6 col-md-12">
+            <div className="col-lg-6 col-md-12 text-center">
               <div
-                className={"what-we-work-image"}
+                className={'what-we-work-image'}
                 data-aos="fade-up"
                 data-aos-duration="1200"
                 data-aos-once="true"
               >
-                <img
+                <Image
                   src={image}
+                  width={500}
+                  height={500}
+                  alt="Outsourced Employee - Staff Outsourcing Solutions - Outsourced Staff - Global Employment Outsourcing - Employment Outsourcing Services – eSpark Talent"
                 />
               </div>
             </div>
             <div className="col-lg-6 col-md-12">
               <div className="what-we-work-content">
-                {/* <span className="sub-title">What We Work</span> */}
                 <h2>{title}</h2>
-                <p className='my-4'>{paragraph}</p>
+                <p className="my-4">{paragraph}</p>
                 {Items?.map((eachItems, i) => (
                   <div className="we-work-inner-box" key={i}>
                     <div className="image">
-                      <img
+                      <Image
+                        width={50}
+                        height={51}
                         src={eachItems.icon}
-                        alt="image"
+                        alt="Outsourced Employee - Staff Outsourcing Solutions - Outsourced Staff - Global Employment Outsourcing - Employment Outsourcing Services – eSpark Talent"
                       />
                     </div>
                     <h3>{eachItems.title}</h3>
-                    <p>
-                      {eachItems.description}
-                    </p>
+                    <p>{eachItems.description}</p>
                   </div>
                 ))}
-                {/* <div className="we-work-inner-box">
-                  <div className="image">
-                    <img
-                      src="/images/cybersecurity-services/what-we-work/image-1.png"
-                      alt="image"
-                    />
-                  </div>
-                  <h3>Trusted Partner</h3>
-                  <p>
-                    Nulla quis lorem ut libero malesuada feugiat. Vivamus magna
-                    justo lacinia eget consectetur sed convallis at tellus.
-                  </p>
-                </div>
-
-                <div className="we-work-inner-box with-some-left">
-                  <div className="image">
-                    <img
-                      src="/images/cybersecurity-services/what-we-work/image-2.png"
-                      alt="image"
-                    />
-                  </div>
-                  <h3>System Security</h3>
-                  <p>
-                    Nulla quis lorem ut libero malesuada feugiat. Vivamus magna
-                    justo lacinia eget consectetur sed convallis at tellus.
-                  </p>
-                </div>
-
-                <div className="we-work-inner-box">
-                  <div className="image">
-                    <img
-                      src="/images/cybersecurity-services/what-we-work/image-3.png"
-                      alt="image"
-                    />
-                  </div>
-                  <h3>Product Security</h3>
-                  <p>
-                    Nulla quis lorem ut libero malesuada feugiat. Vivamus magna
-                    justo lacinia eget consectetur sed convallis at tellus.
-                  </p>
-                </div>
-                 */}
               </div>
             </div>
           </div>
         </div>
         <div className="what-we-work-shape">
-          <img
+          <Image
             src={shape}
-            alt="image"
+            width={90}
+            height={74}
+            alt="Outsourced Employee - Staff Outsourcing Solutions - Outsourced Staff - Global Employment Outsourcing - Employment Outsourcing Services – eSpark Talent"
           />
         </div>
       </div>
-    </React.Fragment>
-  )
-}
+    </>
+  );
+};
 
-export default WhatWeWork
+export default WhatWeWork;

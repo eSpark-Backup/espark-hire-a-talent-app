@@ -1,28 +1,29 @@
-import React, { useState } from 'react'
-import Link from '@/utils/ActiveLink'
+import React from 'react';
+import Link from 'next/link';
+import Image from 'next/image';
 
 const Navbar = () => {
-  const [menu, setMenu] = React.useState(true)
+  const [menu, setMenu] = React.useState(true);
   const toggleNavbar = () => {
-    setMenu(!menu)
-  }
+    setMenu(!menu);
+  };
   React.useEffect(() => {
-    let elementId = document.getElementById('navbar')
+    let elementId = document.getElementById('navbar');
     document.addEventListener('scroll', () => {
       if (window.scrollY > 170) {
-        elementId.classList.add('is-sticky')
+        elementId.classList.add('is-sticky');
       } else {
-        elementId.classList.remove('is-sticky')
+        elementId.classList.remove('is-sticky');
       }
-    })
-  })
+    });
+  });
 
   const classOne = menu
     ? 'collapse navbar-collapse mean-menu'
-    : 'collapse navbar-collapse show'
+    : 'collapse navbar-collapse show';
   const classTwo = menu
     ? 'navbar-toggler navbar-toggler-right collapsed'
-    : 'navbar-toggler navbar-toggler-right'
+    : 'navbar-toggler navbar-toggler-right';
 
   return (
     <>
@@ -32,10 +33,14 @@ const Navbar = () => {
             <div className="row align-items-center">
               <div className="col-lg-7 col-md-6">
                 <div className="top-header-start d-flex align-items-center">
-                  <Link href="/">
-                    <a className="logo d-inline-block">
-                      <img src="/images/logo.png" alt="image" className="talent-logo"/>
-                    </a>
+                  <Link href="/" className="logo d-inline-block">
+                    <Image
+                      src="/images/logo.png"
+                      alt="image"
+                      className="talent-logo"
+                      width={120}
+                      height={60}
+                    />
                   </Link>
                   <form className="search-box">
                     <label>
@@ -53,49 +58,49 @@ const Navbar = () => {
                 <div className="top-header-end">
                   <div className="d-flex align-items-center justify-content-end">
                     <div className="number">
-                      <a
+                      <Link
                         href="tel:+1-485-456-0102"
                         className="d-flex align-items-center"
                       >
                         <i className="ri-phone-line"></i> +1-485-456-0102
-                      </a>
+                      </Link>
                     </div>
                     <ul className="social-links">
                       <li>
-                        <a
+                        <Link
                           href="https://www.facebook.com/"
                           target="_blank"
                           rel="noreferrer"
                         >
                           <i className="ri-facebook-box-fill"></i>
-                        </a>
+                        </Link>
                       </li>
                       <li>
-                        <a
+                        <Link
                           href="https://twitter.com/"
                           target="_blank"
                           rel="noreferrer"
                         >
                           <i className="ri-twitter-fill"></i>
-                        </a>
+                        </Link>
                       </li>
                       <li>
-                        <a
+                        <Link
                           href="https://www.linkedin.com/"
                           target="_blank"
                           rel="noreferrer"
                         >
                           <i className="ri-linkedin-box-fill"></i>
-                        </a>
+                        </Link>
                       </li>
                       <li>
-                        <a
+                        <Link
                           href="https://www.instagram.com/"
                           target="_blank"
                           rel="noreferrer"
                         >
                           <i className="ri-instagram-fill"></i>
-                        </a>
+                        </Link>
                       </li>
                     </ul>
                   </div>
@@ -108,10 +113,14 @@ const Navbar = () => {
         <div id="navbar" className="navbar-area">
           <nav className="navbar navbar-expand-md navbar-light">
             <div className="container">
-              <Link href="/">
-                <a className="navbar-brand d-lg-none">
-                  <img src="/images/logo.png" alt="Site logo" className="talent-logo"/>
-                </a>
+              <Link href="/" className="navbar-brand d-lg-none">
+                <Image
+                  src="/images/logo.png"
+                  width={120}
+                  height={57}
+                  alt="Site logo"
+                  className="talent-logo"
+                />
               </Link>
 
               <button
@@ -132,133 +141,129 @@ const Navbar = () => {
               <div className={classOne} id="navbarSupportedContent">
                 <ul className="navbar-nav me-auto">
                   <li className="nav-item">
-                    <Link href="#">
-                      <a className="dropdown-toggle nav-link">
-                        Home
-                      </a>
+                    <Link href="#" className="dropdown-toggle nav-link">
+                      Home
                     </Link>
                     <ul className="dropdown-menu">
                       <li className="nav-item">
-                        <Link href="/" activeClassName="active">
-                          <a className="nav-link">Technology Solutions</a>
+                        <Link href="/" className="nav-link">
+                          Technology Solutions
                         </Link>
                       </li>
 
                       <li className="nav-item">
-                        <Link href="/index-2" activeClassName="active">
-                          <a className="nav-link">Digital Marketing</a>
+                        <Link href="/index-2" className="nav-link">
+                          Digital Marketing
                         </Link>
                       </li>
 
                       <li className="nav-item">
-                        <Link href="/index-3" activeClassName="active">
-                          <a className="nav-link">Business Consulting</a>
+                        <Link href="/index-3" className="nav-link">
+                          Business Consulting
                         </Link>
                       </li>
 
                       <li className="nav-item">
-                        <Link href="/index-4" activeClassName="active">
-                          <a className="nav-link">Cybersecurity Services</a>
+                        <Link href="/index-4" className="nav-link">
+                          Cybersecurity Services
                         </Link>
                       </li>
 
                       <li className="nav-item">
-                        <Link href="/index-5" activeClassName="active">
-                          <a className="nav-link">Crypto Startup</a>
+                        <Link href="/index-5" className="nav-link">
+                          Crypto Startup
                         </Link>
                       </li>
 
                       <li className="nav-item">
-                        <Link href="/index-6" activeClassName="active">
-                          <a className="nav-link">ICO Landing</a>
+                        <Link href="/index-6" className="nav-link">
+                          ICO Landing
                         </Link>
                       </li>
                     </ul>
                   </li>
 
                   <li className="nav-item">
-                    <Link href="/about-us" activeClassName="active">
-                      <a className="nav-link">About Us</a>
+                    <Link href="/about-us" className="nav-link">
+                      About Us
                     </Link>
                   </li>
 
                   <li className="nav-item">
-                    <a href="#" className="dropdown-toggle nav-link">
+                    <Link href="#" className="dropdown-toggle nav-link">
                       Services
-                    </a>
+                    </Link>
                     <ul className="dropdown-menu">
                       <li className="nav-item">
-                        <Link href="/services" activeClassName="active">
-                          <a className="nav-link">Services</a>
+                        <Link href="/services" className="nav-link">
+                          Services
                         </Link>
                       </li>
                       <li className="nav-item">
-                        <Link href="/service-details" activeClassName="active">
-                          <a className="nav-link">Services Details</a>
+                        <Link href="/service-details" className="nav-link">
+                          Services Details
                         </Link>
                       </li>
                     </ul>
                   </li>
 
                   <li className="nav-item">
-                    <a href="#" className="dropdown-toggle nav-link">
+                    <Link href="#" className="dropdown-toggle nav-link">
                       Case Studies
-                    </a>
+                    </Link>
                     <ul className="dropdown-menu">
                       <li className="nav-item">
-                        <Link href="/case-studies" activeClassName="active">
-                          <a className="nav-link">Case Studies</a>
+                        <Link href="/case-studies" className="nav-link">
+                          Case Studies
                         </Link>
                       </li>
                       <li className="nav-item">
-                        <Link href="/case-studies-2" activeClassName="active">
-                          <a className="nav-link">Case Studies #2</a>
+                        <Link href="/case-studies-2" className="nav-link">
+                          Case Studies #2
                         </Link>
                       </li>
                       <li className="nav-item">
-                        <Link href="/case-studies-3" activeClassName="active">
-                          <a className="nav-link">Case Studies #3</a>
+                        <Link href="/case-studies-3" className="nav-link">
+                          Case Studies #3
                         </Link>
                       </li>
                       <li className="nav-item">
-                        <Link href="/case-studies-details" activeClassName="active">
-                          <a className="nav-link">Case Studies Details</a>
+                        <Link href="/case-studies-details" className="nav-link">
+                          Case Studies Details
                         </Link>
                       </li>
                     </ul>
                   </li>
 
                   <li className="nav-item">
-                    <Link href="/team" activeClassName="active">
-                      <a className="nav-link">Team</a>
+                    <Link href="/team" className="nav-link">
+                      Team
                     </Link>
                   </li>
 
                   <li className="nav-item">
-                    <Link href="/pricing" activeClassName="active">
-                      <a className="nav-link">Pricing</a>
+                    <Link href="/pricing" className="nav-link">
+                      Pricing
                     </Link>
                   </li>
 
                   <li className="nav-item">
-                    <Link href="/blog" activeClassName="active">
-                      <a className="nav-link">Blog</a>
+                    <Link href="/blog" className="nav-link">
+                      Blog
                     </Link>
                   </li>
 
                   <li className="nav-item">
-                    <Link href="/contact" activeClassName="active">
-                      <a className="nav-link">Contact</a>
+                    <Link href="/contact" className="nav-link">
+                      Contact
                     </Link>
                   </li>
                 </ul>
               </div>
 
               <div className="others-option">
-                <Link href="/contact">
-                  <a className="default-btn style-two">
-                    <span className="ri-edit-2-line"></span>Get A Free Quote
-                  </a>
+                <Link href="/contact" className="default-btn style-two">
+                  <span className="ri-edit-2-line"></span>Get A Free Quote
                 </Link>
               </div>
             </div>
@@ -266,7 +271,7 @@ const Navbar = () => {
         </div>
       </header>
     </>
-  )
-}
+  );
+};
 
-export default Navbar
+export default Navbar;

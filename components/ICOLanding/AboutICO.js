@@ -1,4 +1,5 @@
-import React from 'react'
+import React from 'react';
+import Image from 'next/image';
 
 const AboutICO = () => {
   return (
@@ -7,13 +8,18 @@ const AboutICO = () => {
         <div className="container">
           <div className="row align-items-center">
             <div className="col-lg-6 col-md-12">
-              <div 
+              <div
                 className="ico-about-image"
                 data-aos="fade-up"
                 data-aos-duration="1200"
                 data-aos-once="true"
               >
-                <img src="/images/ico-landing-home/about.jpg" alt="image" />
+                <Image
+                  src="/images/ico-landing-home/about.jpg"
+                  alt="image"
+                  width={645}
+                  height={645}
+                />
               </div>
             </div>
 
@@ -54,7 +60,7 @@ const AboutICO = () => {
         </div>
       </div>
     </>
-  )
-}
+  );
+};
 
-export default AboutICO
+export default AboutICO;

@@ -1,9 +1,10 @@
-import React from "react";
+import React from 'react';
+import Image from 'next/image';
 
 const CyberSafety = ({ title, para }) => {
   return (
     <>
-      <div className="cyber-safety-area pb-100">
+      <div className="cyber-safety-area ptb-100">
         <div className="container">
           <div className="row align-items-center">
             <div className="col-lg-6 col-md-12">
@@ -13,17 +14,18 @@ const CyberSafety = ({ title, para }) => {
                 data-aos-duration="1200"
                 data-aos-once="true"
               >
-                <img
-                  src="/images/cybersecurity-services/cyber-safety.png"
-                  alt="image"
+                <Image
+                  src="/images/cybersecurity-services/10.png"
+                  alt="HR consultant - human resource planning - HR service - HR solutions - HR recruitment - HR outsourcing – eSpark talent"
+                  width={500}
+                  height={425}
                 />
               </div>
             </div>
 
             <div className="col-lg-6 col-md-12">
               <div className="cyber-safety-content">
-                {/* <span className="sub-title">Cyber Safety</span> */}
-                <h2>{title}</h2>
+                <h2 className="fw-semibold">{title}</h2>
                 <p>{para}</p>
 
                 <div className="row align-items-center">
@@ -31,11 +33,11 @@ const CyberSafety = ({ title, para }) => {
                     <ul className="safety-list">
                       <li>
                         <i className="ri-checkbox-circle-line"></i>24/7 Active
-                        Human Resource Assistance.​
+                        Human Resource Assistance.
                       </li>
                       <li>
                         <i className="ri-checkbox-circle-line"></i>Rapid
-                        Customer Service. 
+                        Customer Service.
                       </li>
                       <li>
                         <i className="ri-checkbox-circle-line"></i>Open to
@@ -48,7 +50,7 @@ const CyberSafety = ({ title, para }) => {
                     <ul className="safety-list">
                       <li>
                         <i className="ri-checkbox-circle-line"></i>
-                        Cost-Efficient Hiring Services.{" "}
+                        Cost-Efficient Hiring Services.{' '}
                       </li>
                       <li>
                         <i className="ri-checkbox-circle-line"></i>Full-Time
@@ -56,7 +58,7 @@ const CyberSafety = ({ title, para }) => {
                       </li>
                       <li>
                         <i className="ri-checkbox-circle-line"></i>On-Time HR
-                        Managing Support. ​
+                        Managing Support.
                       </li>
                     </ul>
                   </div>

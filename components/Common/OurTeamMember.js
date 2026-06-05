@@ -1,9 +1,11 @@
-import React from 'react'
-import Link from 'next/link'
+import React from 'react';
+import Link from 'next/link';
+import Image from 'next/image';
 
 const OurTeamMember = (props) => {
-  const { data, items, teamData } = props
- return (
+  const { data, items, teamData } = props;
+
+  return (
     <>
       <div className="team-area bg-gradient-image ptb-100">
         <div className="container">
@@ -13,17 +15,38 @@ const OurTeamMember = (props) => {
                 <div className="row justify-content-center">
                   {data?.map((person, i) => (
                     <div
-                    key={i}
+                      key={i}
                       className="col-lg-6 col-md-6 col-sm-6"
                       data-aos="fade-up"
                       data-aos-delay="300"
                       data-aos-duration="1200"
                       data-aos-once="true"
                     >
-                      <div className="single-team-member">
-                        <img src={person.img} alt="team" />
-                        <div className="content">
-                          <div className="d-flex align-items-center justify-content-between">
+                      <div
+                        className={
+                          i > 2
+                            ? 'single-team-member with-space'
+                            : 'single-team-member'
+                        }
+                      >
+                        <Image
+                          src={person.img}
+                          width={345}
+                          height={345}
+                          alt="Global Recruitment - global recruitment agency - worldwide recruiting agency - global recruitment services - global recruitment solutions - eSpark Talent"
+                        />
+                        <div
+                          className={
+                            i === 0
+                              ? 'content1'
+                              : i === 1
+                                ? 'content2'
+                                : i === 2
+                                  ? 'content3'
+                                  : 'content4'
+                          }
+                        >
+                          <div>
                             <h3>{person.name}</h3>
                             <span>{person.rank}</span>
                           </div>
@@ -31,92 +54,31 @@ const OurTeamMember = (props) => {
                       </div>
                     </div>
                   ))}
-                  {/* <div
-                    className="col-lg-6 col-md-6 col-sm-6"
-                    data-aos="fade-up"
-                    data-aos-delay="500"
-                    data-aos-duration="1200"
-                    data-aos-once="true"
-                  >
-                    <div className="single-team-member">
-                      <img src="/images/team/team13.jpg" alt="team" />
-                      <div className="content">
-                        <div className="d-flex align-items-center justify-content-between">
-                          <h3>Sarah Taylor</h3>
-                          <span>Art Director</span>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-
-                  <div
-                    className="col-lg-6 col-md-6 col-sm-6"
-                    data-aos="fade-up"
-                    data-aos-delay="600"
-                    data-aos-duration="1200"
-                    data-aos-once="true"
-                  >
-                    <div className="single-team-member">
-                      <img src="/images/team/team14.jpg" alt="team" />
-                      <div className="content">
-                        <div className="d-flex align-items-center justify-content-between">
-                          <h3>Ellyse Perry</h3>
-                          <span>Designer</span>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-
-                  <div
-                    className="col-lg-6 col-md-6 col-sm-6"
-                    data-aos="fade-up"
-                    data-aos-delay="700"
-                    data-aos-duration="1200"
-                    data-aos-once="true"
-                  >
-                    <div className="single-team-member">
-                      <img src="/images/team/team15.jpg" alt="team" />
-                      <div className="content">
-                        <div className="d-flex align-items-center justify-content-between">
-                          <h3>Steven Smith</h3>
-                          <span>Development</span>
-                        </div>
-                      </div>
-                    </div>
-                  </div> */}
                 </div>
               </div>
             </div>
             <div className="col-lg-6 col-md-12">
               <div className="team-section-title">
-                {/* <span className="sub-title">{teamData?.subTitle}</span> */}
-                <h2>
-                  {teamData?.title}
-                </h2>
+                <h2 className="fw-semibold">{teamData?.title}</h2>
                 <ul>
                   {items?.map((item, i) => (
                     <li key={i}>{item}</li>
                   ))}
                 </ul>
-                {/* <p>
-                  It is a long established fact that a reader will be distracted
-                  by the readable content of a page when looking at its layout.
-                  The point of using Lorem Ipsum is that it has a more-or-less
-                  normal distribution of letters.
-                </p> */}
-                <Link href="/team">
-                  <a className="default-btn style-two">
-                    <span className="ri-arrow-right-s-line"></span>{teamData?.buttonText}
-                  </a>
+                <Link
+                  href="https://calendly.com/esparktalents/60min?month=2023-09"
+                  className="default-btn style-two-v2"
+                  target="_blank"
+                >
+                  {teamData?.buttonText}
                 </Link>
               </div>
             </div>
-
           </div>
         </div>
       </div>
     </>
-  )
-}
+  );
+};
 
-export default OurTeamMember
+export default OurTeamMember;
