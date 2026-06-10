@@ -1,7 +1,5 @@
 import React from 'react';
-import { Swiper, SwiperSlide } from 'swiper/react';
-import { Autoplay } from 'swiper';
-import PartnerSlider from '../../components/TechnologySolutions/PartnerSlider';
+import PartnerSlider from '@/components/TechnologySolutions/PartnerSlider';
 
 const IndustryPartners = ({ title, paragraph }) => {
   return (

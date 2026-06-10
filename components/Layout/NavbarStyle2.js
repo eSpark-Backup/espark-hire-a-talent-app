@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import { useRouter } from 'next/router';
 import Head from 'next/head';
 import Link from 'next/link';
+import Image from 'next/image';
 
 import { seoContent } from 'constants/SEOConstant';
 
@@ -46,7 +47,7 @@ const NavbarStyle2 = () => {
     <>
       <Head>
         <meta
-          http-equiv="Content-Type"
+          httpEquiv="Content-Type"
           content="text/html; charset=utf-8"
         ></meta>
         <meta name="robots" content="follow, index"></meta>
@@ -110,10 +111,11 @@ const NavbarStyle2 = () => {
                 className={`navbar-brand ${
                   selectedNavItem === 'Home' ? 'active' : ''
                 }`}
-                onClick={() => handleNavItemClick('Home')}
               >
-                <img
+                <Image
                   src="/images/logo.png"
+                  width={120}
+                  height={57}
                   alt="Global Recruitment - global recruitment agency - worldwide recruiting agency - global recruitment services - global recruitment solutions - eSpark Talent"
                   className="talent-logo"
                 />
@@ -142,7 +144,6 @@ const NavbarStyle2 = () => {
                       className={`nav-link ${
                         isLinkActive('/what-we-do') ? 'active' : ''
                       }`}
-                      onClick={() => handleNavItemClick('what we do')}
                     >
                       What we do
                     </Link>
@@ -154,7 +155,6 @@ const NavbarStyle2 = () => {
                       className={`nav-link ${
                         isLinkActive('/how-it-works') ? 'active' : ''
                       }`}
-                      onClick={() => handleNavItemClick('How it works')}
                     >
                       How it works
                     </Link>
@@ -166,7 +166,6 @@ const NavbarStyle2 = () => {
                       className={`nav-link ${
                         isLinkActive('/blogs') ? 'active' : ''
                       }`}
-                      onClick={() => handleNavItemClick('Blog')}
                     >
                       Blogs
                     </Link>
@@ -178,7 +177,6 @@ const NavbarStyle2 = () => {
                       className={`nav-link ${
                         isLinkActive('/careers') ? 'active' : ''
                       }`}
-                      onClick={() => handleNavItemClick('Career')}
                     >
                       Careers
                     </Link>
@@ -189,7 +187,6 @@ const NavbarStyle2 = () => {
                       href="https://form.jotform.com/232503890925459"
                       target="_blank"
                       className={`nav-link`}
-                      onClick={() => handleNavItemClick('Apply as a Developer')}
                     >
                       Apply as a Developer
                     </Link>
@@ -201,7 +198,6 @@ const NavbarStyle2 = () => {
                       className={`default-btn style-two ${
                         selectedNavItem === 'Hire a Talent' ? 'active' : ''
                       }`}
-                      onClick={() => handleNavItemClick('Hire a Talent')}
                     >
                       Hire a Talent
                     </Link>

@@ -1,5 +1,6 @@
 import React from 'react';
 import Link from 'next/link';
+import Image from 'next/image';
 
 import { footerContact, sliderData, socialLinks } from 'constants/constants';
 
@@ -43,8 +44,10 @@ const Footer = () => {
             <div className="col-xl-6 col-lg-3 col-sm-6 ">
               <div className="single-footer-widget">
                 <Link href="/" className="d-inline-block logo">
-                  <img
+                  <Image
                     src="/images/logo.png"
+                    width={120}
+                    height={57}
                     className="talent-logo"
                     alt="Global Recruitment - global recruitment agency - worldwide recruiting agency - global recruitment services - global recruitment solutions - eSpark Talent"
                   />
@@ -67,11 +70,11 @@ const Footer = () => {
                         target="_blank"
                         className={item?.className}
                       >
-                        <img
+                        <Image
                           src={item?.src}
                           className={item?.className}
-                          width={'90%'}
-                          height={'90%'}
+                          width={36}
+                          height={36}
                           alt="social-icons"
                         />
                       </Link>

@@ -1,6 +1,6 @@
 import React from 'react';
 import PageTitle from '@/components/Common/PageTitle';
-import BlogCard from '@/components/Blog/BlogCard';
+import BlogCard from '@/components/Blog/BlogsCards';
 import NewsletterForm2 from '@/components/Common/NewsletterForm2';
 
 import { blogData } from 'constants/blogConstants';

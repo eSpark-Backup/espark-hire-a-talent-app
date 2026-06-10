@@ -1,5 +1,6 @@
 import React from 'react';
 import Link from 'next/link';
+import Image from 'next/image';
 import NewsletterForm2 from '@/components/Common/NewsletterForm2';
 import PartnerArea from '@/components/TechnologySolutions/PartnerArea';
 
@@ -15,10 +16,11 @@ function ThankYou() {
       <div className="thank-you-main">
         <div className="container-fluid thank-header">
           <Link href="/">
-            <img
+            <Image
               src="/images/ThankyouPageLogo.png"
-              width={'157.983px'}
-              height={'74.775px'}
+              width={157}
+              height={74}
+              alt=""
             />
           </Link>
           <div>
@@ -50,7 +52,12 @@ function ThankYou() {
                 >
                   <div className="thankyou-features-box">
                     <div className="icon">
-                      <img src={eachCard.icon} alt="image" />
+                      <Image
+                        src={eachCard.icon}
+                        alt="image"
+                        width={72}
+                        height={72}
+                      />
                     </div>
                     <h3>{eachCard.heading}</h3>
                     <ul>

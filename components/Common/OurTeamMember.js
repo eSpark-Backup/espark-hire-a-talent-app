@@ -1,5 +1,6 @@
 import React from 'react';
 import Link from 'next/link';
+import Image from 'next/image';
 
 const OurTeamMember = (props) => {
   const { data, items, teamData } = props;
@@ -28,8 +29,10 @@ const OurTeamMember = (props) => {
                             : 'single-team-member'
                         }
                       >
-                        <img
+                        <Image
                           src={person.img}
+                          width={345}
+                          height={345}
                           alt="Global Recruitment - global recruitment agency - worldwide recruiting agency - global recruitment services - global recruitment solutions - eSpark Talent"
                         />
                         <div
@@ -37,10 +40,10 @@ const OurTeamMember = (props) => {
                             i === 0
                               ? 'content1'
                               : i === 1
-                              ? 'content2'
-                              : i === 2
-                              ? 'content3'
-                              : 'content4'
+                                ? 'content2'
+                                : i === 2
+                                  ? 'content3'
+                                  : 'content4'
                           }
                         >
                           <div>
