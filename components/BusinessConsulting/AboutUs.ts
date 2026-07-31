@@ -1,0 +1,72 @@
+import React from 'react';
+import Image from 'next/image';
+
+const AboutUs = (props) => {
+  const { title, content, items } = props;
+  return (
+    <>
+      <div className="about-area">
+        <div className="container">
+          <div className="row align-items-center">
+            <div className="col-lg-6 col-md-12">
+              <div
+                className="about-img"
+                data-aos="fade-up"
+                data-aos-duration="1000"
+                data-aos-once="true"
+              >
+                <Image
+                  src="/images/Mask group.png"
+                  alt="Global Recruitment - global recruitment agency - worldwide recruiting agency - global recruitment services - global recruitment solutions - eSpark Talent"
+                  width={461}
+                  height={610}
+                />
+                <div className="shape5">
+                  <Image
+                    src="/images/shape/shape5.png"
+                    width={40}
+                    height={40}
+                    alt="Global Recruitment - global recruitment agency - worldwide recruiting agency - global recruitment services - global recruitment solutions - eSpark Talent"
+                  />
+                </div>
+              </div>
+            </div>
+            <div className="col-lg-6 col-md-12">
+              <div className="about-content">
+                <h2 className="fw-semibold">{title}</h2>
+                <p>{content}</p>
+                <ul className="features-list">
+                  {items.map((eachItem, i) => (
+                    <li key={i}>
+                      <div className="d-flex align-items-center">
+                        <div className="icon bg-f9f9f9">
+                          <Image
+                            src={eachItem.imageLink}
+                            width={40}
+                            height={40}
+                            alt="Global Recruitment - global recruitment agency - worldwide recruiting agency - global recruitment services - global recruitment solutions - eSpark Talent"
+                          />
+                        </div>
+                        <span>{eachItem.item}</span>
+                      </div>
+                    </li>
+                  ))}
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="shape6">
+          <Image
+            src="/images/shape/shape6.png"
+            alt="image"
+            width={106}
+            height={113}
+          />
+        </div>
+      </div>
+    </>
+  );
+};
+
+export default AboutUs;
